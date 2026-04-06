@@ -1,0 +1,428 @@
+{
+  "setId": "jp3-set-004",
+  "title": "問題集3 31-40",
+  "sourceHtml": "udemy/問題集3.html",
+  "questionIds": [
+    "jp3-q-031",
+    "jp3-q-032",
+    "jp3-q-033",
+    "jp3-q-034",
+    "jp3-q-035",
+    "jp3-q-036",
+    "jp3-q-037",
+    "jp3-q-038",
+    "jp3-q-039",
+    "jp3-q-040"
+  ],
+  "questions": [
+    {
+      "questionId": "jp3-q-031",
+      "sourceQuestionNumber": 31,
+      "promptHtml": "<p>あなたは、WebApp1という名前のWebアプリケーションをオンプレミスのデータセンターからAzureに移行する予定です。</p><p>WebApp1は、ホストサーバーにインストールされているカスタムCOMコンポーネントに依存します。</p><p><br></p><p>あなたは、AzureでWebApp1をホストするためのソリューションを提案する必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・Azureデータセンターが使用不能になった場合でもWebApp1は利用可能であること</p><p>・コストを最小限に抑えること</p><p><br></p><p>あなたは、提案に何を含めるべきですか。</p>",
+      "promptText": "あなたは、WebApp1という名前のWebアプリケーションをオンプレミスのデータセンターからAzureに移行する予定です。\nWebApp1は、ホストサーバーにインストールされているカスタムCOMコンポーネントに依存します。\n\nあなたは、AzureでWebApp1をホストするためのソリューションを提案する必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・Azureデータセンターが使用不能になった場合でもWebApp1は利用可能であること\n・コストを最小限に抑えること\n\nあなたは、提案に何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-031-c1",
+          "label": null,
+          "text": "2つのAzureリージョンで、ロードバランサーと仮想マシンスケールセットをデプロイします",
+          "html": "2つのAzureリージョンで、ロードバランサーと仮想マシンスケールセットをデプロイします"
+        },
+        {
+          "choiceId": "jp3-q-031-c2",
+          "label": null,
+          "text": "2つのAzureリージョンで、Traffic ManagerとWebアプリをデプロイします",
+          "html": "2つのAzureリージョンで、Traffic ManagerとWebアプリをデプロイします"
+        },
+        {
+          "choiceId": "jp3-q-031-c3",
+          "label": null,
+          "text": "2つのAzureリージョンで、ロードバランサーとWebアプリをデプロイします",
+          "html": "2つのAzureリージョンで、ロードバランサーとWebアプリをデプロイします"
+        },
+        {
+          "choiceId": "jp3-q-031-c4",
+          "label": null,
+          "text": "2つの可用性ゾーンにまたがるロードバランサと仮想マシンスケールセットをデプロイします",
+          "html": "2つの可用性ゾーンにまたがるロードバランサと仮想マシンスケールセットをデプロイします"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-031-c4"
+      ],
+      "explanationHtml": "<p><code>WebApp1は、ホストサーバーにインストールされているカスタムCOMコンポーネントに依存します。</code></p><p>この要件より、IaaSベースのサービスを使用する必要がありますので、選択肢1、4が候補になります。</p><p><br></p><p><code>・Azureデータセンターが使用不能になった場合でもWebApp1は利用可能であること</code></p><p>複数の可用性ゾーンにまたがるゾーン冗長構成にすれば要件を満たすことができます。</p><p>ロードバランサ、仮想マシンスケールセットともゾーン冗長で構成することができますので選択肢4が正解です。</p><p><br></p><p>選択肢1のようにリージョンを跨ぐ形で構成できなくはないですが、リージョン間ロード バランサーは収録時点ではプレビュー中で、かつ、バックエンドにリージョンロードバランサーが必要なためコストも高くなります。また、1つの仮想マシンスケールセットをリージョンを跨いで配置することはできません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/load-balancer/load-balancer-standard-availability-zones\">https://learn.microsoft.com/ja-jp/azure/load-balancer/load-balancer-standard-availability-zones</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones\">https://learn.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones</a></p>",
+      "explanationText": "WebApp1は、ホストサーバーにインストールされているカスタムCOMコンポーネントに依存します。\nこの要件より、IaaSベースのサービスを使用する必要がありますので、選択肢1、4が候補になります。\n\n・Azureデータセンターが使用不能になった場合でもWebApp1は利用可能であること\n複数の可用性ゾーンにまたがるゾーン冗長構成にすれば要件を満たすことができます。\nロードバランサ、仮想マシンスケールセットともゾーン冗長で構成することができますので選択肢4が正解です。\n\n選択肢1のようにリージョンを跨ぐ形で構成できなくはないですが、リージョン間ロード バランサーは収録時点ではプレビュー中で、かつ、バックエンドにリージョンロードバランサーが必要なためコストも高くなります。また、1つの仮想マシンスケールセットをリージョンを跨いで配置することはできません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/load-balancer/load-balancer-standard-availability-zones\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-032",
+      "sourceQuestionNumber": 32,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは次のAzureリソースを含むサブスクリプションを持っています。</p><p>WebApp1はKV1にデータベースの接続文字列を格納します。</p><p>WebApp1はKV1に対して次のタイプのリクエストを実行します。</p><p>・取得（Get）</p><p>・一覧（List）</p><p>・削除（Delete）</p><p>・暗号化（Encrypt）</p><p>・暗号化解除（Decrypt）</p><p>・バックアップ（Backup）</p><p><br></p><p>あなたは、WebApp1のサービスの継続性を評価しています。</p><p>KV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。</p><p><br></p><p>・KV1 はどこにフェイルオーバーするか</p><p>・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか</p><p><br></p><p><strong>KV1のフェイルオーバー先</strong>はどれか選択してください。</p><p><br></p><p>KV1のフェイルオーバー先：</p><p>フェールオーバーの間、利用できなくなるリクエストタイプ：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは次のAzureリソースを含むサブスクリプションを持っています。\nWebApp1はKV1にデータベースの接続文字列を格納します。\nWebApp1はKV1に対して次のタイプのリクエストを実行します。\n・取得（Get）\n・一覧（List）\n・削除（Delete）\n・暗号化（Encrypt）\n・暗号化解除（Decrypt）\n・バックアップ（Backup）\n\nあなたは、WebApp1のサービスの継続性を評価しています。\nKV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。\n\n・KV1 はどこにフェイルオーバーするか\n・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか\n\nKV1のフェイルオーバー先はどれか選択してください。\n\nKV1のフェイルオーバー先：\nフェールオーバーの間、利用できなくなるリクエストタイプ：",
+      "choices": [
+        {
+          "choiceId": "jp3-q-032-c1",
+          "label": null,
+          "text": "同じ可用性セットにあるサーバー",
+          "html": "同じ可用性セットにあるサーバー"
+        },
+        {
+          "choiceId": "jp3-q-032-c2",
+          "label": null,
+          "text": "同じ障害ドメイン内のサーバー",
+          "html": "同じ障害ドメイン内のサーバー"
+        },
+        {
+          "choiceId": "jp3-q-032-c3",
+          "label": null,
+          "text": "同じペアのリージョンのサーバー",
+          "html": "同じペアのリージョンのサーバー"
+        },
+        {
+          "choiceId": "jp3-q-032-c4",
+          "label": null,
+          "text": "スケールセット内の仮想マシン",
+          "html": "スケールセット内の仮想マシン"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-032-c3"
+      ],
+      "explanationHtml": "<p>Key Vaultに格納されるコンテンツは、ペアとなるセカンダリリージョンのサーバーに自動的にレプリケートされます。そして、障害発生時も自動的にセカンダリリージョンにルーティング（フェールオーバー）されます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance\">https://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance</a></p>",
+      "explanationText": "Key Vaultに格納されるコンテンツは、ペアとなるセカンダリリージョンのサーバーに自動的にレプリケートされます。そして、障害発生時も自動的にセカンダリリージョンにルーティング（フェールオーバー）されます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-033",
+      "sourceQuestionNumber": 33,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは次のAzureリソースを含むサブスクリプションを持っています。</p><p>WebApp1はKV1にデータベースの接続文字列を格納します。</p><p>WebApp1はKV1に対して次のタイプのリクエストを実行します。</p><p>・取得（Get）</p><p>・一覧（List）</p><p>・削除（Delete）</p><p>・暗号化（Encrypt）</p><p>・暗号化解除（Decrypt）</p><p>・バックアップ（Backup）</p><p><br></p><p>あなたは、WebApp1のサービスの継続性を評価しています。</p><p>KV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。</p><p><br></p><p>・KV1 はどこにフェイルオーバーするか</p><p>・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか</p><p><br></p><p><strong>フェールオーバーの間、利用できなくなるリクエストタイプ</strong>はどれか選択してください。</p><p><br></p><p>KV1のフェイルオーバー先：</p><p>フェールオーバーの間、利用できなくなるリクエストタイプ：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは次のAzureリソースを含むサブスクリプションを持っています。\nWebApp1はKV1にデータベースの接続文字列を格納します。\nWebApp1はKV1に対して次のタイプのリクエストを実行します。\n・取得（Get）\n・一覧（List）\n・削除（Delete）\n・暗号化（Encrypt）\n・暗号化解除（Decrypt）\n・バックアップ（Backup）\n\nあなたは、WebApp1のサービスの継続性を評価しています。\nKV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。\n\n・KV1 はどこにフェイルオーバーするか\n・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか\n\nフェールオーバーの間、利用できなくなるリクエストタイプはどれか選択してください。\n\nKV1のフェイルオーバー先：\nフェールオーバーの間、利用できなくなるリクエストタイプ：",
+      "choices": [
+        {
+          "choiceId": "jp3-q-033-c1",
+          "label": null,
+          "text": "取得",
+          "html": "<p>取得</p>"
+        },
+        {
+          "choiceId": "jp3-q-033-c2",
+          "label": null,
+          "text": "暗号化解除",
+          "html": "<p>暗号化解除</p>"
+        },
+        {
+          "choiceId": "jp3-q-033-c3",
+          "label": null,
+          "text": "削除",
+          "html": "<p>削除</p>"
+        },
+        {
+          "choiceId": "jp3-q-033-c4",
+          "label": null,
+          "text": "暗号化",
+          "html": "<p>暗号化</p>"
+        },
+        {
+          "choiceId": "jp3-q-033-c5",
+          "label": null,
+          "text": "バックアップ",
+          "html": "<p>バックアップ</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-033-c3"
+      ],
+      "explanationHtml": "<p>フェールオーバーの間、Key Vaultは読み取り専用モードになり、「削除」など一部の操作ができなくなります。</p><p>詳細は公式ドキュメントを参照してください。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance\">https://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance</a></p>",
+      "explanationText": "フェールオーバーの間、Key Vaultは読み取り専用モードになり、「削除」など一部の操作ができなくなります。\n詳細は公式ドキュメントを参照してください。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-034",
+      "sourceQuestionNumber": 34,
+      "promptHtml": "<p>あなたは、仮想アプライアンスが展開されているオンプレミスネットワークを持っています。</p><p>あなたは、いくつかのAzure仮想マシンを既存の仮想ネットワーク上にデプロイし、オンプレミスネットワークをAzureに接続する予定です。</p><p>Azure仮想マシンからインターネットに向けられるすべてのネットワークトラフィックは、仮想アプライアンスを経由する必要があります。</p><p>あなたは、ネットワークトラフィックを管理するためのソリューションを提案する必要があります。</p><p>あなたはどれを提案に含めるべきですか。2つ選択してください。</p>",
+      "promptText": "あなたは、仮想アプライアンスが展開されているオンプレミスネットワークを持っています。\nあなたは、いくつかのAzure仮想マシンを既存の仮想ネットワーク上にデプロイし、オンプレミスネットワークをAzureに接続する予定です。\nAzure仮想マシンからインターネットに向けられるすべてのネットワークトラフィックは、仮想アプライアンスを経由する必要があります。\nあなたは、ネットワークトラフィックを管理するためのソリューションを提案する必要があります。\nあなたはどれを提案に含めるべきですか。2つ選択してください。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-034-c1",
+          "label": null,
+          "text": "Azure Traffic Managerを構成する",
+          "html": "Azure Traffic Managerを構成する"
+        },
+        {
+          "choiceId": "jp3-q-034-c2",
+          "label": null,
+          "text": "Azureの仮想ネットワークを作成する",
+          "html": "<p>Azureの仮想ネットワークを作成する</p>"
+        },
+        {
+          "choiceId": "jp3-q-034-c3",
+          "label": null,
+          "text": "Azure ExpressRouteを実装する",
+          "html": "Azure ExpressRouteを実装する"
+        },
+        {
+          "choiceId": "jp3-q-034-c4",
+          "label": null,
+          "text": "ルートテーブルを構成する",
+          "html": "<p>ルートテーブルを構成する</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-034-c3",
+        "jp3-q-034-c4"
+      ],
+      "explanationHtml": "<p>Azureとオンプレミスをつなぐ方法には、サイト間VPN接続、ExpressRouteの2つがありますが、選択肢にVPN接続はないので、まず選択肢3のExpressRouteの実装が必要です。</p><p><br></p><p><code>Azure 仮想マシンからインターネットに向けられるすべてのネットワークトラフィックは、仮想アプライアンスを経由する必要があります</code> </p><p>ExpressRouteを使用する場合、ネクストホップがオンプレミスのIPとなるデフォルトルート（0.0.0.0/0）をオンプレミス側からBGPで広報することで、強制トンネリングすることができます。</p><p>Azure側で手動でルートテーブルを構成するわけではありませんが、適切なルートテーブルの構成が必要なので選択肢4も正解となります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/expressroute/expressroute-introduction\">https://learn.microsoft.com/ja-jp/azure/expressroute/expressroute-introduction</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/expressroute/expressroute-routing\">https://learn.microsoft.com/ja-jp/azure/expressroute/expressroute-routing</a></p><p><a href=\"https://jpaztech1.z11.web.core.windows.net/%E8%A9%B3%E8%AA%ACAzureExpressRoute-Part2ExpressRoute%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E5%88%B6%E5%BE%A1%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.html\">詳説 Azure ExpressRoute - Part2: ExpressRoute のルーティング制御について</a></p>",
+      "explanationText": "Azureとオンプレミスをつなぐ方法には、サイト間VPN接続、ExpressRouteの2つがありますが、選択肢にVPN接続はないので、まず選択肢3のExpressRouteの実装が必要です。\n\nAzure 仮想マシンからインターネットに向けられるすべてのネットワークトラフィックは、仮想アプライアンスを経由する必要があります\nExpressRouteを使用する場合、ネクストホップがオンプレミスのIPとなるデフォルトルート（0.0.0.0/0）をオンプレミス側からBGPで広報することで、強制トンネリングすることができます。\nAzure側で手動でルートテーブルを構成するわけではありませんが、適切なルートテーブルの構成が必要なので選択肢4も正解となります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/expressroute/expressroute-introduction\nhttps://learn.microsoft.com/ja-jp/azure/expressroute/expressroute-routing\n詳説 Azure ExpressRoute - Part2: ExpressRoute のルーティング制御について",
+      "images": [],
+      "domain": null,
+      "questionType": "multi",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-035",
+      "sourceQuestionNumber": 35,
+      "promptHtml": "<p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、VirtualWAN1という名前の Basic 仮想WAN と、次の表に示す仮想ハブを持っています。</p><p>あなたは、米国東部リージョンで ExpressRoute回線 を持っています。</p><p>VirtualWAN1 に ExpressRoute の関連付けを作成する必要があります。</p><p>あなたは、まず最初に何をすべきですか。</p>",
+      "promptText": "あなたは、Azureサブスクリプションを持っています。\nサブスクリプションには、VirtualWAN1という名前の Basic 仮想WAN と、次の表に示す仮想ハブを持っています。\nあなたは、米国東部リージョンで ExpressRoute回線 を持っています。\nVirtualWAN1 に ExpressRoute の関連付けを作成する必要があります。\nあなたは、まず最初に何をすべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-035-c1",
+          "label": null,
+          "text": "VirtualWAN1をStandardにアップグレードする",
+          "html": "VirtualWAN1をStandardにアップグレードする"
+        },
+        {
+          "choiceId": "jp3-q-035-c2",
+          "label": null,
+          "text": "Hub1上にゲートウェイを作成する",
+          "html": "Hub1上にゲートウェイを作成する"
+        },
+        {
+          "choiceId": "jp3-q-035-c3",
+          "label": null,
+          "text": "米国東部にハブ仮想ネットワークを作成する",
+          "html": "米国東部にハブ仮想ネットワークを作成する"
+        },
+        {
+          "choiceId": "jp3-q-035-c4",
+          "label": null,
+          "text": "ExpressRoute Premium アドオンを有効にする",
+          "html": "<p>ExpressRoute Premium アドオンを有効にする</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-035-c1"
+      ],
+      "explanationHtml": "<p>Azure Virtual WAN（仮想WAN）の種類には、Basic、Standardの2種類があります。</p><p>Basicの仮想WANは、サイト間VPN接続にのみ使用することができます。</p><p>ExpressRoute回線を含めるには、Standardにアップグレードする必要がありますので選択肢1が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-about#basicstandard\">https://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-about#basicstandard</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-expressroute-portal\">https://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-expressroute-portal</a></p>",
+      "explanationText": "Azure Virtual WAN（仮想WAN）の種類には、Basic、Standardの2種類があります。\nBasicの仮想WANは、サイト間VPN接続にのみ使用することができます。\nExpressRoute回線を含めるには、Standardにアップグレードする必要がありますので選択肢1が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-about#basicstandard\nhttps://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-expressroute-portal",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-036",
+      "sourceQuestionNumber": 36,
+      "promptHtml": "<p>あなたの会社は、Premium App Service PlanでホストされるAzure Web Appを持っています。</p><p>あなたは、以下の要件を満たすようにAzure Web Appを構成する必要があります。</p><p><br></p><p>・Webアプリを現在のバージョンから新しいバージョンに切り替える機能を提供すること</p><p>・新しいバージョンに切り替える前に、開発者が新しいバージョンのアプリケーションをテストする機能を提供すること</p><p>・アプリケーションのバージョンをロールバックできること</p><p>・ダウンタイムを最小限に抑えること</p><p><br></p><p>次のうちどれを使用すべきですか。</p>",
+      "promptText": "あなたの会社は、Premium App Service PlanでホストされるAzure Web Appを持っています。\nあなたは、以下の要件を満たすようにAzure Web Appを構成する必要があります。\n\n・Webアプリを現在のバージョンから新しいバージョンに切り替える機能を提供すること\n・新しいバージョンに切り替える前に、開発者が新しいバージョンのアプリケーションをテストする機能を提供すること\n・アプリケーションのバージョンをロールバックできること\n・ダウンタイムを最小限に抑えること\n\n次のうちどれを使用すべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-036-c1",
+          "label": null,
+          "text": "新しい App Service Plan を作成する",
+          "html": "新しい App Service Plan を作成する"
+        },
+        {
+          "choiceId": "jp3-q-036-c2",
+          "label": null,
+          "text": "デプロイスロットを利用する",
+          "html": "デプロイスロットを利用する"
+        },
+        {
+          "choiceId": "jp3-q-036-c3",
+          "label": null,
+          "text": "カスタム ドメインを割り当てる",
+          "html": "カスタム ドメインを割り当てる"
+        },
+        {
+          "choiceId": "jp3-q-036-c4",
+          "label": null,
+          "text": "Azure Web Appをバックアップする",
+          "html": "Azure Web Appをバックアップする"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-036-c2"
+      ],
+      "explanationHtml": "<p>App Serviceの「デプロイスロット」を利用すると、公開されている運用環境（運用スロット）とは別のデプロイスロット（ステージング環境）を使用できます。</p><p><br></p><p>これにより、事前にステージング環境で新しいバージョンのアプリを検証し、問題がなければスロットを切り替えることでダウンタイムなしに安全にデプロイすることができます。</p><p><br></p><p>スロットを切り替えることを「スワップ」と呼びます。</p><p>スワップ後に問題があった場合は再びスロットを切り替えてロールバックすることもできます。</p><p>なお、デプロイスロットの機能は、Standard / Premium / Isolatedのプランで使用することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/deploy-staging-slots\">https://learn.microsoft.com/ja-jp/azure/app-service/deploy-staging-slots</a></p>",
+      "explanationText": "App Serviceの「デプロイスロット」を利用すると、公開されている運用環境（運用スロット）とは別のデプロイスロット（ステージング環境）を使用できます。\n\nこれにより、事前にステージング環境で新しいバージョンのアプリを検証し、問題がなければスロットを切り替えることでダウンタイムなしに安全にデプロイすることができます。\n\nスロットを切り替えることを「スワップ」と呼びます。\nスワップ後に問題があった場合は再びスロットを切り替えてロールバックすることもできます。\nなお、デプロイスロットの機能は、Standard / Premium / Isolatedのプランで使用することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/app-service/deploy-staging-slots",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-037",
+      "sourceQuestionNumber": 37,
+      "promptHtml": "<p>あなたのサブスクリプションには、東アジア、米国、中央ヨーロッパ、東アジアの各リージョンでホストされているアプリが含まれています。</p><p>あなたは、アプリのためのデータベースソリューションを提案する必要があります。</p><p>ソリューションは次の要件を満たす必要があります。</p><p><br></p><p>・複数の整合性レベルをサポートすること</p><p>・複数の Azure リージョンで同時に書き込みできること</p><p><br></p><p>あなたは提案に何を含めるべきですか。</p>",
+      "promptText": "あなたのサブスクリプションには、東アジア、米国、中央ヨーロッパ、東アジアの各リージョンでホストされているアプリが含まれています。\nあなたは、アプリのためのデータベースソリューションを提案する必要があります。\nソリューションは次の要件を満たす必要があります。\n\n・複数の整合性レベルをサポートすること\n・複数の Azure リージョンで同時に書き込みできること\n\nあなたは提案に何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-037-c1",
+          "label": null,
+          "text": "Azure Cosmos DB",
+          "html": "Azure Cosmos DB"
+        },
+        {
+          "choiceId": "jp3-q-037-c2",
+          "label": null,
+          "text": "Azure仮想マシン上のMicrosoft SQL Server",
+          "html": "Azure仮想マシン上のMicrosoft SQL Server"
+        },
+        {
+          "choiceId": "jp3-q-037-c3",
+          "label": null,
+          "text": "エラスティックプール内のAzure SQL Database",
+          "html": "エラスティックプール内のAzure SQL Database"
+        },
+        {
+          "choiceId": "jp3-q-037-c4",
+          "label": null,
+          "text": "geo 冗長ストレージ（GRS）を使用するAzure Table Storage",
+          "html": "<p>geo 冗長ストレージ（GRS）を使用するAzure Table Storage</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-037-c1"
+      ],
+      "explanationHtml": "<p><code>・複数の Azure リージョンで同時に書き込みできること</code> </p><p>Azure Cosmos DB は、フルマネージドの NoSQL とリレーショナルデータベースです。</p><p>数ミリ秒 (1 桁台)の応答時間、グローバル分散、マルチマスター（複数リージョンに書き込み可能）などの特徴があり、スループット、レイテンシー（待機時間）、月間稼働時間などに対してSLAが提供されています。</p><p><br></p><p><code>・複数の整合性レベルをサポートすること</code> </p><p>Azure Cosmos DBの整合性レベルには最強から最弱の順に、次のレベルがあります。</p><p>・厳密（強固）</p><p>・有界整合性制約</p><p>・セッション</p><p>・一貫性のあるプレフィックス</p><p>・最終的</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/nosql/how-to-multi-master?tabs=api-async\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/nosql/how-to-multi-master?tabs=api-async</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels</a></p>",
+      "explanationText": "・複数の Azure リージョンで同時に書き込みできること\nAzure Cosmos DB は、フルマネージドの NoSQL とリレーショナルデータベースです。\n数ミリ秒 (1 桁台)の応答時間、グローバル分散、マルチマスター（複数リージョンに書き込み可能）などの特徴があり、スループット、レイテンシー（待機時間）、月間稼働時間などに対してSLAが提供されています。\n\n・複数の整合性レベルをサポートすること\nAzure Cosmos DBの整合性レベルには最強から最弱の順に、次のレベルがあります。\n・厳密（強固）\n・有界整合性制約\n・セッション\n・一貫性のあるプレフィックス\n・最終的\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/nosql/how-to-multi-master?tabs=api-async\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-038",
+      "sourceQuestionNumber": 38,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、30個の Microsoft SQL Server データベース環境を管理しています。 </p><p>あなたの会社は、ソフトウェア アシュアランス付きの SQL Server ライセンスを所有しています。</p><p>あなたは、次の要件を満たすAzure環境にデータベースを移行する必要があります。</p><p><br></p><p>・自動スケールをサポートすること</p><p>・コストを最小限に抑えること</p><p><br></p><p><strong>デプロイするAzureサービス</strong>には何を含めるべきですか。&nbsp; </p><p><br></p><p>デプロイするAzureサービス：</p><p>購入モデル：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、30個の Microsoft SQL Server データベース環境を管理しています。\nあなたの会社は、ソフトウェア アシュアランス付きの SQL Server ライセンスを所有しています。\nあなたは、次の要件を満たすAzure環境にデータベースを移行する必要があります。\n\n・自動スケールをサポートすること\n・コストを最小限に抑えること\n\nデプロイするAzureサービスには何を含めるべきですか。 \n\nデプロイするAzureサービス：\n購入モデル：",
+      "choices": [
+        {
+          "choiceId": "jp3-q-038-c1",
+          "label": null,
+          "text": "Azure SQL Managed Instance",
+          "html": "<p>Azure SQL Managed Instance</p>"
+        },
+        {
+          "choiceId": "jp3-q-038-c2",
+          "label": null,
+          "text": "Azure SQL Database エラスティックプール",
+          "html": "<p>Azure SQL Database エラスティックプール</p>"
+        },
+        {
+          "choiceId": "jp3-q-038-c3",
+          "label": null,
+          "text": "SQL Server Always On 可用性グループ",
+          "html": "<p>SQL Server Always On 可用性グループ</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-038-c2"
+      ],
+      "explanationHtml": "<p><code>・自動スケールをサポートすること</code></p><p><code>・コストを最小限に抑えること</code></p><p>エラスティック プールは、個々のデータベースのコンピューティングリソースを選択するのではなく、リソースのプールを作成して複数のデータベースで共有できる仕組みです。データベース単位ではなく、プールしたコンピューティングリソースの時間に応じて課金されます。</p><p>ピーク時間の異なる複数のデータベースがある場合、エラスティックプールを作成して複数のデータベースで共有することでコストを節約することができます。</p><p>※本問題では使用パターンに触れていないのでコスト節約の効果は断言できませんが、少なくとも「Azure SQL Managed Instance」よりは安価に利用できます。</p><p><br></p><p>プール内の個々のデータベースでは、設定されたパラメーターの範囲内でリソースを柔軟に使用できます。 負荷が大きい場合、データベースはリソースの使用量を増やして需要に対応します。 負荷が小さい場合、データベースはリソースの使用量を減らし、負荷がない場合は、リソースを使用しません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql</a></p>",
+      "explanationText": "・自動スケールをサポートすること\n・コストを最小限に抑えること\nエラスティック プールは、個々のデータベースのコンピューティングリソースを選択するのではなく、リソースのプールを作成して複数のデータベースで共有できる仕組みです。データベース単位ではなく、プールしたコンピューティングリソースの時間に応じて課金されます。\nピーク時間の異なる複数のデータベースがある場合、エラスティックプールを作成して複数のデータベースで共有することでコストを節約することができます。\n※本問題では使用パターンに触れていないのでコスト節約の効果は断言できませんが、少なくとも「Azure SQL Managed Instance」よりは安価に利用できます。\n\nプール内の個々のデータベースでは、設定されたパラメーターの範囲内でリソースを柔軟に使用できます。 負荷が大きい場合、データベースはリソースの使用量を増やして需要に対応します。 負荷が小さい場合、データベースはリソースの使用量を減らし、負荷がない場合は、リソースを使用しません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-039",
+      "sourceQuestionNumber": 39,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、30個の Microsoft SQL Server データベース環境を管理しています。 </p><p>あなたの会社は、ソフトウェア アシュアランス付きの SQL Server ライセンスを所有しています。</p><p>あなたは、次の要件を満たすAzure環境にデータベースを移行する必要があります。</p><p><br></p><p>・自動スケールをサポートすること</p><p>・コストを最小限に抑えること</p><p><br></p><p>デプロイするAzureサービスの<strong>購入モデル</strong>には何を含めるべきですか。&nbsp; </p><p><br></p><p>デプロイするAzureサービス：</p><p>購入モデル：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、30個の Microsoft SQL Server データベース環境を管理しています。\nあなたの会社は、ソフトウェア アシュアランス付きの SQL Server ライセンスを所有しています。\nあなたは、次の要件を満たすAzure環境にデータベースを移行する必要があります。\n\n・自動スケールをサポートすること\n・コストを最小限に抑えること\n\nデプロイするAzureサービスの購入モデルには何を含めるべきですか。 \n\nデプロイするAzureサービス：\n購入モデル：",
+      "choices": [
+        {
+          "choiceId": "jp3-q-039-c1",
+          "label": null,
+          "text": "DTU",
+          "html": "<p>DTU</p>"
+        },
+        {
+          "choiceId": "jp3-q-039-c2",
+          "label": null,
+          "text": "仮想コア",
+          "html": "<p>仮想コア</p>"
+        },
+        {
+          "choiceId": "jp3-q-039-c3",
+          "label": null,
+          "text": "Azure Reserved VM Instances",
+          "html": "<p>Azure Reserved VM Instances</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-039-c2"
+      ],
+      "explanationHtml": "<p><code>・コストを最小限に抑えること</code></p><p>ソフトウェア アシュアランス付きの SQL Server ライセンスを所有しているので「Azure ハイブリッド特典」を利用することができます。</p><p><br></p><p>Azure ハイブリッド特典を適用できるのは、仮想コアベースの購入モデルに限られます（サーバレス除く）</p><p>DTU購入モデルには適用できません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/azure-hybrid-benefit?view=azuresql&amp;tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/azure-sql/azure-hybrid-benefit?view=azuresql&amp;tabs=azure-portal</a></p>",
+      "explanationText": "・コストを最小限に抑えること\nソフトウェア アシュアランス付きの SQL Server ライセンスを所有しているので「Azure ハイブリッド特典」を利用することができます。\n\nAzure ハイブリッド特典を適用できるのは、仮想コアベースの購入モデルに限られます（サーバレス除く）\nDTU購入モデルには適用できません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/azure-hybrid-benefit?view=azuresql&tabs=azure-portal",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-040",
+      "sourceQuestionNumber": 40,
+      "promptHtml": "<p>あなたは、同じサブスクリプション内の10台のAzure仮想マシン上で動作する5つの.NETアプリケーションを持っています。</p><p>あなたは、アプリケーションがMicrosoft Entra IDを使用して認証するためのソリューションを提案する必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・アプリケーションが10台の仮想マシン上で実行されているときのみ認証できること</p><p>・仮想マシンが削除されると認証できなくなること</p><p>・管理者の労力を最小限に抑えること</p><p><br></p><p>提案には何を含めるべきですか。</p>",
+      "promptText": "あなたは、同じサブスクリプション内の10台のAzure仮想マシン上で動作する5つの.NETアプリケーションを持っています。\nあなたは、アプリケーションがMicrosoft Entra IDを使用して認証するためのソリューションを提案する必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・アプリケーションが10台の仮想マシン上で実行されているときのみ認証できること\n・仮想マシンが削除されると認証できなくなること\n・管理者の労力を最小限に抑えること\n\n提案には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-040-c1",
+          "label": null,
+          "text": "システム割り当てマネージドIDを作成する",
+          "html": "<p>システム割り当てマネージドIDを作成する</p>"
+        },
+        {
+          "choiceId": "jp3-q-040-c2",
+          "label": null,
+          "text": "ユーザー割り当てマネージドIDを作成する",
+          "html": "<p>ユーザー割り当てマネージドIDを作成する</p>"
+        },
+        {
+          "choiceId": "jp3-q-040-c3",
+          "label": null,
+          "text": "Microsoft Entra IDにそれぞれのアプリケーションを登録する",
+          "html": "<p>Microsoft Entra IDにそれぞれのアプリケーションを登録する</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-040-c1"
+      ],
+      "explanationHtml": "<p><code>・アプリケーションが10台の仮想マシン上で実行されているときのみ認証できること</code></p><p><code>・仮想マシンが削除されると認証できなくなること</code></p><p>この要件を満たすことができるのは選択肢1の「システム割り当てマネージドID」のみです。</p><p>マネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a> には次の2つがあります。</p><p><br></p><p>・システム割り当てマネージドID</p><p>・ユーザー割り当てマネージドID</p><p><br></p><p>システム割り当てマネージドIDは、仮想マシンなどAzureリソースの一部として作成され、仮想マシンが実行されているときのみ認証できます。仮想マシンが削除されると、システム割り当てマネージドIDも削除されます。</p><p><br></p><p>ユーザー割り当てマネージドIDは、独立したAzureリソースとして作成でき、それをAzureリソースに関連付けて使用します。仮想マシン以外のAzureリソースに関連付けてそのIDで認証できるため、この問題の要件を満たすことはできません。</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a></p><p><br></p><p>この2つのマネージドIDの関係を例えるなら、仮想マシンのOSディスクとファイル共有としてマウントできるAzure Storageのようなものです。</p><p>仮想マシンのOSディスクは、必ず単一の仮想マシンに関連付けられ、仮想マシンが実行されている時のみディスクにアクセスできます。親リソースとともに削除される点も同様です。</p><p>ファイル共有は、仮想マシンとは別に独立して作成し、複数の仮想マシンにマウントすることでストレージ領域を使用できます。仮想マシンを削除してもファイル共有自体が削除されることはありません。</p><p><br></p><p>選択肢3も問題の要件を満たすことはできません。</p><p>Microsoft Entra IDにそれぞれのアプリケーションを登録すると、アプリケーション用のIDとしてサービスプリンシパルが発行されます。</p><p>仮想マシンが実行中でなくともこの資格情報を利用して認証することが可能です。</p>",
+      "explanationText": "・アプリケーションが10台の仮想マシン上で実行されているときのみ認証できること\n・仮想マシンが削除されると認証できなくなること\nこの要件を満たすことができるのは選択肢1の「システム割り当てマネージドID」のみです。\nマネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。\nマネージドIDの種類 には次の2つがあります。\n\n・システム割り当てマネージドID\n・ユーザー割り当てマネージドID\n\nシステム割り当てマネージドIDは、仮想マシンなどAzureリソースの一部として作成され、仮想マシンが実行されているときのみ認証できます。仮想マシンが削除されると、システム割り当てマネージドIDも削除されます。\n\nユーザー割り当てマネージドIDは、独立したAzureリソースとして作成でき、それをAzureリソースに関連付けて使用します。仮想マシン以外のAzureリソースに関連付けてそのIDで認証できるため、この問題の要件を満たすことはできません。\n\n出典：マネージドIDの種類\n\nこの2つのマネージドIDの関係を例えるなら、仮想マシンのOSディスクとファイル共有としてマウントできるAzure Storageのようなものです。\n仮想マシンのOSディスクは、必ず単一の仮想マシンに関連付けられ、仮想マシンが実行されている時のみディスクにアクセスできます。親リソースとともに削除される点も同様です。\nファイル共有は、仮想マシンとは別に独立して作成し、複数の仮想マシンにマウントすることでストレージ領域を使用できます。仮想マシンを削除してもファイル共有自体が削除されることはありません。\n\n選択肢3も問題の要件を満たすことはできません。\nMicrosoft Entra IDにそれぞれのアプリケーションを登録すると、アプリケーション用のIDとしてサービスプリンシパルが発行されます。\n仮想マシンが実行中でなくともこの資格情報を利用して認証することが可能です。",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

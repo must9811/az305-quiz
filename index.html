@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AZ-305 クイズアプリ</title>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="page-header">
+        <div>
+          <p class="eyebrow">AZ-305 Study</p>
+          <h1>AZ-305 問題集クイズアプリ</h1>
+        </div>
+        <p class="header-copy">
+          問題集1から問題集3までを 10 問セットで学習でき、マーク済みと直近誤答だけの再挑戦にも対応します。
+        </p>
+      </header>
+
+      <main id="app" class="app-root" aria-live="polite"></main>
+    </div>
+
+    <script defer src="data/quiz-data.js"></script>
+    <script defer src="js/storage.js"></script>
+    <script defer src="js/quiz.js"></script>
+    <script defer src="js/report.js"></script>
+    <script defer src="js/copy.js"></script>
+    <script defer src="js/app.js"></script>
+  </body>
+</html>

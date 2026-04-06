@@ -1,0 +1,427 @@
+{
+  "setId": "jp1-set-001",
+  "title": "問題集1 01-10",
+  "sourceHtml": "udemy/問題集1.html",
+  "questionIds": [
+    "jp1-q-001",
+    "jp1-q-002",
+    "jp1-q-003",
+    "jp1-q-004",
+    "jp1-q-005",
+    "jp1-q-006",
+    "jp1-q-007",
+    "jp1-q-008",
+    "jp1-q-009",
+    "jp1-q-010"
+  ],
+  "questions": [
+    {
+      "questionId": "jp1-q-001",
+      "sourceQuestionNumber": 1,
+      "promptHtml": "<p>あなたは、オンプレミスのネットワークとAzureサブスクリプションを持っています。</p><p>オンプレミスのネットワークにはいくつかの支店があります。 </p><p>トロント支店には、ファイルサーバーとして構成されているVM1という名前のWindows Serverの仮想マシンがあります。</p><p><br></p><p> ユーザーは、すべてのオフィスからVM1上の共有ファイルにアクセスします。</p><p> あなたは、トロント支店にアクセスできなくなった場合、ユーザーができるだけ早く共有ファイルにアクセスできることを保証するためのソリューションを提案する必要があります。</p><p>提案には何を含めるべきですか。</p>",
+      "promptText": "あなたは、オンプレミスのネットワークとAzureサブスクリプションを持っています。\nオンプレミスのネットワークにはいくつかの支店があります。\nトロント支店には、ファイルサーバーとして構成されているVM1という名前のWindows Serverの仮想マシンがあります。\n\n ユーザーは、すべてのオフィスからVM1上の共有ファイルにアクセスします。\n あなたは、トロント支店にアクセスできなくなった場合、ユーザーができるだけ早く共有ファイルにアクセスできることを保証するためのソリューションを提案する必要があります。\n提案には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-001-c1",
+          "label": null,
+          "text": "Azure BackupとRecovery Services コンテナー",
+          "html": "Azure BackupとRecovery Services コンテナー"
+        },
+        {
+          "choiceId": "jp1-q-001-c2",
+          "label": null,
+          "text": "Azure Backupとバックアップコンテナー",
+          "html": "Azure Backupとバックアップコンテナー"
+        },
+        {
+          "choiceId": "jp1-q-001-c3",
+          "label": null,
+          "text": "BLOBコンテナーとAzure File Sync",
+          "html": "BLOBコンテナーとAzure File Sync"
+        },
+        {
+          "choiceId": "jp1-q-001-c4",
+          "label": null,
+          "text": "Azureファイル共有とAzure File Sync",
+          "html": "Azureファイル共有とAzure File Sync"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-001-c4"
+      ],
+      "explanationHtml": "<p>Azure File Syncは、Azureファイル共有（Azure StorageのFile）に保存しているデータをオンプレミスなどのWindows Serverにキャッシュして利用できるサービスです（Azureファイル共有は、Azure File Sync をデプロイするのと同じリージョンに必要）</p><p><br></p><p>Azure File Syncには次のような用途・メリットがあります。</p><p><br></p><ul><li><p>オンプレミスのファイルサーバをクラウドに拡張できる</p></li><li><p>クラウドで一元管理して複数拠点で共有できる</p></li><li><p>バックアップや災害対策</p></li></ul><p><br></p><p>なお、Azure Backupで取得するバックアップから復元する方法もありますが、復旧までに時間がかかるソリューションになるため不正解です。</p><p><br></p><p> 【参考】</p><p> <a href=\"https://learn.microsoft.com/ja-jp/azure/storage/file-sync/file-sync-introduction\">https://learn.microsoft.com/ja-jp/azure/storage/file-sync/file-sync-introduction</a></p>",
+      "explanationText": "Azure File Syncは、Azureファイル共有（Azure StorageのFile）に保存しているデータをオンプレミスなどのWindows Serverにキャッシュして利用できるサービスです（Azureファイル共有は、Azure File Sync をデプロイするのと同じリージョンに必要）\n\nAzure File Syncには次のような用途・メリットがあります。\n\nオンプレミスのファイルサーバをクラウドに拡張できる\nクラウドで一元管理して複数拠点で共有できる\nバックアップや災害対策\n\nなお、Azure Backupで取得するバックアップから復元する方法もありますが、復旧までに時間がかかるソリューションになるため不正解です。\n\n 【参考】\n https://learn.microsoft.com/ja-jp/azure/storage/file-sync/file-sync-introduction",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-002",
+      "sourceQuestionNumber": 2,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、172.16.0.0/16のIPアドレス空間を使用するオンプレミスネットワークを持っています。</p><p>あなたは、新しいAzureサブスクリプションに30台の仮想マシンをデプロイすることを計画しています。</p><p>あなたは、以下の技術要件を特定しています。</p><p><br></p><p>・すべてのAzure仮想マシンは、Subnet1という名前の同じサブネットに配置すること</p><p>・すべてのAzure仮想マシンは、すべてのオンプレミスサーバーと通信できること</p><p>・サーバーは、オンプレミスネットワークとAzureの間で、サイト間VPNを使用して通信できること</p><p><br></p><p>あなたは、技術要件を満たすサブネット設計を提案する必要があります。</p><p><strong>Subnet1 </strong>に適切なネットワークアドレスを選択してください。</p><p><br></p><p>Subnet1：</p><p>ゲートウェイサブネット：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、172.16.0.0/16のIPアドレス空間を使用するオンプレミスネットワークを持っています。\nあなたは、新しいAzureサブスクリプションに30台の仮想マシンをデプロイすることを計画しています。\nあなたは、以下の技術要件を特定しています。\n\n・すべてのAzure仮想マシンは、Subnet1という名前の同じサブネットに配置すること\n・すべてのAzure仮想マシンは、すべてのオンプレミスサーバーと通信できること\n・サーバーは、オンプレミスネットワークとAzureの間で、サイト間VPNを使用して通信できること\n\nあなたは、技術要件を満たすサブネット設計を提案する必要があります。\nSubnet1 に適切なネットワークアドレスを選択してください。\n\nSubnet1：\nゲートウェイサブネット：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-002-c1",
+          "label": null,
+          "text": "172.16.0.0/16",
+          "html": "172.16.0.0/16"
+        },
+        {
+          "choiceId": "jp1-q-002-c2",
+          "label": null,
+          "text": "172.16.1.0/27",
+          "html": "172.16.1.0/27"
+        },
+        {
+          "choiceId": "jp1-q-002-c3",
+          "label": null,
+          "text": "192.168.0.0/24",
+          "html": "192.168.0.0/24"
+        },
+        {
+          "choiceId": "jp1-q-002-c4",
+          "label": null,
+          "text": "192.168.1.0/27",
+          "html": "192.168.1.0/27"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-002-c3"
+      ],
+      "explanationHtml": "<p>30台の仮想マシンをSubnt1に配置するには/26以上のサブネットが必要です。</p><p>※/27のIPの数は32個ですがサブネット内の予約アドレス5つは使えないので/26以上必要</p><p><br></p><p>そして、オンプレミスとサイト間VPNで接続する場合、オンプレミスのネットワークアドレスと重複させることはできません。つまり、172.16.0.0/16のアドレス範囲に含まれる選択肢1、2は誤りです。</p><p><br></p><p>172.16.0.0/16のアドレス範囲と重複せず、/26以上のアドレス範囲を持つ192.168.0.0/24が正解となります。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/private-ip-addresses\">https://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/private-ip-addresses</a></p>",
+      "explanationText": "30台の仮想マシンをSubnt1に配置するには/26以上のサブネットが必要です。\n※/27のIPの数は32個ですがサブネット内の予約アドレス5つは使えないので/26以上必要\n\nそして、オンプレミスとサイト間VPNで接続する場合、オンプレミスのネットワークアドレスと重複させることはできません。つまり、172.16.0.0/16のアドレス範囲に含まれる選択肢1、2は誤りです。\n\n172.16.0.0/16のアドレス範囲と重複せず、/26以上のアドレス範囲を持つ192.168.0.0/24が正解となります。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/private-ip-addresses",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-003",
+      "sourceQuestionNumber": 3,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、172.16.0.0/16のIPアドレス空間を使用するオンプレミスネットワークを持っています。</p><p>あなたは、新しいAzureサブスクリプションに30台の仮想マシンをデプロイすることを計画しています。</p><p>あなたは、以下の技術要件を特定しています。</p><p><br></p><p>・すべてのAzure仮想マシンは、Subnet1という名前の同じサブネットに配置すること</p><p>・すべてのAzure仮想マシンは、すべてのオンプレミスサーバーと通信できること</p><p>・サーバーは、オンプレミスネットワークとAzureの間で、サイト間VPNを使用して通信できること</p><p><br></p><p>あなたは、技術要件を満たすサブネット設計を提案する必要があります。</p><p><strong>ゲートウェイサブネット </strong>に適切なネットワークアドレスを選択してください。</p><p><br></p><p>Subnet1：</p><p>ゲートウェイサブネット：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、172.16.0.0/16のIPアドレス空間を使用するオンプレミスネットワークを持っています。\nあなたは、新しいAzureサブスクリプションに30台の仮想マシンをデプロイすることを計画しています。\nあなたは、以下の技術要件を特定しています。\n\n・すべてのAzure仮想マシンは、Subnet1という名前の同じサブネットに配置すること\n・すべてのAzure仮想マシンは、すべてのオンプレミスサーバーと通信できること\n・サーバーは、オンプレミスネットワークとAzureの間で、サイト間VPNを使用して通信できること\n\nあなたは、技術要件を満たすサブネット設計を提案する必要があります。\nゲートウェイサブネット に適切なネットワークアドレスを選択してください。\n\nSubnet1：\nゲートウェイサブネット：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-003-c1",
+          "label": null,
+          "text": "172.16.0.0/16",
+          "html": "172.16.0.0/16"
+        },
+        {
+          "choiceId": "jp1-q-003-c2",
+          "label": null,
+          "text": "172.16.1.0/27",
+          "html": "172.16.1.0/27"
+        },
+        {
+          "choiceId": "jp1-q-003-c3",
+          "label": null,
+          "text": "192.168.0.0/24",
+          "html": "192.168.0.0/24"
+        },
+        {
+          "choiceId": "jp1-q-003-c4",
+          "label": null,
+          "text": "192.168.1.0/27",
+          "html": "192.168.1.0/27"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-003-c4"
+      ],
+      "explanationHtml": "<p>オンプレミスとサイト間VPNで接続する場合、Azure側には「GatewaySubnet」という名前のサブネットを作成し、そこにVPNゲートウェイを作成します。</p><p><br></p><p>また、前の問題で解説したとおり、Azure側の仮想ネットワークのアドレス範囲は、オンプレミスのネットワークアドレスと重複させることはできず、172.16.0.0/16のアドレス範囲に含まれる選択肢1、2は誤りです。</p><p><br></p><p>192.168.0.0/24のアドレス範囲は仮想マシン向けに使用する必要がありますので、ゲートウェイサブネットのネットワークアドレスは192.168.1.0/27が正解となります。</p><p><br></p><p>なお、ゲートウェイサブネットは/29以下であれば作成できますが、構成の要件（ExpressRoute/VPN Gatewayの共存など）によってはIPアドレスが不足する場合があるため、/27 以上 (/27、/26 など) で作成することが推奨されています。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/vpn-gateway/tutorial-site-to-site-portal\">https://learn.microsoft.com/ja-jp/azure/vpn-gateway/tutorial-site-to-site-portal</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings\">https://learn.microsoft.com/ja-jp/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings</a></p>",
+      "explanationText": "オンプレミスとサイト間VPNで接続する場合、Azure側には「GatewaySubnet」という名前のサブネットを作成し、そこにVPNゲートウェイを作成します。\n\nまた、前の問題で解説したとおり、Azure側の仮想ネットワークのアドレス範囲は、オンプレミスのネットワークアドレスと重複させることはできず、172.16.0.0/16のアドレス範囲に含まれる選択肢1、2は誤りです。\n\n192.168.0.0/24のアドレス範囲は仮想マシン向けに使用する必要がありますので、ゲートウェイサブネットのネットワークアドレスは192.168.1.0/27が正解となります。\n\nなお、ゲートウェイサブネットは/29以下であれば作成できますが、構成の要件（ExpressRoute/VPN Gatewayの共存など）によってはIPアドレスが不足する場合があるため、/27 以上 (/27、/26 など) で作成することが推奨されています。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/vpn-gateway/tutorial-site-to-site-portal\nhttps://learn.microsoft.com/ja-jp/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-004",
+      "sourceQuestionNumber": 4,
+      "promptHtml": "<p>あなたの会社にはVMware環境でホストされている300台の仮想マシンがあります。</p><p>仮想マシンのサイズ、使用率はさまざまです。</p><p>あなたはすべての仮想マシンをAzureに移行する予定です。</p><p><br></p><p>あなたは、現在のワークロードをAzureに移行するために必要なAzure仮想マシンの数およびサイズを提案する必要があります。</p><p>ソリューションは、管理者の労力を最小限に抑える必要があります。 </p><p>あなたは、何を提案すべきですか。</p>",
+      "promptText": "あなたの会社にはVMware環境でホストされている300台の仮想マシンがあります。\n仮想マシンのサイズ、使用率はさまざまです。\nあなたはすべての仮想マシンをAzureに移行する予定です。\n\nあなたは、現在のワークロードをAzureに移行するために必要なAzure仮想マシンの数およびサイズを提案する必要があります。\nソリューションは、管理者の労力を最小限に抑える必要があります。\nあなたは、何を提案すべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-004-c1",
+          "label": null,
+          "text": "Azure Cost Management",
+          "html": "Azure Cost Management"
+        },
+        {
+          "choiceId": "jp1-q-004-c2",
+          "label": null,
+          "text": "総保有コスト (TCO) 計算ツール",
+          "html": "総保有コスト (TCO) 計算ツール"
+        },
+        {
+          "choiceId": "jp1-q-004-c3",
+          "label": null,
+          "text": "Azure Migrate",
+          "html": "Azure Migrate"
+        },
+        {
+          "choiceId": "jp1-q-004-c4",
+          "label": null,
+          "text": "Azure Advisor",
+          "html": "Azure Advisor"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-004-c3"
+      ],
+      "explanationHtml": "<p>Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。</p><p>Azureへ移行するために必要な機能を集約して、一元的な窓口となるような管理画面を提供します。</p><p><br></p><p>Azure Migrateの評価ツールを使うと、オンプレミスにあるサーバを検出し、依存関係の分析、Azureに対応できるかどうか、サイズの推定、コストの見積もりなど、移行についての評価を行うことができます。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/concepts-assessment-calculation\">https://learn.microsoft.com/ja-jp/azure/migrate/concepts-assessment-calculation</a></p>",
+      "explanationText": "Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。\nAzureへ移行するために必要な機能を集約して、一元的な窓口となるような管理画面を提供します。\n\nAzure Migrateの評価ツールを使うと、オンプレミスにあるサーバを検出し、依存関係の分析、Azureに対応できるかどうか、サイズの推定、コストの見積もりなど、移行についての評価を行うことができます。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\nhttps://learn.microsoft.com/ja-jp/azure/migrate/concepts-assessment-calculation",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-005",
+      "sourceQuestionNumber": 5,
+      "promptHtml": "<p>あなたは、Azure Event Gridにルーティングされたイベントに応答してカスタムC#コードを実行するソリューションを設計する必要があります。</p><p> ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・実行されるコードは、Azure仮想マシン上で実行されるMicrosoft SQL ServerインスタンスのプライベートIPアドレスにアクセスできること</p><p>・コストを最小限に抑えること</p><p><br></p><p>あなたはソリューションに何を含めるべきですか。</p>",
+      "promptText": "あなたは、Azure Event Gridにルーティングされたイベントに応答してカスタムC#コードを実行するソリューションを設計する必要があります。\n ソリューションは、次の要件を満たす必要があります。\n\n・実行されるコードは、Azure仮想マシン上で実行されるMicrosoft SQL ServerインスタンスのプライベートIPアドレスにアクセスできること\n・コストを最小限に抑えること\n\nあなたはソリューションに何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-005-c1",
+          "label": null,
+          "text": "StandardプランのAzure Logic Apps",
+          "html": "<p>StandardプランのAzure Logic Apps</p>"
+        },
+        {
+          "choiceId": "jp1-q-005-c2",
+          "label": null,
+          "text": "PremiumプランのAzure Functions",
+          "html": "PremiumプランのAzure Functions"
+        },
+        {
+          "choiceId": "jp1-q-005-c3",
+          "label": null,
+          "text": "従量課金プランのAzure Logic Apps",
+          "html": "従量課金プランのAzure Logic Apps"
+        },
+        {
+          "choiceId": "jp1-q-005-c4",
+          "label": null,
+          "text": "従量課金プランのAzure Functions",
+          "html": "従量課金プランのAzure Functions"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-005-c2"
+      ],
+      "explanationHtml": "<p>まず、カスタムC#コードを実行するソリューションとしてAzure Logic Appsでは実現できず、Azure Functionsを選択する必要があるため選択肢1、3以外が候補となります。</p><p><br></p><p>そして、仮想マシンのプライベートIPアドレスにアクセスするためには「仮想ネットワークの統合（Vnet統合）」を使用する必要がありますが、この機能は専用プラン、または、PremiumプランにデプロイされたAzure Functionsで使うことができます。従量課金プランで使用することはできません。</p><p>※Vnet統合は「ネットワークインジェクション」と表現されることもあります。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-scale\">https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-scale</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-premium-plan?tabs=portal#private-network-connectivity\">https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-premium-plan?tabs=portal#private-network-connectivity</a></p><p><br></p><p>【補足】</p><p>2024年10月時点でプレビュー中ですが、Vnet統合をサポートする「Flex 従量課金」プランが追加されています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/flex-consumption-plan\">https://learn.microsoft.com/ja-jp/azure/azure-functions/flex-consumption-plan</a></p>",
+      "explanationText": "まず、カスタムC#コードを実行するソリューションとしてAzure Logic Appsでは実現できず、Azure Functionsを選択する必要があるため選択肢1、3以外が候補となります。\n\nそして、仮想マシンのプライベートIPアドレスにアクセスするためには「仮想ネットワークの統合（Vnet統合）」を使用する必要がありますが、この機能は専用プラン、または、PremiumプランにデプロイされたAzure Functionsで使うことができます。従量課金プランで使用することはできません。\n※Vnet統合は「ネットワークインジェクション」と表現されることもあります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-functions/functions-scale\nhttps://learn.microsoft.com/ja-jp/azure/azure-functions/functions-premium-plan?tabs=portal#private-network-connectivity\n\n【補足】\n2024年10月時点でプレビュー中ですが、Vnet統合をサポートする「Flex 従量課金」プランが追加されています。\nhttps://learn.microsoft.com/ja-jp/azure/azure-functions/flex-consumption-plan",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-006",
+      "sourceQuestionNumber": 6,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、ビジネスクリティカルなデータを格納する新しいアプリを開発することを計画しています。</p><p>アプリは次の要件を満たす必要があります。</p><p><br></p><p>・新しいデータが1年間変更されないようにすること </p><p>・読み取りのレイテンシーを最小にすること </p><p>・その上で可能な限りデータの回復力を高めること</p><p><br></p><p><strong>ストレージアカウントの種類</strong>は何を提案すべきですか。</p><p><br></p><p>ストレージアカウントの種類：</p><p>冗長性：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、ビジネスクリティカルなデータを格納する新しいアプリを開発することを計画しています。\nアプリは次の要件を満たす必要があります。\n\n・新しいデータが1年間変更されないようにすること\n・読み取りのレイテンシーを最小にすること\n・その上で可能な限りデータの回復力を高めること\n\nストレージアカウントの種類は何を提案すべきですか。\n\nストレージアカウントの種類：\n冗長性：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-006-c1",
+          "label": null,
+          "text": "汎用 v2 ストレージ アカウント",
+          "html": "汎用 v2 ストレージ アカウント"
+        },
+        {
+          "choiceId": "jp1-q-006-c2",
+          "label": null,
+          "text": "Premium ファイル共有",
+          "html": "Premium ファイル共有"
+        },
+        {
+          "choiceId": "jp1-q-006-c3",
+          "label": null,
+          "text": "Premium ブロックBLOB",
+          "html": "Premium ブロックBLOB"
+        },
+        {
+          "choiceId": "jp1-q-006-c4",
+          "label": null,
+          "text": "Premium ページBLOB",
+          "html": "Premium ページBLOB"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-006-c3"
+      ],
+      "explanationHtml": "<p>ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。</p><p><br></p><p><code>・新しいデータが1年間変更されないようにすること </code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p><p><br></p><p>Premium ファイル共有はBLOBではないので選択肢2は誤り、</p><p>Premium ページBLOBでは不変ストレージはサポートされていないため、選択肢4も誤りです。</p><p>不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations</a></p><p><br></p><p><code>・読み取りのレイテンシーを最小にすること </code></p><p>選択肢1、3のうち、より低レイテンシーなパフォーマンスを提供するのは「Premium ブロックBLOB」です。</p><p>Premium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium</a></p>",
+      "explanationText": "ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。\n\n・新しいデータが1年間変更されないようにすること\nこの要件を満たすためにはBLOBの不変ストレージを利用します。\n不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\n\nPremium ファイル共有はBLOBではないので選択肢2は誤り、\nPremium ページBLOBでは不変ストレージはサポートされていないため、選択肢4も誤りです。\n不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\n\n・読み取りのレイテンシーを最小にすること\n選択肢1、3のうち、より低レイテンシーなパフォーマンスを提供するのは「Premium ブロックBLOB」です。\nPremium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-007",
+      "sourceQuestionNumber": 7,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、ビジネスクリティカルなデータを格納する新しいアプリを開発することを計画しています。</p><p>アプリは次の要件を満たす必要があります。</p><p><br></p><p>・新しいデータが1年間変更されないようにすること</p><p>・読み取りのレイテンシーを最小にすること </p><p>・その上で可能な限りデータの回復力を高めること</p><p><br></p><p><strong>冗長性</strong>は何を提案すべきですか。</p><p><br></p><p>ストレージアカウントの種類：</p><p>冗長性：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、ビジネスクリティカルなデータを格納する新しいアプリを開発することを計画しています。\nアプリは次の要件を満たす必要があります。\n\n・新しいデータが1年間変更されないようにすること\n・読み取りのレイテンシーを最小にすること\n・その上で可能な限りデータの回復力を高めること\n\n冗長性は何を提案すべきですか。\n\nストレージアカウントの種類：\n冗長性：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-007-c1",
+          "label": null,
+          "text": "ゾーン冗長ストレージ (ZRS)",
+          "html": "ゾーン冗長ストレージ (ZRS)"
+        },
+        {
+          "choiceId": "jp1-q-007-c2",
+          "label": null,
+          "text": "ローカル冗長ストレージ (LRS)",
+          "html": "ローカル冗長ストレージ (LRS)"
+        },
+        {
+          "choiceId": "jp1-q-007-c3",
+          "label": null,
+          "text": "読み取りアクセス geo 冗長ストレージ (RA-GRS)",
+          "html": "読み取りアクセス geo 冗長ストレージ (RA-GRS)"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-007-c1"
+      ],
+      "explanationHtml": "<p><code>・その上で可能な限りデータの回復力を高めること</code></p><p>Premium ブロックBLOBでサポートされる冗長性オプションのうち、もっとも回復力を高めることができるのは「ゾーン冗長ストレージ (ZRS)」です。geo 冗長ストレージ (GRS)はサポートされていません。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types</a></p>",
+      "explanationText": "・その上で可能な限りデータの回復力を高めること\nPremium ブロックBLOBでサポートされる冗長性オプションのうち、もっとも回復力を高めることができるのは「ゾーン冗長ストレージ (ZRS)」です。geo 冗長ストレージ (GRS)はサポートされていません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-008",
+      "sourceQuestionNumber": 8,
+      "promptHtml": "<p>あなたは、いくつかのAzureリージョンにわたってAzure Webアプリの複数のインスタンスをデプロイすることを計画しています。 </p><p>あなたはアプリのための負荷分散ソリューションを設計する必要があります。</p><p>このソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・レート制限をサポートすること</p><p>・すべてのインスタンス間でリクエストのバランスをとること</p><p>・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること</p><p><br></p><p>ソリューション：Azure Load Balancerを使用します</p><p><br></p><p>これは目標を満たしていますか。</p>",
+      "promptText": "あなたは、いくつかのAzureリージョンにわたってAzure Webアプリの複数のインスタンスをデプロイすることを計画しています。\nあなたはアプリのための負荷分散ソリューションを設計する必要があります。\nこのソリューションは、次の要件を満たす必要があります。\n\n・レート制限をサポートすること\n・すべてのインスタンス間でリクエストのバランスをとること\n・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること\n\nソリューション：Azure Load Balancerを使用します\n\nこれは目標を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-008-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp1-q-008-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-008-c2"
+      ],
+      "explanationHtml": "<p>代わりにAzure Front Doorを使用する必要があります。</p><p><br></p><p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p></p><p><code>・レート制限をサポートすること</code></p><p>負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）</p><p><br></p><p><code>・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること</code></p><p>リージョン障害から保護するにはグローバルサービスを選択する必要があります。</p><p>なお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。</p><p>・グローバルかリージョンサービスか</p><p>・レート制限の機能の有無</p><p>・コンテンツキャッシュの機能の有無</p><p><br></p><p><code>・すべてのインスタンス間でリクエストのバランスをとること</code></p><p>これはどの負荷分散オプションでも可能です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p>",
+      "explanationText": "代わりにAzure Front Doorを使用する必要があります。\n\nAzureの負荷分散オプションは大きく次の4種類があります。\n細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。\n\n・レート制限をサポートすること\n負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）\n\n・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること\nリージョン障害から保護するにはグローバルサービスを選択する必要があります。\nなお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。\n・グローバルかリージョンサービスか\n・レート制限の機能の有無\n・コンテンツキャッシュの機能の有無\n\n・すべてのインスタンス間でリクエストのバランスをとること\nこれはどの負荷分散オプションでも可能です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-009",
+      "sourceQuestionNumber": 9,
+      "promptHtml": "<p>あなたは、Azureにデータを移行する予定です。</p><p>あなたの会社のIT部門は、次の要件を特定しています。</p><p><br></p><p>・ストレージの最大容量は1PiB以上をサポートすること</p><p>・データはBLOBストレージに保存すること</p><p>・ストレージはディレクトリの階層構造をサポートすること</p><p>・ストレージはアクセス制御リスト(ACL)をサポートすること</p><p>・コストを最小限に抑えること</p><p><br></p><p>あなたは、これらの要件を満たすことが必要です。あなたは何を使用する必要がありますか。</p>",
+      "promptText": "あなたは、Azureにデータを移行する予定です。\nあなたの会社のIT部門は、次の要件を特定しています。\n\n・ストレージの最大容量は1PiB以上をサポートすること\n・データはBLOBストレージに保存すること\n・ストレージはディレクトリの階層構造をサポートすること\n・ストレージはアクセス制御リスト(ACL)をサポートすること\n・コストを最小限に抑えること\n\nあなたは、これらの要件を満たすことが必要です。あなたは何を使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-009-c1",
+          "label": null,
+          "text": "ブロックBLOB用に構成されたPremiumストレージアカウント",
+          "html": "ブロックBLOB用に構成されたPremiumストレージアカウント"
+        },
+        {
+          "choiceId": "jp1-q-009-c2",
+          "label": null,
+          "text": "階層型名前空間が有効になっている汎用v2ストレージアカウント",
+          "html": "<p>階層型名前空間が有効になっている汎用v2ストレージアカウント</p>"
+        },
+        {
+          "choiceId": "jp1-q-009-c3",
+          "label": null,
+          "text": "ページBLOB用に構成されたPremiumストレージアカウント",
+          "html": "ページBLOB用に構成されたPremiumストレージアカウント"
+        },
+        {
+          "choiceId": "jp1-q-009-c4",
+          "label": null,
+          "text": "ファイル共有のために構成され、大きいファイルの共有をサポートしているPremiumストレージアカウント",
+          "html": "ファイル共有のために構成され、大きいファイルの共有をサポートしているPremiumストレージアカウント"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-009-c2"
+      ],
+      "explanationHtml": "<p><code>・ストレージはディレクトリの階層構造をサポートすること</code></p><p><code>・ストレージはアクセス制御リスト(ACL)をサポートすること</code></p><p>この2つの特徴はBLOBストレージの「階層型名前空間」の特徴を表しています。</p><p><br></p><p>本来のオブジェクトストレージ（BLOB）とは、パソコンのローカルディスクのようにディレクトリ構造（パス）で保存場所を管理せず、オブジェクトIDと呼ばれる識別子で管理するフラットな構造のストレージを指しますが、ディレクトリ階層を模倣するためにパスの区切りを示すスラッシュ (/) をオブジェクト名に埋め込むという方法で実現しています。</p><p><br></p><p>階層型名前空間を有効にすると、一般的なファイルシステムと同じようにディレクトリの階層構造で整理することができ、ディレクトリの移動、名前変更、削除などの操作を最適化することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-namespace\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-namespace</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-access-control\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-access-control</a></p><p><br></p><p>階層型名前空間は汎用v2、PremiumブロックBLOBで構成することができます。（ページBLOB、ファイル共有では使えません）</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts</a></p><p><br></p><p>選択肢1、2が候補となりますが、「階層型名前空間が有効になっている」と明示されており、コストもPremiumブロックBLOBより安価な選択肢2が正解となります。</p><p><br></p><p><code>・ストレージの最大容量は1PiB以上をサポートすること</code></p><p>ほとんどのシナリオではストレージアカウントの最大容量の既定値は5PiBになっています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#storage-limits\">https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#storage-limits</a></p>",
+      "explanationText": "・ストレージはディレクトリの階層構造をサポートすること\n・ストレージはアクセス制御リスト(ACL)をサポートすること\nこの2つの特徴はBLOBストレージの「階層型名前空間」の特徴を表しています。\n\n本来のオブジェクトストレージ（BLOB）とは、パソコンのローカルディスクのようにディレクトリ構造（パス）で保存場所を管理せず、オブジェクトIDと呼ばれる識別子で管理するフラットな構造のストレージを指しますが、ディレクトリ階層を模倣するためにパスの区切りを示すスラッシュ (/) をオブジェクト名に埋め込むという方法で実現しています。\n\n階層型名前空間を有効にすると、一般的なファイルシステムと同じようにディレクトリの階層構造で整理することができ、ディレクトリの移動、名前変更、削除などの操作を最適化することができます。\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-namespace\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-access-control\n\n階層型名前空間は汎用v2、PremiumブロックBLOBで構成することができます。（ページBLOB、ファイル共有では使えません）\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts\n\n選択肢1、2が候補となりますが、「階層型名前空間が有効になっている」と明示されており、コストもPremiumブロックBLOBより安価な選択肢2が正解となります。\n\n・ストレージの最大容量は1PiB以上をサポートすること\nほとんどのシナリオではストレージアカウントの最大容量の既定値は5PiBになっています。\nhttps://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#storage-limits",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-010",
+      "sourceQuestionNumber": 10,
+      "promptHtml": "<p>あなたは、複数のAzureリージョンで複数の書き込み可能なレプリカをホストするAzure Cosmos DBソリューションを設計しています。</p><p>あなたは設計のための最も強力なデータベース整合性レベルを提案する必要があります。</p><p>ソリューションは次の要件を満たす必要があります。 </p><p><br></p><p>・複数のリージョンにまたがるAzure Cosmos DB アカウントに対して、データの書き込みにおける待機時間（レイテンシ）のサービスレベルアグリーメント（SLA）を提供すること</p><p><br></p><p>あなたはどの整合性レベルを提案すべきですか。</p>",
+      "promptText": "あなたは、複数のAzureリージョンで複数の書き込み可能なレプリカをホストするAzure Cosmos DBソリューションを設計しています。\nあなたは設計のための最も強力なデータベース整合性レベルを提案する必要があります。\nソリューションは次の要件を満たす必要があります。\n\n・複数のリージョンにまたがるAzure Cosmos DB アカウントに対して、データの書き込みにおける待機時間（レイテンシ）のサービスレベルアグリーメント（SLA）を提供すること\n\nあなたはどの整合性レベルを提案すべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-010-c1",
+          "label": null,
+          "text": "厳密",
+          "html": "厳密"
+        },
+        {
+          "choiceId": "jp1-q-010-c2",
+          "label": null,
+          "text": "有界整合性制約",
+          "html": "有界整合性制約"
+        },
+        {
+          "choiceId": "jp1-q-010-c3",
+          "label": null,
+          "text": "セッション",
+          "html": "セッション"
+        },
+        {
+          "choiceId": "jp1-q-010-c4",
+          "label": null,
+          "text": "一貫性のあるプレフィックス",
+          "html": "一貫性のあるプレフィックス"
+        },
+        {
+          "choiceId": "jp1-q-010-c5",
+          "label": null,
+          "text": "最終的",
+          "html": "最終的"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-010-c2"
+      ],
+      "explanationHtml": "<p>Azure Cosmos DBの整合性レベルには最強から最弱の順に、次のレベルがあります。</p><p>・厳密（強固）</p><p>・有界整合性制約</p><p>・セッション</p><p>・一貫性のあるプレフィックス</p><p>・最終的</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels</a></p><p><br></p><p>このうち、要件を満たす最も強力な整合性レベルは選択肢2の「有界整合性制約」になります。</p><p>最も強力なのは「厳密（強固）」ですが、複数のリージョンにまたがる構成の場合、書き込み待機時間のSLAは対象外となります。</p><p><br></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels#consistency-levels-and-latency\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels#consistency-levels-and-latency</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/\">https://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/</a></p>",
+      "explanationText": "Azure Cosmos DBの整合性レベルには最強から最弱の順に、次のレベルがあります。\n・厳密（強固）\n・有界整合性制約\n・セッション\n・一貫性のあるプレフィックス\n・最終的\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels\n\nこのうち、要件を満たす最も強力な整合性レベルは選択肢2の「有界整合性制約」になります。\n最も強力なのは「厳密（強固）」ですが、複数のリージョンにまたがる構成の場合、書き込み待機時間のSLAは対象外となります。\n\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels#consistency-levels-and-latency\nhttps://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

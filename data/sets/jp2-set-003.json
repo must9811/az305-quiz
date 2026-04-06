@@ -1,0 +1,427 @@
+{
+  "setId": "jp2-set-003",
+  "title": "問題集2 21-30",
+  "sourceHtml": "udemy/問題集2.html",
+  "questionIds": [
+    "jp2-q-021",
+    "jp2-q-022",
+    "jp2-q-023",
+    "jp2-q-024",
+    "jp2-q-025",
+    "jp2-q-026",
+    "jp2-q-027",
+    "jp2-q-028",
+    "jp2-q-029",
+    "jp2-q-030"
+  ],
+  "questions": [
+    {
+      "questionId": "jp2-q-021",
+      "sourceQuestionNumber": 21,
+      "promptHtml": "<p>あなたは、Azureサブスクリプションへのリソースのデプロイを自動化することを計画しています。</p><p>Azure BlueprintsとAzure Resource Manager（ARM）テンプレートを使用することの違いは何ですか。</p>",
+      "promptText": "あなたは、Azureサブスクリプションへのリソースのデプロイを自動化することを計画しています。\nAzure BlueprintsとAzure Resource Manager（ARM）テンプレートを使用することの違いは何ですか。",
+      "choices": [
+        {
+          "choiceId": "jp2-q-021-c1",
+          "label": null,
+          "text": "ARMテンプレートは、デプロイされたリソースに接続されたままです",
+          "html": "ARMテンプレートは、デプロイされたリソースに接続されたままです"
+        },
+        {
+          "choiceId": "jp2-q-021-c2",
+          "label": null,
+          "text": "ARMテンプレートだけがポリシー定義を含むことができます",
+          "html": "ARMテンプレートだけがポリシー定義を含むことができます"
+        },
+        {
+          "choiceId": "jp2-q-021-c3",
+          "label": null,
+          "text": "Azure Blueprintsは、デプロイされたリソースに接続されたままです",
+          "html": "Azure Blueprintsは、デプロイされたリソースに接続されたままです"
+        },
+        {
+          "choiceId": "jp2-q-021-c4",
+          "label": null,
+          "text": "Azure Blueprintsだけがポリシー定義を含むことができます",
+          "html": "Azure Blueprintsだけがポリシー定義を含むことができます"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-021-c3"
+      ],
+      "explanationHtml": "<p>Azure Blueprintsは、Azure Policyやロール（RBAC）などの割り当て定義をテンプレート化して、複数のサブスクリプションに適用および監査・追跡するための仕組みです。</p><p><br></p><p>Azure Blueprints では、ブループリント定義（何をデプロイする<em>必要がある</em>か）とブループリント割り当て（何がデプロイ<em>された</em>か）の間の関係が維持されます。</p><p>複数の環境への同じリソースセットの展開を効率化する点はARMテンプレートと似ていますが、Azure Blueprintsでは関係性の維持によってデプロイの追跡がしやすく監査の観点でもメリットがあると言えます。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview</a></p>",
+      "explanationText": "Azure Blueprintsは、Azure Policyやロール（RBAC）などの割り当て定義をテンプレート化して、複数のサブスクリプションに適用および監査・追跡するための仕組みです。\n\nAzure Blueprints では、ブループリント定義（何をデプロイする必要があるか）とブループリント割り当て（何がデプロイされたか）の間の関係が維持されます。\n複数の環境への同じリソースセットの展開を効率化する点はARMテンプレートと似ていますが、Azure Blueprintsでは関係性の維持によってデプロイの追跡がしやすく監査の観点でもメリットがあると言えます。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-022",
+      "sourceQuestionNumber": 22,
+      "promptHtml": "<p>あなたは、Azure SQL Databaseを含むAzureサブスクリプションを持っています。</p><p>あなたはAzure SQL DatabaseでAzure予約を使用することを計画しています。</p><p>どのリソースタイプに予約割引が適用されますか。</p>",
+      "promptText": "あなたは、Azure SQL Databaseを含むAzureサブスクリプションを持っています。\nあなたはAzure SQL DatabaseでAzure予約を使用することを計画しています。\nどのリソースタイプに予約割引が適用されますか。",
+      "choices": [
+        {
+          "choiceId": "jp2-q-022-c1",
+          "label": null,
+          "text": "仮想コア",
+          "html": "仮想コア"
+        },
+        {
+          "choiceId": "jp2-q-022-c2",
+          "label": null,
+          "text": "DTU",
+          "html": "DTU"
+        },
+        {
+          "choiceId": "jp2-q-022-c3",
+          "label": null,
+          "text": "ライセンス",
+          "html": "ライセンス"
+        },
+        {
+          "choiceId": "jp2-q-022-c4",
+          "label": null,
+          "text": "ストレージ",
+          "html": "ストレージ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-022-c1"
+      ],
+      "explanationHtml": "<p>Azure SQL Databaseの購入モデルには次の2つがあります。</p><p>・仮想コア</p><p>・DTU</p><p><br></p><p>予約割引を適用できるのは「仮想コア」です。</p><p>DTU ベース (Basic、Standard、Premium) のデータベースで予約割引を適用することはできないので注意しましょう。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/purchasing-models?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/purchasing-models?view=azuresql</a></p>",
+      "explanationText": "Azure SQL Databaseの購入モデルには次の2つがあります。\n・仮想コア\n・DTU\n\n予約割引を適用できるのは「仮想コア」です。\nDTU ベース (Basic、Standard、Premium) のデータベースで予約割引を適用することはできないので注意しましょう。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/purchasing-models?view=azuresql",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-023",
+      "sourceQuestionNumber": 23,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、Microsoft Entra認証を使用するApp1という名前のAzure Webアプリをデプロイする予定です。</p><p>App1は、あなたの会社のユーザーによってインターネットからアクセスされます。</p><p>すべてのユーザーは、Windows 10 を実行するパソコンを持ち、Microsoft Entraに参加しています。</p><p><br></p><p>あなたは、次の要件を満たすソリューションを提案する必要があります。</p><p>・ユーザーは認証を要求されることなくApp1に接続できること</p><p>・会社が所有するパソコンからのみApp1にアクセスできること</p><p><br></p><p><strong>ユーザーが認証を要求されることなくApp1に接続できる</strong>ようにするために何を提案すべきですか。</p><p><br></p><p>ユーザーは認証を要求されることなくApp1に接続できる：</p><p>ユーザーは会社所有のパソコンからのみApp1にアクセスできる：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、Microsoft Entra認証を使用するApp1という名前のAzure Webアプリをデプロイする予定です。\nApp1は、あなたの会社のユーザーによってインターネットからアクセスされます。\nすべてのユーザーは、Windows 10 を実行するパソコンを持ち、Microsoft Entraに参加しています。\n\nあなたは、次の要件を満たすソリューションを提案する必要があります。\n・ユーザーは認証を要求されることなくApp1に接続できること\n・会社が所有するパソコンからのみApp1にアクセスできること\n\nユーザーが認証を要求されることなくApp1に接続できるようにするために何を提案すべきですか。\n\nユーザーは認証を要求されることなくApp1に接続できる：\nユーザーは会社所有のパソコンからのみApp1にアクセスできる：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-023-c1",
+          "label": null,
+          "text": "Microsoft Entra アプリの登録",
+          "html": "<p>Microsoft Entra アプリの登録</p>"
+        },
+        {
+          "choiceId": "jp2-q-023-c2",
+          "label": null,
+          "text": "システム割り当てマネージド ID",
+          "html": "<p>システム割り当てマネージド ID</p>"
+        },
+        {
+          "choiceId": "jp2-q-023-c3",
+          "label": null,
+          "text": "Microsoft Entra アプリケーションプロキシ",
+          "html": "<p>Microsoft Entra アプリケーションプロキシ</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-023-c1"
+      ],
+      "explanationHtml": "<p>まず、前提知識を少し解説します。</p><p><code>あなたは、Microsoft Entra認証を使用するApp1という名前のAzure Webアプリをデプロイする予定です。</code></p><p>Azure App ServiceのMicrosoft Entra認証（組み込み認証）を使うと、アプリのコードにログインの仕組みを実装することなく、Microsoft Entra IDと連携して認証できるようになります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/configure-authentication-provider-aad\">https://learn.microsoft.com/ja-jp/azure/app-service/configure-authentication-provider-aad</a></p><p><br></p><p>Microsoft Entra認証を構成するには、App Serviceの認証メニューで「ID プロバイダーの追加」の追加をクリックします。IDプロバイダーには「Microsoft」を選択します。</p><p></p><p>この操作により、自動的にMicrosoft Entra アプリとして登録され、Microsoft Entra認証が使用できるようになります。</p><p></p><p><br></p><p><code>・ユーザーは認証を要求されることなくApp1に接続できること </code></p><p>前述のとおりMicrosoft Entra認証を構成している場合、同じテナントのMicrosoft Entraに参加しているパソコンからであれば、認証を求められることなくAzure App Serviceに接続することができます。</p><p><br></p><p>Microsoft Entra認証の構成手順は簡素化されていますが、使用するには「Microsoft Entraへのアプリの登録」が必要なので選択肢1が正解です。</p>",
+      "explanationText": "まず、前提知識を少し解説します。\nあなたは、Microsoft Entra認証を使用するApp1という名前のAzure Webアプリをデプロイする予定です。\nAzure App ServiceのMicrosoft Entra認証（組み込み認証）を使うと、アプリのコードにログインの仕組みを実装することなく、Microsoft Entra IDと連携して認証できるようになります。\nhttps://learn.microsoft.com/ja-jp/azure/app-service/configure-authentication-provider-aad\n\nMicrosoft Entra認証を構成するには、App Serviceの認証メニューで「ID プロバイダーの追加」の追加をクリックします。IDプロバイダーには「Microsoft」を選択します。\n\nこの操作により、自動的にMicrosoft Entra アプリとして登録され、Microsoft Entra認証が使用できるようになります。\n\n・ユーザーは認証を要求されることなくApp1に接続できること\n前述のとおりMicrosoft Entra認証を構成している場合、同じテナントのMicrosoft Entraに参加しているパソコンからであれば、認証を求められることなくAzure App Serviceに接続することができます。\n\nMicrosoft Entra認証の構成手順は簡素化されていますが、使用するには「Microsoft Entraへのアプリの登録」が必要なので選択肢1が正解です。",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-024",
+      "sourceQuestionNumber": 24,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、Microsoft Entra認証を使用するApp1という名前のAzure Webアプリをデプロイする予定です。</p><p>App1は、あなたの会社のユーザーによってインターネットからアクセスされます。</p><p>すべてのユーザーは、Windows 10 を実行するパソコンを持ち、Microsoft Entraに参加しています。</p><p><br></p><p>あなたは、次の要件を満たすソリューションを提案する必要があります。</p><p>・ユーザーは認証を要求されることなくApp1に接続できること</p><p>・会社が所有するパソコンからのみApp1にアクセスできること</p><p><br></p><p><strong>ユーザーが会社所有のパソコンからのみApp1にアクセスできる</strong>ようにするために何を提案すべきですか。</p><p><br></p><p>ユーザーは認証を要求されることなくApp1に接続できる：</p><p>ユーザーは会社所有のパソコンからのみApp1にアクセスできる：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、Microsoft Entra認証を使用するApp1という名前のAzure Webアプリをデプロイする予定です。\nApp1は、あなたの会社のユーザーによってインターネットからアクセスされます。\nすべてのユーザーは、Windows 10 を実行するパソコンを持ち、Microsoft Entraに参加しています。\n\nあなたは、次の要件を満たすソリューションを提案する必要があります。\n・ユーザーは認証を要求されることなくApp1に接続できること\n・会社が所有するパソコンからのみApp1にアクセスできること\n\nユーザーが会社所有のパソコンからのみApp1にアクセスできるようにするために何を提案すべきですか。\n\nユーザーは認証を要求されることなくApp1に接続できる：\nユーザーは会社所有のパソコンからのみApp1にアクセスできる：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-024-c1",
+          "label": null,
+          "text": "条件付きアクセス ポリシー",
+          "html": "条件付きアクセス ポリシー"
+        },
+        {
+          "choiceId": "jp2-q-024-c2",
+          "label": null,
+          "text": "Microsoft Entra ID の管理単位",
+          "html": "<p>Microsoft Entra ID の管理単位</p>"
+        },
+        {
+          "choiceId": "jp2-q-024-c3",
+          "label": null,
+          "text": "Azure Application Gateway",
+          "html": "Azure Application Gateway"
+        },
+        {
+          "choiceId": "jp2-q-024-c4",
+          "label": null,
+          "text": "Azure Blueprints",
+          "html": "Azure Blueprints"
+        },
+        {
+          "choiceId": "jp2-q-024-c5",
+          "label": null,
+          "text": "Azure Policy",
+          "html": "Azure Policy"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-024-c1"
+      ],
+      "explanationHtml": "<p><code>・会社が所有するパソコンからのみApp1にアクセスできること</code> </p><p>ユーザーやデバイスの状態など様々なシグナルに基づいてリソースにアクセスできるかどうかを制御するには「条件付きアクセス」を使用します。</p><p><br></p><p>一般的には、パソコンなどのデバイス管理は「Microsoft Intune」というサービスで管理されます。</p><p>企業のパソコンがIntuneに登録され「会社所有」としてマークされている場合、条件付きアクセスではデバイスフィルターを使ってアクセス許可/拒否する条件を絞り込むことができます。</p><p></p><p>他にも、デバイスがIntuneで定められたルールに準拠していることや、Microsoft Entra ハイブリッド参加が構成済みであることなどを条件にすることもできます。</p><p>条件を満たさない場合、例えば次のようなメッセージが表示されます。</p><p><a href=\"https://jpazureid.github.io/blog/azure-active-directory/conditional-cannot-access-rightnow\">https://jpazureid.github.io/blog/azure-active-directory/conditional-cannot-access-rightnow</a></p><p></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/mem/intune/enrollment/device-enrollment\">https://learn.microsoft.com/ja-jp/mem/intune/enrollment/device-enrollment</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-condition-filters-for-devices\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-condition-filters-for-devices</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant</a></p>",
+      "explanationText": "・会社が所有するパソコンからのみApp1にアクセスできること\nユーザーやデバイスの状態など様々なシグナルに基づいてリソースにアクセスできるかどうかを制御するには「条件付きアクセス」を使用します。\n\n一般的には、パソコンなどのデバイス管理は「Microsoft Intune」というサービスで管理されます。\n企業のパソコンがIntuneに登録され「会社所有」としてマークされている場合、条件付きアクセスではデバイスフィルターを使ってアクセス許可/拒否する条件を絞り込むことができます。\n\n他にも、デバイスがIntuneで定められたルールに準拠していることや、Microsoft Entra ハイブリッド参加が構成済みであることなどを条件にすることもできます。\n条件を満たさない場合、例えば次のようなメッセージが表示されます。\nhttps://jpazureid.github.io/blog/azure-active-directory/conditional-cannot-access-rightnow\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/mem/intune/enrollment/device-enrollment\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-condition-filters-for-devices\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-025",
+      "sourceQuestionNumber": 25,
+      "promptHtml": "<p>あなたは、Azureのガバナンスソリューションを設計しています。</p><p>すべてのAzureリソースは、プロジェクト、環境、所有者、部門などの運用情報に基づいて識別できるようにする必要があります。</p><p>あなたは、ソリューションに何を含めるべきですか。</p>",
+      "promptText": "あなたは、Azureのガバナンスソリューションを設計しています。\nすべてのAzureリソースは、プロジェクト、環境、所有者、部門などの運用情報に基づいて識別できるようにする必要があります。\nあなたは、ソリューションに何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp2-q-025-c1",
+          "label": null,
+          "text": "Microsoft Entra ID の管理単位",
+          "html": "<p>Microsoft Entra ID の管理単位</p>"
+        },
+        {
+          "choiceId": "jp2-q-025-c2",
+          "label": null,
+          "text": "Azure Advisor",
+          "html": "Azure Advisor"
+        },
+        {
+          "choiceId": "jp2-q-025-c3",
+          "label": null,
+          "text": "タグ付けルールを強制するAzure Policy",
+          "html": "タグ付けルールを強制するAzure Policy"
+        },
+        {
+          "choiceId": "jp2-q-025-c4",
+          "label": null,
+          "text": "入れ子構造になった管理グループ",
+          "html": "入れ子構造になった管理グループ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-025-c3"
+      ],
+      "explanationHtml": "<p>Azureリソースを任意の運用情報に基づいて識別するにはタグが便利です。</p><p>タグは、リソースに対するメタデータ（付加情報）で、目印、ラベルのようなものです。名前と値のペアで登録します。</p><p><br></p><p>必須のタグを強制したい場合、Azure Policyを使用します。</p><p>Azure Policyのポリシー定義を割り当てることで、必要とされるタグの登録漏れを防ぐことができます。</p><p>また、修復タスクを使用して、既存リソースにタグを適用することもできます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/tag-policies\">https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/tag-policies</a></p>",
+      "explanationText": "Azureリソースを任意の運用情報に基づいて識別するにはタグが便利です。\nタグは、リソースに対するメタデータ（付加情報）で、目印、ラベルのようなものです。名前と値のペアで登録します。\n\n必須のタグを強制したい場合、Azure Policyを使用します。\nAzure Policyのポリシー定義を割り当てることで、必要とされるタグの登録漏れを防ぐことができます。\nまた、修復タスクを使用して、既存リソースにタグを適用することもできます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/tag-policies",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-026",
+      "sourceQuestionNumber": 26,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、AzureでステートレスなWebアプリケーションをホストするためにリソースをデプロイする必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・完全な.NETフレームワークへのアクセスを提供すること</p><p>・Azureリージョンに障害が発生した場合に備えて冗長性を提供すること</p><p>・カスタムアプリケーションの依存関係をインストールするために、管理者がオペレーティングシステムにアクセスできること</p><p><br></p><p>ソリューション：自動スケールを使用する仮想マシンスケールセットをデプロイします</p><p><br></p><p>これは目標を満たしていますか。</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、AzureでステートレスなWebアプリケーションをホストするためにリソースをデプロイする必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・完全な.NETフレームワークへのアクセスを提供すること\n・Azureリージョンに障害が発生した場合に備えて冗長性を提供すること\n・カスタムアプリケーションの依存関係をインストールするために、管理者がオペレーティングシステムにアクセスできること\n\nソリューション：自動スケールを使用する仮想マシンスケールセットをデプロイします\n\nこれは目標を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "jp2-q-026-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp2-q-026-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-026-c2"
+      ],
+      "explanationHtml": "<p><code>・完全な.NETフレームワークへのアクセスを提供すること</code></p><p><code>・カスタムアプリケーションの依存関係をインストールするために、管理者がオペレーティングシステムにアクセスできること</code></p><p>この2つの要件より、IaaSベースのサービスを使用する必要があります。</p><p><br></p><p><code>・Azureリージョンに障害が発生した場合に備えて冗長性を提供すること</code></p><p>仮想マシンスケールセットは、可用性ゾーンに分散させて構成することはできますが、リージョンを跨いで冗長構成にすることはできません。</p><p><br></p><p>代わりに、たとえば2つのAzure仮想マシンを2つのAzureリージョンに展開して、Traffic Manager や Azure Front Doorを使ってグローバルに負荷分散することで、リージョン障害に備えることができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones\">https://learn.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-overview\">https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/frontdoor/front-door-overview\">https://learn.microsoft.com/ja-jp/azure/frontdoor/front-door-overview</a></p>",
+      "explanationText": "・完全な.NETフレームワークへのアクセスを提供すること\n・カスタムアプリケーションの依存関係をインストールするために、管理者がオペレーティングシステムにアクセスできること\nこの2つの要件より、IaaSベースのサービスを使用する必要があります。\n\n・Azureリージョンに障害が発生した場合に備えて冗長性を提供すること\n仮想マシンスケールセットは、可用性ゾーンに分散させて構成することはできますが、リージョンを跨いで冗長構成にすることはできません。\n\n代わりに、たとえば2つのAzure仮想マシンを2つのAzureリージョンに展開して、Traffic Manager や Azure Front Doorを使ってグローバルに負荷分散することで、リージョン障害に備えることができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones\nhttps://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-overview\nhttps://learn.microsoft.com/ja-jp/azure/frontdoor/front-door-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-027",
+      "sourceQuestionNumber": 27,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、AzureでステートレスなWebアプリケーションをホストするためにリソースをデプロイする必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・完全な.NETフレームワークへのアクセスを提供すること</p><p>・Azureリージョンに障害が発生した場合に備えて冗長性を提供すること</p><p>・カスタムアプリケーションの依存関係をインストールするために、管理者がオペレーティングシステムにアクセスできること</p><p><br></p><p>ソリューション：2 つの Azure 仮想マシンを 2 つの Azure リージョンにデプロイし、Traffic Manager プロファイルを作成します</p><p><br></p><p>これは目標を満たしていますか。</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、AzureでステートレスなWebアプリケーションをホストするためにリソースをデプロイする必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・完全な.NETフレームワークへのアクセスを提供すること\n・Azureリージョンに障害が発生した場合に備えて冗長性を提供すること\n・カスタムアプリケーションの依存関係をインストールするために、管理者がオペレーティングシステムにアクセスできること\n\nソリューション：2 つの Azure 仮想マシンを 2 つの Azure リージョンにデプロイし、Traffic Manager プロファイルを作成します\n\nこれは目標を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "jp2-q-027-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp2-q-027-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-027-c1"
+      ],
+      "explanationHtml": "<p><code>・完全な.NETフレームワークへのアクセスを提供すること</code></p><p><code>・カスタムアプリケーションの依存関係をインストールするために、管理者がオペレーティングシステムにアクセスできること</code></p><p>この2つの要件より、IaaSベースのサービスを使用する必要があります。仮想マシンは要件を満たします。</p><p><br></p><p><code>・Azureリージョンに障害が発生した場合に備えて冗長性を提供すること</code></p><p>Traffic Managerを使用すると、DNSベースのルーティング方法を用いてトラフィックをAzureリージョン全体に分散することができます。</p><p>2台の仮想マシンを別々のリージョンにデプロイし、Traffic Manager プロファイル作成後、 エンドポイントに仮想マシンのパブリックIPアドレスを登録することで、リージョン障害に備えることができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-overview\">https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-endpoint-types\">https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-endpoint-types</a></p>",
+      "explanationText": "・完全な.NETフレームワークへのアクセスを提供すること\n・カスタムアプリケーションの依存関係をインストールするために、管理者がオペレーティングシステムにアクセスできること\nこの2つの要件より、IaaSベースのサービスを使用する必要があります。仮想マシンは要件を満たします。\n\n・Azureリージョンに障害が発生した場合に備えて冗長性を提供すること\nTraffic Managerを使用すると、DNSベースのルーティング方法を用いてトラフィックをAzureリージョン全体に分散することができます。\n2台の仮想マシンを別々のリージョンにデプロイし、Traffic Manager プロファイル作成後、 エンドポイントに仮想マシンのパブリックIPアドレスを登録することで、リージョン障害に備えることができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-overview\nhttps://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-endpoint-types",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-028",
+      "sourceQuestionNumber": 28,
+      "promptHtml": "<p>あなたは、あるアプリケーション向けのデータベースソリューションを提案する必要があります。</p><p>ソリューションは次の要件を満たすことが必要です。</p><p><br></p><p>・SQLコマンドをサポートすること</p><p>・マルチマスターの書き込みをサポートすること</p><p>・低遅延の読み取り操作を保証すること</p><p><br></p><p>提案には何を含めるべきですか。</p>",
+      "promptText": "あなたは、あるアプリケーション向けのデータベースソリューションを提案する必要があります。\nソリューションは次の要件を満たすことが必要です。\n\n・SQLコマンドをサポートすること\n・マルチマスターの書き込みをサポートすること\n・低遅延の読み取り操作を保証すること\n\n提案には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp2-q-028-c1",
+          "label": null,
+          "text": "Azure Cosmos DB",
+          "html": "<p>Azure Cosmos DB</p>"
+        },
+        {
+          "choiceId": "jp2-q-028-c2",
+          "label": null,
+          "text": "アクティブ geo レプリケーションを使用するAzure SQL Database",
+          "html": "アクティブ geo レプリケーションを使用するAzure SQL Database"
+        },
+        {
+          "choiceId": "jp2-q-028-c3",
+          "label": null,
+          "text": "Azure SQL Database Hyperscale",
+          "html": "Azure SQL Database Hyperscale"
+        },
+        {
+          "choiceId": "jp2-q-028-c4",
+          "label": null,
+          "text": "Azure Database for MySQL",
+          "html": "Azure Database for MySQL"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-028-c1"
+      ],
+      "explanationHtml": "<p><code>・マルチマスターの書き込みをサポートすること</code></p><p><code>・低遅延の読み取り操作を保証すること</code></p><p>Azure Cosmos DB は、フルマネージドの NoSQL とリレーショナルデータベースです。</p><p>数ミリ秒 (1 桁台)の応答時間、グローバル分散、マルチマスター（複数リージョンに書き込み可能）などの特徴があり、スループット、レイテンシー（待機時間）、月間稼働時間などに対してSLAが提供されています。</p><p><br></p><p><code>・SQLコマンドをサポートすること</code></p><p>Azure Cosmos DB には、次のように複数のAPIが用意されています。</p><p>・Azure Cosmos DB for NoSQL</p><p>・Azure Cosmos DB for MongoDB</p><p>・Azure Cosmos DB for Apache Cassandra</p><p>・Azure Cosmos DB for Table</p><p>・Azure Cosmos DB for Apache Gremlin</p><p>・Azure Cosmos DB for PostgreSQL</p><p><br></p><p>このうち、Azure Cosmos DB for NoSQLではSQL構文を使用したクエリがサポートされています。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/introduction\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/introduction</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/choose-api#coresql-api\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/choose-api#coresql-api</a></p>",
+      "explanationText": "・マルチマスターの書き込みをサポートすること\n・低遅延の読み取り操作を保証すること\nAzure Cosmos DB は、フルマネージドの NoSQL とリレーショナルデータベースです。\n数ミリ秒 (1 桁台)の応答時間、グローバル分散、マルチマスター（複数リージョンに書き込み可能）などの特徴があり、スループット、レイテンシー（待機時間）、月間稼働時間などに対してSLAが提供されています。\n\n・SQLコマンドをサポートすること\nAzure Cosmos DB には、次のように複数のAPIが用意されています。\n・Azure Cosmos DB for NoSQL\n・Azure Cosmos DB for MongoDB\n・Azure Cosmos DB for Apache Cassandra\n・Azure Cosmos DB for Table\n・Azure Cosmos DB for Apache Gremlin\n・Azure Cosmos DB for PostgreSQL\n\nこのうち、Azure Cosmos DB for NoSQLではSQL構文を使用したクエリがサポートされています。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/introduction\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/choose-api#coresql-api",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-029",
+      "sourceQuestionNumber": 29,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、Azureに移行する予定のオンプレミスデータベースを持っています。</p><p>あなたは、次の要件を満たすデータベース アーキテクチャを設計する必要があります。</p><p><br></p><p>・スケールアップとスケールダウンをサポートすること</p><p>・地理的に冗長なバックアップをサポートすること</p><p>・最大 100 TB のデータベースをサポートすること</p><p>・オンライントランザクション処理（OLTP）に最適化されていること</p><p><br></p><p><strong>デプロイするAzureサービス</strong>には何を含めるべきですか。</p><p><br></p><p>デプロイするAzureサービス：</p><p>サービスレベル：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、Azureに移行する予定のオンプレミスデータベースを持っています。\nあなたは、次の要件を満たすデータベース アーキテクチャを設計する必要があります。\n\n・スケールアップとスケールダウンをサポートすること\n・地理的に冗長なバックアップをサポートすること\n・最大 100 TB のデータベースをサポートすること\n・オンライントランザクション処理（OLTP）に最適化されていること\n\nデプロイするAzureサービスには何を含めるべきですか。\n\nデプロイするAzureサービス：\nサービスレベル：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-029-c1",
+          "label": null,
+          "text": "Azure SQL Database",
+          "html": "Azure SQL Database"
+        },
+        {
+          "choiceId": "jp2-q-029-c2",
+          "label": null,
+          "text": "Azure SQL Managed Instance",
+          "html": "Azure SQL Managed Instance"
+        },
+        {
+          "choiceId": "jp2-q-029-c3",
+          "label": null,
+          "text": "Azure Synapse Analytics",
+          "html": "Azure Synapse Analytics"
+        },
+        {
+          "choiceId": "jp2-q-029-c4",
+          "label": null,
+          "text": "仮想マシン上のSQL Server",
+          "html": "仮想マシン上のSQL Server"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-029-c1"
+      ],
+      "explanationHtml": "<p><code>・スケールアップとスケールダウンをサポートすること</code></p><p><code>・地理的に冗長なバックアップをサポートすること</code></p><p>この要件からAzure SQL Databaseか、Azure SQL Managed Instanceが候補になりますが、<code>・最大 100 TB のデータベースをサポートすること</code> の要件を満たせるのは Azure SQL Database の Hyperscale のみです。</p><p>Hyperscaleでは、データベースを構成するときに最大データ サイズを指定する必要はなく、10 GB から 100 TB までの間 (必要に応じて 10 GB 単位で増分) で自動的に割り当てられます。</p><p><br></p><p>Azure SQL Databaseのデプロイオプションと最大ストレージサイズなどをまとめると次のとおりです。</p><p>将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。</p><p><br></p><p><code>・オンライントランザクション処理（OLTP）に最適化されていること</code></p><p>選択肢3のAzure Synapse Analytics は、データ統合、データ ウェアハウス、ビッグデータ分析が一つになった制限のない分析サービスです。</p><p>読み取りと書き込みの頻度が高い場合などOLTPワークロードでは、Azure Synapse Analytics は適していません。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/synapse-analytics/migration-guides/migrate-to-synapse-analytics-guide\">https://learn.microsoft.com/ja-jp/azure/synapse-analytics/migration-guides/migrate-to-synapse-analytics-guide</a></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/service-tier-hyperscale?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/service-tier-hyperscale?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-vcore-single-databases?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-vcore-single-databases?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/resource-limits?view=azuresql#hardware-configuration-characteristics\">https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/resource-limits?view=azuresql#hardware-configuration-characteristics</a></p>",
+      "explanationText": "・スケールアップとスケールダウンをサポートすること\n・地理的に冗長なバックアップをサポートすること\nこの要件からAzure SQL Databaseか、Azure SQL Managed Instanceが候補になりますが、・最大 100 TB のデータベースをサポートすること の要件を満たせるのは Azure SQL Database の Hyperscale のみです。\nHyperscaleでは、データベースを構成するときに最大データ サイズを指定する必要はなく、10 GB から 100 TB までの間 (必要に応じて 10 GB 単位で増分) で自動的に割り当てられます。\n\nAzure SQL Databaseのデプロイオプションと最大ストレージサイズなどをまとめると次のとおりです。\n将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。\n\n・オンライントランザクション処理（OLTP）に最適化されていること\n選択肢3のAzure Synapse Analytics は、データ統合、データ ウェアハウス、ビッグデータ分析が一つになった制限のない分析サービスです。\n読み取りと書き込みの頻度が高い場合などOLTPワークロードでは、Azure Synapse Analytics は適していません。\nhttps://learn.microsoft.com/ja-jp/azure/synapse-analytics/migration-guides/migrate-to-synapse-analytics-guide\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/service-tier-hyperscale?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-vcore-single-databases?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/resource-limits?view=azuresql#hardware-configuration-characteristics",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-030",
+      "sourceQuestionNumber": 30,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、Azureに移行する予定のオンプレミスデータベースを持っています。</p><p>あなたは、次の要件を満たすデータベース アーキテクチャを設計する必要があります。</p><p><br></p><p>・スケールアップとスケールダウンをサポートすること</p><p>・地理的に冗長なバックアップをサポートすること</p><p>・最大 100 TB のデータベースをサポートすること</p><p>・オンライントランザクション処理（OLTP）に最適化されていること</p><p><br></p><p>デプロイするAzureサービスの<strong>サービスレベル</strong>には何を含めるべきですか。</p><p><br></p><p>デプロイするAzureサービス：</p><p>サービスレベル：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、Azureに移行する予定のオンプレミスデータベースを持っています。\nあなたは、次の要件を満たすデータベース アーキテクチャを設計する必要があります。\n\n・スケールアップとスケールダウンをサポートすること\n・地理的に冗長なバックアップをサポートすること\n・最大 100 TB のデータベースをサポートすること\n・オンライントランザクション処理（OLTP）に最適化されていること\n\nデプロイするAzureサービスのサービスレベルには何を含めるべきですか。\n\nデプロイするAzureサービス：\nサービスレベル：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-030-c1",
+          "label": null,
+          "text": "Basic",
+          "html": "Basic"
+        },
+        {
+          "choiceId": "jp2-q-030-c2",
+          "label": null,
+          "text": "Business Critical",
+          "html": "Business Critical"
+        },
+        {
+          "choiceId": "jp2-q-030-c3",
+          "label": null,
+          "text": "General Purpose",
+          "html": "General Purpose"
+        },
+        {
+          "choiceId": "jp2-q-030-c4",
+          "label": null,
+          "text": "Hyperscale",
+          "html": "Hyperscale"
+        },
+        {
+          "choiceId": "jp2-q-030-c5",
+          "label": null,
+          "text": "Premium",
+          "html": "Premium"
+        },
+        {
+          "choiceId": "jp2-q-030-c6",
+          "label": null,
+          "text": "Standard",
+          "html": "Standard"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-030-c4"
+      ],
+      "explanationHtml": "<p><code>・最大 100 TB のデータベースをサポートすること</code></p><p>前の問題の解説の通り、この要件を満たせるのは Azure SQL Database の Hyperscale のみです。</p><p><br></p><p><code>・地理的に冗長なバックアップをサポートすること</code></p><p>Hyperscaleを含むどのサービスレベルでもgeo冗長のバックアップストレージがサポートされています。</p><p>（なお、前の問題の解説に添付している表中の「ゾーン冗長構成」はバックアップではなくデータベース構成の話なのでご注意ください）</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/hyperscale-automated-backups-overview?view=azuresql#data-and-backup-storage-redundancy\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/hyperscale-automated-backups-overview?view=azuresql#data-and-backup-storage-redundancy</a></p>",
+      "explanationText": "・最大 100 TB のデータベースをサポートすること\n前の問題の解説の通り、この要件を満たせるのは Azure SQL Database の Hyperscale のみです。\n\n・地理的に冗長なバックアップをサポートすること\nHyperscaleを含むどのサービスレベルでもgeo冗長のバックアップストレージがサポートされています。\n（なお、前の問題の解説に添付している表中の「ゾーン冗長構成」はバックアップではなくデータベース構成の話なのでご注意ください）\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/hyperscale-automated-backups-overview?view=azuresql#data-and-backup-storage-redundancy",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

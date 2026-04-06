@@ -1,0 +1,427 @@
+{
+  "setId": "jp2-set-001",
+  "title": "問題集2 01-10",
+  "sourceHtml": "udemy/問題集2.html",
+  "questionIds": [
+    "jp2-q-001",
+    "jp2-q-002",
+    "jp2-q-003",
+    "jp2-q-004",
+    "jp2-q-005",
+    "jp2-q-006",
+    "jp2-q-007",
+    "jp2-q-008",
+    "jp2-q-009",
+    "jp2-q-010"
+  ],
+  "questions": [
+    {
+      "questionId": "jp2-q-001",
+      "sourceQuestionNumber": 1,
+      "promptHtml": "<p>あなたは社内にDB1という名前のAzure SQL Databaseをデプロイする予定です。</p><p>データベースは次のセキュリティ要件を満たす必要があります。</p><p><br></p><p>・管理者がCostomersという名前のテーブルを参照する場合、クレジットカードの完全な番号を確認できること</p><p>・開発者がCostomersという名前のテーブルを参照する場合、クレジットカードの下4桁のみ表示されること</p><p><br></p><p>あなたは何を使用すべきですか。</p>",
+      "promptText": "あなたは社内にDB1という名前のAzure SQL Databaseをデプロイする予定です。\nデータベースは次のセキュリティ要件を満たす必要があります。\n\n・管理者がCostomersという名前のテーブルを参照する場合、クレジットカードの完全な番号を確認できること\n・開発者がCostomersという名前のテーブルを参照する場合、クレジットカードの下4桁のみ表示されること\n\nあなたは何を使用すべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp2-q-001-c1",
+          "label": null,
+          "text": "Always Encrypted",
+          "html": "Always Encrypted"
+        },
+        {
+          "choiceId": "jp2-q-001-c2",
+          "label": null,
+          "text": "Microsoft Defender for Identity",
+          "html": "Microsoft Defender for Identity"
+        },
+        {
+          "choiceId": "jp2-q-001-c3",
+          "label": null,
+          "text": "Transparent Data Encryption (TDE)",
+          "html": "Transparent Data Encryption (TDE)"
+        },
+        {
+          "choiceId": "jp2-q-001-c4",
+          "label": null,
+          "text": "動的データマスキング",
+          "html": "動的データマスキング"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-001-c4"
+      ],
+      "explanationHtml": "<p>動的データマスキングは、データベース内にある機密データをマスクすることにより、特権のないユーザーへの機密データの公開を制限するためのSQL Serverの機能です。</p><p>Azure SQL Databaseでもサポートされており、Azureポータルの「動的データマスキング」メニューから設定することができます。（管理者は常にマスクルールから除外されるので閲覧可能）</p><p>なお、Azure SQL Managed Instanceでは動的データマスキングはサポートされていません。</p><p></p><p>紛らわしい選択肢として「<a href=\"https://learn.microsoft.com/ja-jp/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver16\">Always Encrypted</a>」と「<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=azuresql&amp;tabs=azure-portal\">Transparent Data Encryption (TDE)</a> 」があります。</p><p>Always Encryptedも機密データを保護するための仕組みですが、マスクではなく暗号化されて値が表示されます。下4桁のみ表示してそれ以外をマスクする、といった使い方はできません。</p><p><br></p><p>Transparent Data Encryption (TDE) は、ディスクに書き込まれる時に暗号化し、メモリに読み込まれる時に復号化する仕組みです。Azure SQL Databaseでデフォルトで有効になっている機能でAzureが勝手に行ってくれるので、ユーザー（アプリケーション）は暗号化/復号化を意識することはありません。</p><p>ディスク持ち出しなどオフラインアクティビティの脅威から保護するためのもので、テーブルをSELECTすると普通に復号化されて参照できるので、要件にあるような用途では使用できません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql</a></p><p><a href=\"https://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/\">https://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/</a></p>",
+      "explanationText": "動的データマスキングは、データベース内にある機密データをマスクすることにより、特権のないユーザーへの機密データの公開を制限するためのSQL Serverの機能です。\nAzure SQL Databaseでもサポートされており、Azureポータルの「動的データマスキング」メニューから設定することができます。（管理者は常にマスクルールから除外されるので閲覧可能）\nなお、Azure SQL Managed Instanceでは動的データマスキングはサポートされていません。\n\n紛らわしい選択肢として「Always Encrypted」と「Transparent Data Encryption (TDE) 」があります。\nAlways Encryptedも機密データを保護するための仕組みですが、マスクではなく暗号化されて値が表示されます。下4桁のみ表示してそれ以外をマスクする、といった使い方はできません。\n\nTransparent Data Encryption (TDE) は、ディスクに書き込まれる時に暗号化し、メモリに読み込まれる時に復号化する仕組みです。Azure SQL Databaseでデフォルトで有効になっている機能でAzureが勝手に行ってくれるので、ユーザー（アプリケーション）は暗号化/復号化を意識することはありません。\nディスク持ち出しなどオフラインアクティビティの脅威から保護するためのもので、テーブルをSELECTすると普通に復号化されて参照できるので、要件にあるような用途では使用できません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql\nhttps://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-002",
+      "sourceQuestionNumber": 2,
+      "promptHtml": "<p>あなたは、いくつかのAzureリージョンにわたってAzure Webアプリの複数のインスタンスをデプロイすることを計画しています。 </p><p>あなたはアプリのための負荷分散ソリューションを設計する必要があります。</p><p>このソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・レート制限をサポートすること</p><p>・すべてのインスタンス間でリクエストのバランスをとること</p><p>・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること</p><p><br></p><p> ソリューション： Azure Application Gateway を使用します</p><p><br></p><p>これは目標を満たしていますか。</p>",
+      "promptText": "あなたは、いくつかのAzureリージョンにわたってAzure Webアプリの複数のインスタンスをデプロイすることを計画しています。\nあなたはアプリのための負荷分散ソリューションを設計する必要があります。\nこのソリューションは、次の要件を満たす必要があります。\n\n・レート制限をサポートすること\n・すべてのインスタンス間でリクエストのバランスをとること\n・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること\n\n ソリューション： Azure Application Gateway を使用します\n\nこれは目標を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "jp2-q-002-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp2-q-002-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-002-c2"
+      ],
+      "explanationHtml": "<p>代わりにAzure Front Doorを使用する必要があります。</p><p><br></p><p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p></p><p><code>・レート制限をサポートすること</code></p><p>負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）</p><p><br></p><p><code>・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること</code></p><p>リージョン障害から保護するにはグローバルサービスを選択する必要があります。</p><p>なお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。</p><p>・グローバルかリージョンサービスか</p><p>・レート制限の機能の有無</p><p>・コンテンツキャッシュの機能の有無</p><p><br></p><p><code>・すべてのインスタンス間でリクエストのバランスをとること</code></p><p>これはどの負荷分散オプションでも可能です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><br></p>",
+      "explanationText": "代わりにAzure Front Doorを使用する必要があります。\n\nAzureの負荷分散オプションは大きく次の4種類があります。\n細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。\n\n・レート制限をサポートすること\n負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）\n\n・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること\nリージョン障害から保護するにはグローバルサービスを選択する必要があります。\nなお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。\n・グローバルかリージョンサービスか\n・レート制限の機能の有無\n・コンテンツキャッシュの機能の有無\n\n・すべてのインスタンス間でリクエストのバランスをとること\nこれはどの負荷分散オプションでも可能です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-003",
+      "sourceQuestionNumber": 3,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、Application1とApplication2という名前の2つのアプリケーション向けにストレージアカウントの構成を提案する必要があります。 構成は次の要件を満たす必要があります。</p><p><br></p><p>・Application1のストレージは、可能な限り高いトランザクションレートと低いレイテンシを提供すること</p><p>・Application2のストレージは、GBあたりの保存コストを可能な限り抑えること</p><p>・両方のアプリケーションのストレージは、データセンターに障害が発生した場合でも利用可能であること</p><p><br></p><p><strong>Application1</strong>には何を提案すべきですか。</p><p><br></p><p>Application1：</p><p>Application2：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、Application1とApplication2という名前の2つのアプリケーション向けにストレージアカウントの構成を提案する必要があります。 構成は次の要件を満たす必要があります。\n\n・Application1のストレージは、可能な限り高いトランザクションレートと低いレイテンシを提供すること\n・Application2のストレージは、GBあたりの保存コストを可能な限り抑えること\n・両方のアプリケーションのストレージは、データセンターに障害が発生した場合でも利用可能であること\n\nApplication1には何を提案すべきですか。\n\nApplication1：\nApplication2：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-003-c1",
+          "label": null,
+          "text": "StandardパフォーマンスのBlobストレージ、ホットアクセス層、読み取りアクセス geo 冗長ストレージ(RA-GRS)レプリケーション",
+          "html": "<p>StandardパフォーマンスのBlobストレージ、ホットアクセス層、読み取りアクセス geo 冗長ストレージ(RA-GRS)レプリケーション</p>"
+        },
+        {
+          "choiceId": "jp2-q-003-c2",
+          "label": null,
+          "text": "Premiumパフォーマンスのブロック Blobストレージ、ゾーン冗長ストレージ (ZRS) レプリケーション",
+          "html": "Premiumパフォーマンスのブロック Blobストレージ、ゾーン冗長ストレージ (ZRS) レプリケーション"
+        },
+        {
+          "choiceId": "jp2-q-003-c3",
+          "label": null,
+          "text": "汎用 v1 アカウントのPremiumパフォーマンス、ローカル冗長ストレージ (LRS) レプリケーション",
+          "html": "汎用 v1 アカウントのPremiumパフォーマンス、ローカル冗長ストレージ (LRS) レプリケーション"
+        },
+        {
+          "choiceId": "jp2-q-003-c4",
+          "label": null,
+          "text": "汎用 v2 アカウントのStandardパフォーマンス、ホットアクセス層、ローカル冗長ストレージ (LRS) レプリケーション",
+          "html": "汎用 v2 アカウントのStandardパフォーマンス、ホットアクセス層、ローカル冗長ストレージ (LRS) レプリケーション"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-003-c2"
+      ],
+      "explanationHtml": "<p><code>・両方のアプリケーションのストレージは、データセンターに障害が発生した場合でも利用可能であること</code></p><p><code>・Application1のストレージは、可能な限り高いトランザクションレートと低いレイテンシを提供すること</code></p><p>データセンター障害から保護するためにはLRS以外の冗長性が必要ですので選択肢1、2が候補となり、より高い性能を提供するPremiumブロックBLOBの選択肢2が正解となります。</p><p><br></p><p>【参考】</p><p><a href=\"https://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a>\n<a href=\"https://docs.microsoft.com/ja-jp/azure/storage/common/storage-redundancy\">https://docs.microsoft.com/ja-jp/azure/storage/common/storage-redundancy</a></p>",
+      "explanationText": "・両方のアプリケーションのストレージは、データセンターに障害が発生した場合でも利用可能であること\n・Application1のストレージは、可能な限り高いトランザクションレートと低いレイテンシを提供すること\nデータセンター障害から保護するためにはLRS以外の冗長性が必要ですので選択肢1、2が候補となり、より高い性能を提供するPremiumブロックBLOBの選択肢2が正解となります。\n\n【参考】\nhttps://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\nhttps://docs.microsoft.com/ja-jp/azure/storage/common/storage-redundancy",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-004",
+      "sourceQuestionNumber": 4,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、Application1とApplication2という名前の2つのアプリケーション向けにストレージアカウントの構成を提案する必要があります。 構成は次の要件を満たす必要があります。</p><p><br></p><p>・Application1のストレージは、可能な限り高いトランザクションレートと低いレイテンシを提供すること</p><p>・Application2のストレージは、GBあたりの保存コストを可能な限り抑えること</p><p>・両方のアプリケーションのストレージは、データセンターに障害が発生した場合でも利用可能であること</p><p><br></p><p><strong>Application2</strong>には何を提案すべきですか。</p><p><br></p><p>Application1：</p><p>Application2：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、Application1とApplication2という名前の2つのアプリケーション向けにストレージアカウントの構成を提案する必要があります。 構成は次の要件を満たす必要があります。\n\n・Application1のストレージは、可能な限り高いトランザクションレートと低いレイテンシを提供すること\n・Application2のストレージは、GBあたりの保存コストを可能な限り抑えること\n・両方のアプリケーションのストレージは、データセンターに障害が発生した場合でも利用可能であること\n\nApplication2には何を提案すべきですか。\n\nApplication1：\nApplication2：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-004-c1",
+          "label": null,
+          "text": "StandardパフォーマンスのBlobストレージ、ホットアクセス層、読み取りアクセス geo 冗長ストレージ(RA-GRS)レプリケーション",
+          "html": "<p>StandardパフォーマンスのBlobストレージ、ホットアクセス層、読み取りアクセス geo 冗長ストレージ(RA-GRS)レプリケーション</p>"
+        },
+        {
+          "choiceId": "jp2-q-004-c2",
+          "label": null,
+          "text": "Premiumパフォーマンスのブロック Blobストレージ、 ゾーン冗長ストレージ (ZRS) レプリケーション",
+          "html": "Premiumパフォーマンスのブロック Blobストレージ、 ゾーン冗長ストレージ (ZRS) レプリケーション"
+        },
+        {
+          "choiceId": "jp2-q-004-c3",
+          "label": null,
+          "text": "汎用 v1 アカウントのPremiumパフォーマンス、読み取りアクセス geo 冗長ストレージ(RA-GRS)レプリケーション",
+          "html": "<p>汎用 v1 アカウントのPremiumパフォーマンス、読み取りアクセス geo 冗長ストレージ(RA-GRS)レプリケーション</p>"
+        },
+        {
+          "choiceId": "jp2-q-004-c4",
+          "label": null,
+          "text": "汎用 v2 アカウントの Standardパフォーマンス、クールアクセス層、読み取りアクセス geo 冗長ストレージ(RA-GRS)レプリケーション",
+          "html": "<p>汎用 v2 アカウントの Standardパフォーマンス、クールアクセス層、読み取りアクセス geo 冗長ストレージ(RA-GRS)レプリケーション</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-004-c4"
+      ],
+      "explanationHtml": "<p><code>・両方のアプリケーションのストレージは、データセンターに障害が発生した場合でも利用可能であること</code></p><p>データセンター障害から保護するためにはLRS以外の冗長性が必要ですが全ての選択肢が条件を満たしているので次のコストの条件で絞りこみます。</p><p><br></p><p><code>・Application2のストレージは、GBあたりの保存コストを可能な限り抑えること</code></p><p>まず、コストを抑える必要があるため選択肢2、3のPremiumは除外できます。</p><p>選択肢1、4を比較すると、クールアクセス層を使用するほうが保存コストを節約できるため選択肢4が正解です。</p><p>なお、選択肢1の「StandardパフォーマンスのBlobストレージ」はレガシーなストレージアカウントを指します。</p><p><br></p><p>【参考】</p><p><a href=\"https://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview</a></p>",
+      "explanationText": "・両方のアプリケーションのストレージは、データセンターに障害が発生した場合でも利用可能であること\nデータセンター障害から保護するためにはLRS以外の冗長性が必要ですが全ての選択肢が条件を満たしているので次のコストの条件で絞りこみます。\n\n・Application2のストレージは、GBあたりの保存コストを可能な限り抑えること\nまず、コストを抑える必要があるため選択肢2、3のPremiumは除外できます。\n選択肢1、4を比較すると、クールアクセス層を使用するほうが保存コストを節約できるため選択肢4が正解です。\nなお、選択肢1の「StandardパフォーマンスのBlobストレージ」はレガシーなストレージアカウントを指します。\n\n【参考】\nhttps://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-005",
+      "sourceQuestionNumber": 5,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたはAzureのWebアプリを設計しています。 </p><p>あなたは、北ヨーロッパと西ヨーロッパの2つのAzureリージョンにWebアプリをデプロイする予定です。</p><p>あなたはWebアプリのためのソリューションを提案する必要があります。</p><p>ソリューションは次の要件を満たす必要があります。</p><p><br></p><p>・リージョンに障害が発生しない限り、ユーザーは常に北ヨーロッパリージョンの Web アプリにアクセスされること</p><p>・どちらか一方のリージョンに障害が発生した場合でも、ユーザーがWeb アプリを利用できること</p><p>・コストを最小限に抑えること</p><p><br></p><p><strong>リクエストのルーティングに利用するAzureサービス</strong>には何を提案すべきですか。&nbsp; </p><p><br></p><p>リクエストのルーティングに利用するAzureサービス：</p><p>リクエストのルーティング方法：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたはAzureのWebアプリを設計しています。\nあなたは、北ヨーロッパと西ヨーロッパの2つのAzureリージョンにWebアプリをデプロイする予定です。\nあなたはWebアプリのためのソリューションを提案する必要があります。\nソリューションは次の要件を満たす必要があります。\n\n・リージョンに障害が発生しない限り、ユーザーは常に北ヨーロッパリージョンの Web アプリにアクセスされること\n・どちらか一方のリージョンに障害が発生した場合でも、ユーザーがWeb アプリを利用できること\n・コストを最小限に抑えること\n\nリクエストのルーティングに利用するAzureサービスには何を提案すべきですか。 \n\nリクエストのルーティングに利用するAzureサービス：\nリクエストのルーティング方法：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-005-c1",
+          "label": null,
+          "text": "Azure Traffic Manager プロファイル",
+          "html": "Azure Traffic Manager プロファイル"
+        },
+        {
+          "choiceId": "jp2-q-005-c2",
+          "label": null,
+          "text": "Azure Application Gateway",
+          "html": "Azure Application Gateway"
+        },
+        {
+          "choiceId": "jp2-q-005-c3",
+          "label": null,
+          "text": "Azure Load Balancer",
+          "html": "Azure Load Balancer"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-005-c1"
+      ],
+      "explanationHtml": "<p>負荷分散オプションに関する問題です。Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p><code>・どちらか一方のリージョンに障害が発生した場合でも、ユーザーがWeb アプリを利用できること</code></p><p>リージョン障害から保護するにはグローバルサービスを選択する必要があります。</p><p>Azure Front Door、Azure Traffic Managerのいずれかが候補になりますが、選択肢に「Azure Front Door」はないので「Azure Traffic Manager」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><br></p>",
+      "explanationText": "負荷分散オプションに関する問題です。Azureの負荷分散オプションは大きく次の4種類があります。\n細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。\n・どちらか一方のリージョンに障害が発生した場合でも、ユーザーがWeb アプリを利用できること\nリージョン障害から保護するにはグローバルサービスを選択する必要があります。\nAzure Front Door、Azure Traffic Managerのいずれかが候補になりますが、選択肢に「Azure Front Door」はないので「Azure Traffic Manager」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-006",
+      "sourceQuestionNumber": 6,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたはAzureのWebアプリを設計しています。 </p><p>あなたは、北ヨーロッパと西ヨーロッパの2つのAzureリージョンにWebアプリをデプロイする予定です。</p><p>あなたはWebアプリのためのソリューションを提案する必要があります。</p><p>ソリューションは次の要件を満たす必要があります。</p><p><br></p><p>・リージョンに障害が発生しない限り、ユーザーは常に北ヨーロッパリージョンの Web アプリにアクセスされること</p><p>・どちらか一方のリージョンに障害が発生した場合でも、ユーザーがWeb アプリを利用できること</p><p>・コストを最小限に抑えること</p><p><br></p><p><strong>リクエストのルーティング方法</strong>には何を提案すべきですか。&nbsp; </p><p><br></p><p>リクエストのルーティングに利用するAzureサービス：</p><p>リクエストのルーティング方法：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたはAzureのWebアプリを設計しています。\nあなたは、北ヨーロッパと西ヨーロッパの2つのAzureリージョンにWebアプリをデプロイする予定です。\nあなたはWebアプリのためのソリューションを提案する必要があります。\nソリューションは次の要件を満たす必要があります。\n\n・リージョンに障害が発生しない限り、ユーザーは常に北ヨーロッパリージョンの Web アプリにアクセスされること\n・どちらか一方のリージョンに障害が発生した場合でも、ユーザーがWeb アプリを利用できること\n・コストを最小限に抑えること\n\nリクエストのルーティング方法には何を提案すべきですか。 \n\nリクエストのルーティングに利用するAzureサービス：\nリクエストのルーティング方法：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-006-c1",
+          "label": null,
+          "text": "Cookie ベースのアフィニティ",
+          "html": "Cookie ベースのアフィニティ"
+        },
+        {
+          "choiceId": "jp2-q-006-c2",
+          "label": null,
+          "text": "パフォーマンス トラフィック ルーティング方法",
+          "html": "パフォーマンス トラフィック ルーティング方法"
+        },
+        {
+          "choiceId": "jp2-q-006-c3",
+          "label": null,
+          "text": "優先順位トラフィック ルーティング方法",
+          "html": "優先順位トラフィック ルーティング方法"
+        },
+        {
+          "choiceId": "jp2-q-006-c4",
+          "label": null,
+          "text": "加重トラフィック ルーティング方法",
+          "html": "加重トラフィック ルーティング方法"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-006-c3"
+      ],
+      "explanationHtml": "<p>負荷分散オプションに関する問題です。Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p><code>・リージョンに障害が発生しない限り、ユーザーは常に北ヨーロッパリージョンの Web アプリにアクセスされること</code></p><p><code>・どちらか一方のリージョンに障害が発生した場合でも、ユーザーがWeb アプリを利用できること</code></p><p>Traffic Managerを使用する場合、この問題のケースだと例えば次のようにエンドポイントを登録することで、北ヨーロッパリージョンのWebアプリが正常な限りトラフィックはプライマリ (優先度が一番高い) エンドポイントに送信されます。プライマリ エンドポイントを使用できない場合は、2番目のエンドポイントにルーティングされます。</p><p><br></p><p>北ヨーロッパのWebアプリ：優先度1</p><p>西ヨーロッパのWebアプリ：優先度2</p><p><br></p><p>つまり、北ヨーロッパリージョンで障害が発生した場合、西ヨーロッパのWebアプリにルーティングされるようになるのでユーザーはWebアプリを利用することができます。</p><p>なお、西ヨーロッパリージョンで障害が発生した場合は、単に北ヨーロッパのWebアプリに優先的にルーティングされるだけなので、この場合もユーザーはWebアプリを利用することができます。</p><p><br></p><p>Traffic Managerには他にもパフォーマンス トラフィック ルーティング、加重トラフィック ルーティングなどのルーティング方法がありますが、これはネットワーク待ち時間や重み付けによりルーティングする方法なので適切ではありません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-routing-methods#priority-traffic-routing-method\">https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-routing-methods#priority-traffic-routing-method</a></p><p><br></p>",
+      "explanationText": "負荷分散オプションに関する問題です。Azureの負荷分散オプションは大きく次の4種類があります。\n細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。\n・リージョンに障害が発生しない限り、ユーザーは常に北ヨーロッパリージョンの Web アプリにアクセスされること\n・どちらか一方のリージョンに障害が発生した場合でも、ユーザーがWeb アプリを利用できること\nTraffic Managerを使用する場合、この問題のケースだと例えば次のようにエンドポイントを登録することで、北ヨーロッパリージョンのWebアプリが正常な限りトラフィックはプライマリ (優先度が一番高い) エンドポイントに送信されます。プライマリ エンドポイントを使用できない場合は、2番目のエンドポイントにルーティングされます。\n\n北ヨーロッパのWebアプリ：優先度1\n西ヨーロッパのWebアプリ：優先度2\n\nつまり、北ヨーロッパリージョンで障害が発生した場合、西ヨーロッパのWebアプリにルーティングされるようになるのでユーザーはWebアプリを利用することができます。\nなお、西ヨーロッパリージョンで障害が発生した場合は、単に北ヨーロッパのWebアプリに優先的にルーティングされるだけなので、この場合もユーザーはWebアプリを利用することができます。\n\nTraffic Managerには他にもパフォーマンス トラフィック ルーティング、加重トラフィック ルーティングなどのルーティング方法がありますが、これはネットワーク待ち時間や重み付けによりルーティングする方法なので適切ではありません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-routing-methods#priority-traffic-routing-method",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-007",
+      "sourceQuestionNumber": 7,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、ファイル共有をホストするストレージアカウントを作成する予定です。</p><p>ファイル共有は、トランザクション集約型のオンプレミスアプリケーションからアクセスされます。</p><p><br></p><p>あなたは、次の要件を満たすソリューションを提案する必要があります。</p><p><br></p><p>・ファイル共有にアクセスする際のレイテンシーを最小限に抑えること</p><p>・冗長性を最大化すること</p><p><br></p><p>作成するストレージアカウントの<strong>ストレージ層</strong>には何を含めるべきですか。</p><p><br></p><p>ストレージ層：</p><p>冗長性：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、ファイル共有をホストするストレージアカウントを作成する予定です。\nファイル共有は、トランザクション集約型のオンプレミスアプリケーションからアクセスされます。\n\nあなたは、次の要件を満たすソリューションを提案する必要があります。\n\n・ファイル共有にアクセスする際のレイテンシーを最小限に抑えること\n・冗長性を最大化すること\n\n作成するストレージアカウントのストレージ層には何を含めるべきですか。\n\nストレージ層：\n冗長性：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-007-c1",
+          "label": null,
+          "text": "ホット",
+          "html": "ホット"
+        },
+        {
+          "choiceId": "jp2-q-007-c2",
+          "label": null,
+          "text": "クール",
+          "html": "クール"
+        },
+        {
+          "choiceId": "jp2-q-007-c3",
+          "label": null,
+          "text": "Premium",
+          "html": "Premium"
+        },
+        {
+          "choiceId": "jp2-q-007-c4",
+          "label": null,
+          "text": "トランザクション最適化",
+          "html": "トランザクション最適化"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-007-c3"
+      ],
+      "explanationHtml": "<p><code>・ファイル共有にアクセスする際のレイテンシーを最小限に抑えること</code></p><p>ファイル共有はHDDベースのStandard 汎用 v2、または、SSDベースのPremium ファイル共有のストレージアカウントを作成して使うことができますが、示された性能の条件を満たすためには「Premium ファイル共有」を利用します。</p><p><br></p><p>Premium ファイル共有の場合、ストレージ層はPremiumになりますので選択肢3が正解です。</p><p>なお、Standard 汎用 v2のファイル共有の場合、ストレージ層は次の3つから選択できます。</p><p>・トランザクション最適化</p><p>・ホット</p><p>・クール</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/files/storage-files-planning#storage-tiers\">https://learn.microsoft.com/ja-jp/azure/storage/files/storage-files-planning#storage-tiers</a></p>",
+      "explanationText": "・ファイル共有にアクセスする際のレイテンシーを最小限に抑えること\nファイル共有はHDDベースのStandard 汎用 v2、または、SSDベースのPremium ファイル共有のストレージアカウントを作成して使うことができますが、示された性能の条件を満たすためには「Premium ファイル共有」を利用します。\n\nPremium ファイル共有の場合、ストレージ層はPremiumになりますので選択肢3が正解です。\nなお、Standard 汎用 v2のファイル共有の場合、ストレージ層は次の3つから選択できます。\n・トランザクション最適化\n・ホット\n・クール\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/files/storage-files-planning#storage-tiers",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-008",
+      "sourceQuestionNumber": 8,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、ファイル共有をホストするストレージアカウントを作成する予定です。</p><p>ファイル共有は、トランザクション集約型のオンプレミスアプリケーションからアクセスされます。</p><p><br></p><p>あなたは、次の要件を満たすソリューションを提案する必要があります。</p><p><br></p><p>・ファイル共有にアクセスする際のレイテンシーを最小限に抑えること</p><p>・冗長性を最大化すること</p><p><br></p><p>作成するストレージアカウントの<strong>冗長性</strong>には何を含めるべきですか。</p><p><br></p><p>ストレージ層：</p><p>冗長性：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、ファイル共有をホストするストレージアカウントを作成する予定です。\nファイル共有は、トランザクション集約型のオンプレミスアプリケーションからアクセスされます。\n\nあなたは、次の要件を満たすソリューションを提案する必要があります。\n\n・ファイル共有にアクセスする際のレイテンシーを最小限に抑えること\n・冗長性を最大化すること\n\n作成するストレージアカウントの冗長性には何を含めるべきですか。\n\nストレージ層：\n冗長性：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-008-c1",
+          "label": null,
+          "text": "geo 冗長ストレージ (GRS)",
+          "html": "geo 冗長ストレージ (GRS)"
+        },
+        {
+          "choiceId": "jp2-q-008-c2",
+          "label": null,
+          "text": "ゾーン冗長ストレージ (ZRS)",
+          "html": "ゾーン冗長ストレージ (ZRS)"
+        },
+        {
+          "choiceId": "jp2-q-008-c3",
+          "label": null,
+          "text": "ローカル冗長ストレージ (LRS)",
+          "html": "ローカル冗長ストレージ (LRS)"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-008-c2"
+      ],
+      "explanationHtml": "<p><code>・冗長性を最大化すること</code></p><p>Premium ファイル共有の冗長性はLRS、ZRSのみサポートされています。</p><p>示された要件を満たすためにはZRSを選択する必要があります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types</a></p>",
+      "explanationText": "・冗長性を最大化すること\nPremium ファイル共有の冗長性はLRS、ZRSのみサポートされています。\n示された要件を満たすためにはZRSを選択する必要があります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-009",
+      "sourceQuestionNumber": 9,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、次の表に示されているリソースを持っています。</p><p>あなたは、Azureで「RG2」という名前の新しいリソースグループを作成しました。</p><p>あなたは、仮想マシンをRG2に移動する必要があります。</p><p><strong>VM1</strong>の仮想マシンをRG2に移動するために、何を使用する必要がありますか。</p><p><br></p><p>VM1：</p><p>VM2：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、次の表に示されているリソースを持っています。\nあなたは、Azureで「RG2」という名前の新しいリソースグループを作成しました。\nあなたは、仮想マシンをRG2に移動する必要があります。\nVM1の仮想マシンをRG2に移動するために、何を使用する必要がありますか。\n\nVM1：\nVM2：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-009-c1",
+          "label": null,
+          "text": "Azure Arc",
+          "html": "Azure Arc"
+        },
+        {
+          "choiceId": "jp2-q-009-c2",
+          "label": null,
+          "text": "Azure Advisor",
+          "html": "<p>Azure Advisor</p>"
+        },
+        {
+          "choiceId": "jp2-q-009-c3",
+          "label": null,
+          "text": "Azure Migrate",
+          "html": "Azure Migrate"
+        },
+        {
+          "choiceId": "jp2-q-009-c4",
+          "label": null,
+          "text": "Azure Resource Mover",
+          "html": "Azure Resource Mover"
+        },
+        {
+          "choiceId": "jp2-q-009-c5",
+          "label": null,
+          "text": "Data Migration Assistant (DMA)",
+          "html": "Data Migration Assistant (DMA)"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-009-c4"
+      ],
+      "explanationHtml": "<p>Azure Resource Moverは、Azureリソースをサブスクリプション、リソース グループ、リージョン間でシームレスに移動するためのサービスです。移動するリソース間の依存関係を検証した上で、関連リソースもまとめて移動することができます。</p><p></p><p><br></p><p>ちなみに、仮想マシンの概要メニューからリソースグループの移動操作ができますが、この場合も内部的には「Azure Resource Mover」が利用されています。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/resource-mover/overview\">https://learn.microsoft.com/ja-jp/azure/resource-mover/overview</a></p>",
+      "explanationText": "Azure Resource Moverは、Azureリソースをサブスクリプション、リソース グループ、リージョン間でシームレスに移動するためのサービスです。移動するリソース間の依存関係を検証した上で、関連リソースもまとめて移動することができます。\n\nちなみに、仮想マシンの概要メニューからリソースグループの移動操作ができますが、この場合も内部的には「Azure Resource Mover」が利用されています。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/resource-mover/overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-010",
+      "sourceQuestionNumber": 10,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、次の表に示されているリソースを持っています。</p><p></p><p>あなたは、Azureで「RG2」という名前の新しいリソースグループを作成しました。</p><p>あなたは、仮想マシンをRG2に移動する必要があります。</p><p><strong>VM2</strong>の仮想マシンをRG2に移動するために、何を使用する必要がありますか。</p><p><br></p><p>VM1：</p><p>VM2：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、次の表に示されているリソースを持っています。\n\nあなたは、Azureで「RG2」という名前の新しいリソースグループを作成しました。\nあなたは、仮想マシンをRG2に移動する必要があります。\nVM2の仮想マシンをRG2に移動するために、何を使用する必要がありますか。\n\nVM1：\nVM2：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-010-c1",
+          "label": null,
+          "text": "Azure Arc",
+          "html": "Azure Arc"
+        },
+        {
+          "choiceId": "jp2-q-010-c2",
+          "label": null,
+          "text": "Azure Advisor",
+          "html": "<p>Azure Advisor</p>"
+        },
+        {
+          "choiceId": "jp2-q-010-c3",
+          "label": null,
+          "text": "Azure Migrate",
+          "html": "Azure Migrate"
+        },
+        {
+          "choiceId": "jp2-q-010-c4",
+          "label": null,
+          "text": "Azure Resource Mover",
+          "html": "Azure Resource Mover"
+        },
+        {
+          "choiceId": "jp2-q-010-c5",
+          "label": null,
+          "text": "Data Migration Assistant (DMA)",
+          "html": "Data Migration Assistant (DMA)"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-010-c3"
+      ],
+      "explanationHtml": "<p>Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。</p><p>サーバー、データベース、Webアプリ、仮想デスクトップなど移行対象のリソースを検出、評価し、実際に移行を実行、追跡するための一元化された管理機能を提供します。</p><p>オンプレミスのHyper-V VM、VMware VM、物理サーバーなどを移行する際にも役立ちます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview</a></p>",
+      "explanationText": "Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。\nサーバー、データベース、Webアプリ、仮想デスクトップなど移行対象のリソースを検出、評価し、実際に移行を実行、追跡するための一元化された管理機能を提供します。\nオンプレミスのHyper-V VM、VMware VM、物理サーバーなどを移行する際にも役立ちます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

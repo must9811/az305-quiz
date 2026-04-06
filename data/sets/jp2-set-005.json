@@ -1,0 +1,427 @@
+{
+  "setId": "jp2-set-005",
+  "title": "問題集2 41-50",
+  "sourceHtml": "udemy/問題集2.html",
+  "questionIds": [
+    "jp2-q-041",
+    "jp2-q-042",
+    "jp2-q-043",
+    "jp2-q-044",
+    "jp2-q-045",
+    "jp2-q-046",
+    "jp2-q-047",
+    "jp2-q-048",
+    "jp2-q-049",
+    "jp2-q-050"
+  ],
+  "questions": [
+    {
+      "questionId": "jp2-q-041",
+      "sourceQuestionNumber": 41,
+      "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、次の表に示すリソースが含まれています。</p><p><br></p><p><br></p><p>あなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>SQLdb3の監査を有効にすると、storage2に監査ログを保存することができます</p>",
+      "promptText": "注：この問題は前とその前の問題と3問1セットです。\n\nあなたは、Azureサブスクリプションを持っています。\nサブスクリプションには、次の表に示すリソースが含まれています。\n\nあなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nSQLdb3の監査を有効にすると、storage2に監査ログを保存することができます",
+      "choices": [
+        {
+          "choiceId": "jp2-q-041-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp2-q-041-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-041-c2"
+      ],
+      "explanationHtml": "<p>前の問題の解説の通り、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。</p><p><br></p><p>SQLdb3は米国西部にありますが、storage2は米国中部にあるためリージョンが異なっています。</p><p>よって、SQLdb3の監査ログをstorage2に保存することはできません。</p>",
+      "explanationText": "前の問題の解説の通り、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。\n\nSQLdb3は米国西部にありますが、storage2は米国中部にあるためリージョンが異なっています。\nよって、SQLdb3の監査ログをstorage2に保存することはできません。",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-042",
+      "sourceQuestionNumber": 42,
+      "promptHtml": "<p>あなたの会社のAzureサブスクリプションには、Azure仮想マシンとバックエンドでAzure SQL Databaseを使用するカスタムアプリケーションがあります。</p><p>あなたの会社の開発者は最近、オンプレミスへの強制トンネリングを有効にしました。</p><p>構成を変更して以降、開発者はデータベースにアクセスするときにパフォーマンスが低下していることに気づきました。</p><p><br></p><p>あなたは、データベースへのアクセス時の遅延を最小化するためのソリューションを提案する必要があります。</p><p>ソリューションは、コストを最小限に抑える必要があります。</p><p>あなたは、提案に何を含めるべきですか。</p>",
+      "promptText": "あなたの会社のAzureサブスクリプションには、Azure仮想マシンとバックエンドでAzure SQL Databaseを使用するカスタムアプリケーションがあります。\nあなたの会社の開発者は最近、オンプレミスへの強制トンネリングを有効にしました。\n構成を変更して以降、開発者はデータベースにアクセスするときにパフォーマンスが低下していることに気づきました。\n\nあなたは、データベースへのアクセス時の遅延を最小化するためのソリューションを提案する必要があります。\nソリューションは、コストを最小限に抑える必要があります。\nあなたは、提案に何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp2-q-042-c1",
+          "label": null,
+          "text": "Azure SQL Managed Instance",
+          "html": "Azure SQL Managed Instance"
+        },
+        {
+          "choiceId": "jp2-q-042-c2",
+          "label": null,
+          "text": "Azure仮想マシン上のMicrosoft SQL Server",
+          "html": "Azure仮想マシン上のMicrosoft SQL Server"
+        },
+        {
+          "choiceId": "jp2-q-042-c3",
+          "label": null,
+          "text": "Always On 可用性グループ",
+          "html": "Always On 可用性グループ"
+        },
+        {
+          "choiceId": "jp2-q-042-c4",
+          "label": null,
+          "text": "サービス エンドポイント",
+          "html": "サービス エンドポイント"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-042-c4"
+      ],
+      "explanationHtml": "<p>Azure SQL Databaseのパブリックエンドポイントへ接続する際、強制トンネリングを有効化したことによりインターネット宛のルートがオンプレミスを経由（迂回）してしまい、遅延していることが考えられます。</p><p><br></p><p>仮想ネットワークのサービスエンドポイントを利用することで、Azureのバックボーンネットワーク経由で（インターネットを経由せず）SQL Databaseのパブリックエンドポイント宛に接続できるようになり、遅延を抑えることができます。</p><p><br></p><p>サービスエンドポイントを利用するために追加のコストは必要なく、無料で利用することができます。</p><p>他の選択肢は追加のコストがかかるため誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoints-overview\">https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoints-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/vpn-gateway/vpn-gateway-forced-tunneling-rm\">https://learn.microsoft.com/ja-jp/azure/vpn-gateway/vpn-gateway-forced-tunneling-rm</a></p>",
+      "explanationText": "Azure SQL Databaseのパブリックエンドポイントへ接続する際、強制トンネリングを有効化したことによりインターネット宛のルートがオンプレミスを経由（迂回）してしまい、遅延していることが考えられます。\n\n仮想ネットワークのサービスエンドポイントを利用することで、Azureのバックボーンネットワーク経由で（インターネットを経由せず）SQL Databaseのパブリックエンドポイント宛に接続できるようになり、遅延を抑えることができます。\n\nサービスエンドポイントを利用するために追加のコストは必要なく、無料で利用することができます。\n他の選択肢は追加のコストがかかるため誤りです。\n\n【参考】\nhttps://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoints-overview\nhttps://learn.microsoft.com/ja-jp/azure/vpn-gateway/vpn-gateway-forced-tunneling-rm",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-043",
+      "sourceQuestionNumber": 43,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは頻繁に使用される大量のデータを保存するアプリケーション向けにストレージソリューションを設計する必要があります。 </p><p>ソリューションは次の要件を満たす必要があります。</p><p><br></p><p>・データのスループットを最大化すること</p><p>・1年間データの変更を防止すること</p><p>・読み取りと書き込み操作のレイテンシを最小限に抑えること</p><p><br></p><p><strong>ストレージアカウントの種類</strong>はどれを提案すべきですか。</p><p><br></p><p>ストレージアカウントの種類：</p><p>ストレージサービス：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは頻繁に使用される大量のデータを保存するアプリケーション向けにストレージソリューションを設計する必要があります。\nソリューションは次の要件を満たす必要があります。\n\n・データのスループットを最大化すること\n・1年間データの変更を防止すること\n・読み取りと書き込み操作のレイテンシを最小限に抑えること\n\nストレージアカウントの種類はどれを提案すべきですか。\n\nストレージアカウントの種類：\nストレージサービス：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-043-c1",
+          "label": null,
+          "text": "Premium ページBLOB",
+          "html": "Premium ページBLOB"
+        },
+        {
+          "choiceId": "jp2-q-043-c2",
+          "label": null,
+          "text": "Premium ブロックBLOB",
+          "html": "Premium ブロックBLOB"
+        },
+        {
+          "choiceId": "jp2-q-043-c3",
+          "label": null,
+          "text": "Premium ファイル共有",
+          "html": "Premium ファイル共有"
+        },
+        {
+          "choiceId": "jp2-q-043-c4",
+          "label": null,
+          "text": "Standard 汎用 v2",
+          "html": "Standard 汎用 v2"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-043-c2"
+      ],
+      "explanationHtml": "<p>ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。</p><p><br></p><p><code>・1年間データの変更を防止すること</code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p><p><br></p><p>Premium ファイル共有はBLOBではないので選択肢3は誤り、</p><p>Premium ページBLOBでは不変ストレージはサポートされていないため、選択肢1も誤りです。</p><p>不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations</a></p><p><br></p><p><code>・データのスループットを最大化すること</code></p><p><code>・読み取りと書き込み操作のレイテンシを最小限に抑えること</code></p><p>選択肢2、4のうち、より高スループット・低遅延なパフォーマンスを提供するのは「Premium ブロックBLOB」です。</p><p>Premium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium</a></p><p><br></p>",
+      "explanationText": "ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。\n\n・1年間データの変更を防止すること\nこの要件を満たすためにはBLOBの不変ストレージを利用します。\n不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\n\nPremium ファイル共有はBLOBではないので選択肢3は誤り、\nPremium ページBLOBでは不変ストレージはサポートされていないため、選択肢1も誤りです。\n不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\n\n・データのスループットを最大化すること\n・読み取りと書き込み操作のレイテンシを最小限に抑えること\n選択肢2、4のうち、より高スループット・低遅延なパフォーマンスを提供するのは「Premium ブロックBLOB」です。\nPremium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-044",
+      "sourceQuestionNumber": 44,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは頻繁に使用される大量のデータを保存するアプリケーション向けにストレージソリューションを設計する必要があります。 </p><p>ソリューションは次の要件を満たす必要があります。</p><p><br></p><p>・データのスループットを最大化すること</p><p>・1年間データの変更を防止すること</p><p>・読み取りと書き込み操作のレイテンシを最小限に抑えること</p><p><br></p><p><strong>ストレージサービス</strong>はどれを提案すべきですか。</p><p><br></p><p>ストレージアカウントの種類：</p><p>ストレージサービス：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは頻繁に使用される大量のデータを保存するアプリケーション向けにストレージソリューションを設計する必要があります。\nソリューションは次の要件を満たす必要があります。\n\n・データのスループットを最大化すること\n・1年間データの変更を防止すること\n・読み取りと書き込み操作のレイテンシを最小限に抑えること\n\nストレージサービスはどれを提案すべきですか。\n\nストレージアカウントの種類：\nストレージサービス：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-044-c1",
+          "label": null,
+          "text": "Blob",
+          "html": "Blob"
+        },
+        {
+          "choiceId": "jp2-q-044-c2",
+          "label": null,
+          "text": "File",
+          "html": "File"
+        },
+        {
+          "choiceId": "jp2-q-044-c3",
+          "label": null,
+          "text": "Table",
+          "html": "Table"
+        },
+        {
+          "choiceId": "jp2-q-044-c4",
+          "label": null,
+          "text": "Queue",
+          "html": "Queue"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-044-c1"
+      ],
+      "explanationHtml": "<p>前の問題の通り、ストレージアカウントは「Premium ブロックBLOB」を使用する必要がありますので選択肢1が正解となります。</p>",
+      "explanationText": "前の問題の通り、ストレージアカウントは「Premium ブロックBLOB」を使用する必要がありますので選択肢1が正解となります。",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-045",
+      "sourceQuestionNumber": 45,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたのオンプレミスネットワークには、500 GBのデータを保存するServer1という名前のファイルサーバーがあります。</p><p>あなたは、Server1からAzure StorageにデータをコピーするためにAzure Data Factoryを使用する必要があります。</p><p>あなたは、新しいAzure Data Factoryを作成した後、次に<strong>Server1</strong>で何をする必要がありますか。</p><p><br></p><p>Server1：</p><p>Azure Data Factory：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたのオンプレミスネットワークには、500 GBのデータを保存するServer1という名前のファイルサーバーがあります。\nあなたは、Server1からAzure StorageにデータをコピーするためにAzure Data Factoryを使用する必要があります。\nあなたは、新しいAzure Data Factoryを作成した後、次にServer1で何をする必要がありますか。\n\nServer1：\nAzure Data Factory：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-045-c1",
+          "label": null,
+          "text": "Azure File Sync エージェントをインストールする",
+          "html": "Azure File Sync エージェントをインストールする"
+        },
+        {
+          "choiceId": "jp2-q-045-c2",
+          "label": null,
+          "text": "セルフホステッド統合ランタイムをインストールする",
+          "html": "セルフホステッド統合ランタイムをインストールする"
+        },
+        {
+          "choiceId": "jp2-q-045-c3",
+          "label": null,
+          "text": "Azure Monitor エージェントをインストールする",
+          "html": "<p>Azure Monitor エージェントをインストールする</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-045-c2"
+      ],
+      "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT&nbsp;/ データ統合のサービスと説明されています。</p><p><br></p><p>オンプレミスのファイルサーバーに「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、オンプレミスのデータをストレージアカウントのBLOBやファイル共有などにコピーすることができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory\">https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory</a></p><p><br></p>",
+      "explanationText": "Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。\nデータをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/introduction\n\n収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）\n公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。\n\nオンプレミスのファイルサーバーに「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、オンプレミスのデータをストレージアカウントのBLOBやファイル共有などにコピーすることができます。\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-046",
+      "sourceQuestionNumber": 46,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたのオンプレミスネットワークには、500 GBのデータを保存するServer1という名前のファイルサーバーがあります。</p><p>あなたは、Server1からAzure StorageにデータをコピーするためにAzure Data Factoryを使用する必要があります。</p><p>あなたは、新しいAzure Data Factoryを作成した後、次に<strong>Azure Data Factory</strong>で何をする必要がありますか。</p><p><br></p><p>Server1：</p><p>Azure Data Factory：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたのオンプレミスネットワークには、500 GBのデータを保存するServer1という名前のファイルサーバーがあります。\nあなたは、Server1からAzure StorageにデータをコピーするためにAzure Data Factoryを使用する必要があります。\nあなたは、新しいAzure Data Factoryを作成した後、次にAzure Data Factoryで何をする必要がありますか。\n\nServer1：\nAzure Data Factory：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-046-c1",
+          "label": null,
+          "text": "パイプラインを作成する",
+          "html": "パイプラインを作成する"
+        },
+        {
+          "choiceId": "jp2-q-046-c2",
+          "label": null,
+          "text": "Import/Exportジョブを作成する",
+          "html": "Import/Exportジョブを作成する"
+        },
+        {
+          "choiceId": "jp2-q-046-c3",
+          "label": null,
+          "text": "Azure-SQL Server Integration Services (SSIS) 統合ランタイムをプロビジョニングする",
+          "html": "Azure-SQL Server Integration Services (SSIS) 統合ランタイムをプロビジョニングする"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-046-c1"
+      ],
+      "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。</p><p><br></p><p>Azure Data Factoryでデータコピーなどの処理を実行するにはパイプラインを作成します。</p><p>パイプラインはタスクをグループ化したもので、処理をスケジュールするための「トリガー」と紐づけられます。</p><p>トリガーは、今すぐ実行、指定した日時、繰り返し、イベント発生時などを指定することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory\">https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory</a></p>",
+      "explanationText": "Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。\nデータをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。\n\n収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）\n公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。\n\nAzure Data Factoryでデータコピーなどの処理を実行するにはパイプラインを作成します。\nパイプラインはタスクをグループ化したもので、処理をスケジュールするための「トリガー」と紐づけられます。\nトリガーは、今すぐ実行、指定した日時、繰り返し、イベント発生時などを指定することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/introduction\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-047",
+      "sourceQuestionNumber": 47,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたの会社は、Azure App ServiceのWebアプリをデプロイしています。</p><p>テスト中に、アプリケーションに負荷がかかると失敗します。</p><p>アプリケーションは100以上の同時ユーザーセッションを処理することができません。</p><p><br></p><p>あなたは、WebアプリのAlways On機能を有効にします。</p><p>また、HTTP キューの長さに基づいて、台数を 2 から 10 に増やすように自動スケーリングを構成します。</p><p>あなたは、アプリケーションのパフォーマンスを向上させる必要があります。</p><p><strong>エンドユーザーの近くにコンテンツを保管</strong>するにはどのソリューションを使用する必要がありますか。</p><p><br></p><p>エンドユーザーの近くにコンテンツを保管：</p><p>アプリケーションの近くにコンテンツを保管：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたの会社は、Azure App ServiceのWebアプリをデプロイしています。\nテスト中に、アプリケーションに負荷がかかると失敗します。\nアプリケーションは100以上の同時ユーザーセッションを処理することができません。\n\nあなたは、WebアプリのAlways On機能を有効にします。\nまた、HTTP キューの長さに基づいて、台数を 2 から 10 に増やすように自動スケーリングを構成します。\nあなたは、アプリケーションのパフォーマンスを向上させる必要があります。\nエンドユーザーの近くにコンテンツを保管するにはどのソリューションを使用する必要がありますか。\n\nエンドユーザーの近くにコンテンツを保管：\nアプリケーションの近くにコンテンツを保管：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-047-c1",
+          "label": null,
+          "text": "Azure Cache for Redis",
+          "html": "<p>Azure Cache for Redis</p>"
+        },
+        {
+          "choiceId": "jp2-q-047-c2",
+          "label": null,
+          "text": "Azure Traffic Manager",
+          "html": "Azure Traffic Manager"
+        },
+        {
+          "choiceId": "jp2-q-047-c3",
+          "label": null,
+          "text": "Azure CDN",
+          "html": "Azure CDN"
+        },
+        {
+          "choiceId": "jp2-q-047-c4",
+          "label": null,
+          "text": "Azure Application Gateway",
+          "html": "Azure Application Gateway"
+        },
+        {
+          "choiceId": "jp2-q-047-c5",
+          "label": null,
+          "text": "Azure Load Balancer",
+          "html": "Azure Load Balancer"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-047-c3"
+      ],
+      "explanationHtml": "<p>キャッシュは、システムのパフォーマンスとスケーラビリティを改善することを目的とする一般的な手法です。</p><p>ユーザーやアプリケーションに近い場所に、アクセス頻度が高いデータを一時的にキャッシュすることでパフォーマンスが向上します。</p><p><br></p><p>キャッシュと一言にいっても色々な場面で登場します。</p><p>・フロントエンドのWebコンテンツのキャッシュ（静的コンテンツ：javascript、css、画像ファイルなど）</p><p>・バックエンドのデータストアのキャッシュ（セッション、即時性が求められる更新データなど）</p><p>・マネージドディスクのホストキャッシュ</p><p>・DNSキャッシュ　...etc</p><p><br></p><p>エンドユーザーの近くにコンテンツを保管するにはContent Delivery Network （CDN）を利用します。</p><p>CDNは、世界中に戦略的に分散配置されたエッジサーバにWebコンテンツをキャッシュし、配信元（この問題の場合はAzure App Service）の負荷を軽減しながら効率的にWebコンテンツを配信するために利用されます。</p><p><br></p><p>Azureでは大きく、Azure Front Door、Azure CDNの2つのサービスが提供されていますが、Azure CDNはクラシックの扱いになっており、後発のAzure Front Door推奨されているようです。</p><p>（本問題の選択肢にFront Doorはないので、選択肢3の「Azure CDN」が正解です。）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cdn/cdn-overview\">https://learn.microsoft.com/ja-jp/azure/cdn/cdn-overview</a></p>",
+      "explanationText": "キャッシュは、システムのパフォーマンスとスケーラビリティを改善することを目的とする一般的な手法です。\nユーザーやアプリケーションに近い場所に、アクセス頻度が高いデータを一時的にキャッシュすることでパフォーマンスが向上します。\n\nキャッシュと一言にいっても色々な場面で登場します。\n・フロントエンドのWebコンテンツのキャッシュ（静的コンテンツ：javascript、css、画像ファイルなど）\n・バックエンドのデータストアのキャッシュ（セッション、即時性が求められる更新データなど）\n・マネージドディスクのホストキャッシュ\n・DNSキャッシュ　...etc\n\nエンドユーザーの近くにコンテンツを保管するにはContent Delivery Network （CDN）を利用します。\nCDNは、世界中に戦略的に分散配置されたエッジサーバにWebコンテンツをキャッシュし、配信元（この問題の場合はAzure App Service）の負荷を軽減しながら効率的にWebコンテンツを配信するために利用されます。\n\nAzureでは大きく、Azure Front Door、Azure CDNの2つのサービスが提供されていますが、Azure CDNはクラシックの扱いになっており、後発のAzure Front Door推奨されているようです。\n（本問題の選択肢にFront Doorはないので、選択肢3の「Azure CDN」が正解です。）\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/cdn/cdn-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-048",
+      "sourceQuestionNumber": 48,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたの会社は、Azure App ServiceのWebアプリをデプロイしています。</p><p>テスト中に、アプリケーションに負荷がかかると失敗します。</p><p>アプリケーションは100以上の同時ユーザーセッションを処理することができません。</p><p><br></p><p>あなたは、WebアプリのAlways On機能を有効にします。</p><p>また、HTTP キューの長さに基づいて、台数を 2 から 10 に増やすように自動スケーリングを構成します。</p><p>あなたは、アプリケーションのパフォーマンスを向上させる必要があります。</p><p><strong>アプリケーションの近くにコンテンツを保管</strong>するにはどのソリューションを使用する必要がありますか。</p><p><br></p><p>エンドユーザーの近くにコンテンツを保管：</p><p>アプリケーションの近くにコンテンツを保管：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたの会社は、Azure App ServiceのWebアプリをデプロイしています。\nテスト中に、アプリケーションに負荷がかかると失敗します。\nアプリケーションは100以上の同時ユーザーセッションを処理することができません。\n\nあなたは、WebアプリのAlways On機能を有効にします。\nまた、HTTP キューの長さに基づいて、台数を 2 から 10 に増やすように自動スケーリングを構成します。\nあなたは、アプリケーションのパフォーマンスを向上させる必要があります。\nアプリケーションの近くにコンテンツを保管するにはどのソリューションを使用する必要がありますか。\n\nエンドユーザーの近くにコンテンツを保管：\nアプリケーションの近くにコンテンツを保管：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-048-c1",
+          "label": null,
+          "text": "Azure Cache for Redis",
+          "html": "<p>Azure Cache for Redis</p>"
+        },
+        {
+          "choiceId": "jp2-q-048-c2",
+          "label": null,
+          "text": "Azure Traffic Manager",
+          "html": "Azure Traffic Manager"
+        },
+        {
+          "choiceId": "jp2-q-048-c3",
+          "label": null,
+          "text": "Azure CDN",
+          "html": "Azure CDN"
+        },
+        {
+          "choiceId": "jp2-q-048-c4",
+          "label": null,
+          "text": "Azure Application Gateway",
+          "html": "Azure Application Gateway"
+        },
+        {
+          "choiceId": "jp2-q-048-c5",
+          "label": null,
+          "text": "Azure Load Balancer",
+          "html": "Azure Load Balancer"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-048-c1"
+      ],
+      "explanationHtml": "<p>キャッシュは、システムのパフォーマンスとスケーラビリティを改善することを目的とする一般的な手法です。</p><p>ユーザーやアプリケーションに近い場所に、アクセス頻度が高いデータを一時的にキャッシュすることでパフォーマンスが向上します。</p><p><br></p><p>キャッシュと一言にいっても色々な場面で登場します。</p><p>・フロントエンドのWebコンテンツのキャッシュ（静的コンテンツ：javascript、css、画像ファイルなど）</p><p>・バックエンドのデータストアのキャッシュ（セッション、即時性が求められる更新データなど）</p><p>・マネージドディスクのホストキャッシュ</p><p>・DNSキャッシュ　...etc</p><p><br></p><p>アプリケーションの近くにコンテンツを保管するにはAzure Redis Casheを利用します。データストアのキャッシュはアプリケーションの近く（同一リージョン、同一ゾーン）にデプロイするのが一般的です。</p><p><br></p><p>Azure Cache for Redis は、オープンソースの「Redis」を基にしたインメモリ データ ストアです。</p><p>高速に読み書きできるサーバーのメモリ内にアクセス頻度の高いデータを保存することで、大量のアプリケーション要求を処理することができます。</p><p><br></p><p>Azure CDN、Azure Redis Cashe以外の選択肢は負荷分散ソリューションで、ユーザーやアプリケーションの近くにコンテンツを保管（キャッシュ）するためのサービスではないので誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-cache-for-redis/cache-overview\">https://learn.microsoft.com/ja-jp/azure/azure-cache-for-redis/cache-overview</a></p>",
+      "explanationText": "キャッシュは、システムのパフォーマンスとスケーラビリティを改善することを目的とする一般的な手法です。\nユーザーやアプリケーションに近い場所に、アクセス頻度が高いデータを一時的にキャッシュすることでパフォーマンスが向上します。\n\nキャッシュと一言にいっても色々な場面で登場します。\n・フロントエンドのWebコンテンツのキャッシュ（静的コンテンツ：javascript、css、画像ファイルなど）\n・バックエンドのデータストアのキャッシュ（セッション、即時性が求められる更新データなど）\n・マネージドディスクのホストキャッシュ\n・DNSキャッシュ　...etc\n\nアプリケーションの近くにコンテンツを保管するにはAzure Redis Casheを利用します。データストアのキャッシュはアプリケーションの近く（同一リージョン、同一ゾーン）にデプロイするのが一般的です。\n\nAzure Cache for Redis は、オープンソースの「Redis」を基にしたインメモリ データ ストアです。\n高速に読み書きできるサーバーのメモリ内にアクセス頻度の高いデータを保存することで、大量のアプリケーション要求を処理することができます。\n\nAzure CDN、Azure Redis Cashe以外の選択肢は負荷分散ソリューションで、ユーザーやアプリケーションの近くにコンテンツを保管（キャッシュ）するためのサービスではないので誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-cache-for-redis/cache-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-049",
+      "sourceQuestionNumber": 49,
+      "promptHtml": "<p>あなたは、次の表に示すAzureリソースを含む注文処理システムを設計しています。</p><p></p><p><br></p><p>注文処理システムは、次のような流れで処理を行います。</p><p>・顧客は App1 を使用して注文を行う</p><p>・App1 はベンダー1とベンダー2の製品の在庫を確認するためのメッセージを統合コンポーネントに送信する</p><p>・統合コンポーネントは注文の種類に応じて Function1、または、Function2をトリガーする</p><p>・製品の在庫を確認後、App1 のステータスメッセージがFunction1、または、Function2 によって生成される</p><p>・すべてのステップのログは storage1 に記録される</p><p><br></p><p>統合コンポーネントにはどの Azure リソースを提案するのが最適ですか。</p>",
+      "promptText": "あなたは、次の表に示すAzureリソースを含む注文処理システムを設計しています。\n\n注文処理システムは、次のような流れで処理を行います。\n・顧客は App1 を使用して注文を行う\n・App1 はベンダー1とベンダー2の製品の在庫を確認するためのメッセージを統合コンポーネントに送信する\n・統合コンポーネントは注文の種類に応じて Function1、または、Function2をトリガーする\n・製品の在庫を確認後、App1 のステータスメッセージがFunction1、または、Function2 によって生成される\n・すべてのステップのログは storage1 に記録される\n\n統合コンポーネントにはどの Azure リソースを提案するのが最適ですか。",
+      "choices": [
+        {
+          "choiceId": "jp2-q-049-c1",
+          "label": null,
+          "text": "Azure Event Hubs",
+          "html": "<p>Azure Event Hubs</p>"
+        },
+        {
+          "choiceId": "jp2-q-049-c2",
+          "label": null,
+          "text": "Azure Service Bus",
+          "html": "<p>Azure Service Bus</p>"
+        },
+        {
+          "choiceId": "jp2-q-049-c3",
+          "label": null,
+          "text": "Azure IoT Hub",
+          "html": "<p>Azure IoT Hub</p>"
+        },
+        {
+          "choiceId": "jp2-q-049-c4",
+          "label": null,
+          "text": "Azure Queue Storage",
+          "html": "<p>Azure Queue Storage</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-049-c2"
+      ],
+      "explanationHtml": "<p>複数のアプリケーションコンポーネントを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがあります。</p><p>App1とFunctionsを直接連携させるのではなく、間にメッセージングサービス（統合コンポーネント）を挟むことで、ユーザーは後続処理の完了を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。</p><p><br></p><p>Azure には大きく次の2つのメッセージベースのソリューションが用意されています。</p><p>・Azure Queue Storage</p><p>・Azure Service Bus</p><p><br></p><p>Azure Service Bus の「トピック」を使用すると、1対多（App1 → Function1/Function2）のメッセージを処理させることができます。</p><p>Azure Queue Storage はよりシンプルはメッセージングサービスですが、1対1のメッセージ送受信を想定されたサービスであり、1対多の構成の場合は適切ではないため誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-messaging-overview\">https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-messaging-overview</a></p>",
+      "explanationText": "複数のアプリケーションコンポーネントを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがあります。\nApp1とFunctionsを直接連携させるのではなく、間にメッセージングサービス（統合コンポーネント）を挟むことで、ユーザーは後続処理の完了を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。\n\nAzure には大きく次の2つのメッセージベースのソリューションが用意されています。\n・Azure Queue Storage\n・Azure Service Bus\n\nAzure Service Bus の「トピック」を使用すると、1対多（App1 → Function1/Function2）のメッセージを処理させることができます。\nAzure Queue Storage はよりシンプルはメッセージングサービスですが、1対1のメッセージ送受信を想定されたサービスであり、1対多の構成の場合は適切ではないため誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-messaging-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp2-q-050",
+      "sourceQuestionNumber": 50,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、Microsoft Entraテナントを持っています。</p><p>あなたはAzure Monitorを使用して、ユーザーのサインインを監視し、特定のユーザーのサインインイベントに基づいてアラートを生成することを計画しています。</p><p>あなたは、イベントに基づいてアラートをトリガーするためのソリューションを提案する必要があります。</p><p><strong>Microsoft Entra IDのログの送信先</strong>には何を提案すべきですか。</p><p><br></p><p>Microsoft Entra IDのログの送信先：</p><p>アラートのトリガーに使用するシグナルの種類：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、Microsoft Entraテナントを持っています。\nあなたはAzure Monitorを使用して、ユーザーのサインインを監視し、特定のユーザーのサインインイベントに基づいてアラートを生成することを計画しています。\nあなたは、イベントに基づいてアラートをトリガーするためのソリューションを提案する必要があります。\nMicrosoft Entra IDのログの送信先には何を提案すべきですか。\n\nMicrosoft Entra IDのログの送信先：\nアラートのトリガーに使用するシグナルの種類：",
+      "choices": [
+        {
+          "choiceId": "jp2-q-050-c1",
+          "label": null,
+          "text": "Azure Event Hubs",
+          "html": "Azure Event Hubs"
+        },
+        {
+          "choiceId": "jp2-q-050-c2",
+          "label": null,
+          "text": "Log Analytics ワークスペース",
+          "html": "Log Analytics ワークスペース"
+        },
+        {
+          "choiceId": "jp2-q-050-c3",
+          "label": null,
+          "text": "Azure Monitorのメトリック",
+          "html": "Azure Monitorのメトリック"
+        },
+        {
+          "choiceId": "jp2-q-050-c4",
+          "label": null,
+          "text": "ストレージアカウント",
+          "html": "ストレージアカウント"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp2-q-050-c2"
+      ],
+      "explanationHtml": "<p>Microsoft Entra IDのサインインログは、診断設定から別の場所に送信（エクスポート）することができます。</p><p>イベントに基づいてアラートをトリガーするには、Log Analytics ワークスペースへ送信します。</p><p>なお、サインインログをエクスポートするには、Premium P1 以上のライセンスが必要です。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor\">https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal</a></p>",
+      "explanationText": "Microsoft Entra IDのサインインログは、診断設定から別の場所に送信（エクスポート）することができます。\nイベントに基づいてアラートをトリガーするには、Log Analytics ワークスペースへ送信します。\nなお、サインインログをエクスポートするには、Premium P1 以上のライセンスが必要です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

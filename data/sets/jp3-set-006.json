@@ -1,0 +1,377 @@
+{
+  "setId": "jp3-set-006",
+  "title": "問題集3 51-60",
+  "sourceHtml": "udemy/問題集3.html",
+  "questionIds": [
+    "jp3-q-051",
+    "jp3-q-052",
+    "jp3-q-053",
+    "jp3-q-054",
+    "jp3-q-055",
+    "jp3-q-056",
+    "jp3-q-057",
+    "jp3-q-058",
+    "jp3-q-059",
+    "jp3-q-060"
+  ],
+  "questions": [
+    {
+      "questionId": "jp3-q-051",
+      "sourceQuestionNumber": 51,
+      "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたは、Azure仮想マシンを使用して動画ファイルを分析するアプリケーションを設計しています。</p><p>ファイルは、ExpressRouteを経由してAzureに接続するオンプレミスのクライアントPCからアップロードされます。</p><p>あなたは、ファイルを保存するためにストレージアカウントをデプロイする予定です。</p><p>ストレージアカウントは次の要件を満たす必要があります。</p><p><br></p><p>・最大 7 TB の動画ファイルをアップロードできること</p><p>・可能な限りデータ損失のリスクを低減すること</p><p>・ExpressRoute を使用して、オンプレミス ネットワークからファイルをアップロードできるようにすること</p><p><br></p><p><strong>ストレージへの接続方法</strong>には何を含めるべきですか。</p><p><br></p><p>ストレージアカウントの種類：</p><p>冗長性：</p><p>ストレージへの接続方法：</p>",
+      "promptText": "注：この問題は前とその前の問題と3問1セットです。\n\nあなたは、Azure仮想マシンを使用して動画ファイルを分析するアプリケーションを設計しています。\nファイルは、ExpressRouteを経由してAzureに接続するオンプレミスのクライアントPCからアップロードされます。\nあなたは、ファイルを保存するためにストレージアカウントをデプロイする予定です。\nストレージアカウントは次の要件を満たす必要があります。\n\n・最大 7 TB の動画ファイルをアップロードできること\n・可能な限りデータ損失のリスクを低減すること\n・ExpressRoute を使用して、オンプレミス ネットワークからファイルをアップロードできるようにすること\n\nストレージへの接続方法には何を含めるべきですか。\n\nストレージアカウントの種類：\n冗長性：\nストレージへの接続方法：",
+      "choices": [
+        {
+          "choiceId": "jp3-q-051-c1",
+          "label": null,
+          "text": "パブリックエンドポイント",
+          "html": "パブリックエンドポイント"
+        },
+        {
+          "choiceId": "jp3-q-051-c2",
+          "label": null,
+          "text": "プライベートエンドポイント",
+          "html": "プライベートエンドポイント"
+        },
+        {
+          "choiceId": "jp3-q-051-c3",
+          "label": null,
+          "text": "サービスエンドポイント",
+          "html": "サービスエンドポイント"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-051-c2"
+      ],
+      "explanationHtml": "<p><code>・ExpressRoute を使用して、オンプレミス ネットワークからファイルをアップロードできるようにすること</code> </p><p>インターネット経由で接続するのではなく、ExpressRoute（仮想ネットワーク）を経由してストレージアカウントに接続するには「プライベートエンドポイント」を使用します。</p><p><br></p><p>プライベートエンドポイントを使用すると、プライベートIPアドレスでPaaSのリソースに接続できるようになります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/private-link/private-endpoint-overview\">https://learn.microsoft.com/ja-jp/azure/private-link/private-endpoint-overview</a></p>",
+      "explanationText": "・ExpressRoute を使用して、オンプレミス ネットワークからファイルをアップロードできるようにすること\nインターネット経由で接続するのではなく、ExpressRoute（仮想ネットワーク）を経由してストレージアカウントに接続するには「プライベートエンドポイント」を使用します。\n\nプライベートエンドポイントを使用すると、プライベートIPアドレスでPaaSのリソースに接続できるようになります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/private-link/private-endpoint-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-052",
+      "sourceQuestionNumber": 52,
+      "promptHtml": "<p>あなたは、Azureサブスクリプション内のすべてのAzure Resource Manager（ARM）リソースのデプロイに関する月次レポートを生成するためのソリューションを提案する必要があります。</p><p>あなたは、提案に何を含めるべきですか。</p>",
+      "promptText": "あなたは、Azureサブスクリプション内のすべてのAzure Resource Manager（ARM）リソースのデプロイに関する月次レポートを生成するためのソリューションを提案する必要があります。\nあなたは、提案に何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-052-c1",
+          "label": null,
+          "text": "アクティビティログ",
+          "html": "アクティビティログ"
+        },
+        {
+          "choiceId": "jp3-q-052-c2",
+          "label": null,
+          "text": "Azure Monitorのアクショングループ",
+          "html": "Azure Monitorのアクショングループ"
+        },
+        {
+          "choiceId": "jp3-q-052-c3",
+          "label": null,
+          "text": "Azure Advisor",
+          "html": "Azure Advisor"
+        },
+        {
+          "choiceId": "jp3-q-052-c4",
+          "label": null,
+          "text": "Azure Monitorのメトリック",
+          "html": "Azure Monitorのメトリック"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-052-c1"
+      ],
+      "explanationHtml": "<p>アクティビティログは、サブスクリプションレベルの操作ログです。</p><p>サブスクリプション内のAzureリソースに対して行った操作やデプロイが記録されるため、例えば、SQL Database の作成、更新、削除といった操作をいつ、だれが行ったのかを確認することができます。</p><p><br></p><p>デフォルトではAzure上に90日間保存され、Azureポータルなどから参照できます。</p><p>90日以上保存したい場合は、CSV形式でダウンロードしておくか、診断設定によりLog Analytics ワークスペースなど別の場所へエクスポートすることもできます。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/activity-log?tabs=powershell\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/activity-log?tabs=powershell</a></p>",
+      "explanationText": "アクティビティログは、サブスクリプションレベルの操作ログです。\nサブスクリプション内のAzureリソースに対して行った操作やデプロイが記録されるため、例えば、SQL Database の作成、更新、削除といった操作をいつ、だれが行ったのかを確認することができます。\n\nデフォルトではAzure上に90日間保存され、Azureポータルなどから参照できます。\n90日以上保存したい場合は、CSV形式でダウンロードしておくか、診断設定によりLog Analytics ワークスペースなど別の場所へエクスポートすることもできます。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/activity-log?tabs=powershell",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-053",
+      "sourceQuestionNumber": 53,
+      "promptHtml": "<p>ケーススタディ：</p><p>Fabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。</p><p>同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。<br></p><p><strong>■既存環境</strong></p><p><strong>Active Directory環境</strong><br>ネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。</p><p>corp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。</p><p>rd.fabrikam.comは研究開発（R&amp;D）部門のみが使用します。R&amp;D部門は、オンプレミスリソースのみを使用するように制限されています。</p><p><br></p><p><strong>ネットワークインフラストラクチャ</strong></p><p>各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。</p><p>すべてのオフィスは、インターネットへの高速接続を持っています。</p><p>WebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。</p><p>WebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。</p><p>IT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。</p><p>Fabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。</p><p><br></p><p><strong>既存環境の問題点</strong></p><p>WebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。</p><p>その他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Fabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。<br>その最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。</p><p>研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。</p><p><br></p><p><strong>技術要件</strong></p><p>Fabrikam社は、以下の技術的要件を必要としています。</p><p>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</p><p>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</p><p>・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること</p><p>・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること</p><p>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</p><p>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</p><p>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</p><p>・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと</p><p><br></p><p><strong>データベース要件</strong></p><p>Fabrikam社は、以下のデータベース要件を必要としています。</p><p>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</p><p>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</p><p>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</p><p><br></p><p><strong>セキュリティ要件</strong></p><p>Fabrikam社は、次のセキュリティ要件を必要としています。</p><p>・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること</p><p>・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること</p><p>・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること</p><p>・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること</p><p>・WebApp1 の更新のテストは、会社の外の誰からも見えないこと</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>あなたは、ITサポート担当者向けの通知ソリューションを提案する必要があります。</p><p>提案には何を含めるべきですか。</p>",
+      "promptText": "ケーススタディ：\nFabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。\n同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。\n\n■既存環境\nActive Directory環境\nネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。\ncorp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。\nrd.fabrikam.comは研究開発（R&D）部門のみが使用します。R&D部門は、オンプレミスリソースのみを使用するように制限されています。\n\nネットワークインフラストラクチャ\n各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。\nすべてのオフィスは、インターネットへの高速接続を持っています。\nWebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。\nWebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。\nIT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。\nFabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。\n\n既存環境の問題点\nWebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。\nその他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。\n\n■計画されている変更と要件\nFabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。\nその最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。\n研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。\n\n技術要件\nFabrikam社は、以下の技術的要件を必要としています。\n・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること\n・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること\n・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること\n・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること\n・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること\n・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\n・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること\n・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと\n\nデータベース要件\nFabrikam社は、以下のデータベース要件を必要としています。\n・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること\n・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること\n・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること\n\nセキュリティ要件\nFabrikam社は、次のセキュリティ要件を必要としています。\n・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること\n・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること\n・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること\n・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること\n・WebApp1 の更新のテストは、会社の外の誰からも見えないこと\n\n設問\nあなたは、ITサポート担当者向けの通知ソリューションを提案する必要があります。\n提案には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-053-c1",
+          "label": null,
+          "text": "Network Watcher",
+          "html": "Network Watcher"
+        },
+        {
+          "choiceId": "jp3-q-053-c2",
+          "label": null,
+          "text": "アクショングループ",
+          "html": "アクショングループ"
+        },
+        {
+          "choiceId": "jp3-q-053-c3",
+          "label": null,
+          "text": "高度なレポート機能を備えたSendGridアカウント",
+          "html": "高度なレポート機能を備えたSendGridアカウント"
+        },
+        {
+          "choiceId": "jp3-q-053-c4",
+          "label": null,
+          "text": "Microsoft Entra Connect Health",
+          "html": "<p>Microsoft Entra Connect Health</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-053-c4"
+      ],
+      "explanationHtml": "<p><code>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</code></p><p>Microsoft Entra Connect Health (旧Azure Active Directory&nbsp;Connect Health) の通知設定により、同期エラーをメール通知することができます。</p><p></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/hybrid/whatis-azure-ad-connect\">https://learn.microsoft.com/ja-jp/azure/active-directory/hybrid/whatis-azure-ad-connect</a></p>",
+      "explanationText": "・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること\nMicrosoft Entra Connect Health (旧Azure Active Directory Connect Health) の通知設定により、同期エラーをメール通知することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/hybrid/whatis-azure-ad-connect",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "jp3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "jp3-q-054",
+      "sourceQuestionNumber": 54,
+      "promptHtml": "<p>ケーススタディ：</p><p>Fabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。</p><p>同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。<br></p><p><strong>■既存環境</strong></p><p><strong>Active Directory環境</strong><br>ネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。</p><p>corp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。</p><p>rd.fabrikam.comは研究開発（R&amp;D）部門のみが使用します。R&amp;D部門は、オンプレミスリソースのみを使用するように制限されています。</p><p><br></p><p><strong>ネットワークインフラストラクチャ</strong></p><p>各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。</p><p>すべてのオフィスは、インターネットへの高速接続を持っています。</p><p>WebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。</p><p>WebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。</p><p>IT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。</p><p>Fabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。</p><p><br></p><p><strong>既存環境の問題点</strong></p><p>WebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。</p><p>その他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Fabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。<br>その最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。</p><p>研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。</p><p><br></p><p><strong>技術要件</strong></p><p>Fabrikam社は、以下の技術的要件を必要としています。</p><p>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</p><p>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</p><p>・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること</p><p>・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること</p><p>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</p><p>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</p><p>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</p><p>・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと</p><p><br></p><p><strong>データベース要件</strong></p><p>Fabrikam社は、以下のデータベース要件を必要としています。</p><p>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</p><p>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</p><p>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</p><p><br></p><p><strong>セキュリティ要件</strong></p><p>Fabrikam社は、次のセキュリティ要件を必要としています。</p><p>・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること</p><p>・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること</p><p>・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること</p><p>・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること</p><p>・WebApp1 の更新のテストは、会社の外の誰からも見えないこと</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたは、次の図に示されているように、WebApp1のWeb層のソリューションを設計しています。 </p><p>Azure App Service は Standard の価格レベルを使用する予定です。</p><p></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>技術要件にある冗長性を満たす設計になっています</p>",
+      "promptText": "ケーススタディ：\nFabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。\n同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。\n\n■既存環境\nActive Directory環境\nネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。\ncorp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。\nrd.fabrikam.comは研究開発（R&D）部門のみが使用します。R&D部門は、オンプレミスリソースのみを使用するように制限されています。\n\nネットワークインフラストラクチャ\n各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。\nすべてのオフィスは、インターネットへの高速接続を持っています。\nWebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。\nWebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。\nIT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。\nFabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。\n\n既存環境の問題点\nWebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。\nその他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。\n\n■計画されている変更と要件\nFabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。\nその最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。\n研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。\n\n技術要件\nFabrikam社は、以下の技術的要件を必要としています。\n・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること\n・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること\n・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること\n・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること\n・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること\n・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\n・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること\n・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと\n\nデータベース要件\nFabrikam社は、以下のデータベース要件を必要としています。\n・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること\n・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること\n・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること\n\nセキュリティ要件\nFabrikam社は、次のセキュリティ要件を必要としています。\n・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること\n・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること\n・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること\n・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること\n・WebApp1 の更新のテストは、会社の外の誰からも見えないこと\n\n設問\n注：この問題は次とその次の問題と3問1セットです。\n\nあなたは、次の図に示されているように、WebApp1のWeb層のソリューションを設計しています。\nAzure App Service は Standard の価格レベルを使用する予定です。\n\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\n技術要件にある冗長性を満たす設計になっています",
+      "choices": [
+        {
+          "choiceId": "jp3-q-054-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp3-q-054-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-054-c1"
+      ],
+      "explanationHtml": "<p><code>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</code> </p><p>問題の構成では、WebApp1のWeb層は2つのリージョンのAzure App Serviceに配置されており、前段にAzure Traffic Managerがあります。</p><p>リージョン障害から保護するにはグローバルな負荷分散サービスを選択する必要があり、Azure Front Door、Azure Traffic Managerのいずれかが候補になるため正しいです。</p><p><br></p><p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p>",
+      "explanationText": "・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること\n問題の構成では、WebApp1のWeb層は2つのリージョンのAzure App Serviceに配置されており、前段にAzure Traffic Managerがあります。\nリージョン障害から保護するにはグローバルな負荷分散サービスを選択する必要があり、Azure Front Door、Azure Traffic Managerのいずれかが候補になるため正しいです。\n\nAzureの負荷分散オプションは大きく次の4種類があります。\n細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "jp3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "jp3-q-055",
+      "sourceQuestionNumber": 55,
+      "promptHtml": "<p>ケーススタディ：</p><p>Fabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。</p><p>同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。<br></p><p><strong>■既存環境</strong></p><p><strong>Active Directory環境</strong><br>ネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。</p><p>corp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。</p><p>rd.fabrikam.comは研究開発（R&amp;D）部門のみが使用します。R&amp;D部門は、オンプレミスリソースのみを使用するように制限されています。</p><p><br></p><p><strong>ネットワークインフラストラクチャ</strong></p><p>各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。</p><p>すべてのオフィスは、インターネットへの高速接続を持っています。</p><p>WebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。</p><p>WebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。</p><p>IT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。</p><p>Fabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。</p><p><br></p><p><strong>既存環境の問題点</strong></p><p>WebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。</p><p>その他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Fabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。<br>その最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。</p><p>研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。</p><p><br></p><p><strong>技術要件</strong></p><p>Fabrikam社は、以下の技術的要件を必要としています。</p><p>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</p><p>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</p><p>・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること</p><p>・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること</p><p>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</p><p>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</p><p>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</p><p>・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと</p><p><br></p><p><strong>データベース要件</strong></p><p>Fabrikam社は、以下のデータベース要件を必要としています。</p><p>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</p><p>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</p><p>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</p><p><br></p><p><strong>セキュリティ要件</strong></p><p>Fabrikam社は、次のセキュリティ要件を必要としています。</p><p>・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること</p><p>・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること</p><p>・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること</p><p>・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること</p><p>・WebApp1 の更新のテストは、会社の外の誰からも見えないこと</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたは、次の図に示されているように、WebApp1のWeb層のソリューションを設計しています。 </p><p>Azure App Service は Standard の価格レベルを使用する予定です。</p><p></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>自動スケールに対応した設計です</p>",
+      "promptText": "ケーススタディ：\nFabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。\n同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。\n\n■既存環境\nActive Directory環境\nネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。\ncorp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。\nrd.fabrikam.comは研究開発（R&D）部門のみが使用します。R&D部門は、オンプレミスリソースのみを使用するように制限されています。\n\nネットワークインフラストラクチャ\n各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。\nすべてのオフィスは、インターネットへの高速接続を持っています。\nWebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。\nWebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。\nIT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。\nFabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。\n\n既存環境の問題点\nWebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。\nその他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。\n\n■計画されている変更と要件\nFabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。\nその最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。\n研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。\n\n技術要件\nFabrikam社は、以下の技術的要件を必要としています。\n・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること\n・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること\n・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること\n・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること\n・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること\n・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\n・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること\n・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと\n\nデータベース要件\nFabrikam社は、以下のデータベース要件を必要としています。\n・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること\n・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること\n・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること\n\nセキュリティ要件\nFabrikam社は、次のセキュリティ要件を必要としています。\n・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること\n・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること\n・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること\n・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること\n・WebApp1 の更新のテストは、会社の外の誰からも見えないこと\n\n設問\n注：この問題は前と次の問題と3問1セットです。\n\nあなたは、次の図に示されているように、WebApp1のWeb層のソリューションを設計しています。\nAzure App Service は Standard の価格レベルを使用する予定です。\n\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\n自動スケールに対応した設計です",
+      "choices": [
+        {
+          "choiceId": "jp3-q-055-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp3-q-055-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-055-c1"
+      ],
+      "explanationHtml": "<p>問題の構成では、WebApp1のWeb層は2つのリージョンのAzure App Serviceに配置されており、前段にAzure Traffic Managerがあります。</p><p><br></p><p><code>Azure App Service は Standard の価格レベルを使用する予定です。</code> </p><p>Azure App Serviceには自動スケールの機能が備わっており、Standard以上の価格レベルであれば使用することができます。よって、自動スケールに対応した設計になっており正しいです。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/\">https://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/</a></p>",
+      "explanationText": "問題の構成では、WebApp1のWeb層は2つのリージョンのAzure App Serviceに配置されており、前段にAzure Traffic Managerがあります。\n\nAzure App Service は Standard の価格レベルを使用する予定です。\nAzure App Serviceには自動スケールの機能が備わっており、Standard以上の価格レベルであれば使用することができます。よって、自動スケールに対応した設計になっており正しいです。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started\nhttps://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "jp3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "jp3-q-056",
+      "sourceQuestionNumber": 56,
+      "promptHtml": "<p>ケーススタディ：</p><p>Fabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。</p><p>同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。<br></p><p><strong>■既存環境</strong></p><p><strong>Active Directory環境</strong><br>ネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。</p><p>corp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。</p><p>rd.fabrikam.comは研究開発（R&amp;D）部門のみが使用します。R&amp;D部門は、オンプレミスリソースのみを使用するように制限されています。</p><p><br></p><p><strong>ネットワークインフラストラクチャ</strong></p><p>各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。</p><p>すべてのオフィスは、インターネットへの高速接続を持っています。</p><p>WebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。</p><p>WebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。</p><p>IT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。</p><p>Fabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。</p><p><br></p><p><strong>既存環境の問題点</strong></p><p>WebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。</p><p>その他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Fabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。<br>その最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。</p><p>研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。</p><p><br></p><p><strong>技術要件</strong></p><p>Fabrikam社は、以下の技術的要件を必要としています。</p><p>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</p><p>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</p><p>・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること</p><p>・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること</p><p>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</p><p>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</p><p>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</p><p>・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと</p><p><br></p><p><strong>データベース要件</strong></p><p>Fabrikam社は、以下のデータベース要件を必要としています。</p><p>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</p><p>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</p><p>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</p><p><br></p><p><strong>セキュリティ要件</strong></p><p>Fabrikam社は、次のセキュリティ要件を必要としています。</p><p>・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること</p><p>・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること</p><p>・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること</p><p>・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること</p><p>・WebApp1 の更新のテストは、会社の外の誰からも見えないこと</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたは、次の図に示されているように、WebApp1のWeb層のソリューションを設計しています。 </p><p>Azure App Service は Standard の価格レベルを使用する予定です。</p><p></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>Azureリージョンに障害が発生した場合、手動でフェールオーバーを行う必要があります</p>",
+      "promptText": "ケーススタディ：\nFabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。\n同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。\n\n■既存環境\nActive Directory環境\nネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。\ncorp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。\nrd.fabrikam.comは研究開発（R&D）部門のみが使用します。R&D部門は、オンプレミスリソースのみを使用するように制限されています。\n\nネットワークインフラストラクチャ\n各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。\nすべてのオフィスは、インターネットへの高速接続を持っています。\nWebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。\nWebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。\nIT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。\nFabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。\n\n既存環境の問題点\nWebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。\nその他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。\n\n■計画されている変更と要件\nFabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。\nその最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。\n研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。\n\n技術要件\nFabrikam社は、以下の技術的要件を必要としています。\n・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること\n・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること\n・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること\n・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること\n・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること\n・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\n・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること\n・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと\n\nデータベース要件\nFabrikam社は、以下のデータベース要件を必要としています。\n・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること\n・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること\n・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること\n\nセキュリティ要件\nFabrikam社は、次のセキュリティ要件を必要としています。\n・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること\n・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること\n・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること\n・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること\n・WebApp1 の更新のテストは、会社の外の誰からも見えないこと\n\n設問\n注：この問題は前とその前の問題と3問1セットです。\n\nあなたは、次の図に示されているように、WebApp1のWeb層のソリューションを設計しています。\nAzure App Service は Standard の価格レベルを使用する予定です。\n\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nAzureリージョンに障害が発生した場合、手動でフェールオーバーを行う必要があります",
+      "choices": [
+        {
+          "choiceId": "jp3-q-056-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp3-q-056-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-056-c2"
+      ],
+      "explanationHtml": "<p>問題の構成では、WebApp1のWeb層は2つのリージョンのAzure App Serviceに配置されており、前段にAzure Traffic Managerがあります。</p><p><br></p><p>Azure Traffic Manager には、エンドポイントの監視と自動フェールオーバーの機能が組み込まれています。</p><p>プローブの機能により、エンドポイント（本問題の場合はApp Service）の正常性が定期的にチェックされ、異常とみなされたエンドポイントにはルーティングされなくなります。</p><p><br></p><p>たとえば、次のように優先度ルーティングでエンドポイントを登録した場合、北ヨーロッパリージョンのWebアプリが正常な限りトラフィックはプライマリ (優先度が一番高い) エンドポイントに送信されます。プライマリ エンドポイントを使用できない場合は、2番目のエンドポイントにルーティングされます。</p><p><br></p><p>北ヨーロッパのWebアプリ：優先度1</p><p>西ヨーロッパのWebアプリ：優先度2</p><p><br></p><p>つまり、北ヨーロッパリージョンで障害が発生した場合、西ヨーロッパのWebアプリにルーティングされるようになるので（自動フェールオーバーされるので）、ユーザーはWebアプリを利用することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-monitoring\">https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-monitoring</a></p>",
+      "explanationText": "問題の構成では、WebApp1のWeb層は2つのリージョンのAzure App Serviceに配置されており、前段にAzure Traffic Managerがあります。\n\nAzure Traffic Manager には、エンドポイントの監視と自動フェールオーバーの機能が組み込まれています。\nプローブの機能により、エンドポイント（本問題の場合はApp Service）の正常性が定期的にチェックされ、異常とみなされたエンドポイントにはルーティングされなくなります。\n\nたとえば、次のように優先度ルーティングでエンドポイントを登録した場合、北ヨーロッパリージョンのWebアプリが正常な限りトラフィックはプライマリ (優先度が一番高い) エンドポイントに送信されます。プライマリ エンドポイントを使用できない場合は、2番目のエンドポイントにルーティングされます。\n\n北ヨーロッパのWebアプリ：優先度1\n西ヨーロッパのWebアプリ：優先度2\n\nつまり、北ヨーロッパリージョンで障害が発生した場合、西ヨーロッパのWebアプリにルーティングされるようになるので（自動フェールオーバーされるので）、ユーザーはWebアプリを利用することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-monitoring",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "jp3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "jp3-q-057",
+      "sourceQuestionNumber": 57,
+      "promptHtml": "<p>ケーススタディ：</p><p>Fabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。</p><p>同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。<br></p><p><strong>■既存環境</strong></p><p><strong>Active Directory環境</strong><br>ネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。</p><p>corp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。</p><p>rd.fabrikam.comは研究開発（R&amp;D）部門のみが使用します。R&amp;D部門は、オンプレミスリソースのみを使用するように制限されています。</p><p><br></p><p><strong>ネットワークインフラストラクチャ</strong></p><p>各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。</p><p>すべてのオフィスは、インターネットへの高速接続を持っています。</p><p>WebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。</p><p>WebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。</p><p>IT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。</p><p>Fabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。</p><p><br></p><p><strong>既存環境の問題点</strong></p><p>WebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。</p><p>その他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Fabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。<br>その最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。</p><p>研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。</p><p><br></p><p><strong>技術要件</strong></p><p>Fabrikam社は、以下の技術的要件を必要としています。</p><p>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</p><p>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</p><p>・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること</p><p>・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること</p><p>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</p><p>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</p><p>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</p><p>・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと</p><p><br></p><p><strong>データベース要件</strong></p><p>Fabrikam社は、以下のデータベース要件を必要としています。</p><p>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</p><p>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</p><p>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</p><p><br></p><p><strong>セキュリティ要件</strong></p><p>Fabrikam社は、次のセキュリティ要件を必要としています。</p><p>・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること</p><p>・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること</p><p>・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること</p><p>・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること</p><p>・WebApp1 の更新のテストは、会社の外の誰からも見えないこと</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>あなたは、データベースバックアップの要件を満たすためのソリューションを提案する必要があります。</p><p>提案には何を含めるべきですか。</p>",
+      "promptText": "ケーススタディ：\nFabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。\n同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。\n\n■既存環境\nActive Directory環境\nネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。\ncorp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。\nrd.fabrikam.comは研究開発（R&D）部門のみが使用します。R&D部門は、オンプレミスリソースのみを使用するように制限されています。\n\nネットワークインフラストラクチャ\n各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。\nすべてのオフィスは、インターネットへの高速接続を持っています。\nWebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。\nWebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。\nIT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。\nFabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。\n\n既存環境の問題点\nWebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。\nその他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。\n\n■計画されている変更と要件\nFabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。\nその最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。\n研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。\n\n技術要件\nFabrikam社は、以下の技術的要件を必要としています。\n・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること\n・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること\n・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること\n・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること\n・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること\n・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\n・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること\n・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと\n\nデータベース要件\nFabrikam社は、以下のデータベース要件を必要としています。\n・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること\n・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること\n・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること\n\nセキュリティ要件\nFabrikam社は、次のセキュリティ要件を必要としています。\n・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること\n・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること\n・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること\n・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること\n・WebApp1 の更新のテストは、会社の外の誰からも見えないこと\n\n設問\nあなたは、データベースバックアップの要件を満たすためのソリューションを提案する必要があります。\n提案には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-057-c1",
+          "label": null,
+          "text": "長期リテンションのポリシーを構成する",
+          "html": "長期リテンションのポリシーを構成する"
+        },
+        {
+          "choiceId": "jp3-q-057-c2",
+          "label": null,
+          "text": "Azure Site Recoveryを構成する",
+          "html": "Azure Site Recoveryを構成する"
+        },
+        {
+          "choiceId": "jp3-q-057-c3",
+          "label": null,
+          "text": "geoレプリケーションを設定する",
+          "html": "geoレプリケーションを設定する"
+        },
+        {
+          "choiceId": "jp3-q-057-c4",
+          "label": null,
+          "text": "自動バックアップを使用する",
+          "html": "自動バックアップを使用する"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-057-c1"
+      ],
+      "explanationHtml": "<p><code>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</code></p><p><code>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</code></p><p>移行先のAzureサービスとしてPaaSを使用することが要件なので、Azure SQL&nbsp; Database、Azure SQL Managed Instanceのいずれかが候補になります。（どちらが適切かは後の問題で解説します）</p><p>いずれも、長期的なバックアップ（長期リテンション）をサポートしており、最大10年間のバックアップを保存することができます。</p><p><br></p><p>なお、Azure SQL&nbsp; Database、Azure SQL Managed Instanceとも自動バックアップの機能により、自動的にバックアップが取得されますが、長期リテンションを構成しない場合の保有期間は最大35日となっています。</p><p>バックアップの保有期間は、SQLServerのバックアップ &gt; ポリシーの構成から設定することができます。</p><p><br></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/long-term-retention-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/long-term-retention-overview?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/automated-backups-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/automated-backups-overview?view=azuresql</a></p>",
+      "explanationText": "・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\n・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること\n移行先のAzureサービスとしてPaaSを使用することが要件なので、Azure SQL  Database、Azure SQL Managed Instanceのいずれかが候補になります。（どちらが適切かは後の問題で解説します）\nいずれも、長期的なバックアップ（長期リテンション）をサポートしており、最大10年間のバックアップを保存することができます。\n\nなお、Azure SQL  Database、Azure SQL Managed Instanceとも自動バックアップの機能により、自動的にバックアップが取得されますが、長期リテンションを構成しない場合の保有期間は最大35日となっています。\nバックアップの保有期間は、SQLServerのバックアップ > ポリシーの構成から設定することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/long-term-retention-overview?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/automated-backups-overview?view=azuresql",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "jp3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "jp3-q-058",
+      "sourceQuestionNumber": 58,
+      "promptHtml": "<p>ケーススタディ：</p><p>Fabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。</p><p>同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。<br></p><p><strong>■既存環境</strong></p><p><strong>Active Directory環境</strong><br>ネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。</p><p>corp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。</p><p>rd.fabrikam.comは研究開発（R&amp;D）部門のみが使用します。R&amp;D部門は、オンプレミスリソースのみを使用するように制限されています。</p><p><br></p><p><strong>ネットワークインフラストラクチャ</strong></p><p>各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。</p><p>すべてのオフィスは、インターネットへの高速接続を持っています。</p><p>WebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。</p><p>WebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。</p><p>IT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。</p><p>Fabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。</p><p><br></p><p><strong>既存環境の問題点</strong></p><p>WebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。</p><p>その他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Fabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。<br>その最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。</p><p>研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。</p><p><br></p><p><strong>技術要件</strong></p><p>Fabrikam社は、以下の技術的要件を必要としています。</p><p>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</p><p>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</p><p>・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること</p><p>・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること</p><p>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</p><p>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</p><p>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</p><p>・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと</p><p><br></p><p><strong>データベース要件</strong></p><p>Fabrikam社は、以下のデータベース要件を必要としています。</p><p>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</p><p>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</p><p>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</p><p><br></p><p><strong>セキュリティ要件</strong></p><p>Fabrikam社は、次のセキュリティ要件を必要としています。</p><p>・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること</p><p>・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること</p><p>・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること</p><p>・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること</p><p>・WebApp1 の更新のテストは、会社の外の誰からも見えないこと</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は次とその次の問題と3問1セットです。</p><p><br>あなたは、Azureへの移行のコンポーネントを評価しており、Azureストレージアカウントをデプロイする必要があります。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>SQL Serverのデータベース移行には、Azureストレージアカウントをデプロイする必要があります</p>",
+      "promptText": "ケーススタディ：\nFabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。\n同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。\n\n■既存環境\nActive Directory環境\nネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。\ncorp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。\nrd.fabrikam.comは研究開発（R&D）部門のみが使用します。R&D部門は、オンプレミスリソースのみを使用するように制限されています。\n\nネットワークインフラストラクチャ\n各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。\nすべてのオフィスは、インターネットへの高速接続を持っています。\nWebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。\nWebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。\nIT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。\nFabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。\n\n既存環境の問題点\nWebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。\nその他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。\n\n■計画されている変更と要件\nFabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。\nその最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。\n研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。\n\n技術要件\nFabrikam社は、以下の技術的要件を必要としています。\n・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること\n・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること\n・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること\n・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること\n・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること\n・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\n・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること\n・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと\n\nデータベース要件\nFabrikam社は、以下のデータベース要件を必要としています。\n・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること\n・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること\n・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること\n\nセキュリティ要件\nFabrikam社は、次のセキュリティ要件を必要としています。\n・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること\n・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること\n・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること\n・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること\n・WebApp1 の更新のテストは、会社の外の誰からも見えないこと\n\n設問\n注：この問題は次とその次の問題と3問1セットです。\n\nあなたは、Azureへの移行のコンポーネントを評価しており、Azureストレージアカウントをデプロイする必要があります。\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nSQL Serverのデータベース移行には、Azureストレージアカウントをデプロイする必要があります",
+      "choices": [
+        {
+          "choiceId": "jp3-q-058-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp3-q-058-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-058-c1"
+      ],
+      "explanationHtml": "<p><code>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</code></p><p><code>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</code></p><p>移行先のAzureサービスとしてPaaSを使用することが要件なので、Azure SQL&nbsp; Database、Azure SQL Managed Instance（以降、Azure SQL MI）のいずれかが候補になります。</p><p><br></p><p><code>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</code></p><p>ダウンタイムを最小限に抑えるには「オンライン移行」を選択する必要があります。</p><p>Azure Database Migration Serviceを利用すると、オンプレミスのSQLServerをAzureへオンライン移行できますが、次の通りシナリオは限定的です。</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/dms/dms-overview\">Azure Database Migration Service とは</a></p><p><br></p><p>Azure SQL&nbsp; Databaseのオンライン移行は収録時点ではサポートされていないため、Azure SQL MI を選択する必要があります。</p><p>そして、Azure Database Migration Serviceで Azure SQL MI にオンライン移行する場合、バックアップファイルのアップロード先としてストレージアカウントが必要となります。よって「はい」が正解です。</p><p><br></p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/dms/tutorial-sql-server-managed-instance-online-ads#configure-migration-settings\">移行の設定の構成</a></p>",
+      "explanationText": "・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること\n・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\n移行先のAzureサービスとしてPaaSを使用することが要件なので、Azure SQL  Database、Azure SQL Managed Instance（以降、Azure SQL MI）のいずれかが候補になります。\n\n・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること\nダウンタイムを最小限に抑えるには「オンライン移行」を選択する必要があります。\nAzure Database Migration Serviceを利用すると、オンプレミスのSQLServerをAzureへオンライン移行できますが、次の通りシナリオは限定的です。\n\n出典：Azure Database Migration Service とは\n\nAzure SQL  Databaseのオンライン移行は収録時点ではサポートされていないため、Azure SQL MI を選択する必要があります。\nそして、Azure Database Migration Serviceで Azure SQL MI にオンライン移行する場合、バックアップファイルのアップロード先としてストレージアカウントが必要となります。よって「はい」が正解です。\n\n出典：移行の設定の構成",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "jp3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "jp3-q-059",
+      "sourceQuestionNumber": 59,
+      "promptHtml": "<p>ケーススタディ：</p><p>Fabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。</p><p>同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。<br></p><p><strong>■既存環境</strong></p><p><strong>Active Directory環境</strong><br>ネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。</p><p>corp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。</p><p>rd.fabrikam.comは研究開発（R&amp;D）部門のみが使用します。R&amp;D部門は、オンプレミスリソースのみを使用するように制限されています。</p><p><br></p><p><strong>ネットワークインフラストラクチャ</strong></p><p>各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。</p><p>すべてのオフィスは、インターネットへの高速接続を持っています。</p><p>WebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。</p><p>WebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。</p><p>IT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。</p><p>Fabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。</p><p><br></p><p><strong>既存環境の問題点</strong></p><p>WebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。</p><p>その他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Fabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。<br>その最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。</p><p>研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。</p><p><br></p><p><strong>技術要件</strong></p><p>Fabrikam社は、以下の技術的要件を必要としています。</p><p>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</p><p>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</p><p>・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること</p><p>・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること</p><p>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</p><p>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</p><p>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</p><p>・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと</p><p><br></p><p><strong>データベース要件</strong></p><p>Fabrikam社は、以下のデータベース要件を必要としています。</p><p>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</p><p>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</p><p>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</p><p><br></p><p><strong>セキュリティ要件</strong></p><p>Fabrikam社は、次のセキュリティ要件を必要としています。</p><p>・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること</p><p>・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること</p><p>・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること</p><p>・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること</p><p>・WebApp1 の更新のテストは、会社の外の誰からも見えないこと</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前と次の問題と3問1セットです。</p><p><br>あなたは、Azureへの移行のコンポーネントを評価しており、Azureストレージアカウントをデプロイする必要があります。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>Webサイトのコンテンツストレージ用に、Azureストレージアカウントをデプロイする必要があります</p>",
+      "promptText": "ケーススタディ：\nFabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。\n同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。\n\n■既存環境\nActive Directory環境\nネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。\ncorp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。\nrd.fabrikam.comは研究開発（R&D）部門のみが使用します。R&D部門は、オンプレミスリソースのみを使用するように制限されています。\n\nネットワークインフラストラクチャ\n各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。\nすべてのオフィスは、インターネットへの高速接続を持っています。\nWebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。\nWebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。\nIT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。\nFabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。\n\n既存環境の問題点\nWebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。\nその他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。\n\n■計画されている変更と要件\nFabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。\nその最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。\n研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。\n\n技術要件\nFabrikam社は、以下の技術的要件を必要としています。\n・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること\n・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること\n・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること\n・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること\n・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること\n・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\n・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること\n・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと\n\nデータベース要件\nFabrikam社は、以下のデータベース要件を必要としています。\n・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること\n・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること\n・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること\n\nセキュリティ要件\nFabrikam社は、次のセキュリティ要件を必要としています。\n・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること\n・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること\n・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること\n・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること\n・WebApp1 の更新のテストは、会社の外の誰からも見えないこと\n\n設問\n注：この問題は前と次の問題と3問1セットです。\n\nあなたは、Azureへの移行のコンポーネントを評価しており、Azureストレージアカウントをデプロイする必要があります。\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nWebサイトのコンテンツストレージ用に、Azureストレージアカウントをデプロイする必要があります",
+      "choices": [
+        {
+          "choiceId": "jp3-q-059-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp3-q-059-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-059-c2"
+      ],
+      "explanationHtml": "<p><code>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</code></p><p><code>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</code></p><p><code>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</code> </p><p>すでに問題で登場していますが、WebApp1 のWeb層の移行先としては Azure App Serviceが適切です。</p><p>継続的デプロイ（CI/CD）を設定すると、GitHubなどのソース管理のリポジトリと連携することができ、コードを簡単に更新することができます。</p><p>また、手動、自動スケールの機能により、インスタンス台数の増減も容易にできます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/deploy-continuous-deployment?tabs=github\">https://learn.microsoft.com/ja-jp/azure/app-service/deploy-continuous-deployment?tabs=github</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started</a></p><p><br></p><p>Azure App Serviceにはストレージが組み込まれているので、ストレージアカウントをデプロイする必要はありません。</p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/\">https://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/</a></p>",
+      "explanationText": "・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること\n・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること\n・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\nすでに問題で登場していますが、WebApp1 のWeb層の移行先としては Azure App Serviceが適切です。\n継続的デプロイ（CI/CD）を設定すると、GitHubなどのソース管理のリポジトリと連携することができ、コードを簡単に更新することができます。\nまた、手動、自動スケールの機能により、インスタンス台数の増減も容易にできます。\nhttps://learn.microsoft.com/ja-jp/azure/app-service/deploy-continuous-deployment?tabs=github\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started\n\nAzure App Serviceにはストレージが組み込まれているので、ストレージアカウントをデプロイする必要はありません。\nhttps://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "jp3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "jp3-q-060",
+      "sourceQuestionNumber": 60,
+      "promptHtml": "<p>ケーススタディ：</p><p>Fabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。</p><p>同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。<br></p><p><strong>■既存環境</strong></p><p><strong>Active Directory環境</strong><br>ネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。</p><p>corp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。</p><p>rd.fabrikam.comは研究開発（R&amp;D）部門のみが使用します。R&amp;D部門は、オンプレミスリソースのみを使用するように制限されています。</p><p><br></p><p><strong>ネットワークインフラストラクチャ</strong></p><p>各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。</p><p>すべてのオフィスは、インターネットへの高速接続を持っています。</p><p>WebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。</p><p>WebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。</p><p>IT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。</p><p>Fabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。</p><p><br></p><p><strong>既存環境の問題点</strong></p><p>WebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。</p><p>その他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Fabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。<br>その最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。</p><p>研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。</p><p><br></p><p><strong>技術要件</strong></p><p>Fabrikam社は、以下の技術的要件を必要としています。</p><p>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</p><p>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</p><p>・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること</p><p>・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること</p><p>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</p><p>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</p><p>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</p><p>・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと</p><p><br></p><p><strong>データベース要件</strong></p><p>Fabrikam社は、以下のデータベース要件を必要としています。</p><p>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</p><p>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</p><p>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</p><p><br></p><p><strong>セキュリティ要件</strong></p><p>Fabrikam社は、次のセキュリティ要件を必要としています。</p><p>・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること</p><p>・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること</p><p>・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること</p><p>・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること</p><p>・WebApp1 の更新のテストは、会社の外の誰からも見えないこと</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前とその前の問題と3問1セットです。</p><p><br>あなたは、Azureへの移行のコンポーネントを評価しており、Azureストレージアカウントをデプロイする必要があります。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>データベースメトリックの監視のために、Azureストレージアカウントをデプロイする必要があります</p>",
+      "promptText": "ケーススタディ：\nFabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。\n同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。\n\n■既存環境\nActive Directory環境\nネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。\ncorp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。\nrd.fabrikam.comは研究開発（R&D）部門のみが使用します。R&D部門は、オンプレミスリソースのみを使用するように制限されています。\n\nネットワークインフラストラクチャ\n各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。\nすべてのオフィスは、インターネットへの高速接続を持っています。\nWebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。\nWebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。\nIT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。\nFabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。\n\n既存環境の問題点\nWebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。\nその他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。\n\n■計画されている変更と要件\nFabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。\nその最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。\n研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。\n\n技術要件\nFabrikam社は、以下の技術的要件を必要としています。\n・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること\n・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること\n・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること\n・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること\n・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること\n・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\n・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること\n・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと\n\nデータベース要件\nFabrikam社は、以下のデータベース要件を必要としています。\n・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること\n・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること\n・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること\n\nセキュリティ要件\nFabrikam社は、次のセキュリティ要件を必要としています。\n・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること\n・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること\n・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること\n・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること\n・WebApp1 の更新のテストは、会社の外の誰からも見えないこと\n\n設問\n注：この問題は前とその前の問題と3問1セットです。\n\nあなたは、Azureへの移行のコンポーネントを評価しており、Azureストレージアカウントをデプロイする必要があります。\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nデータベースメトリックの監視のために、Azureストレージアカウントをデプロイする必要があります",
+      "choices": [
+        {
+          "choiceId": "jp3-q-060-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp3-q-060-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-060-c2"
+      ],
+      "explanationHtml": "<p><code>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</code></p><p>SQL Databaseのメトリックを分析するために、診断設定でSQL Insightsなどのログを出力できます。</p><p>診断ログの保存先として次の<strong>いずれか</strong>（複数可）を選択することができます。</p><p><br></p><p>・ストレージアカウント</p><p>・Log Analytics ワークスペース</p><p>・イベントハブ</p><p><br></p><p></p><p><br></p><p>ストレージアカウントを選択することもできますが、必ずしもストレージアカウントをデプロイする必要はありません。よって「いいえ」が正解です。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal</a></p><p><br></p><p>最後に、解説で使用した比較表をまとめて添付しておきますので、見返したいときにご活用ください。（全ての演習テストの最後の解説に添付しておきます）</p><p><br></p><p><strong>ストレージアカウントの比較</strong></p><p></p><p><br></p><p><strong>負荷分散オプションの比較</strong></p><p></p><p><br></p><p><strong>Azure SQL Databaseの比較</strong></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla\">枠外の参考リンク：Azure SQL Database と SQL Managed Instance の高可用性</a></p><p></p>",
+      "explanationText": "・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること\nSQL Databaseのメトリックを分析するために、診断設定でSQL Insightsなどのログを出力できます。\n診断ログの保存先として次のいずれか（複数可）を選択することができます。\n\n・ストレージアカウント\n・Log Analytics ワークスペース\n・イベントハブ\n\nストレージアカウントを選択することもできますが、必ずしもストレージアカウントをデプロイする必要はありません。よって「いいえ」が正解です。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&tabs=azure-portal\n\n最後に、解説で使用した比較表をまとめて添付しておきますので、見返したいときにご活用ください。（全ての演習テストの最後の解説に添付しておきます）\n\nストレージアカウントの比較\n\n負荷分散オプションの比較\n\nAzure SQL Databaseの比較\n枠外の参考リンク：Azure SQL Database と SQL Managed Instance の高可用性",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "jp3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    }
+  ]
+}

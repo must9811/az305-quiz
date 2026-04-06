@@ -1,0 +1,466 @@
+{
+  "setId": "jp1-set-004",
+  "title": "問題集1 31-40",
+  "sourceHtml": "udemy/問題集1.html",
+  "questionIds": [
+    "jp1-q-031",
+    "jp1-q-032",
+    "jp1-q-033",
+    "jp1-q-034",
+    "jp1-q-035",
+    "jp1-q-036",
+    "jp1-q-037",
+    "jp1-q-038",
+    "jp1-q-039",
+    "jp1-q-040"
+  ],
+  "questions": [
+    {
+      "questionId": "jp1-q-031",
+      "sourceQuestionNumber": 31,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたの会社は、オンプレミスとAzureにいくつかの仮想マシンをデプロイしています。</p><p>Azure ExpressRouteを導入し、オンプレミスからAzureへの接続を構成しました。</p><p><br></p><p>いくつかの仮想マシンは、ネットワーク接続に問題があります。</p><p>あなたは、ネットワークトラフィックを分析し、パケットが仮想マシンに許可または拒否されているかどうかを確認する必要があります。</p><p><br></p><p>ソリューション：Azure Advisorを使用して、ネットワークトラフィックを分析します</p><p><br></p><p>ソリューションは目標を満たしていますか。</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたの会社は、オンプレミスとAzureにいくつかの仮想マシンをデプロイしています。\nAzure ExpressRouteを導入し、オンプレミスからAzureへの接続を構成しました。\n\nいくつかの仮想マシンは、ネットワーク接続に問題があります。\nあなたは、ネットワークトラフィックを分析し、パケットが仮想マシンに許可または拒否されているかどうかを確認する必要があります。\n\nソリューション：Azure Advisorを使用して、ネットワークトラフィックを分析します\n\nソリューションは目標を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-031-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp1-q-031-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-031-c2"
+      ],
+      "explanationHtml": "<p>Azure Advisorは、Azureを利用する上でのベストプラクティス（最善策）を利用者に対して提案・推奨するサービスです。ネットワークトラフィックの分析はできません。</p><p><br></p><p>代わりにNetwork WatcherのIPフロー検証を使用します。</p><p>Network Watcher IP フロー検証では、5 つの組の情報に基づき、仮想マシンでパケットが許可されたか拒否されたかを確認することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/advisor/advisor-overview\">https://learn.microsoft.com/ja-jp/azure/advisor/advisor-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/network-watcher/network-watcher-ip-flow-verify-overview\">https://learn.microsoft.com/ja-jp/azure/network-watcher/network-watcher-ip-flow-verify-overview</a></p>",
+      "explanationText": "Azure Advisorは、Azureを利用する上でのベストプラクティス（最善策）を利用者に対して提案・推奨するサービスです。ネットワークトラフィックの分析はできません。\n\n代わりにNetwork WatcherのIPフロー検証を使用します。\nNetwork Watcher IP フロー検証では、5 つの組の情報に基づき、仮想マシンでパケットが許可されたか拒否されたかを確認することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/advisor/advisor-overview\nhttps://learn.microsoft.com/ja-jp/azure/network-watcher/network-watcher-ip-flow-verify-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-032",
+      "sourceQuestionNumber": 32,
+      "promptHtml": "<p>あなたは、Azureサブスクリプションを持っています。</p><p>あなたは、開発者が行うAzure仮想マシンのデプロイを管理するためのソリューションを提案する必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・仮想マシンを作成できるリージョンを特定のリージョンだけに限定すること</p><p>・作成する仮想マシンのサイズを特定のサイズだけに限定すること</p><p><br></p><p>あなたは提案に何を含めるべきですか。</p>",
+      "promptText": "あなたは、Azureサブスクリプションを持っています。\nあなたは、開発者が行うAzure仮想マシンのデプロイを管理するためのソリューションを提案する必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・仮想マシンを作成できるリージョンを特定のリージョンだけに限定すること\n・作成する仮想マシンのサイズを特定のサイズだけに限定すること\n\nあなたは提案に何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-032-c1",
+          "label": null,
+          "text": "条件付きアクセスポリシー",
+          "html": "条件付きアクセスポリシー"
+        },
+        {
+          "choiceId": "jp1-q-032-c2",
+          "label": null,
+          "text": "ロールベースのアクセス制御（RBAC）",
+          "html": "ロールベースのアクセス制御（RBAC）"
+        },
+        {
+          "choiceId": "jp1-q-032-c3",
+          "label": null,
+          "text": "ARMテンプレート",
+          "html": "ARMテンプレート"
+        },
+        {
+          "choiceId": "jp1-q-032-c4",
+          "label": null,
+          "text": "Azure Policy",
+          "html": "Azure Policy"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-032-c4"
+      ],
+      "explanationHtml": "<p>Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。</p><p>例えば、「日本のリージョン以外のリソースの作成を拒否する」とか「仮想マシンの作成を特定のサイズに限定する」といったことが可能です。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/overview\">https://learn.microsoft.com/ja-jp/azure/governance/policy/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\">https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies</a></p>",
+      "explanationText": "Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。\n例えば、「日本のリージョン以外のリソースの作成を拒否する」とか「仮想マシンの作成を特定のサイズに限定する」といったことが可能です。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/overview\nhttps://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-033",
+      "sourceQuestionNumber": 33,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、次に示されているバックアップポリシーをデプロイすることを計画しています。</p><p></p><p>次の文章を完成させるのに正しい<strong>選択肢</strong>はどれですか。&nbsp; </p><p><br></p><p>ポリシーを使用してバックアップされた仮想マシンは、最大で［<strong>選択肢</strong>］前の状態まで復元することができます。</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、次に示されているバックアップポリシーをデプロイすることを計画しています。\n\n次の文章を完成させるのに正しい選択肢はどれですか。 \n\nポリシーを使用してバックアップされた仮想マシンは、最大で［選択肢］前の状態まで復元することができます。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-033-c1",
+          "label": null,
+          "text": "90日",
+          "html": "<p>90日</p>"
+        },
+        {
+          "choiceId": "jp1-q-033-c2",
+          "label": null,
+          "text": "26週",
+          "html": "<p>26週</p>"
+        },
+        {
+          "choiceId": "jp1-q-033-c3",
+          "label": null,
+          "text": "36か月",
+          "html": "<p>36か月</p>"
+        },
+        {
+          "choiceId": "jp1-q-033-c4",
+          "label": null,
+          "text": "45か月",
+          "html": "<p>45か月</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-033-c3"
+      ],
+      "explanationHtml": "<p>問題文に示されている画面は、Azure Backupのポリシー作成画面です。</p><p>毎日18:00にバックアップが取得され、年次を除く日次、週次、月次のバックアップポイントの保有期間が設定されています。</p><p>よって、最大で36か月前のバックアップポイントから仮想マシンを復元することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/backup-azure-arm-vms-prepare\">https://learn.microsoft.com/ja-jp/azure/backup/backup-azure-arm-vms-prepare</a></p>",
+      "explanationText": "問題文に示されている画面は、Azure Backupのポリシー作成画面です。\n毎日18:00にバックアップが取得され、年次を除く日次、週次、月次のバックアップポイントの保有期間が設定されています。\nよって、最大で36か月前のバックアップポイントから仮想マシンを復元することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/backup/backup-azure-arm-vms-prepare",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-034",
+      "sourceQuestionNumber": 34,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、次に示されているバックアップポリシーをデプロイすることを計画しています。</p><p></p><p>次の文章を完成させるのに正しい<strong>選択肢</strong>はどれですか。&nbsp; </p><p><br></p><p>ポリシーを使用してバックアップされた仮想マシンの目標復旧地点（RPO）は、[<strong>選択肢</strong>] です。</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、次に示されているバックアップポリシーをデプロイすることを計画しています。\n\n次の文章を完成させるのに正しい選択肢はどれですか。 \n\nポリシーを使用してバックアップされた仮想マシンの目標復旧地点（RPO）は、[選択肢] です。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-034-c1",
+          "label": null,
+          "text": "1時間",
+          "html": "1時間"
+        },
+        {
+          "choiceId": "jp1-q-034-c2",
+          "label": null,
+          "text": "1日",
+          "html": "1日"
+        },
+        {
+          "choiceId": "jp1-q-034-c3",
+          "label": null,
+          "text": "1週間",
+          "html": "1週間"
+        },
+        {
+          "choiceId": "jp1-q-034-c4",
+          "label": null,
+          "text": "1か月",
+          "html": "1か月"
+        },
+        {
+          "choiceId": "jp1-q-034-c5",
+          "label": null,
+          "text": "1年間",
+          "html": "1年間"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-034-c2"
+      ],
+      "explanationHtml": "<p>問題文に示されている画面は、Azure Backupのポリシー作成画面です。</p><p>毎日18:00にバックアップが取得され、年次を除く日次、週次、月次のバックアップポイントの保有期間が設定されています。</p><p><br></p><p>目標復旧地点（RPO：Recovery Point Objective）は、「過去のどの時点のデータまでを復旧できるか」を表す指標です。本問題の場合、1日おきの頻度でバックアップが取得されるポリシーのため、1日前の時点まで復旧することができます。よって、選択肢2の「1日」が正解となります。</p><p><br></p><p>以下、試験とは直接関係ないかもしれませんが補足します。</p><p>データ損失の範囲を許容できずRPOを短くしたい場合は、バックアップの頻度を増やす（間隔を短くする）必要があります。</p><p>Azure Backupの場合、最短で1日1回のバックアップしか取得できませんでしたが、新たに <a href=\"https://learn.microsoft.com/ja-jp/azure/backup/backup-azure-vms-enhanced-policy\">拡張ポリシー</a> が提供されており、最短4時間おきに1日複数回のバックアップがサポートされています（収録時点ではまだプレビュー中です）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/backup-azure-arm-vms-prepare\">https://learn.microsoft.com/ja-jp/azure/backup/backup-azure-arm-vms-prepare</a></p>",
+      "explanationText": "問題文に示されている画面は、Azure Backupのポリシー作成画面です。\n毎日18:00にバックアップが取得され、年次を除く日次、週次、月次のバックアップポイントの保有期間が設定されています。\n\n目標復旧地点（RPO：Recovery Point Objective）は、「過去のどの時点のデータまでを復旧できるか」を表す指標です。本問題の場合、1日おきの頻度でバックアップが取得されるポリシーのため、1日前の時点まで復旧することができます。よって、選択肢2の「1日」が正解となります。\n\n以下、試験とは直接関係ないかもしれませんが補足します。\nデータ損失の範囲を許容できずRPOを短くしたい場合は、バックアップの頻度を増やす（間隔を短くする）必要があります。\nAzure Backupの場合、最短で1日1回のバックアップしか取得できませんでしたが、新たに 拡張ポリシー が提供されており、最短4時間おきに1日複数回のバックアップがサポートされています（収録時点ではまだプレビュー中です）\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/backup/backup-azure-arm-vms-prepare",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-035",
+      "sourceQuestionNumber": 35,
+      "promptHtml": "<p>あなたは、次の表に示すストレージを持っています。</p><p></p><p>Server1には 500GB のファイルが保存されています。</p><p>あなたは、Server1のファイルのコピーをStorage1に格納する必要があります。</p><p>この目標を達成することができるAzureサービスは次のうちどれですか。2つ選択してください。</p>",
+      "promptText": "あなたは、次の表に示すストレージを持っています。\n\nServer1には 500GB のファイルが保存されています。\nあなたは、Server1のファイルのコピーをStorage1に格納する必要があります。\nこの目標を達成することができるAzureサービスは次のうちどれですか。2つ選択してください。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-035-c1",
+          "label": null,
+          "text": "Azure Batch",
+          "html": "<p>Azure Batch</p>"
+        },
+        {
+          "choiceId": "jp1-q-035-c2",
+          "label": null,
+          "text": "Azure Service Bus",
+          "html": "<p>Azure Service Bus</p>"
+        },
+        {
+          "choiceId": "jp1-q-035-c3",
+          "label": null,
+          "text": "オンプレミス データ ゲートウェイ",
+          "html": "オンプレミス データ ゲートウェイ"
+        },
+        {
+          "choiceId": "jp1-q-035-c4",
+          "label": null,
+          "text": "Azure Import/Export サービス",
+          "html": "<p>Azure Import/Export サービス</p>"
+        },
+        {
+          "choiceId": "jp1-q-035-c5",
+          "label": null,
+          "text": "Azure Data Factory",
+          "html": "Azure Data Factory"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-035-c4",
+        "jp1-q-035-c5"
+      ],
+      "explanationHtml": "<p>Azure Import/Export は、データのオフライン移行サービスです。</p><p>Azure データセンターにディスクドライブを直接送付することで、Azure Blob Storage と Azure Files に大量のデータを安全にインポートできます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/import-export/storage-import-export-service\">https://learn.microsoft.com/ja-jp/azure/import-export/storage-import-export-service</a></p><p><br></p><p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT&nbsp;/ データ統合のサービスと説明されています。</p><p><br></p><p>オンプレミスのファイルサーバーに「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、オンプレミスのデータをストレージアカウントのBLOBやファイル共有などにコピーすることができます。</p>",
+      "explanationText": "Azure Import/Export は、データのオフライン移行サービスです。\nAzure データセンターにディスクドライブを直接送付することで、Azure Blob Storage と Azure Files に大量のデータを安全にインポートできます。\nhttps://learn.microsoft.com/ja-jp/azure/import-export/storage-import-export-service\n\nAzure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。\nデータをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/introduction\n\n収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）\n公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。\n\nオンプレミスのファイルサーバーに「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、オンプレミスのデータをストレージアカウントのBLOBやファイル共有などにコピーすることができます。",
+      "images": [],
+      "domain": null,
+      "questionType": "multi",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-036",
+      "sourceQuestionNumber": 36,
+      "promptHtml": "<p>あなたは、複数のアプリケーション間でトランザクションを処理するためのメッセージングソリューションを検討しています。</p><p>あなたは、XMLメッセージを使用してトランザクション情報を非同期で通信できるようにするためのソリューションを提案する必要があります。</p><p>提案には何を含めるべきですか。</p>",
+      "promptText": "あなたは、複数のアプリケーション間でトランザクションを処理するためのメッセージングソリューションを検討しています。\nあなたは、XMLメッセージを使用してトランザクション情報を非同期で通信できるようにするためのソリューションを提案する必要があります。\n提案には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-036-c1",
+          "label": null,
+          "text": "Azure EventHubs",
+          "html": "Azure EventHubs"
+        },
+        {
+          "choiceId": "jp1-q-036-c2",
+          "label": null,
+          "text": "Azure Notification Hubs",
+          "html": "Azure Notification Hubs"
+        },
+        {
+          "choiceId": "jp1-q-036-c3",
+          "label": null,
+          "text": "Azure Queue Storage",
+          "html": "Azure Queue Storage"
+        },
+        {
+          "choiceId": "jp1-q-036-c4",
+          "label": null,
+          "text": "Azure Service Fabric",
+          "html": "Azure Service Fabric"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-036-c3"
+      ],
+      "explanationHtml": "<p>複数のアプリケーションを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがよくあります。</p><p>アプリとアプリを直接つなぐのではなく、間にメッセージングサービスを挟むことで、送信側は受信側の処理を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。</p><p><br></p><p>Azure には大きく次の2つのメッセージベースのソリューションが用意されています。</p><p>・Azure Queue Storage</p><p>・Azure Service Bus</p><p><br></p><p>よって、選択肢3の「Azure Queue Storage」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/queues/storage-queues-introduction\">https://learn.microsoft.com/ja-jp/azure/storage/queues/storage-queues-introduction</a></p>",
+      "explanationText": "複数のアプリケーションを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがよくあります。\nアプリとアプリを直接つなぐのではなく、間にメッセージングサービスを挟むことで、送信側は受信側の処理を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。\n\nAzure には大きく次の2つのメッセージベースのソリューションが用意されています。\n・Azure Queue Storage\n・Azure Service Bus\n\nよって、選択肢3の「Azure Queue Storage」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/queues/storage-queues-introduction",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-037",
+      "sourceQuestionNumber": 37,
+      "promptHtml": "<p>あなたは50,000台のIoTデバイスを含むAzure IoT Hubソリューションを計画しています。 </p><p>各デバイスは、温度、デバイスID、時間データを含むデータをストリーミングし、毎秒およそ50,000件のレコードが毎秒書き込まれる予定です。</p><p>データはほぼリアルタイムで可視化される必要があります。</p><p><br></p><p>あなたは、IoT Hubからのストリーミングデータを保存し、クエリするためのサービスを提案する必要があります。</p><p>あなたはどのサービスを提案すべきですか。2つ選択してください。</p>",
+      "promptText": "あなたは50,000台のIoTデバイスを含むAzure IoT Hubソリューションを計画しています。\n各デバイスは、温度、デバイスID、時間データを含むデータをストリーミングし、毎秒およそ50,000件のレコードが毎秒書き込まれる予定です。\nデータはほぼリアルタイムで可視化される必要があります。\n\nあなたは、IoT Hubからのストリーミングデータを保存し、クエリするためのサービスを提案する必要があります。\nあなたはどのサービスを提案すべきですか。2つ選択してください。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-037-c1",
+          "label": null,
+          "text": "Azure Table Storage",
+          "html": "Azure Table Storage"
+        },
+        {
+          "choiceId": "jp1-q-037-c2",
+          "label": null,
+          "text": "Azure Event Grid",
+          "html": "Azure Event Grid"
+        },
+        {
+          "choiceId": "jp1-q-037-c3",
+          "label": null,
+          "text": "Azure Cosmos DB SQL API",
+          "html": "Azure Cosmos DB SQL API"
+        },
+        {
+          "choiceId": "jp1-q-037-c4",
+          "label": null,
+          "text": "Azure Time Series Insights",
+          "html": "Azure Time Series Insights"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-037-c3",
+        "jp1-q-037-c4"
+      ],
+      "explanationHtml": "<p>IoTのような大量の連続的な時系列データを保存・分析できるサービスは選択肢のうち次の2つです。</p><p>・Azure Cosmos DB SQL API</p><p>・Azure Time Series Insights</p><p><br></p><p>Azure Table Storageはデータの保存はできますが、それ単体で簡単にクエリできるような機能はありません。</p><p>Azure Event Gridはパブリッシュ/サブスクライブ型のイベントルーティング サービスです。イベントを使ってアプリケーションを統合するために使用するサービスで、データの保存やクエリはできません。</p><p><br></p><p>Azure Time Series Insightsは、時系列データ向けのフルマネージドサービスです。</p><p>IoT Hubまたは、Event Hubからストリーミングデータを受け取り、ほぼリアルタイムでデータを処理、保存、クエリ、視覚化することができます。</p><p>また、待機時間の短い読み取り/書き込みが可能なCosmos DBもIoTソリューションに適しています。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/time-series-insights/overview-what-is-tsi\">https://learn.microsoft.com/ja-jp/azure/time-series-insights/overview-what-is-tsi</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/solution-ideas/articles/iot-using-cosmos-db\">https://learn.microsoft.com/ja-jp/azure/architecture/solution-ideas/articles/iot-using-cosmos-db</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/use-cases#iot-and-telematics\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/use-cases#iot-and-telematics </a></p>",
+      "explanationText": "IoTのような大量の連続的な時系列データを保存・分析できるサービスは選択肢のうち次の2つです。\n・Azure Cosmos DB SQL API\n・Azure Time Series Insights\n\nAzure Table Storageはデータの保存はできますが、それ単体で簡単にクエリできるような機能はありません。\nAzure Event Gridはパブリッシュ/サブスクライブ型のイベントルーティング サービスです。イベントを使ってアプリケーションを統合するために使用するサービスで、データの保存やクエリはできません。\n\nAzure Time Series Insightsは、時系列データ向けのフルマネージドサービスです。\nIoT Hubまたは、Event Hubからストリーミングデータを受け取り、ほぼリアルタイムでデータを処理、保存、クエリ、視覚化することができます。\nまた、待機時間の短い読み取り/書き込みが可能なCosmos DBもIoTソリューションに適しています。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/time-series-insights/overview-what-is-tsi\nhttps://learn.microsoft.com/ja-jp/azure/architecture/solution-ideas/articles/iot-using-cosmos-db\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/use-cases#iot-and-telematics",
+      "images": [],
+      "domain": null,
+      "questionType": "multi",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-038",
+      "sourceQuestionNumber": 38,
+      "promptHtml": "<p>あなたは、Azure Blob Storageに保存されているデータを変換し、Azure Data Lake Storageに移動することを計画しています。</p><p>あなたは、マッピングデータフローを使用してデータを変換する必要があります。</p><p>どのサービスを使用する必要がありますか。 </p>",
+      "promptText": "あなたは、Azure Blob Storageに保存されているデータを変換し、Azure Data Lake Storageに移動することを計画しています。\nあなたは、マッピングデータフローを使用してデータを変換する必要があります。\nどのサービスを使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-038-c1",
+          "label": null,
+          "text": "Azure Data Box Gateway",
+          "html": "Azure Data Box Gateway"
+        },
+        {
+          "choiceId": "jp1-q-038-c2",
+          "label": null,
+          "text": "Azure Databricks",
+          "html": "Azure Databricks"
+        },
+        {
+          "choiceId": "jp1-q-038-c3",
+          "label": null,
+          "text": "Azure Data Factory",
+          "html": "Azure Data Factory"
+        },
+        {
+          "choiceId": "jp1-q-038-c4",
+          "label": null,
+          "text": "Azure File Sync",
+          "html": "Azure File Sync"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-038-c3"
+      ],
+      "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。</p><p><br></p><p>Azure Data Factoryのマッピングデータフローを使用すると、コードを記述することなく、箱と箱をつなぎ合わせて視覚的にデータの変換や移動などを設計することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-data-flow-overview\">https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-data-flow-overview</a></p>",
+      "explanationText": "Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。\nデータをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。\n\n収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）\n公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。\n\nAzure Data Factoryのマッピングデータフローを使用すると、コードを記述することなく、箱と箱をつなぎ合わせて視覚的にデータの変換や移動などを設計することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/introduction\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/concepts-data-flow-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-039",
+      "sourceQuestionNumber": 39,
+      "promptHtml": "<p>あなたは、オンプレミスのActive Directoryと同期しているMicrosoft Entraテナントを持っています。</p><p>オンプレミスには、WebApp1という名前の内部Webアプリがあり、統合Windows認証を使用しています。</p><p>一部のユーザーはリモートで勤務しており、オンプレミスネットワークにVPNでアクセスすることはできません。</p><p>あなたは、リモートユーザーにWebApp1へのシングルサインオン（SSO）アクセスを提供する必要があります。</p><p>あなたはどの機能をソリューションに含めるべきですか。2つ選択してください。</p>",
+      "promptText": "あなたは、オンプレミスのActive Directoryと同期しているMicrosoft Entraテナントを持っています。\nオンプレミスには、WebApp1という名前の内部Webアプリがあり、統合Windows認証を使用しています。\n一部のユーザーはリモートで勤務しており、オンプレミスネットワークにVPNでアクセスすることはできません。\nあなたは、リモートユーザーにWebApp1へのシングルサインオン（SSO）アクセスを提供する必要があります。\nあなたはどの機能をソリューションに含めるべきですか。2つ選択してください。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-039-c1",
+          "label": null,
+          "text": "Microsoft Entra アプリケーションプロキシ",
+          "html": "<p>Microsoft Entra アプリケーションプロキシ</p>"
+        },
+        {
+          "choiceId": "jp1-q-039-c2",
+          "label": null,
+          "text": "Microsoft Entra Privileged Identity Management (PIM)",
+          "html": "<p>Microsoft Entra Privileged Identity Management (PIM)</p>"
+        },
+        {
+          "choiceId": "jp1-q-039-c3",
+          "label": null,
+          "text": "条件付きアクセスポリシー",
+          "html": "条件付きアクセスポリシー"
+        },
+        {
+          "choiceId": "jp1-q-039-c4",
+          "label": null,
+          "text": "Azure Arc",
+          "html": "Azure Arc"
+        },
+        {
+          "choiceId": "jp1-q-039-c5",
+          "label": null,
+          "text": "Microsoft Entra エンタープライズアプリケーション",
+          "html": "<p>Microsoft Entra エンタープライズアプリケーション</p>"
+        },
+        {
+          "choiceId": "jp1-q-039-c6",
+          "label": null,
+          "text": "Azure Application Gateway",
+          "html": "Azure Application Gateway"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-039-c1",
+        "jp1-q-039-c5"
+      ],
+      "explanationHtml": "<p>Microsoft Entraのアプリケーションプロキシを使用すると、ユーザーはVPN接続せずともインターネット経由で安全にオンプレミスのWebアプリケーションにシングルサインオン（SSO）でアクセスできます。</p><p>アプリケーションプロキシのコンポーネントには大きく次の2つがあります。</p><p><br></p><p>・クラウドで実行されるアプリケーションプロキシサービス</p><p>・オンプレミスのサーバーで実行されるアプリケーションプロキシコネクタ</p><p><br></p><p>アプリケーションプロキシサービスはリバースプロキシの役割があり、ユーザーからのアクセス要求をオンプレミスへ中継します。</p><p>アプリケーションプロキシサービスとオンプレミスとの間にセキュリティで保護された接続を確立するために、オンプレミスのサーバにはアプリケーションプロキシコネクタをインストールします。</p><p><br></p><p>また、アプリケーションプロキシを構成するには「エンタープライズアプリケーション」のメニューから独自のアプリケーションとしてWebApp1の登録が必要です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy\">https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application\">https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application</a></p>",
+      "explanationText": "Microsoft Entraのアプリケーションプロキシを使用すると、ユーザーはVPN接続せずともインターネット経由で安全にオンプレミスのWebアプリケーションにシングルサインオン（SSO）でアクセスできます。\nアプリケーションプロキシのコンポーネントには大きく次の2つがあります。\n\n・クラウドで実行されるアプリケーションプロキシサービス\n・オンプレミスのサーバーで実行されるアプリケーションプロキシコネクタ\n\nアプリケーションプロキシサービスはリバースプロキシの役割があり、ユーザーからのアクセス要求をオンプレミスへ中継します。\nアプリケーションプロキシサービスとオンプレミスとの間にセキュリティで保護された接続を確立するために、オンプレミスのサーバにはアプリケーションプロキシコネクタをインストールします。\n\nまた、アプリケーションプロキシを構成するには「エンタープライズアプリケーション」のメニューから独自のアプリケーションとしてWebApp1の登録が必要です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application",
+      "images": [],
+      "domain": null,
+      "questionType": "multi",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-040",
+      "sourceQuestionNumber": 40,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたの会社は、Azureの仮想マシン上で実行される既存のWebアプリケーションを持っています。 </p><p>このアプリケーションは次の要件を満たすよう構成する必要があります。</p><p><br></p><p>・アプリケーションがSQLインジェクションから保護されること</p><p>・レイヤー7のロードバランサーを使用していること</p><p>・アプリケーションのコードの中断を最小限にすること</p><p><br></p><p><strong>Azureサービス</strong>には何を提案すべきですか。&nbsp; </p><p><br></p><p>Azureサービス：</p><p>機能：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたの会社は、Azureの仮想マシン上で実行される既存のWebアプリケーションを持っています。\nこのアプリケーションは次の要件を満たすよう構成する必要があります。\n\n・アプリケーションがSQLインジェクションから保護されること\n・レイヤー7のロードバランサーを使用していること\n・アプリケーションのコードの中断を最小限にすること\n\nAzureサービスには何を提案すべきですか。 \n\nAzureサービス：\n機能：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-040-c1",
+          "label": null,
+          "text": "Web Application Firewall  (WAF)",
+          "html": "<p>Web Application Firewall&nbsp; (WAF)</p>"
+        },
+        {
+          "choiceId": "jp1-q-040-c2",
+          "label": null,
+          "text": "Azure Application Gateway",
+          "html": "Azure Application Gateway"
+        },
+        {
+          "choiceId": "jp1-q-040-c3",
+          "label": null,
+          "text": "Azure Load Balancer",
+          "html": "Azure Load Balancer"
+        },
+        {
+          "choiceId": "jp1-q-040-c4",
+          "label": null,
+          "text": "Azure Traffic Manager",
+          "html": "Azure Traffic Manager"
+        },
+        {
+          "choiceId": "jp1-q-040-c5",
+          "label": null,
+          "text": "SSL オフロード",
+          "html": "SSL オフロード"
+        },
+        {
+          "choiceId": "jp1-q-040-c6",
+          "label": null,
+          "text": "URL パス ベースのルーティング",
+          "html": "URL パス ベースのルーティング"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-040-c2"
+      ],
+      "explanationHtml": "<p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p></p><p><br></p><p><code>・アプリケーションがSQLインジェクションから保護されること</code></p><p><code>・レイヤー7のロードバランサーを使用していること</code></p><p>SQLインジェクションから保護するにはWeb Application Firewall（WAF）を使用します。</p><p>WAFの機能を持つレイヤー7のロードバランサーとしてはAzure Front Doorも選択肢となりますが、この問題の選択肢にはないため「Azure Application Gateway」が正解となります。</p><p><br></p><p>※Azure Front Doorはグローバル分散、レート制限が必要な場合に選択肢に登場しがち</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/application-gateway/features#web-application-firewall\">https://learn.microsoft.com/ja-jp/azure/application-gateway/features#web-application-firewall</a></p>",
+      "explanationText": "Azureの負荷分散オプションは大きく次の4種類があります。\n細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。\n\n・アプリケーションがSQLインジェクションから保護されること\n・レイヤー7のロードバランサーを使用していること\nSQLインジェクションから保護するにはWeb Application Firewall（WAF）を使用します。\nWAFの機能を持つレイヤー7のロードバランサーとしてはAzure Front Doorも選択肢となりますが、この問題の選択肢にはないため「Azure Application Gateway」が正解となります。\n\n※Azure Front Doorはグローバル分散、レート制限が必要な場合に選択肢に登場しがち\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\nhttps://learn.microsoft.com/ja-jp/azure/application-gateway/features#web-application-firewall",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

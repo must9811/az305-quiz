@@ -1,0 +1,446 @@
+{
+  "setId": "jp1-set-005",
+  "title": "問題集1 41-50",
+  "sourceHtml": "udemy/問題集1.html",
+  "questionIds": [
+    "jp1-q-041",
+    "jp1-q-042",
+    "jp1-q-043",
+    "jp1-q-044",
+    "jp1-q-045",
+    "jp1-q-046",
+    "jp1-q-047",
+    "jp1-q-048",
+    "jp1-q-049",
+    "jp1-q-050"
+  ],
+  "questions": [
+    {
+      "questionId": "jp1-q-041",
+      "sourceQuestionNumber": 41,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたの会社は、Azureの仮想マシン上で実行される既存のWebアプリケーションを持っています。 </p><p>このアプリケーションは次の要件を満たすよう構成する必要があります。</p><p><br></p><p>・アプリケーションがSQLインジェクションから保護されること</p><p>・レイヤー7のロードバランサーを使用していること</p><p>・アプリケーションのコードの中断を最小限にすること</p><p><br></p><p>Azureサービスの<strong>機能</strong>には何を提案すべきですか。&nbsp; </p><p><br></p><p>Azureサービス：</p><p>機能：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたの会社は、Azureの仮想マシン上で実行される既存のWebアプリケーションを持っています。\nこのアプリケーションは次の要件を満たすよう構成する必要があります。\n\n・アプリケーションがSQLインジェクションから保護されること\n・レイヤー7のロードバランサーを使用していること\n・アプリケーションのコードの中断を最小限にすること\n\nAzureサービスの機能には何を提案すべきですか。 \n\nAzureサービス：\n機能：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-041-c1",
+          "label": null,
+          "text": "Web Application Firewall  (WAF)",
+          "html": "<p>Web Application Firewall&nbsp; (WAF)</p>"
+        },
+        {
+          "choiceId": "jp1-q-041-c2",
+          "label": null,
+          "text": "Azure Application Gateway",
+          "html": "Azure Application Gateway"
+        },
+        {
+          "choiceId": "jp1-q-041-c3",
+          "label": null,
+          "text": "Azure Load Balancer",
+          "html": "Azure Load Balancer"
+        },
+        {
+          "choiceId": "jp1-q-041-c4",
+          "label": null,
+          "text": "Azure Traffic Manager",
+          "html": "Azure Traffic Manager"
+        },
+        {
+          "choiceId": "jp1-q-041-c5",
+          "label": null,
+          "text": "SSL オフロード",
+          "html": "SSL オフロード"
+        },
+        {
+          "choiceId": "jp1-q-041-c6",
+          "label": null,
+          "text": "URL パス ベースのルーティング",
+          "html": "URL パス ベースのルーティング"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-041-c1"
+      ],
+      "explanationHtml": "<p><code>・アプリケーションがSQLインジェクションから保護されること</code></p><p>SQLインジェクションから保護するにはWeb Application Firewall（WAF）を使用します。</p><p>Web Application Firewall（WAF）は、SQL インジェクションやクロス サイト スクリプティングなど、一般的な既知の脆弱性を悪用した悪意のある攻撃からWebアプリケーションを保護するサービスです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/application-gateway/features#web-application-firewall\">https://learn.microsoft.com/ja-jp/azure/application-gateway/features#web-application-firewall</a></p><p><br></p>",
+      "explanationText": "・アプリケーションがSQLインジェクションから保護されること\nSQLインジェクションから保護するにはWeb Application Firewall（WAF）を使用します。\nWeb Application Firewall（WAF）は、SQL インジェクションやクロス サイト スクリプティングなど、一般的な既知の脆弱性を悪用した悪意のある攻撃からWebアプリケーションを保護するサービスです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/application-gateway/features#web-application-firewall",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-042",
+      "sourceQuestionNumber": 42,
+      "promptHtml": "<p>あなたは、Azure Blob StorageにWebアクセスログのデータを保存しています。</p><p>あなたは、アクセスログから月次レポートを作成することを計画しており、毎月データをAzure SQL Databaseにアップロードするための自動化されたプロセスを提案する必要があります。</p><p>提案には何を含めるべきですか。</p>",
+      "promptText": "あなたは、Azure Blob StorageにWebアクセスログのデータを保存しています。\nあなたは、アクセスログから月次レポートを作成することを計画しており、毎月データをAzure SQL Databaseにアップロードするための自動化されたプロセスを提案する必要があります。\n提案には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-042-c1",
+          "label": null,
+          "text": "Azure Data Factory",
+          "html": "Azure Data Factory"
+        },
+        {
+          "choiceId": "jp1-q-042-c2",
+          "label": null,
+          "text": "Data Migration Assistant (DMA)",
+          "html": "Data Migration Assistant (DMA)"
+        },
+        {
+          "choiceId": "jp1-q-042-c3",
+          "label": null,
+          "text": "Microsoft SQL Server Migration Assistant (SSMA)",
+          "html": "Microsoft SQL Server Migration Assistant (SSMA)"
+        },
+        {
+          "choiceId": "jp1-q-042-c4",
+          "label": null,
+          "text": "AzCopy",
+          "html": "AzCopy"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-042-c1"
+      ],
+      "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。</p><p><br></p><p>ソース/宛先のデータストアとしてAzure StorageやAzure SQL Databaseなど様々なデータストアを選択可能で、作成したパイプライン（タスクをグループ化したもの）を実行するスケジュールを「トリガー」で定義することができます。</p><p><br></p><p>選択肢2、3のDMA / SSMAは、SQLServerの移行・評価ツールなので誤りです。</p><p>選択肢4のAzCopyは、コマンドラインでAzure Storageを操作するためのCUIツールで、Azure SQL Databaseへのコピーはできないため誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory\">https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipeline-execution-triggers\">https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipeline-execution-triggers</a></p>",
+      "explanationText": "Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。\nデータをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。\n\n収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）\n公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。\n\nソース/宛先のデータストアとしてAzure StorageやAzure SQL Databaseなど様々なデータストアを選択可能で、作成したパイプライン（タスクをグループ化したもの）を実行するスケジュールを「トリガー」で定義することができます。\n\n選択肢2、3のDMA / SSMAは、SQLServerの移行・評価ツールなので誤りです。\n選択肢4のAzCopyは、コマンドラインでAzure Storageを操作するためのCUIツールで、Azure SQL Databaseへのコピーはできないため誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/introduction\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipeline-execution-triggers",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-043",
+      "sourceQuestionNumber": 43,
+      "promptHtml": "<p>あなたは、Azureのサブスクリプションを持っています。</p><p>サブスクリプションには、複数のBLOBを含むBLOBコンテナーがあります。</p><p>あなたの会社の財務部門の5人のユーザーは、12月中にBLOBにアクセスする必要があります。</p><p>あなたは、12月の間だけBLOBへのアクセスを可能にするためのソリューションを提案する必要があります。</p><p>あなたは、ソリューションに何を提案すべきですか。</p>",
+      "promptText": "あなたは、Azureのサブスクリプションを持っています。\nサブスクリプションには、複数のBLOBを含むBLOBコンテナーがあります。\nあなたの会社の財務部門の5人のユーザーは、12月中にBLOBにアクセスする必要があります。\nあなたは、12月の間だけBLOBへのアクセスを可能にするためのソリューションを提案する必要があります。\nあなたは、ソリューションに何を提案すべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-043-c1",
+          "label": null,
+          "text": "Shared Access Signature (SAS)",
+          "html": "<p>Shared Access Signature (SAS) </p>"
+        },
+        {
+          "choiceId": "jp1-q-043-c2",
+          "label": null,
+          "text": "アクセスキー",
+          "html": "アクセスキー"
+        },
+        {
+          "choiceId": "jp1-q-043-c3",
+          "label": null,
+          "text": "条件付きアクセスポリシー",
+          "html": "条件付きアクセスポリシー"
+        },
+        {
+          "choiceId": "jp1-q-043-c4",
+          "label": null,
+          "text": "証明書",
+          "html": "証明書"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-043-c1"
+      ],
+      "explanationHtml": "<p>共有アクセス署名（SAS：Shared Access Signature）はAzure Storageに対する制限付きのアクセスを提供するための仕組みで、次のような様々な条件に基づいてきめ細かなアクセス制御を実現することができます。</p><p><br></p><p>・使用できるサービス（Blob / File / Table / Queue）</p><p>・アクセス許可（読み取り / 書き込み / 更新 / 削除など）</p><p>・有効期限（開始 / 終了日時）</p><p>・接続元IPアドレス</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-sas-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-sas-overview</a></p>",
+      "explanationText": "共有アクセス署名（SAS：Shared Access Signature）はAzure Storageに対する制限付きのアクセスを提供するための仕組みで、次のような様々な条件に基づいてきめ細かなアクセス制御を実現することができます。\n\n・使用できるサービス（Blob / File / Table / Queue）\n・アクセス許可（読み取り / 書き込み / 更新 / 削除など）\n・有効期限（開始 / 終了日時）\n・接続元IPアドレス\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-sas-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-044",
+      "sourceQuestionNumber": 44,
+      "promptHtml": "<p>あなたは、SQLServerのデータベースソリューションを設計しています。</p><p>ソリューションは、それぞれ20GBの20個のデータベースを含み、それぞれさまざまな使用パターンを持っています。</p><p>あなたはデータベースをホストするためのプラットフォームを提案する必要があります。</p><p> ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・データベースに割り当てられるコンピューティングリソースは動的に拡張可能であること</p><p>・月間稼働率 99.99% のSLAを満たすこと</p><p>・予約購入できること </p><p>・コストを最小限に抑えること</p><p><br></p><p>あなたは提案に何を含めるべきですか。</p>",
+      "promptText": "あなたは、SQLServerのデータベースソリューションを設計しています。\nソリューションは、それぞれ20GBの20個のデータベースを含み、それぞれさまざまな使用パターンを持っています。\nあなたはデータベースをホストするためのプラットフォームを提案する必要があります。\n ソリューションは、次の要件を満たす必要があります。\n\n・データベースに割り当てられるコンピューティングリソースは動的に拡張可能であること\n・月間稼働率 99.99% のSLAを満たすこと\n・予約購入できること\n・コストを最小限に抑えること\n\nあなたは提案に何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-044-c1",
+          "label": null,
+          "text": "Azureの仮想マシンで動作するMicrosoft SQL Server上の20個のデータベース",
+          "html": "<p>Azureの仮想マシンで動作するMicrosoft SQL Server上の20個のデータベース</p>"
+        },
+        {
+          "choiceId": "jp1-q-044-c2",
+          "label": null,
+          "text": "Azure SQL Database Serverlessの20個のインスタンス",
+          "html": "<p>Azure SQL Database Serverlessの20個のインスタンス</p>"
+        },
+        {
+          "choiceId": "jp1-q-044-c3",
+          "label": null,
+          "text": "単一可用性セット内のAzure仮想マシンで動作するMicrosoft SQL Server上の20個のデータベース",
+          "html": "<p>単一可用性セット内のAzure仮想マシンで動作するMicrosoft SQL Server上の20個のデータベース</p>"
+        },
+        {
+          "choiceId": "jp1-q-044-c4",
+          "label": null,
+          "text": "20個のAzure SQL Databaseを含むエラスティックプール",
+          "html": "20個のAzure SQL Databaseを含むエラスティックプール"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-044-c4"
+      ],
+      "explanationHtml": "<p><code>それぞれ20GBの20個のデータベースを含み、それぞれさまざまな使用パターンを持っています</code></p><p><code>・データベースに割り当てられるコンピューティングリソースは動的に拡張可能であること</code></p><p><code>・コストを最小限に抑えること</code></p><p>エラスティック プールは、個々のデータベースのコンピューティングリソースを選択するのではなく、リソースのプールを作成して複数のデータベースで共有できる仕組みです。データベース単位ではなく、プールしたコンピューティングリソースの時間に応じて課金されます。</p><p>ピーク時間の異なる複数のデータベースがある場合、エラスティックプールを作成して複数のデータベースで共有することでコストを節約することができます。</p><p><br></p><p>プール内の個々のデータベースでは、設定されたパラメーターの範囲内でリソースを柔軟に使用できます。 負荷が大きい場合、データベースはリソースの使用量を増やして需要に対応します。 負荷が小さい場合、データベースはリソースの使用量を減らし、負荷がない場合は、リソースを使用しません。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql</a></p><p><br></p><p><code>・月間稼働率 99.99% のSLAを満たすこと</code></p><p>エラスティックプールの利用有無に限らず、Azure SQL Databaseでは少なくとも99.99%以上の月間稼働率のSLAが定められています。</p><p><a href=\"https://azure.microsoft.com/ja-jp/support/legal/sla/azure-sql-database/v1_8/\">https://azure.microsoft.com/ja-jp/support/legal/sla/azure-sql-database/v1_8/</a></p><p><br></p><p><code>・予約購入できること </code></p><p>1年間、または3年間の予約容量を購入することでコストを節約することもできます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/azure-sql-database/elastic/\">https://azure.microsoft.com/ja-jp/pricing/details/azure-sql-database/elastic/</a></p>",
+      "explanationText": "それぞれ20GBの20個のデータベースを含み、それぞれさまざまな使用パターンを持っています\n・データベースに割り当てられるコンピューティングリソースは動的に拡張可能であること\n・コストを最小限に抑えること\nエラスティック プールは、個々のデータベースのコンピューティングリソースを選択するのではなく、リソースのプールを作成して複数のデータベースで共有できる仕組みです。データベース単位ではなく、プールしたコンピューティングリソースの時間に応じて課金されます。\nピーク時間の異なる複数のデータベースがある場合、エラスティックプールを作成して複数のデータベースで共有することでコストを節約することができます。\n\nプール内の個々のデータベースでは、設定されたパラメーターの範囲内でリソースを柔軟に使用できます。 負荷が大きい場合、データベースはリソースの使用量を増やして需要に対応します。 負荷が小さい場合、データベースはリソースの使用量を減らし、負荷がない場合は、リソースを使用しません。\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql\n\n・月間稼働率 99.99% のSLAを満たすこと\nエラスティックプールの利用有無に限らず、Azure SQL Databaseでは少なくとも99.99%以上の月間稼働率のSLAが定められています。\nhttps://azure.microsoft.com/ja-jp/support/legal/sla/azure-sql-database/v1_8/\n\n・予約購入できること\n1年間、または3年間の予約容量を購入することでコストを節約することもできます。\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql\nhttps://azure.microsoft.com/ja-jp/pricing/details/azure-sql-database/elastic/",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-045",
+      "sourceQuestionNumber": 45,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたはMicrosoft SQL Serverを実行する仮想マシンを設計しており、2つのデータディスクを接続する予定です。</p><p>最初のデータディスクはログファイルを格納し、2番目のデータディスクはデータファイルを格納します。 </p><p>2つのディスクはどちらも P40 マネージドディスクを選択します。</p><p><br></p><p>あなたは、各ディスクのホストキャッシュの種類を提案する必要があります。</p><p>ソリューションは、仮想マシンの全体的なパフォーマンスを最適化する必要があります。</p><p><strong>ログファイル</strong>を格納するディスクにはどのホストキャッシュを提案すべきですか。</p><p><br></p><p>ログファイル：</p><p>データファイル：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたはMicrosoft SQL Serverを実行する仮想マシンを設計しており、2つのデータディスクを接続する予定です。\n最初のデータディスクはログファイルを格納し、2番目のデータディスクはデータファイルを格納します。\n2つのディスクはどちらも P40 マネージドディスクを選択します。\n\nあなたは、各ディスクのホストキャッシュの種類を提案する必要があります。\nソリューションは、仮想マシンの全体的なパフォーマンスを最適化する必要があります。\nログファイルを格納するディスクにはどのホストキャッシュを提案すべきですか。\n\nログファイル：\nデータファイル：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-045-c1",
+          "label": null,
+          "text": "なし",
+          "html": "なし"
+        },
+        {
+          "choiceId": "jp1-q-045-c2",
+          "label": null,
+          "text": "読み取り専用",
+          "html": "読み取り専用"
+        },
+        {
+          "choiceId": "jp1-q-045-c3",
+          "label": null,
+          "text": "読み取り/書き込み",
+          "html": "読み取り/書き込み"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-045-c1"
+      ],
+      "explanationHtml": "<p>仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。</p><p><br></p><p>ホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。</p><p>ホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance</a></p><p></p><p><br></p><p>仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。</p><p>ログファイル：なし</p><p>データファイル：読み取り専用</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage?view=azuresql#data-file-caching-policies\">データ ファイルのキャッシュ ポリシー</a></p>",
+      "explanationText": "仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。\n\nホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。\nホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\n\n仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。\nログファイル：なし\nデータファイル：読み取り専用\n\n出典：データ ファイルのキャッシュ ポリシー",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-046",
+      "sourceQuestionNumber": 46,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたはMicrosoft SQL Serverを実行する仮想マシンを設計しており、2つのデータディスクを接続する予定です。</p><p>最初のデータディスクはログファイルを格納し、2番目のデータディスクはデータファイルを格納します。 </p><p>2つのディスクはどちらも P40 マネージドディスクを選択します。</p><p><br></p><p>あなたは、各ディスクのホストキャッシュの種類を提案する必要があります。</p><p>ソリューションは、仮想マシンの全体的なパフォーマンスを最適化する必要があります。</p><p><strong>データファイル</strong>を格納するディスクにはどのホストキャッシュを提案すべきですか。</p><p><br></p><p>ログファイル：</p><p>データファイル：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたはMicrosoft SQL Serverを実行する仮想マシンを設計しており、2つのデータディスクを接続する予定です。\n最初のデータディスクはログファイルを格納し、2番目のデータディスクはデータファイルを格納します。\n2つのディスクはどちらも P40 マネージドディスクを選択します。\n\nあなたは、各ディスクのホストキャッシュの種類を提案する必要があります。\nソリューションは、仮想マシンの全体的なパフォーマンスを最適化する必要があります。\nデータファイルを格納するディスクにはどのホストキャッシュを提案すべきですか。\n\nログファイル：\nデータファイル：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-046-c1",
+          "label": null,
+          "text": "なし",
+          "html": "なし"
+        },
+        {
+          "choiceId": "jp1-q-046-c2",
+          "label": null,
+          "text": "読み取り専用",
+          "html": "読み取り専用"
+        },
+        {
+          "choiceId": "jp1-q-046-c3",
+          "label": null,
+          "text": "読み取り/書き込み",
+          "html": "読み取り/書き込み"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-046-c2"
+      ],
+      "explanationHtml": "<p>仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。</p><p><br></p><p>ホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。</p><p>ホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance</a></p><p></p><p><br></p><p>仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。</p><p>ログファイル：なし</p><p>データファイル：読み取り専用</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage?view=azuresql#data-file-caching-policies\">データ ファイルのキャッシュ ポリシー</a></p>",
+      "explanationText": "仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。\n\nホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。\nホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\n\n仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。\nログファイル：なし\nデータファイル：読み取り専用\n\n出典：データ ファイルのキャッシュ ポリシー",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-047",
+      "sourceQuestionNumber": 47,
+      "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。</p><p>アプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。</p><p>組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。</p><p></p><p><br></p><p>あなたは<strong>マネージャー</strong>の要件を満たすために何を提案する必要がありますか。</p><p><br></p><p>マネージャー：</p><p>開発者：</p><p>テスト担当者：</p>",
+      "promptText": "注：この問題は次とその次の問題と3問1セットです。\n\nあなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。\nアプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。\n組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。\n\nあなたはマネージャーの要件を満たすために何を提案する必要がありますか。\n\nマネージャー：\n開発者：\nテスト担当者：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-047-c1",
+          "label": null,
+          "text": "Privileged Identity Management (PIM)",
+          "html": "<p>Privileged Identity Management (PIM)</p>"
+        },
+        {
+          "choiceId": "jp1-q-047-c2",
+          "label": null,
+          "text": "マネージドID",
+          "html": "マネージドID"
+        },
+        {
+          "choiceId": "jp1-q-047-c3",
+          "label": null,
+          "text": "アクセスレビュー",
+          "html": "アクセスレビュー"
+        },
+        {
+          "choiceId": "jp1-q-047-c4",
+          "label": null,
+          "text": "条件付きアクセス",
+          "html": "条件付きアクセス"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-047-c1"
+      ],
+      "explanationHtml": "<p>Privileged Identity Management (PIM)はMicrosoft Entraに含まれるサービスで、代表的な機能には次のようなものがあります。PIMを使用するには Premium P2 ライセンスが必要です。</p><p><br></p><p>・開始日と終了日を使用した期限付きのアクセス権を割り当てる</p><p>・特権ロールがアクティブ化されたときに通知を受ける</p><p>・ユーザーにロールがまだ必要であることを確認するためにアクセスレビューを実施する</p><p>・Microsoft Entraロール、Azure リソースロールに関するアクティビティ、アクティブ化、監査履歴を表示する</p><p><br></p><p><code>・管理者ロールのメンバーシップを定期的にレビューし、メンバーシップを継続する正当な理由をユーザーに要求できる</code></p><p>これは「アクセスレビュー」を使えば要件を満たせるので選択肢3が正しいと思われるかもしれませんが、残り2つの要件を満たすにはPIMが必要です。</p><p>※少々ややこしいですが、アクセスレビューはPIMの機能のうちの一つでもあります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure\">https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-create-azure-ad-roles-and-resource-roles-review\">https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-create-azure-ad-roles-and-resource-roles-review</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-email-notifications\">https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-email-notifications</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/azure-pim-resource-rbac\">https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/azure-pim-resource-rbac</a></p><p><a href=\"https://jpazureid.github.io/blog/azure-active-directory/pim-overview/\">https://jpazureid.github.io/blog/azure-active-directory/pim-overview/</a></p>",
+      "explanationText": "Privileged Identity Management (PIM)はMicrosoft Entraに含まれるサービスで、代表的な機能には次のようなものがあります。PIMを使用するには Premium P2 ライセンスが必要です。\n\n・開始日と終了日を使用した期限付きのアクセス権を割り当てる\n・特権ロールがアクティブ化されたときに通知を受ける\n・ユーザーにロールがまだ必要であることを確認するためにアクセスレビューを実施する\n・Microsoft Entraロール、Azure リソースロールに関するアクティビティ、アクティブ化、監査履歴を表示する\n\n・管理者ロールのメンバーシップを定期的にレビューし、メンバーシップを継続する正当な理由をユーザーに要求できる\nこれは「アクセスレビュー」を使えば要件を満たせるので選択肢3が正しいと思われるかもしれませんが、残り2つの要件を満たすにはPIMが必要です。\n※少々ややこしいですが、アクセスレビューはPIMの機能のうちの一つでもあります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-create-azure-ad-roles-and-resource-roles-review\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-email-notifications\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/azure-pim-resource-rbac\nhttps://jpazureid.github.io/blog/azure-active-directory/pim-overview/",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-048",
+      "sourceQuestionNumber": 48,
+      "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。</p><p>アプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。</p><p>組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。</p><p></p><p><br></p><p>あなたは<strong>開発者</strong>の要件を満たすために何を提案する必要がありますか。</p><p><br></p><p>マネージャー：</p><p>開発者：</p><p>テスト担当者：</p>",
+      "promptText": "注：この問題は前と次の問題と3問1セットです。\n\nあなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。\nアプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。\n組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。\n\nあなたは開発者の要件を満たすために何を提案する必要がありますか。\n\nマネージャー：\n開発者：\nテスト担当者：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-048-c1",
+          "label": null,
+          "text": "Privileged Identity Management (PIM)",
+          "html": "<p>Privileged Identity Management (PIM)</p>"
+        },
+        {
+          "choiceId": "jp1-q-048-c2",
+          "label": null,
+          "text": "マネージドID",
+          "html": "マネージドID"
+        },
+        {
+          "choiceId": "jp1-q-048-c3",
+          "label": null,
+          "text": "アクセスレビュー",
+          "html": "アクセスレビュー"
+        },
+        {
+          "choiceId": "jp1-q-048-c4",
+          "label": null,
+          "text": "条件付きアクセス",
+          "html": "条件付きアクセス"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-048-c2"
+      ],
+      "explanationHtml": "<p>マネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。</p><p>マネージドIDの種類&nbsp;には次の2つがあります。</p><p><br></p><p>・システム割り当てマネージドID</p><p>・ユーザー割り当てマネージドID</p><p><br></p><p>本問題の場合、アプリケーションをホストしているAzure App ServiceのマネージドIDを追加し、Azure Key Vaultのキーに対する「取得」のアクセス許可を与えることで要件を満たすことができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/overview-managed-identity\">https://learn.microsoft.com/ja-jp/azure/app-service/overview-managed-identity</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview\">https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview</a></p>",
+      "explanationText": "マネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。\nマネージドIDの種類 には次の2つがあります。\n\n・システム割り当てマネージドID\n・ユーザー割り当てマネージドID\n\n本問題の場合、アプリケーションをホストしているAzure App ServiceのマネージドIDを追加し、Azure Key Vaultのキーに対する「取得」のアクセス許可を与えることで要件を満たすことができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/app-service/overview-managed-identity\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-049",
+      "sourceQuestionNumber": 49,
+      "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。</p><p>アプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。</p><p>組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。</p><p></p><p><br></p><p>あなたは<strong>テスト担当者</strong>の要件を満たすために何を提案する必要がありますか。</p><p><br></p><p>マネージャー：</p><p>開発者：</p><p>テスト担当者：</p>",
+      "promptText": "注：この問題は前とその前の問題と3問1セットです。\n\nあなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。\nアプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。\n組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。\n\nあなたはテスト担当者の要件を満たすために何を提案する必要がありますか。\n\nマネージャー：\n開発者：\nテスト担当者：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-049-c1",
+          "label": null,
+          "text": "Privileged Identity Management (PIM)",
+          "html": "<p>Privileged Identity Management (PIM)</p>"
+        },
+        {
+          "choiceId": "jp1-q-049-c2",
+          "label": null,
+          "text": "マネージドID",
+          "html": "マネージドID"
+        },
+        {
+          "choiceId": "jp1-q-049-c3",
+          "label": null,
+          "text": "アクセスレビュー",
+          "html": "アクセスレビュー"
+        },
+        {
+          "choiceId": "jp1-q-049-c4",
+          "label": null,
+          "text": "条件付きアクセス",
+          "html": "条件付きアクセス"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-049-c1"
+      ],
+      "explanationHtml": "<p>Privileged Identity Management (PIM)はMicrosoft Entraに含まれるサービスで、代表的な機能には次のようなものがあります。PIMを使用するには Premium P2 ライセンスが必要です。</p><p><br></p><p>・開始日と終了日を使用した期限付きのアクセス権を割り当てる</p><p>・特権ロールがアクティブ化されたときに通知を受ける</p><p>・ユーザーにロールがまだ必要であることを確認するためにアクセスレビューを実施する</p><p>・Microsoft Entraロール、Azure リソースロールに関するアクティビティ、アクティブ化、監査履歴を表示する</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure\">https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure</a></p><p><a href=\"https://jpazureid.github.io/blog/azure-active-directory/pim-overview/\">https://jpazureid.github.io/blog/azure-active-directory/pim-overview/</a></p>",
+      "explanationText": "Privileged Identity Management (PIM)はMicrosoft Entraに含まれるサービスで、代表的な機能には次のようなものがあります。PIMを使用するには Premium P2 ライセンスが必要です。\n\n・開始日と終了日を使用した期限付きのアクセス権を割り当てる\n・特権ロールがアクティブ化されたときに通知を受ける\n・ユーザーにロールがまだ必要であることを確認するためにアクセスレビューを実施する\n・Microsoft Entraロール、Azure リソースロールに関するアクティビティ、アクティブ化、監査履歴を表示する\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure\nhttps://jpazureid.github.io/blog/azure-active-directory/pim-overview/",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-050",
+      "sourceQuestionNumber": 50,
+      "promptHtml": "<p>あなたは、高さマップデータから3Dジオメトリを計算するソリューションを設計しています。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・Azureで計算を実行すること</p><p>・複数のシーンをできるだけ高速に計算するために、ノード数を最大化できること</p><p>・実装に必要な労力を最小限にすること</p><p><br></p><p>あなたは、どのソリューションを提案すべきですか。2つ選択してください。</p>",
+      "promptText": "あなたは、高さマップデータから3Dジオメトリを計算するソリューションを設計しています。\nソリューションは、次の要件を満たす必要があります。\n\n・Azureで計算を実行すること\n・複数のシーンをできるだけ高速に計算するために、ノード数を最大化できること\n・実装に必要な労力を最小限にすること\n\nあなたは、どのソリューションを提案すべきですか。2つ選択してください。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-050-c1",
+          "label": null,
+          "text": "Azure Batchを使用するレンダー ファームを作成する",
+          "html": "Azure Batchを使用するレンダー ファームを作成する"
+        },
+        {
+          "choiceId": "jp1-q-050-c2",
+          "label": null,
+          "text": "仮想マシンスケールセットを使用するレンダー ファームを作成する",
+          "html": "仮想マシンスケールセットを使用するレンダー ファームを作成する"
+        },
+        {
+          "choiceId": "jp1-q-050-c3",
+          "label": null,
+          "text": "仮想マシンを使用するレンダー ファームを作成する",
+          "html": "仮想マシンを使用するレンダー ファームを作成する"
+        },
+        {
+          "choiceId": "jp1-q-050-c4",
+          "label": null,
+          "text": "コンピュートノードで直列タスク実行を有効にする",
+          "html": "コンピュートノードで直列タスク実行を有効にする"
+        },
+        {
+          "choiceId": "jp1-q-050-c5",
+          "label": null,
+          "text": "コンピュートノードで並列タスク実行を有効にする",
+          "html": "コンピュートノードで並列タスク実行を有効にする"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-050-c1",
+        "jp1-q-050-c5"
+      ],
+      "explanationHtml": "<p><code>・実装に必要な労力を最小限にすること</code></p><p>コンピューティングリソースとして、仮想マシンや仮想マシンスケールセットを選択することもできますが、PaaSのサービスである「Azure Batch」を使用すると実装の労力を抑えることができます。</p><p>Azure Batchは、大規模な並列コンピューティングやハイパフォーマンス コンピューティング (HPC) のバッチ ジョブを効率的に実行するためのサービスです。</p><p>3D画像のレンダリングや機械学習の処理など、大量のサーバ台数や高い性能を必要とする並列ワークロードに適しています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/batch/batch-technical-overview\">https://learn.microsoft.com/ja-jp/azure/batch/batch-technical-overview</a></p><p><br></p><p><code>・複数のシーンをできるだけ高速に計算するために、ノード数を最大化できること</code></p><p>Azure Batchでは、「プール」という単位で処理を実行するノード（実態は仮想マシン）をひとまとめにして管理します。プール内のノードの数は、固定の数にしたり、需要に応じて自動スケールするよう構成することもできます。</p><p>また、単一のノードで同時に実行できるタスク（タスクスロット）の数を調整して並列タスク実行を有効にすることで、ジョブ時間を短縮でき、コストを削減できる場合があります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/batch/batch-parallel-node-tasks\">https://learn.microsoft.com/ja-jp/azure/batch/batch-parallel-node-tasks</a></p>",
+      "explanationText": "・実装に必要な労力を最小限にすること\nコンピューティングリソースとして、仮想マシンや仮想マシンスケールセットを選択することもできますが、PaaSのサービスである「Azure Batch」を使用すると実装の労力を抑えることができます。\nAzure Batchは、大規模な並列コンピューティングやハイパフォーマンス コンピューティング (HPC) のバッチ ジョブを効率的に実行するためのサービスです。\n3D画像のレンダリングや機械学習の処理など、大量のサーバ台数や高い性能を必要とする並列ワークロードに適しています。\nhttps://learn.microsoft.com/ja-jp/azure/batch/batch-technical-overview\n\n・複数のシーンをできるだけ高速に計算するために、ノード数を最大化できること\nAzure Batchでは、「プール」という単位で処理を実行するノード（実態は仮想マシン）をひとまとめにして管理します。プール内のノードの数は、固定の数にしたり、需要に応じて自動スケールするよう構成することもできます。\nまた、単一のノードで同時に実行できるタスク（タスクスロット）の数を調整して並列タスク実行を有効にすることで、ジョブ時間を短縮でき、コストを削減できる場合があります。\nhttps://learn.microsoft.com/ja-jp/azure/batch/batch-parallel-node-tasks",
+      "images": [],
+      "domain": null,
+      "questionType": "multi",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

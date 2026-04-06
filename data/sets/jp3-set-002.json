@@ -1,0 +1,403 @@
+{
+  "setId": "jp3-set-002",
+  "title": "問題集3 11-20",
+  "sourceHtml": "udemy/問題集3.html",
+  "questionIds": [
+    "jp3-q-011",
+    "jp3-q-012",
+    "jp3-q-013",
+    "jp3-q-014",
+    "jp3-q-015",
+    "jp3-q-016",
+    "jp3-q-017",
+    "jp3-q-018",
+    "jp3-q-019",
+    "jp3-q-020"
+  ],
+  "questions": [
+    {
+      "questionId": "jp3-q-011",
+      "sourceQuestionNumber": 11,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、機械学習アプリケーションをサポートするためにAzure Databricksを展開することを計画しています。</p><p>エンジニアは、Azure Data Lake StorageをDatabricksファイルシステムにマウントします。</p><p>ストレージのフォルダへのアクセス権は、エンジニアに直接付与されます。</p><p><br></p><p>あなたは、Databrickをデプロイするための設計を提案する必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・エンジニアがアクセス権を持っているフォルダにのみアクセスできること</p><p>・開発労力を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><strong>クラスターの設定</strong>には何を含めるべきですか。</p><p><br></p><p>クラスターの設定：</p><p>Databricksの価格レベル：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、機械学習アプリケーションをサポートするためにAzure Databricksを展開することを計画しています。\nエンジニアは、Azure Data Lake StorageをDatabricksファイルシステムにマウントします。\nストレージのフォルダへのアクセス権は、エンジニアに直接付与されます。\n\nあなたは、Databrickをデプロイするための設計を提案する必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・エンジニアがアクセス権を持っているフォルダにのみアクセスできること\n・開発労力を最小限に抑えること\n・コストを最小限に抑えること\n\nクラスターの設定には何を含めるべきですか。\n\nクラスターの設定：\nDatabricksの価格レベル：",
+      "choices": [
+        {
+          "choiceId": "jp3-q-011-c1",
+          "label": null,
+          "text": "クレデンシャルパススルー",
+          "html": "クレデンシャルパススルー"
+        },
+        {
+          "choiceId": "jp3-q-011-c2",
+          "label": null,
+          "text": "マネージドID",
+          "html": "マネージドID"
+        },
+        {
+          "choiceId": "jp3-q-011-c3",
+          "label": null,
+          "text": "アクセスポリシー",
+          "html": "アクセスポリシー"
+        },
+        {
+          "choiceId": "jp3-q-011-c4",
+          "label": null,
+          "text": "シークレット",
+          "html": "<p>シークレット</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-011-c1"
+      ],
+      "explanationHtml": "<p>Azure Databricksは、Apache Sparkに基づくビッグ データおよび機械学習のプラットフォームです。</p><p>Apache Sparkとは、ビッグデータと機械学習のための非常に高速な分散処理フレームワークです。</p><p>Azure Databricksでは、コマンドを実行するコンピューティングリソースと構成を「クラスター」という単位で作成します。</p><p>クラスターで「Azure Data Lake Storage 資格情報（クレデンシャル）パススルー」を有効にすると、そのクラスターで実行するコマンドは、ストレージにアクセスするためのサービス プリンシパルを構成しなくても（Microsoft EntraのIDを使って）、Azure Data Lake Storage のデータの読み取りと書き込みができるようになります。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/databricks/introduction/\">https://learn.microsoft.com/ja-jp/azure/databricks/introduction/</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/databricks/data-governance/credential-passthrough/adls-passthrough\">https://learn.microsoft.com/ja-jp/azure/databricks/data-governance/credential-passthrough/adls-passthrough</a></p>",
+      "explanationText": "Azure Databricksは、Apache Sparkに基づくビッグ データおよび機械学習のプラットフォームです。\nApache Sparkとは、ビッグデータと機械学習のための非常に高速な分散処理フレームワークです。\nAzure Databricksでは、コマンドを実行するコンピューティングリソースと構成を「クラスター」という単位で作成します。\nクラスターで「Azure Data Lake Storage 資格情報（クレデンシャル）パススルー」を有効にすると、そのクラスターで実行するコマンドは、ストレージにアクセスするためのサービス プリンシパルを構成しなくても（Microsoft EntraのIDを使って）、Azure Data Lake Storage のデータの読み取りと書き込みができるようになります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/databricks/introduction/\nhttps://learn.microsoft.com/ja-jp/azure/databricks/data-governance/credential-passthrough/adls-passthrough",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-012",
+      "sourceQuestionNumber": 12,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、機械学習アプリケーションをサポートするためにAzure Databricksを展開することを計画しています。</p><p>エンジニアは、Azure Data Lake StorageをDatabricksファイルシステムにマウントします。</p><p>ストレージのフォルダへのアクセス権は、エンジニアに直接付与されます。</p><p><br></p><p>あなたは、Databrickをデプロイするための設計を提案する必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・エンジニアがアクセス権を持っているフォルダにのみアクセスできること</p><p>・開発労力を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><strong>Databricksの価格レベル</strong>には何を含めるべきですか。</p><p><br></p><p>クラスターの設定：</p><p>Databricksの価格レベル：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、機械学習アプリケーションをサポートするためにAzure Databricksを展開することを計画しています。\nエンジニアは、Azure Data Lake StorageをDatabricksファイルシステムにマウントします。\nストレージのフォルダへのアクセス権は、エンジニアに直接付与されます。\n\nあなたは、Databrickをデプロイするための設計を提案する必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・エンジニアがアクセス権を持っているフォルダにのみアクセスできること\n・開発労力を最小限に抑えること\n・コストを最小限に抑えること\n\nDatabricksの価格レベルには何を含めるべきですか。\n\nクラスターの設定：\nDatabricksの価格レベル：",
+      "choices": [
+        {
+          "choiceId": "jp3-q-012-c1",
+          "label": null,
+          "text": "Basic",
+          "html": "Basic"
+        },
+        {
+          "choiceId": "jp3-q-012-c2",
+          "label": null,
+          "text": "Standard",
+          "html": "Standard"
+        },
+        {
+          "choiceId": "jp3-q-012-c3",
+          "label": null,
+          "text": "Premium",
+          "html": "Premium"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-012-c3"
+      ],
+      "explanationHtml": "<p>Azure Databricksの価格レベルには、Standard とPremium がありますが、「Azure Data Lake Storage 資格情報（クレデンシャル）パススルー」を使用するには Premium プランが必要です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/databricks/data-governance/credential-passthrough/adls-passthrough\">https://learn.microsoft.com/ja-jp/azure/databricks/data-governance/credential-passthrough/adls-passthrough</a></p>",
+      "explanationText": "Azure Databricksの価格レベルには、Standard とPremium がありますが、「Azure Data Lake Storage 資格情報（クレデンシャル）パススルー」を使用するには Premium プランが必要です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/databricks/data-governance/credential-passthrough/adls-passthrough",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-013",
+      "sourceQuestionNumber": 13,
+      "promptHtml": "<p>あなたの会社の開発者は、コンテナ化されたPythonアプリの構築を計画しています。</p><p>あなたは、アプリをホストするためのプラットフォームを提案する必要があります。</p><p>ソリューションは次の要件を満たす必要があります。</p><p><br></p><p>・自動スケールをサポートしていること</p><p>・Azure Container Registry (ACR) からの継続的なデプロイをサポートしていること</p><p>・Microsoft Entra ID を使用してアプリにアクセスするエンドユーザーを認証するための組み込み機能を提供すること</p><p><br></p><p>あなたは何を提案すべきですか。</p>",
+      "promptText": "あなたの会社の開発者は、コンテナ化されたPythonアプリの構築を計画しています。\nあなたは、アプリをホストするためのプラットフォームを提案する必要があります。\nソリューションは次の要件を満たす必要があります。\n\n・自動スケールをサポートしていること\n・Azure Container Registry (ACR) からの継続的なデプロイをサポートしていること\n・Microsoft Entra ID を使用してアプリにアクセスするエンドユーザーを認証するための組み込み機能を提供すること\n\nあなたは何を提案すべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-013-c1",
+          "label": null,
+          "text": "Azure Container Instances",
+          "html": "Azure Container Instances"
+        },
+        {
+          "choiceId": "jp3-q-013-c2",
+          "label": null,
+          "text": "コンテナを使用するAzure App Service",
+          "html": "コンテナを使用するAzure App Service"
+        },
+        {
+          "choiceId": "jp3-q-013-c3",
+          "label": null,
+          "text": "Azure Kubernetes Service",
+          "html": "Azure Kubernetes Service"
+        },
+        {
+          "choiceId": "jp3-q-013-c4",
+          "label": null,
+          "text": "Dockerがインストールされた仮想マシン",
+          "html": "Dockerがインストールされた仮想マシン"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-013-c2"
+      ],
+      "explanationHtml": "<p>Azureではコンテナのホスティング環境としていくつかのサービスが提供されていますが、示された要件を満たすのは選択肢2の「(コンテナを使用する)Azure App Service」のみです。※コンテナは必須条件ではありません</p><p><br></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started?toc=%2Fazure%2Fapp-service%2Ftoc.json\">自動スケール</a></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/deploy-continuous-deployment?tabs=github#option-1-use-app-service-kudu-build-server\">継続的デプロイ</a></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/overview-authentication-authorization\">組み込み認証 (EasyAuth)</a></p><p><br></p><p>App Serviceでは、JavaやPythonなど言語を選択してコードをデプロイしたり、アプリをコンテナ化してデプロイすることができます。</p><p></p><p><br></p><p>なお、Azure Kubernetes Service&nbsp; (AKS) も自動スケール、継続的デプロイがサポートされていますが、EasyAuth のような組み込みのユーザー認証機能は提供されていません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/overview\">https://learn.microsoft.com/ja-jp/azure/app-service/overview</a></p>",
+      "explanationText": "Azureではコンテナのホスティング環境としていくつかのサービスが提供されていますが、示された要件を満たすのは選択肢2の「(コンテナを使用する)Azure App Service」のみです。※コンテナは必須条件ではありません\n\n・自動スケール\n・継続的デプロイ\n・組み込み認証 (EasyAuth)\n\nApp Serviceでは、JavaやPythonなど言語を選択してコードをデプロイしたり、アプリをコンテナ化してデプロイすることができます。\n\nなお、Azure Kubernetes Service  (AKS) も自動スケール、継続的デプロイがサポートされていますが、EasyAuth のような組み込みのユーザー認証機能は提供されていません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/app-service/overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-014",
+      "sourceQuestionNumber": 14,
+      "promptHtml": "<p>あなたは、アプリケーションを実行するコンテナーをデプロイするためのソリューションを提案する必要があります。</p><p>アプリケーションには2つの層があります。</p><p>各層は、別々のDocker Linuxベースのイメージとして実装されています。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・フロントエンド層は、80番ポート でパブリック IP アドレスを使用してアクセス可能であること</p><p>・バックエンド層は、フロントエンド層から8080番ポートを使用してのみアクセス可能であること</p><p>・両方のコンテナで、同じ Azure ファイル共有にアクセスできること</p><p>・コンテナーに障害が発生した場合、自動的にコンテナーが再起動されること</p><p>・コストを最小限に抑えること</p><p><br></p><p>アプリケーションをホストするために、あなたは何を使用することを提案しますか。</p>",
+      "promptText": "あなたは、アプリケーションを実行するコンテナーをデプロイするためのソリューションを提案する必要があります。\nアプリケーションには2つの層があります。\n各層は、別々のDocker Linuxベースのイメージとして実装されています。\nソリューションは、次の要件を満たす必要があります。\n\n・フロントエンド層は、80番ポート でパブリック IP アドレスを使用してアクセス可能であること\n・バックエンド層は、フロントエンド層から8080番ポートを使用してのみアクセス可能であること\n・両方のコンテナで、同じ Azure ファイル共有にアクセスできること\n・コンテナーに障害が発生した場合、自動的にコンテナーが再起動されること\n・コストを最小限に抑えること\n\nアプリケーションをホストするために、あなたは何を使用することを提案しますか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-014-c1",
+          "label": null,
+          "text": "Azure Kubernetes Service",
+          "html": "Azure Kubernetes Service"
+        },
+        {
+          "choiceId": "jp3-q-014-c2",
+          "label": null,
+          "text": "Azure Service Fabric",
+          "html": "Azure Service Fabric"
+        },
+        {
+          "choiceId": "jp3-q-014-c3",
+          "label": null,
+          "text": "Azure Container Instance",
+          "html": "Azure Container Instance"
+        },
+        {
+          "choiceId": "jp3-q-014-c4",
+          "label": null,
+          "text": "Azure Container Registry",
+          "html": "Azure Container Registry"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-014-c3"
+      ],
+      "explanationHtml": "<p>LinuxベースのDockerコンテナーをホストして要件を満たすような構成にするには、選択肢4の「Azure Container Registry」以外が利用できます。</p><p>Azure Container Registryは、コンテナーイメージを登録するためのサービスなので誤りです。</p><p><br></p><p>残りの3つのうち、コストを最小限に抑えることができるのは選択肢3の「Azure Container Instance」です。</p><p>Azure Container Instanceは、コンテナグループに割り当てるvCPUとメモリに応じて<em>秒単位</em>で<em>課金されます。</em></p><p>なお、収録時点ではAzureポータルから複数コンテナーをデプロイできないようなので、Azure CLIやARMテンプレートを使用する必要があります。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-container-groups\">https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-container-groups</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-multi-container-yaml\">https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-multi-container-yaml</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-restart-policy\">https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-restart-policy</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/container-instances/\">https://azure.microsoft.com/ja-jp/pricing/details/container-instances/</a></p>",
+      "explanationText": "LinuxベースのDockerコンテナーをホストして要件を満たすような構成にするには、選択肢4の「Azure Container Registry」以外が利用できます。\nAzure Container Registryは、コンテナーイメージを登録するためのサービスなので誤りです。\n\n残りの3つのうち、コストを最小限に抑えることができるのは選択肢3の「Azure Container Instance」です。\nAzure Container Instanceは、コンテナグループに割り当てるvCPUとメモリに応じて秒単位で課金されます。\nなお、収録時点ではAzureポータルから複数コンテナーをデプロイできないようなので、Azure CLIやARMテンプレートを使用する必要があります。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-container-groups\nhttps://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-multi-container-yaml\nhttps://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-restart-policy\nhttps://azure.microsoft.com/ja-jp/pricing/details/container-instances/",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-015",
+      "sourceQuestionNumber": 15,
+      "promptHtml": "<p>あなたは、いくつかのAzure地域にわたってAzure Webアプリの複数のインスタンスをデプロイすることを計画しています。 </p><p>あなたはアプリのための負荷分散ソリューションを設計する必要があります。</p><p>このソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・レート制限をサポートすること</p><p>・すべてのインスタンス間でリクエストのバランスをとること</p><p>・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること</p><p><br></p><p>ソリューション：Azure Traffic Managerを使用します</p><p><br></p><p>これは目標を満たしていますか。</p>",
+      "promptText": "あなたは、いくつかのAzure地域にわたってAzure Webアプリの複数のインスタンスをデプロイすることを計画しています。\nあなたはアプリのための負荷分散ソリューションを設計する必要があります。\nこのソリューションは、次の要件を満たす必要があります。\n\n・レート制限をサポートすること\n・すべてのインスタンス間でリクエストのバランスをとること\n・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること\n\nソリューション：Azure Traffic Managerを使用します\n\nこれは目標を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-015-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp3-q-015-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-015-c2"
+      ],
+      "explanationHtml": "<p>代わりにAzure Front Doorを使用する必要があります。</p><p><br></p><p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p><code>・レート制限をサポートすること</code></p><p>負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）</p><p><br></p><p><code>・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること</code></p><p>リージョン障害から保護するにはグローバルサービスを選択する必要があります。</p><p>なお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。</p><p>・グローバルかリージョンサービスか</p><p>・レート制限の機能の有無</p><p>・コンテンツキャッシュの機能の有無</p><p><br></p><p><code>・すべてのインスタンス間でリクエストのバランスをとること</code></p><p>これはどの負荷分散オプションでも可能です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><br></p>",
+      "explanationText": "代わりにAzure Front Doorを使用する必要があります。\n\nAzureの負荷分散オプションは大きく次の4種類があります。\n細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。\n・レート制限をサポートすること\n負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）\n\n・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること\nリージョン障害から保護するにはグローバルサービスを選択する必要があります。\nなお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。\n・グローバルかリージョンサービスか\n・レート制限の機能の有無\n・コンテンツキャッシュの機能の有無\n\n・すべてのインスタンス間でリクエストのバランスをとること\nこれはどの負荷分散オプションでも可能です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-016",
+      "sourceQuestionNumber": 16,
+      "promptHtml": "<p>あなたのオンプレミスネットワークには、App1という名前の ASP.NET Webアプリケーションを実行するサーバーがあります。</p><p>あなたはMicrosoft EntraでのハイブリッドID環境を持っています。</p><p>あなたは、ユーザーがインターネットからApp1に接続するときに、自分のMicrosoft Entra IDアカウントとAzure多要素認証(MFA)を使用してサインインすることを保証するためのソリューションを提案する必要があります。</p><p><br></p><p>次のサービスのうち、どの3つのAzureサービスを順番に導入し、構成することを提案しますか。</p><p><br></p><p>1. Microsoft Entra のカスタムドメイン</p><p>2. Microsoft Entra の条件付きアクセスポリシー</p><p>3. Microsoft Entra アプリケーションプロキシ</p><p>4. システム割り当てマネージド ID</p><p>5. Microsoft Entra Connect Health</p><p>6. Microsoft Entra エンタープライズ アプリケーション</p>",
+      "promptText": "あなたのオンプレミスネットワークには、App1という名前の ASP.NET Webアプリケーションを実行するサーバーがあります。\nあなたはMicrosoft EntraでのハイブリッドID環境を持っています。\nあなたは、ユーザーがインターネットからApp1に接続するときに、自分のMicrosoft Entra IDアカウントとAzure多要素認証(MFA)を使用してサインインすることを保証するためのソリューションを提案する必要があります。\n\n次のサービスのうち、どの3つのAzureサービスを順番に導入し、構成することを提案しますか。\n\n1. Microsoft Entra のカスタムドメイン\n2. Microsoft Entra の条件付きアクセスポリシー\n3. Microsoft Entra アプリケーションプロキシ\n4. システム割り当てマネージド ID\n5. Microsoft Entra Connect Health\n6. Microsoft Entra エンタープライズ アプリケーション",
+      "choices": [
+        {
+          "choiceId": "jp3-q-016-c1",
+          "label": null,
+          "text": "4 → 1 → 2",
+          "html": "<p>4 → 1 → 2</p>"
+        },
+        {
+          "choiceId": "jp3-q-016-c2",
+          "label": null,
+          "text": "4 → 5 → 3",
+          "html": "<p>4 → 5 → 3</p>"
+        },
+        {
+          "choiceId": "jp3-q-016-c3",
+          "label": null,
+          "text": "3 → 2 → 4",
+          "html": "<p>3 → 2 → 4</p>"
+        },
+        {
+          "choiceId": "jp3-q-016-c4",
+          "label": null,
+          "text": "3 → 6 → 2",
+          "html": "<p>3 → 6 → 2</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-016-c4"
+      ],
+      "explanationHtml": "<p>次の手順で構成します。詳細はチュートリアルを参照してください。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application\">https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application</a></p><p>3. Microsoft Entra アプリケーションプロキシ（コネクタのインストール）</p><p>6. Microsoft Entra エンタープライズ アプリケーションの登録</p><p>2. Microsoft Entra の条件付きアクセスポリシーの登録</p><p><br></p><p><code>ユーザーがインターネットからApp1に接続する</code></p><p>インターネット経由でオンプレミスのアプリに接続するために「アプリケーションプロキシ」を利用できます。</p><p>アプリケーション プロキシは、オンプレミスでホストされている Web アプリケーションにシングル サインオン (SSO) とセキュリティで保護されたリモート アクセスを提供します。</p><p>オンプレミスのサーバに「アプリケーションプロキシコネクタ」をインストールして構成します。</p><p><br></p><p>また、アプリケーションプロキシを構成するには「エンタープライズアプリケーション」のメニューから独自のアプリケーションとして登録が必要です。</p><p><br></p><p><code>Azure多要素認証(MFA)を使用してサインインする</code></p><p>MFAを要求するには「条件付きアクセスポリシー」を作成します。条件付きアクセスを使用すると、ユーザーやデバイスの状態など様々なシグナルに基づいてリソースにアクセスできるかどうかを制御することができます。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy\">https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa</a></p>",
+      "explanationText": "次の手順で構成します。詳細はチュートリアルを参照してください。\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application\n3. Microsoft Entra アプリケーションプロキシ（コネクタのインストール）\n6. Microsoft Entra エンタープライズ アプリケーションの登録\n2. Microsoft Entra の条件付きアクセスポリシーの登録\n\nユーザーがインターネットからApp1に接続する\nインターネット経由でオンプレミスのアプリに接続するために「アプリケーションプロキシ」を利用できます。\nアプリケーション プロキシは、オンプレミスでホストされている Web アプリケーションにシングル サインオン (SSO) とセキュリティで保護されたリモート アクセスを提供します。\nオンプレミスのサーバに「アプリケーションプロキシコネクタ」をインストールして構成します。\n\nまた、アプリケーションプロキシを構成するには「エンタープライズアプリケーション」のメニューから独自のアプリケーションとして登録が必要です。\n\nAzure多要素認証(MFA)を使用してサインインする\nMFAを要求するには「条件付きアクセスポリシー」を作成します。条件付きアクセスを使用すると、ユーザーやデバイスの状態など様々なシグナルに基づいてリソースにアクセスできるかどうかを制御することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-017",
+      "sourceQuestionNumber": 17,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたの会社のオンプレミスのファイルサーバーには 20TB のデータが保存されています。</p><p>あなたは、データを西ヨーロッパリージョンのAzure Blob ストレージに移行することを計画しており、データを格納するためのストレージ アカウントの種類と冗長性を提案する必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・単一のAzureデータセンターが故障した場合に利用可能であること</p><p>・BLOBのアクセス層をサポートすること</p><p>・コストを最小限に抑えること</p><p><br></p><p><strong>ストレージ アカウントの種類</strong>は何を提案すべきですか。</p><p><br></p><p>ストレージ アカウントの種類：</p><p>冗長性：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたの会社のオンプレミスのファイルサーバーには 20TB のデータが保存されています。\nあなたは、データを西ヨーロッパリージョンのAzure Blob ストレージに移行することを計画しており、データを格納するためのストレージ アカウントの種類と冗長性を提案する必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・単一のAzureデータセンターが故障した場合に利用可能であること\n・BLOBのアクセス層をサポートすること\n・コストを最小限に抑えること\n\nストレージ アカウントの種類は何を提案すべきですか。\n\nストレージ アカウントの種類：\n冗長性：",
+      "choices": [
+        {
+          "choiceId": "jp3-q-017-c1",
+          "label": null,
+          "text": "Premium ブロック BLOB",
+          "html": "<p>Premium ブロック BLOB</p>"
+        },
+        {
+          "choiceId": "jp3-q-017-c2",
+          "label": null,
+          "text": "Premium ファイル共有",
+          "html": "Premium ファイル共有"
+        },
+        {
+          "choiceId": "jp3-q-017-c3",
+          "label": null,
+          "text": "Standard 汎用 v2",
+          "html": "Standard 汎用 v2"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-017-c3"
+      ],
+      "explanationHtml": "<p>まず、BLOBストレージの指定があるので選択肢2の「Premium ファイル共有」は誤りです。</p><p><br></p><p><code>・BLOBのアクセス層をサポートすること</code> </p><p>ホット、クール、アーカイブのアクセス層はStandard 汎用 v2 アカウントでサポートされます。</p><p>「Premium ブロック BLOB」ではサポートされていません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts</a></p>",
+      "explanationText": "まず、BLOBストレージの指定があるので選択肢2の「Premium ファイル共有」は誤りです。\n\n・BLOBのアクセス層をサポートすること\nホット、クール、アーカイブのアクセス層はStandard 汎用 v2 アカウントでサポートされます。\n「Premium ブロック BLOB」ではサポートされていません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-018",
+      "sourceQuestionNumber": 18,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたの会社のオンプレミスのファイルサーバーには 20TB のデータが保存されています。</p><p>あなたは、データを西ヨーロッパリージョンのAzure Blob ストレージに移行することを計画しており、データを格納するためのストレージ アカウントの種類と冗長性を提案する必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・単一のAzureデータセンターが故障した場合に利用可能であること</p><p>・BLOBのアクセス層をサポートすること</p><p>・コストを最小限に抑えること</p><p><br></p><p><strong>冗長性</strong>は何を提案すべきですか。</p><p><br></p><p>ストレージ アカウントの種類：</p><p>冗長性：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたの会社のオンプレミスのファイルサーバーには 20TB のデータが保存されています。\nあなたは、データを西ヨーロッパリージョンのAzure Blob ストレージに移行することを計画しており、データを格納するためのストレージ アカウントの種類と冗長性を提案する必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・単一のAzureデータセンターが故障した場合に利用可能であること\n・BLOBのアクセス層をサポートすること\n・コストを最小限に抑えること\n\n冗長性は何を提案すべきですか。\n\nストレージ アカウントの種類：\n冗長性：",
+      "choices": [
+        {
+          "choiceId": "jp3-q-018-c1",
+          "label": null,
+          "text": "geo 冗長ストレージ (GRS)",
+          "html": "geo 冗長ストレージ (GRS)"
+        },
+        {
+          "choiceId": "jp3-q-018-c2",
+          "label": null,
+          "text": "ゾーン冗長ストレージ (ZRS)",
+          "html": "ゾーン冗長ストレージ (ZRS)"
+        },
+        {
+          "choiceId": "jp3-q-018-c3",
+          "label": null,
+          "text": "ローカル冗長ストレージ (LRS)",
+          "html": "ローカル冗長ストレージ (LRS)"
+        },
+        {
+          "choiceId": "jp3-q-018-c4",
+          "label": null,
+          "text": "読み取りアクセス geo 冗長ストレージ (RA-GRS)",
+          "html": "読み取りアクセス geo 冗長ストレージ (RA-GRS)"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-018-c2"
+      ],
+      "explanationHtml": "<p><code>・単一のAzureデータセンターが故障した場合に利用可能であること</code> </p><p><code>・コストを最小限に抑えること</code> </p><p>データセンター障害から保護するにはゾーン冗長（ZRS）、または、geo 冗長（GRS）で構成する必要があります。</p><p>LRS以外の選択肢のうち、コストが最も低いのは選択肢2の「ゾーン冗長ストレージ (ZRS) 」になります。</p><p>※LRS &lt;&nbsp;ZRS &lt; GRS &lt; GZRS &lt; RA-GRS &lt; RA-GZRS の順にコストが高くなります。</p><p><br></p><p>【参考】</p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/storage/blobs/\">https://azure.microsoft.com/ja-jp/pricing/details/storage/blobs/</a></p>",
+      "explanationText": "・単一のAzureデータセンターが故障した場合に利用可能であること\n・コストを最小限に抑えること\nデータセンター障害から保護するにはゾーン冗長（ZRS）、または、geo 冗長（GRS）で構成する必要があります。\nLRS以外の選択肢のうち、コストが最も低いのは選択肢2の「ゾーン冗長ストレージ (ZRS) 」になります。\n※LRS < ZRS < GRS < GZRS < RA-GRS < RA-GZRS の順にコストが高くなります。\n\n【参考】\nhttps://azure.microsoft.com/ja-jp/pricing/details/storage/blobs/",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-019",
+      "sourceQuestionNumber": 19,
+      "promptHtml": "<p>あなたの会社のデータセンターには、Hyper-Vで管理されるWindows Server 2019を実行する10台の仮想マシンがあります。</p><p>あなたは、仮想マシンをAzureに移行することを計画しています。</p><p><br></p><p>あなたは、仮想マシンのディスクをAzureに複製するためのソリューションを提案する必要があります。</p><p>このソリューションは、ディスクの複製が進行している間、仮想マシンが利用可能である必要があります。</p><p><br></p><p>ソリューション：Azureストレージアカウントを作成し、AzCopyを実行します</p><p><br></p><p>これは目標を満たしていますか。</p>",
+      "promptText": "あなたの会社のデータセンターには、Hyper-Vで管理されるWindows Server 2019を実行する10台の仮想マシンがあります。\nあなたは、仮想マシンをAzureに移行することを計画しています。\n\nあなたは、仮想マシンのディスクをAzureに複製するためのソリューションを提案する必要があります。\nこのソリューションは、ディスクの複製が進行している間、仮想マシンが利用可能である必要があります。\n\nソリューション：Azureストレージアカウントを作成し、AzCopyを実行します\n\nこれは目標を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-019-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp3-q-019-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-019-c2"
+      ],
+      "explanationHtml": "<p>AzCopyは、コマンドラインでAzure Storageを操作するためのCUIツールで、ストレージアカウントとの間でBlobやファイルをコピーするために使用できます。</p><p>仮想マシンの仮想ディスク（VHD）ファイルをページBLOBとしてコピーし、そのVHDファイルからディスクを作成することもできなくはないですが、仮想マシンに変更が加えられると整合が取れなくなるため適切ではありません。</p><p><br></p><p>代わりに、Azure Site Recoveryを使用できます。</p><p>Azure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。</p><p>レプリケーションの進行中にディスクの変更が発生した場合でも、変更を追跡して整合する仕組みが備わっているため、仮想マシンを利用することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/site-recovery/hyper-v-azure-architecture\">https://learn.microsoft.com/ja-jp/azure/site-recovery/hyper-v-azure-architecture</a></p>",
+      "explanationText": "AzCopyは、コマンドラインでAzure Storageを操作するためのCUIツールで、ストレージアカウントとの間でBlobやファイルをコピーするために使用できます。\n仮想マシンの仮想ディスク（VHD）ファイルをページBLOBとしてコピーし、そのVHDファイルからディスクを作成することもできなくはないですが、仮想マシンに変更が加えられると整合が取れなくなるため適切ではありません。\n\n代わりに、Azure Site Recoveryを使用できます。\nAzure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。\nレプリケーションの進行中にディスクの変更が発生した場合でも、変更を追跡して整合する仕組みが備わっているため、仮想マシンを利用することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/site-recovery/hyper-v-azure-architecture",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-020",
+      "sourceQuestionNumber": 20,
+      "promptHtml": "<p>あなたは、個人情報を格納するAzure SQL Databaseをデプロイする予定です。</p><p>あなたは、特権を持つユーザーのみが個人情報を見ることができるようにする必要があります。</p><p>あなたはソリューションに何を含めるべきですか。</p>",
+      "promptText": "あなたは、個人情報を格納するAzure SQL Databaseをデプロイする予定です。\nあなたは、特権を持つユーザーのみが個人情報を見ることができるようにする必要があります。\nあなたはソリューションに何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-020-c1",
+          "label": null,
+          "text": "透過的なデータ暗号化(TDE)",
+          "html": "透過的なデータ暗号化(TDE)"
+        },
+        {
+          "choiceId": "jp3-q-020-c2",
+          "label": null,
+          "text": "データの検出と分類",
+          "html": "データの検出と分類"
+        },
+        {
+          "choiceId": "jp3-q-020-c3",
+          "label": null,
+          "text": "動的データマスキング",
+          "html": "動的データマスキング"
+        },
+        {
+          "choiceId": "jp3-q-020-c4",
+          "label": null,
+          "text": "ロールベースのアクセス制御（RBAC）",
+          "html": "ロールベースのアクセス制御（RBAC）"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-020-c3"
+      ],
+      "explanationHtml": "<p>動的データマスキングは、データベース内にある機密データをマスクすることにより、特権のないユーザーへの機密データの公開を制限するためのSQL Serverの機能です。</p><p><br></p><p>Azure SQL Databaseでもサポートされており、Azureポータルの「動的データマスキング」メニューから設定することができます。（管理者は常にマスクルールから除外されるので閲覧可能）</p><p>なお、Azure SQL Managed Instanceでは動的データマスキングはサポートされていません。</p><p><br></p><p></p><p><br></p><p>選択肢1の「透過的なデータ暗号化(Transparent Data Encryption (TDE))」は、ディスクに書き込まれる時に暗号化し、メモリに読み込まれる時に復号化する仕組みです。Azure SQL Databaseでデフォルトで有効になっている機能でAzureが勝手に行ってくれるので、ユーザー（アプリケーション）は暗号化/復号化を意識することはありません。</p><p>ディスク持ち出しなどオフラインアクティビティの脅威から保護するためのもので、テーブルをSELECTすると普通に復号化されて参照できるので、要件にあるような用途では使用できません。</p><p><br></p><p>選択肢4の「ロールベースのアクセス制御（RBAC）」はAzure リソースに対するアクセス許可を設定するためのもので、SQL Database内のデータベースのアクセス許可には適用されないため誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql</a></p><p><a href=\"https://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/\">https://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/</a></p>",
+      "explanationText": "動的データマスキングは、データベース内にある機密データをマスクすることにより、特権のないユーザーへの機密データの公開を制限するためのSQL Serverの機能です。\n\nAzure SQL Databaseでもサポートされており、Azureポータルの「動的データマスキング」メニューから設定することができます。（管理者は常にマスクルールから除外されるので閲覧可能）\nなお、Azure SQL Managed Instanceでは動的データマスキングはサポートされていません。\n\n選択肢1の「透過的なデータ暗号化(Transparent Data Encryption (TDE))」は、ディスクに書き込まれる時に暗号化し、メモリに読み込まれる時に復号化する仕組みです。Azure SQL Databaseでデフォルトで有効になっている機能でAzureが勝手に行ってくれるので、ユーザー（アプリケーション）は暗号化/復号化を意識することはありません。\nディスク持ち出しなどオフラインアクティビティの脅威から保護するためのもので、テーブルをSELECTすると普通に復号化されて参照できるので、要件にあるような用途では使用できません。\n\n選択肢4の「ロールベースのアクセス制御（RBAC）」はAzure リソースに対するアクセス許可を設定するためのもので、SQL Database内のデータベースのアクセス許可には適用されないため誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql\nhttps://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

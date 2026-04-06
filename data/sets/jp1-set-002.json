@@ -1,0 +1,439 @@
+{
+  "setId": "jp1-set-002",
+  "title": "問題集1 11-20",
+  "sourceHtml": "udemy/問題集1.html",
+  "questionIds": [
+    "jp1-q-011",
+    "jp1-q-012",
+    "jp1-q-013",
+    "jp1-q-014",
+    "jp1-q-015",
+    "jp1-q-016",
+    "jp1-q-017",
+    "jp1-q-018",
+    "jp1-q-019",
+    "jp1-q-020"
+  ],
+  "questions": [
+    {
+      "questionId": "jp1-q-011",
+      "sourceQuestionNumber": 11,
+      "promptHtml": "<p>あなたは、次の要件を持つWebApp1という名前の.NeTウェブサービスを持っています。 </p><p><br></p><p>・ローカルファイルシステムに対して読み取りと書き込みを行うことができること</p><p>・Windowsアプリのアプリケーションログを書き込むことができること</p><p><br></p><p>あなたは、AzureでWebApp1をホストするためのソリューションを提案する必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・メンテナンスのオーバーヘッドを最小にすること</p><p>・コストを最小限に抑えること</p><p><br></p><p>あなたは提案に何を含めるべきですか。</p>",
+      "promptText": "あなたは、次の要件を持つWebApp1という名前の.NeTウェブサービスを持っています。\n\n・ローカルファイルシステムに対して読み取りと書き込みを行うことができること\n・Windowsアプリのアプリケーションログを書き込むことができること\n\nあなたは、AzureでWebApp1をホストするためのソリューションを提案する必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・メンテナンスのオーバーヘッドを最小にすること\n・コストを最小限に抑えること\n\nあなたは提案に何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-011-c1",
+          "label": null,
+          "text": "Azure App ServiceのWebアプリ",
+          "html": "Azure App ServiceのWebアプリ"
+        },
+        {
+          "choiceId": "jp1-q-011-c2",
+          "label": null,
+          "text": "Azure仮想マシンスケールセット",
+          "html": "Azure仮想マシンスケールセット"
+        },
+        {
+          "choiceId": "jp1-q-011-c3",
+          "label": null,
+          "text": "App Service Environment",
+          "html": "App Service Environment"
+        },
+        {
+          "choiceId": "jp1-q-011-c4",
+          "label": null,
+          "text": "Azure Functions",
+          "html": "Azure Functions"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-011-c1"
+      ],
+      "explanationHtml": "<p><code>・ローカルファイルシステムに対して読み取りと書き込みを行うことができること</code></p><p><code>・Windowsアプリのアプリケーションログを書き込むことができること</code></p><p>App Serviceでは「App Service ログ」メニューでアプリケーションのログ記録を有効化して、ファイルシステムにログを保存することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/troubleshoot-diagnostic-logs\">https://learn.microsoft.com/ja-jp/azure/app-service/troubleshoot-diagnostic-logs</a></p><p><br></p><p><code>・メンテナンスのオーバーヘッドを最小にすること</code></p><p>選択肢2の仮想マシンスケールセットはこの要件を満たせないので誤りです。</p><p><br></p><p><code>・コストを最小限に抑えること</code> </p><p>選択肢3のApp Service Environmentはこの要件を満たせないので誤りです。（専用環境のプランなので高額です）</p><p><br></p><p>また、Azure Functionsは.NETアプリのホスティング環境として候補になりますが、「App Service ログ」の機能が使えずログ書き込みの要件を満たせないので誤りです。</p>",
+      "explanationText": "・ローカルファイルシステムに対して読み取りと書き込みを行うことができること\n・Windowsアプリのアプリケーションログを書き込むことができること\nApp Serviceでは「App Service ログ」メニューでアプリケーションのログ記録を有効化して、ファイルシステムにログを保存することができます。\nhttps://learn.microsoft.com/ja-jp/azure/app-service/troubleshoot-diagnostic-logs\n\n・メンテナンスのオーバーヘッドを最小にすること\n選択肢2の仮想マシンスケールセットはこの要件を満たせないので誤りです。\n\n・コストを最小限に抑えること\n選択肢3のApp Service Environmentはこの要件を満たせないので誤りです。（専用環境のプランなので高額です）\n\nまた、Azure Functionsは.NETアプリのホスティング環境として候補になりますが、「App Service ログ」の機能が使えずログ書き込みの要件を満たせないので誤りです。",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-012",
+      "sourceQuestionNumber": 12,
+      "promptHtml": "<p>あなたは、 外部企業のFabrikam社によって開発されたApplication1という名前のカスタムアプリケーションを含むAzureサブスクリプションを持っています。</p><p>Fabrikam社の開発者には、Application1のコンポーネントに対するロールベースのアクセス制御（RBAC）権限が割り当てられています。</p><p>すべてのユーザーには、Microsoft 365 E5プランのライセンスが付与されています。</p><p><br></p><p>あなたは、Fabrikam社の開発者がまだApplication1へのアクセス許可を必要とするかどうかを検証するソリューションを提案する必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・開発者のマネージャーには、毎月の電子メールメッセージが送信され、Application1へのアクセス許可を一覧表示すること</p><p>・マネージャーがアクセス許可を確認しない場合、自動的にそのアクセス許可を取り消すこと</p><p>・開発の労力を最小限に抑えること</p><p><br></p><p>あなたは何を提案すべきですか。 </p>",
+      "promptText": "あなたは、 外部企業のFabrikam社によって開発されたApplication1という名前のカスタムアプリケーションを含むAzureサブスクリプションを持っています。\nFabrikam社の開発者には、Application1のコンポーネントに対するロールベースのアクセス制御（RBAC）権限が割り当てられています。\nすべてのユーザーには、Microsoft 365 E5プランのライセンスが付与されています。\n\nあなたは、Fabrikam社の開発者がまだApplication1へのアクセス許可を必要とするかどうかを検証するソリューションを提案する必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・開発者のマネージャーには、毎月の電子メールメッセージが送信され、Application1へのアクセス許可を一覧表示すること\n・マネージャーがアクセス許可を確認しない場合、自動的にそのアクセス許可を取り消すこと\n・開発の労力を最小限に抑えること\n\nあなたは何を提案すべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-012-c1",
+          "label": null,
+          "text": "Microsoft Entra Privileged Identity Management で、Application1 リソースにカスタムロールの割り当てを作成します",
+          "html": "<p>Microsoft Entra Privileged Identity Management で、Application1 リソースにカスタムロールの割り当てを作成します</p>"
+        },
+        {
+          "choiceId": "jp1-q-012-c2",
+          "label": null,
+          "text": "Get-AzureADUserAppRoleAssignment コマンドレットを実行し、Azure Automation Runbookを作成します",
+          "html": "<p> Get-AzureADUserAppRoleAssignment コマンドレットを実行し、Azure Automation Runbookを作成します</p>"
+        },
+        {
+          "choiceId": "jp1-q-012-c3",
+          "label": null,
+          "text": "Get-AzRoleAssignment コマンドレットを実行し、Azure Automation Runbookを作成します",
+          "html": "<p>Get-AzRoleAssignment コマンドレットを実行し、Azure Automation Runbookを作成します</p>"
+        },
+        {
+          "choiceId": "jp1-q-012-c4",
+          "label": null,
+          "text": "Microsoft Entra ID で、Application1 のアクセス レビューを作成します",
+          "html": "<p>Microsoft Entra ID で、Application1 のアクセス レビューを作成します</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-012-c4"
+      ],
+      "explanationHtml": "<p>Microsoft Entra IDのアクセスレビューを使用すると、ユーザーのアクセス許可を定期的にレビューし、適切なユーザーのみが継続的なアクセス権を持っていることを確認することができます。</p><p><br></p><p>毎週、毎月、毎四半期、毎年など、一定の頻度でユーザーのアクセスレビューを定期的に設定することができ、各レビューの開始時にレビュアーに通知されます。</p><p>レビュー担当者は、使いやすいインターフェイスとスマートな推奨事項の助けを借りてアクセスを承認または拒否することができます。</p><p><br></p><p>レビュー担当者が応答せずレビューされなかった場合のアクションも設定することができるため、要件にあるように自動的にアクセス許可を削除することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings\">https://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings</a></p><p></p><p><br></p><p>なお、アクセスレビューを使用するには Microsoft Entra ID Premium P2 ライセンスが必要です（Premium P2 ライセンスはMicrosoft 365 E5 に含まれています）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview\">https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview</a></p><p><a href=\"https://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing\">https://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing</a></p>",
+      "explanationText": "Microsoft Entra IDのアクセスレビューを使用すると、ユーザーのアクセス許可を定期的にレビューし、適切なユーザーのみが継続的なアクセス権を持っていることを確認することができます。\n\n毎週、毎月、毎四半期、毎年など、一定の頻度でユーザーのアクセスレビューを定期的に設定することができ、各レビューの開始時にレビュアーに通知されます。\nレビュー担当者は、使いやすいインターフェイスとスマートな推奨事項の助けを借りてアクセスを承認または拒否することができます。\n\nレビュー担当者が応答せずレビューされなかった場合のアクションも設定することができるため、要件にあるように自動的にアクセス許可を削除することができます。\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings\n\nなお、アクセスレビューを使用するには Microsoft Entra ID Premium P2 ライセンスが必要です（Premium P2 ライセンスはMicrosoft 365 E5 に含まれています）\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview\nhttps://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-013",
+      "sourceQuestionNumber": 13,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、オンプレミス環境からAzureにデータをインポートすることを計画しています。</p><p>移行の要件は次の表のとおりです。</p><p><br></p><p><strong>SQL Server 2012のデータベース</strong>からデータを移行するためにあなたは何を提案すべきですか。</p><p><br></p><p>SQL Server 2012のデータベース：</p><p>SQL Server 2014のデータベース内のテーブル：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、オンプレミス環境からAzureにデータをインポートすることを計画しています。\n移行の要件は次の表のとおりです。\n\nSQL Server 2012のデータベースからデータを移行するためにあなたは何を提案すべきですか。\n\nSQL Server 2012のデータベース：\nSQL Server 2014のデータベース内のテーブル：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-013-c1",
+          "label": null,
+          "text": "AzCopy",
+          "html": "AzCopy"
+        },
+        {
+          "choiceId": "jp1-q-013-c2",
+          "label": null,
+          "text": "Azure Cosmos DB Data Migration Tool",
+          "html": "Azure Cosmos DB Data Migration Tool"
+        },
+        {
+          "choiceId": "jp1-q-013-c3",
+          "label": null,
+          "text": "Data Management Gateway",
+          "html": "Data Management Gateway"
+        },
+        {
+          "choiceId": "jp1-q-013-c4",
+          "label": null,
+          "text": "Data Migration Assistant (DMA)",
+          "html": "<p>Data Migration Assistant (DMA)</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-013-c4"
+      ],
+      "explanationHtml": "<p>Data Migration Assistant (DMA) は、オンプレミスのSQLServerの移行をサポートするツールで、互換性の問題を検出する「評価（アセスメント）」と、スキーマやデータなどをターゲットサーバに「移行」する2つの機能があります。</p><p><br></p><p>次のような移行パターンで利用できます。</p><p>・SQLServer → 新しいバージョンのSQLServer（アップグレード）</p><p>・SQLServer → Azure VMのSQLServer</p><p>・SQLServer → Azure SQL Database</p><p><br></p><p>SQL Server 2012のデータをAzure SQL Databaseに移行するために使用できます。</p><p>なお、Azure SQL Managed Instanceへのデータベース移行はサポートされていません。</p><p>移行元、移行先それぞれでサポートされているバージョンは公式ドキュメントを参照してください。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/dma/dma-overview?view=sql-server-ver16\">https://learn.microsoft.com/ja-jp/sql/dma/dma-overview?view=sql-server-ver16</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/dma/dma-migrateonpremsqltosqldb?view=sql-server-ver16\">https://learn.microsoft.com/ja-jp/sql/dma/dma-migrateonpremsqltosqldb?view=sql-server-ver16</a></p>",
+      "explanationText": "Data Migration Assistant (DMA) は、オンプレミスのSQLServerの移行をサポートするツールで、互換性の問題を検出する「評価（アセスメント）」と、スキーマやデータなどをターゲットサーバに「移行」する2つの機能があります。\n\n次のような移行パターンで利用できます。\n・SQLServer → 新しいバージョンのSQLServer（アップグレード）\n・SQLServer → Azure VMのSQLServer\n・SQLServer → Azure SQL Database\n\nSQL Server 2012のデータをAzure SQL Databaseに移行するために使用できます。\nなお、Azure SQL Managed Instanceへのデータベース移行はサポートされていません。\n移行元、移行先それぞれでサポートされているバージョンは公式ドキュメントを参照してください。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/sql/dma/dma-overview?view=sql-server-ver16\nhttps://learn.microsoft.com/ja-jp/sql/dma/dma-migrateonpremsqltosqldb?view=sql-server-ver16",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-014",
+      "sourceQuestionNumber": 14,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、オンプレミス環境からAzureにデータをインポートすることを計画しています。</p><p>移行の要件は次の表のとおりです。</p><p><br></p><p><strong>SQL Server 2014のデータベース内のテーブル</strong>からデータを移行するためにあなたは何を提案すべきですか。</p><p><br></p><p>SQL Server 2012のデータベース：</p><p>SQL Server 2014のデータベース内のテーブル：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、オンプレミス環境からAzureにデータをインポートすることを計画しています。\n移行の要件は次の表のとおりです。\n\nSQL Server 2014のデータベース内のテーブルからデータを移行するためにあなたは何を提案すべきですか。\n\nSQL Server 2012のデータベース：\nSQL Server 2014のデータベース内のテーブル：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-014-c1",
+          "label": null,
+          "text": "AzCopy",
+          "html": "AzCopy"
+        },
+        {
+          "choiceId": "jp1-q-014-c2",
+          "label": null,
+          "text": "Azure Cosmos DB Data Migration Tool",
+          "html": "Azure Cosmos DB Data Migration Tool"
+        },
+        {
+          "choiceId": "jp1-q-014-c3",
+          "label": null,
+          "text": "Data Management Gateway",
+          "html": "Data Management Gateway"
+        },
+        {
+          "choiceId": "jp1-q-014-c4",
+          "label": null,
+          "text": "Data Migration Assistant",
+          "html": "<p>Data Migration Assistant</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-014-c2"
+      ],
+      "explanationHtml": "<p>Azure Cosmos DB Data Migration Tool を使用すると、Azure Cosmos DB に簡単にデータを移行することができます。</p><p>Azure Cosmos DB Data Migration Tool は、以下のようなさまざまなソースからAzure Cosmos DBにデータをインポートするオープンソースのソリューションです。</p><p>・JSON ファイル</p><p>・MongoDB</p><p>・SQL Server</p><p>・CSV ファイル</p><p>・DocumentDB コレクション</p><p>・Azure Table Storage</p><p><br></p><p>【参考】</p><p><a href=\"https://azure.microsoft.com/ja-jp/blog/new-documentdb-import-options/\">https://azure.microsoft.com/ja-jp/blog/new-documentdb-import-options/</a></p><p><a href=\"https://github.com/Azure/azure-documentdb-datamigrationtool\">https://github.com/Azure/azure-documentdb-datamigrationtool</a></p>",
+      "explanationText": "Azure Cosmos DB Data Migration Tool を使用すると、Azure Cosmos DB に簡単にデータを移行することができます。\nAzure Cosmos DB Data Migration Tool は、以下のようなさまざまなソースからAzure Cosmos DBにデータをインポートするオープンソースのソリューションです。\n・JSON ファイル\n・MongoDB\n・SQL Server\n・CSV ファイル\n・DocumentDB コレクション\n・Azure Table Storage\n\n【参考】\nhttps://azure.microsoft.com/ja-jp/blog/new-documentdb-import-options/\nhttps://github.com/Azure/azure-documentdb-datamigrationtool",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-015",
+      "sourceQuestionNumber": 15,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、次のAzureリソースを含むサブスクリプションを持っています。</p><p>・VNET1という名前の仮想ネットワーク</p><p>・VNET1上に配置されている10台の仮想マシン</p><p><br></p><p>あなたはインターネットから仮想マシンを管理するためのソリューションを設計する必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・仮想マシンへの着信接続は、ネットワーク接続が許可される前に、多要素認証（MFA）を使用して認証されること</p><p>・ 着信接続は TLS を使用し、TCP ポート 443 に接続すること</p><p>・RDP と SSH の両方をサポートすること</p><p><br></p><p><strong>VNET1上の仮想マシンへのアクセスを提供する</strong>ために何を使用するべきですか。</p><p><br></p><p>VNET1上の仮想マシンへのアクセスを提供するために使用する：</p><p>多要素認証（MFA）を要求するために使用する：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、次のAzureリソースを含むサブスクリプションを持っています。\n・VNET1という名前の仮想ネットワーク\n・VNET1上に配置されている10台の仮想マシン\n\nあなたはインターネットから仮想マシンを管理するためのソリューションを設計する必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・仮想マシンへの着信接続は、ネットワーク接続が許可される前に、多要素認証（MFA）を使用して認証されること\n・ 着信接続は TLS を使用し、TCP ポート 443 に接続すること\n・RDP と SSH の両方をサポートすること\n\nVNET1上の仮想マシンへのアクセスを提供するために何を使用するべきですか。\n\nVNET1上の仮想マシンへのアクセスを提供するために使用する：\n多要素認証（MFA）を要求するために使用する：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-015-c1",
+          "label": null,
+          "text": "Azure Bastion",
+          "html": "Azure Bastion"
+        },
+        {
+          "choiceId": "jp1-q-015-c2",
+          "label": null,
+          "text": "Just-In-Time VM アクセス (JIT)",
+          "html": "Just-In-Time VM アクセス (JIT)"
+        },
+        {
+          "choiceId": "jp1-q-015-c3",
+          "label": null,
+          "text": "Azure API Management",
+          "html": "Azure API Management"
+        },
+        {
+          "choiceId": "jp1-q-015-c4",
+          "label": null,
+          "text": "VPN Gateway",
+          "html": "VPN Gateway"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-015-c1"
+      ],
+      "explanationHtml": "<p><code>・ 着信接続は TLS を使用し、TCP ポート 443 に接続すること</code> </p><p><code>・RDP と SSH の両方をサポートすること</code></p><p>443ポートで仮想マシンに接続するのは選択肢1の「Azure Bastion」のみです。</p><p>Azure Bastion は、Azureポータル、または、ローカルPCにインストール済みのSSH か RDP クライアントを介してTLS経由で仮想マシンに接続できるようにするフルマネージドな踏み台サービスです。</p><p><br></p><p>RDP（3389）やSSH（22）などの管理ポートをインターネットに公開する必要がなく、一般的にWebサービス公開のために使用するHTTPS（443）で接続できる点が特徴です。</p><p><br></p><p>なお、選択肢2のJust-In-Time VM アクセス (JIT)は Microsoft Defender for Cloud の機能の一つで、一時的にRDP（3389）やSSH（22）を許可するための仕組み（443ポートへの接続ではない）なので誤りです。</p><p><br></p><p>選択肢4のVPNGatewayも同様で、VPN接続するとプライベートIPアドレスで仮想マシンにアクセスできますが、この場合もRDPやSSHで接続することになりますので、443ポートへの接続ではありません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/bastion/bastion-overview\">https://learn.microsoft.com/ja-jp/azure/bastion/bastion-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/defender-for-cloud/just-in-time-access-usage\">https://learn.microsoft.com/ja-jp/azure/defender-for-cloud/just-in-time-access-usage</a></p>",
+      "explanationText": "・ 着信接続は TLS を使用し、TCP ポート 443 に接続すること\n・RDP と SSH の両方をサポートすること\n443ポートで仮想マシンに接続するのは選択肢1の「Azure Bastion」のみです。\nAzure Bastion は、Azureポータル、または、ローカルPCにインストール済みのSSH か RDP クライアントを介してTLS経由で仮想マシンに接続できるようにするフルマネージドな踏み台サービスです。\n\nRDP（3389）やSSH（22）などの管理ポートをインターネットに公開する必要がなく、一般的にWebサービス公開のために使用するHTTPS（443）で接続できる点が特徴です。\n\nなお、選択肢2のJust-In-Time VM アクセス (JIT)は Microsoft Defender for Cloud の機能の一つで、一時的にRDP（3389）やSSH（22）を許可するための仕組み（443ポートへの接続ではない）なので誤りです。\n\n選択肢4のVPNGatewayも同様で、VPN接続するとプライベートIPアドレスで仮想マシンにアクセスできますが、この場合もRDPやSSHで接続することになりますので、443ポートへの接続ではありません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/bastion/bastion-overview\nhttps://learn.microsoft.com/ja-jp/azure/defender-for-cloud/just-in-time-access-usage",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-016",
+      "sourceQuestionNumber": 16,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、次のAzureリソースを含むサブスクリプションを持っています。</p><p>・VNET1という名前の仮想ネットワーク</p><p>・VNET1上に配置されている10台の仮想マシン</p><p><br></p><p>あなたはインターネットから仮想マシンを管理するためのソリューションを設計する必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・仮想マシンへの着信接続は、ネットワーク接続が許可される前に、多要素認証（MFA）を使用して認証されること</p><p>・ 着信接続は TLS を使用し、TCP ポート 443 に接続すること</p><p>・RDP と SSH の両方をサポートすること</p><p><br></p><p><strong>多要素認証（MFA）を要求するため</strong>に何を使用するべきですか。</p><p><br></p><p>VNET1上の仮想マシンへのアクセスを提供するために使用する：</p><p>多要素認証（MFA）を要求するために使用する：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、次のAzureリソースを含むサブスクリプションを持っています。\n・VNET1という名前の仮想ネットワーク\n・VNET1上に配置されている10台の仮想マシン\n\nあなたはインターネットから仮想マシンを管理するためのソリューションを設計する必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・仮想マシンへの着信接続は、ネットワーク接続が許可される前に、多要素認証（MFA）を使用して認証されること\n・ 着信接続は TLS を使用し、TCP ポート 443 に接続すること\n・RDP と SSH の両方をサポートすること\n\n多要素認証（MFA）を要求するために何を使用するべきですか。\n\nVNET1上の仮想マシンへのアクセスを提供するために使用する：\n多要素認証（MFA）を要求するために使用する：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-016-c1",
+          "label": null,
+          "text": "Microsoft Entra Identity Governance のアクセスパッケージ",
+          "html": "Microsoft Entra Identity Governance のアクセスパッケージ"
+        },
+        {
+          "choiceId": "jp1-q-016-c2",
+          "label": null,
+          "text": "クラウドアプリの割り当てがAzure VM サインインに設定されている条件付きアクセスポリシー",
+          "html": "<p>クラウドアプリの割り当てがAzure VM サインインに設定されている条件付きアクセスポリシー</p>"
+        },
+        {
+          "choiceId": "jp1-q-016-c3",
+          "label": null,
+          "text": "クラウドアプリの割り当てがMicrosoft Azure Managementに設定されている条件付きアクセスポリシー",
+          "html": "クラウドアプリの割り当てがMicrosoft Azure Managementに設定されている条件付きアクセスポリシー"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-016-c2"
+      ],
+      "explanationHtml": "<p>仮想マシンへ接続時に多要素認証（MFA）を要求するには、条件付きアクセスポリシーを使用します。</p><p>おおまかに次のような手順で構成します。</p><p>※Azure Bastionの併用は必須ではありません。</p><p><br></p><p>1.仮想マシンでMicrosoft Entra ログインを有効にする</p><p>2.仮想マシンに接続するMicrosoft Entra IDのユーザーに「仮想マシンの管理者ログイン」などのロールを割り当てる</p><p>3.条件付きアクセス ポリシーを適用する</p><p><br></p><p>条件付きアクセス ポリシーを適用するには、「クラウド アプリまたは操作」の割り当てオプションから Azure Windows VM Sign-in または Azure Linux VM Sign-in アプリを選びます。</p><p></p><p><br></p><p>そして、アクセス許可の条件として、多要素認証（MFA）を要求するように構成します。詳細は公式ドキュメントを参照してください。</p><p></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-windows\">https://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-windows</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-linux\">https://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-linux</a></p>",
+      "explanationText": "仮想マシンへ接続時に多要素認証（MFA）を要求するには、条件付きアクセスポリシーを使用します。\nおおまかに次のような手順で構成します。\n※Azure Bastionの併用は必須ではありません。\n\n1.仮想マシンでMicrosoft Entra ログインを有効にする\n2.仮想マシンに接続するMicrosoft Entra IDのユーザーに「仮想マシンの管理者ログイン」などのロールを割り当てる\n3.条件付きアクセス ポリシーを適用する\n\n条件付きアクセス ポリシーを適用するには、「クラウド アプリまたは操作」の割り当てオプションから Azure Windows VM Sign-in または Azure Linux VM Sign-in アプリを選びます。\n\nそして、アクセス許可の条件として、多要素認証（MFA）を要求するように構成します。詳細は公式ドキュメントを参照してください。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-windows\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-linux",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-017",
+      "sourceQuestionNumber": 17,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、次の表に示すリソースを含むRG1という名前のリソースグループを持っています。</p><p></p><p>あなたは、KV1に格納されている全てのシークレットを最小限の労力でKV2に移行することを計画しており、VM1に移行の操作を許可するためのアクセスポリシーを構成する必要があります。</p><p><br></p><p>VM1 は現在、KV1 のシークレットに対する Get 権限を持っています。 </p><p><strong>KV1のアクセスポリシー</strong>では、どの追加のアクセス許可を VM1 に割り当てる必要がありますか。</p><p><br></p><p>KV1に追加するVM1のアクセス許可：</p><p>KV2に追加するVM1のアクセス許可：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、次の表に示すリソースを含むRG1という名前のリソースグループを持っています。\n\nあなたは、KV1に格納されている全てのシークレットを最小限の労力でKV2に移行することを計画しており、VM1に移行の操作を許可するためのアクセスポリシーを構成する必要があります。\n\nVM1 は現在、KV1 のシークレットに対する Get 権限を持っています。\nKV1のアクセスポリシーでは、どの追加のアクセス許可を VM1 に割り当てる必要がありますか。\n\nKV1に追加するVM1のアクセス許可：\nKV2に追加するVM1のアクセス許可：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-017-c1",
+          "label": null,
+          "text": "Add",
+          "html": "Add"
+        },
+        {
+          "choiceId": "jp1-q-017-c2",
+          "label": null,
+          "text": "Backup",
+          "html": "Backup"
+        },
+        {
+          "choiceId": "jp1-q-017-c3",
+          "label": null,
+          "text": "Set",
+          "html": "<p>Set</p>"
+        },
+        {
+          "choiceId": "jp1-q-017-c4",
+          "label": null,
+          "text": "List",
+          "html": "List"
+        },
+        {
+          "choiceId": "jp1-q-017-c5",
+          "label": null,
+          "text": "Unwrap Key",
+          "html": "Unwrap Key"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-017-c4"
+      ],
+      "explanationHtml": "<p>別のKeyVaultにシークレットをコピーできそうに思えるかもしれませんが、Copyという操作（権限）はないので、KV1の情報を取得した上で、その情報を元にKV2にシークレットを作成する必要があります。</p><p><br></p><p>KV1から全てのシークレットを取得するためには「一覧（List）」の権限を追加します。</p><p>取得（Get）だけでも単一のシークレットをひとつずつ取得できますが、一覧を取得してからループ処理を実行する方が労力を抑えることができます。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal</a></p><p><a href=\"https://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/\">https://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/</a></p>",
+      "explanationText": "別のKeyVaultにシークレットをコピーできそうに思えるかもしれませんが、Copyという操作（権限）はないので、KV1の情報を取得した上で、その情報を元にKV2にシークレットを作成する必要があります。\n\nKV1から全てのシークレットを取得するためには「一覧（List）」の権限を追加します。\n取得（Get）だけでも単一のシークレットをひとつずつ取得できますが、一覧を取得してからループ処理を実行する方が労力を抑えることができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal\nhttps://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-018",
+      "sourceQuestionNumber": 18,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、次の表に示すリソースを含むRG1という名前のリソースグループを持っています。</p><p></p><p>あなたは、KV1に格納されている全てのシークレットを最小限の労力でKV2に移行することを計画しており、VM1に移行の操作を許可するためのアクセスポリシーを構成する必要があります。</p><p><br></p><p>VM1 は現在、KV1 のシークレットに対する Get 権限を持っています。 </p><p><strong>KV2のアクセスポリシー</strong>では、どの追加のアクセス許可を VM1 に割り当てる必要がありますか。</p><p><br></p><p>KV1に追加するVM1のアクセス許可：</p><p>KV2に追加するVM1のアクセス許可：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、次の表に示すリソースを含むRG1という名前のリソースグループを持っています。\n\nあなたは、KV1に格納されている全てのシークレットを最小限の労力でKV2に移行することを計画しており、VM1に移行の操作を許可するためのアクセスポリシーを構成する必要があります。\n\nVM1 は現在、KV1 のシークレットに対する Get 権限を持っています。\nKV2のアクセスポリシーでは、どの追加のアクセス許可を VM1 に割り当てる必要がありますか。\n\nKV1に追加するVM1のアクセス許可：\nKV2に追加するVM1のアクセス許可：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-018-c1",
+          "label": null,
+          "text": "Set",
+          "html": "<p>Set</p>"
+        },
+        {
+          "choiceId": "jp1-q-018-c2",
+          "label": null,
+          "text": "Import",
+          "html": "Import"
+        },
+        {
+          "choiceId": "jp1-q-018-c3",
+          "label": null,
+          "text": "List",
+          "html": "List"
+        },
+        {
+          "choiceId": "jp1-q-018-c4",
+          "label": null,
+          "text": "Wrap Key",
+          "html": "Wrap Key"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-018-c1"
+      ],
+      "explanationHtml": "<p>別のKeyVaultにシークレットをコピーできそうに思えるかもしれませんが、Copyという操作（権限）はないので、KV1の情報を取得した上で、その情報を元にKV2にシークレットを作成する必要があります。</p><p><br></p><p>KV1から全てのシークレットを取得するためには「一覧（List）」の権限を追加します。</p><p>取得（Get）だけでも単一のシークレットをひとつずつ取得できますが、一覧を取得してからループ処理を実行する方が労力を抑えることができます。</p><p><br></p><p>そして、KV2にシークレットを作成するには「セット（Set）」の権限を追加します。</p><p>キーや証明書と違い「作成（Create）」という権限はないので注意しましょう。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal</a></p><p><a href=\"https://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/\">https://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/</a></p><p><br></p>",
+      "explanationText": "別のKeyVaultにシークレットをコピーできそうに思えるかもしれませんが、Copyという操作（権限）はないので、KV1の情報を取得した上で、その情報を元にKV2にシークレットを作成する必要があります。\n\nKV1から全てのシークレットを取得するためには「一覧（List）」の権限を追加します。\n取得（Get）だけでも単一のシークレットをひとつずつ取得できますが、一覧を取得してからループ処理を実行する方が労力を抑えることができます。\n\nそして、KV2にシークレットを作成するには「セット（Set）」の権限を追加します。\nキーや証明書と違い「作成（Create）」という権限はないので注意しましょう。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal\nhttps://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-019",
+      "sourceQuestionNumber": 19,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、Windows Server 2016を実行する300台のAzure仮想マシンを含むAzureサブスクリプションを持っています。</p><p>あなたは、仮想マシンのシステムログ内のすべての警告イベントを集中的に監視する必要があります。</p><p><strong>Azureで作成するリソース</strong>には何を含めるべきですか。</p><p><br></p><p>Azureで作成するリソース：</p><p>仮想マシンに必要な設定：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、Windows Server 2016を実行する300台のAzure仮想マシンを含むAzureサブスクリプションを持っています。\nあなたは、仮想マシンのシステムログ内のすべての警告イベントを集中的に監視する必要があります。\nAzureで作成するリソースには何を含めるべきですか。\n\nAzureで作成するリソース：\n仮想マシンに必要な設定：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-019-c1",
+          "label": null,
+          "text": "Azure Event Hubs",
+          "html": "Azure Event Hubs"
+        },
+        {
+          "choiceId": "jp1-q-019-c2",
+          "label": null,
+          "text": "Log Analyticsワークスペース",
+          "html": "Log Analyticsワークスペース"
+        },
+        {
+          "choiceId": "jp1-q-019-c3",
+          "label": null,
+          "text": "Azure Advisor",
+          "html": "Azure Advisor"
+        },
+        {
+          "choiceId": "jp1-q-019-c4",
+          "label": null,
+          "text": "ストレージアカウント",
+          "html": "ストレージアカウント"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-019-c2"
+      ],
+      "explanationHtml": "<p>WindowsのイベントログやLinuxのSyslogを収集して監視するには、Azure Monitorの「データ収集ルール」を作成します。</p><p>この場合、収集するイベントログの保存先として「Log Analyticsワークスペース」が必要になるため選択肢2が正解です。イベントログをストレージアカウントなど他のデータストアに送信することはできません。</p><p>※ターゲットの種類が「Azure Monitor Logs」と表現される場合もありますが「Log Analyticsワークスペース」のことです。</p><p><br></p><p>なお、イベントログの種類はデータソースの追加画面で行うことができます。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal</a></p>",
+      "explanationText": "WindowsのイベントログやLinuxのSyslogを収集して監視するには、Azure Monitorの「データ収集ルール」を作成します。\nこの場合、収集するイベントログの保存先として「Log Analyticsワークスペース」が必要になるため選択肢2が正解です。イベントログをストレージアカウントなど他のデータストアに送信することはできません。\n※ターゲットの種類が「Azure Monitor Logs」と表現される場合もありますが「Log Analyticsワークスペース」のことです。\n\nなお、イベントログの種類はデータソースの追加画面で行うことができます。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-020",
+      "sourceQuestionNumber": 20,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、Windows Server 2016を実行する300台のAzure仮想マシンを含むAzureサブスクリプションを持っています。</p><p>あなたは、仮想マシンのシステムログ内のすべての警告イベントを集中的に監視する必要があります。</p><p><strong>仮想マシンに必要な設定</strong>には何を含めるべきですか。</p><p><br></p><p>Azureで作成するリソース：</p><p>仮想マシンに必要な設定：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、Windows Server 2016を実行する300台のAzure仮想マシンを含むAzureサブスクリプションを持っています。\nあなたは、仮想マシンのシステムログ内のすべての警告イベントを集中的に監視する必要があります。\n仮想マシンに必要な設定には何を含めるべきですか。\n\nAzureで作成するリソース：\n仮想マシンに必要な設定：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-020-c1",
+          "label": null,
+          "text": "Event Hubs Captureを有効化する",
+          "html": "Event Hubs Captureを有効化する"
+        },
+        {
+          "choiceId": "jp1-q-020-c2",
+          "label": null,
+          "text": "アクショングループを作成する",
+          "html": "アクショングループを作成する"
+        },
+        {
+          "choiceId": "jp1-q-020-c3",
+          "label": null,
+          "text": "Azure Monitor エージェントをインストールする",
+          "html": "<p>Azure Monitor エージェントをインストールする</p>"
+        },
+        {
+          "choiceId": "jp1-q-020-c4",
+          "label": null,
+          "text": "Azure Storage Explorerをインストールする",
+          "html": "Azure Storage Explorerをインストールする"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-020-c3"
+      ],
+      "explanationHtml": "<p>イベントログやパフォーマンスカウンターを収集するにはAzure Monitor エージェントがインストールされる必要があります。</p><p>データ収集ルールを作成すると、イベントログやパフォーマンスカウンターを収集するために、対象の仮想マシンにはAzure Monitor エージェントが自動的にインストールされます。</p><p><br></p><p>なお、レガシーな方法として <a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-sources-windows-events\">Log Analytics エージェントを使用</a> する方法もありますが、将来これは非推奨になる予定です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal</a></p>",
+      "explanationText": "イベントログやパフォーマンスカウンターを収集するにはAzure Monitor エージェントがインストールされる必要があります。\nデータ収集ルールを作成すると、イベントログやパフォーマンスカウンターを収集するために、対象の仮想マシンにはAzure Monitor エージェントが自動的にインストールされます。\n\nなお、レガシーな方法として Log Analytics エージェントを使用 する方法もありますが、将来これは非推奨になる予定です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

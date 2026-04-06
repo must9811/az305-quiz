@@ -1,0 +1,427 @@
+{
+  "setId": "jp1-set-003",
+  "title": "問題集1 21-30",
+  "sourceHtml": "udemy/問題集1.html",
+  "questionIds": [
+    "jp1-q-021",
+    "jp1-q-022",
+    "jp1-q-023",
+    "jp1-q-024",
+    "jp1-q-025",
+    "jp1-q-026",
+    "jp1-q-027",
+    "jp1-q-028",
+    "jp1-q-029",
+    "jp1-q-030"
+  ],
+  "questions": [
+    {
+      "questionId": "jp1-q-021",
+      "sourceQuestionNumber": 21,
+      "promptHtml": "<p>あなたは、次の表に示すリソースを持っています。</p><p>CDB1 は、継続的に更新される運用データを格納するコンテナーをホストしています。</p><p>あなたは、運用データを毎日分析するためにAS1を使用するソリューションを設計しています。</p><p><br></p><p>あなたは、CDB1 のパフォーマンスに影響を与えることなく、データを分析するためのソリューションを提案する必要があります。</p><p>あなたは提案に何を含めるべきですか 。</p>",
+      "promptText": "あなたは、次の表に示すリソースを持っています。\nCDB1 は、継続的に更新される運用データを格納するコンテナーをホストしています。\nあなたは、運用データを毎日分析するためにAS1を使用するソリューションを設計しています。\n\nあなたは、CDB1 のパフォーマンスに影響を与えることなく、データを分析するためのソリューションを提案する必要があります。\nあなたは提案に何を含めるべきですか 。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-021-c1",
+          "label": null,
+          "text": "Azure Cosmos DBの変更フィード",
+          "html": "Azure Cosmos DBの変更フィード"
+        },
+        {
+          "choiceId": "jp1-q-021-c2",
+          "label": null,
+          "text": "Azure Cosmos DBの専用ゲートウェイ",
+          "html": "Azure Cosmos DBの専用ゲートウェイ"
+        },
+        {
+          "choiceId": "jp1-q-021-c3",
+          "label": null,
+          "text": "Azure Synapse AnalyticsのSynapseMLライブラリ",
+          "html": "Azure Synapse AnalyticsのSynapseMLライブラリ"
+        },
+        {
+          "choiceId": "jp1-q-021-c4",
+          "label": null,
+          "text": "Azure Synapse Link for Azure Cosmos DB",
+          "html": "Azure Synapse Link for Azure Cosmos DB"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-021-c4"
+      ],
+      "explanationHtml": "<p>Azure Synapse Link for Azure Cosmos DBを有効にすると、Azure Cosmos DB と Azure Synapse Analytics の間に緊密でシームレスな統合が作成され、Azure Cosmos DB でのトランザクション ワークロードのパフォーマンスに影響を与えることなくほぼリアルタイムの分析が可能になります。</p><p>Azure Synapse Link は、Azure Cosmos DB SQL API または Mongo DB アカウント用の Azure Cosmos DB API で使用することができます。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/synapse-link\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/synapse-link</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/configure-synapse-link\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/configure-synapse-link</a></p>",
+      "explanationText": "Azure Synapse Link for Azure Cosmos DBを有効にすると、Azure Cosmos DB と Azure Synapse Analytics の間に緊密でシームレスな統合が作成され、Azure Cosmos DB でのトランザクション ワークロードのパフォーマンスに影響を与えることなくほぼリアルタイムの分析が可能になります。\nAzure Synapse Link は、Azure Cosmos DB SQL API または Mongo DB アカウント用の Azure Cosmos DB API で使用することができます。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/synapse-link\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/configure-synapse-link",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-022",
+      "sourceQuestionNumber": 22,
+      "promptHtml": "<p>あなたは、次の要件を満たす高可用性のAzure SQL Databaseを設計する必要があります。</p><p><br></p><p>・データベースのレプリカ間でデータ損失なしにフェールオーバーできること</p><p>・データベースは、ゾーン停止時に利用可能であること</p><p>・コストを最小限に抑えること</p><p><br></p><p>あなたはソリューションに何を含めるべきですか。</p>",
+      "promptText": "あなたは、次の要件を満たす高可用性のAzure SQL Databaseを設計する必要があります。\n\n・データベースのレプリカ間でデータ損失なしにフェールオーバーできること\n・データベースは、ゾーン停止時に利用可能であること\n・コストを最小限に抑えること\n\nあなたはソリューションに何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-022-c1",
+          "label": null,
+          "text": "Azure SQL Managed Instance General Purpose",
+          "html": "<p>Azure SQL Managed Instance General Purpose</p>"
+        },
+        {
+          "choiceId": "jp1-q-022-c2",
+          "label": null,
+          "text": "Azure SQL Database Standard",
+          "html": "Azure SQL Database Standard"
+        },
+        {
+          "choiceId": "jp1-q-022-c3",
+          "label": null,
+          "text": "Azure SQL Database Hyperscale",
+          "html": "Azure SQL Database Hyperscale"
+        },
+        {
+          "choiceId": "jp1-q-022-c4",
+          "label": null,
+          "text": "Azure SQL Database Premium",
+          "html": "Azure SQL Database Premium"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-022-c4"
+      ],
+      "explanationHtml": "<p>Azure SQL Databaseのデプロイオプションとゾーン冗長のサポートなどをまとめると次のとおりです。</p><p>将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。</p><p></p><p><br></p><p><code>・データベースは、ゾーン停止時に利用可能であること</code></p><p><code>・コストを最小限に抑えること</code></p><p>選択肢のうち、ゾーン冗長に正式に対応しているのはAzure SQL DatabaseのHyperscaleとPremiumのみです。</p><p>このうち、コストを最小化できるのはPremiumなので選択肢4が正解です。</p><p><br></p><p><code>・データベースのレプリカ間でデータ損失なしにフェールオーバーできること</code></p><p>Azure SQL Database Premium（と Business Critical）は、Premium 可用性モデルのアーキテクチャで構成されています。3～4つのノードでクラスタを形成し、データのコピーを格納する最大 3 つのセカンダリ レプリカが含まれます。</p><p>プライマリ ノードは常にセカンダリ ノードへ順番に変更をプッシュし、各トランザクションをコミットする前に少なくとも 1 つのセカンダリ レプリカにデータが保持されるようにします。 このプロセスによって、何らかの理由でプライマリ ノードがクラッシュした場合に、フェールオーバー先となる完全に同期されたノードが常に用意されている状態が保証されます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/azure-sql-database/single/\">https://azure.microsoft.com/ja-jp/pricing/details/azure-sql-database/single/</a></p>",
+      "explanationText": "Azure SQL Databaseのデプロイオプションとゾーン冗長のサポートなどをまとめると次のとおりです。\n将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。\n\n・データベースは、ゾーン停止時に利用可能であること\n・コストを最小限に抑えること\n選択肢のうち、ゾーン冗長に正式に対応しているのはAzure SQL DatabaseのHyperscaleとPremiumのみです。\nこのうち、コストを最小化できるのはPremiumなので選択肢4が正解です。\n\n・データベースのレプリカ間でデータ損失なしにフェールオーバーできること\nAzure SQL Database Premium（と Business Critical）は、Premium 可用性モデルのアーキテクチャで構成されています。3～4つのノードでクラスタを形成し、データのコピーを格納する最大 3 つのセカンダリ レプリカが含まれます。\nプライマリ ノードは常にセカンダリ ノードへ順番に変更をプッシュし、各トランザクションをコミットする前に少なくとも 1 つのセカンダリ レプリカにデータが保持されるようにします。 このプロセスによって、何らかの理由でプライマリ ノードがクラッシュした場合に、フェールオーバー先となる完全に同期されたノードが常に用意されている状態が保証されます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla\nhttps://azure.microsoft.com/ja-jp/pricing/details/azure-sql-database/single/",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-023",
+      "sourceQuestionNumber": 23,
+      "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの会社には、次の表に示す事業部があります。</p><p>あなたは、各サブスクリプションにカスタムアプリケーションを展開する予定です。</p><p>アプリケーションは次のリソースを含みます。</p><p><br></p><p>・リソースグループ </p><p>・Azure Webアプリ</p><p>・カスタムロールの割り当て</p><p>・Azure Cosmos DB アカウント</p><p><br></p><p>あなたは、Azure Blueprintsを使用して、各サブスクリプションにアプリケーションをデプロイする必要があります。 </p><p>デプロイにはAzureポータルを使います。</p><p>アプリケーションをデプロイするために必要な<strong>管理グループ</strong>の最小数はいくつですか。</p><p><br></p><p>管理グループの数：</p><p>ブループリントの定義の数：</p><p>ブループリントの割り当ての数：</p>",
+      "promptText": "注：この問題は次とその次の問題と3問1セットです。\n\nあなたの会社には、次の表に示す事業部があります。\nあなたは、各サブスクリプションにカスタムアプリケーションを展開する予定です。\nアプリケーションは次のリソースを含みます。\n\n・リソースグループ\n・Azure Webアプリ\n・カスタムロールの割り当て\n・Azure Cosmos DB アカウント\n\nあなたは、Azure Blueprintsを使用して、各サブスクリプションにアプリケーションをデプロイする必要があります。\nデプロイにはAzureポータルを使います。\nアプリケーションをデプロイするために必要な管理グループの最小数はいくつですか。\n\n管理グループの数：\nブループリントの定義の数：\nブループリントの割り当ての数：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-023-c1",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "jp1-q-023-c2",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "jp1-q-023-c3",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        },
+        {
+          "choiceId": "jp1-q-023-c4",
+          "label": null,
+          "text": "4",
+          "html": "4"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-023-c2"
+      ],
+      "explanationHtml": "<p>それぞれの事業部はそれぞれ別々のMicrosoft Entraテナントを持っていて、2つのサブスクリプションが関連付けられています。</p><p><br></p><p>管理グループは、複数のサブスクリプションをグループ化してロールやポリシー、ブループリント定義の割り当てを効率化することができます。</p><p>ただし、単一の管理グループ内のすべてのサブスクリプションは、<strong>同じ Microsoft Entra テナントを信頼する必要があります。</strong></p><p><br></p><p>本問題では、Microsoft Entraテナントが別々なので、テナントごとに1つ、少なくとも2つの管理グループが必要です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/management-groups/overview\">https://learn.microsoft.com/ja-jp/azure/governance/management-groups/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/create-blueprint-rest-api#assign-a-blueprint\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/create-blueprint-rest-api#assign-a-blueprint</a></p>",
+      "explanationText": "それぞれの事業部はそれぞれ別々のMicrosoft Entraテナントを持っていて、2つのサブスクリプションが関連付けられています。\n\n管理グループは、複数のサブスクリプションをグループ化してロールやポリシー、ブループリント定義の割り当てを効率化することができます。\nただし、単一の管理グループ内のすべてのサブスクリプションは、同じ Microsoft Entra テナントを信頼する必要があります。\n\n本問題では、Microsoft Entraテナントが別々なので、テナントごとに1つ、少なくとも2つの管理グループが必要です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/management-groups/overview\nhttps://learn.microsoft.com/ja-jp/azure/governance/blueprints/create-blueprint-rest-api#assign-a-blueprint",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-024",
+      "sourceQuestionNumber": 24,
+      "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの会社には、次の表に示す事業部があります。</p><p>あなたは、各サブスクリプションにカスタムアプリケーションを展開する予定です。</p><p>アプリケーションは次のリソースを含みます。</p><p><br></p><p>・リソースグループ </p><p>・Azure Webアプリ</p><p>・カスタムロールの割り当て</p><p>・Azure Cosmos DB アカウント</p><p><br></p><p>あなたは、Azure Blueprintsを使用して、各サブスクリプションにアプリケーションをデプロイする必要があります。 </p><p>デプロイにはAzureポータルを使います。</p><p>アプリケーションをデプロイするために必要な<strong>ブループリントの定義</strong>の最小数はいくつですか。</p><p><br></p><p>管理グループの数：</p><p>ブループリントの定義の数：</p><p>ブループリントの割り当ての数：</p>",
+      "promptText": "注：この問題は前と次の問題と3問1セットです。\n\nあなたの会社には、次の表に示す事業部があります。\nあなたは、各サブスクリプションにカスタムアプリケーションを展開する予定です。\nアプリケーションは次のリソースを含みます。\n\n・リソースグループ\n・Azure Webアプリ\n・カスタムロールの割り当て\n・Azure Cosmos DB アカウント\n\nあなたは、Azure Blueprintsを使用して、各サブスクリプションにアプリケーションをデプロイする必要があります。\nデプロイにはAzureポータルを使います。\nアプリケーションをデプロイするために必要なブループリントの定義の最小数はいくつですか。\n\n管理グループの数：\nブループリントの定義の数：\nブループリントの割り当ての数：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-024-c1",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "jp1-q-024-c2",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "jp1-q-024-c3",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        },
+        {
+          "choiceId": "jp1-q-024-c4",
+          "label": null,
+          "text": "4",
+          "html": "4"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-024-c2"
+      ],
+      "explanationHtml": "<p>前の問題の解説の通り、少なくとも2つの管理グループが必要です。</p><p>ブループリント定義は、管理グループまたはサブスクリプションに保存できます。</p><p>そして、ブループリント定義は管理グループまたはサブスクリプションに割り当てることができます。</p><p>※ただし、管理グループへの割り当てには注意点があります（次の問題で解説します）</p><p><br></p><p>ブループリント定義を各管理グループに保存すると、定義の数を最小にできます。この場合、少なくとも2つのブループリント定義が必要です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview#blueprint-definition-locations\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview#blueprint-definition-locations</a></p>",
+      "explanationText": "前の問題の解説の通り、少なくとも2つの管理グループが必要です。\nブループリント定義は、管理グループまたはサブスクリプションに保存できます。\nそして、ブループリント定義は管理グループまたはサブスクリプションに割り当てることができます。\n※ただし、管理グループへの割り当てには注意点があります（次の問題で解説します）\n\nブループリント定義を各管理グループに保存すると、定義の数を最小にできます。この場合、少なくとも2つのブループリント定義が必要です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview#blueprint-definition-locations",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-025",
+      "sourceQuestionNumber": 25,
+      "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの会社には、次の表に示す事業部があります。</p><p></p><p>あなたは、各サブスクリプションにカスタムアプリケーションを展開する予定です。</p><p>アプリケーションは次のリソースを含みます。</p><p><br></p><p>・リソースグループ </p><p>・Azure Webアプリ</p><p>・カスタムロールの割り当て</p><p>・Azure Cosmos DB アカウント</p><p><br></p><p>あなたは、Azure Blueprintsを使用して、各サブスクリプションにアプリケーションをデプロイする必要があります。 </p><p>デプロイにはAzureポータルを使います。</p><p>アプリケーションをデプロイするために必要な<strong>ブループリントの割り当て</strong>の最小数はいくつですか。</p><p><br></p><p>管理グループの数：</p><p>ブループリントの定義の数：</p><p>ブループリントの割り当ての数：</p>",
+      "promptText": "注：この問題は前とその前の問題と3問1セットです。\n\nあなたの会社には、次の表に示す事業部があります。\n\nあなたは、各サブスクリプションにカスタムアプリケーションを展開する予定です。\nアプリケーションは次のリソースを含みます。\n\n・リソースグループ\n・Azure Webアプリ\n・カスタムロールの割り当て\n・Azure Cosmos DB アカウント\n\nあなたは、Azure Blueprintsを使用して、各サブスクリプションにアプリケーションをデプロイする必要があります。\nデプロイにはAzureポータルを使います。\nアプリケーションをデプロイするために必要なブループリントの割り当ての最小数はいくつですか。\n\n管理グループの数：\nブループリントの定義の数：\nブループリントの割り当ての数：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-025-c1",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "jp1-q-025-c2",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "jp1-q-025-c3",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        },
+        {
+          "choiceId": "jp1-q-025-c4",
+          "label": null,
+          "text": "4",
+          "html": "4"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-025-c4"
+      ],
+      "explanationHtml": "<p>前の問題の解説の通り、少なくとも2つの管理グループにブループリント定義を保存すればオブジェクトの数を最小にできます。</p><p><br></p><p>ブループリント定義は管理グループまたはサブスクリプションに割り当てることができます。</p><p>ただし、Azureポータルから実施する場合は、管理グループに割り当てることは<strong>できません。</strong></p><p>サブスクリプションの数だけブループリント定義の割り当てを作成する必要があります。</p><p>よって、「4」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/create-blueprint-portal\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/create-blueprint-portal</a></p>",
+      "explanationText": "前の問題の解説の通り、少なくとも2つの管理グループにブループリント定義を保存すればオブジェクトの数を最小にできます。\n\nブループリント定義は管理グループまたはサブスクリプションに割り当てることができます。\nただし、Azureポータルから実施する場合は、管理グループに割り当てることはできません。\nサブスクリプションの数だけブループリント定義の割り当てを作成する必要があります。\nよって、「4」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/blueprints/create-blueprint-portal",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-026",
+      "sourceQuestionNumber": 26,
+      "promptHtml": "<p>あなたは、3台のAzure仮想マシン上で実行されるApp1という名前のアプリケーションをデプロイする予定です。</p><p>また、将来、App1を実行する仮想マシンを2台追加する予定です。</p><p>あなたは、次の要件を満たすソリューションを提案する必要があります。 </p><p><br></p><p>・仮想マシンがMicrosoft Entra IDで認証され、Azure Key Vaultにアクセスできること</p><p>・2台の仮想マシンを追加でデプロイする際に、Azureサービスに新しいロールの割り当てが不要なこと</p><p>・仮想マシン上にシークレットと証明書を保存しないこと</p><p><br></p><p>提案には何を含めるべきですか。</p>",
+      "promptText": "あなたは、3台のAzure仮想マシン上で実行されるApp1という名前のアプリケーションをデプロイする予定です。\nまた、将来、App1を実行する仮想マシンを2台追加する予定です。\nあなたは、次の要件を満たすソリューションを提案する必要があります。\n\n・仮想マシンがMicrosoft Entra IDで認証され、Azure Key Vaultにアクセスできること\n・2台の仮想マシンを追加でデプロイする際に、Azureサービスに新しいロールの割り当てが不要なこと\n・仮想マシン上にシークレットと証明書を保存しないこと\n\n提案には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-026-c1",
+          "label": null,
+          "text": "証明書を使用するように構成されたサービスプリンシパル",
+          "html": "証明書を使用するように構成されたサービスプリンシパル"
+        },
+        {
+          "choiceId": "jp1-q-026-c2",
+          "label": null,
+          "text": "システム割り当てマネージドID",
+          "html": "システム割り当てマネージドID"
+        },
+        {
+          "choiceId": "jp1-q-026-c3",
+          "label": null,
+          "text": "クライアントシークレットを使用するように構成されたサービスプリンシパル",
+          "html": "クライアントシークレットを使用するように構成されたサービスプリンシパル"
+        },
+        {
+          "choiceId": "jp1-q-026-c4",
+          "label": null,
+          "text": "ユーザー割り当てマネージドID",
+          "html": "ユーザー割り当てマネージドID"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-026-c4"
+      ],
+      "explanationHtml": "<p><code>・仮想マシンがMicrosoft Entra IDで認証され、Azure Key Vaultにアクセスできること</code></p><p>この要件はマネージドID、サービスプリンシパルどちらでも実現できますが、</p><p><code>・仮想マシン上にシークレットと証明書を保存しないこと</code></p><p>サービスプリンシパルの認証に利用するシークレット、または、証明書を仮想マシンに保存しないようにする必要があるため、選択肢1、3は誤りです。</p><p><br></p><p><code>・2台の仮想マシンを追加でデプロイする際に、Azureサービスに新しいロールの割り当てが不要なこと</code></p><p>この要件を満たすことができるのは選択肢4の「ユーザー割り当てマネージドID」です。</p><p>マネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a>&nbsp;には次の2つがあります。</p><p><br></p><p>・システム割り当てマネージドID</p><p>・ユーザー割り当てマネージドID</p><p><br></p><p>システム割り当てマネージドIDは、仮想マシンなどAzureリソースの一部として作成され、仮想マシンが実行されているときのみ認証できます。仮想マシンごとにIDが発行されるため、ひとつずつIDに対してロールを割り当てる必要があります。</p><p><br></p><p>ユーザー割り当てマネージドIDは、独立したAzureリソースとして作成でき、それをAzureリソースに関連付けて使用します。一つのユーザー割り当てマネージドIDにロールを割り当てておけば、追加で仮想マシンをデプロイした際に新たにロールを割り当てることなく、仮想マシンにユーザー割り当てマネージドIDを関連付けるだけで済みます。</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a></p><p><br></p><p>この2つのマネージドIDの関係を例えるなら、仮想マシンのOSディスクとファイル共有としてマウントできるAzure Storageのようなものです。</p><p>仮想マシンのOSディスクは、必ず単一の仮想マシンに関連付けられ、仮想マシンが実行されている時のみディスクにアクセスできます。親リソースとともに削除される点も同様です。</p><p>ファイル共有は、仮想マシンとは別に独立して作成し、複数の仮想マシンにマウントすることでストレージ領域を使用できます。仮想マシンを削除してもファイル共有自体が削除されることはありません。</p>",
+      "explanationText": "・仮想マシンがMicrosoft Entra IDで認証され、Azure Key Vaultにアクセスできること\nこの要件はマネージドID、サービスプリンシパルどちらでも実現できますが、\n・仮想マシン上にシークレットと証明書を保存しないこと\nサービスプリンシパルの認証に利用するシークレット、または、証明書を仮想マシンに保存しないようにする必要があるため、選択肢1、3は誤りです。\n\n・2台の仮想マシンを追加でデプロイする際に、Azureサービスに新しいロールの割り当てが不要なこと\nこの要件を満たすことができるのは選択肢4の「ユーザー割り当てマネージドID」です。\nマネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。\nマネージドIDの種類 には次の2つがあります。\n\n・システム割り当てマネージドID\n・ユーザー割り当てマネージドID\n\nシステム割り当てマネージドIDは、仮想マシンなどAzureリソースの一部として作成され、仮想マシンが実行されているときのみ認証できます。仮想マシンごとにIDが発行されるため、ひとつずつIDに対してロールを割り当てる必要があります。\n\nユーザー割り当てマネージドIDは、独立したAzureリソースとして作成でき、それをAzureリソースに関連付けて使用します。一つのユーザー割り当てマネージドIDにロールを割り当てておけば、追加で仮想マシンをデプロイした際に新たにロールを割り当てることなく、仮想マシンにユーザー割り当てマネージドIDを関連付けるだけで済みます。\n\n出典：マネージドIDの種類\n\nこの2つのマネージドIDの関係を例えるなら、仮想マシンのOSディスクとファイル共有としてマウントできるAzure Storageのようなものです。\n仮想マシンのOSディスクは、必ず単一の仮想マシンに関連付けられ、仮想マシンが実行されている時のみディスクにアクセスできます。親リソースとともに削除される点も同様です。\nファイル共有は、仮想マシンとは別に独立して作成し、複数の仮想マシンにマウントすることでストレージ領域を使用できます。仮想マシンを削除してもファイル共有自体が削除されることはありません。",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-027",
+      "sourceQuestionNumber": 27,
+      "promptHtml": "<p>あなたは、App1とApp2という名前の2つのアプリケーションを含むAzureサブスクリプションを持っています。</p><p>App1は販売管理のアプリケーションです。App1で商品が売られて出荷が必要になると、その情報がAzure Queue Storageにメッセージとして追加されます。そして、App2がこれらの出荷が必要な商品の情報をキューから取得して処理します。</p><p><br></p><p>将来的には、出荷要求の一部を処理するアプリケーションが追加される予定です。</p><p>出荷要求のキューを処理する各アプリケーションは、それぞれが独立して同じ情報（キュー）を読み取り可能である必要があります。</p><p>あなたは、Azure Queue Storageの代わりとなるソリューションを提案する必要があります。</p><p>あなたは何を提案すべきですか。 </p>",
+      "promptText": "あなたは、App1とApp2という名前の2つのアプリケーションを含むAzureサブスクリプションを持っています。\nApp1は販売管理のアプリケーションです。App1で商品が売られて出荷が必要になると、その情報がAzure Queue Storageにメッセージとして追加されます。そして、App2がこれらの出荷が必要な商品の情報をキューから取得して処理します。\n\n将来的には、出荷要求の一部を処理するアプリケーションが追加される予定です。\n出荷要求のキューを処理する各アプリケーションは、それぞれが独立して同じ情報（キュー）を読み取り可能である必要があります。\nあなたは、Azure Queue Storageの代わりとなるソリューションを提案する必要があります。\nあなたは何を提案すべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-027-c1",
+          "label": null,
+          "text": "1つのAzure Service Busキュー",
+          "html": "1つのAzure Service Busキュー"
+        },
+        {
+          "choiceId": "jp1-q-027-c2",
+          "label": null,
+          "text": "1つのAzure Service Busトピック",
+          "html": "1つのAzure Service Busトピック"
+        },
+        {
+          "choiceId": "jp1-q-027-c3",
+          "label": null,
+          "text": "1つのAzure Data Factoryパイプライン",
+          "html": "1つのAzure Data Factoryパイプライン"
+        },
+        {
+          "choiceId": "jp1-q-027-c4",
+          "label": null,
+          "text": "2つのストレージアカウントのQueueストレージ",
+          "html": "2つのストレージアカウントのQueueストレージ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-027-c2"
+      ],
+      "explanationHtml": "<p>複数のアプリケーションを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがよくあります。</p><p>アプリとアプリを直接つなぐのではなく、間にメッセージングサービスを挟むことで、送信側は受信側の処理を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。</p><p><br></p><p>Azure には大きく次の2つのメッセージベースのソリューションが用意されています。</p><p>・Azure Queue Storage</p><p>・Azure Service Bus</p><p><br></p><p><code>将来的には、出荷要求の一部を処理するアプリケーションが追加される予定です。</code></p><p><code>出荷要求のキューを処理する各アプリケーションは、それぞれが独立して同じ情報（キュー）を読み取り可能である必要があります。</code></p><p>ここがポイントです。キューを処理するアプリが単一から複数になる予定があります。</p><p>そして、各アプリケーションそれぞれがキューを受け取る必要があります。（1対多）</p><p><br></p><p>Azure Queue Storageは送信者と受信者が1対1のサービスです。</p><p>受信者が複数になる場合、1つのAzure Service Busトピックを使用してパブリッシュ/サブスクライブ（Pub/Sub）方式でメッセージを送受信するように構成します。</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-queues-topics-subscriptions#topics-and-subscriptions\">トピックとサブスクリプション</a></p><p><br></p><p>Service Busのキューとトピックの違いは公式ドキュメントを参照してください。</p><p>ざっくり言うと、Service Busキューは1対1、Service Busトピックは1対多の形式の通信となります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-queues-topics-subscriptions\">https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-queues-topics-subscriptions</a></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted\">https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/training/modules/design-application-architecture/3-design-messaging-solution\">https://learn.microsoft.com/ja-jp/training/modules/design-application-architecture/3-design-messaging-solution</a></p>",
+      "explanationText": "複数のアプリケーションを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがよくあります。\nアプリとアプリを直接つなぐのではなく、間にメッセージングサービスを挟むことで、送信側は受信側の処理を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。\n\nAzure には大きく次の2つのメッセージベースのソリューションが用意されています。\n・Azure Queue Storage\n・Azure Service Bus\n\n将来的には、出荷要求の一部を処理するアプリケーションが追加される予定です。\n出荷要求のキューを処理する各アプリケーションは、それぞれが独立して同じ情報（キュー）を読み取り可能である必要があります。\nここがポイントです。キューを処理するアプリが単一から複数になる予定があります。\nそして、各アプリケーションそれぞれがキューを受け取る必要があります。（1対多）\n\nAzure Queue Storageは送信者と受信者が1対1のサービスです。\n受信者が複数になる場合、1つのAzure Service Busトピックを使用してパブリッシュ/サブスクライブ（Pub/Sub）方式でメッセージを送受信するように構成します。\n\n出典：トピックとサブスクリプション\n\nService Busのキューとトピックの違いは公式ドキュメントを参照してください。\nざっくり言うと、Service Busキューは1対1、Service Busトピックは1対多の形式の通信となります。\nhttps://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-queues-topics-subscriptions\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted\nhttps://learn.microsoft.com/ja-jp/training/modules/design-application-architecture/3-design-messaging-solution",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-028",
+      "sourceQuestionNumber": 28,
+      "promptHtml": "<p>あなたは、Azure仮想マシン上で実行されるMicrosoft SQL Serverを持っています。</p><p>データベースはバッチプロセスの一部として、毎日夜間に書き込みが行われます</p><p><br></p><p>あなたは、データベースのための災害復旧ソリューションを提案する必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・地域の停電が発生した場合でも復旧できること</p><p>・15分の目標復旧時間（RTO）をサポートすること</p><p>・24時間の目標復旧時点（RPO）をサポートすること</p><p>・自動復旧をサポートすること</p><p><br></p><p>あなたは何を提案すべきですか。</p>",
+      "promptText": "あなたは、Azure仮想マシン上で実行されるMicrosoft SQL Serverを持っています。\nデータベースはバッチプロセスの一部として、毎日夜間に書き込みが行われます\n\nあなたは、データベースのための災害復旧ソリューションを提案する必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・地域の停電が発生した場合でも復旧できること\n・15分の目標復旧時間（RTO）をサポートすること\n・24時間の目標復旧時点（RPO）をサポートすること\n・自動復旧をサポートすること\n\nあなたは何を提案すべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-028-c1",
+          "label": null,
+          "text": "Azure仮想マシンの可用性セット",
+          "html": "Azure仮想マシンの可用性セット"
+        },
+        {
+          "choiceId": "jp1-q-028-c2",
+          "label": null,
+          "text": "マネージドディスク",
+          "html": "マネージドディスク"
+        },
+        {
+          "choiceId": "jp1-q-028-c3",
+          "label": null,
+          "text": "近接通信配置グループ",
+          "html": "近接通信配置グループ"
+        },
+        {
+          "choiceId": "jp1-q-028-c4",
+          "label": null,
+          "text": "Azure Site Recovery",
+          "html": "Azure Site Recovery"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-028-c4"
+      ],
+      "explanationHtml": "<p><code>・地域の停電が発生した場合でも復旧できること</code> </p><p>Azure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。</p><p>障害が発生した場合、オンプレミスからAzureへ、または、Azureの東日本リージョンから西日本リージョンへ、といった具合にプライマリサイトから予備のセカンダリサイトへ切り替えることで業務を継続することができます。</p><p><br></p><p><code>・15分の目標復旧時間（RTO）をサポートすること</code></p><p><code>・24時間の目標復旧時点（RPO）をサポートすること</code> </p><p>目標復旧時間（RTO）は、通常は15分未満です。また、SLAでは2時間のRTOが保証されています。</p><p>目標復旧時点（RPO）は、アプリケーション整合性では 1 時間、クラッシュ整合性では 5 分です。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-sql#combining-bcdr-technologies-with-site-recovery\">https://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-sql#combining-bcdr-technologies-with-site-recovery</a></p><p><br></p><p><code>・自動復旧をサポートすること</code> </p><p>復旧計画を作成すると、フェールオーバーを自動化することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/site-recovery/recovery-plan-overview\">https://learn.microsoft.com/ja-jp/azure/site-recovery/recovery-plan-overview</a></p>",
+      "explanationText": "・地域の停電が発生した場合でも復旧できること\nAzure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。\n障害が発生した場合、オンプレミスからAzureへ、または、Azureの東日本リージョンから西日本リージョンへ、といった具合にプライマリサイトから予備のセカンダリサイトへ切り替えることで業務を継続することができます。\n\n・15分の目標復旧時間（RTO）をサポートすること\n・24時間の目標復旧時点（RPO）をサポートすること\n目標復旧時間（RTO）は、通常は15分未満です。また、SLAでは2時間のRTOが保証されています。\n目標復旧時点（RPO）は、アプリケーション整合性では 1 時間、クラッシュ整合性では 5 分です。\nhttps://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-sql#combining-bcdr-technologies-with-site-recovery\n\n・自動復旧をサポートすること\n復旧計画を作成すると、フェールオーバーを自動化することができます。\nhttps://learn.microsoft.com/ja-jp/azure/site-recovery/recovery-plan-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-029",
+      "sourceQuestionNumber": 29,
+      "promptHtml": "<p>Contoso社は、HTTPトリガーを持ついくつかの Azure Logic Apps を実装しています。</p><p>Logic Apps は、オンプレミスのWebサービスへのアクセスを提供します。</p><p><br></p><p>Contoso社は、Fabrikam社という別の会社とパートナーシップを確立しています。</p><p>Fabrikam社は、既存のMicrosoft Entraテナントを持たず、サードパーティのOAuth 2.0 ID プロバイダーを使用してユーザーを認証しています。</p><p>Fabrikam社の開発者は、Logic Apps のサブセットを使用して、Contoso社のオンプレミスの Webサービスと統合するアプリケーションを構築する予定です。</p><p>あなたは、Fabrikam社の開発者が Logic Apps にアクセスできるように、ソリューションを設計する必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・開発者からの Logic Apps へのリクエストは、Contosoのユーザーからのリクエストよりも低いレートに制限できること</p><p>・開発者は、既存のOAuth 2.0プロバイダーを使用して Logic Apps にアクセスできること</p><p>・Logic Apps を変更する必要がないこと</p><p>・Microsoft Entra ID のゲストアカウントを使用しないこと</p><p><br></p><p>あなたは、ソリューションに何を含めるべきですか。</p>",
+      "promptText": "Contoso社は、HTTPトリガーを持ついくつかの Azure Logic Apps を実装しています。\nLogic Apps は、オンプレミスのWebサービスへのアクセスを提供します。\n\nContoso社は、Fabrikam社という別の会社とパートナーシップを確立しています。\nFabrikam社は、既存のMicrosoft Entraテナントを持たず、サードパーティのOAuth 2.0 ID プロバイダーを使用してユーザーを認証しています。\nFabrikam社の開発者は、Logic Apps のサブセットを使用して、Contoso社のオンプレミスの Webサービスと統合するアプリケーションを構築する予定です。\nあなたは、Fabrikam社の開発者が Logic Apps にアクセスできるように、ソリューションを設計する必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・開発者からの Logic Apps へのリクエストは、Contosoのユーザーからのリクエストよりも低いレートに制限できること\n・開発者は、既存のOAuth 2.0プロバイダーを使用して Logic Apps にアクセスできること\n・Logic Apps を変更する必要がないこと\n・Microsoft Entra ID のゲストアカウントを使用しないこと\n\nあなたは、ソリューションに何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-029-c1",
+          "label": null,
+          "text": "Microsoft Entra B2B",
+          "html": "<p>Microsoft Entra B2B</p>"
+        },
+        {
+          "choiceId": "jp1-q-029-c2",
+          "label": null,
+          "text": "Azure Front Door",
+          "html": "Azure Front Door"
+        },
+        {
+          "choiceId": "jp1-q-029-c3",
+          "label": null,
+          "text": "Azure API Management",
+          "html": "Azure API Management"
+        },
+        {
+          "choiceId": "jp1-q-029-c4",
+          "label": null,
+          "text": "Microsoft Entra アプリケーション プロキシ",
+          "html": "<p>Microsoft Entra アプリケーション プロキシ</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-029-c3"
+      ],
+      "explanationHtml": "<p>Azure API Managementには、バックエンドにあるAPIを安全に公開するための中継（ゲートウェイ）の役割があります。その他、セキュリティ、レート制限、キャッシュ、モニタリングなどの機能を提供します。</p><p><br></p><p><code>・開発者からの Logic Apps へのリクエストは、Contosoのユーザーからのリクエストよりも低いレートに制限できること</code></p><p><code>・Logic Apps を変更する必要がないこと</code></p><p>バックエンドAPIとして、Logic Appsをインポートすることができます。</p><p>また、クライアントIPアドレスなどに対してレート制限を設けることができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/import-logic-app-as-api\">https://learn.microsoft.com/ja-jp/azure/api-management/import-logic-app-as-api</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/api-management-sample-flexible-throttling\">https://learn.microsoft.com/ja-jp/azure/api-management/api-management-sample-flexible-throttling</a></p><p><br></p><p><code>・開発者は、既存のOAuth 2.0プロバイダーを使用して Logic Apps にアクセスできること</code></p><p><code>・Microsoft Entra のゲストアカウントを使用しないこと</code></p><p>外部のOAuth 2.0プロバイダーを使用して、API Managementを認証することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/authorizations-overview\">https://learn.microsoft.com/ja-jp/azure/api-management/authorizations-overview</a></p>",
+      "explanationText": "Azure API Managementには、バックエンドにあるAPIを安全に公開するための中継（ゲートウェイ）の役割があります。その他、セキュリティ、レート制限、キャッシュ、モニタリングなどの機能を提供します。\n\n・開発者からの Logic Apps へのリクエストは、Contosoのユーザーからのリクエストよりも低いレートに制限できること\n・Logic Apps を変更する必要がないこと\nバックエンドAPIとして、Logic Appsをインポートすることができます。\nまた、クライアントIPアドレスなどに対してレート制限を設けることができます。\nhttps://learn.microsoft.com/ja-jp/azure/api-management/import-logic-app-as-api\nhttps://learn.microsoft.com/ja-jp/azure/api-management/api-management-sample-flexible-throttling\n\n・開発者は、既存のOAuth 2.0プロバイダーを使用して Logic Apps にアクセスできること\n・Microsoft Entra のゲストアカウントを使用しないこと\n外部のOAuth 2.0プロバイダーを使用して、API Managementを認証することができます。\nhttps://learn.microsoft.com/ja-jp/azure/api-management/authorizations-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-030",
+      "sourceQuestionNumber": 30,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたの会社は、オンプレミスとAzureにいくつかの仮想マシンをデプロイしています。</p><p>Azure ExpressRouteを導入し、オンプレミスからAzureへの接続を構成しました。</p><p><br></p><p>いくつかの仮想マシンは、ネットワーク接続に問題があります。</p><p>あなたは、ネットワークトラフィックを分析し、パケットが仮想マシンに許可または拒否されているかどうかを確認する必要があります。</p><p><br></p><p>ソリューション：Azure Network Watcherを使用してIPフロー検証を実行し、ネットワークトラフィックを分析します</p><p><br></p><p>ソリューションは目標を満たしていますか。</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたの会社は、オンプレミスとAzureにいくつかの仮想マシンをデプロイしています。\nAzure ExpressRouteを導入し、オンプレミスからAzureへの接続を構成しました。\n\nいくつかの仮想マシンは、ネットワーク接続に問題があります。\nあなたは、ネットワークトラフィックを分析し、パケットが仮想マシンに許可または拒否されているかどうかを確認する必要があります。\n\nソリューション：Azure Network Watcherを使用してIPフロー検証を実行し、ネットワークトラフィックを分析します\n\nソリューションは目標を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-030-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp1-q-030-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-030-c1"
+      ],
+      "explanationHtml": "<p>Azure Network Watcher では、Azure 仮想ネットワーク内のリソースの監視、診断、メトリックの表示、ログの有効化または無効化を行うためのいくつかのツールが提供されています。</p><p><br></p><p>Network Watcher IP フロー検証では、5 つの組の情報に基づき、仮想マシンでパケットが許可されたか拒否されたかを確認することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/network-watcher/network-watcher-ip-flow-verify-overview\">https://learn.microsoft.com/ja-jp/azure/network-watcher/network-watcher-ip-flow-verify-overview</a></p>",
+      "explanationText": "Azure Network Watcher では、Azure 仮想ネットワーク内のリソースの監視、診断、メトリックの表示、ログの有効化または無効化を行うためのいくつかのツールが提供されています。\n\nNetwork Watcher IP フロー検証では、5 つの組の情報に基づき、仮想マシンでパケットが許可されたか拒否されたかを確認することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/network-watcher/network-watcher-ip-flow-verify-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

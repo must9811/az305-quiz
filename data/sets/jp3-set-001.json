@@ -1,0 +1,385 @@
+{
+  "setId": "jp3-set-001",
+  "title": "問題集3 01-10",
+  "sourceHtml": "udemy/問題集3.html",
+  "questionIds": [
+    "jp3-q-001",
+    "jp3-q-002",
+    "jp3-q-003",
+    "jp3-q-004",
+    "jp3-q-005",
+    "jp3-q-006",
+    "jp3-q-007",
+    "jp3-q-008",
+    "jp3-q-009",
+    "jp3-q-010"
+  ],
+  "questions": [
+    {
+      "questionId": "jp3-q-001",
+      "sourceQuestionNumber": 1,
+      "promptHtml": "<p>あなたは、WebApp1という名前のWebアプリケーションとSQL1という名前のAzure SQL Databaseを持っています。</p><p>WebApp1のバックエンドサービスは、データをSQL1に書き込みます。</p><p>ユーザーはWebApp1クライアントを使用してSQL1からデータを読み取ります。 </p><p>SQL1の使用率が高い期間、ユーザーがデータを取得する時に遅延が発生しています。</p><p>あなたはデータリクエストにかかる時間を抑える必要があります。</p><p>あなたはソリューションに何を含めるべきですか。</p>",
+      "promptText": "あなたは、WebApp1という名前のWebアプリケーションとSQL1という名前のAzure SQL Databaseを持っています。\nWebApp1のバックエンドサービスは、データをSQL1に書き込みます。\nユーザーはWebApp1クライアントを使用してSQL1からデータを読み取ります。\nSQL1の使用率が高い期間、ユーザーがデータを取得する時に遅延が発生しています。\nあなたはデータリクエストにかかる時間を抑える必要があります。\nあなたはソリューションに何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-001-c1",
+          "label": null,
+          "text": "Azure Cache for Redis",
+          "html": "Azure Cache for Redis"
+        },
+        {
+          "choiceId": "jp3-q-001-c2",
+          "label": null,
+          "text": "Azure Front Door",
+          "html": "Azure Front Door"
+        },
+        {
+          "choiceId": "jp3-q-001-c3",
+          "label": null,
+          "text": "Azure Data Factory",
+          "html": "Azure Data Factory"
+        },
+        {
+          "choiceId": "jp3-q-001-c4",
+          "label": null,
+          "text": "Azure CDN",
+          "html": "Azure CDN"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-001-c1"
+      ],
+      "explanationHtml": "<p>Azure Cache for Redis は、オープンソースの「Redis」を基にしたインメモリ データ ストアです。</p><p>ユーザーのセッション情報や即時性が求められる更新データなどアクセス頻度の高いデータを、高速に読み書きできるサーバーのメモリ内に一時的にキャッシュすることで、アプリケーションのパフォーマンスを向上させることができます。</p><p><br></p><p>Azure Front DoorとAzure CDNは、主に静的コンテンツ（javascript、css、画像ファイルなど）をキャッシュするためのサービスで、バックエンドのデータベースのデータをキャッシュする用途としては不適切なので誤りです。</p><p>Azure Data Factoryは、膨大な量のデータの統合やETL (抽出 - 変換 - 読み込み)を行うためのサービスなので誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-cache-for-redis/cache-overview\">https://learn.microsoft.com/ja-jp/azure/azure-cache-for-redis/cache-overview</a></p>",
+      "explanationText": "Azure Cache for Redis は、オープンソースの「Redis」を基にしたインメモリ データ ストアです。\nユーザーのセッション情報や即時性が求められる更新データなどアクセス頻度の高いデータを、高速に読み書きできるサーバーのメモリ内に一時的にキャッシュすることで、アプリケーションのパフォーマンスを向上させることができます。\n\nAzure Front DoorとAzure CDNは、主に静的コンテンツ（javascript、css、画像ファイルなど）をキャッシュするためのサービスで、バックエンドのデータベースのデータをキャッシュする用途としては不適切なので誤りです。\nAzure Data Factoryは、膨大な量のデータの統合やETL (抽出 - 変換 - 読み込み)を行うためのサービスなので誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-cache-for-redis/cache-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-002",
+      "sourceQuestionNumber": 2,
+      "promptHtml": "<p>あなたはApp1という名前のアプリケーションを持っています。</p><p>App1が生成するログファイルは次の条件を満たす必要があります。</p><p><br></p><p>・5年間保存すること</p><p>・ログファイルはApp1によって読み取り可能かつ、変更不可であること</p><p><br></p><p>あたなはどのストレージソリューションを提案すべきですか。</p>",
+      "promptText": "あなたはApp1という名前のアプリケーションを持っています。\nApp1が生成するログファイルは次の条件を満たす必要があります。\n\n・5年間保存すること\n・ログファイルはApp1によって読み取り可能かつ、変更不可であること\n\nあたなはどのストレージソリューションを提案すべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-002-c1",
+          "label": null,
+          "text": "Log Analyticsワークスペースにログファイルを取り込む",
+          "html": "Log Analyticsワークスペースにログファイルを取り込む"
+        },
+        {
+          "choiceId": "jp3-q-002-c2",
+          "label": null,
+          "text": "Azure Blobストレージと時間ベースのアイテム保持ポリシーを使用する",
+          "html": "<p>Azure Blobストレージと時間ベースのアイテム保持ポリシーを使用する</p>"
+        },
+        {
+          "choiceId": "jp3-q-002-c3",
+          "label": null,
+          "text": "アーカイブアクセス層を使用するように構成されたAzure Blobストレージを使用する",
+          "html": "<p>アーカイブアクセス層を使用するように構成されたAzure Blobストレージを使用する</p>"
+        },
+        {
+          "choiceId": "jp3-q-002-c4",
+          "label": null,
+          "text": "アクセス制御が有効になっているAzureファイル共有を使用する",
+          "html": "アクセス制御が有効になっているAzureファイル共有を使用する"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-002-c2"
+      ],
+      "explanationHtml": "<p><code>・5年間アーカイブすること</code></p><p><code>・ログファイルはApp1によって読み取り可能かつ、変更不可であること</code> </p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><br></p><p>不変ストレージには次の２種類のポリシーがあります。</p><p>・時間ベースのアイテム保持ポリシー</p><p>・訴訟ホールドポリシー</p><p><br></p><p>時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。</p><p><br></p><p>Azureポータルのストレージアカウント &gt; コンテナー &gt; アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。</p><p></p><p>なお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p>",
+      "explanationText": "・5年間アーカイブすること\n・ログファイルはApp1によって読み取り可能かつ、変更不可であること\nこの要件を満たすためにはBLOBの不変ストレージを利用します。\n不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。\n\n不変ストレージには次の２種類のポリシーがあります。\n・時間ベースのアイテム保持ポリシー\n・訴訟ホールドポリシー\n\n時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。\n\nAzureポータルのストレージアカウント > コンテナー > アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。\n\nなお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-003",
+      "sourceQuestionNumber": 3,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたの会社は、Azure SQL Databaseを使用するさまざまなAzure App Serviceをデプロイする予定です。</p><p>会社には、App Serviceを特定のAzureリージョンにのみデプロイするという規制要件があります。</p><p>あなたは、規制要件を満たすためにソリューションを提案する必要があります。</p><p><br></p><p>ソリューション：場所に基づいたリソースグループを作成し、リソースグループにリソースロックを追加します</p><p><br></p><p>これは目標を満たしていますか。</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたの会社は、Azure SQL Databaseを使用するさまざまなAzure App Serviceをデプロイする予定です。\n会社には、App Serviceを特定のAzureリージョンにのみデプロイするという規制要件があります。\nあなたは、規制要件を満たすためにソリューションを提案する必要があります。\n\nソリューション：場所に基づいたリソースグループを作成し、リソースグループにリソースロックを追加します\n\nこれは目標を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-003-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp3-q-003-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-003-c2"
+      ],
+      "explanationHtml": "<p>リソースロックは、作成したリソースを誤って削除してしまわないようにするための機能なので誤りです。</p><p>代わりに、Azure Policyを使用します。</p><p><br></p><p>Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。</p><p>例えば、「日本のリージョン以外のリソースの作成を拒否する」とか「仮想マシンの作成を特定のサイズに限定する」といったことが可能です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/overview\">https://learn.microsoft.com/ja-jp/azure/governance/policy/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\">https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources?tabs=json\">https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources?tabs=json</a></p>",
+      "explanationText": "リソースロックは、作成したリソースを誤って削除してしまわないようにするための機能なので誤りです。\n代わりに、Azure Policyを使用します。\n\nAzure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。\n例えば、「日本のリージョン以外のリソースの作成を拒否する」とか「仮想マシンの作成を特定のサイズに限定する」といったことが可能です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/overview\nhttps://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\nhttps://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources?tabs=json",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-004",
+      "sourceQuestionNumber": 4,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたの会社は、Azure SQL Databaseを使用するさまざまなAzure App Serviceをデプロイする予定です。</p><p>会社には、App Serviceを特定のAzureリージョンにのみデプロイするという規制要件があります。</p><p>あなたは、規制要件を満たすためにソリューションを提案する必要があります。</p><p><br></p><p>ソリューション：場所を強制するためにAzure Policy イニシアチブを使用します</p><p><br></p><p>これは目標を満たしていますか。</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたの会社は、Azure SQL Databaseを使用するさまざまなAzure App Serviceをデプロイする予定です。\n会社には、App Serviceを特定のAzureリージョンにのみデプロイするという規制要件があります。\nあなたは、規制要件を満たすためにソリューションを提案する必要があります。\n\nソリューション：場所を強制するためにAzure Policy イニシアチブを使用します\n\nこれは目標を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-004-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp3-q-004-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-004-c1"
+      ],
+      "explanationHtml": "<p>Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。</p><p>Azure Policyの一つ一つのルールのことを「ポリシー定義」と呼び、複数のポリシー定義をひとまとめにしたものを「イニシアチブ定義」と呼びます。</p><p><br></p><p>「許可されている場所」の組み込みポリシー定義を使用すれば、Azureリソースをデプロイするリージョンを制限することができます。なお、このポリシー定義を含むイニシアチブ定義を作成し、それを適用しても問題ありません。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/overview\">https://learn.microsoft.com/ja-jp/azure/governance/policy/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\">https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies</a></p>",
+      "explanationText": "Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。\nAzure Policyの一つ一つのルールのことを「ポリシー定義」と呼び、複数のポリシー定義をひとまとめにしたものを「イニシアチブ定義」と呼びます。\n\n「許可されている場所」の組み込みポリシー定義を使用すれば、Azureリソースをデプロイするリージョンを制限することができます。なお、このポリシー定義を含むイニシアチブ定義を作成し、それを適用しても問題ありません。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/overview\nhttps://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-005",
+      "sourceQuestionNumber": 5,
+      "promptHtml": "<p>あなたは、Azureのソリューションを設計しています。</p><p>ソリューションのネットワークトラフィックは、次の機能によって安全に分散する必要があります。 </p><p><br></p><p>・HTTPSプロトコル </p><p>・ラウンドロビン・ルーティング </p><p>・SSL/TLSオフロード</p><p><br></p><p>あなたは負荷分散オプションを提案する必要があります。</p><p>提案には何を含めるべきですか。</p>",
+      "promptText": "あなたは、Azureのソリューションを設計しています。\nソリューションのネットワークトラフィックは、次の機能によって安全に分散する必要があります。\n\n・HTTPSプロトコル\n・ラウンドロビン・ルーティング\n・SSL/TLSオフロード\n\nあなたは負荷分散オプションを提案する必要があります。\n提案には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-005-c1",
+          "label": null,
+          "text": "Azure Load Balancer",
+          "html": "Azure Load Balancer"
+        },
+        {
+          "choiceId": "jp3-q-005-c2",
+          "label": null,
+          "text": "Azure Traffic Manager",
+          "html": "Azure Traffic Manager"
+        },
+        {
+          "choiceId": "jp3-q-005-c3",
+          "label": null,
+          "text": "Azure Internal Load Balancer",
+          "html": "Azure Internal Load Balancer"
+        },
+        {
+          "choiceId": "jp3-q-005-c4",
+          "label": null,
+          "text": "Azure Application Gateway",
+          "html": "Azure Application Gateway"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-005-c4"
+      ],
+      "explanationHtml": "<p>Azureの負荷分散オプションは大きく次の4種類がありますが、選択肢のうち問題文に示された要件を満たすのは「Azure Application Gateway」のみです。</p><p><br></p><p>なお、ラウンドロビンとはバックエンドにある複数のサーバに対して順繰りに割り振っていく方式のことです。Azure Application Gatewayの他にもAzure Front Door（重み付け）、Traffic Manager（重み付け）でもサポートされています。Azure Load Balancerは、ハッシュ値（5タプル）を元に振り分け先を決定する方式です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/application-gateway/how-application-gateway-works\">https://learn.microsoft.com/ja-jp/azure/application-gateway/how-application-gateway-works</a></p>",
+      "explanationText": "Azureの負荷分散オプションは大きく次の4種類がありますが、選択肢のうち問題文に示された要件を満たすのは「Azure Application Gateway」のみです。\n\nなお、ラウンドロビンとはバックエンドにある複数のサーバに対して順繰りに割り振っていく方式のことです。Azure Application Gatewayの他にもAzure Front Door（重み付け）、Traffic Manager（重み付け）でもサポートされています。Azure Load Balancerは、ハッシュ値（5タプル）を元に振り分け先を決定する方式です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\nhttps://learn.microsoft.com/ja-jp/azure/application-gateway/how-application-gateway-works",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-006",
+      "sourceQuestionNumber": 6,
+      "promptHtml": "<p>あなたは、Azure SQL DatabaseでAzure予約を使用するかどうかを検討しています。</p><p>あなたは、節約コストを推定するためにどのツールを使用する必要がありますか。</p>",
+      "promptText": "あなたは、Azure SQL DatabaseでAzure予約を使用するかどうかを検討しています。\nあなたは、節約コストを推定するためにどのツールを使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-006-c1",
+          "label": null,
+          "text": "Azureポータルの予約ブレード",
+          "html": "<p>Azureポータルの予約ブレード</p>"
+        },
+        {
+          "choiceId": "jp3-q-006-c2",
+          "label": null,
+          "text": "AzureポータルのAdvisorブレード",
+          "html": "AzureポータルのAdvisorブレード"
+        },
+        {
+          "choiceId": "jp3-q-006-c3",
+          "label": null,
+          "text": "AzureポータルのSQL Databaseブレード",
+          "html": "<p>AzureポータルのSQL Databaseブレード</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-006-c1"
+      ],
+      "explanationHtml": "<p>Azureポータルの「予約」メニューで SQL Database を選択して進めることで確認することができます。</p><p></p><p>\n【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql#buy-reserved-capacity\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql#buy-reserved-capacity</a></p>",
+      "explanationText": "Azureポータルの「予約」メニューで SQL Database を選択して進めることで確認することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql#buy-reserved-capacity",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-007",
+      "sourceQuestionNumber": 7,
+      "promptHtml": "<p>あなたの会社の経理部門が新しい財務会計ソフトへの移行を計画してします。</p><p>経理部門は、コンプライアンスの観点から、ファイルベースのデータベースのバックアップを7年間保存する必要があります。 </p><p>バックアップがデータを回復するために使用されることはめったにありません。</p><p><br></p><p>あなたはバックアップをAzureに移行する必要があります。</p><p>このソリューションは、コストを最小限に抑える必要があります。</p><p>あなたはどこにバックアップを保存する必要がありますか。</p>",
+      "promptText": "あなたの会社の経理部門が新しい財務会計ソフトへの移行を計画してします。\n経理部門は、コンプライアンスの観点から、ファイルベースのデータベースのバックアップを7年間保存する必要があります。\nバックアップがデータを回復するために使用されることはめったにありません。\n\nあなたはバックアップをAzureに移行する必要があります。\nこのソリューションは、コストを最小限に抑える必要があります。\nあなたはどこにバックアップを保存する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-007-c1",
+          "label": null,
+          "text": "アーカイブ層を使用するAzure Blobストレージ",
+          "html": "アーカイブ層を使用するAzure Blobストレージ"
+        },
+        {
+          "choiceId": "jp3-q-007-c2",
+          "label": null,
+          "text": "Azure SQL Database",
+          "html": "Azure SQL Database"
+        },
+        {
+          "choiceId": "jp3-q-007-c3",
+          "label": null,
+          "text": "クール層を使用するAzure Blobストレージ",
+          "html": "クール層を使用するAzure Blobストレージ"
+        },
+        {
+          "choiceId": "jp3-q-007-c4",
+          "label": null,
+          "text": "Recovery Services コンテナー",
+          "html": "Recovery Services コンテナー"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-007-c1"
+      ],
+      "explanationHtml": "<p>*.bak などのファイルベースのデータベースのバックアップの保存先としてAzure SQL Databaseは利用できないため選択肢2は誤りです。</p><p><br></p><p>残りの選択肢のうち、BLOBストレージがより安価に保存することができて、かつ、「バックアップがデータを回復するために使用されることはめったにありません」とあることから、選択肢1の「アーカイブ層を使用するAzure Blobストレージ」が最もコストを抑えることができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview </a></p>",
+      "explanationText": "*.bak などのファイルベースのデータベースのバックアップの保存先としてAzure SQL Databaseは利用できないため選択肢2は誤りです。\n\n残りの選択肢のうち、BLOBストレージがより安価に保存することができて、かつ、「バックアップがデータを回復するために使用されることはめったにありません」とあることから、選択肢1の「アーカイブ層を使用するAzure Blobストレージ」が最もコストを抑えることができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-008",
+      "sourceQuestionNumber": 8,
+      "promptHtml": "<p>あなたの会社は、Windows Server 2019を実行するオンプレミスのファイルサーバーを持っています。</p><p>あなたは、ファイルサーバーが故障した場合にデータ損失を防ぐためのAzureソリューションを提案する必要があります。</p><p><br></p><p>ソリューション：あなたは、AzureサブスクリプションにRecovery Servicesコンテナーを作成します。次に、オンプレミスのファイルサーバー上でAzure Backup エージェントをインストールし、バックアップをスケジュールします。</p><p><br></p><p>これは目標を満たしていますか。</p>",
+      "promptText": "あなたの会社は、Windows Server 2019を実行するオンプレミスのファイルサーバーを持っています。\nあなたは、ファイルサーバーが故障した場合にデータ損失を防ぐためのAzureソリューションを提案する必要があります。\n\nソリューション：あなたは、AzureサブスクリプションにRecovery Servicesコンテナーを作成します。次に、オンプレミスのファイルサーバー上でAzure Backup エージェントをインストールし、バックアップをスケジュールします。\n\nこれは目標を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "jp3-q-008-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "jp3-q-008-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-008-c1"
+      ],
+      "explanationHtml": "<p>Azure Backup では、オンプレミスのサーバや Azure VM からファイル、フォルダー、システムの状態をバックアップする目的で Microsoft Azure Recovery Services (MARS) エージェントを使用することができます。MARS は Azure Backup エージェントとも呼ばれます。</p><p><br></p><p>詳細は公式ドキュメントに記載がありますが、手順を簡単にご紹介します。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/install-mars-agent\">https://learn.microsoft.com/ja-jp/azure/backup/install-mars-agent</a></p><p><br></p><p>1.Recovery Servicesコンテナーを作成後、MARSエージェントをダウンロードする</p><p>どこのサーバで何をバックアップするかを指定して「インフラストラクチャの準備」を押すと必要な手順が示され、エージェントもダウンロードできます。</p><p><br></p><p>MARSエージェントとRSコンテナーに接続するための資格情報をダウンロードします。</p><p><br></p><p>2.エージェントのインストールとバックアップのスケジュール</p><p>バックアップ対象のサーバ上でエージェントをインストール後、ウィザードに従ってバックアップをスケジュールします。</p>",
+      "explanationText": "Azure Backup では、オンプレミスのサーバや Azure VM からファイル、フォルダー、システムの状態をバックアップする目的で Microsoft Azure Recovery Services (MARS) エージェントを使用することができます。MARS は Azure Backup エージェントとも呼ばれます。\n\n詳細は公式ドキュメントに記載がありますが、手順を簡単にご紹介します。\nhttps://learn.microsoft.com/ja-jp/azure/backup/install-mars-agent\n\n1.Recovery Servicesコンテナーを作成後、MARSエージェントをダウンロードする\nどこのサーバで何をバックアップするかを指定して「インフラストラクチャの準備」を押すと必要な手順が示され、エージェントもダウンロードできます。\n\nMARSエージェントとRSコンテナーに接続するための資格情報をダウンロードします。\n\n2.エージェントのインストールとバックアップのスケジュール\nバックアップ対象のサーバ上でエージェントをインストール後、ウィザードに従ってバックアップをスケジュールします。",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-009",
+      "sourceQuestionNumber": 9,
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、オンプレミスの Microsoft SQL Server データベースを Azure に移行することを計画しています。</p><p>あなたは、ソリューションは次の要件を満たす必要があります。</p><p><br></p><p>・ユーザー主導のバックアップをサポートすること</p><p>・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること</p><p>・ビジネス継続性を実装し維持するための管理労力を最小化すること</p><p><br></p><p><strong>デプロイするAzureサービス</strong>は何を提案すべきですか。</p><p><br></p><p>デプロイするAzureサービス：</p><p>要件を満たすための機能：</p>",
+      "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、オンプレミスの Microsoft SQL Server データベースを Azure に移行することを計画しています。\nあなたは、ソリューションは次の要件を満たす必要があります。\n\n・ユーザー主導のバックアップをサポートすること\n・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること\n・ビジネス継続性を実装し維持するための管理労力を最小化すること\n\nデプロイするAzureサービスは何を提案すべきですか。\n\nデプロイするAzureサービス：\n要件を満たすための機能：",
+      "choices": [
+        {
+          "choiceId": "jp3-q-009-c1",
+          "label": null,
+          "text": "Azure SQL Managed Instance",
+          "html": "Azure SQL Managed Instance"
+        },
+        {
+          "choiceId": "jp3-q-009-c2",
+          "label": null,
+          "text": "Azure 仮想マシン上のSQL Server",
+          "html": "Azure 仮想マシン上のSQL Server"
+        },
+        {
+          "choiceId": "jp3-q-009-c3",
+          "label": null,
+          "text": "Azure SQL Databaseの単一データベース",
+          "html": "Azure SQL Databaseの単一データベース"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-009-c1"
+      ],
+      "explanationHtml": "<p><code>・ユーザー主導のバックアップをサポートすること</code></p><p>Azure SQL Databaseではシステムによって開始される自動バックアップのみサポートされていますが、Azure SQL Managed InstanceではBACKUPコマンドによる手動バックアップを取得することも可能です。</p><p>よって、選択肢1の「Azure SQL Managed Instance」が正解になります。</p><p><br></p><p><code>・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること</code></p><p><code>・ビジネス継続性を実装し維持するための管理労力を最小化すること</code></p><p>この要件を満たすためには「自動フェールオーバーグループ」を使用します（次の問題で解説します）</p><p>Azure SQL Database、Azure SQL Managed Instanceともサポートされていますが、Azure 仮想マシン上のSQL Serverでは利用できないため選択肢2は誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/transact-sql-tsql-differences-sql-server?view=azuresql#backup\">https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/transact-sql-tsql-differences-sql-server?view=azuresql#backup</a></p>",
+      "explanationText": "・ユーザー主導のバックアップをサポートすること\nAzure SQL Databaseではシステムによって開始される自動バックアップのみサポートされていますが、Azure SQL Managed InstanceではBACKUPコマンドによる手動バックアップを取得することも可能です。\nよって、選択肢1の「Azure SQL Managed Instance」が正解になります。\n\n・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること\n・ビジネス継続性を実装し維持するための管理労力を最小化すること\nこの要件を満たすためには「自動フェールオーバーグループ」を使用します（次の問題で解説します）\nAzure SQL Database、Azure SQL Managed Instanceともサポートされていますが、Azure 仮想マシン上のSQL Serverでは利用できないため選択肢2は誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/transact-sql-tsql-differences-sql-server?view=azuresql#backup",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp3-q-010",
+      "sourceQuestionNumber": 10,
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、オンプレミスの Microsoft SQL Server データベースを Azure に移行することを計画しています。</p><p>あなたは、ソリューションは次の要件を満たす必要があります。</p><p><br></p><p>・ユーザー主導のバックアップをサポートすること</p><p>・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること</p><p>・ビジネス継続性を実装し維持するための管理労力を最小化すること</p><p><br></p><p><strong>要件を満たすための機能</strong>は何を提案すべきですか。</p><p><br></p><p>デプロイするAzureサービス：</p><p>要件を満たすための機能：</p>",
+      "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、オンプレミスの Microsoft SQL Server データベースを Azure に移行することを計画しています。\nあなたは、ソリューションは次の要件を満たす必要があります。\n\n・ユーザー主導のバックアップをサポートすること\n・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること\n・ビジネス継続性を実装し維持するための管理労力を最小化すること\n\n要件を満たすための機能は何を提案すべきですか。\n\nデプロイするAzureサービス：\n要件を満たすための機能：",
+      "choices": [
+        {
+          "choiceId": "jp3-q-010-c1",
+          "label": null,
+          "text": "自動フェールオーバーグループ",
+          "html": "自動フェールオーバーグループ"
+        },
+        {
+          "choiceId": "jp3-q-010-c2",
+          "label": null,
+          "text": "アクティブgeoレプリケーション",
+          "html": "アクティブgeoレプリケーション"
+        },
+        {
+          "choiceId": "jp3-q-010-c3",
+          "label": null,
+          "text": "ゾーン冗長の有効化",
+          "html": "ゾーン冗長の有効化"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp3-q-010-c1"
+      ],
+      "explanationHtml": "<p><code>・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること</code></p><p>データベースへのトラフィック負荷を減らすために、別のリージョンにコピー（geoレプリカ）を作成するには次のいずれかの機能が利用できます。</p><p><br></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/auto-failover-group-sql-db?view=azuresql&amp;tabs=azure-powershell\">自動フェールオーバーグループ</a></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/active-geo-replication-overview?view=azuresql\">アクティブgeoレプリケーション</a>　（SQL&nbsp;Managed Instanceではサポート外）</p><p><br></p><p><code>・ビジネス継続性を実装し維持するための管理労力を最小化すること</code> </p><p>どちらとも読み取り専用ワークロードの負荷軽減で利用できますが、いくつかの異なる点があります。「自動フェールオーバーグループ」が後発の機能なので、優れている点がいくつかあります。</p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql#compare-geo-replication-with-failover-groups\">geo レプリケーションとフェールオーバー グループを比較する</a></p><p><br></p><p>ビジネス継続性の観点では、リージョン障害発生時のフェールオーバーが自動化されているかどうかは重要な点です。「自動フェールオーバーグループ」では、その名の通り自動的にフェールオーバーされ、かつ、SQL Databaseへ接続するための接続文字列を更新する必要もありません。</p><p>よって、選択肢1の「自動フェールオーバーグループ」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/read-scale-out?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/read-scale-out?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql</a></p>",
+      "explanationText": "・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること\nデータベースへのトラフィック負荷を減らすために、別のリージョンにコピー（geoレプリカ）を作成するには次のいずれかの機能が利用できます。\n\n・自動フェールオーバーグループ\n・アクティブgeoレプリケーション　（SQL Managed Instanceではサポート外）\n\n・ビジネス継続性を実装し維持するための管理労力を最小化すること\nどちらとも読み取り専用ワークロードの負荷軽減で利用できますが、いくつかの異なる点があります。「自動フェールオーバーグループ」が後発の機能なので、優れている点がいくつかあります。\n出典：geo レプリケーションとフェールオーバー グループを比較する\n\nビジネス継続性の観点では、リージョン障害発生時のフェールオーバーが自動化されているかどうかは重要な点です。「自動フェールオーバーグループ」では、その名の通り自動的にフェールオーバーされ、かつ、SQL Databaseへ接続するための接続文字列を更新する必要もありません。\nよって、選択肢1の「自動フェールオーバーグループ」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/read-scale-out?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

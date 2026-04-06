@@ -1,0 +1,445 @@
+{
+  "setId": "jp1-set-006",
+  "title": "問題集1 51-60",
+  "sourceHtml": "udemy/問題集1.html",
+  "questionIds": [
+    "jp1-q-051",
+    "jp1-q-052",
+    "jp1-q-053",
+    "jp1-q-054",
+    "jp1-q-055",
+    "jp1-q-056",
+    "jp1-q-057",
+    "jp1-q-058",
+    "jp1-q-059",
+    "jp1-q-060"
+  ],
+  "questions": [
+    {
+      "questionId": "jp1-q-051",
+      "sourceQuestionNumber": 51,
+      "promptHtml": "<p>あなたは、Windows Server 2012 R2を実行し、Microsoft SQL Server 2012のインスタンスをホストしている50台のサーバーを持っています。</p><p>インスタンスは、次の特性を持つデータベースをホストしています。</p><p><br></p><p>・最も大きいデータベースのサイズは3TBで、どのデータベースも4TB以内のサイズです</p><p>・ストアドプロシージャは共通言語ランタイム (CLR)を使用して実装されています</p><p><br></p><p>あなたは、SQL ServerからAzureにすべてのデータを移行することを計画しています。 </p><p>あなたは、データベースをホストするためにAzureサービスを提案する必要があります。</p><p>このソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・移行したデータベースの管理オーバーヘッドを最小限にすること</p><p>・移行するためのデータベースの変更回数を最小限にすること</p><p>・ユーザーがActive Directoryの認証情報を使用して認証できること</p><p><br></p><p>あなたは何を提案すべきですか。</p>",
+      "promptText": "あなたは、Windows Server 2012 R2を実行し、Microsoft SQL Server 2012のインスタンスをホストしている50台のサーバーを持っています。\nインスタンスは、次の特性を持つデータベースをホストしています。\n\n・最も大きいデータベースのサイズは3TBで、どのデータベースも4TB以内のサイズです\n・ストアドプロシージャは共通言語ランタイム (CLR)を使用して実装されています\n\nあなたは、SQL ServerからAzureにすべてのデータを移行することを計画しています。\nあなたは、データベースをホストするためにAzureサービスを提案する必要があります。\nこのソリューションは、次の要件を満たす必要があります。\n\n・移行したデータベースの管理オーバーヘッドを最小限にすること\n・移行するためのデータベースの変更回数を最小限にすること\n・ユーザーがActive Directoryの認証情報を使用して認証できること\n\nあなたは何を提案すべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-051-c1",
+          "label": null,
+          "text": "Azure SQL Databaseの単一データベース",
+          "html": "Azure SQL Databaseの単一データベース"
+        },
+        {
+          "choiceId": "jp1-q-051-c2",
+          "label": null,
+          "text": "Azure SQL Managed Instance",
+          "html": "Azure SQL Managed Instance"
+        },
+        {
+          "choiceId": "jp1-q-051-c3",
+          "label": null,
+          "text": "Azure SQL Database エラスティック プール",
+          "html": "Azure SQL Database エラスティック プール"
+        },
+        {
+          "choiceId": "jp1-q-051-c4",
+          "label": null,
+          "text": "Azure仮想マシン上のMicrosoft SQL Server",
+          "html": "Azure仮想マシン上のMicrosoft SQL Server"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-051-c2"
+      ],
+      "explanationHtml": "<p><code>・最も大きいデータベースのサイズは3TBで、どのデータベースも 4TB以内のサイズです</code></p><p>Azure SQL&nbsp;Database、Azure SQL Managed Instance、仮想マシン（マネージドディスク）とも4TB以内の条件は満たすことができます。</p><p><br></p><p><code>・ストアドプロシージャは共通言語ランタイム (CLR)を使用して実装されています</code></p><p>共通言語ランタイム（CLR: Common Language Runtime）はSQL Server 2005以降で導入された機能で、Visual Basic や C# を含む任意の.NET Framework言語を使用して、ストアド プロシージャ、ユーザー定義関数などを記述できる仕組みです。</p><p>CLRはAzure SQL Database ではサポートされていませんので、選択肢1、3は誤りです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/relational-databases/clr-integration/common-language-runtime-clr-integration-programming-concepts?view=sql-server-ver16\">https://learn.microsoft.com/ja-jp/sql/relational-databases/clr-integration/common-language-runtime-clr-integration-programming-concepts?view=sql-server-ver16</a></p><p><br></p><p><code>・移行したデータベースの管理オーバーヘッドを最小限にすること</code></p><p><code>・ユーザーがActive Directoryの認証情報を使用して認証できること</code></p><p>これはAzure SQL&nbsp;Database、Azure SQL Managed Instanceの特徴です。</p><p>自動バックアップ、パッチ適用、高可用性などPaaSならではの仕組みが備わっています。</p><p>また、Microsoft EntraのIDを使用してデータベースに接続できる <a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/authentication-aad-overview?view=azuresql\">Microsoft Entra認証</a> を構成することもできます。</p><p>これらの機能は「Azure仮想マシン上のMicrosoft SQL Server」には提供されないため選択肢4は誤りです。</p><p><br></p><p><code>・移行するためのデータベースの変更回数を最小限にすること</code></p><p>Azure SQL Managed Instance には、最新の SQL Server (Enterprise Edition) データベース エンジンとの 100% 近い互換性が備わっているため、既存の SQL Server の利用者は最小限のアプリケーションおよびデータベースの変更のみで、オンプレミスのアプリケーションをクラウドに移行することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql</a></p>",
+      "explanationText": "・最も大きいデータベースのサイズは3TBで、どのデータベースも 4TB以内のサイズです\nAzure SQL Database、Azure SQL Managed Instance、仮想マシン（マネージドディスク）とも4TB以内の条件は満たすことができます。\n\n・ストアドプロシージャは共通言語ランタイム (CLR)を使用して実装されています\n共通言語ランタイム（CLR: Common Language Runtime）はSQL Server 2005以降で導入された機能で、Visual Basic や C# を含む任意の.NET Framework言語を使用して、ストアド プロシージャ、ユーザー定義関数などを記述できる仕組みです。\nCLRはAzure SQL Database ではサポートされていませんので、選択肢1、3は誤りです。\nhttps://learn.microsoft.com/ja-jp/sql/relational-databases/clr-integration/common-language-runtime-clr-integration-programming-concepts?view=sql-server-ver16\n\n・移行したデータベースの管理オーバーヘッドを最小限にすること\n・ユーザーがActive Directoryの認証情報を使用して認証できること\nこれはAzure SQL Database、Azure SQL Managed Instanceの特徴です。\n自動バックアップ、パッチ適用、高可用性などPaaSならではの仕組みが備わっています。\nまた、Microsoft EntraのIDを使用してデータベースに接続できる Microsoft Entra認証 を構成することもできます。\nこれらの機能は「Azure仮想マシン上のMicrosoft SQL Server」には提供されないため選択肢4は誤りです。\n\n・移行するためのデータベースの変更回数を最小限にすること\nAzure SQL Managed Instance には、最新の SQL Server (Enterprise Edition) データベース エンジンとの 100% 近い互換性が備わっているため、既存の SQL Server の利用者は最小限のアプリケーションおよびデータベースの変更のみで、オンプレミスのアプリケーションをクラウドに移行することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-052",
+      "sourceQuestionNumber": 52,
+      "promptHtml": "<p>あなたは、Azureのサブスクリプションを持っています。</p><p>サブスクリプションには、Windows Server 2016とLinuxを実行するAzure仮想マシンが含まれています。</p><p>あなたはAzure Monitorの Log Analytics を使用して、セキュリティ関連の特定をイベントをアラート通知するための設計をする必要があります。</p><p>Windows仮想マシンから収集したイベントログを参照するには、どのLog Analyticsテーブルをクエリする必要がありますか。</p>",
+      "promptText": "あなたは、Azureのサブスクリプションを持っています。\nサブスクリプションには、Windows Server 2016とLinuxを実行するAzure仮想マシンが含まれています。\nあなたはAzure Monitorの Log Analytics を使用して、セキュリティ関連の特定をイベントをアラート通知するための設計をする必要があります。\nWindows仮想マシンから収集したイベントログを参照するには、どのLog Analyticsテーブルをクエリする必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-052-c1",
+          "label": null,
+          "text": "EventLog",
+          "html": "EventLog"
+        },
+        {
+          "choiceId": "jp1-q-052-c2",
+          "label": null,
+          "text": "AzureDiagnostics",
+          "html": "AzureDiagnostics"
+        },
+        {
+          "choiceId": "jp1-q-052-c3",
+          "label": null,
+          "text": "Event",
+          "html": "Event"
+        },
+        {
+          "choiceId": "jp1-q-052-c4",
+          "label": null,
+          "text": "Syslog",
+          "html": "Syslog"
+        },
+        {
+          "choiceId": "jp1-q-052-c5",
+          "label": null,
+          "text": "Perf",
+          "html": "Perf"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-052-c3"
+      ],
+      "explanationHtml": "<p>Windowsのイベント ログは「Event」のテーブルに収集されます。</p><p>仮想マシンから収集できる代表的なログには次のようなものがあります。</p><p><br></p><p>・Heartbeat：エージェントの正常性を示すログ</p><p>・Perf：パフォーマンスカウンター</p><p>・Event：Windowsのイベントログ</p><p>・Syslog：Linuxのイベントログ</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-sources-windows-events\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-sources-windows-events</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/event\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/event</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/tables-category#virtual-machines\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/tables-category#virtual-machines</a></p>",
+      "explanationText": "Windowsのイベント ログは「Event」のテーブルに収集されます。\n仮想マシンから収集できる代表的なログには次のようなものがあります。\n\n・Heartbeat：エージェントの正常性を示すログ\n・Perf：パフォーマンスカウンター\n・Event：Windowsのイベントログ\n・Syslog：Linuxのイベントログ\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-sources-windows-events\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/event\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/tables-category#virtual-machines",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-053",
+      "sourceQuestionNumber": 53,
+      "promptHtml": "<p>あなたは、DB1という名前のMicrosoft SQL Serverをオンプレミスに持っています。</p><p>あなたは、DB1をAzure SQL Managed Instanceに移行することを計画しており、インスタンスのために透過的なデータ暗号化（TDE）を有効にする必要があります。</p><p>ソリューションは、次の要件を満たす必要があります。</p><p><br></p><p>・カスタマーマネージドキーを使用すること</p><p>・暗号化強度を最大化すること</p><p><br></p><p>透過的なデータ暗号化（TDE）にどのタイプの暗号化アルゴリズムと鍵長を使用する必要がありますか。</p>",
+      "promptText": "あなたは、DB1という名前のMicrosoft SQL Serverをオンプレミスに持っています。\nあなたは、DB1をAzure SQL Managed Instanceに移行することを計画しており、インスタンスのために透過的なデータ暗号化（TDE）を有効にする必要があります。\nソリューションは、次の要件を満たす必要があります。\n\n・カスタマーマネージドキーを使用すること\n・暗号化強度を最大化すること\n\n透過的なデータ暗号化（TDE）にどのタイプの暗号化アルゴリズムと鍵長を使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-053-c1",
+          "label": null,
+          "text": "RSA 2048",
+          "html": "RSA 2048"
+        },
+        {
+          "choiceId": "jp1-q-053-c2",
+          "label": null,
+          "text": "RSA 3072",
+          "html": "RSA 3072"
+        },
+        {
+          "choiceId": "jp1-q-053-c3",
+          "label": null,
+          "text": "ASE 256",
+          "html": "ASE 256"
+        },
+        {
+          "choiceId": "jp1-q-053-c4",
+          "label": null,
+          "text": "RSA 4096",
+          "html": "RSA 4096"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-053-c2"
+      ],
+      "explanationHtml": "<p>カスタマー マネージド キーを使用したTDEを構成する場合、非対称、RSA、または RSA HSM の各キーのみを指定できます。 サポートされているキーの長さは 2048 バイトと 3072 バイトです。</p><p>鍵長が長い方が暗号化強度が高まりますので、選択肢2の「RSA 3072」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/transparent-data-encryption-byok-overview?view=azuresql#requirements-for-configuring-tde-protector\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/transparent-data-encryption-byok-overview?view=azuresql#requirements-for-configuring-tde-protector</a></p>",
+      "explanationText": "カスタマー マネージド キーを使用したTDEを構成する場合、非対称、RSA、または RSA HSM の各キーのみを指定できます。 サポートされているキーの長さは 2048 バイトと 3072 バイトです。\n鍵長が長い方が暗号化強度が高まりますので、選択肢2の「RSA 3072」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/transparent-data-encryption-byok-overview?view=azuresql#requirements-for-configuring-tde-protector",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-054",
+      "sourceQuestionNumber": 54,
+      "promptHtml": "<p>あなたは、ミッションクリティカルなアプリケーションのデータストアを必要としています。</p><p>ソリューションは次の要件を満たす必要があります。</p><p><br></p><p>・書き込み操作のレイテンシーとスループットに関するSLAを提供していること</p><p><br></p><p>提案には何を含めるべきですか。</p>",
+      "promptText": "あなたは、ミッションクリティカルなアプリケーションのデータストアを必要としています。\nソリューションは次の要件を満たす必要があります。\n\n・書き込み操作のレイテンシーとスループットに関するSLAを提供していること\n\n提案には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-054-c1",
+          "label": null,
+          "text": "Azure Data Lake Storage Gen2",
+          "html": "Azure Data Lake Storage Gen2"
+        },
+        {
+          "choiceId": "jp1-q-054-c2",
+          "label": null,
+          "text": "Azure Blob Storage",
+          "html": "Azure Blob Storage"
+        },
+        {
+          "choiceId": "jp1-q-054-c3",
+          "label": null,
+          "text": "Azure SQL Database",
+          "html": "Azure SQL Database"
+        },
+        {
+          "choiceId": "jp1-q-054-c4",
+          "label": null,
+          "text": "Azure Cosmos DB",
+          "html": "Azure Cosmos DB"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-054-c4"
+      ],
+      "explanationHtml": "<p>Azure Cosmos DB は、フルマネージドの NoSQL とリレーショナルデータベースです。</p><p>数ミリ秒 (1 桁台)の応答時間、グローバル分散、マルチマスター（複数リージョンに書き込み可能）などの特徴があり、スループット、レイテンシー（待機時間）、月間稼働時間などに対してSLAが提供されています。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/introduction\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/introduction</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/\">https://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/</a></p>",
+      "explanationText": "Azure Cosmos DB は、フルマネージドの NoSQL とリレーショナルデータベースです。\n数ミリ秒 (1 桁台)の応答時間、グローバル分散、マルチマスター（複数リージョンに書き込み可能）などの特徴があり、スループット、レイテンシー（待機時間）、月間稼働時間などに対してSLAが提供されています。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/introduction\nhttps://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "jp1-q-055",
+      "sourceQuestionNumber": 55,
+      "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>あなたは、App1のデータストレージがセキュリティとコンプライアンスの要件を満たすためのソリューションを提案する必要があります。</p><p>あなたは、Azure Storageに書き込まれたデータを3年間変更できないようにするために、何を提案する必要がありますか。</p>",
+      "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\nあなたは、App1のデータストレージがセキュリティとコンプライアンスの要件を満たすためのソリューションを提案する必要があります。\nあなたは、Azure Storageに書き込まれたデータを3年間変更できないようにするために、何を提案する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-055-c1",
+          "label": null,
+          "text": "BLOBのアクセスポリシーを作成する",
+          "html": "BLOBのアクセスポリシーを作成する"
+        },
+        {
+          "choiceId": "jp1-q-055-c2",
+          "label": null,
+          "text": "BLOBのアクセスレベルを変更する",
+          "html": "BLOBのアクセスレベルを変更する"
+        },
+        {
+          "choiceId": "jp1-q-055-c3",
+          "label": null,
+          "text": "リソース ロックを実装する",
+          "html": "リソース ロックを実装する"
+        },
+        {
+          "choiceId": "jp1-q-055-c4",
+          "label": null,
+          "text": "RBACの割り当てを作成する",
+          "html": "RBACの割り当てを作成する"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-055-c1"
+      ],
+      "explanationHtml": "<p><code>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><br></p><p>不変ストレージには次の２種類のポリシーがあります。</p><p>・時間ベースのアイテム保持ポリシー</p><p>・訴訟ホールドポリシー</p><p><br></p><p>時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。</p><p><br></p><p>Azureポータルのストレージアカウント &gt; コンテナー &gt; アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。</p><p></p><p>なお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p>",
+      "explanationText": "・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\nこの要件を満たすためにはBLOBの不変ストレージを利用します。\n不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。\n\n不変ストレージには次の２種類のポリシーがあります。\n・時間ベースのアイテム保持ポリシー\n・訴訟ホールドポリシー\n\n時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。\n\nAzureポータルのストレージアカウント > コンテナー > アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。\n\nなお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "jp1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "jp1-q-056",
+      "sourceQuestionNumber": 56,
+      "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>あなたは、App1のデータをホストするAzure Storageアカウント用のネットワーク接続ソリューションを提案する必要があります。 </p><p>ソリューションは、セキュリティとコンプライアンス要件を満たす必要があります。</p><p>あなたは、提案に何を含めるべきですか。</p>",
+      "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\nあなたは、App1のデータをホストするAzure Storageアカウント用のネットワーク接続ソリューションを提案する必要があります。\nソリューションは、セキュリティとコンプライアンス要件を満たす必要があります。\nあなたは、提案に何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "jp1-q-056-c1",
+          "label": null,
+          "text": "プライベートエンドポイント",
+          "html": "プライベートエンドポイント"
+        },
+        {
+          "choiceId": "jp1-q-056-c2",
+          "label": null,
+          "text": "サービスエンドポイント",
+          "html": "サービスエンドポイント"
+        },
+        {
+          "choiceId": "jp1-q-056-c3",
+          "label": null,
+          "text": "ExpressRoute回線のAzureパブリックピアリング",
+          "html": "ExpressRoute回線のAzureパブリックピアリング"
+        },
+        {
+          "choiceId": "jp1-q-056-c4",
+          "label": null,
+          "text": "ExpressRoute回線のMicrosoftピアリング",
+          "html": "ExpressRoute回線のMicrosoftピアリング"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-056-c1"
+      ],
+      "explanationHtml": "<p><code>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</code></p><p><code>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</code> </p><p>インターネット経由で接続するのではなく、ExpressRoute（仮想ネットワーク）を経由してAzure Storageに接続するには「プライベートエンドポイント」を使用します。</p><p><br></p><p>プライベートエンドポイントを使用すると、プライベートIPアドレスでPaaSのリソースに接続できるようになります。</p><p><br></p><p>注意点として、プライベートエンドポイントを構成すると自動的にパブリックアクセスが無効になるわけではないので、別途、無効化する手順が必要になります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/private-link/private-endpoint-overview\">https://learn.microsoft.com/ja-jp/azure/private-link/private-endpoint-overview</a></p>",
+      "explanationText": "・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\nインターネット経由で接続するのではなく、ExpressRoute（仮想ネットワーク）を経由してAzure Storageに接続するには「プライベートエンドポイント」を使用します。\n\nプライベートエンドポイントを使用すると、プライベートIPアドレスでPaaSのリソースに接続できるようになります。\n\n注意点として、プライベートエンドポイントを構成すると自動的にパブリックアクセスが無効になるわけではないので、別途、無効化する手順が必要になります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/private-link/private-endpoint-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "jp1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "jp1-q-057",
+      "sourceQuestionNumber": 57,
+      "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、DB1とDB2をAzureに移行する予定です。</p><p>ソリューションは、弾力性とビジネス要件を満たす必要があります。</p><p>移行するDB1とDB2の<strong>データベース</strong>は、どのようにAzureに実装する必要がありますか。</p><p><br></p><p>データベース：</p><p>サービスレベル：</p>",
+      "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\n注：この問題は次の問題と2問1セットです。\n\nあなたは、DB1とDB2をAzureに移行する予定です。\nソリューションは、弾力性とビジネス要件を満たす必要があります。\n移行するDB1とDB2のデータベースは、どのようにAzureに実装する必要がありますか。\n\nデータベース：\nサービスレベル：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-057-c1",
+          "label": null,
+          "text": "単一のAzure SQL Database",
+          "html": "単一のAzure SQL Database"
+        },
+        {
+          "choiceId": "jp1-q-057-c2",
+          "label": null,
+          "text": "Azure SQL Managed Instance",
+          "html": "Azure SQL Managed Instance"
+        },
+        {
+          "choiceId": "jp1-q-057-c3",
+          "label": null,
+          "text": "Azure SOL Database エラスティックプール",
+          "html": "Azure SOL Database エラスティックプール"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-057-c3"
+      ],
+      "explanationHtml": "<p>Azure SQL Databaseのデプロイオプションとゾーン冗長のサポートなどをまとめると次のとおりです。</p><p>将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。</p><p></p><p><br></p><p>次の問題（サービスレベル）についても合わせて解説します。</p><p><code>・I/Oレイテンシーを最小限に抑えること</code> </p><p>この要件を満たすためには、Premium、または、Business Criticalを選択します。</p><p>どちらもデータストレージには高速なローカルSSDが使われており、低遅延と高い IOPS を提供します。</p><p>サービスレベルの選択肢にPremiumはないため、「Business Critical」が正解となります。</p><p><br></p><p><code>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</code></p><p><code>・自動的にフェイルオーバーすること</code></p><p>2つの可用性ゾーン障害に耐えるためには、ゾーン冗長構成（3つのAZに分散）、または、リージョンを跨いだ冗長構成にする必要があります。</p><p>「自動的にフェールオーバーすること」と聞いて「自動フェールオーバーグループ」を思い浮かべるかもしれませんが、これには別リージョンに複製するデータベースに追加コストがかかります。</p><p><br></p><p>Premium、または、Business Criticalでは、Premium 可用性モデルのアーキテクチャで構成されています。</p><p>3～4つのノードでクラスタを形成し、データのコピーを格納する最大 3 つのセカンダリ レプリカが含まれます。</p><p>また、Premium、または、Business Criticalのゾーン冗長構成では、追加のデータベース冗長を作成しないため、追加料金なしで使用することができます。</p><p>つまり、追加の構成・コストなしにデフォルトで冗長化されており、障害発生時にはフェールオーバーも自動的に行われます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla?view=azuresql&amp;tabs=azure-powershell#premium-and-business-critical-service-tier-zone-redundant-availability\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla?view=azuresql&amp;tabs=azure-powershell#premium-and-business-critical-service-tier-zone-redundant-availability</a></p><p><br></p><p><code>・管理作業を最小限に抑えること</code></p><p><code>・コストを最小限に抑えること</code></p><p>Business CriticalはAzure SQL Database、Azure SQL Managed Instanceどちらでも選択できますが、Azure SQL Managed Instanceは高額なので除外できます（Managed Instanceを必要とする要件の記載はありません）</p><p>そして、複数のデータベース（DB1とDB2）を移行する場合は、エラスティックプールを使用するのが適切です。</p><p><br></p><p>エラスティック プールは、個々のデータベースのコンピューティングリソースを選択するのではなく、リソースのプールを作成して複数のデータベースで共有できる仕組みです。データベース単位ではなく、プールしたコンピューティングリソースの時間に応じて課金されます。</p><p>ピーク時間の異なる複数のデータベースがある場合、エラスティックプールを作成して複数のデータベースで共有することでコストを節約することができます。</p><p>また、プール全体に対してリソースをプロビジョニングすることで、管理タスクを簡略化することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql</a></p>",
+      "explanationText": "Azure SQL Databaseのデプロイオプションとゾーン冗長のサポートなどをまとめると次のとおりです。\n将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。\n\n次の問題（サービスレベル）についても合わせて解説します。\n・I/Oレイテンシーを最小限に抑えること\nこの要件を満たすためには、Premium、または、Business Criticalを選択します。\nどちらもデータストレージには高速なローカルSSDが使われており、低遅延と高い IOPS を提供します。\nサービスレベルの選択肢にPremiumはないため、「Business Critical」が正解となります。\n\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n2つの可用性ゾーン障害に耐えるためには、ゾーン冗長構成（3つのAZに分散）、または、リージョンを跨いだ冗長構成にする必要があります。\n「自動的にフェールオーバーすること」と聞いて「自動フェールオーバーグループ」を思い浮かべるかもしれませんが、これには別リージョンに複製するデータベースに追加コストがかかります。\n\nPremium、または、Business Criticalでは、Premium 可用性モデルのアーキテクチャで構成されています。\n3～4つのノードでクラスタを形成し、データのコピーを格納する最大 3 つのセカンダリ レプリカが含まれます。\nまた、Premium、または、Business Criticalのゾーン冗長構成では、追加のデータベース冗長を作成しないため、追加料金なしで使用することができます。\nつまり、追加の構成・コストなしにデフォルトで冗長化されており、障害発生時にはフェールオーバーも自動的に行われます。\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla?view=azuresql&tabs=azure-powershell#premium-and-business-critical-service-tier-zone-redundant-availability\n\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\nBusiness CriticalはAzure SQL Database、Azure SQL Managed Instanceどちらでも選択できますが、Azure SQL Managed Instanceは高額なので除外できます（Managed Instanceを必要とする要件の記載はありません）\nそして、複数のデータベース（DB1とDB2）を移行する場合は、エラスティックプールを使用するのが適切です。\n\nエラスティック プールは、個々のデータベースのコンピューティングリソースを選択するのではなく、リソースのプールを作成して複数のデータベースで共有できる仕組みです。データベース単位ではなく、プールしたコンピューティングリソースの時間に応じて課金されます。\nピーク時間の異なる複数のデータベースがある場合、エラスティックプールを作成して複数のデータベースで共有することでコストを節約することができます。\nまた、プール全体に対してリソースをプロビジョニングすることで、管理タスクを簡略化することができます。\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "jp1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "jp1-q-058",
+      "sourceQuestionNumber": 58,
+      "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、DB1とDB2をAzureに移行する予定です。</p><p>ソリューションは、弾力性とビジネス要件を満たす必要があります。</p><p>移行するDB1とDB2の<strong>サービスレベル</strong>は、どのようにAzureに実装する必要がありますか。</p><p><br></p><p>データベース：</p><p>サービスレベル：</p>",
+      "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\n注：この問題は前の問題と2問1セットです。\n\nあなたは、DB1とDB2をAzureに移行する予定です。\nソリューションは、弾力性とビジネス要件を満たす必要があります。\n移行するDB1とDB2のサービスレベルは、どのようにAzureに実装する必要がありますか。\n\nデータベース：\nサービスレベル：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-058-c1",
+          "label": null,
+          "text": "Hyperscale",
+          "html": "Hyperscale"
+        },
+        {
+          "choiceId": "jp1-q-058-c2",
+          "label": null,
+          "text": "Business Critical",
+          "html": "Business Critical"
+        },
+        {
+          "choiceId": "jp1-q-058-c3",
+          "label": null,
+          "text": "General Purpose",
+          "html": "General Purpose"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-058-c2"
+      ],
+      "explanationHtml": "<p><code>・I/Oレイテンシーを最小限に抑えること</code> </p><p>前の問題で解説しているとおり「Business Critical」が正解となります。</p>",
+      "explanationText": "・I/Oレイテンシーを最小限に抑えること\n前の問題で解説しているとおり「Business Critical」が正解となります。",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "jp1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "jp1-q-059",
+      "sourceQuestionNumber": 59,
+      "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、App1をAzureに移行する予定です。</p><p>App1のための高可用性ソリューションを提案する必要があります。</p><p>ソリューションは、弾力性の要件を満たす必要があります。</p><p><strong>ホストグループの数</strong>はいくつにするべきですか。</p><p><br></p><p>ホストグループの数：</p><p>仮想マシンスケールセットの数：</p>",
+      "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\n注：この問題は次の問題と2問1セットです。\n\nあなたは、App1をAzureに移行する予定です。\nApp1のための高可用性ソリューションを提案する必要があります。\nソリューションは、弾力性の要件を満たす必要があります。\nホストグループの数はいくつにするべきですか。\n\nホストグループの数：\n仮想マシンスケールセットの数：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-059-c1",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "jp1-q-059-c2",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "jp1-q-059-c3",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        },
+        {
+          "choiceId": "jp1-q-059-c4",
+          "label": null,
+          "text": "6",
+          "html": "6"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-059-c3"
+      ],
+      "explanationHtml": "<p>次の問題（仮想マシン スケールセットの数）についても合わせて解説します。</p><p><code>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</code> </p><p><code>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</code></p><p>仮想マシンスケールセットは専用ホスト（Azure Dedicated Host）にデプロイする必要があります。</p><p>ホストグループは専用ホストのコレクションを表すリソースです。最初にホストグループを作成し、そこのホスト（VM）を追加します。ホストグループはリージョン、可用性ゾーンなどの定義を持つ入れ物のような役割です。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts</a></p><p><br></p><p>ホストグループは各可用性ゾーンごとに作成する必要があるため、ゾーン1～3にそれぞれ作成するか、もしくは、可用性ゾーンを指定せずにリージョンホストグループとして構成します。</p><p></p><p><br></p><p><code>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</code></p><p>2つの可用性ゾーン障害に耐えるためには、ゾーン1～3にそれぞれホストグループを作成する必要があります。</p><p>よって、ホストグループの数は「3」が正解です。</p><p><br></p><p>専用ホストは仮想マシンスケールセットをサポートしていますがいくつかの条件があり、ホストグループとスケールセットでは、同じ可用性ゾーンが使用されている必要があります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts#virtual-machine-scale-set-support\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts#virtual-machine-scale-set-support</a></p><p><br></p><p>つまり、仮想マシンスケールセットもゾーン1～3にそれぞれ作成する必要があります。</p><p>よって、仮想マシンスケールセットの数も「3」が正解です。</p><p><br></p><p>仮想マシンスケールセットは次の画面のように3つのゾーンを選択してゾーンに分散するように構成できますが、この場合はゾーンを分けて作成したホストグループには割り当てができないことになります。</p><p><br></p>",
+      "explanationText": "次の問題（仮想マシン スケールセットの数）についても合わせて解説します。\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n仮想マシンスケールセットは専用ホスト（Azure Dedicated Host）にデプロイする必要があります。\nホストグループは専用ホストのコレクションを表すリソースです。最初にホストグループを作成し、そこのホスト（VM）を追加します。ホストグループはリージョン、可用性ゾーンなどの定義を持つ入れ物のような役割です。\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts\n\nホストグループは各可用性ゾーンごとに作成する必要があるため、ゾーン1～3にそれぞれ作成するか、もしくは、可用性ゾーンを指定せずにリージョンホストグループとして構成します。\n\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n2つの可用性ゾーン障害に耐えるためには、ゾーン1～3にそれぞれホストグループを作成する必要があります。\nよって、ホストグループの数は「3」が正解です。\n\n専用ホストは仮想マシンスケールセットをサポートしていますがいくつかの条件があり、ホストグループとスケールセットでは、同じ可用性ゾーンが使用されている必要があります。\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts#virtual-machine-scale-set-support\n\nつまり、仮想マシンスケールセットもゾーン1～3にそれぞれ作成する必要があります。\nよって、仮想マシンスケールセットの数も「3」が正解です。\n\n仮想マシンスケールセットは次の画面のように3つのゾーンを選択してゾーンに分散するように構成できますが、この場合はゾーンを分けて作成したホストグループには割り当てができないことになります。",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "jp1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "jp1-q-060",
+      "sourceQuestionNumber": 60,
+      "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、App1をAzureに移行する予定です。</p><p>App1のための高可用性ソリューションを提案する必要があります。</p><p>ソリューションは、弾力性の要件を満たす必要があります。</p><p><strong>仮想マシンスケールセットの数</strong>はいくつにするべきですか。</p><p><br></p><p>ホストグループの数：</p><p>仮想マシンスケールセットの数：</p>",
+      "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\n注：この問題は前の問題と2問1セットです。\n\nあなたは、App1をAzureに移行する予定です。\nApp1のための高可用性ソリューションを提案する必要があります。\nソリューションは、弾力性の要件を満たす必要があります。\n仮想マシンスケールセットの数はいくつにするべきですか。\n\nホストグループの数：\n仮想マシンスケールセットの数：",
+      "choices": [
+        {
+          "choiceId": "jp1-q-060-c1",
+          "label": null,
+          "text": "0",
+          "html": "0"
+        },
+        {
+          "choiceId": "jp1-q-060-c2",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "jp1-q-060-c3",
+          "label": null,
+          "text": "2",
+          "html": "<p>2</p>"
+        },
+        {
+          "choiceId": "jp1-q-060-c4",
+          "label": null,
+          "text": "3",
+          "html": "<p>3</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "jp1-q-060-c4"
+      ],
+      "explanationHtml": "<p>前の問題の解説の通り、仮想マシンスケールセットの数は3つ必要です。</p><p>ホストグループは可用性ゾーンを分けて別々に作成する必要があります。</p><p>仮想マシンスケールセットはそれ単体では3つの可用性ゾーンを選択してゾーン冗長構成にすることが可能ですが、ホストグループに配置する場合はホストグループと同じ可用性ゾーンが使用されている必要があります。</p><p><br></p><p>最後に、解説で使用した比較表をまとめて添付しておきますので、見返したいときにご活用ください。（全ての演習テストの最後の解説に添付しておきます）</p><p><br></p><p><strong>ストレージアカウントの比較</strong></p><p></p><p><br></p><p><strong>負荷分散オプションの比較</strong></p><p></p><p><br></p><p><strong>Azure SQL Databaseの比較</strong></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla\">枠外の参考リンク：Azure SQL Database と SQL Managed Instance の高可用性</a></p><p></p>",
+      "explanationText": "前の問題の解説の通り、仮想マシンスケールセットの数は3つ必要です。\nホストグループは可用性ゾーンを分けて別々に作成する必要があります。\n仮想マシンスケールセットはそれ単体では3つの可用性ゾーンを選択してゾーン冗長構成にすることが可能ですが、ホストグループに配置する場合はホストグループと同じ可用性ゾーンが使用されている必要があります。\n\n最後に、解説で使用した比較表をまとめて添付しておきますので、見返したいときにご活用ください。（全ての演習テストの最後の解説に添付しておきます）\n\nストレージアカウントの比較\n\n負荷分散オプションの比較\n\nAzure SQL Databaseの比較\n枠外の参考リンク：Azure SQL Database と SQL Managed Instance の高可用性",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "jp1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    }
+  ]
+}

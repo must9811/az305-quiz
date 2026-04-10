@@ -1,7 +1,7 @@
 {
   "setId": "jp1-set-001",
   "title": "問題集1 01-10",
-  "sourceHtml": "udemy/問題集1.html",
+  "sourceHtml": "assets/問題集1.html",
   "questionIds": [
     "jp1-q-001",
     "jp1-q-002",
@@ -91,13 +91,17 @@
       "correctChoiceIds": [
         "jp1-q-002-c3"
       ],
-      "explanationHtml": "<p>30台の仮想マシンをSubnt1に配置するには/26以上のサブネットが必要です。</p><p>※/27のIPの数は32個ですがサブネット内の予約アドレス5つは使えないので/26以上必要</p><p><br></p><p>そして、オンプレミスとサイト間VPNで接続する場合、オンプレミスのネットワークアドレスと重複させることはできません。つまり、172.16.0.0/16のアドレス範囲に含まれる選択肢1、2は誤りです。</p><p><br></p><p>172.16.0.0/16のアドレス範囲と重複せず、/26以上のアドレス範囲を持つ192.168.0.0/24が正解となります。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/private-ip-addresses\">https://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/private-ip-addresses</a></p>",
+      "explanationHtml": "<p>30台の仮想マシンをSubnt1に配置するには/26以上のサブネットが必要です。</p><p>※/27のIPの数は32個ですがサブネット内の予約アドレス5つは使えないので/26以上必要</p><p><br></p><p>そして、オンプレミスとサイト間VPNで接続する場合、オンプレミスのネットワークアドレスと重複させることはできません。つまり、172.16.0.0/16のアドレス範囲に含まれる選択肢1、2は誤りです。</p><p><br></p><p>172.16.0.0/16のアドレス範囲と重複せず、/26以上のアドレス範囲を持つ192.168.0.0/24が正解となります。</p><img src=\"assets/問題集1_files/2023-02-07_01-16-22-7424d1d1523051c35eb8b4e356312396.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/private-ip-addresses\">https://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/private-ip-addresses</a></p>",
       "explanationText": "30台の仮想マシンをSubnt1に配置するには/26以上のサブネットが必要です。\n※/27のIPの数は32個ですがサブネット内の予約アドレス5つは使えないので/26以上必要\n\nそして、オンプレミスとサイト間VPNで接続する場合、オンプレミスのネットワークアドレスと重複させることはできません。つまり、172.16.0.0/16のアドレス範囲に含まれる選択肢1、2は誤りです。\n\n172.16.0.0/16のアドレス範囲と重複せず、/26以上のアドレス範囲を持つ192.168.0.0/24が正解となります。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/private-ip-addresses",
-      "images": [],
+      "images": [
+        "assets/問題集1_files/2023-02-07_01-16-22-7424d1d1523051c35eb8b4e356312396.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp1-linked-001",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp1-q-003",
@@ -138,8 +142,10 @@
       "images": [],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp1-linked-001",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp1-q-004",
@@ -175,9 +181,11 @@
       "correctChoiceIds": [
         "jp1-q-004-c3"
       ],
-      "explanationHtml": "<p>Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。</p><p>Azureへ移行するために必要な機能を集約して、一元的な窓口となるような管理画面を提供します。</p><p><br></p><p>Azure Migrateの評価ツールを使うと、オンプレミスにあるサーバを検出し、依存関係の分析、Azureに対応できるかどうか、サイズの推定、コストの見積もりなど、移行についての評価を行うことができます。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/concepts-assessment-calculation\">https://learn.microsoft.com/ja-jp/azure/migrate/concepts-assessment-calculation</a></p>",
+      "explanationHtml": "<p>Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。</p><p>Azureへ移行するために必要な機能を集約して、一元的な窓口となるような管理画面を提供します。</p><p><br></p><p>Azure Migrateの評価ツールを使うと、オンプレミスにあるサーバを検出し、依存関係の分析、Azureに対応できるかどうか、サイズの推定、コストの見積もりなど、移行についての評価を行うことができます。</p><img src=\"assets/問題集1_files/2023-02-07_02-57-31-c43eced332a445da82f2c40456dfe82b.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/concepts-assessment-calculation\">https://learn.microsoft.com/ja-jp/azure/migrate/concepts-assessment-calculation</a></p>",
       "explanationText": "Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。\nAzureへ移行するために必要な機能を集約して、一元的な窓口となるような管理画面を提供します。\n\nAzure Migrateの評価ツールを使うと、オンプレミスにあるサーバを検出し、依存関係の分析、Azureに対応できるかどうか、サイズの推定、コストの見積もりなど、移行についての評価を行うことができます。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\nhttps://learn.microsoft.com/ja-jp/azure/migrate/concepts-assessment-calculation",
-      "images": [],
+      "images": [
+        "assets/問題集1_files/2023-02-07_02-57-31-c43eced332a445da82f2c40456dfe82b.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -217,9 +225,12 @@
       "correctChoiceIds": [
         "jp1-q-005-c2"
       ],
-      "explanationHtml": "<p>まず、カスタムC#コードを実行するソリューションとしてAzure Logic Appsでは実現できず、Azure Functionsを選択する必要があるため選択肢1、3以外が候補となります。</p><p><br></p><p>そして、仮想マシンのプライベートIPアドレスにアクセスするためには「仮想ネットワークの統合（Vnet統合）」を使用する必要がありますが、この機能は専用プラン、または、PremiumプランにデプロイされたAzure Functionsで使うことができます。従量課金プランで使用することはできません。</p><p>※Vnet統合は「ネットワークインジェクション」と表現されることもあります。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-scale\">https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-scale</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-premium-plan?tabs=portal#private-network-connectivity\">https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-premium-plan?tabs=portal#private-network-connectivity</a></p><p><br></p><p>【補足】</p><p>2024年10月時点でプレビュー中ですが、Vnet統合をサポートする「Flex 従量課金」プランが追加されています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/flex-consumption-plan\">https://learn.microsoft.com/ja-jp/azure/azure-functions/flex-consumption-plan</a></p>",
+      "explanationHtml": "<p>まず、カスタムC#コードを実行するソリューションとしてAzure Logic Appsでは実現できず、Azure Functionsを選択する必要があるため選択肢1、3以外が候補となります。</p><p><br></p><p>そして、仮想マシンのプライベートIPアドレスにアクセスするためには「仮想ネットワークの統合（Vnet統合）」を使用する必要がありますが、この機能は専用プラン、または、PremiumプランにデプロイされたAzure Functionsで使うことができます。従量課金プランで使用することはできません。</p><p>※Vnet統合は「ネットワークインジェクション」と表現されることもあります。</p><p><img src=\"assets/問題集1_files/2023-02-07_03-14-31-b1f22a48f72b4968bd8dbab46fba65bb.png\" alt=\"\" loading=\"eager\"></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-scale\">https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-scale</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-premium-plan?tabs=portal#private-network-connectivity\">https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-premium-plan?tabs=portal#private-network-connectivity</a></p><p><br></p><p>【補足】</p><p>2024年10月時点でプレビュー中ですが、Vnet統合をサポートする「Flex 従量課金」プランが追加されています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/flex-consumption-plan\">https://learn.microsoft.com/ja-jp/azure/azure-functions/flex-consumption-plan</a></p><img src=\"assets/問題集1_files/2024-10-04_06-42-24-3629fe680dab0b80309041bb12cde418.png\" alt=\"\" loading=\"eager\">",
       "explanationText": "まず、カスタムC#コードを実行するソリューションとしてAzure Logic Appsでは実現できず、Azure Functionsを選択する必要があるため選択肢1、3以外が候補となります。\n\nそして、仮想マシンのプライベートIPアドレスにアクセスするためには「仮想ネットワークの統合（Vnet統合）」を使用する必要がありますが、この機能は専用プラン、または、PremiumプランにデプロイされたAzure Functionsで使うことができます。従量課金プランで使用することはできません。\n※Vnet統合は「ネットワークインジェクション」と表現されることもあります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-functions/functions-scale\nhttps://learn.microsoft.com/ja-jp/azure/azure-functions/functions-premium-plan?tabs=portal#private-network-connectivity\n\n【補足】\n2024年10月時点でプレビュー中ですが、Vnet統合をサポートする「Flex 従量課金」プランが追加されています。\nhttps://learn.microsoft.com/ja-jp/azure/azure-functions/flex-consumption-plan",
-      "images": [],
+      "images": [
+        "assets/問題集1_files/2023-02-07_03-14-31-b1f22a48f72b4968bd8dbab46fba65bb.png",
+        "assets/問題集1_files/2024-10-04_06-42-24-3629fe680dab0b80309041bb12cde418.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -259,13 +270,17 @@
       "correctChoiceIds": [
         "jp1-q-006-c3"
       ],
-      "explanationHtml": "<p>ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。</p><p><br></p><p><code>・新しいデータが1年間変更されないようにすること </code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p><p><br></p><p>Premium ファイル共有はBLOBではないので選択肢2は誤り、</p><p>Premium ページBLOBでは不変ストレージはサポートされていないため、選択肢4も誤りです。</p><p>不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations</a></p><p><br></p><p><code>・読み取りのレイテンシーを最小にすること </code></p><p>選択肢1、3のうち、より低レイテンシーなパフォーマンスを提供するのは「Premium ブロックBLOB」です。</p><p>Premium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium</a></p>",
+      "explanationHtml": "<p>ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。</p><img src=\"assets/問題集1_files/2023-02-07_04-22-38-baf4dcd9b00559ce1ec52425eec8074f.png\" alt=\"\" loading=\"eager\"><p><br></p><p><code>・新しいデータが1年間変更されないようにすること </code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p><p><br></p><p>Premium ファイル共有はBLOBではないので選択肢2は誤り、</p><p>Premium ページBLOBでは不変ストレージはサポートされていないため、選択肢4も誤りです。</p><p>不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations</a></p><p><br></p><p><code>・読み取りのレイテンシーを最小にすること </code></p><p>選択肢1、3のうち、より低レイテンシーなパフォーマンスを提供するのは「Premium ブロックBLOB」です。</p><p>Premium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium</a></p>",
       "explanationText": "ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。\n\n・新しいデータが1年間変更されないようにすること\nこの要件を満たすためにはBLOBの不変ストレージを利用します。\n不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\n\nPremium ファイル共有はBLOBではないので選択肢2は誤り、\nPremium ページBLOBでは不変ストレージはサポートされていないため、選択肢4も誤りです。\n不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\n\n・読み取りのレイテンシーを最小にすること\n選択肢1、3のうち、より低レイテンシーなパフォーマンスを提供するのは「Premium ブロックBLOB」です。\nPremium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium",
-      "images": [],
+      "images": [
+        "assets/問題集1_files/2023-02-07_04-22-38-baf4dcd9b00559ce1ec52425eec8074f.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp1-linked-002",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp1-q-007",
@@ -295,13 +310,17 @@
       "correctChoiceIds": [
         "jp1-q-007-c1"
       ],
-      "explanationHtml": "<p><code>・その上で可能な限りデータの回復力を高めること</code></p><p>Premium ブロックBLOBでサポートされる冗長性オプションのうち、もっとも回復力を高めることができるのは「ゾーン冗長ストレージ (ZRS)」です。geo 冗長ストレージ (GRS)はサポートされていません。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types</a></p>",
+      "explanationHtml": "<p><code>・その上で可能な限りデータの回復力を高めること</code></p><p>Premium ブロックBLOBでサポートされる冗長性オプションのうち、もっとも回復力を高めることができるのは「ゾーン冗長ストレージ (ZRS)」です。geo 冗長ストレージ (GRS)はサポートされていません。</p><p><img src=\"assets/問題集1_files/2023-02-07_04-28-48-c6ce3d859072a1aee50577c39900e218.png\" alt=\"\" loading=\"eager\"></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types</a></p>",
       "explanationText": "・その上で可能な限りデータの回復力を高めること\nPremium ブロックBLOBでサポートされる冗長性オプションのうち、もっとも回復力を高めることができるのは「ゾーン冗長ストレージ (ZRS)」です。geo 冗長ストレージ (GRS)はサポートされていません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types",
-      "images": [],
+      "images": [
+        "assets/問題集1_files/2023-02-07_04-28-48-c6ce3d859072a1aee50577c39900e218.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp1-linked-002",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp1-q-008",
@@ -325,9 +344,11 @@
       "correctChoiceIds": [
         "jp1-q-008-c2"
       ],
-      "explanationHtml": "<p>代わりにAzure Front Doorを使用する必要があります。</p><p><br></p><p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p></p><p><code>・レート制限をサポートすること</code></p><p>負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）</p><p><br></p><p><code>・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること</code></p><p>リージョン障害から保護するにはグローバルサービスを選択する必要があります。</p><p>なお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。</p><p>・グローバルかリージョンサービスか</p><p>・レート制限の機能の有無</p><p>・コンテンツキャッシュの機能の有無</p><p><br></p><p><code>・すべてのインスタンス間でリクエストのバランスをとること</code></p><p>これはどの負荷分散オプションでも可能です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p>",
+      "explanationHtml": "<p>代わりにAzure Front Doorを使用する必要があります。</p><p><br></p><p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p><img src=\"assets/問題集1_files/2023-01-10_07-30-32-c07de89c57ea8f875495478ef66efa35.png\" alt=\"\" loading=\"eager\"></p><p><code>・レート制限をサポートすること</code></p><p>負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）</p><p><br></p><p><code>・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること</code></p><p>リージョン障害から保護するにはグローバルサービスを選択する必要があります。</p><p>なお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。</p><p>・グローバルかリージョンサービスか</p><p>・レート制限の機能の有無</p><p>・コンテンツキャッシュの機能の有無</p><p><br></p><p><code>・すべてのインスタンス間でリクエストのバランスをとること</code></p><p>これはどの負荷分散オプションでも可能です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p>",
       "explanationText": "代わりにAzure Front Doorを使用する必要があります。\n\nAzureの負荷分散オプションは大きく次の4種類があります。\n細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。\n\n・レート制限をサポートすること\n負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）\n\n・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること\nリージョン障害から保護するにはグローバルサービスを選択する必要があります。\nなお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。\n・グローバルかリージョンサービスか\n・レート制限の機能の有無\n・コンテンツキャッシュの機能の有無\n\n・すべてのインスタンス間でリクエストのバランスをとること\nこれはどの負荷分散オプションでも可能です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview",
-      "images": [],
+      "images": [
+        "assets/問題集1_files/2023-01-10_07-30-32-c07de89c57ea8f875495478ef66efa35.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -415,9 +436,11 @@
       "correctChoiceIds": [
         "jp1-q-010-c2"
       ],
-      "explanationHtml": "<p>Azure Cosmos DBの整合性レベルには最強から最弱の順に、次のレベルがあります。</p><p>・厳密（強固）</p><p>・有界整合性制約</p><p>・セッション</p><p>・一貫性のあるプレフィックス</p><p>・最終的</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels</a></p><p><br></p><p>このうち、要件を満たす最も強力な整合性レベルは選択肢2の「有界整合性制約」になります。</p><p>最も強力なのは「厳密（強固）」ですが、複数のリージョンにまたがる構成の場合、書き込み待機時間のSLAは対象外となります。</p><p><br></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels#consistency-levels-and-latency\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels#consistency-levels-and-latency</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/\">https://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/</a></p>",
+      "explanationHtml": "<p>Azure Cosmos DBの整合性レベルには最強から最弱の順に、次のレベルがあります。</p><p>・厳密（強固）</p><p>・有界整合性制約</p><p>・セッション</p><p>・一貫性のあるプレフィックス</p><p>・最終的</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels</a></p><p><br></p><p>このうち、要件を満たす最も強力な整合性レベルは選択肢2の「有界整合性制約」になります。</p><p>最も強力なのは「厳密（強固）」ですが、複数のリージョンにまたがる構成の場合、書き込み待機時間のSLAは対象外となります。</p><p><br></p><img src=\"assets/問題集1_files/2023-01-14_04-28-09-5c72218ed664860cc657aab114336317.png\" alt=\"\" loading=\"eager\"><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels#consistency-levels-and-latency\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels#consistency-levels-and-latency</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/\">https://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/</a></p>",
       "explanationText": "Azure Cosmos DBの整合性レベルには最強から最弱の順に、次のレベルがあります。\n・厳密（強固）\n・有界整合性制約\n・セッション\n・一貫性のあるプレフィックス\n・最終的\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels\n\nこのうち、要件を満たす最も強力な整合性レベルは選択肢2の「有界整合性制約」になります。\n最も強力なのは「厳密（強固）」ですが、複数のリージョンにまたがる構成の場合、書き込み待機時間のSLAは対象外となります。\n\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels#consistency-levels-and-latency\nhttps://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/",
-      "images": [],
+      "images": [
+        "assets/問題集1_files/2023-01-14_04-28-09-5c72218ed664860cc657aab114336317.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,

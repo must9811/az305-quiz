@@ -1,7 +1,7 @@
 {
   "setId": "jp2-set-005",
   "title": "問題集2 41-50",
-  "sourceHtml": "udemy/問題集2.html",
+  "sourceHtml": "assets/問題集2.html",
   "questionIds": [
     "jp2-q-041",
     "jp2-q-042",
@@ -18,7 +18,7 @@
     {
       "questionId": "jp2-q-041",
       "sourceQuestionNumber": 41,
-      "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、次の表に示すリソースが含まれています。</p><p><br></p><p><br></p><p>あなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>SQLdb3の監査を有効にすると、storage2に監査ログを保存することができます</p>",
+      "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、次の表に示すリソースが含まれています。</p><p><br></p><img src=\"assets/問題集2_files/2023-01-25_01-21-16-baf67162b87ad047d2f83e52695240d9.png\" alt=\"\" loading=\"eager\"><p><br></p><p>あなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>SQLdb3の監査を有効にすると、storage2に監査ログを保存することができます</p>",
       "promptText": "注：この問題は前とその前の問題と3問1セットです。\n\nあなたは、Azureサブスクリプションを持っています。\nサブスクリプションには、次の表に示すリソースが含まれています。\n\nあなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nSQLdb3の監査を有効にすると、storage2に監査ログを保存することができます",
       "choices": [
         {
@@ -39,7 +39,9 @@
       ],
       "explanationHtml": "<p>前の問題の解説の通り、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。</p><p><br></p><p>SQLdb3は米国西部にありますが、storage2は米国中部にあるためリージョンが異なっています。</p><p>よって、SQLdb3の監査ログをstorage2に保存することはできません。</p>",
       "explanationText": "前の問題の解説の通り、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。\n\nSQLdb3は米国西部にありますが、storage2は米国中部にあるためリージョンが異なっています。\nよって、SQLdb3の監査ログをstorage2に保存することはできません。",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-25_01-21-16-baf67162b87ad047d2f83e52695240d9.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -121,13 +123,17 @@
       "correctChoiceIds": [
         "jp2-q-043-c2"
       ],
-      "explanationHtml": "<p>ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。</p><p><br></p><p><code>・1年間データの変更を防止すること</code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p><p><br></p><p>Premium ファイル共有はBLOBではないので選択肢3は誤り、</p><p>Premium ページBLOBでは不変ストレージはサポートされていないため、選択肢1も誤りです。</p><p>不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations</a></p><p><br></p><p><code>・データのスループットを最大化すること</code></p><p><code>・読み取りと書き込み操作のレイテンシを最小限に抑えること</code></p><p>選択肢2、4のうち、より高スループット・低遅延なパフォーマンスを提供するのは「Premium ブロックBLOB」です。</p><p>Premium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium</a></p><p><br></p>",
+      "explanationHtml": "<p>ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。</p><img src=\"assets/問題集2_files/2023-02-07_04-23-55-0b9069403770990a1a8bc95fa4265cff.png\" alt=\"\" loading=\"eager\"><p><br></p><p><code>・1年間データの変更を防止すること</code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p><p><br></p><p>Premium ファイル共有はBLOBではないので選択肢3は誤り、</p><p>Premium ページBLOBでは不変ストレージはサポートされていないため、選択肢1も誤りです。</p><p>不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations</a></p><p><br></p><p><code>・データのスループットを最大化すること</code></p><p><code>・読み取りと書き込み操作のレイテンシを最小限に抑えること</code></p><p>選択肢2、4のうち、より高スループット・低遅延なパフォーマンスを提供するのは「Premium ブロックBLOB」です。</p><p>Premium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium</a></p><p><br></p>",
       "explanationText": "ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。\n\n・1年間データの変更を防止すること\nこの要件を満たすためにはBLOBの不変ストレージを利用します。\n不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\n\nPremium ファイル共有はBLOBではないので選択肢3は誤り、\nPremium ページBLOBでは不変ストレージはサポートされていないため、選択肢1も誤りです。\n不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\n\n・データのスループットを最大化すること\n・読み取りと書き込み操作のレイテンシを最小限に抑えること\n選択肢2、4のうち、より高スループット・低遅延なパフォーマンスを提供するのは「Premium ブロックBLOB」です。\nPremium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-02-07_04-23-55-0b9069403770990a1a8bc95fa4265cff.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-007",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-044",
@@ -168,8 +174,10 @@
       "images": [],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-007",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-045",
@@ -199,13 +207,17 @@
       "correctChoiceIds": [
         "jp2-q-045-c2"
       ],
-      "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT&nbsp;/ データ統合のサービスと説明されています。</p><p><br></p><p>オンプレミスのファイルサーバーに「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、オンプレミスのデータをストレージアカウントのBLOBやファイル共有などにコピーすることができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory\">https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory</a></p><p><br></p>",
+      "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT&nbsp;/ データ統合のサービスと説明されています。</p><p><br></p><p>オンプレミスのファイルサーバーに「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、オンプレミスのデータをストレージアカウントのBLOBやファイル共有などにコピーすることができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory\">https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory</a></p><img src=\"assets/問題集2_files/2023-02-01_06-21-15-69e61207bc6185f9b14eedb6bbe789e8.png\" alt=\"\" loading=\"eager\"><p><br></p>",
       "explanationText": "Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。\nデータをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/introduction\n\n収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）\n公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。\n\nオンプレミスのファイルサーバーに「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、オンプレミスのデータをストレージアカウントのBLOBやファイル共有などにコピーすることができます。\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-02-01_06-21-15-69e61207bc6185f9b14eedb6bbe789e8.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-007",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-046",
@@ -240,8 +252,10 @@
       "images": [],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-007",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-047",
@@ -283,13 +297,17 @@
       "correctChoiceIds": [
         "jp2-q-047-c3"
       ],
-      "explanationHtml": "<p>キャッシュは、システムのパフォーマンスとスケーラビリティを改善することを目的とする一般的な手法です。</p><p>ユーザーやアプリケーションに近い場所に、アクセス頻度が高いデータを一時的にキャッシュすることでパフォーマンスが向上します。</p><p><br></p><p>キャッシュと一言にいっても色々な場面で登場します。</p><p>・フロントエンドのWebコンテンツのキャッシュ（静的コンテンツ：javascript、css、画像ファイルなど）</p><p>・バックエンドのデータストアのキャッシュ（セッション、即時性が求められる更新データなど）</p><p>・マネージドディスクのホストキャッシュ</p><p>・DNSキャッシュ　...etc</p><p><br></p><p>エンドユーザーの近くにコンテンツを保管するにはContent Delivery Network （CDN）を利用します。</p><p>CDNは、世界中に戦略的に分散配置されたエッジサーバにWebコンテンツをキャッシュし、配信元（この問題の場合はAzure App Service）の負荷を軽減しながら効率的にWebコンテンツを配信するために利用されます。</p><p><br></p><p>Azureでは大きく、Azure Front Door、Azure CDNの2つのサービスが提供されていますが、Azure CDNはクラシックの扱いになっており、後発のAzure Front Door推奨されているようです。</p><p>（本問題の選択肢にFront Doorはないので、選択肢3の「Azure CDN」が正解です。）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cdn/cdn-overview\">https://learn.microsoft.com/ja-jp/azure/cdn/cdn-overview</a></p>",
+      "explanationHtml": "<p>キャッシュは、システムのパフォーマンスとスケーラビリティを改善することを目的とする一般的な手法です。</p><p>ユーザーやアプリケーションに近い場所に、アクセス頻度が高いデータを一時的にキャッシュすることでパフォーマンスが向上します。</p><p><br></p><p>キャッシュと一言にいっても色々な場面で登場します。</p><p>・フロントエンドのWebコンテンツのキャッシュ（静的コンテンツ：javascript、css、画像ファイルなど）</p><p>・バックエンドのデータストアのキャッシュ（セッション、即時性が求められる更新データなど）</p><p>・マネージドディスクのホストキャッシュ</p><p>・DNSキャッシュ　...etc</p><p><br></p><p>エンドユーザーの近くにコンテンツを保管するにはContent Delivery Network （CDN）を利用します。</p><p>CDNは、世界中に戦略的に分散配置されたエッジサーバにWebコンテンツをキャッシュし、配信元（この問題の場合はAzure App Service）の負荷を軽減しながら効率的にWebコンテンツを配信するために利用されます。</p><p><br></p><p>Azureでは大きく、Azure Front Door、Azure CDNの2つのサービスが提供されていますが、Azure CDNはクラシックの扱いになっており、後発のAzure Front Door推奨されているようです。</p><p>（本問題の選択肢にFront Doorはないので、選択肢3の「Azure CDN」が正解です。）</p><img src=\"assets/問題集2_files/2023-01-26_05-48-29-a95e1d12c33c9171511e2912627c79bc.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cdn/cdn-overview\">https://learn.microsoft.com/ja-jp/azure/cdn/cdn-overview</a></p>",
       "explanationText": "キャッシュは、システムのパフォーマンスとスケーラビリティを改善することを目的とする一般的な手法です。\nユーザーやアプリケーションに近い場所に、アクセス頻度が高いデータを一時的にキャッシュすることでパフォーマンスが向上します。\n\nキャッシュと一言にいっても色々な場面で登場します。\n・フロントエンドのWebコンテンツのキャッシュ（静的コンテンツ：javascript、css、画像ファイルなど）\n・バックエンドのデータストアのキャッシュ（セッション、即時性が求められる更新データなど）\n・マネージドディスクのホストキャッシュ\n・DNSキャッシュ　...etc\n\nエンドユーザーの近くにコンテンツを保管するにはContent Delivery Network （CDN）を利用します。\nCDNは、世界中に戦略的に分散配置されたエッジサーバにWebコンテンツをキャッシュし、配信元（この問題の場合はAzure App Service）の負荷を軽減しながら効率的にWebコンテンツを配信するために利用されます。\n\nAzureでは大きく、Azure Front Door、Azure CDNの2つのサービスが提供されていますが、Azure CDNはクラシックの扱いになっており、後発のAzure Front Door推奨されているようです。\n（本問題の選択肢にFront Doorはないので、選択肢3の「Azure CDN」が正解です。）\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/cdn/cdn-overview",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-26_05-48-29-a95e1d12c33c9171511e2912627c79bc.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-007",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-048",
@@ -336,13 +354,15 @@
       "images": [],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-007",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-049",
       "sourceQuestionNumber": 49,
-      "promptHtml": "<p>あなたは、次の表に示すAzureリソースを含む注文処理システムを設計しています。</p><p></p><p><br></p><p>注文処理システムは、次のような流れで処理を行います。</p><p>・顧客は App1 を使用して注文を行う</p><p>・App1 はベンダー1とベンダー2の製品の在庫を確認するためのメッセージを統合コンポーネントに送信する</p><p>・統合コンポーネントは注文の種類に応じて Function1、または、Function2をトリガーする</p><p>・製品の在庫を確認後、App1 のステータスメッセージがFunction1、または、Function2 によって生成される</p><p>・すべてのステップのログは storage1 に記録される</p><p><br></p><p>統合コンポーネントにはどの Azure リソースを提案するのが最適ですか。</p>",
+      "promptHtml": "<p>あなたは、次の表に示すAzureリソースを含む注文処理システムを設計しています。</p><p><img src=\"assets/問題集2_files/2023-02-01_07-55-06-a37048e58e60b4f054003123773fccc6.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>注文処理システムは、次のような流れで処理を行います。</p><p>・顧客は App1 を使用して注文を行う</p><p>・App1 はベンダー1とベンダー2の製品の在庫を確認するためのメッセージを統合コンポーネントに送信する</p><p>・統合コンポーネントは注文の種類に応じて Function1、または、Function2をトリガーする</p><p>・製品の在庫を確認後、App1 のステータスメッセージがFunction1、または、Function2 によって生成される</p><p>・すべてのステップのログは storage1 に記録される</p><p><br></p><p>統合コンポーネントにはどの Azure リソースを提案するのが最適ですか。</p>",
       "promptText": "あなたは、次の表に示すAzureリソースを含む注文処理システムを設計しています。\n\n注文処理システムは、次のような流れで処理を行います。\n・顧客は App1 を使用して注文を行う\n・App1 はベンダー1とベンダー2の製品の在庫を確認するためのメッセージを統合コンポーネントに送信する\n・統合コンポーネントは注文の種類に応じて Function1、または、Function2をトリガーする\n・製品の在庫を確認後、App1 のステータスメッセージがFunction1、または、Function2 によって生成される\n・すべてのステップのログは storage1 に記録される\n\n統合コンポーネントにはどの Azure リソースを提案するのが最適ですか。",
       "choices": [
         {
@@ -375,7 +395,9 @@
       ],
       "explanationHtml": "<p>複数のアプリケーションコンポーネントを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがあります。</p><p>App1とFunctionsを直接連携させるのではなく、間にメッセージングサービス（統合コンポーネント）を挟むことで、ユーザーは後続処理の完了を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。</p><p><br></p><p>Azure には大きく次の2つのメッセージベースのソリューションが用意されています。</p><p>・Azure Queue Storage</p><p>・Azure Service Bus</p><p><br></p><p>Azure Service Bus の「トピック」を使用すると、1対多（App1 → Function1/Function2）のメッセージを処理させることができます。</p><p>Azure Queue Storage はよりシンプルはメッセージングサービスですが、1対1のメッセージ送受信を想定されたサービスであり、1対多の構成の場合は適切ではないため誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-messaging-overview\">https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-messaging-overview</a></p>",
       "explanationText": "複数のアプリケーションコンポーネントを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがあります。\nApp1とFunctionsを直接連携させるのではなく、間にメッセージングサービス（統合コンポーネント）を挟むことで、ユーザーは後続処理の完了を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。\n\nAzure には大きく次の2つのメッセージベースのソリューションが用意されています。\n・Azure Queue Storage\n・Azure Service Bus\n\nAzure Service Bus の「トピック」を使用すると、1対多（App1 → Function1/Function2）のメッセージを処理させることができます。\nAzure Queue Storage はよりシンプルはメッセージングサービスですが、1対1のメッセージ送受信を想定されたサービスであり、1対多の構成の場合は適切ではないため誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-messaging-overview",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-02-01_07-55-06-a37048e58e60b4f054003123773fccc6.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -415,13 +437,17 @@
       "correctChoiceIds": [
         "jp2-q-050-c2"
       ],
-      "explanationHtml": "<p>Microsoft Entra IDのサインインログは、診断設定から別の場所に送信（エクスポート）することができます。</p><p>イベントに基づいてアラートをトリガーするには、Log Analytics ワークスペースへ送信します。</p><p>なお、サインインログをエクスポートするには、Premium P1 以上のライセンスが必要です。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor\">https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal</a></p>",
+      "explanationHtml": "<p>Microsoft Entra IDのサインインログは、診断設定から別の場所に送信（エクスポート）することができます。</p><p>イベントに基づいてアラートをトリガーするには、Log Analytics ワークスペースへ送信します。</p><p>なお、サインインログをエクスポートするには、Premium P1 以上のライセンスが必要です。</p><p><img src=\"assets/問題集2_files/2023-01-24_12-54-25-45e2b28711603b2507ecd19592f6ea14.png\" alt=\"\" loading=\"eager\"></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor\">https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal</a></p>",
       "explanationText": "Microsoft Entra IDのサインインログは、診断設定から別の場所に送信（エクスポート）することができます。\nイベントに基づいてアラートをトリガーするには、Log Analytics ワークスペースへ送信します。\nなお、サインインログをエクスポートするには、Premium P1 以上のライセンスが必要です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-24_12-54-25-45e2b28711603b2507ecd19592f6ea14.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-008",
+      "tags": [
+        "linked-question"
+      ]
     }
   ]
 }

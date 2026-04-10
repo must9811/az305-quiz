@@ -1,7 +1,7 @@
 {
   "setId": "jp3-set-003",
   "title": "問題集3 21-30",
-  "sourceHtml": "udemy/問題集3.html",
+  "sourceHtml": "assets/問題集3.html",
   "questionIds": [
     "jp3-q-021",
     "jp3-q-022",
@@ -37,9 +37,11 @@
       "correctChoiceIds": [
         "jp3-q-021-c1"
       ],
-      "explanationHtml": "<p>BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションです。</p><p>ホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。</p><p>アーカイブ層のデータはオフライン層に保存されるため読み取りや変更はできません。</p><p>アーカイブされた データの読み取りや変更を行うには、まず、ホットまたはクール層のいずれかのオンライン層にリハイドレートする必要があります。</p><p><br></p><p>リハイドレートには次の2つのオプションがあります。</p><p>・アーカイブ層のBLOBをオンライン層（ホットかクール）にコピーする</p><p>・アクセス層をアーカイブ層からオンライン層（ホットかクール）に変更する</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/archive-rehydrate-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/archive-rehydrate-overview</a></p>",
+      "explanationHtml": "<p>BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションです。</p><p>ホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。</p><img src=\"assets/問題集3_files/2023-01-12_07-58-33-1ea9d533eae034ac17244f4db9a13c23.png\" alt=\"\" loading=\"eager\"><p>アーカイブ層のデータはオフライン層に保存されるため読み取りや変更はできません。</p><p>アーカイブされた データの読み取りや変更を行うには、まず、ホットまたはクール層のいずれかのオンライン層にリハイドレートする必要があります。</p><p><br></p><p>リハイドレートには次の2つのオプションがあります。</p><p>・アーカイブ層のBLOBをオンライン層（ホットかクール）にコピーする</p><p>・アクセス層をアーカイブ層からオンライン層（ホットかクール）に変更する</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/archive-rehydrate-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/archive-rehydrate-overview</a></p>",
       "explanationText": "BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションです。\nホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。\nアーカイブ層のデータはオフライン層に保存されるため読み取りや変更はできません。\nアーカイブされた データの読み取りや変更を行うには、まず、ホットまたはクール層のいずれかのオンライン層にリハイドレートする必要があります。\n\nリハイドレートには次の2つのオプションがあります。\n・アーカイブ層のBLOBをオンライン層（ホットかクール）にコピーする\n・アクセス層をアーカイブ層からオンライン層（ホットかクール）に変更する\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/archive-rehydrate-overview",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-12_07-58-33-1ea9d533eae034ac17244f4db9a13c23.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -79,13 +81,17 @@
       "correctChoiceIds": [
         "jp3-q-022-c4"
       ],
-      "explanationHtml": "<p>Microsoft Entraのスマートロックアウトは、パスワードを推測したり、ブルートフォース攻撃により侵入しようとする悪意のあるユーザーのロックアウトを支援するための仕組みです。</p><p>すべての Microsoft Entra テナントでデフォルトで有効化されておりFreeエディションでも利用できますが、設定をカスタマイズするにはPremium P1 以上のライセンスが必要です。</p><p></p><p><br></p><p><code>・Microsoft Entra IDのユーザーアカウントを標的としたブルートフォース攻撃の結果として、Active Directoryドメインのユーザーアカウントがロックアウトされることを防止すること</code></p><p>スマート ロックアウトは、悪意のあるユーザーからブルートフォースなどの攻撃を受けた場合に、攻撃者のみをロックアウトします。正規のユーザーは自分のアカウントへのアクセスを継続できるため、生産性を落とすことはありません。</p><p>スマート ロックアウトは、パスワードハッシュ同期またはパススルー認証を使用するハイブリッド環境と統合することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/howto-password-smart-lockout\">https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/howto-password-smart-lockout</a></p>",
+      "explanationHtml": "<p>Microsoft Entraのスマートロックアウトは、パスワードを推測したり、ブルートフォース攻撃により侵入しようとする悪意のあるユーザーのロックアウトを支援するための仕組みです。</p><p>すべての Microsoft Entra テナントでデフォルトで有効化されておりFreeエディションでも利用できますが、設定をカスタマイズするにはPremium P1 以上のライセンスが必要です。</p><p><img src=\"assets/問題集3_files/2023-01-18_04-18-13-1fbbbee22d8ee1d60f14b18d08d03472.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p><code>・Microsoft Entra IDのユーザーアカウントを標的としたブルートフォース攻撃の結果として、Active Directoryドメインのユーザーアカウントがロックアウトされることを防止すること</code></p><p>スマート ロックアウトは、悪意のあるユーザーからブルートフォースなどの攻撃を受けた場合に、攻撃者のみをロックアウトします。正規のユーザーは自分のアカウントへのアクセスを継続できるため、生産性を落とすことはありません。</p><p>スマート ロックアウトは、パスワードハッシュ同期またはパススルー認証を使用するハイブリッド環境と統合することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/howto-password-smart-lockout\">https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/howto-password-smart-lockout</a></p>",
       "explanationText": "Microsoft Entraのスマートロックアウトは、パスワードを推測したり、ブルートフォース攻撃により侵入しようとする悪意のあるユーザーのロックアウトを支援するための仕組みです。\nすべての Microsoft Entra テナントでデフォルトで有効化されておりFreeエディションでも利用できますが、設定をカスタマイズするにはPremium P1 以上のライセンスが必要です。\n\n・Microsoft Entra IDのユーザーアカウントを標的としたブルートフォース攻撃の結果として、Active Directoryドメインのユーザーアカウントがロックアウトされることを防止すること\nスマート ロックアウトは、悪意のあるユーザーからブルートフォースなどの攻撃を受けた場合に、攻撃者のみをロックアウトします。正規のユーザーは自分のアカウントへのアクセスを継続できるため、生産性を落とすことはありません。\nスマート ロックアウトは、パスワードハッシュ同期またはパススルー認証を使用するハイブリッド環境と統合することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/authentication/howto-password-smart-lockout",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-18_04-18-13-1fbbbee22d8ee1d60f14b18d08d03472.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-004",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-023",
@@ -121,13 +127,17 @@
       "correctChoiceIds": [
         "jp3-q-023-c4"
       ],
-      "explanationHtml": "<p>セキュリティの既定値群は、無料で利用できる Microsoft Entra ID のセキュリティ機能です。</p><p>この機能を有効にすることで、次のセキュリティ機能が一括で有効になります。</p><p><br></p><p>・すべてのユーザーに対して、Microsoft Entra Multi-Factor Authentication への登録を必須にする</p><p>・管理者に多要素認証の実行を要求する</p><p>・必要に応じてユーザーに多要素認証を要求する</p><p>・レガシ認証プロトコルをブロックする</p><p>・Azure ポータル などへのアクセスに多要素認証を要求する</p><p><br></p><p>セキュリティの既定値群は、Microsoft Entra ID &gt; プロパティ &gt; セキュリティの既定値の管理から設定することができます。</p><p></p><p><br></p><p>なお、レガシー認証のブロックは <a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy\">条件付きアクセスポリシー</a> でも実現できますが、Premium P1以上のライセンスが必要なので選択肢3は誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults\">https://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults\">https://jpazureid.github.io/blog/azure-active-directory/security-default-2022/</a></p>",
+      "explanationHtml": "<p>セキュリティの既定値群は、無料で利用できる Microsoft Entra ID のセキュリティ機能です。</p><p>この機能を有効にすることで、次のセキュリティ機能が一括で有効になります。</p><p><br></p><p>・すべてのユーザーに対して、Microsoft Entra Multi-Factor Authentication への登録を必須にする</p><p>・管理者に多要素認証の実行を要求する</p><p>・必要に応じてユーザーに多要素認証を要求する</p><p>・レガシ認証プロトコルをブロックする</p><p>・Azure ポータル などへのアクセスに多要素認証を要求する</p><p><br></p><p>セキュリティの既定値群は、Microsoft Entra ID &gt; プロパティ &gt; セキュリティの既定値の管理から設定することができます。</p><p><img src=\"assets/問題集3_files/2023-01-18_04-37-49-1812be70e76c66ad6360478f5ae82234.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>なお、レガシー認証のブロックは <a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy\">条件付きアクセスポリシー</a> でも実現できますが、Premium P1以上のライセンスが必要なので選択肢3は誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults\">https://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults\">https://jpazureid.github.io/blog/azure-active-directory/security-default-2022/</a></p>",
       "explanationText": "セキュリティの既定値群は、無料で利用できる Microsoft Entra ID のセキュリティ機能です。\nこの機能を有効にすることで、次のセキュリティ機能が一括で有効になります。\n\n・すべてのユーザーに対して、Microsoft Entra Multi-Factor Authentication への登録を必須にする\n・管理者に多要素認証の実行を要求する\n・必要に応じてユーザーに多要素認証を要求する\n・レガシ認証プロトコルをブロックする\n・Azure ポータル などへのアクセスに多要素認証を要求する\n\nセキュリティの既定値群は、Microsoft Entra ID > プロパティ > セキュリティの既定値の管理から設定することができます。\n\nなお、レガシー認証のブロックは 条件付きアクセスポリシー でも実現できますが、Premium P1以上のライセンスが必要なので選択肢3は誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults\nhttps://jpazureid.github.io/blog/azure-active-directory/security-default-2022/",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-18_04-37-49-1812be70e76c66ad6360478f5ae82234.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-004",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-024",
@@ -163,13 +173,17 @@
       "correctChoiceIds": [
         "jp3-q-024-c3"
       ],
-      "explanationHtml": "<p>Azure Logic Appsからオンプレミスのデータへアクセスするには、最初にオンプレミスのサーバーに「オンプレミス データ ゲートウェイ」をインストールします。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-install\">https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-install</a></p>",
+      "explanationHtml": "<p>Azure Logic Appsからオンプレミスのデータへアクセスするには、最初にオンプレミスのサーバーに「オンプレミス データ ゲートウェイ」をインストールします。</p><p><img src=\"assets/問題集3_files/2023-02-05_06-43-46-0185e42266f34e022f3165f820a1bf6c.png\" alt=\"\" loading=\"eager\"></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-install\">https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-install</a></p>",
       "explanationText": "Azure Logic Appsからオンプレミスのデータへアクセスするには、最初にオンプレミスのサーバーに「オンプレミス データ ゲートウェイ」をインストールします。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-install",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-02-05_06-43-46-0185e42266f34e022f3165f820a1bf6c.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-004",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-025",
@@ -205,13 +219,18 @@
       "correctChoiceIds": [
         "jp3-q-025-c1"
       ],
-      "explanationHtml": "<p>オンプレミスで「オンプレミス データ ゲートウェイ」をインストールした後、Azureで「オンプレミス データ ゲートウェイ」というリソースを作成します。このゲートウェイは、オンプレミスのデータ ソースとLogic Appsのワークフロー間でのデータ転送と暗号化を高速に行うブリッジとして機能します。</p><p></p><p><br></p><p>オンプレミスにインストールするものと名前が同じで紛らわしいですが、公式ドキュメント、Azureポータルを見てもそういう名前になっています。。</p><p>ただ、Azure Logic Appsのワークフローでゲートウェイを指定する箇所は「接続ゲートウェイ」と表現されているので、頭の片隅に入れておいてください。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-connection\">https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-connection</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/connectors/connectors-create-api-sqlazure?tabs=consumption#connect-to-on-premises-sql-server\">https://learn.microsoft.com/ja-jp/azure/connectors/connectors-create-api-sqlazure?tabs=consumption#connect-to-on-premises-sql-server</a></p>",
+      "explanationHtml": "<p>オンプレミスで「オンプレミス データ ゲートウェイ」をインストールした後、Azureで「オンプレミス データ ゲートウェイ」というリソースを作成します。このゲートウェイは、オンプレミスのデータ ソースとLogic Appsのワークフロー間でのデータ転送と暗号化を高速に行うブリッジとして機能します。</p><p><img src=\"assets/問題集3_files/2023-02-05_07-33-04-bf5607e568196e6df9c09732c107884b.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>オンプレミスにインストールするものと名前が同じで紛らわしいですが、公式ドキュメント、Azureポータルを見てもそういう名前になっています。。</p><p>ただ、Azure Logic Appsのワークフローでゲートウェイを指定する箇所は「接続ゲートウェイ」と表現されているので、頭の片隅に入れておいてください。</p><p><img src=\"assets/問題集3_files/2023-02-05_07-33-04-ca8b249b599ab36873a5319309701390.png\" alt=\"\" loading=\"eager\"></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-connection\">https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-connection</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/connectors/connectors-create-api-sqlazure?tabs=consumption#connect-to-on-premises-sql-server\">https://learn.microsoft.com/ja-jp/azure/connectors/connectors-create-api-sqlazure?tabs=consumption#connect-to-on-premises-sql-server</a></p>",
       "explanationText": "オンプレミスで「オンプレミス データ ゲートウェイ」をインストールした後、Azureで「オンプレミス データ ゲートウェイ」というリソースを作成します。このゲートウェイは、オンプレミスのデータ ソースとLogic Appsのワークフロー間でのデータ転送と暗号化を高速に行うブリッジとして機能します。\n\nオンプレミスにインストールするものと名前が同じで紛らわしいですが、公式ドキュメント、Azureポータルを見てもそういう名前になっています。。\nただ、Azure Logic Appsのワークフローでゲートウェイを指定する箇所は「接続ゲートウェイ」と表現されているので、頭の片隅に入れておいてください。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-connection\nhttps://learn.microsoft.com/ja-jp/azure/connectors/connectors-create-api-sqlazure?tabs=consumption#connect-to-on-premises-sql-server",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-02-05_07-33-04-bf5607e568196e6df9c09732c107884b.png",
+        "assets/問題集3_files/2023-02-05_07-33-04-ca8b249b599ab36873a5319309701390.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-004",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-026",
@@ -247,9 +266,11 @@
       "correctChoiceIds": [
         "jp3-q-026-c4"
       ],
-      "explanationHtml": "<p>Azure Database Migration Service (DMS) を利用すると、オンプレミスのSQLServerをAzure SQL Managed Instance（やSQL&nbsp;VM、SQL Database）へ移行することができます。</p><p>Azure SQL Managed Instanceへの移行はオンライン、オフラインともサポートされています。</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/dms/dms-overview\">Azure Database Migration Service とは</a></p><p><br></p><p>Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。</p><p>サーバー、データベース、Webアプリ、仮想デスクトップなど様々な移行シナリオを支援するための管理機能やツールが提供されており、その中に「Azure Database Migration Service（DMS）」が包含されているのですが、選択肢に「Azure Database Migration Service（DMS）」があるため、選択肢4のほうが答えとしては適切です。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview</a></p><p><br></p><p>SQL Server Migration Assistant (SSMA)は、SQLServer<strong>以外</strong>（Access、MySQL、Oracleなど）からSQL Serverへの移行をサポートするツールです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/ssma/sql-server-migration-assistant\">https://learn.microsoft.com/ja-jp/sql/ssma/sql-server-migration-assistant</a></p><p><br></p><p>Data Migration Assistant（DMA）は、オンプレミスのSQLServerの移行をサポートするツールで、互換性の問題を検出する「評価（アセスメント）」と、スキーマやデータなどをターゲットサーバに「移行」する2つの機能があります。ただし、収録時点では Azure SQL Managed Instance へのデータベース移行をサポートしていません。</p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/dma/dma-overview\">https://learn.microsoft.com/ja-jp/sql/dma/dma-overview</a></p>",
+      "explanationHtml": "<p>Azure Database Migration Service (DMS) を利用すると、オンプレミスのSQLServerをAzure SQL Managed Instance（やSQL&nbsp;VM、SQL Database）へ移行することができます。</p><p>Azure SQL Managed Instanceへの移行はオンライン、オフラインともサポートされています。</p><p><img src=\"assets/問題集3_files/2023-02-05_08-28-17-70c81ac116ab8b9825e643c105a5465f.png\" alt=\"\" loading=\"eager\"></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/dms/dms-overview\">Azure Database Migration Service とは</a></p><p><br></p><p>Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。</p><p>サーバー、データベース、Webアプリ、仮想デスクトップなど様々な移行シナリオを支援するための管理機能やツールが提供されており、その中に「Azure Database Migration Service（DMS）」が包含されているのですが、選択肢に「Azure Database Migration Service（DMS）」があるため、選択肢4のほうが答えとしては適切です。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview</a></p><p><br></p><p>SQL Server Migration Assistant (SSMA)は、SQLServer<strong>以外</strong>（Access、MySQL、Oracleなど）からSQL Serverへの移行をサポートするツールです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/ssma/sql-server-migration-assistant\">https://learn.microsoft.com/ja-jp/sql/ssma/sql-server-migration-assistant</a></p><p><br></p><p>Data Migration Assistant（DMA）は、オンプレミスのSQLServerの移行をサポートするツールで、互換性の問題を検出する「評価（アセスメント）」と、スキーマやデータなどをターゲットサーバに「移行」する2つの機能があります。ただし、収録時点では Azure SQL Managed Instance へのデータベース移行をサポートしていません。</p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/dma/dma-overview\">https://learn.microsoft.com/ja-jp/sql/dma/dma-overview</a></p>",
       "explanationText": "Azure Database Migration Service (DMS) を利用すると、オンプレミスのSQLServerをAzure SQL Managed Instance（やSQL VM、SQL Database）へ移行することができます。\nAzure SQL Managed Instanceへの移行はオンライン、オフラインともサポートされています。\n\n出典：Azure Database Migration Service とは\n\nAzure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。\nサーバー、データベース、Webアプリ、仮想デスクトップなど様々な移行シナリオを支援するための管理機能やツールが提供されており、その中に「Azure Database Migration Service（DMS）」が包含されているのですが、選択肢に「Azure Database Migration Service（DMS）」があるため、選択肢4のほうが答えとしては適切です。\nhttps://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\n\nSQL Server Migration Assistant (SSMA)は、SQLServer以外（Access、MySQL、Oracleなど）からSQL Serverへの移行をサポートするツールです。\nhttps://learn.microsoft.com/ja-jp/sql/ssma/sql-server-migration-assistant\n\nData Migration Assistant（DMA）は、オンプレミスのSQLServerの移行をサポートするツールで、互換性の問題を検出する「評価（アセスメント）」と、スキーマやデータなどをターゲットサーバに「移行」する2つの機能があります。ただし、収録時点では Azure SQL Managed Instance へのデータベース移行をサポートしていません。\nhttps://learn.microsoft.com/ja-jp/sql/dma/dma-overview",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-02-05_08-28-17-70c81ac116ab8b9825e643c105a5465f.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -258,7 +279,7 @@
     {
       "questionId": "jp3-q-027",
       "sourceQuestionNumber": 27,
-      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、いくつかのAzure SQL Databaseをデプロイしており、</p><p>次の図に示すように、データベースの診断設定を構成することを計画しています。</p><p>次の文章を完成させるのに正しい選択肢はどれですか。&nbsp; </p><p><br></p><p>SQL Insights がBLOBストレージに保存される日数は、[<strong>選択肢</strong>]です。</p>",
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、いくつかのAzure SQL Databaseをデプロイしており、</p><p>次の図に示すように、データベースの診断設定を構成することを計画しています。</p><img src=\"assets/問題集3_files/2023-01-25_01-56-16-149b80f17566bf50a109459d8265bc57.png\" alt=\"\" loading=\"eager\"><p>次の文章を完成させるのに正しい選択肢はどれですか。&nbsp; </p><p><br></p><p>SQL Insights がBLOBストレージに保存される日数は、[<strong>選択肢</strong>]です。</p>",
       "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、いくつかのAzure SQL Databaseをデプロイしており、\n次の図に示すように、データベースの診断設定を構成することを計画しています。\n次の文章を完成させるのに正しい選択肢はどれですか。 \n\nSQL Insights がBLOBストレージに保存される日数は、[選択肢]です。",
       "choices": [
         {
@@ -291,16 +312,20 @@
       ],
       "explanationHtml": "<p>SQL Databaseのログは、Azureポータルの「診断設定」から有効にできます。</p><p>保存先として次のいずれか（複数可）を選択することができます。</p><p><br></p><p>・ストレージアカウント</p><p>・Log Analytics ワークスペース</p><p>・イベントハブ</p><p><br></p><p>ストレージアカウントを選択した場合、問題文の画面にあるように「保有(日数)」が表示され、ログのタイプごとに日数を個別に指定することができます。この「保有(日数)」はストレージ アカウントにのみ適用されます。</p><p>保有ポリシーは 1～365 日までの範囲で指定できます。データを永続的に保有する場合は 0 に設定します。</p><p>SQL Insightsは「90日」に設定されているので、選択肢2が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy</a></p>",
       "explanationText": "SQL Databaseのログは、Azureポータルの「診断設定」から有効にできます。\n保存先として次のいずれか（複数可）を選択することができます。\n\n・ストレージアカウント\n・Log Analytics ワークスペース\n・イベントハブ\n\nストレージアカウントを選択した場合、問題文の画面にあるように「保有(日数)」が表示され、ログのタイプごとに日数を個別に指定することができます。この「保有(日数)」はストレージ アカウントにのみ適用されます。\n保有ポリシーは 1～365 日までの範囲で指定できます。データを永続的に保有する場合は 0 に設定します。\nSQL Insightsは「90日」に設定されているので、選択肢2が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&tabs=azure-portal\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-25_01-56-16-149b80f17566bf50a109459d8265bc57.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-005",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-028",
       "sourceQuestionNumber": 28,
-      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、いくつかのAzure SQL Databaseをデプロイしており、</p><p>次の図に示すように、データベースの診断設定を構成することを計画しています。</p><p>次の文章を完成させるのに正しい選択肢はどれですか。&nbsp; </p><p><br></p><p>SQL Insights を Log Analytics ワークスペースに保存できる最大日数は、[<strong>選択肢</strong>]です。</p>",
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、いくつかのAzure SQL Databaseをデプロイしており、</p><p>次の図に示すように、データベースの診断設定を構成することを計画しています。</p><img src=\"assets/問題集3_files/2023-01-25_02-03-55-c3029c62f8e70c409e14cb0bb61b9618.png\" alt=\"\" loading=\"eager\"><p>次の文章を完成させるのに正しい選択肢はどれですか。&nbsp; </p><p><br></p><p>SQL Insights を Log Analytics ワークスペースに保存できる最大日数は、[<strong>選択肢</strong>]です。</p>",
       "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、いくつかのAzure SQL Databaseをデプロイしており、\n次の図に示すように、データベースの診断設定を構成することを計画しています。\n次の文章を完成させるのに正しい選択肢はどれですか。 \n\nSQL Insights を Log Analytics ワークスペースに保存できる最大日数は、[選択肢]です。",
       "choices": [
         {
@@ -331,13 +356,18 @@
       "correctChoiceIds": [
         "jp3-q-028-c3"
       ],
-      "explanationHtml": "<p>問題文の画面にある「保有(日数)」はストレージ アカウントを選択した場合にのみ表示され、ストレージ アカウントにのみ適用されます。Log Analytics ワークスペースには<strong>適用されません。</strong></p><p><br></p><p>Log Analytics ワークスペースの保有期間はデフォルトで30日（Application Insightsの場合は90日）になっています。</p><p>Azureポータルの「使用量と推定コスト」から変更することができ、最大で730日に設定可能です。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy</a></p>",
+      "explanationHtml": "<p>問題文の画面にある「保有(日数)」はストレージ アカウントを選択した場合にのみ表示され、ストレージ アカウントにのみ適用されます。Log Analytics ワークスペースには<strong>適用されません。</strong></p><p><br></p><p>Log Analytics ワークスペースの保有期間はデフォルトで30日（Application Insightsの場合は90日）になっています。</p><p>Azureポータルの「使用量と推定コスト」から変更することができ、最大で730日に設定可能です。</p><img src=\"assets/問題集3_files/2023-01-25_02-03-56-f616e71e97f8ab89512f6c3fab061753.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy</a></p>",
       "explanationText": "問題文の画面にある「保有(日数)」はストレージ アカウントを選択した場合にのみ表示され、ストレージ アカウントにのみ適用されます。Log Analytics ワークスペースには適用されません。\n\nLog Analytics ワークスペースの保有期間はデフォルトで30日（Application Insightsの場合は90日）になっています。\nAzureポータルの「使用量と推定コスト」から変更することができ、最大で730日に設定可能です。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&tabs=azure-portal\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-25_02-03-55-c3029c62f8e70c409e14cb0bb61b9618.png",
+        "assets/問題集3_files/2023-01-25_02-03-56-f616e71e97f8ab89512f6c3fab061753.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-005",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-029",

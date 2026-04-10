@@ -1,7 +1,7 @@
 {
   "setId": "jp3-set-005",
   "title": "問題集3 41-50",
-  "sourceHtml": "udemy/問題集3.html",
+  "sourceHtml": "assets/問題集3.html",
   "questionIds": [
     "jp3-q-041",
     "jp3-q-042",
@@ -43,13 +43,17 @@
       "correctChoiceIds": [
         "jp3-q-041-c3"
       ],
-      "explanationHtml": "<p>BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションで、汎用 v2 アカウントでサポートされています。</p><p>ホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。</p><p></p><p><code>・コストを最小限に抑えること </code> </p><p>ホット → クール → アーカイブの順に保存コストが低くなりますが、逆にアクセスコストが高くなります。</p><p>「保存するデータは毎日頻繁にアクセスされます」とあることから選択肢3の「ホットアクセス層」を提案するのが適切です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview</a></p>",
+      "explanationHtml": "<p>BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションで、汎用 v2 アカウントでサポートされています。</p><p>ホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。</p><p><img src=\"assets/問題集3_files/2023-01-12_12-27-21-84433dcf01ae985fb8f242b8dc352a1a.png\" alt=\"\" loading=\"eager\"></p><p><code>・コストを最小限に抑えること </code> </p><p>ホット → クール → アーカイブの順に保存コストが低くなりますが、逆にアクセスコストが高くなります。</p><p>「保存するデータは毎日頻繁にアクセスされます」とあることから選択肢3の「ホットアクセス層」を提案するのが適切です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview</a></p>",
       "explanationText": "BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションで、汎用 v2 アカウントでサポートされています。\nホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。\n\n・コストを最小限に抑えること\nホット → クール → アーカイブの順に保存コストが低くなりますが、逆にアクセスコストが高くなります。\n「保存するデータは毎日頻繁にアクセスされます」とあることから選択肢3の「ホットアクセス層」を提案するのが適切です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-12_12-27-21-84433dcf01ae985fb8f242b8dc352a1a.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-008",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-042",
@@ -79,13 +83,17 @@
       "correctChoiceIds": [
         "jp3-q-042-c2"
       ],
-      "explanationHtml": "<p><code>・データは一度書き込まれると、読み取りのみ可能で、変更や削除はできないこと</code></p><p><code>・5年経過後は、データの削除は可能であるが、変更はできないこと</code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><br></p><p>不変ストレージには次の２種類のポリシーがあります。</p><p>・時間ベースのアイテム保持ポリシー</p><p>・訴訟ホールドポリシー</p><p><br></p><p>時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。</p><p><br></p><p>Azureポータルのストレージアカウント &gt; コンテナー &gt; アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。</p><p><br></p><p>なお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。</p><p><br></p><p>ちなみに、選択肢3「ストレージアカウントのリソースロック」はストレージアカウント自体の削除や変更を防止するためのもので、ストレージアカウントに保存されるデータを保護するためのものではありません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p>",
+      "explanationHtml": "<p><code>・データは一度書き込まれると、読み取りのみ可能で、変更や削除はできないこと</code></p><p><code>・5年経過後は、データの削除は可能であるが、変更はできないこと</code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><br></p><p>不変ストレージには次の２種類のポリシーがあります。</p><p>・時間ベースのアイテム保持ポリシー</p><p>・訴訟ホールドポリシー</p><p><br></p><p>時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。</p><p><br></p><p>Azureポータルのストレージアカウント &gt; コンテナー &gt; アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。</p><img src=\"assets/問題集3_files/2023-01-12_12-41-51-73dc8c537d90635cd1861ca399aca924.png\" alt=\"\" loading=\"eager\"><p><br></p><p>なお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。</p><p><br></p><p>ちなみに、選択肢3「ストレージアカウントのリソースロック」はストレージアカウント自体の削除や変更を防止するためのもので、ストレージアカウントに保存されるデータを保護するためのものではありません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p>",
       "explanationText": "・データは一度書き込まれると、読み取りのみ可能で、変更や削除はできないこと\n・5年経過後は、データの削除は可能であるが、変更はできないこと\nこの要件を満たすためにはBLOBの不変ストレージを利用します。\n不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。\n\n不変ストレージには次の２種類のポリシーがあります。\n・時間ベースのアイテム保持ポリシー\n・訴訟ホールドポリシー\n\n時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。\n\nAzureポータルのストレージアカウント > コンテナー > アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。\n\nなお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。\n\nちなみに、選択肢3「ストレージアカウントのリソースロック」はストレージアカウント自体の削除や変更を防止するためのもので、ストレージアカウントに保存されるデータを保護するためのものではありません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-12_12-41-51-73dc8c537d90635cd1861ca399aca924.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-008",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-043",
@@ -121,9 +129,11 @@
       "correctChoiceIds": [
         "jp3-q-043-c3"
       ],
-      "explanationHtml": "<p><code>・ 評価は四半期（3ヶ月）ごとに自動的に繰り返されること</code></p><p><code>・Group1 のすべてのユーザーを評価対象とすること</code></p><p>Microsoft Entraのアクセスレビューを使用すると、ユーザーのアクセス許可を定期的にレビューし、適切なユーザーのみが継続的なアクセス権を持っていることを確認することができます。</p><p><br></p><p>毎週、毎月、毎四半期、毎年など、一定の頻度でユーザーのアクセスレビューを定期的に設定することができ、各レビューの開始時にレビュアーに通知されます。</p><p>レビュー担当者は、使いやすいインターフェイスとスマートな推奨事項の助けを借りてアクセスを承認または拒否することができます。</p><p><br></p><p><code>・Group1 に所属する必要がないユーザーは、Group1から自動的に削除されること</code></p><p><code>・Group1 に所属する必要があるかどうかを報告しないユーザーは、Group1 から自動的に削除されること</code></p><p>拒否されたユーザーがレビュー期間の終了後に Group1 から自動的に削除されるようにするには「<strong>リソースへの結果の自動適用</strong>」のチェックボックスをオンにします。</p><p>また、レビュー担当者が応答せずレビューされなかった場合のアクションも「<strong>レビュー担当者が応答しない場合</strong>」で設定することができるため、自動的にGroup1 から対象メンバーを削除することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings\">https://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings</a></p><p></p><p><br></p><p>なお、アクセスレビューを使用するには Microsoft Entra ID Premium P2 ライセンスが必要です（Premium P2 ライセンスはMicrosoft 365 E5 にも含まれています）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview\">https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview</a></p><p><a href=\"https://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing\">https://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing</a></p>",
+      "explanationHtml": "<p><code>・ 評価は四半期（3ヶ月）ごとに自動的に繰り返されること</code></p><p><code>・Group1 のすべてのユーザーを評価対象とすること</code></p><p>Microsoft Entraのアクセスレビューを使用すると、ユーザーのアクセス許可を定期的にレビューし、適切なユーザーのみが継続的なアクセス権を持っていることを確認することができます。</p><p><br></p><p>毎週、毎月、毎四半期、毎年など、一定の頻度でユーザーのアクセスレビューを定期的に設定することができ、各レビューの開始時にレビュアーに通知されます。</p><p>レビュー担当者は、使いやすいインターフェイスとスマートな推奨事項の助けを借りてアクセスを承認または拒否することができます。</p><p><br></p><p><code>・Group1 に所属する必要がないユーザーは、Group1から自動的に削除されること</code></p><p><code>・Group1 に所属する必要があるかどうかを報告しないユーザーは、Group1 から自動的に削除されること</code></p><p>拒否されたユーザーがレビュー期間の終了後に Group1 から自動的に削除されるようにするには「<strong>リソースへの結果の自動適用</strong>」のチェックボックスをオンにします。</p><p>また、レビュー担当者が応答せずレビューされなかった場合のアクションも「<strong>レビュー担当者が応答しない場合</strong>」で設定することができるため、自動的にGroup1 から対象メンバーを削除することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings\">https://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings</a></p><p><img src=\"assets/問題集3_files/2023-02-07_12-11-33-ea4dd016dedc32972889e31f8008ce49.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>なお、アクセスレビューを使用するには Microsoft Entra ID Premium P2 ライセンスが必要です（Premium P2 ライセンスはMicrosoft 365 E5 にも含まれています）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview\">https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview</a></p><p><a href=\"https://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing\">https://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing</a></p>",
       "explanationText": "・ 評価は四半期（3ヶ月）ごとに自動的に繰り返されること\n・Group1 のすべてのユーザーを評価対象とすること\nMicrosoft Entraのアクセスレビューを使用すると、ユーザーのアクセス許可を定期的にレビューし、適切なユーザーのみが継続的なアクセス権を持っていることを確認することができます。\n\n毎週、毎月、毎四半期、毎年など、一定の頻度でユーザーのアクセスレビューを定期的に設定することができ、各レビューの開始時にレビュアーに通知されます。\nレビュー担当者は、使いやすいインターフェイスとスマートな推奨事項の助けを借りてアクセスを承認または拒否することができます。\n\n・Group1 に所属する必要がないユーザーは、Group1から自動的に削除されること\n・Group1 に所属する必要があるかどうかを報告しないユーザーは、Group1 から自動的に削除されること\n拒否されたユーザーがレビュー期間の終了後に Group1 から自動的に削除されるようにするには「リソースへの結果の自動適用」のチェックボックスをオンにします。\nまた、レビュー担当者が応答せずレビューされなかった場合のアクションも「レビュー担当者が応答しない場合」で設定することができるため、自動的にGroup1 から対象メンバーを削除することができます。\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings\n\nなお、アクセスレビューを使用するには Microsoft Entra ID Premium P2 ライセンスが必要です（Premium P2 ライセンスはMicrosoft 365 E5 にも含まれています）\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview\nhttps://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-02-07_12-11-33-ea4dd016dedc32972889e31f8008ce49.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -162,8 +172,10 @@
       "images": [],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-009",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-045",
@@ -193,18 +205,22 @@
       "correctChoiceIds": [
         "jp3-q-045-c3"
       ],
-      "explanationHtml": "<p><code>・Azure Blueprints のデプロイはAzureポータルから行うこと</code></p><p><code>・ブループリントの定義と割り当ての数を最小限に抑えること</code> </p><p>割り当ての数を最小にするために、ルート管理グループに作成したブループリント定義をルート管理グループに割り当てれば良いように思われるかもしれませんが、Azureポータルから割り当てを行う場合、管理グループに割り当てすることは<strong>できません。</strong></p><p>よって、サブスクリプションに割り当てることになります。</p><p><br></p><p>以下、補足です。</p><p>ブループリントは、管理グループまたはサブスクリプションに割り当てすることができます。</p><p>公式ドキュメントにもそう記載されていますが、管理グループへの割り当ては収録時点では非常にややこしい仕様になっています。</p><p>管理グループに割り当てると、配下のサブスクリプションにアーティファクトを一括適用できる（継承する）イメージを持ってしまうかもしれませんが実際はそうではありません。</p><p><br></p><p>・管理グループへの割り当ては、収録時点では <a href=\"https://learn.microsoft.com/ja-jp/rest/api/blueprints/assignments/create-or-update?tabs=HTTP\">REST&nbsp;API</a> か <a href=\"https://learn.microsoft.com/ja-jp/powershell/module/az.blueprint/new-azblueprintassignment\">Azure PowerShell</a> のみをサポート</p><p>・管理グループに割り当てる場合でも、ターゲットサブスクリプションの指定が必要</p><p>・管理グループに割り当てる場合、ターゲットサブスクリプションは管理グループの直接の子である必要がある</p><p><br></p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview#blueprint-assignment\">ブループリント割り当て</a></p><p><br></p><p>アーティファクトの配置が継承されないのであれば、管理グループに割る当てる意味がよくわからないかもしれません。</p><p>管理グループへの割り当ての用途としては、割り当てたブループリントのロックがあります。</p><p>たとえば、サブスクリプションの所有者権限を持っているユーザーは、サブスクリプションに割り当てられているブループリントを削除することが可能です。</p><p>削除させないよう制御するためには、このユーザーのスコープより上にある管理グループに割り当てる必要があります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/concepts/resource-locking#assign-at-management-group\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/concepts/resource-locking#assign-at-management-group</a></p><p><br></p><p>最後に、講師の個人的な見解です。あくまで参考までに。</p><p>収録時点でプレビュー中のサービスですし、今後、変更が加えられる可能性もあるのですが、試験対策としては「割り当てはサブスクリプション」と考えておけば良いかと思います（実際の試験でこのような問題が出題されたとしてもAzureポータルの利用が前提条件に含まれるかどうかはわかりません）</p>",
+      "explanationHtml": "<p><code>・Azure Blueprints のデプロイはAzureポータルから行うこと</code></p><p><code>・ブループリントの定義と割り当ての数を最小限に抑えること</code> </p><p>割り当ての数を最小にするために、ルート管理グループに作成したブループリント定義をルート管理グループに割り当てれば良いように思われるかもしれませんが、Azureポータルから割り当てを行う場合、管理グループに割り当てすることは<strong>できません。</strong></p><p>よって、サブスクリプションに割り当てることになります。</p><p><br></p><p>以下、補足です。</p><p>ブループリントは、管理グループまたはサブスクリプションに割り当てすることができます。</p><p>公式ドキュメントにもそう記載されていますが、管理グループへの割り当ては収録時点では非常にややこしい仕様になっています。</p><p>管理グループに割り当てると、配下のサブスクリプションにアーティファクトを一括適用できる（継承する）イメージを持ってしまうかもしれませんが実際はそうではありません。</p><p><br></p><p>・管理グループへの割り当ては、収録時点では <a href=\"https://learn.microsoft.com/ja-jp/rest/api/blueprints/assignments/create-or-update?tabs=HTTP\">REST&nbsp;API</a> か <a href=\"https://learn.microsoft.com/ja-jp/powershell/module/az.blueprint/new-azblueprintassignment\">Azure PowerShell</a> のみをサポート</p><p>・管理グループに割り当てる場合でも、ターゲットサブスクリプションの指定が必要</p><p>・管理グループに割り当てる場合、ターゲットサブスクリプションは管理グループの直接の子である必要がある</p><p><br></p><p><img src=\"assets/問題集3_files/2023-02-04_08-28-47-7d75db1b2793936431240d83ae71c213.png\" alt=\"\" loading=\"eager\"></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview#blueprint-assignment\">ブループリント割り当て</a></p><p><br></p><p>アーティファクトの配置が継承されないのであれば、管理グループに割る当てる意味がよくわからないかもしれません。</p><p>管理グループへの割り当ての用途としては、割り当てたブループリントのロックがあります。</p><p>たとえば、サブスクリプションの所有者権限を持っているユーザーは、サブスクリプションに割り当てられているブループリントを削除することが可能です。</p><p>削除させないよう制御するためには、このユーザーのスコープより上にある管理グループに割り当てる必要があります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/concepts/resource-locking#assign-at-management-group\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/concepts/resource-locking#assign-at-management-group</a></p><p><br></p><p>最後に、講師の個人的な見解です。あくまで参考までに。</p><p>収録時点でプレビュー中のサービスですし、今後、変更が加えられる可能性もあるのですが、試験対策としては「割り当てはサブスクリプション」と考えておけば良いかと思います（実際の試験でこのような問題が出題されたとしてもAzureポータルの利用が前提条件に含まれるかどうかはわかりません）</p>",
       "explanationText": "・Azure Blueprints のデプロイはAzureポータルから行うこと\n・ブループリントの定義と割り当ての数を最小限に抑えること\n割り当ての数を最小にするために、ルート管理グループに作成したブループリント定義をルート管理グループに割り当てれば良いように思われるかもしれませんが、Azureポータルから割り当てを行う場合、管理グループに割り当てすることはできません。\nよって、サブスクリプションに割り当てることになります。\n\n以下、補足です。\nブループリントは、管理グループまたはサブスクリプションに割り当てすることができます。\n公式ドキュメントにもそう記載されていますが、管理グループへの割り当ては収録時点では非常にややこしい仕様になっています。\n管理グループに割り当てると、配下のサブスクリプションにアーティファクトを一括適用できる（継承する）イメージを持ってしまうかもしれませんが実際はそうではありません。\n\n・管理グループへの割り当ては、収録時点では REST API か Azure PowerShell のみをサポート\n・管理グループに割り当てる場合でも、ターゲットサブスクリプションの指定が必要\n・管理グループに割り当てる場合、ターゲットサブスクリプションは管理グループの直接の子である必要がある\n\n出典：ブループリント割り当て\n\nアーティファクトの配置が継承されないのであれば、管理グループに割る当てる意味がよくわからないかもしれません。\n管理グループへの割り当ての用途としては、割り当てたブループリントのロックがあります。\nたとえば、サブスクリプションの所有者権限を持っているユーザーは、サブスクリプションに割り当てられているブループリントを削除することが可能です。\n削除させないよう制御するためには、このユーザーのスコープより上にある管理グループに割り当てる必要があります。\nhttps://learn.microsoft.com/ja-jp/azure/governance/blueprints/concepts/resource-locking#assign-at-management-group\n\n最後に、講師の個人的な見解です。あくまで参考までに。\n収録時点でプレビュー中のサービスですし、今後、変更が加えられる可能性もあるのですが、試験対策としては「割り当てはサブスクリプション」と考えておけば良いかと思います（実際の試験でこのような問題が出題されたとしてもAzureポータルの利用が前提条件に含まれるかどうかはわかりません）",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-02-04_08-28-47-7d75db1b2793936431240d83ae71c213.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-009",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-046",
       "sourceQuestionNumber": 46,
-      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、ユーザーの作成とロールの割り当てを追跡するためのアーキテクチャを設計しています。</p><p>収集されたデータはAzure Cosmos DBに格納する必要があります。</p><p></p><p><strong>Azureサービス1</strong> は何を使用すべきですか。</p><p><br></p><p>Azureサービス1：</p><p>Azureサービス2：</p>",
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、ユーザーの作成とロールの割り当てを追跡するためのアーキテクチャを設計しています。</p><p>収集されたデータはAzure Cosmos DBに格納する必要があります。</p><p><img src=\"assets/問題集3_files/2024-10-04_04-39-55-48934fe9ffcd9d16beb061630783cbad.png\" alt=\"\" loading=\"eager\"></p><p><strong>Azureサービス1</strong> は何を使用すべきですか。</p><p><br></p><p>Azureサービス1：</p><p>Azureサービス2：</p>",
       "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、ユーザーの作成とロールの割り当てを追跡するためのアーキテクチャを設計しています。\n収集されたデータはAzure Cosmos DBに格納する必要があります。\n\nAzureサービス1 は何を使用すべきですか。\n\nAzureサービス1：\nAzureサービス2：",
       "choices": [
         {
@@ -241,18 +257,23 @@
       "correctChoiceIds": [
         "jp3-q-046-c2"
       ],
-      "explanationHtml": "<p>ユーザーの作成やロールの割り当ての操作はMicrosoft Entra IDの監査ログ（AuditLogs）に記録されます。</p><p>監査ログの「診断設定」からエクスポートすることができ、保存先として次のいずれか（複数可）を選択することができます。</p><p><br></p><p>・ストレージアカウント</p><p>・Log Analytics ワークスペース</p><p>・イベントハブ（Azure Event Hubs）</p><p></p><p><br></p><p>選択肢4の「Azure Log Analytics」にエクスポートすることもできますが、この問題では最終的にCosmos DBに保存するよう設計されているため、Azure Event Hubsにログをエクスポートして、Azureサービス2と連携するように構成します。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/entra/identity/monitoring-health/concept-audit-logs\">https://learn.microsoft.com/ja-jp/entra/identity/monitoring-health/concept-audit-logs</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/tutorial-azure-monitor-stream-logs-to-event-hub\">https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/tutorial-azure-monitor-stream-logs-to-event-hub</a></p>",
+      "explanationHtml": "<p>ユーザーの作成やロールの割り当ての操作はMicrosoft Entra IDの監査ログ（AuditLogs）に記録されます。</p><p>監査ログの「診断設定」からエクスポートすることができ、保存先として次のいずれか（複数可）を選択することができます。</p><p><br></p><p>・ストレージアカウント</p><p>・Log Analytics ワークスペース</p><p>・イベントハブ（Azure Event Hubs）</p><p><img src=\"assets/問題集3_files/2023-02-02_07-23-28-d69e72e9535d9eb2f653617b3042a64d.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>選択肢4の「Azure Log Analytics」にエクスポートすることもできますが、この問題では最終的にCosmos DBに保存するよう設計されているため、Azure Event Hubsにログをエクスポートして、Azureサービス2と連携するように構成します。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/entra/identity/monitoring-health/concept-audit-logs\">https://learn.microsoft.com/ja-jp/entra/identity/monitoring-health/concept-audit-logs</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/tutorial-azure-monitor-stream-logs-to-event-hub\">https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/tutorial-azure-monitor-stream-logs-to-event-hub</a></p>",
       "explanationText": "ユーザーの作成やロールの割り当ての操作はMicrosoft Entra IDの監査ログ（AuditLogs）に記録されます。\n監査ログの「診断設定」からエクスポートすることができ、保存先として次のいずれか（複数可）を選択することができます。\n\n・ストレージアカウント\n・Log Analytics ワークスペース\n・イベントハブ（Azure Event Hubs）\n\n選択肢4の「Azure Log Analytics」にエクスポートすることもできますが、この問題では最終的にCosmos DBに保存するよう設計されているため、Azure Event Hubsにログをエクスポートして、Azureサービス2と連携するように構成します。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/entra/identity/monitoring-health/concept-audit-logs\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/tutorial-azure-monitor-stream-logs-to-event-hub",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2024-10-04_04-39-55-48934fe9ffcd9d16beb061630783cbad.png",
+        "assets/問題集3_files/2023-02-02_07-23-28-d69e72e9535d9eb2f653617b3042a64d.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-009",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-047",
       "sourceQuestionNumber": 47,
-      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、ユーザーの作成とロールの割り当てを追跡するためのアーキテクチャを設計しています。</p><p>収集されたデータはAzure Cosmos DBに格納する必要があります。</p><p></p><p><strong>Azureサービス2</strong> は何を使用すべきですか。</p><p><br></p><p>Azureサービス1：</p><p>Azureサービス2：</p>",
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、ユーザーの作成とロールの割り当てを追跡するためのアーキテクチャを設計しています。</p><p>収集されたデータはAzure Cosmos DBに格納する必要があります。</p><p><img src=\"assets/問題集3_files/2024-10-04_04-41-09-5efcede32ea9b9f9ba9ab7add9aefb18.png\" alt=\"\" loading=\"eager\"></p><p><strong>Azureサービス2</strong> は何を使用すべきですか。</p><p><br></p><p>Azureサービス1：</p><p>Azureサービス2：</p>",
       "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、ユーザーの作成とロールの割り当てを追跡するためのアーキテクチャを設計しています。\n収集されたデータはAzure Cosmos DBに格納する必要があります。\n\nAzureサービス2 は何を使用すべきですか。\n\nAzureサービス1：\nAzureサービス2：",
       "choices": [
         {
@@ -291,11 +312,15 @@
       ],
       "explanationHtml": "<p>Azure Functionsは、次のトリガーと出力を使用して、イベントハブに送信されたイベントに応答し、読み取った内容をCosmos DBに書き込みすることができます。</p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-bindings-event-hubs-trigger?tabs=in-process%2Cfunctionsv2%2Cextensionv5&amp;pivots=programming-language-csharp\">Azure Event Hubs トリガー</a></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-bindings-cosmosdb-v2-output?tabs=in-process%2Cfunctionsv2&amp;pivots=programming-language-csharp\">Azure Cosmos DB の出力バインド</a></p><p><br></p><p>選択肢1の「Azure Event Grid」もイベントソースとしてイベントハブと統合できますが、イベントハンドラー（送信先）としてCosmos DBは収録時点ではサポートされていません。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/event-grid/event-handlers\">https://learn.microsoft.com/ja-jp/azure/event-grid/event-handlers</a></p><p><br></p><p>選択肢5の「Azure Notification Hubs」は通知を送るためのサービスなので誤りです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/notification-hubs/notification-hubs-push-notification-overview\">https://learn.microsoft.com/ja-jp/azure/notification-hubs/notification-hubs-push-notification-overview</a></p>",
       "explanationText": "Azure Functionsは、次のトリガーと出力を使用して、イベントハブに送信されたイベントに応答し、読み取った内容をCosmos DBに書き込みすることができます。\n・Azure Event Hubs トリガー\n・Azure Cosmos DB の出力バインド\n\n選択肢1の「Azure Event Grid」もイベントソースとしてイベントハブと統合できますが、イベントハンドラー（送信先）としてCosmos DBは収録時点ではサポートされていません。\nhttps://learn.microsoft.com/ja-jp/azure/event-grid/event-handlers\n\n選択肢5の「Azure Notification Hubs」は通知を送るためのサービスなので誤りです。\nhttps://learn.microsoft.com/ja-jp/azure/notification-hubs/notification-hubs-push-notification-overview",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2024-10-04_04-41-09-5efcede32ea9b9f9ba9ab7add9aefb18.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-009",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-048",
@@ -331,9 +356,11 @@
       "correctChoiceIds": [
         "jp3-q-048-c1"
       ],
-      "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT&nbsp;/ データ統合のサービスと説明されています。</p><p><br></p><p>Azure仮想マシンやオンプレミスのサーバーのデータに統合するには、「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、データを変換し、Azure Data Lake Storageなどのデータストアに書き出すことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory\">https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory</a></p><p></p><p><br></p>",
+      "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT&nbsp;/ データ統合のサービスと説明されています。</p><p><br></p><p>Azure仮想マシンやオンプレミスのサーバーのデータに統合するには、「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、データを変換し、Azure Data Lake Storageなどのデータストアに書き出すことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory\">https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory</a></p><p><img src=\"assets/問題集3_files/2023-02-01_06-21-15-69e61207bc6185f9b14eedb6bbe789e8.png\" alt=\"\" loading=\"eager\"></p><p><br></p>",
       "explanationText": "Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。\nデータをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/introduction\n\n収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）\n公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。\n\nAzure仮想マシンやオンプレミスのサーバーのデータに統合するには、「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、データを変換し、Azure Data Lake Storageなどのデータストアに書き出すことができます。\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-02-01_06-21-15-69e61207bc6185f9b14eedb6bbe789e8.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -367,9 +394,11 @@
       "correctChoiceIds": [
         "jp3-q-049-c3"
       ],
-      "explanationHtml": "<p>ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。</p><p><br></p><p><code>・最大 7 TB の動画ファイルをアップロードできること</code></p><p>まず、mp4などの動画ファイルをページBLOBとしてアップロードすることはできないため、選択肢2は誤りです。</p><p>また、ファイル共有の1ファイルあたりの上限は4TiBなので要件を満たしません。</p><p>汎用 v2 アカウントを使用し、ブロックBLOBとして保存するのが適切です（ブロックBLOBの最大サイズは約 190.7 TiB）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-blob-storage-limits\">https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-blob-storage-limits</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs#about-block-blobs\">https://learn.microsoft.com/ja-jp/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs#about-block-blobs</a></p>",
+      "explanationHtml": "<p>ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。</p><img src=\"assets/問題集3_files/2023-02-07_04-25-49-ecc7fd33983451b0306483c58790069c.png\" alt=\"\" loading=\"eager\"><p><br></p><p><code>・最大 7 TB の動画ファイルをアップロードできること</code></p><p>まず、mp4などの動画ファイルをページBLOBとしてアップロードすることはできないため、選択肢2は誤りです。</p><p>また、ファイル共有の1ファイルあたりの上限は4TiBなので要件を満たしません。</p><p>汎用 v2 アカウントを使用し、ブロックBLOBとして保存するのが適切です（ブロックBLOBの最大サイズは約 190.7 TiB）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-blob-storage-limits\">https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-blob-storage-limits</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs#about-block-blobs\">https://learn.microsoft.com/ja-jp/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs#about-block-blobs</a></p>",
       "explanationText": "ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。\n\n・最大 7 TB の動画ファイルをアップロードできること\nまず、mp4などの動画ファイルをページBLOBとしてアップロードすることはできないため、選択肢2は誤りです。\nまた、ファイル共有の1ファイルあたりの上限は4TiBなので要件を満たしません。\n汎用 v2 アカウントを使用し、ブロックBLOBとして保存するのが適切です（ブロックBLOBの最大サイズは約 190.7 TiB）\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-blob-storage-limits\nhttps://learn.microsoft.com/ja-jp/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs#about-block-blobs",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-02-07_04-25-49-ecc7fd33983451b0306483c58790069c.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,

@@ -1,7 +1,7 @@
 {
   "setId": "jp3-set-004",
   "title": "問題集3 31-40",
-  "sourceHtml": "udemy/問題集3.html",
+  "sourceHtml": "assets/問題集3.html",
   "questionIds": [
     "jp3-q-031",
     "jp3-q-032",
@@ -60,7 +60,7 @@
     {
       "questionId": "jp3-q-032",
       "sourceQuestionNumber": 32,
-      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは次のAzureリソースを含むサブスクリプションを持っています。</p><p>WebApp1はKV1にデータベースの接続文字列を格納します。</p><p>WebApp1はKV1に対して次のタイプのリクエストを実行します。</p><p>・取得（Get）</p><p>・一覧（List）</p><p>・削除（Delete）</p><p>・暗号化（Encrypt）</p><p>・暗号化解除（Decrypt）</p><p>・バックアップ（Backup）</p><p><br></p><p>あなたは、WebApp1のサービスの継続性を評価しています。</p><p>KV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。</p><p><br></p><p>・KV1 はどこにフェイルオーバーするか</p><p>・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか</p><p><br></p><p><strong>KV1のフェイルオーバー先</strong>はどれか選択してください。</p><p><br></p><p>KV1のフェイルオーバー先：</p><p>フェールオーバーの間、利用できなくなるリクエストタイプ：</p>",
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは次のAzureリソースを含むサブスクリプションを持っています。</p><img src=\"assets/問題集3_files/2023-01-17_05-19-11-e6acacd503dbb7dfae2972c3e3e8b4ba.png\" alt=\"\" loading=\"eager\"><p>WebApp1はKV1にデータベースの接続文字列を格納します。</p><p>WebApp1はKV1に対して次のタイプのリクエストを実行します。</p><p>・取得（Get）</p><p>・一覧（List）</p><p>・削除（Delete）</p><p>・暗号化（Encrypt）</p><p>・暗号化解除（Decrypt）</p><p>・バックアップ（Backup）</p><p><br></p><p>あなたは、WebApp1のサービスの継続性を評価しています。</p><p>KV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。</p><p><br></p><p>・KV1 はどこにフェイルオーバーするか</p><p>・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか</p><p><br></p><p><strong>KV1のフェイルオーバー先</strong>はどれか選択してください。</p><p><br></p><p>KV1のフェイルオーバー先：</p><p>フェールオーバーの間、利用できなくなるリクエストタイプ：</p>",
       "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは次のAzureリソースを含むサブスクリプションを持っています。\nWebApp1はKV1にデータベースの接続文字列を格納します。\nWebApp1はKV1に対して次のタイプのリクエストを実行します。\n・取得（Get）\n・一覧（List）\n・削除（Delete）\n・暗号化（Encrypt）\n・暗号化解除（Decrypt）\n・バックアップ（Backup）\n\nあなたは、WebApp1のサービスの継続性を評価しています。\nKV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。\n\n・KV1 はどこにフェイルオーバーするか\n・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか\n\nKV1のフェイルオーバー先はどれか選択してください。\n\nKV1のフェイルオーバー先：\nフェールオーバーの間、利用できなくなるリクエストタイプ：",
       "choices": [
         {
@@ -93,16 +93,20 @@
       ],
       "explanationHtml": "<p>Key Vaultに格納されるコンテンツは、ペアとなるセカンダリリージョンのサーバーに自動的にレプリケートされます。そして、障害発生時も自動的にセカンダリリージョンにルーティング（フェールオーバー）されます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance\">https://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance</a></p>",
       "explanationText": "Key Vaultに格納されるコンテンツは、ペアとなるセカンダリリージョンのサーバーに自動的にレプリケートされます。そして、障害発生時も自動的にセカンダリリージョンにルーティング（フェールオーバー）されます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-17_05-19-11-e6acacd503dbb7dfae2972c3e3e8b4ba.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-006",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-033",
       "sourceQuestionNumber": 33,
-      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは次のAzureリソースを含むサブスクリプションを持っています。</p><p>WebApp1はKV1にデータベースの接続文字列を格納します。</p><p>WebApp1はKV1に対して次のタイプのリクエストを実行します。</p><p>・取得（Get）</p><p>・一覧（List）</p><p>・削除（Delete）</p><p>・暗号化（Encrypt）</p><p>・暗号化解除（Decrypt）</p><p>・バックアップ（Backup）</p><p><br></p><p>あなたは、WebApp1のサービスの継続性を評価しています。</p><p>KV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。</p><p><br></p><p>・KV1 はどこにフェイルオーバーするか</p><p>・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか</p><p><br></p><p><strong>フェールオーバーの間、利用できなくなるリクエストタイプ</strong>はどれか選択してください。</p><p><br></p><p>KV1のフェイルオーバー先：</p><p>フェールオーバーの間、利用できなくなるリクエストタイプ：</p>",
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは次のAzureリソースを含むサブスクリプションを持っています。</p><img src=\"assets/問題集3_files/2023-01-17_05-22-25-d394415cf98cf639fa38e45680d2f253.png\" alt=\"\" loading=\"eager\"><p>WebApp1はKV1にデータベースの接続文字列を格納します。</p><p>WebApp1はKV1に対して次のタイプのリクエストを実行します。</p><p>・取得（Get）</p><p>・一覧（List）</p><p>・削除（Delete）</p><p>・暗号化（Encrypt）</p><p>・暗号化解除（Decrypt）</p><p>・バックアップ（Backup）</p><p><br></p><p>あなたは、WebApp1のサービスの継続性を評価しています。</p><p>KV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。</p><p><br></p><p>・KV1 はどこにフェイルオーバーするか</p><p>・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか</p><p><br></p><p><strong>フェールオーバーの間、利用できなくなるリクエストタイプ</strong>はどれか選択してください。</p><p><br></p><p>KV1のフェイルオーバー先：</p><p>フェールオーバーの間、利用できなくなるリクエストタイプ：</p>",
       "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは次のAzureリソースを含むサブスクリプションを持っています。\nWebApp1はKV1にデータベースの接続文字列を格納します。\nWebApp1はKV1に対して次のタイプのリクエストを実行します。\n・取得（Get）\n・一覧（List）\n・削除（Delete）\n・暗号化（Encrypt）\n・暗号化解除（Decrypt）\n・バックアップ（Backup）\n\nあなたは、WebApp1のサービスの継続性を評価しています。\nKV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。\n\n・KV1 はどこにフェイルオーバーするか\n・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか\n\nフェールオーバーの間、利用できなくなるリクエストタイプはどれか選択してください。\n\nKV1のフェイルオーバー先：\nフェールオーバーの間、利用できなくなるリクエストタイプ：",
       "choices": [
         {
@@ -141,11 +145,15 @@
       ],
       "explanationHtml": "<p>フェールオーバーの間、Key Vaultは読み取り専用モードになり、「削除」など一部の操作ができなくなります。</p><p>詳細は公式ドキュメントを参照してください。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance\">https://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance</a></p>",
       "explanationText": "フェールオーバーの間、Key Vaultは読み取り専用モードになり、「削除」など一部の操作ができなくなります。\n詳細は公式ドキュメントを参照してください。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-17_05-22-25-d394415cf98cf639fa38e45680d2f253.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-006",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-034",
@@ -193,7 +201,7 @@
     {
       "questionId": "jp3-q-035",
       "sourceQuestionNumber": 35,
-      "promptHtml": "<p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、VirtualWAN1という名前の Basic 仮想WAN と、次の表に示す仮想ハブを持っています。</p><p>あなたは、米国東部リージョンで ExpressRoute回線 を持っています。</p><p>VirtualWAN1 に ExpressRoute の関連付けを作成する必要があります。</p><p>あなたは、まず最初に何をすべきですか。</p>",
+      "promptHtml": "<p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、VirtualWAN1という名前の Basic 仮想WAN と、次の表に示す仮想ハブを持っています。</p><img src=\"assets/問題集3_files/2023-01-26_00-08-21-0664be45b245a7684f42221d1755612b.png\" alt=\"\" loading=\"eager\"><p>あなたは、米国東部リージョンで ExpressRoute回線 を持っています。</p><p>VirtualWAN1 に ExpressRoute の関連付けを作成する必要があります。</p><p>あなたは、まず最初に何をすべきですか。</p>",
       "promptText": "あなたは、Azureサブスクリプションを持っています。\nサブスクリプションには、VirtualWAN1という名前の Basic 仮想WAN と、次の表に示す仮想ハブを持っています。\nあなたは、米国東部リージョンで ExpressRoute回線 を持っています。\nVirtualWAN1 に ExpressRoute の関連付けを作成する必要があります。\nあなたは、まず最初に何をすべきですか。",
       "choices": [
         {
@@ -226,7 +234,9 @@
       ],
       "explanationHtml": "<p>Azure Virtual WAN（仮想WAN）の種類には、Basic、Standardの2種類があります。</p><p>Basicの仮想WANは、サイト間VPN接続にのみ使用することができます。</p><p>ExpressRoute回線を含めるには、Standardにアップグレードする必要がありますので選択肢1が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-about#basicstandard\">https://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-about#basicstandard</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-expressroute-portal\">https://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-expressroute-portal</a></p>",
       "explanationText": "Azure Virtual WAN（仮想WAN）の種類には、Basic、Standardの2種類があります。\nBasicの仮想WANは、サイト間VPN接続にのみ使用することができます。\nExpressRoute回線を含めるには、Standardにアップグレードする必要がありますので選択肢1が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-about#basicstandard\nhttps://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-expressroute-portal",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-26_00-08-21-0664be45b245a7684f42221d1755612b.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -266,9 +276,11 @@
       "correctChoiceIds": [
         "jp3-q-036-c2"
       ],
-      "explanationHtml": "<p>App Serviceの「デプロイスロット」を利用すると、公開されている運用環境（運用スロット）とは別のデプロイスロット（ステージング環境）を使用できます。</p><p><br></p><p>これにより、事前にステージング環境で新しいバージョンのアプリを検証し、問題がなければスロットを切り替えることでダウンタイムなしに安全にデプロイすることができます。</p><p><br></p><p>スロットを切り替えることを「スワップ」と呼びます。</p><p>スワップ後に問題があった場合は再びスロットを切り替えてロールバックすることもできます。</p><p>なお、デプロイスロットの機能は、Standard / Premium / Isolatedのプランで使用することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/deploy-staging-slots\">https://learn.microsoft.com/ja-jp/azure/app-service/deploy-staging-slots</a></p>",
+      "explanationHtml": "<p>App Serviceの「デプロイスロット」を利用すると、公開されている運用環境（運用スロット）とは別のデプロイスロット（ステージング環境）を使用できます。</p><p><br></p><p>これにより、事前にステージング環境で新しいバージョンのアプリを検証し、問題がなければスロットを切り替えることでダウンタイムなしに安全にデプロイすることができます。</p><p><br></p><p>スロットを切り替えることを「スワップ」と呼びます。</p><p>スワップ後に問題があった場合は再びスロットを切り替えてロールバックすることもできます。</p><p>なお、デプロイスロットの機能は、Standard / Premium / Isolatedのプランで使用することができます。</p><img src=\"assets/問題集3_files/2023-02-07_08-32-25-a8278e2479f6c957ce025f80142fd73d.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/deploy-staging-slots\">https://learn.microsoft.com/ja-jp/azure/app-service/deploy-staging-slots</a></p>",
       "explanationText": "App Serviceの「デプロイスロット」を利用すると、公開されている運用環境（運用スロット）とは別のデプロイスロット（ステージング環境）を使用できます。\n\nこれにより、事前にステージング環境で新しいバージョンのアプリを検証し、問題がなければスロットを切り替えることでダウンタイムなしに安全にデプロイすることができます。\n\nスロットを切り替えることを「スワップ」と呼びます。\nスワップ後に問題があった場合は再びスロットを切り替えてロールバックすることもできます。\nなお、デプロイスロットの機能は、Standard / Premium / Isolatedのプランで使用することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/app-service/deploy-staging-slots",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-02-07_08-32-25-a8278e2479f6c957ce025f80142fd73d.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -349,8 +361,10 @@
       "images": [],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-007",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-039",
@@ -385,8 +399,10 @@
       "images": [],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-007",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-040",
@@ -416,9 +432,11 @@
       "correctChoiceIds": [
         "jp3-q-040-c1"
       ],
-      "explanationHtml": "<p><code>・アプリケーションが10台の仮想マシン上で実行されているときのみ認証できること</code></p><p><code>・仮想マシンが削除されると認証できなくなること</code></p><p>この要件を満たすことができるのは選択肢1の「システム割り当てマネージドID」のみです。</p><p>マネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a> には次の2つがあります。</p><p><br></p><p>・システム割り当てマネージドID</p><p>・ユーザー割り当てマネージドID</p><p><br></p><p>システム割り当てマネージドIDは、仮想マシンなどAzureリソースの一部として作成され、仮想マシンが実行されているときのみ認証できます。仮想マシンが削除されると、システム割り当てマネージドIDも削除されます。</p><p><br></p><p>ユーザー割り当てマネージドIDは、独立したAzureリソースとして作成でき、それをAzureリソースに関連付けて使用します。仮想マシン以外のAzureリソースに関連付けてそのIDで認証できるため、この問題の要件を満たすことはできません。</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a></p><p><br></p><p>この2つのマネージドIDの関係を例えるなら、仮想マシンのOSディスクとファイル共有としてマウントできるAzure Storageのようなものです。</p><p>仮想マシンのOSディスクは、必ず単一の仮想マシンに関連付けられ、仮想マシンが実行されている時のみディスクにアクセスできます。親リソースとともに削除される点も同様です。</p><p>ファイル共有は、仮想マシンとは別に独立して作成し、複数の仮想マシンにマウントすることでストレージ領域を使用できます。仮想マシンを削除してもファイル共有自体が削除されることはありません。</p><p><br></p><p>選択肢3も問題の要件を満たすことはできません。</p><p>Microsoft Entra IDにそれぞれのアプリケーションを登録すると、アプリケーション用のIDとしてサービスプリンシパルが発行されます。</p><p>仮想マシンが実行中でなくともこの資格情報を利用して認証することが可能です。</p>",
+      "explanationHtml": "<p><code>・アプリケーションが10台の仮想マシン上で実行されているときのみ認証できること</code></p><p><code>・仮想マシンが削除されると認証できなくなること</code></p><p>この要件を満たすことができるのは選択肢1の「システム割り当てマネージドID」のみです。</p><p>マネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a> には次の2つがあります。</p><p><br></p><p>・システム割り当てマネージドID</p><p>・ユーザー割り当てマネージドID</p><p><br></p><p>システム割り当てマネージドIDは、仮想マシンなどAzureリソースの一部として作成され、仮想マシンが実行されているときのみ認証できます。仮想マシンが削除されると、システム割り当てマネージドIDも削除されます。</p><p><br></p><p>ユーザー割り当てマネージドIDは、独立したAzureリソースとして作成でき、それをAzureリソースに関連付けて使用します。仮想マシン以外のAzureリソースに関連付けてそのIDで認証できるため、この問題の要件を満たすことはできません。</p><p><img src=\"assets/問題集3_files/2023-01-20_01-03-13-8520b2d5abf054b321a674bfa509f6a3.png\" alt=\"\" loading=\"eager\"></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a></p><p><br></p><p>この2つのマネージドIDの関係を例えるなら、仮想マシンのOSディスクとファイル共有としてマウントできるAzure Storageのようなものです。</p><p>仮想マシンのOSディスクは、必ず単一の仮想マシンに関連付けられ、仮想マシンが実行されている時のみディスクにアクセスできます。親リソースとともに削除される点も同様です。</p><p>ファイル共有は、仮想マシンとは別に独立して作成し、複数の仮想マシンにマウントすることでストレージ領域を使用できます。仮想マシンを削除してもファイル共有自体が削除されることはありません。</p><p><br></p><p>選択肢3も問題の要件を満たすことはできません。</p><p>Microsoft Entra IDにそれぞれのアプリケーションを登録すると、アプリケーション用のIDとしてサービスプリンシパルが発行されます。</p><p>仮想マシンが実行中でなくともこの資格情報を利用して認証することが可能です。</p>",
       "explanationText": "・アプリケーションが10台の仮想マシン上で実行されているときのみ認証できること\n・仮想マシンが削除されると認証できなくなること\nこの要件を満たすことができるのは選択肢1の「システム割り当てマネージドID」のみです。\nマネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。\nマネージドIDの種類 には次の2つがあります。\n\n・システム割り当てマネージドID\n・ユーザー割り当てマネージドID\n\nシステム割り当てマネージドIDは、仮想マシンなどAzureリソースの一部として作成され、仮想マシンが実行されているときのみ認証できます。仮想マシンが削除されると、システム割り当てマネージドIDも削除されます。\n\nユーザー割り当てマネージドIDは、独立したAzureリソースとして作成でき、それをAzureリソースに関連付けて使用します。仮想マシン以外のAzureリソースに関連付けてそのIDで認証できるため、この問題の要件を満たすことはできません。\n\n出典：マネージドIDの種類\n\nこの2つのマネージドIDの関係を例えるなら、仮想マシンのOSディスクとファイル共有としてマウントできるAzure Storageのようなものです。\n仮想マシンのOSディスクは、必ず単一の仮想マシンに関連付けられ、仮想マシンが実行されている時のみディスクにアクセスできます。親リソースとともに削除される点も同様です。\nファイル共有は、仮想マシンとは別に独立して作成し、複数の仮想マシンにマウントすることでストレージ領域を使用できます。仮想マシンを削除してもファイル共有自体が削除されることはありません。\n\n選択肢3も問題の要件を満たすことはできません。\nMicrosoft Entra IDにそれぞれのアプリケーションを登録すると、アプリケーション用のIDとしてサービスプリンシパルが発行されます。\n仮想マシンが実行中でなくともこの資格情報を利用して認証することが可能です。",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-20_01-03-13-8520b2d5abf054b321a674bfa509f6a3.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,

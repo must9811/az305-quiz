@@ -1,7 +1,7 @@
 {
   "setId": "jp2-set-004",
   "title": "問題集2 31-40",
-  "sourceHtml": "udemy/問題集2.html",
+  "sourceHtml": "assets/問題集2.html",
   "questionIds": [
     "jp2-q-031",
     "jp2-q-032",
@@ -49,13 +49,20 @@
       "correctChoiceIds": [
         "jp2-q-031-c1"
       ],
-      "explanationHtml": "<p>Azure App ServiceからKey Vaultに保存されているシークレットを参照するには「Key Vault参照」を使います。</p><p>Key Vault参照を使用すると、アプリのコードを変更せず、シークレットを読み取ることができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/app-service-key-vault-references?tabs=azure-cli\">https://learn.microsoft.com/ja-jp/azure/app-service/app-service-key-vault-references?tabs=azure-cli</a></p><p><br></p><p>次のような構成手順になります。詳細は上記のドキュメントを参照してください。</p><p><br></p><p>1.Key Vaultを作成してシークレットを登録する</p><p>2.App ServiceのマネージドIDを有効化する（本問題の要件は\"システム割り当て\"ですが、ユーザー割り当てマネージドIDでもOKです）</p><p><br></p><p>3.Key Vaultのアクセスポリシーで、有効化したマネージドIDに対して「シークレットの取得（Get）」権限を付与する</p><p><br></p><p>4.App Serviceのアプリケーション設定を追加する</p><p>名前はアプリケーションの環境変数名です。シークレットの名前に合わせる必要はありません。</p><p>値の書き方は固有の参照構文で、<code>@Microsoft.KeyVault({referenceString})</code>の形です。詳細はドキュメントを参照。</p><p><br></p><p>アプリケーション設定は、環境変数としてアプリケーション コードに渡される変数です。</p><p>上記設定により、<code>DB_PASSWORD</code>の環境変数でシークレットの値が参照できます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/configure-common?tabs=portal\">https://learn.microsoft.com/ja-jp/azure/app-service/configure-common?tabs=portal</a></p>",
+      "explanationHtml": "<p>Azure App ServiceからKey Vaultに保存されているシークレットを参照するには「Key Vault参照」を使います。</p><p>Key Vault参照を使用すると、アプリのコードを変更せず、シークレットを読み取ることができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/app-service-key-vault-references?tabs=azure-cli\">https://learn.microsoft.com/ja-jp/azure/app-service/app-service-key-vault-references?tabs=azure-cli</a></p><p><br></p><p>次のような構成手順になります。詳細は上記のドキュメントを参照してください。</p><p><br></p><p>1.Key Vaultを作成してシークレットを登録する</p><img src=\"assets/問題集2_files/2023-01-17_03-09-20-f1aed0f0610c0d8ac6e7c724030deb32.png\" alt=\"\" loading=\"eager\"><p>2.App ServiceのマネージドIDを有効化する（本問題の要件は\"システム割り当て\"ですが、ユーザー割り当てマネージドIDでもOKです）</p><img src=\"assets/問題集2_files/2023-01-17_03-09-21-6a44479d99a34ebb58cfa441cdf50f59.png\" alt=\"\" loading=\"eager\"><p><br></p><p>3.Key Vaultのアクセスポリシーで、有効化したマネージドIDに対して「シークレットの取得（Get）」権限を付与する</p><img src=\"assets/問題集2_files/2023-01-17_03-09-21-13ffb941b72e4da9b08cd5eda729e560.png\" alt=\"\" loading=\"eager\"><p><br></p><p>4.App Serviceのアプリケーション設定を追加する</p><p>名前はアプリケーションの環境変数名です。シークレットの名前に合わせる必要はありません。</p><p>値の書き方は固有の参照構文で、<code>@Microsoft.KeyVault({referenceString})</code>の形です。詳細はドキュメントを参照。</p><img src=\"assets/問題集2_files/2023-01-17_03-09-21-da4372d070ddea4b18ebe4beba469877.png\" alt=\"\" loading=\"eager\"><p><br></p><p>アプリケーション設定は、環境変数としてアプリケーション コードに渡される変数です。</p><p>上記設定により、<code>DB_PASSWORD</code>の環境変数でシークレットの値が参照できます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/configure-common?tabs=portal\">https://learn.microsoft.com/ja-jp/azure/app-service/configure-common?tabs=portal</a></p>",
       "explanationText": "Azure App ServiceからKey Vaultに保存されているシークレットを参照するには「Key Vault参照」を使います。\nKey Vault参照を使用すると、アプリのコードを変更せず、シークレットを読み取ることができます。\nhttps://learn.microsoft.com/ja-jp/azure/app-service/app-service-key-vault-references?tabs=azure-cli\n\n次のような構成手順になります。詳細は上記のドキュメントを参照してください。\n\n1.Key Vaultを作成してシークレットを登録する\n2.App ServiceのマネージドIDを有効化する（本問題の要件は\"システム割り当て\"ですが、ユーザー割り当てマネージドIDでもOKです）\n\n3.Key Vaultのアクセスポリシーで、有効化したマネージドIDに対して「シークレットの取得（Get）」権限を付与する\n\n4.App Serviceのアプリケーション設定を追加する\n名前はアプリケーションの環境変数名です。シークレットの名前に合わせる必要はありません。\n値の書き方は固有の参照構文で、@Microsoft.KeyVault({referenceString})の形です。詳細はドキュメントを参照。\n\nアプリケーション設定は、環境変数としてアプリケーション コードに渡される変数です。\n上記設定により、DB_PASSWORDの環境変数でシークレットの値が参照できます。\nhttps://learn.microsoft.com/ja-jp/azure/app-service/configure-common?tabs=portal",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-17_03-09-20-f1aed0f0610c0d8ac6e7c724030deb32.png",
+        "assets/問題集2_files/2023-01-17_03-09-21-6a44479d99a34ebb58cfa441cdf50f59.png",
+        "assets/問題集2_files/2023-01-17_03-09-21-13ffb941b72e4da9b08cd5eda729e560.png",
+        "assets/問題集2_files/2023-01-17_03-09-21-da4372d070ddea4b18ebe4beba469877.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-005",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-032",
@@ -96,8 +103,10 @@
       "images": [],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-005",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-033",
@@ -144,7 +153,7 @@
     {
       "questionId": "jp2-q-034",
       "sourceQuestionNumber": 34,
-      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたのサブスクリプションには、次の表に示されているストレージアカウントがあります。</p><p></p><p>あなたは、次の表に示す要件を持つ2つの新しいアプリを実装する予定です。</p><p><br></p><p><strong>App1</strong>にはどのストレージアカウントを提案すべきですか。</p><p><br></p><p>App1：</p><p>App2：</p>",
+      "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたのサブスクリプションには、次の表に示されているストレージアカウントがあります。</p><p><img src=\"assets/問題集2_files/2023-02-05_08-49-53-ea620a53eefae1a5bc8e56390398a7b1.png\" alt=\"\" loading=\"eager\"></p><p>あなたは、次の表に示す要件を持つ2つの新しいアプリを実装する予定です。</p><img src=\"assets/問題集2_files/2023-02-07_06-08-29-017bcb7ce845f7afdd2aed9ed5189bbb.png\" alt=\"\" loading=\"eager\"><p><br></p><p><strong>App1</strong>にはどのストレージアカウントを提案すべきですか。</p><p><br></p><p>App1：</p><p>App2：</p>",
       "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたのサブスクリプションには、次の表に示されているストレージアカウントがあります。\n\nあなたは、次の表に示す要件を持つ2つの新しいアプリを実装する予定です。\n\nApp1にはどのストレージアカウントを提案すべきですか。\n\nApp1：\nApp2：",
       "choices": [
         {
@@ -175,18 +184,24 @@
       "correctChoiceIds": [
         "jp2-q-034-c2"
       ],
-      "explanationHtml": "<p><code>・ライフサイクル管理を使用してアプリのデータを保存するストレージのアクセス層を移動できること</code></p><p>ライフサイクル管理を使用すると、最終更新日または作成日からの日数に従ってアクセス層を移動させたり、BLOBを削除することができます。</p><p>例えば、30日を経過するとたまにしかアクセスされないようなデータがあった場合、30日経過後にホット → クール層へ自動的に移動させるルールを作成することでコストを節約することができます。</p><p></p><p>ライフサイクル管理は、次のストレージアカウントでサポートされています。</p><p><br></p><p>・Standard 汎用 v2</p><p>・Premium ブロック BLOB</p><p>・Blob Storage（レガシー）</p><p><br></p><p>ただし、<strong>Premium ブロック BLOBはアクセス層をサポートしていないため、</strong>ライフサイクル管理で作成できるルールは「BLOBの削除」のみです（アクセス層を移動させることはできません）</p><p>よって、選択肢2の「Storage1 と Storage3 のみ」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/lifecycle-management-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/lifecycle-management-overview</a></p>",
+      "explanationHtml": "<p><code>・ライフサイクル管理を使用してアプリのデータを保存するストレージのアクセス層を移動できること</code></p><p>ライフサイクル管理を使用すると、最終更新日または作成日からの日数に従ってアクセス層を移動させたり、BLOBを削除することができます。</p><p>例えば、30日を経過するとたまにしかアクセスされないようなデータがあった場合、30日経過後にホット → クール層へ自動的に移動させるルールを作成することでコストを節約することができます。</p><p><img src=\"assets/問題集2_files/2023-01-11_06-23-57-6542fde1e07da366400e3dca053b7595.png\" alt=\"\" loading=\"eager\"></p><p>ライフサイクル管理は、次のストレージアカウントでサポートされています。</p><p><br></p><p>・Standard 汎用 v2</p><p>・Premium ブロック BLOB</p><p>・Blob Storage（レガシー）</p><p><br></p><p>ただし、<strong>Premium ブロック BLOBはアクセス層をサポートしていないため、</strong>ライフサイクル管理で作成できるルールは「BLOBの削除」のみです（アクセス層を移動させることはできません）</p><p>よって、選択肢2の「Storage1 と Storage3 のみ」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/lifecycle-management-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/lifecycle-management-overview</a></p>",
       "explanationText": "・ライフサイクル管理を使用してアプリのデータを保存するストレージのアクセス層を移動できること\nライフサイクル管理を使用すると、最終更新日または作成日からの日数に従ってアクセス層を移動させたり、BLOBを削除することができます。\n例えば、30日を経過するとたまにしかアクセスされないようなデータがあった場合、30日経過後にホット → クール層へ自動的に移動させるルールを作成することでコストを節約することができます。\n\nライフサイクル管理は、次のストレージアカウントでサポートされています。\n\n・Standard 汎用 v2\n・Premium ブロック BLOB\n・Blob Storage（レガシー）\n\nただし、Premium ブロック BLOBはアクセス層をサポートしていないため、ライフサイクル管理で作成できるルールは「BLOBの削除」のみです（アクセス層を移動させることはできません）\nよって、選択肢2の「Storage1 と Storage3 のみ」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/lifecycle-management-overview",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-02-05_08-49-53-ea620a53eefae1a5bc8e56390398a7b1.png",
+        "assets/問題集2_files/2023-02-07_06-08-29-017bcb7ce845f7afdd2aed9ed5189bbb.png",
+        "assets/問題集2_files/2023-01-11_06-23-57-6542fde1e07da366400e3dca053b7595.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-006",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-035",
       "sourceQuestionNumber": 35,
-      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたのサブスクリプションには、次の表に示されているストレージアカウントがあります。</p><p></p><p>あなたは、次の表に示す要件を持つ2つの新しいアプリを実装する予定です。</p><p><br></p><p><strong>App2</strong>にはどのストレージアカウントを提案すべきですか。</p><p><br></p><p>App1：</p><p>App2：</p>",
+      "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたのサブスクリプションには、次の表に示されているストレージアカウントがあります。</p><p><img src=\"assets/問題集2_files/2023-02-05_08-50-16-719c86594589c111ac90ffce065fb740.png\" alt=\"\" loading=\"eager\"></p><p>あなたは、次の表に示す要件を持つ2つの新しいアプリを実装する予定です。</p><img src=\"assets/問題集2_files/2023-02-07_06-09-01-4dd785123a102ed614b1ef4b11a4181d.png\" alt=\"\" loading=\"eager\"><p><br></p><p><strong>App2</strong>にはどのストレージアカウントを提案すべきですか。</p><p><br></p><p>App1：</p><p>App2：</p>",
       "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたのサブスクリプションには、次の表に示されているストレージアカウントがあります。\n\nあなたは、次の表に示す要件を持つ2つの新しいアプリを実装する予定です。\n\nApp2にはどのストレージアカウントを提案すべきですか。\n\nApp1：\nApp2：",
       "choices": [
         {
@@ -217,18 +232,24 @@
       "correctChoiceIds": [
         "jp2-q-035-c2"
       ],
-      "explanationHtml": "<p>Azureファイル共有はHDDベースのStandard（汎用 v2）または、SSDベースのPremiumのストレージアカウントを作成して使うことができます。よって、選択肢2の「Storage1 と Storage4 のみ」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal</a></p>",
+      "explanationHtml": "<p>Azureファイル共有はHDDベースのStandard（汎用 v2）または、SSDベースのPremiumのストレージアカウントを作成して使うことができます。よって、選択肢2の「Storage1 と Storage4 のみ」が正解です。</p><img src=\"assets/問題集2_files/2023-01-11_06-32-10-70e43867dc95faf79580aa07949c782f.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal</a></p>",
       "explanationText": "Azureファイル共有はHDDベースのStandard（汎用 v2）または、SSDベースのPremiumのストレージアカウントを作成して使うことができます。よって、選択肢2の「Storage1 と Storage4 のみ」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\nhttps://learn.microsoft.com/ja-jp/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-02-05_08-50-16-719c86594589c111ac90ffce065fb740.png",
+        "assets/問題集2_files/2023-02-07_06-09-01-4dd785123a102ed614b1ef4b11a4181d.png",
+        "assets/問題集2_files/2023-01-11_06-32-10-70e43867dc95faf79580aa07949c782f.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-006",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-036",
       "sourceQuestionNumber": 36,
-      "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。</p><p>このソリューションには、次のコンポーネントが含まれます。</p><p><br></p><p>SQL Server 2016を実行する2台の仮想マシン：</p><p>同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります</p><p><br></p><p>SQL Serverのバックアップ：</p><p>SQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます</p><p><br></p><p>コンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。</p><p><br></p><p><strong>オペレーションシステム</strong>にはどのストレージタイプを提案すべきですか。</p><p><br></p><p>オペレーションシステム：</p><p>データベースファイル（mdf、ldf）：</p><p>バックアップ：</p>",
+      "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。</p><p>このソリューションには、次のコンポーネントが含まれます。</p><p><br></p><p>SQL Server 2016を実行する2台の仮想マシン：</p><p>同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります</p><p><br></p><p>SQL Serverのバックアップ：</p><p>SQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます</p><p><br></p><p>コンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。</p><img src=\"assets/問題集2_files/2023-01-12_01-17-56-95eff2fede88bcecdaa32abe2e1c1637.png\" alt=\"\" loading=\"eager\"><p><br></p><p><strong>オペレーションシステム</strong>にはどのストレージタイプを提案すべきですか。</p><p><br></p><p>オペレーションシステム：</p><p>データベースファイル（mdf、ldf）：</p><p>バックアップ：</p>",
       "promptText": "注：この問題は次とその次の問題と3問1セットです。\n\nあなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。\nこのソリューションには、次のコンポーネントが含まれます。\n\nSQL Server 2016を実行する2台の仮想マシン：\n同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります\n\nSQL Serverのバックアップ：\nSQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます\n\nコンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。\n\nオペレーションシステムにはどのストレージタイプを提案すべきですか。\n\nオペレーションシステム：\nデータベースファイル（mdf、ldf）：\nバックアップ：",
       "choices": [
         {
@@ -261,7 +282,9 @@
       ],
       "explanationHtml": "<p>仮想マシンのローカルディスク向けのストレージにはマネージドディスクがデプロイされます。</p><p>StandardよりPremiumのほうが性能、可用性が高いため選択肢3が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/managed-disks-overview\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/managed-disks-overview</a></p><p><br></p>",
       "explanationText": "仮想マシンのローカルディスク向けのストレージにはマネージドディスクがデプロイされます。\nStandardよりPremiumのほうが性能、可用性が高いため選択肢3が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machines/managed-disks-overview",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-12_01-17-56-95eff2fede88bcecdaa32abe2e1c1637.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -270,7 +293,7 @@
     {
       "questionId": "jp2-q-037",
       "sourceQuestionNumber": 37,
-      "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。</p><p>このソリューションには、次のコンポーネントが含まれます。</p><p><br></p><p>SQL Server 2016を実行する2台の仮想マシン：</p><p>同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります</p><p><br></p><p>SQL Serverのバックアップ：</p><p>SQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます</p><p><br></p><p>コンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。</p><p><br></p><p><strong>データベースファイル（mdf、ldf）</strong>にはどのストレージタイプを提案すべきですか。</p><p><br></p><p>オペレーションシステム：</p><p>データベースファイル（mdf、ldf）：</p><p>バックアップ：</p>",
+      "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。</p><p>このソリューションには、次のコンポーネントが含まれます。</p><p><br></p><p>SQL Server 2016を実行する2台の仮想マシン：</p><p>同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります</p><p><br></p><p>SQL Serverのバックアップ：</p><p>SQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます</p><p><br></p><p>コンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。</p><img src=\"assets/問題集2_files/2023-01-12_01-38-21-cd5a429bf694d6922b89fd1ebf622990.png\" alt=\"\" loading=\"eager\"><p><br></p><p><strong>データベースファイル（mdf、ldf）</strong>にはどのストレージタイプを提案すべきですか。</p><p><br></p><p>オペレーションシステム：</p><p>データベースファイル（mdf、ldf）：</p><p>バックアップ：</p>",
       "promptText": "注：この問題は前と次の問題と3問1セットです。\n\nあなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。\nこのソリューションには、次のコンポーネントが含まれます。\n\nSQL Server 2016を実行する2台の仮想マシン：\n同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります\n\nSQL Serverのバックアップ：\nSQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます\n\nコンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。\n\nデータベースファイル（mdf、ldf）にはどのストレージタイプを提案すべきですか。\n\nオペレーションシステム：\nデータベースファイル（mdf、ldf）：\nバックアップ：",
       "choices": [
         {
@@ -303,7 +326,9 @@
       ],
       "explanationHtml": "<p>SQLServerのデータベースファイル（mdf、ldf）の保存先として次の選択肢があります。</p><p>・マネージドディスク（データディスク）※OSディスク内への保存は非推奨</p><p>・ページBLOB</p><p><br></p><p>GRSの汎用 v2 ストレージアカウントにページBLOBとして保存する方法もありますが、性能の要件を考慮すると選択肢3の「Premium マネージド ディスク」が適切です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/managed-disks-overview\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/managed-disks-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/relational-databases/databases/sql-server-data-files-in-microsoft-azure?view=sql-server-ver16\">https://learn.microsoft.com/ja-jp/sql/relational-databases/databases/sql-server-data-files-in-microsoft-azure?view=sql-server-ver16</a></p>",
       "explanationText": "SQLServerのデータベースファイル（mdf、ldf）の保存先として次の選択肢があります。\n・マネージドディスク（データディスク）※OSディスク内への保存は非推奨\n・ページBLOB\n\nGRSの汎用 v2 ストレージアカウントにページBLOBとして保存する方法もありますが、性能の要件を考慮すると選択肢3の「Premium マネージド ディスク」が適切です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machines/managed-disks-overview\nhttps://learn.microsoft.com/ja-jp/sql/relational-databases/databases/sql-server-data-files-in-microsoft-azure?view=sql-server-ver16",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-12_01-38-21-cd5a429bf694d6922b89fd1ebf622990.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -312,7 +337,7 @@
     {
       "questionId": "jp2-q-038",
       "sourceQuestionNumber": 38,
-      "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。</p><p>このソリューションには、次のコンポーネントが含まれます。</p><p><br></p><p>SQL Server 2016を実行する2台の仮想マシン：</p><p>同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります</p><p><br></p><p>SQL Serverのバックアップ：</p><p>SQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます</p><p><br></p><p>コンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。</p><p><br></p><p><strong>バックアップ</strong>にはどのストレージタイプを提案すべきですか。</p><p><br></p><p>オペレーションシステム：</p><p>データベースファイル（mdf、ldf）：</p><p>バックアップ：</p>",
+      "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。</p><p>このソリューションには、次のコンポーネントが含まれます。</p><p><br></p><p>SQL Server 2016を実行する2台の仮想マシン：</p><p>同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります</p><p><br></p><p>SQL Serverのバックアップ：</p><p>SQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます</p><p><br></p><p>コンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。</p><img src=\"assets/問題集2_files/2023-01-12_01-54-08-779e6032f58bf43e864259f5dedac1e7.png\" alt=\"\" loading=\"eager\"><p><br></p><p><strong>バックアップ</strong>にはどのストレージタイプを提案すべきですか。</p><p><br></p><p>オペレーションシステム：</p><p>データベースファイル（mdf、ldf）：</p><p>バックアップ：</p>",
       "promptText": "注：この問題は前とその前の問題と3問1セットです。\n\nあなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。\nこのソリューションには、次のコンポーネントが含まれます。\n\nSQL Server 2016を実行する2台の仮想マシン：\n同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります\n\nSQL Serverのバックアップ：\nSQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます\n\nコンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。\n\nバックアップにはどのストレージタイプを提案すべきですか。\n\nオペレーションシステム：\nデータベースファイル（mdf、ldf）：\nバックアップ：",
       "choices": [
         {
@@ -343,9 +368,12 @@
       "correctChoiceIds": [
         "jp2-q-038-c2"
       ],
-      "explanationHtml": "<p>SQL Server IaaS Agent 拡張機能 の自動バックアップを利用すると、週次や日次など決められたスケジュールに応じてSQLServerのバックアップをスケジュールできます。</p><p><br></p><p>自動バックアップのファイルはストレージアカウントのBLOBストレージに保存されます。</p><p>選択肢1、2が候補になりますが、コストを抑えるためには選択肢2のローカル冗長ストレージ (LRS) を選択します（GRSの場合、保存コストが約2倍になり、かつ、リージョン間のデータ転送料が余分にかかります）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/automated-backup?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/automated-backup?view=azuresql</a></p>",
+      "explanationHtml": "<p>SQL Server IaaS Agent 拡張機能 の自動バックアップを利用すると、週次や日次など決められたスケジュールに応じてSQLServerのバックアップをスケジュールできます。</p><img src=\"assets/問題集2_files/2023-02-07_07-03-04-924ffd4490600b4f238417c38a057198.png\" alt=\"\" loading=\"eager\"><p><br></p><p>自動バックアップのファイルはストレージアカウントのBLOBストレージに保存されます。</p><p>選択肢1、2が候補になりますが、コストを抑えるためには選択肢2のローカル冗長ストレージ (LRS) を選択します（GRSの場合、保存コストが約2倍になり、かつ、リージョン間のデータ転送料が余分にかかります）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/automated-backup?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/automated-backup?view=azuresql</a></p>",
       "explanationText": "SQL Server IaaS Agent 拡張機能 の自動バックアップを利用すると、週次や日次など決められたスケジュールに応じてSQLServerのバックアップをスケジュールできます。\n\n自動バックアップのファイルはストレージアカウントのBLOBストレージに保存されます。\n選択肢1、2が候補になりますが、コストを抑えるためには選択肢2のローカル冗長ストレージ (LRS) を選択します（GRSの場合、保存コストが約2倍になり、かつ、リージョン間のデータ転送料が余分にかかります）\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/automated-backup?view=azuresql",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-12_01-54-08-779e6032f58bf43e864259f5dedac1e7.png",
+        "assets/問題集2_files/2023-02-07_07-03-04-924ffd4490600b4f238417c38a057198.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -354,7 +382,7 @@
     {
       "questionId": "jp2-q-039",
       "sourceQuestionNumber": 39,
-      "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、次の表に示すリソースが含まれています。</p><p><br></p><p><br></p><p>あなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>SQLdb1の監査を有効にすると、storage1に監査ログを保存することができます</p>",
+      "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、次の表に示すリソースが含まれています。</p><p><br></p><img src=\"assets/問題集2_files/2023-01-25_01-13-41-5c4ed22a7ed358d2f71b85dc1cc87933.png\" alt=\"\" loading=\"eager\"><p><br></p><p>あなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>SQLdb1の監査を有効にすると、storage1に監査ログを保存することができます</p>",
       "promptText": "注：この問題は次とその次の問題と3問1セットです。\n\nあなたは、Azureサブスクリプションを持っています。\nサブスクリプションには、次の表に示すリソースが含まれています。\n\nあなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nSQLdb1の監査を有効にすると、storage1に監査ログを保存することができます",
       "choices": [
         {
@@ -373,9 +401,12 @@
       "correctChoiceIds": [
         "jp2-q-039-c1"
       ],
-      "explanationHtml": "<p>SQL Databaseの監査ログは、Azureポータルの「監査」から有効にできます。</p><p>保存先として次のいずれか（複数可）を選択することができます。</p><p>・ストレージアカウント</p><p>・Log Analytics ワークスペース</p><p>・イベントハブ</p><p></p><p><br></p><p>本問題はストレージアカウントへの保存可否についての質問です。</p><p>Azureポータルからデプロイする場合、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。他の方法でデプロイする場合は、別のリージョンでもかまいません。</p><p><br></p><p>SQLdb1は米国東部にあり、storage1も米国東部にあります。</p><p>よって、SQLdb1の監査ログをstorage1に保存することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/auditing-overview?view=azuresql#audit-storage-destination\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/auditing-overview?view=azuresql#audit-storage-destination</a> </p>",
+      "explanationHtml": "<p>SQL Databaseの監査ログは、Azureポータルの「監査」から有効にできます。</p><p>保存先として次のいずれか（複数可）を選択することができます。</p><p>・ストレージアカウント</p><p>・Log Analytics ワークスペース</p><p>・イベントハブ</p><p><img src=\"assets/問題集2_files/2023-01-25_01-13-42-fb6bd8f352bf6951c2502bd9a6461bfb.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>本問題はストレージアカウントへの保存可否についての質問です。</p><p>Azureポータルからデプロイする場合、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。他の方法でデプロイする場合は、別のリージョンでもかまいません。</p><p><br></p><p>SQLdb1は米国東部にあり、storage1も米国東部にあります。</p><p>よって、SQLdb1の監査ログをstorage1に保存することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/auditing-overview?view=azuresql#audit-storage-destination\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/auditing-overview?view=azuresql#audit-storage-destination</a> </p>",
       "explanationText": "SQL Databaseの監査ログは、Azureポータルの「監査」から有効にできます。\n保存先として次のいずれか（複数可）を選択することができます。\n・ストレージアカウント\n・Log Analytics ワークスペース\n・イベントハブ\n\n本問題はストレージアカウントへの保存可否についての質問です。\nAzureポータルからデプロイする場合、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。他の方法でデプロイする場合は、別のリージョンでもかまいません。\n\nSQLdb1は米国東部にあり、storage1も米国東部にあります。\nよって、SQLdb1の監査ログをstorage1に保存することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/auditing-overview?view=azuresql#audit-storage-destination",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-25_01-13-41-5c4ed22a7ed358d2f71b85dc1cc87933.png",
+        "assets/問題集2_files/2023-01-25_01-13-42-fb6bd8f352bf6951c2502bd9a6461bfb.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -384,7 +415,7 @@
     {
       "questionId": "jp2-q-040",
       "sourceQuestionNumber": 40,
-      "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、次の表に示すリソースが含まれています。</p><p><br></p><p><br></p><p>あなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>SQLdb2の監査を有効にすると、storage2に監査ログを保存することができます</p>",
+      "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、次の表に示すリソースが含まれています。</p><p><br></p><img src=\"assets/問題集2_files/2023-01-25_01-18-06-7ffb43a9f65243462e54520a1be81762.png\" alt=\"\" loading=\"eager\"><p><br></p><p>あなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>SQLdb2の監査を有効にすると、storage2に監査ログを保存することができます</p>",
       "promptText": "注：この問題は前と次の問題と3問1セットです。\n\nあなたは、Azureサブスクリプションを持っています。\nサブスクリプションには、次の表に示すリソースが含まれています。\n\nあなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nSQLdb2の監査を有効にすると、storage2に監査ログを保存することができます",
       "choices": [
         {
@@ -405,7 +436,9 @@
       ],
       "explanationHtml": "<p>前の問題の解説の通り、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。</p><p><br></p><p>SQLdb2は米国東部にありますが、storage2は米国中部にあるためリージョンが異なっています。</p><p>よって、SQLdb2の監査ログをstorage2に保存することはできません。</p>",
       "explanationText": "前の問題の解説の通り、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。\n\nSQLdb2は米国東部にありますが、storage2は米国中部にあるためリージョンが異なっています。\nよって、SQLdb2の監査ログをstorage2に保存することはできません。",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-25_01-18-06-7ffb43a9f65243462e54520a1be81762.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,

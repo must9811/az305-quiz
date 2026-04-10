@@ -5,9 +5,11 @@
     getQuestionState,
     getQuestionStates,
     getReports,
+    getSetAttemptState,
     getSession,
     saveReport,
     saveSession,
+    updateSetAttemptState,
     updateQuestionState,
   } = window.QuizStorage;
   const {
@@ -146,6 +148,23 @@
       .map((set) => {
         const markedCount = countMarkedQuestionsForSet(set, questionStates);
         const wrongCount = (reports[set.setId]?.wrongQuestionIds ?? []).length;
+        const attemptState = getSetAttemptState(set.setId);
+        const attemptHtml = attemptState
+          .map(
+            (checked, index) => `
+              <label class="attempt-checkbox">
+                <input
+                  type="checkbox"
+                  data-action="toggle-set-attempt"
+                  data-set-id="${set.setId}"
+                  data-attempt-index="${index}"
+                  ${checked ? "checked" : ""}
+                />
+                <span>${index + 1}回目</span>
+              </label>
+            `,
+          )
+          .join("");
 
         return `
           <article class="panel selection-card">
@@ -162,6 +181,10 @@
               <span class="stat-pill">画像 ${set.hasImages ? "あり" : "なし"}</span>
               <span class="stat-pill">マーク済み ${markedCount}</span>
               <span class="stat-pill">直近誤答 ${wrongCount}</span>
+            </div>
+            <div class="attempt-row">
+              <span class="section-subtle">学習回数</span>
+              <div class="attempt-checklist">${attemptHtml}</div>
             </div>
             <div class="action-row">
               <button class="button button-primary button-block" data-action="start-mode" data-set-id="${set.setId}" data-mode="normal">通常で開始</button>
@@ -200,6 +223,16 @@
           state.notice = error.message;
           renderSelectionScreen();
         }
+      });
+    });
+
+    app.querySelectorAll('[data-action="toggle-set-attempt"]').forEach((input) => {
+      input.addEventListener("change", () => {
+        updateSetAttemptState(
+          input.dataset.setId,
+          Number(input.dataset.attemptIndex),
+          input.checked,
+        );
       });
     });
 

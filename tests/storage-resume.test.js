@@ -4,6 +4,27 @@ const { describe, test } = require("node:test");
 const { createLocalStorage, loadQuizEnvironment } = require("./test-helpers");
 
 describe("storage and resume", () => {
+  describe("set attempts", () => {
+    test("setId ごとの学習回数チェックを保存できる", () => {
+      const { QuizStorage } = loadQuizEnvironment({
+        localStorage: createLocalStorage(),
+      });
+
+      QuizStorage.updateSetAttemptState("set-001", 0, true);
+      QuizStorage.updateSetAttemptState("set-001", 2, true);
+
+      assert.deepEqual(QuizStorage.getSetAttemptState("set-001"), [true, false, true]);
+    });
+
+    test("未保存のセットは 3 つとも未チェックで復元する", () => {
+      const { QuizStorage } = loadQuizEnvironment({
+        localStorage: createLocalStorage(),
+      });
+
+      assert.deepEqual(QuizStorage.getSetAttemptState("set-999"), [false, false, false]);
+    });
+  });
+
   describe("question state", () => {
     test.todo("問題ごとの marked 状態を保存できる");
     test.todo("問題ごとの lastAnswerStatus を保存できる");

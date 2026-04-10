@@ -1,7 +1,7 @@
 {
   "setId": "jp2-set-003",
   "title": "問題集2 21-30",
-  "sourceHtml": "udemy/問題集2.html",
+  "sourceHtml": "assets/問題集2.html",
   "questionIds": [
     "jp2-q-021",
     "jp2-q-022",
@@ -49,9 +49,11 @@
       "correctChoiceIds": [
         "jp2-q-021-c3"
       ],
-      "explanationHtml": "<p>Azure Blueprintsは、Azure Policyやロール（RBAC）などの割り当て定義をテンプレート化して、複数のサブスクリプションに適用および監査・追跡するための仕組みです。</p><p><br></p><p>Azure Blueprints では、ブループリント定義（何をデプロイする<em>必要がある</em>か）とブループリント割り当て（何がデプロイ<em>された</em>か）の間の関係が維持されます。</p><p>複数の環境への同じリソースセットの展開を効率化する点はARMテンプレートと似ていますが、Azure Blueprintsでは関係性の維持によってデプロイの追跡がしやすく監査の観点でもメリットがあると言えます。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview</a></p>",
+      "explanationHtml": "<p>Azure Blueprintsは、Azure Policyやロール（RBAC）などの割り当て定義をテンプレート化して、複数のサブスクリプションに適用および監査・追跡するための仕組みです。</p><p><br></p><p>Azure Blueprints では、ブループリント定義（何をデプロイする<em>必要がある</em>か）とブループリント割り当て（何がデプロイ<em>された</em>か）の間の関係が維持されます。</p><p>複数の環境への同じリソースセットの展開を効率化する点はARMテンプレートと似ていますが、Azure Blueprintsでは関係性の維持によってデプロイの追跡がしやすく監査の観点でもメリットがあると言えます。</p><img src=\"assets/問題集2_files/2023-01-26_01-24-42-4ed33160aa97088efd9575cf5b69c0b3.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview</a></p>",
       "explanationText": "Azure Blueprintsは、Azure Policyやロール（RBAC）などの割り当て定義をテンプレート化して、複数のサブスクリプションに適用および監査・追跡するための仕組みです。\n\nAzure Blueprints では、ブループリント定義（何をデプロイする必要があるか）とブループリント割り当て（何がデプロイされたか）の間の関係が維持されます。\n複数の環境への同じリソースセットの展開を効率化する点はARMテンプレートと似ていますが、Azure Blueprintsでは関係性の維持によってデプロイの追跡がしやすく監査の観点でもメリットがあると言えます。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-26_01-24-42-4ed33160aa97088efd9575cf5b69c0b3.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -127,13 +129,18 @@
       "correctChoiceIds": [
         "jp2-q-023-c1"
       ],
-      "explanationHtml": "<p>まず、前提知識を少し解説します。</p><p><code>あなたは、Microsoft Entra認証を使用するApp1という名前のAzure Webアプリをデプロイする予定です。</code></p><p>Azure App ServiceのMicrosoft Entra認証（組み込み認証）を使うと、アプリのコードにログインの仕組みを実装することなく、Microsoft Entra IDと連携して認証できるようになります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/configure-authentication-provider-aad\">https://learn.microsoft.com/ja-jp/azure/app-service/configure-authentication-provider-aad</a></p><p><br></p><p>Microsoft Entra認証を構成するには、App Serviceの認証メニューで「ID プロバイダーの追加」の追加をクリックします。IDプロバイダーには「Microsoft」を選択します。</p><p></p><p>この操作により、自動的にMicrosoft Entra アプリとして登録され、Microsoft Entra認証が使用できるようになります。</p><p></p><p><br></p><p><code>・ユーザーは認証を要求されることなくApp1に接続できること </code></p><p>前述のとおりMicrosoft Entra認証を構成している場合、同じテナントのMicrosoft Entraに参加しているパソコンからであれば、認証を求められることなくAzure App Serviceに接続することができます。</p><p><br></p><p>Microsoft Entra認証の構成手順は簡素化されていますが、使用するには「Microsoft Entraへのアプリの登録」が必要なので選択肢1が正解です。</p>",
+      "explanationHtml": "<p>まず、前提知識を少し解説します。</p><p><code>あなたは、Microsoft Entra認証を使用するApp1という名前のAzure Webアプリをデプロイする予定です。</code></p><p>Azure App ServiceのMicrosoft Entra認証（組み込み認証）を使うと、アプリのコードにログインの仕組みを実装することなく、Microsoft Entra IDと連携して認証できるようになります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/configure-authentication-provider-aad\">https://learn.microsoft.com/ja-jp/azure/app-service/configure-authentication-provider-aad</a></p><p><br></p><p>Microsoft Entra認証を構成するには、App Serviceの認証メニューで「ID プロバイダーの追加」の追加をクリックします。IDプロバイダーには「Microsoft」を選択します。</p><p><img src=\"assets/問題集2_files/2023-01-17_06-02-45-9c3279f7441eb07aeb5d4c22d2e96952.png\" alt=\"\" loading=\"eager\"></p><p>この操作により、自動的にMicrosoft Entra アプリとして登録され、Microsoft Entra認証が使用できるようになります。</p><p><img src=\"assets/問題集2_files/2023-01-17_06-02-46-0c2eda70006719608b2427bd6f5dffba.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p><code>・ユーザーは認証を要求されることなくApp1に接続できること </code></p><p>前述のとおりMicrosoft Entra認証を構成している場合、同じテナントのMicrosoft Entraに参加しているパソコンからであれば、認証を求められることなくAzure App Serviceに接続することができます。</p><p><br></p><p>Microsoft Entra認証の構成手順は簡素化されていますが、使用するには「Microsoft Entraへのアプリの登録」が必要なので選択肢1が正解です。</p>",
       "explanationText": "まず、前提知識を少し解説します。\nあなたは、Microsoft Entra認証を使用するApp1という名前のAzure Webアプリをデプロイする予定です。\nAzure App ServiceのMicrosoft Entra認証（組み込み認証）を使うと、アプリのコードにログインの仕組みを実装することなく、Microsoft Entra IDと連携して認証できるようになります。\nhttps://learn.microsoft.com/ja-jp/azure/app-service/configure-authentication-provider-aad\n\nMicrosoft Entra認証を構成するには、App Serviceの認証メニューで「ID プロバイダーの追加」の追加をクリックします。IDプロバイダーには「Microsoft」を選択します。\n\nこの操作により、自動的にMicrosoft Entra アプリとして登録され、Microsoft Entra認証が使用できるようになります。\n\n・ユーザーは認証を要求されることなくApp1に接続できること\n前述のとおりMicrosoft Entra認証を構成している場合、同じテナントのMicrosoft Entraに参加しているパソコンからであれば、認証を求められることなくAzure App Serviceに接続することができます。\n\nMicrosoft Entra認証の構成手順は簡素化されていますが、使用するには「Microsoft Entraへのアプリの登録」が必要なので選択肢1が正解です。",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-17_06-02-45-9c3279f7441eb07aeb5d4c22d2e96952.png",
+        "assets/問題集2_files/2023-01-17_06-02-46-0c2eda70006719608b2427bd6f5dffba.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-003",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-024",
@@ -175,13 +182,18 @@
       "correctChoiceIds": [
         "jp2-q-024-c1"
       ],
-      "explanationHtml": "<p><code>・会社が所有するパソコンからのみApp1にアクセスできること</code> </p><p>ユーザーやデバイスの状態など様々なシグナルに基づいてリソースにアクセスできるかどうかを制御するには「条件付きアクセス」を使用します。</p><p><br></p><p>一般的には、パソコンなどのデバイス管理は「Microsoft Intune」というサービスで管理されます。</p><p>企業のパソコンがIntuneに登録され「会社所有」としてマークされている場合、条件付きアクセスではデバイスフィルターを使ってアクセス許可/拒否する条件を絞り込むことができます。</p><p></p><p>他にも、デバイスがIntuneで定められたルールに準拠していることや、Microsoft Entra ハイブリッド参加が構成済みであることなどを条件にすることもできます。</p><p>条件を満たさない場合、例えば次のようなメッセージが表示されます。</p><p><a href=\"https://jpazureid.github.io/blog/azure-active-directory/conditional-cannot-access-rightnow\">https://jpazureid.github.io/blog/azure-active-directory/conditional-cannot-access-rightnow</a></p><p></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/mem/intune/enrollment/device-enrollment\">https://learn.microsoft.com/ja-jp/mem/intune/enrollment/device-enrollment</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-condition-filters-for-devices\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-condition-filters-for-devices</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant</a></p>",
+      "explanationHtml": "<p><code>・会社が所有するパソコンからのみApp1にアクセスできること</code> </p><p>ユーザーやデバイスの状態など様々なシグナルに基づいてリソースにアクセスできるかどうかを制御するには「条件付きアクセス」を使用します。</p><p><br></p><p>一般的には、パソコンなどのデバイス管理は「Microsoft Intune」というサービスで管理されます。</p><p>企業のパソコンがIntuneに登録され「会社所有」としてマークされている場合、条件付きアクセスではデバイスフィルターを使ってアクセス許可/拒否する条件を絞り込むことができます。</p><p><img src=\"assets/問題集2_files/2023-01-18_01-32-11-24299fdb8f44fbdc59eebd3f05d4fbe1.png\" alt=\"\" loading=\"eager\"></p><p>他にも、デバイスがIntuneで定められたルールに準拠していることや、Microsoft Entra ハイブリッド参加が構成済みであることなどを条件にすることもできます。</p><p>条件を満たさない場合、例えば次のようなメッセージが表示されます。</p><p><a href=\"https://jpazureid.github.io/blog/azure-active-directory/conditional-cannot-access-rightnow\">https://jpazureid.github.io/blog/azure-active-directory/conditional-cannot-access-rightnow</a></p><p><img src=\"assets/問題集2_files/2023-01-18_01-32-11-4ff244c7691c10286c4f87d46cb296e0.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/mem/intune/enrollment/device-enrollment\">https://learn.microsoft.com/ja-jp/mem/intune/enrollment/device-enrollment</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-condition-filters-for-devices\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-condition-filters-for-devices</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant</a></p>",
       "explanationText": "・会社が所有するパソコンからのみApp1にアクセスできること\nユーザーやデバイスの状態など様々なシグナルに基づいてリソースにアクセスできるかどうかを制御するには「条件付きアクセス」を使用します。\n\n一般的には、パソコンなどのデバイス管理は「Microsoft Intune」というサービスで管理されます。\n企業のパソコンがIntuneに登録され「会社所有」としてマークされている場合、条件付きアクセスではデバイスフィルターを使ってアクセス許可/拒否する条件を絞り込むことができます。\n\n他にも、デバイスがIntuneで定められたルールに準拠していることや、Microsoft Entra ハイブリッド参加が構成済みであることなどを条件にすることもできます。\n条件を満たさない場合、例えば次のようなメッセージが表示されます。\nhttps://jpazureid.github.io/blog/azure-active-directory/conditional-cannot-access-rightnow\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/mem/intune/enrollment/device-enrollment\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-condition-filters-for-devices\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-18_01-32-11-24299fdb8f44fbdc59eebd3f05d4fbe1.png",
+        "assets/問題集2_files/2023-01-18_01-32-11-4ff244c7691c10286c4f87d46cb296e0.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-003",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-025",
@@ -252,8 +264,10 @@
       "images": [],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-004",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-027",
@@ -282,8 +296,10 @@
       "images": [],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-004",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-028",
@@ -361,13 +377,17 @@
       "correctChoiceIds": [
         "jp2-q-029-c1"
       ],
-      "explanationHtml": "<p><code>・スケールアップとスケールダウンをサポートすること</code></p><p><code>・地理的に冗長なバックアップをサポートすること</code></p><p>この要件からAzure SQL Databaseか、Azure SQL Managed Instanceが候補になりますが、<code>・最大 100 TB のデータベースをサポートすること</code> の要件を満たせるのは Azure SQL Database の Hyperscale のみです。</p><p>Hyperscaleでは、データベースを構成するときに最大データ サイズを指定する必要はなく、10 GB から 100 TB までの間 (必要に応じて 10 GB 単位で増分) で自動的に割り当てられます。</p><p><br></p><p>Azure SQL Databaseのデプロイオプションと最大ストレージサイズなどをまとめると次のとおりです。</p><p>将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。</p><p><br></p><p><code>・オンライントランザクション処理（OLTP）に最適化されていること</code></p><p>選択肢3のAzure Synapse Analytics は、データ統合、データ ウェアハウス、ビッグデータ分析が一つになった制限のない分析サービスです。</p><p>読み取りと書き込みの頻度が高い場合などOLTPワークロードでは、Azure Synapse Analytics は適していません。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/synapse-analytics/migration-guides/migrate-to-synapse-analytics-guide\">https://learn.microsoft.com/ja-jp/azure/synapse-analytics/migration-guides/migrate-to-synapse-analytics-guide</a></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/service-tier-hyperscale?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/service-tier-hyperscale?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-vcore-single-databases?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-vcore-single-databases?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/resource-limits?view=azuresql#hardware-configuration-characteristics\">https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/resource-limits?view=azuresql#hardware-configuration-characteristics</a></p>",
+      "explanationHtml": "<p><code>・スケールアップとスケールダウンをサポートすること</code></p><p><code>・地理的に冗長なバックアップをサポートすること</code></p><p>この要件からAzure SQL Databaseか、Azure SQL Managed Instanceが候補になりますが、<code>・最大 100 TB のデータベースをサポートすること</code> の要件を満たせるのは Azure SQL Database の Hyperscale のみです。</p><p>Hyperscaleでは、データベースを構成するときに最大データ サイズを指定する必要はなく、10 GB から 100 TB までの間 (必要に応じて 10 GB 単位で増分) で自動的に割り当てられます。</p><p><br></p><p>Azure SQL Databaseのデプロイオプションと最大ストレージサイズなどをまとめると次のとおりです。</p><p>将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。</p><img src=\"assets/問題集2_files/2023-02-06_08-09-36-88dd1e23692ccb19ec8b1155335f1538.png\" alt=\"\" loading=\"eager\"><p><br></p><p><code>・オンライントランザクション処理（OLTP）に最適化されていること</code></p><p>選択肢3のAzure Synapse Analytics は、データ統合、データ ウェアハウス、ビッグデータ分析が一つになった制限のない分析サービスです。</p><p>読み取りと書き込みの頻度が高い場合などOLTPワークロードでは、Azure Synapse Analytics は適していません。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/synapse-analytics/migration-guides/migrate-to-synapse-analytics-guide\">https://learn.microsoft.com/ja-jp/azure/synapse-analytics/migration-guides/migrate-to-synapse-analytics-guide</a></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/service-tier-hyperscale?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/service-tier-hyperscale?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-vcore-single-databases?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-vcore-single-databases?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/resource-limits?view=azuresql#hardware-configuration-characteristics\">https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/resource-limits?view=azuresql#hardware-configuration-characteristics</a></p>",
       "explanationText": "・スケールアップとスケールダウンをサポートすること\n・地理的に冗長なバックアップをサポートすること\nこの要件からAzure SQL Databaseか、Azure SQL Managed Instanceが候補になりますが、・最大 100 TB のデータベースをサポートすること の要件を満たせるのは Azure SQL Database の Hyperscale のみです。\nHyperscaleでは、データベースを構成するときに最大データ サイズを指定する必要はなく、10 GB から 100 TB までの間 (必要に応じて 10 GB 単位で増分) で自動的に割り当てられます。\n\nAzure SQL Databaseのデプロイオプションと最大ストレージサイズなどをまとめると次のとおりです。\n将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。\n\n・オンライントランザクション処理（OLTP）に最適化されていること\n選択肢3のAzure Synapse Analytics は、データ統合、データ ウェアハウス、ビッグデータ分析が一つになった制限のない分析サービスです。\n読み取りと書き込みの頻度が高い場合などOLTPワークロードでは、Azure Synapse Analytics は適していません。\nhttps://learn.microsoft.com/ja-jp/azure/synapse-analytics/migration-guides/migrate-to-synapse-analytics-guide\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/service-tier-hyperscale?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-vcore-single-databases?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/resource-limits?view=azuresql#hardware-configuration-characteristics",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-02-06_08-09-36-88dd1e23692ccb19ec8b1155335f1538.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-005",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-030",
@@ -415,13 +435,17 @@
       "correctChoiceIds": [
         "jp2-q-030-c4"
       ],
-      "explanationHtml": "<p><code>・最大 100 TB のデータベースをサポートすること</code></p><p>前の問題の解説の通り、この要件を満たせるのは Azure SQL Database の Hyperscale のみです。</p><p><br></p><p><code>・地理的に冗長なバックアップをサポートすること</code></p><p>Hyperscaleを含むどのサービスレベルでもgeo冗長のバックアップストレージがサポートされています。</p><p>（なお、前の問題の解説に添付している表中の「ゾーン冗長構成」はバックアップではなくデータベース構成の話なのでご注意ください）</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/hyperscale-automated-backups-overview?view=azuresql#data-and-backup-storage-redundancy\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/hyperscale-automated-backups-overview?view=azuresql#data-and-backup-storage-redundancy</a></p>",
+      "explanationHtml": "<p><code>・最大 100 TB のデータベースをサポートすること</code></p><p>前の問題の解説の通り、この要件を満たせるのは Azure SQL Database の Hyperscale のみです。</p><p><br></p><p><code>・地理的に冗長なバックアップをサポートすること</code></p><p>Hyperscaleを含むどのサービスレベルでもgeo冗長のバックアップストレージがサポートされています。</p><p>（なお、前の問題の解説に添付している表中の「ゾーン冗長構成」はバックアップではなくデータベース構成の話なのでご注意ください）</p><img src=\"assets/問題集2_files/2023-01-19_06-05-28-e20430dda77e6f76f44d65368ae106b2.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/hyperscale-automated-backups-overview?view=azuresql#data-and-backup-storage-redundancy\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/hyperscale-automated-backups-overview?view=azuresql#data-and-backup-storage-redundancy</a></p>",
       "explanationText": "・最大 100 TB のデータベースをサポートすること\n前の問題の解説の通り、この要件を満たせるのは Azure SQL Database の Hyperscale のみです。\n\n・地理的に冗長なバックアップをサポートすること\nHyperscaleを含むどのサービスレベルでもgeo冗長のバックアップストレージがサポートされています。\n（なお、前の問題の解説に添付している表中の「ゾーン冗長構成」はバックアップではなくデータベース構成の話なのでご注意ください）\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/hyperscale-automated-backups-overview?view=azuresql#data-and-backup-storage-redundancy",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-19_06-05-28-e20430dda77e6f76f44d65368ae106b2.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-005",
+      "tags": [
+        "linked-question"
+      ]
     }
   ]
 }

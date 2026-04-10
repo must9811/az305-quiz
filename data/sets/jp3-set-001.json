@@ -1,7 +1,7 @@
 {
   "setId": "jp3-set-001",
   "title": "問題集3 01-10",
-  "sourceHtml": "udemy/問題集3.html",
+  "sourceHtml": "assets/問題集3.html",
   "questionIds": [
     "jp3-q-001",
     "jp3-q-002",
@@ -91,9 +91,11 @@
       "correctChoiceIds": [
         "jp3-q-002-c2"
       ],
-      "explanationHtml": "<p><code>・5年間アーカイブすること</code></p><p><code>・ログファイルはApp1によって読み取り可能かつ、変更不可であること</code> </p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><br></p><p>不変ストレージには次の２種類のポリシーがあります。</p><p>・時間ベースのアイテム保持ポリシー</p><p>・訴訟ホールドポリシー</p><p><br></p><p>時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。</p><p><br></p><p>Azureポータルのストレージアカウント &gt; コンテナー &gt; アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。</p><p></p><p>なお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p>",
+      "explanationHtml": "<p><code>・5年間アーカイブすること</code></p><p><code>・ログファイルはApp1によって読み取り可能かつ、変更不可であること</code> </p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><br></p><p>不変ストレージには次の２種類のポリシーがあります。</p><p>・時間ベースのアイテム保持ポリシー</p><p>・訴訟ホールドポリシー</p><p><br></p><p>時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。</p><p><br></p><p>Azureポータルのストレージアカウント &gt; コンテナー &gt; アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。</p><p><img src=\"assets/問題集3_files/2023-01-12_05-03-46-d963e73393a34d3d6e8e55e1b847fcb5.png\" alt=\"\" loading=\"eager\"></p><p>なお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p>",
       "explanationText": "・5年間アーカイブすること\n・ログファイルはApp1によって読み取り可能かつ、変更不可であること\nこの要件を満たすためにはBLOBの不変ストレージを利用します。\n不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。\n\n不変ストレージには次の２種類のポリシーがあります。\n・時間ベースのアイテム保持ポリシー\n・訴訟ホールドポリシー\n\n時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。\n\nAzureポータルのストレージアカウント > コンテナー > アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。\n\nなお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-12_05-03-46-d963e73393a34d3d6e8e55e1b847fcb5.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -121,13 +123,17 @@
       "correctChoiceIds": [
         "jp3-q-003-c2"
       ],
-      "explanationHtml": "<p>リソースロックは、作成したリソースを誤って削除してしまわないようにするための機能なので誤りです。</p><p>代わりに、Azure Policyを使用します。</p><p><br></p><p>Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。</p><p>例えば、「日本のリージョン以外のリソースの作成を拒否する」とか「仮想マシンの作成を特定のサイズに限定する」といったことが可能です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/overview\">https://learn.microsoft.com/ja-jp/azure/governance/policy/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\">https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources?tabs=json\">https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources?tabs=json</a></p>",
+      "explanationHtml": "<p>リソースロックは、作成したリソースを誤って削除してしまわないようにするための機能なので誤りです。</p><p>代わりに、Azure Policyを使用します。</p><p><br></p><p>Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。</p><p>例えば、「日本のリージョン以外のリソースの作成を拒否する」とか「仮想マシンの作成を特定のサイズに限定する」といったことが可能です。</p><img src=\"assets/問題集3_files/2023-01-24_05-49-33-17600150614f141b8de3caaf585b4fed.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/overview\">https://learn.microsoft.com/ja-jp/azure/governance/policy/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\">https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources?tabs=json\">https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources?tabs=json</a></p>",
       "explanationText": "リソースロックは、作成したリソースを誤って削除してしまわないようにするための機能なので誤りです。\n代わりに、Azure Policyを使用します。\n\nAzure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。\n例えば、「日本のリージョン以外のリソースの作成を拒否する」とか「仮想マシンの作成を特定のサイズに限定する」といったことが可能です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/overview\nhttps://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\nhttps://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources?tabs=json",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-24_05-49-33-17600150614f141b8de3caaf585b4fed.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-001",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-004",
@@ -151,13 +157,17 @@
       "correctChoiceIds": [
         "jp3-q-004-c1"
       ],
-      "explanationHtml": "<p>Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。</p><p>Azure Policyの一つ一つのルールのことを「ポリシー定義」と呼び、複数のポリシー定義をひとまとめにしたものを「イニシアチブ定義」と呼びます。</p><p><br></p><p>「許可されている場所」の組み込みポリシー定義を使用すれば、Azureリソースをデプロイするリージョンを制限することができます。なお、このポリシー定義を含むイニシアチブ定義を作成し、それを適用しても問題ありません。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/overview\">https://learn.microsoft.com/ja-jp/azure/governance/policy/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\">https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies</a></p>",
+      "explanationHtml": "<p>Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。</p><p>Azure Policyの一つ一つのルールのことを「ポリシー定義」と呼び、複数のポリシー定義をひとまとめにしたものを「イニシアチブ定義」と呼びます。</p><p><br></p><p>「許可されている場所」の組み込みポリシー定義を使用すれば、Azureリソースをデプロイするリージョンを制限することができます。なお、このポリシー定義を含むイニシアチブ定義を作成し、それを適用しても問題ありません。</p><img src=\"assets/問題集3_files/2023-01-24_06-07-40-f27e0f0e158ba678c07920cea3afc378.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/overview\">https://learn.microsoft.com/ja-jp/azure/governance/policy/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\">https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies</a></p>",
       "explanationText": "Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。\nAzure Policyの一つ一つのルールのことを「ポリシー定義」と呼び、複数のポリシー定義をひとまとめにしたものを「イニシアチブ定義」と呼びます。\n\n「許可されている場所」の組み込みポリシー定義を使用すれば、Azureリソースをデプロイするリージョンを制限することができます。なお、このポリシー定義を含むイニシアチブ定義を作成し、それを適用しても問題ありません。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/overview\nhttps://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-24_06-07-40-f27e0f0e158ba678c07920cea3afc378.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-001",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-005",
@@ -193,9 +203,11 @@
       "correctChoiceIds": [
         "jp3-q-005-c4"
       ],
-      "explanationHtml": "<p>Azureの負荷分散オプションは大きく次の4種類がありますが、選択肢のうち問題文に示された要件を満たすのは「Azure Application Gateway」のみです。</p><p><br></p><p>なお、ラウンドロビンとはバックエンドにある複数のサーバに対して順繰りに割り振っていく方式のことです。Azure Application Gatewayの他にもAzure Front Door（重み付け）、Traffic Manager（重み付け）でもサポートされています。Azure Load Balancerは、ハッシュ値（5タプル）を元に振り分け先を決定する方式です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/application-gateway/how-application-gateway-works\">https://learn.microsoft.com/ja-jp/azure/application-gateway/how-application-gateway-works</a></p>",
+      "explanationHtml": "<p>Azureの負荷分散オプションは大きく次の4種類がありますが、選択肢のうち問題文に示された要件を満たすのは「Azure Application Gateway」のみです。</p><img src=\"assets/問題集3_files/2023-01-10_13-08-13-8126e4c5f0546e2695900d56f48c8332.png\" alt=\"\" loading=\"eager\"><p><br></p><p>なお、ラウンドロビンとはバックエンドにある複数のサーバに対して順繰りに割り振っていく方式のことです。Azure Application Gatewayの他にもAzure Front Door（重み付け）、Traffic Manager（重み付け）でもサポートされています。Azure Load Balancerは、ハッシュ値（5タプル）を元に振り分け先を決定する方式です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/application-gateway/how-application-gateway-works\">https://learn.microsoft.com/ja-jp/azure/application-gateway/how-application-gateway-works</a></p>",
       "explanationText": "Azureの負荷分散オプションは大きく次の4種類がありますが、選択肢のうち問題文に示された要件を満たすのは「Azure Application Gateway」のみです。\n\nなお、ラウンドロビンとはバックエンドにある複数のサーバに対して順繰りに割り振っていく方式のことです。Azure Application Gatewayの他にもAzure Front Door（重み付け）、Traffic Manager（重み付け）でもサポートされています。Azure Load Balancerは、ハッシュ値（5タプル）を元に振り分け先を決定する方式です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\nhttps://learn.microsoft.com/ja-jp/azure/application-gateway/how-application-gateway-works",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-10_13-08-13-8126e4c5f0546e2695900d56f48c8332.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -229,9 +241,11 @@
       "correctChoiceIds": [
         "jp3-q-006-c1"
       ],
-      "explanationHtml": "<p>Azureポータルの「予約」メニューで SQL Database を選択して進めることで確認することができます。</p><p></p><p>\n【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql#buy-reserved-capacity\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql#buy-reserved-capacity</a></p>",
+      "explanationHtml": "<p>Azureポータルの「予約」メニューで SQL Database を選択して進めることで確認することができます。</p><p><img src=\"assets/問題集3_files/2023-01-19_06-14-02-56f5902ad6fa7a5b8ac65b4a8f810165.png\" alt=\"\" loading=\"eager\"></p><p>\n【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql#buy-reserved-capacity\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql#buy-reserved-capacity</a></p>",
       "explanationText": "Azureポータルの「予約」メニューで SQL Database を選択して進めることで確認することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql#buy-reserved-capacity",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-19_06-14-02-56f5902ad6fa7a5b8ac65b4a8f810165.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -271,9 +285,11 @@
       "correctChoiceIds": [
         "jp3-q-007-c1"
       ],
-      "explanationHtml": "<p>*.bak などのファイルベースのデータベースのバックアップの保存先としてAzure SQL Databaseは利用できないため選択肢2は誤りです。</p><p><br></p><p>残りの選択肢のうち、BLOBストレージがより安価に保存することができて、かつ、「バックアップがデータを回復するために使用されることはめったにありません」とあることから、選択肢1の「アーカイブ層を使用するAzure Blobストレージ」が最もコストを抑えることができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview </a></p>",
+      "explanationHtml": "<p>*.bak などのファイルベースのデータベースのバックアップの保存先としてAzure SQL Databaseは利用できないため選択肢2は誤りです。</p><p><br></p><p>残りの選択肢のうち、BLOBストレージがより安価に保存することができて、かつ、「バックアップがデータを回復するために使用されることはめったにありません」とあることから、選択肢1の「アーカイブ層を使用するAzure Blobストレージ」が最もコストを抑えることができます。</p><img src=\"assets/問題集3_files/2023-01-12_06-26-41-9efe624e8cff06c9d018e7d49c57afef.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview </a></p>",
       "explanationText": "*.bak などのファイルベースのデータベースのバックアップの保存先としてAzure SQL Databaseは利用できないため選択肢2は誤りです。\n\n残りの選択肢のうち、BLOBストレージがより安価に保存することができて、かつ、「バックアップがデータを回復するために使用されることはめったにありません」とあることから、選択肢1の「アーカイブ層を使用するAzure Blobストレージ」が最もコストを抑えることができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-12_06-26-41-9efe624e8cff06c9d018e7d49c57afef.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -301,9 +317,13 @@
       "correctChoiceIds": [
         "jp3-q-008-c1"
       ],
-      "explanationHtml": "<p>Azure Backup では、オンプレミスのサーバや Azure VM からファイル、フォルダー、システムの状態をバックアップする目的で Microsoft Azure Recovery Services (MARS) エージェントを使用することができます。MARS は Azure Backup エージェントとも呼ばれます。</p><p><br></p><p>詳細は公式ドキュメントに記載がありますが、手順を簡単にご紹介します。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/install-mars-agent\">https://learn.microsoft.com/ja-jp/azure/backup/install-mars-agent</a></p><p><br></p><p>1.Recovery Servicesコンテナーを作成後、MARSエージェントをダウンロードする</p><p>どこのサーバで何をバックアップするかを指定して「インフラストラクチャの準備」を押すと必要な手順が示され、エージェントもダウンロードできます。</p><p><br></p><p>MARSエージェントとRSコンテナーに接続するための資格情報をダウンロードします。</p><p><br></p><p>2.エージェントのインストールとバックアップのスケジュール</p><p>バックアップ対象のサーバ上でエージェントをインストール後、ウィザードに従ってバックアップをスケジュールします。</p>",
+      "explanationHtml": "<p>Azure Backup では、オンプレミスのサーバや Azure VM からファイル、フォルダー、システムの状態をバックアップする目的で Microsoft Azure Recovery Services (MARS) エージェントを使用することができます。MARS は Azure Backup エージェントとも呼ばれます。</p><p><br></p><p>詳細は公式ドキュメントに記載がありますが、手順を簡単にご紹介します。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/install-mars-agent\">https://learn.microsoft.com/ja-jp/azure/backup/install-mars-agent</a></p><p><br></p><p>1.Recovery Servicesコンテナーを作成後、MARSエージェントをダウンロードする</p><p>どこのサーバで何をバックアップするかを指定して「インフラストラクチャの準備」を押すと必要な手順が示され、エージェントもダウンロードできます。</p><img src=\"assets/問題集3_files/2023-01-23_02-53-52-3bbd679669e6f6dfc7ac02ed067b573f.png\" alt=\"\" loading=\"eager\"><p><br></p><p>MARSエージェントとRSコンテナーに接続するための資格情報をダウンロードします。</p><img src=\"assets/問題集3_files/2023-01-23_02-53-53-581b8c31a21881bce48f900ed3b88503.png\" alt=\"\" loading=\"eager\"><p><br></p><p>2.エージェントのインストールとバックアップのスケジュール</p><p>バックアップ対象のサーバ上でエージェントをインストール後、ウィザードに従ってバックアップをスケジュールします。</p><img src=\"assets/問題集3_files/2023-01-23_02-53-53-b62b3f453bb33e9a5b78bbb9f65177cf.png\" alt=\"\" loading=\"eager\">",
       "explanationText": "Azure Backup では、オンプレミスのサーバや Azure VM からファイル、フォルダー、システムの状態をバックアップする目的で Microsoft Azure Recovery Services (MARS) エージェントを使用することができます。MARS は Azure Backup エージェントとも呼ばれます。\n\n詳細は公式ドキュメントに記載がありますが、手順を簡単にご紹介します。\nhttps://learn.microsoft.com/ja-jp/azure/backup/install-mars-agent\n\n1.Recovery Servicesコンテナーを作成後、MARSエージェントをダウンロードする\nどこのサーバで何をバックアップするかを指定して「インフラストラクチャの準備」を押すと必要な手順が示され、エージェントもダウンロードできます。\n\nMARSエージェントとRSコンテナーに接続するための資格情報をダウンロードします。\n\n2.エージェントのインストールとバックアップのスケジュール\nバックアップ対象のサーバ上でエージェントをインストール後、ウィザードに従ってバックアップをスケジュールします。",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-23_02-53-52-3bbd679669e6f6dfc7ac02ed067b573f.png",
+        "assets/問題集3_files/2023-01-23_02-53-53-581b8c31a21881bce48f900ed3b88503.png",
+        "assets/問題集3_files/2023-01-23_02-53-53-b62b3f453bb33e9a5b78bbb9f65177cf.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -342,8 +362,10 @@
       "images": [],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-002",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-010",
@@ -373,13 +395,17 @@
       "correctChoiceIds": [
         "jp3-q-010-c1"
       ],
-      "explanationHtml": "<p><code>・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること</code></p><p>データベースへのトラフィック負荷を減らすために、別のリージョンにコピー（geoレプリカ）を作成するには次のいずれかの機能が利用できます。</p><p><br></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/auto-failover-group-sql-db?view=azuresql&amp;tabs=azure-powershell\">自動フェールオーバーグループ</a></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/active-geo-replication-overview?view=azuresql\">アクティブgeoレプリケーション</a>　（SQL&nbsp;Managed Instanceではサポート外）</p><p><br></p><p><code>・ビジネス継続性を実装し維持するための管理労力を最小化すること</code> </p><p>どちらとも読み取り専用ワークロードの負荷軽減で利用できますが、いくつかの異なる点があります。「自動フェールオーバーグループ」が後発の機能なので、優れている点がいくつかあります。</p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql#compare-geo-replication-with-failover-groups\">geo レプリケーションとフェールオーバー グループを比較する</a></p><p><br></p><p>ビジネス継続性の観点では、リージョン障害発生時のフェールオーバーが自動化されているかどうかは重要な点です。「自動フェールオーバーグループ」では、その名の通り自動的にフェールオーバーされ、かつ、SQL Databaseへ接続するための接続文字列を更新する必要もありません。</p><p>よって、選択肢1の「自動フェールオーバーグループ」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/read-scale-out?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/read-scale-out?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql</a></p>",
+      "explanationHtml": "<p><code>・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること</code></p><p>データベースへのトラフィック負荷を減らすために、別のリージョンにコピー（geoレプリカ）を作成するには次のいずれかの機能が利用できます。</p><p><br></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/auto-failover-group-sql-db?view=azuresql&amp;tabs=azure-powershell\">自動フェールオーバーグループ</a></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/active-geo-replication-overview?view=azuresql\">アクティブgeoレプリケーション</a>　（SQL&nbsp;Managed Instanceではサポート外）</p><p><br></p><p><code>・ビジネス継続性を実装し維持するための管理労力を最小化すること</code> </p><p>どちらとも読み取り専用ワークロードの負荷軽減で利用できますが、いくつかの異なる点があります。「自動フェールオーバーグループ」が後発の機能なので、優れている点がいくつかあります。</p><img src=\"assets/問題集3_files/2023-01-19_07-02-50-92392b240bf3f1901d970e53c630778c.png\" alt=\"\" loading=\"eager\"><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql#compare-geo-replication-with-failover-groups\">geo レプリケーションとフェールオーバー グループを比較する</a></p><p><br></p><p>ビジネス継続性の観点では、リージョン障害発生時のフェールオーバーが自動化されているかどうかは重要な点です。「自動フェールオーバーグループ」では、その名の通り自動的にフェールオーバーされ、かつ、SQL Databaseへ接続するための接続文字列を更新する必要もありません。</p><p>よって、選択肢1の「自動フェールオーバーグループ」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/read-scale-out?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/read-scale-out?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql</a></p>",
       "explanationText": "・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること\nデータベースへのトラフィック負荷を減らすために、別のリージョンにコピー（geoレプリカ）を作成するには次のいずれかの機能が利用できます。\n\n・自動フェールオーバーグループ\n・アクティブgeoレプリケーション　（SQL Managed Instanceではサポート外）\n\n・ビジネス継続性を実装し維持するための管理労力を最小化すること\nどちらとも読み取り専用ワークロードの負荷軽減で利用できますが、いくつかの異なる点があります。「自動フェールオーバーグループ」が後発の機能なので、優れている点がいくつかあります。\n出典：geo レプリケーションとフェールオーバー グループを比較する\n\nビジネス継続性の観点では、リージョン障害発生時のフェールオーバーが自動化されているかどうかは重要な点です。「自動フェールオーバーグループ」では、その名の通り自動的にフェールオーバーされ、かつ、SQL Databaseへ接続するための接続文字列を更新する必要もありません。\nよって、選択肢1の「自動フェールオーバーグループ」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/read-scale-out?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql",
-      "images": [],
+      "images": [
+        "assets/問題集3_files/2023-01-19_07-02-50-92392b240bf3f1901d970e53c630778c.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-002",
+      "tags": [
+        "linked-question"
+      ]
     }
   ]
 }

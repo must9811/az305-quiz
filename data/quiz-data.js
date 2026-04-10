@@ -1,17 +1,17 @@
 window.QUIZ_DATA = {
   "manifest": {
     "sourceHtml": [
-      "udemy/問題集1.html",
-      "udemy/問題集2.html",
-      "udemy/問題集3.html"
+      "assets/問題集1.html",
+      "assets/問題集2.html",
+      "assets/問題集3.html"
     ],
-    "generatedAt": "2026-03-31T13:41:38.881Z",
+    "generatedAt": "2026-04-10T05:35:15.762Z",
     "setCount": 18,
     "sets": [
       {
         "setId": "jp1-set-001",
         "title": "問題集1 01-10",
-        "sourceHtml": "udemy/問題集1.html",
+        "sourceHtml": "assets/問題集1.html",
         "questionCount": 10,
         "questionIds": [
           "jp1-q-001",
@@ -29,13 +29,13 @@ window.QUIZ_DATA = {
           1,
           10
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": false
       },
       {
         "setId": "jp1-set-002",
         "title": "問題集1 11-20",
-        "sourceHtml": "udemy/問題集1.html",
+        "sourceHtml": "assets/問題集1.html",
         "questionCount": 10,
         "questionIds": [
           "jp1-q-011",
@@ -53,13 +53,13 @@ window.QUIZ_DATA = {
           11,
           20
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": false
       },
       {
         "setId": "jp1-set-003",
         "title": "問題集1 21-30",
-        "sourceHtml": "udemy/問題集1.html",
+        "sourceHtml": "assets/問題集1.html",
         "questionCount": 10,
         "questionIds": [
           "jp1-q-021",
@@ -77,13 +77,13 @@ window.QUIZ_DATA = {
           21,
           30
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": false
       },
       {
         "setId": "jp1-set-004",
         "title": "問題集1 31-40",
-        "sourceHtml": "udemy/問題集1.html",
+        "sourceHtml": "assets/問題集1.html",
         "questionCount": 10,
         "questionIds": [
           "jp1-q-031",
@@ -101,13 +101,13 @@ window.QUIZ_DATA = {
           31,
           40
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": true
       },
       {
         "setId": "jp1-set-005",
         "title": "問題集1 41-50",
-        "sourceHtml": "udemy/問題集1.html",
+        "sourceHtml": "assets/問題集1.html",
         "questionCount": 10,
         "questionIds": [
           "jp1-q-041",
@@ -125,13 +125,13 @@ window.QUIZ_DATA = {
           41,
           50
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": true
       },
       {
         "setId": "jp1-set-006",
         "title": "問題集1 51-60",
-        "sourceHtml": "udemy/問題集1.html",
+        "sourceHtml": "assets/問題集1.html",
         "questionCount": 10,
         "questionIds": [
           "jp1-q-051",
@@ -149,13 +149,13 @@ window.QUIZ_DATA = {
           51,
           60
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": false
       },
       {
         "setId": "jp2-set-001",
         "title": "問題集2 01-10",
-        "sourceHtml": "udemy/問題集2.html",
+        "sourceHtml": "assets/問題集2.html",
         "questionCount": 10,
         "questionIds": [
           "jp2-q-001",
@@ -173,13 +173,13 @@ window.QUIZ_DATA = {
           1,
           10
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": false
       },
       {
         "setId": "jp2-set-002",
         "title": "問題集2 11-20",
-        "sourceHtml": "udemy/問題集2.html",
+        "sourceHtml": "assets/問題集2.html",
         "questionCount": 10,
         "questionIds": [
           "jp2-q-011",
@@ -197,13 +197,13 @@ window.QUIZ_DATA = {
           11,
           20
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": false
       },
       {
         "setId": "jp2-set-003",
         "title": "問題集2 21-30",
-        "sourceHtml": "udemy/問題集2.html",
+        "sourceHtml": "assets/問題集2.html",
         "questionCount": 10,
         "questionIds": [
           "jp2-q-021",
@@ -221,13 +221,13 @@ window.QUIZ_DATA = {
           21,
           30
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": false
       },
       {
         "setId": "jp2-set-004",
         "title": "問題集2 31-40",
-        "sourceHtml": "udemy/問題集2.html",
+        "sourceHtml": "assets/問題集2.html",
         "questionCount": 10,
         "questionIds": [
           "jp2-q-031",
@@ -245,13 +245,13 @@ window.QUIZ_DATA = {
           31,
           40
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": false
       },
       {
         "setId": "jp2-set-005",
         "title": "問題集2 41-50",
-        "sourceHtml": "udemy/問題集2.html",
+        "sourceHtml": "assets/問題集2.html",
         "questionCount": 10,
         "questionIds": [
           "jp2-q-041",
@@ -269,13 +269,13 @@ window.QUIZ_DATA = {
           41,
           50
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": false
       },
       {
         "setId": "jp2-set-006",
         "title": "問題集2 51-60",
-        "sourceHtml": "udemy/問題集2.html",
+        "sourceHtml": "assets/問題集2.html",
         "questionCount": 10,
         "questionIds": [
           "jp2-q-051",
@@ -293,13 +293,13 @@ window.QUIZ_DATA = {
           51,
           60
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": false
       },
       {
         "setId": "jp3-set-001",
         "title": "問題集3 01-10",
-        "sourceHtml": "udemy/問題集3.html",
+        "sourceHtml": "assets/問題集3.html",
         "questionCount": 10,
         "questionIds": [
           "jp3-q-001",
@@ -317,13 +317,13 @@ window.QUIZ_DATA = {
           1,
           10
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": false
       },
       {
         "setId": "jp3-set-002",
         "title": "問題集3 11-20",
-        "sourceHtml": "udemy/問題集3.html",
+        "sourceHtml": "assets/問題集3.html",
         "questionCount": 10,
         "questionIds": [
           "jp3-q-011",
@@ -341,13 +341,13 @@ window.QUIZ_DATA = {
           11,
           20
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": false
       },
       {
         "setId": "jp3-set-003",
         "title": "問題集3 21-30",
-        "sourceHtml": "udemy/問題集3.html",
+        "sourceHtml": "assets/問題集3.html",
         "questionCount": 10,
         "questionIds": [
           "jp3-q-021",
@@ -365,13 +365,13 @@ window.QUIZ_DATA = {
           21,
           30
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": false
       },
       {
         "setId": "jp3-set-004",
         "title": "問題集3 31-40",
-        "sourceHtml": "udemy/問題集3.html",
+        "sourceHtml": "assets/問題集3.html",
         "questionCount": 10,
         "questionIds": [
           "jp3-q-031",
@@ -389,13 +389,13 @@ window.QUIZ_DATA = {
           31,
           40
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": true
       },
       {
         "setId": "jp3-set-005",
         "title": "問題集3 41-50",
-        "sourceHtml": "udemy/問題集3.html",
+        "sourceHtml": "assets/問題集3.html",
         "questionCount": 10,
         "questionIds": [
           "jp3-q-041",
@@ -413,13 +413,13 @@ window.QUIZ_DATA = {
           41,
           50
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": false
       },
       {
         "setId": "jp3-set-006",
         "title": "問題集3 51-60",
-        "sourceHtml": "udemy/問題集3.html",
+        "sourceHtml": "assets/問題集3.html",
         "questionCount": 10,
         "questionIds": [
           "jp3-q-051",
@@ -437,7 +437,7 @@ window.QUIZ_DATA = {
           51,
           60
         ],
-        "hasImages": false,
+        "hasImages": true,
         "hasMultiSelect": false
       }
     ]
@@ -446,7 +446,7 @@ window.QUIZ_DATA = {
     "jp1-set-001": {
       "setId": "jp1-set-001",
       "title": "問題集1 01-10",
-      "sourceHtml": "udemy/問題集1.html",
+      "sourceHtml": "assets/問題集1.html",
       "questionIds": [
         "jp1-q-001",
         "jp1-q-002",
@@ -536,13 +536,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-002-c3"
           ],
-          "explanationHtml": "<p>30台の仮想マシンをSubnt1に配置するには/26以上のサブネットが必要です。</p><p>※/27のIPの数は32個ですがサブネット内の予約アドレス5つは使えないので/26以上必要</p><p><br></p><p>そして、オンプレミスとサイト間VPNで接続する場合、オンプレミスのネットワークアドレスと重複させることはできません。つまり、172.16.0.0/16のアドレス範囲に含まれる選択肢1、2は誤りです。</p><p><br></p><p>172.16.0.0/16のアドレス範囲と重複せず、/26以上のアドレス範囲を持つ192.168.0.0/24が正解となります。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/private-ip-addresses\">https://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/private-ip-addresses</a></p>",
+          "explanationHtml": "<p>30台の仮想マシンをSubnt1に配置するには/26以上のサブネットが必要です。</p><p>※/27のIPの数は32個ですがサブネット内の予約アドレス5つは使えないので/26以上必要</p><p><br></p><p>そして、オンプレミスとサイト間VPNで接続する場合、オンプレミスのネットワークアドレスと重複させることはできません。つまり、172.16.0.0/16のアドレス範囲に含まれる選択肢1、2は誤りです。</p><p><br></p><p>172.16.0.0/16のアドレス範囲と重複せず、/26以上のアドレス範囲を持つ192.168.0.0/24が正解となります。</p><img src=\"assets/問題集1_files/2023-02-07_01-16-22-7424d1d1523051c35eb8b4e356312396.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/private-ip-addresses\">https://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/private-ip-addresses</a></p>",
           "explanationText": "30台の仮想マシンをSubnt1に配置するには/26以上のサブネットが必要です。\n※/27のIPの数は32個ですがサブネット内の予約アドレス5つは使えないので/26以上必要\n\nそして、オンプレミスとサイト間VPNで接続する場合、オンプレミスのネットワークアドレスと重複させることはできません。つまり、172.16.0.0/16のアドレス範囲に含まれる選択肢1、2は誤りです。\n\n172.16.0.0/16のアドレス範囲と重複せず、/26以上のアドレス範囲を持つ192.168.0.0/24が正解となります。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/private-ip-addresses",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-02-07_01-16-22-7424d1d1523051c35eb8b4e356312396.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-001",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-003",
@@ -583,8 +587,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-001",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-004",
@@ -620,9 +626,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-004-c3"
           ],
-          "explanationHtml": "<p>Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。</p><p>Azureへ移行するために必要な機能を集約して、一元的な窓口となるような管理画面を提供します。</p><p><br></p><p>Azure Migrateの評価ツールを使うと、オンプレミスにあるサーバを検出し、依存関係の分析、Azureに対応できるかどうか、サイズの推定、コストの見積もりなど、移行についての評価を行うことができます。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/concepts-assessment-calculation\">https://learn.microsoft.com/ja-jp/azure/migrate/concepts-assessment-calculation</a></p>",
+          "explanationHtml": "<p>Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。</p><p>Azureへ移行するために必要な機能を集約して、一元的な窓口となるような管理画面を提供します。</p><p><br></p><p>Azure Migrateの評価ツールを使うと、オンプレミスにあるサーバを検出し、依存関係の分析、Azureに対応できるかどうか、サイズの推定、コストの見積もりなど、移行についての評価を行うことができます。</p><img src=\"assets/問題集1_files/2023-02-07_02-57-31-c43eced332a445da82f2c40456dfe82b.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/concepts-assessment-calculation\">https://learn.microsoft.com/ja-jp/azure/migrate/concepts-assessment-calculation</a></p>",
           "explanationText": "Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。\nAzureへ移行するために必要な機能を集約して、一元的な窓口となるような管理画面を提供します。\n\nAzure Migrateの評価ツールを使うと、オンプレミスにあるサーバを検出し、依存関係の分析、Azureに対応できるかどうか、サイズの推定、コストの見積もりなど、移行についての評価を行うことができます。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\nhttps://learn.microsoft.com/ja-jp/azure/migrate/concepts-assessment-calculation",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-02-07_02-57-31-c43eced332a445da82f2c40456dfe82b.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -662,9 +670,12 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-005-c2"
           ],
-          "explanationHtml": "<p>まず、カスタムC#コードを実行するソリューションとしてAzure Logic Appsでは実現できず、Azure Functionsを選択する必要があるため選択肢1、3以外が候補となります。</p><p><br></p><p>そして、仮想マシンのプライベートIPアドレスにアクセスするためには「仮想ネットワークの統合（Vnet統合）」を使用する必要がありますが、この機能は専用プラン、または、PremiumプランにデプロイされたAzure Functionsで使うことができます。従量課金プランで使用することはできません。</p><p>※Vnet統合は「ネットワークインジェクション」と表現されることもあります。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-scale\">https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-scale</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-premium-plan?tabs=portal#private-network-connectivity\">https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-premium-plan?tabs=portal#private-network-connectivity</a></p><p><br></p><p>【補足】</p><p>2024年10月時点でプレビュー中ですが、Vnet統合をサポートする「Flex 従量課金」プランが追加されています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/flex-consumption-plan\">https://learn.microsoft.com/ja-jp/azure/azure-functions/flex-consumption-plan</a></p>",
+          "explanationHtml": "<p>まず、カスタムC#コードを実行するソリューションとしてAzure Logic Appsでは実現できず、Azure Functionsを選択する必要があるため選択肢1、3以外が候補となります。</p><p><br></p><p>そして、仮想マシンのプライベートIPアドレスにアクセスするためには「仮想ネットワークの統合（Vnet統合）」を使用する必要がありますが、この機能は専用プラン、または、PremiumプランにデプロイされたAzure Functionsで使うことができます。従量課金プランで使用することはできません。</p><p>※Vnet統合は「ネットワークインジェクション」と表現されることもあります。</p><p><img src=\"assets/問題集1_files/2023-02-07_03-14-31-b1f22a48f72b4968bd8dbab46fba65bb.png\" alt=\"\" loading=\"eager\"></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-scale\">https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-scale</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-premium-plan?tabs=portal#private-network-connectivity\">https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-premium-plan?tabs=portal#private-network-connectivity</a></p><p><br></p><p>【補足】</p><p>2024年10月時点でプレビュー中ですが、Vnet統合をサポートする「Flex 従量課金」プランが追加されています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/flex-consumption-plan\">https://learn.microsoft.com/ja-jp/azure/azure-functions/flex-consumption-plan</a></p><img src=\"assets/問題集1_files/2024-10-04_06-42-24-3629fe680dab0b80309041bb12cde418.png\" alt=\"\" loading=\"eager\">",
           "explanationText": "まず、カスタムC#コードを実行するソリューションとしてAzure Logic Appsでは実現できず、Azure Functionsを選択する必要があるため選択肢1、3以外が候補となります。\n\nそして、仮想マシンのプライベートIPアドレスにアクセスするためには「仮想ネットワークの統合（Vnet統合）」を使用する必要がありますが、この機能は専用プラン、または、PremiumプランにデプロイされたAzure Functionsで使うことができます。従量課金プランで使用することはできません。\n※Vnet統合は「ネットワークインジェクション」と表現されることもあります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-functions/functions-scale\nhttps://learn.microsoft.com/ja-jp/azure/azure-functions/functions-premium-plan?tabs=portal#private-network-connectivity\n\n【補足】\n2024年10月時点でプレビュー中ですが、Vnet統合をサポートする「Flex 従量課金」プランが追加されています。\nhttps://learn.microsoft.com/ja-jp/azure/azure-functions/flex-consumption-plan",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-02-07_03-14-31-b1f22a48f72b4968bd8dbab46fba65bb.png",
+            "assets/問題集1_files/2024-10-04_06-42-24-3629fe680dab0b80309041bb12cde418.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -704,13 +715,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-006-c3"
           ],
-          "explanationHtml": "<p>ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。</p><p><br></p><p><code>・新しいデータが1年間変更されないようにすること </code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p><p><br></p><p>Premium ファイル共有はBLOBではないので選択肢2は誤り、</p><p>Premium ページBLOBでは不変ストレージはサポートされていないため、選択肢4も誤りです。</p><p>不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations</a></p><p><br></p><p><code>・読み取りのレイテンシーを最小にすること </code></p><p>選択肢1、3のうち、より低レイテンシーなパフォーマンスを提供するのは「Premium ブロックBLOB」です。</p><p>Premium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium</a></p>",
+          "explanationHtml": "<p>ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。</p><img src=\"assets/問題集1_files/2023-02-07_04-22-38-baf4dcd9b00559ce1ec52425eec8074f.png\" alt=\"\" loading=\"eager\"><p><br></p><p><code>・新しいデータが1年間変更されないようにすること </code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p><p><br></p><p>Premium ファイル共有はBLOBではないので選択肢2は誤り、</p><p>Premium ページBLOBでは不変ストレージはサポートされていないため、選択肢4も誤りです。</p><p>不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations</a></p><p><br></p><p><code>・読み取りのレイテンシーを最小にすること </code></p><p>選択肢1、3のうち、より低レイテンシーなパフォーマンスを提供するのは「Premium ブロックBLOB」です。</p><p>Premium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium</a></p>",
           "explanationText": "ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。\n\n・新しいデータが1年間変更されないようにすること\nこの要件を満たすためにはBLOBの不変ストレージを利用します。\n不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\n\nPremium ファイル共有はBLOBではないので選択肢2は誤り、\nPremium ページBLOBでは不変ストレージはサポートされていないため、選択肢4も誤りです。\n不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\n\n・読み取りのレイテンシーを最小にすること\n選択肢1、3のうち、より低レイテンシーなパフォーマンスを提供するのは「Premium ブロックBLOB」です。\nPremium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-02-07_04-22-38-baf4dcd9b00559ce1ec52425eec8074f.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-002",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-007",
@@ -740,13 +755,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-007-c1"
           ],
-          "explanationHtml": "<p><code>・その上で可能な限りデータの回復力を高めること</code></p><p>Premium ブロックBLOBでサポートされる冗長性オプションのうち、もっとも回復力を高めることができるのは「ゾーン冗長ストレージ (ZRS)」です。geo 冗長ストレージ (GRS)はサポートされていません。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types</a></p>",
+          "explanationHtml": "<p><code>・その上で可能な限りデータの回復力を高めること</code></p><p>Premium ブロックBLOBでサポートされる冗長性オプションのうち、もっとも回復力を高めることができるのは「ゾーン冗長ストレージ (ZRS)」です。geo 冗長ストレージ (GRS)はサポートされていません。</p><p><img src=\"assets/問題集1_files/2023-02-07_04-28-48-c6ce3d859072a1aee50577c39900e218.png\" alt=\"\" loading=\"eager\"></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types</a></p>",
           "explanationText": "・その上で可能な限りデータの回復力を高めること\nPremium ブロックBLOBでサポートされる冗長性オプションのうち、もっとも回復力を高めることができるのは「ゾーン冗長ストレージ (ZRS)」です。geo 冗長ストレージ (GRS)はサポートされていません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-02-07_04-28-48-c6ce3d859072a1aee50577c39900e218.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-002",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-008",
@@ -770,9 +789,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-008-c2"
           ],
-          "explanationHtml": "<p>代わりにAzure Front Doorを使用する必要があります。</p><p><br></p><p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p></p><p><code>・レート制限をサポートすること</code></p><p>負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）</p><p><br></p><p><code>・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること</code></p><p>リージョン障害から保護するにはグローバルサービスを選択する必要があります。</p><p>なお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。</p><p>・グローバルかリージョンサービスか</p><p>・レート制限の機能の有無</p><p>・コンテンツキャッシュの機能の有無</p><p><br></p><p><code>・すべてのインスタンス間でリクエストのバランスをとること</code></p><p>これはどの負荷分散オプションでも可能です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p>",
+          "explanationHtml": "<p>代わりにAzure Front Doorを使用する必要があります。</p><p><br></p><p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p><img src=\"assets/問題集1_files/2023-01-10_07-30-32-c07de89c57ea8f875495478ef66efa35.png\" alt=\"\" loading=\"eager\"></p><p><code>・レート制限をサポートすること</code></p><p>負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）</p><p><br></p><p><code>・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること</code></p><p>リージョン障害から保護するにはグローバルサービスを選択する必要があります。</p><p>なお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。</p><p>・グローバルかリージョンサービスか</p><p>・レート制限の機能の有無</p><p>・コンテンツキャッシュの機能の有無</p><p><br></p><p><code>・すべてのインスタンス間でリクエストのバランスをとること</code></p><p>これはどの負荷分散オプションでも可能です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p>",
           "explanationText": "代わりにAzure Front Doorを使用する必要があります。\n\nAzureの負荷分散オプションは大きく次の4種類があります。\n細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。\n\n・レート制限をサポートすること\n負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）\n\n・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること\nリージョン障害から保護するにはグローバルサービスを選択する必要があります。\nなお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。\n・グローバルかリージョンサービスか\n・レート制限の機能の有無\n・コンテンツキャッシュの機能の有無\n\n・すべてのインスタンス間でリクエストのバランスをとること\nこれはどの負荷分散オプションでも可能です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-10_07-30-32-c07de89c57ea8f875495478ef66efa35.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -860,9 +881,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-010-c2"
           ],
-          "explanationHtml": "<p>Azure Cosmos DBの整合性レベルには最強から最弱の順に、次のレベルがあります。</p><p>・厳密（強固）</p><p>・有界整合性制約</p><p>・セッション</p><p>・一貫性のあるプレフィックス</p><p>・最終的</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels</a></p><p><br></p><p>このうち、要件を満たす最も強力な整合性レベルは選択肢2の「有界整合性制約」になります。</p><p>最も強力なのは「厳密（強固）」ですが、複数のリージョンにまたがる構成の場合、書き込み待機時間のSLAは対象外となります。</p><p><br></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels#consistency-levels-and-latency\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels#consistency-levels-and-latency</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/\">https://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/</a></p>",
+          "explanationHtml": "<p>Azure Cosmos DBの整合性レベルには最強から最弱の順に、次のレベルがあります。</p><p>・厳密（強固）</p><p>・有界整合性制約</p><p>・セッション</p><p>・一貫性のあるプレフィックス</p><p>・最終的</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels</a></p><p><br></p><p>このうち、要件を満たす最も強力な整合性レベルは選択肢2の「有界整合性制約」になります。</p><p>最も強力なのは「厳密（強固）」ですが、複数のリージョンにまたがる構成の場合、書き込み待機時間のSLAは対象外となります。</p><p><br></p><img src=\"assets/問題集1_files/2023-01-14_04-28-09-5c72218ed664860cc657aab114336317.png\" alt=\"\" loading=\"eager\"><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels#consistency-levels-and-latency\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels#consistency-levels-and-latency</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/\">https://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/</a></p>",
           "explanationText": "Azure Cosmos DBの整合性レベルには最強から最弱の順に、次のレベルがあります。\n・厳密（強固）\n・有界整合性制約\n・セッション\n・一貫性のあるプレフィックス\n・最終的\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels\n\nこのうち、要件を満たす最も強力な整合性レベルは選択肢2の「有界整合性制約」になります。\n最も強力なのは「厳密（強固）」ですが、複数のリージョンにまたがる構成の場合、書き込み待機時間のSLAは対象外となります。\n\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/consistency-levels#consistency-levels-and-latency\nhttps://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-14_04-28-09-5c72218ed664860cc657aab114336317.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -873,7 +896,7 @@ window.QUIZ_DATA = {
     "jp1-set-002": {
       "setId": "jp1-set-002",
       "title": "問題集1 11-20",
-      "sourceHtml": "udemy/問題集1.html",
+      "sourceHtml": "assets/問題集1.html",
       "questionIds": [
         "jp1-q-011",
         "jp1-q-012",
@@ -921,9 +944,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-011-c1"
           ],
-          "explanationHtml": "<p><code>・ローカルファイルシステムに対して読み取りと書き込みを行うことができること</code></p><p><code>・Windowsアプリのアプリケーションログを書き込むことができること</code></p><p>App Serviceでは「App Service ログ」メニューでアプリケーションのログ記録を有効化して、ファイルシステムにログを保存することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/troubleshoot-diagnostic-logs\">https://learn.microsoft.com/ja-jp/azure/app-service/troubleshoot-diagnostic-logs</a></p><p><br></p><p><code>・メンテナンスのオーバーヘッドを最小にすること</code></p><p>選択肢2の仮想マシンスケールセットはこの要件を満たせないので誤りです。</p><p><br></p><p><code>・コストを最小限に抑えること</code> </p><p>選択肢3のApp Service Environmentはこの要件を満たせないので誤りです。（専用環境のプランなので高額です）</p><p><br></p><p>また、Azure Functionsは.NETアプリのホスティング環境として候補になりますが、「App Service ログ」の機能が使えずログ書き込みの要件を満たせないので誤りです。</p>",
+          "explanationHtml": "<p><code>・ローカルファイルシステムに対して読み取りと書き込みを行うことができること</code></p><p><code>・Windowsアプリのアプリケーションログを書き込むことができること</code></p><p>App Serviceでは「App Service ログ」メニューでアプリケーションのログ記録を有効化して、ファイルシステムにログを保存することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/troubleshoot-diagnostic-logs\">https://learn.microsoft.com/ja-jp/azure/app-service/troubleshoot-diagnostic-logs</a></p><img src=\"assets/問題集1_files/2023-01-16_01-31-53-c1fd0560cc4546c8d1907d4744eec09b.png\" alt=\"\" loading=\"eager\"><p><br></p><p><code>・メンテナンスのオーバーヘッドを最小にすること</code></p><p>選択肢2の仮想マシンスケールセットはこの要件を満たせないので誤りです。</p><p><br></p><p><code>・コストを最小限に抑えること</code> </p><p>選択肢3のApp Service Environmentはこの要件を満たせないので誤りです。（専用環境のプランなので高額です）</p><p><br></p><p>また、Azure Functionsは.NETアプリのホスティング環境として候補になりますが、「App Service ログ」の機能が使えずログ書き込みの要件を満たせないので誤りです。</p>",
           "explanationText": "・ローカルファイルシステムに対して読み取りと書き込みを行うことができること\n・Windowsアプリのアプリケーションログを書き込むことができること\nApp Serviceでは「App Service ログ」メニューでアプリケーションのログ記録を有効化して、ファイルシステムにログを保存することができます。\nhttps://learn.microsoft.com/ja-jp/azure/app-service/troubleshoot-diagnostic-logs\n\n・メンテナンスのオーバーヘッドを最小にすること\n選択肢2の仮想マシンスケールセットはこの要件を満たせないので誤りです。\n\n・コストを最小限に抑えること\n選択肢3のApp Service Environmentはこの要件を満たせないので誤りです。（専用環境のプランなので高額です）\n\nまた、Azure Functionsは.NETアプリのホスティング環境として候補になりますが、「App Service ログ」の機能が使えずログ書き込みの要件を満たせないので誤りです。",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-16_01-31-53-c1fd0560cc4546c8d1907d4744eec09b.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -963,9 +988,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-012-c4"
           ],
-          "explanationHtml": "<p>Microsoft Entra IDのアクセスレビューを使用すると、ユーザーのアクセス許可を定期的にレビューし、適切なユーザーのみが継続的なアクセス権を持っていることを確認することができます。</p><p><br></p><p>毎週、毎月、毎四半期、毎年など、一定の頻度でユーザーのアクセスレビューを定期的に設定することができ、各レビューの開始時にレビュアーに通知されます。</p><p>レビュー担当者は、使いやすいインターフェイスとスマートな推奨事項の助けを借りてアクセスを承認または拒否することができます。</p><p><br></p><p>レビュー担当者が応答せずレビューされなかった場合のアクションも設定することができるため、要件にあるように自動的にアクセス許可を削除することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings\">https://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings</a></p><p></p><p><br></p><p>なお、アクセスレビューを使用するには Microsoft Entra ID Premium P2 ライセンスが必要です（Premium P2 ライセンスはMicrosoft 365 E5 に含まれています）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview\">https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview</a></p><p><a href=\"https://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing\">https://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing</a></p>",
+          "explanationHtml": "<p>Microsoft Entra IDのアクセスレビューを使用すると、ユーザーのアクセス許可を定期的にレビューし、適切なユーザーのみが継続的なアクセス権を持っていることを確認することができます。</p><p><br></p><p>毎週、毎月、毎四半期、毎年など、一定の頻度でユーザーのアクセスレビューを定期的に設定することができ、各レビューの開始時にレビュアーに通知されます。</p><p>レビュー担当者は、使いやすいインターフェイスとスマートな推奨事項の助けを借りてアクセスを承認または拒否することができます。</p><p><br></p><p>レビュー担当者が応答せずレビューされなかった場合のアクションも設定することができるため、要件にあるように自動的にアクセス許可を削除することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings\">https://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings</a></p><p><img src=\"assets/問題集1_files/2023-02-07_04-44-22-2784abb3236cec077feb6b456335a928.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>なお、アクセスレビューを使用するには Microsoft Entra ID Premium P2 ライセンスが必要です（Premium P2 ライセンスはMicrosoft 365 E5 に含まれています）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview\">https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview</a></p><p><a href=\"https://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing\">https://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing</a></p>",
           "explanationText": "Microsoft Entra IDのアクセスレビューを使用すると、ユーザーのアクセス許可を定期的にレビューし、適切なユーザーのみが継続的なアクセス権を持っていることを確認することができます。\n\n毎週、毎月、毎四半期、毎年など、一定の頻度でユーザーのアクセスレビューを定期的に設定することができ、各レビューの開始時にレビュアーに通知されます。\nレビュー担当者は、使いやすいインターフェイスとスマートな推奨事項の助けを借りてアクセスを承認または拒否することができます。\n\nレビュー担当者が応答せずレビューされなかった場合のアクションも設定することができるため、要件にあるように自動的にアクセス許可を削除することができます。\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings\n\nなお、アクセスレビューを使用するには Microsoft Entra ID Premium P2 ライセンスが必要です（Premium P2 ライセンスはMicrosoft 365 E5 に含まれています）\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview\nhttps://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-02-07_04-44-22-2784abb3236cec077feb6b456335a928.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -974,7 +1001,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp1-q-013",
           "sourceQuestionNumber": 13,
-          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、オンプレミス環境からAzureにデータをインポートすることを計画しています。</p><p>移行の要件は次の表のとおりです。</p><p><br></p><p><strong>SQL Server 2012のデータベース</strong>からデータを移行するためにあなたは何を提案すべきですか。</p><p><br></p><p>SQL Server 2012のデータベース：</p><p>SQL Server 2014のデータベース内のテーブル：</p>",
+          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、オンプレミス環境からAzureにデータをインポートすることを計画しています。</p><p>移行の要件は次の表のとおりです。</p><img src=\"assets/問題集1_files/2023-01-16_05-23-05-ecb73208782c629dcee9456eba18175e.png\" alt=\"\" loading=\"eager\"><p><br></p><p><strong>SQL Server 2012のデータベース</strong>からデータを移行するためにあなたは何を提案すべきですか。</p><p><br></p><p>SQL Server 2012のデータベース：</p><p>SQL Server 2014のデータベース内のテーブル：</p>",
           "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、オンプレミス環境からAzureにデータをインポートすることを計画しています。\n移行の要件は次の表のとおりです。\n\nSQL Server 2012のデータベースからデータを移行するためにあなたは何を提案すべきですか。\n\nSQL Server 2012のデータベース：\nSQL Server 2014のデータベース内のテーブル：",
           "choices": [
             {
@@ -1007,16 +1034,20 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>Data Migration Assistant (DMA) は、オンプレミスのSQLServerの移行をサポートするツールで、互換性の問題を検出する「評価（アセスメント）」と、スキーマやデータなどをターゲットサーバに「移行」する2つの機能があります。</p><p><br></p><p>次のような移行パターンで利用できます。</p><p>・SQLServer → 新しいバージョンのSQLServer（アップグレード）</p><p>・SQLServer → Azure VMのSQLServer</p><p>・SQLServer → Azure SQL Database</p><p><br></p><p>SQL Server 2012のデータをAzure SQL Databaseに移行するために使用できます。</p><p>なお、Azure SQL Managed Instanceへのデータベース移行はサポートされていません。</p><p>移行元、移行先それぞれでサポートされているバージョンは公式ドキュメントを参照してください。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/dma/dma-overview?view=sql-server-ver16\">https://learn.microsoft.com/ja-jp/sql/dma/dma-overview?view=sql-server-ver16</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/dma/dma-migrateonpremsqltosqldb?view=sql-server-ver16\">https://learn.microsoft.com/ja-jp/sql/dma/dma-migrateonpremsqltosqldb?view=sql-server-ver16</a></p>",
           "explanationText": "Data Migration Assistant (DMA) は、オンプレミスのSQLServerの移行をサポートするツールで、互換性の問題を検出する「評価（アセスメント）」と、スキーマやデータなどをターゲットサーバに「移行」する2つの機能があります。\n\n次のような移行パターンで利用できます。\n・SQLServer → 新しいバージョンのSQLServer（アップグレード）\n・SQLServer → Azure VMのSQLServer\n・SQLServer → Azure SQL Database\n\nSQL Server 2012のデータをAzure SQL Databaseに移行するために使用できます。\nなお、Azure SQL Managed Instanceへのデータベース移行はサポートされていません。\n移行元、移行先それぞれでサポートされているバージョンは公式ドキュメントを参照してください。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/sql/dma/dma-overview?view=sql-server-ver16\nhttps://learn.microsoft.com/ja-jp/sql/dma/dma-migrateonpremsqltosqldb?view=sql-server-ver16",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-16_05-23-05-ecb73208782c629dcee9456eba18175e.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-003",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-014",
           "sourceQuestionNumber": 14,
-          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、オンプレミス環境からAzureにデータをインポートすることを計画しています。</p><p>移行の要件は次の表のとおりです。</p><p><br></p><p><strong>SQL Server 2014のデータベース内のテーブル</strong>からデータを移行するためにあなたは何を提案すべきですか。</p><p><br></p><p>SQL Server 2012のデータベース：</p><p>SQL Server 2014のデータベース内のテーブル：</p>",
+          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、オンプレミス環境からAzureにデータをインポートすることを計画しています。</p><p>移行の要件は次の表のとおりです。</p><img src=\"assets/問題集1_files/2023-01-16_05-46-59-ef174c4b989f297ccd13655c3ba53c39.png\" alt=\"\" loading=\"eager\"><p><br></p><p><strong>SQL Server 2014のデータベース内のテーブル</strong>からデータを移行するためにあなたは何を提案すべきですか。</p><p><br></p><p>SQL Server 2012のデータベース：</p><p>SQL Server 2014のデータベース内のテーブル：</p>",
           "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、オンプレミス環境からAzureにデータをインポートすることを計画しています。\n移行の要件は次の表のとおりです。\n\nSQL Server 2014のデータベース内のテーブルからデータを移行するためにあなたは何を提案すべきですか。\n\nSQL Server 2012のデータベース：\nSQL Server 2014のデータベース内のテーブル：",
           "choices": [
             {
@@ -1049,11 +1080,15 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>Azure Cosmos DB Data Migration Tool を使用すると、Azure Cosmos DB に簡単にデータを移行することができます。</p><p>Azure Cosmos DB Data Migration Tool は、以下のようなさまざまなソースからAzure Cosmos DBにデータをインポートするオープンソースのソリューションです。</p><p>・JSON ファイル</p><p>・MongoDB</p><p>・SQL Server</p><p>・CSV ファイル</p><p>・DocumentDB コレクション</p><p>・Azure Table Storage</p><p><br></p><p>【参考】</p><p><a href=\"https://azure.microsoft.com/ja-jp/blog/new-documentdb-import-options/\">https://azure.microsoft.com/ja-jp/blog/new-documentdb-import-options/</a></p><p><a href=\"https://github.com/Azure/azure-documentdb-datamigrationtool\">https://github.com/Azure/azure-documentdb-datamigrationtool</a></p>",
           "explanationText": "Azure Cosmos DB Data Migration Tool を使用すると、Azure Cosmos DB に簡単にデータを移行することができます。\nAzure Cosmos DB Data Migration Tool は、以下のようなさまざまなソースからAzure Cosmos DBにデータをインポートするオープンソースのソリューションです。\n・JSON ファイル\n・MongoDB\n・SQL Server\n・CSV ファイル\n・DocumentDB コレクション\n・Azure Table Storage\n\n【参考】\nhttps://azure.microsoft.com/ja-jp/blog/new-documentdb-import-options/\nhttps://github.com/Azure/azure-documentdb-datamigrationtool",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-16_05-46-59-ef174c4b989f297ccd13655c3ba53c39.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-003",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-015",
@@ -1094,8 +1129,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-003",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-016",
@@ -1125,18 +1162,23 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-016-c2"
           ],
-          "explanationHtml": "<p>仮想マシンへ接続時に多要素認証（MFA）を要求するには、条件付きアクセスポリシーを使用します。</p><p>おおまかに次のような手順で構成します。</p><p>※Azure Bastionの併用は必須ではありません。</p><p><br></p><p>1.仮想マシンでMicrosoft Entra ログインを有効にする</p><p>2.仮想マシンに接続するMicrosoft Entra IDのユーザーに「仮想マシンの管理者ログイン」などのロールを割り当てる</p><p>3.条件付きアクセス ポリシーを適用する</p><p><br></p><p>条件付きアクセス ポリシーを適用するには、「クラウド アプリまたは操作」の割り当てオプションから Azure Windows VM Sign-in または Azure Linux VM Sign-in アプリを選びます。</p><p></p><p><br></p><p>そして、アクセス許可の条件として、多要素認証（MFA）を要求するように構成します。詳細は公式ドキュメントを参照してください。</p><p></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-windows\">https://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-windows</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-linux\">https://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-linux</a></p>",
+          "explanationHtml": "<p>仮想マシンへ接続時に多要素認証（MFA）を要求するには、条件付きアクセスポリシーを使用します。</p><p>おおまかに次のような手順で構成します。</p><p>※Azure Bastionの併用は必須ではありません。</p><p><br></p><p>1.仮想マシンでMicrosoft Entra ログインを有効にする</p><p>2.仮想マシンに接続するMicrosoft Entra IDのユーザーに「仮想マシンの管理者ログイン」などのロールを割り当てる</p><p>3.条件付きアクセス ポリシーを適用する</p><p><br></p><p>条件付きアクセス ポリシーを適用するには、「クラウド アプリまたは操作」の割り当てオプションから Azure Windows VM Sign-in または Azure Linux VM Sign-in アプリを選びます。</p><p><img src=\"assets/問題集1_files/2023-01-16_08-26-29-f03980e4ee441ec161bf9618ddd78e06.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>そして、アクセス許可の条件として、多要素認証（MFA）を要求するように構成します。詳細は公式ドキュメントを参照してください。</p><p><img src=\"assets/問題集1_files/2023-01-16_08-26-29-fb716493b69bd2c111721b5917b9892f.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-windows\">https://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-windows</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-linux\">https://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-linux</a></p>",
           "explanationText": "仮想マシンへ接続時に多要素認証（MFA）を要求するには、条件付きアクセスポリシーを使用します。\nおおまかに次のような手順で構成します。\n※Azure Bastionの併用は必須ではありません。\n\n1.仮想マシンでMicrosoft Entra ログインを有効にする\n2.仮想マシンに接続するMicrosoft Entra IDのユーザーに「仮想マシンの管理者ログイン」などのロールを割り当てる\n3.条件付きアクセス ポリシーを適用する\n\n条件付きアクセス ポリシーを適用するには、「クラウド アプリまたは操作」の割り当てオプションから Azure Windows VM Sign-in または Azure Linux VM Sign-in アプリを選びます。\n\nそして、アクセス許可の条件として、多要素認証（MFA）を要求するように構成します。詳細は公式ドキュメントを参照してください。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-windows\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/devices/howto-vm-sign-in-azure-ad-linux",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-16_08-26-29-f03980e4ee441ec161bf9618ddd78e06.png",
+            "assets/問題集1_files/2023-01-16_08-26-29-fb716493b69bd2c111721b5917b9892f.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-003",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-017",
           "sourceQuestionNumber": 17,
-          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、次の表に示すリソースを含むRG1という名前のリソースグループを持っています。</p><p></p><p>あなたは、KV1に格納されている全てのシークレットを最小限の労力でKV2に移行することを計画しており、VM1に移行の操作を許可するためのアクセスポリシーを構成する必要があります。</p><p><br></p><p>VM1 は現在、KV1 のシークレットに対する Get 権限を持っています。 </p><p><strong>KV1のアクセスポリシー</strong>では、どの追加のアクセス許可を VM1 に割り当てる必要がありますか。</p><p><br></p><p>KV1に追加するVM1のアクセス許可：</p><p>KV2に追加するVM1のアクセス許可：</p>",
+          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、次の表に示すリソースを含むRG1という名前のリソースグループを持っています。</p><p><img src=\"assets/問題集1_files/2023-01-16_14-29-10-6457eaa6c0d7effe2ed67ab100bfa37b.png\" alt=\"\" loading=\"eager\"></p><p>あなたは、KV1に格納されている全てのシークレットを最小限の労力でKV2に移行することを計画しており、VM1に移行の操作を許可するためのアクセスポリシーを構成する必要があります。</p><p><br></p><p>VM1 は現在、KV1 のシークレットに対する Get 権限を持っています。 </p><p><strong>KV1のアクセスポリシー</strong>では、どの追加のアクセス許可を VM1 に割り当てる必要がありますか。</p><p><br></p><p>KV1に追加するVM1のアクセス許可：</p><p>KV2に追加するVM1のアクセス許可：</p>",
           "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、次の表に示すリソースを含むRG1という名前のリソースグループを持っています。\n\nあなたは、KV1に格納されている全てのシークレットを最小限の労力でKV2に移行することを計画しており、VM1に移行の操作を許可するためのアクセスポリシーを構成する必要があります。\n\nVM1 は現在、KV1 のシークレットに対する Get 権限を持っています。\nKV1のアクセスポリシーでは、どの追加のアクセス許可を VM1 に割り当てる必要がありますか。\n\nKV1に追加するVM1のアクセス許可：\nKV2に追加するVM1のアクセス許可：",
           "choices": [
             {
@@ -1173,18 +1215,23 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-017-c4"
           ],
-          "explanationHtml": "<p>別のKeyVaultにシークレットをコピーできそうに思えるかもしれませんが、Copyという操作（権限）はないので、KV1の情報を取得した上で、その情報を元にKV2にシークレットを作成する必要があります。</p><p><br></p><p>KV1から全てのシークレットを取得するためには「一覧（List）」の権限を追加します。</p><p>取得（Get）だけでも単一のシークレットをひとつずつ取得できますが、一覧を取得してからループ処理を実行する方が労力を抑えることができます。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal</a></p><p><a href=\"https://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/\">https://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/</a></p>",
+          "explanationHtml": "<p>別のKeyVaultにシークレットをコピーできそうに思えるかもしれませんが、Copyという操作（権限）はないので、KV1の情報を取得した上で、その情報を元にKV2にシークレットを作成する必要があります。</p><p><br></p><p>KV1から全てのシークレットを取得するためには「一覧（List）」の権限を追加します。</p><p>取得（Get）だけでも単一のシークレットをひとつずつ取得できますが、一覧を取得してからループ処理を実行する方が労力を抑えることができます。</p><p><img src=\"assets/問題集1_files/2023-01-16_14-29-10-a9f2dbcf573b7ca11d8f7bc52b7ad8ff.png\" alt=\"\" loading=\"eager\"></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal</a></p><p><a href=\"https://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/\">https://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/</a></p>",
           "explanationText": "別のKeyVaultにシークレットをコピーできそうに思えるかもしれませんが、Copyという操作（権限）はないので、KV1の情報を取得した上で、その情報を元にKV2にシークレットを作成する必要があります。\n\nKV1から全てのシークレットを取得するためには「一覧（List）」の権限を追加します。\n取得（Get）だけでも単一のシークレットをひとつずつ取得できますが、一覧を取得してからループ処理を実行する方が労力を抑えることができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal\nhttps://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-16_14-29-10-6457eaa6c0d7effe2ed67ab100bfa37b.png",
+            "assets/問題集1_files/2023-01-16_14-29-10-a9f2dbcf573b7ca11d8f7bc52b7ad8ff.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-003",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-018",
           "sourceQuestionNumber": 18,
-          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、次の表に示すリソースを含むRG1という名前のリソースグループを持っています。</p><p></p><p>あなたは、KV1に格納されている全てのシークレットを最小限の労力でKV2に移行することを計画しており、VM1に移行の操作を許可するためのアクセスポリシーを構成する必要があります。</p><p><br></p><p>VM1 は現在、KV1 のシークレットに対する Get 権限を持っています。 </p><p><strong>KV2のアクセスポリシー</strong>では、どの追加のアクセス許可を VM1 に割り当てる必要がありますか。</p><p><br></p><p>KV1に追加するVM1のアクセス許可：</p><p>KV2に追加するVM1のアクセス許可：</p>",
+          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、次の表に示すリソースを含むRG1という名前のリソースグループを持っています。</p><p><img src=\"assets/問題集1_files/2023-01-16_14-39-15-ee60af6506701de5cce8b2dd61b10bbc.png\" alt=\"\" loading=\"eager\"></p><p>あなたは、KV1に格納されている全てのシークレットを最小限の労力でKV2に移行することを計画しており、VM1に移行の操作を許可するためのアクセスポリシーを構成する必要があります。</p><p><br></p><p>VM1 は現在、KV1 のシークレットに対する Get 権限を持っています。 </p><p><strong>KV2のアクセスポリシー</strong>では、どの追加のアクセス許可を VM1 に割り当てる必要がありますか。</p><p><br></p><p>KV1に追加するVM1のアクセス許可：</p><p>KV2に追加するVM1のアクセス許可：</p>",
           "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、次の表に示すリソースを含むRG1という名前のリソースグループを持っています。\n\nあなたは、KV1に格納されている全てのシークレットを最小限の労力でKV2に移行することを計画しており、VM1に移行の操作を許可するためのアクセスポリシーを構成する必要があります。\n\nVM1 は現在、KV1 のシークレットに対する Get 権限を持っています。\nKV2のアクセスポリシーでは、どの追加のアクセス許可を VM1 に割り当てる必要がありますか。\n\nKV1に追加するVM1のアクセス許可：\nKV2に追加するVM1のアクセス許可：",
           "choices": [
             {
@@ -1215,13 +1262,18 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-018-c1"
           ],
-          "explanationHtml": "<p>別のKeyVaultにシークレットをコピーできそうに思えるかもしれませんが、Copyという操作（権限）はないので、KV1の情報を取得した上で、その情報を元にKV2にシークレットを作成する必要があります。</p><p><br></p><p>KV1から全てのシークレットを取得するためには「一覧（List）」の権限を追加します。</p><p>取得（Get）だけでも単一のシークレットをひとつずつ取得できますが、一覧を取得してからループ処理を実行する方が労力を抑えることができます。</p><p><br></p><p>そして、KV2にシークレットを作成するには「セット（Set）」の権限を追加します。</p><p>キーや証明書と違い「作成（Create）」という権限はないので注意しましょう。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal</a></p><p><a href=\"https://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/\">https://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/</a></p><p><br></p>",
+          "explanationHtml": "<p>別のKeyVaultにシークレットをコピーできそうに思えるかもしれませんが、Copyという操作（権限）はないので、KV1の情報を取得した上で、その情報を元にKV2にシークレットを作成する必要があります。</p><p><br></p><p>KV1から全てのシークレットを取得するためには「一覧（List）」の権限を追加します。</p><p>取得（Get）だけでも単一のシークレットをひとつずつ取得できますが、一覧を取得してからループ処理を実行する方が労力を抑えることができます。</p><p><br></p><p>そして、KV2にシークレットを作成するには「セット（Set）」の権限を追加します。</p><p>キーや証明書と違い「作成（Create）」という権限はないので注意しましょう。</p><img src=\"assets/問題集1_files/2023-01-16_14-39-15-5fd01000a0e32a2aead50b8fa3a27ac2.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal</a></p><p><a href=\"https://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/\">https://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/</a></p><p><br></p>",
           "explanationText": "別のKeyVaultにシークレットをコピーできそうに思えるかもしれませんが、Copyという操作（権限）はないので、KV1の情報を取得した上で、その情報を元にKV2にシークレットを作成する必要があります。\n\nKV1から全てのシークレットを取得するためには「一覧（List）」の権限を追加します。\n取得（Get）だけでも単一のシークレットをひとつずつ取得できますが、一覧を取得してからループ処理を実行する方が労力を抑えることができます。\n\nそして、KV2にシークレットを作成するには「セット（Set）」の権限を追加します。\nキーや証明書と違い「作成（Create）」という権限はないので注意しましょう。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal\nhttps://blog.nicholasrogoff.com/2021/08/09/azure-key-vault-script-for-copying-secrets-from-one-to-another/",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-16_14-39-15-ee60af6506701de5cce8b2dd61b10bbc.png",
+            "assets/問題集1_files/2023-01-16_14-39-15-5fd01000a0e32a2aead50b8fa3a27ac2.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-003",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-019",
@@ -1257,13 +1309,18 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-019-c2"
           ],
-          "explanationHtml": "<p>WindowsのイベントログやLinuxのSyslogを収集して監視するには、Azure Monitorの「データ収集ルール」を作成します。</p><p>この場合、収集するイベントログの保存先として「Log Analyticsワークスペース」が必要になるため選択肢2が正解です。イベントログをストレージアカウントなど他のデータストアに送信することはできません。</p><p>※ターゲットの種類が「Azure Monitor Logs」と表現される場合もありますが「Log Analyticsワークスペース」のことです。</p><p><br></p><p>なお、イベントログの種類はデータソースの追加画面で行うことができます。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal</a></p>",
+          "explanationHtml": "<p>WindowsのイベントログやLinuxのSyslogを収集して監視するには、Azure Monitorの「データ収集ルール」を作成します。</p><p>この場合、収集するイベントログの保存先として「Log Analyticsワークスペース」が必要になるため選択肢2が正解です。イベントログをストレージアカウントなど他のデータストアに送信することはできません。</p><p>※ターゲットの種類が「Azure Monitor Logs」と表現される場合もありますが「Log Analyticsワークスペース」のことです。</p><img src=\"assets/問題集1_files/2023-01-17_07-16-07-2360e4d7e587b776bba169a4078e4050.png\" alt=\"\" loading=\"eager\"><p><br></p><p>なお、イベントログの種類はデータソースの追加画面で行うことができます。</p><img src=\"assets/問題集1_files/2023-01-17_07-16-07-6f62487926286a2811468608755d91c5.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal</a></p>",
           "explanationText": "WindowsのイベントログやLinuxのSyslogを収集して監視するには、Azure Monitorの「データ収集ルール」を作成します。\nこの場合、収集するイベントログの保存先として「Log Analyticsワークスペース」が必要になるため選択肢2が正解です。イベントログをストレージアカウントなど他のデータストアに送信することはできません。\n※ターゲットの種類が「Azure Monitor Logs」と表現される場合もありますが「Log Analyticsワークスペース」のことです。\n\nなお、イベントログの種類はデータソースの追加画面で行うことができます。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-17_07-16-07-2360e4d7e587b776bba169a4078e4050.png",
+            "assets/問題集1_files/2023-01-17_07-16-07-6f62487926286a2811468608755d91c5.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-003",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-020",
@@ -1304,15 +1361,17 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-003",
+          "tags": [
+            "linked-question"
+          ]
         }
       ]
     },
     "jp1-set-003": {
       "setId": "jp1-set-003",
       "title": "問題集1 21-30",
-      "sourceHtml": "udemy/問題集1.html",
+      "sourceHtml": "assets/問題集1.html",
       "questionIds": [
         "jp1-q-021",
         "jp1-q-022",
@@ -1329,7 +1388,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp1-q-021",
           "sourceQuestionNumber": 21,
-          "promptHtml": "<p>あなたは、次の表に示すリソースを持っています。</p><p>CDB1 は、継続的に更新される運用データを格納するコンテナーをホストしています。</p><p>あなたは、運用データを毎日分析するためにAS1を使用するソリューションを設計しています。</p><p><br></p><p>あなたは、CDB1 のパフォーマンスに影響を与えることなく、データを分析するためのソリューションを提案する必要があります。</p><p>あなたは提案に何を含めるべきですか 。</p>",
+          "promptHtml": "<p>あなたは、次の表に示すリソースを持っています。</p><img src=\"assets/問題集1_files/2023-02-05_08-40-29-1beebc8b53bf33e38dcfa037826225d3.png\" alt=\"\" loading=\"eager\"><p>CDB1 は、継続的に更新される運用データを格納するコンテナーをホストしています。</p><p>あなたは、運用データを毎日分析するためにAS1を使用するソリューションを設計しています。</p><p><br></p><p>あなたは、CDB1 のパフォーマンスに影響を与えることなく、データを分析するためのソリューションを提案する必要があります。</p><p>あなたは提案に何を含めるべきですか 。</p>",
           "promptText": "あなたは、次の表に示すリソースを持っています。\nCDB1 は、継続的に更新される運用データを格納するコンテナーをホストしています。\nあなたは、運用データを毎日分析するためにAS1を使用するソリューションを設計しています。\n\nあなたは、CDB1 のパフォーマンスに影響を与えることなく、データを分析するためのソリューションを提案する必要があります。\nあなたは提案に何を含めるべきですか 。",
           "choices": [
             {
@@ -1360,9 +1419,12 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-021-c4"
           ],
-          "explanationHtml": "<p>Azure Synapse Link for Azure Cosmos DBを有効にすると、Azure Cosmos DB と Azure Synapse Analytics の間に緊密でシームレスな統合が作成され、Azure Cosmos DB でのトランザクション ワークロードのパフォーマンスに影響を与えることなくほぼリアルタイムの分析が可能になります。</p><p>Azure Synapse Link は、Azure Cosmos DB SQL API または Mongo DB アカウント用の Azure Cosmos DB API で使用することができます。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/synapse-link\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/synapse-link</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/configure-synapse-link\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/configure-synapse-link</a></p>",
+          "explanationHtml": "<p>Azure Synapse Link for Azure Cosmos DBを有効にすると、Azure Cosmos DB と Azure Synapse Analytics の間に緊密でシームレスな統合が作成され、Azure Cosmos DB でのトランザクション ワークロードのパフォーマンスに影響を与えることなくほぼリアルタイムの分析が可能になります。</p><p>Azure Synapse Link は、Azure Cosmos DB SQL API または Mongo DB アカウント用の Azure Cosmos DB API で使用することができます。</p><img src=\"assets/問題集1_files/2023-01-14_05-03-46-0b2dfdf8f1f20b07a0119dcb2cd46680.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/synapse-link\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/synapse-link</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/configure-synapse-link\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/configure-synapse-link</a></p>",
           "explanationText": "Azure Synapse Link for Azure Cosmos DBを有効にすると、Azure Cosmos DB と Azure Synapse Analytics の間に緊密でシームレスな統合が作成され、Azure Cosmos DB でのトランザクション ワークロードのパフォーマンスに影響を与えることなくほぼリアルタイムの分析が可能になります。\nAzure Synapse Link は、Azure Cosmos DB SQL API または Mongo DB アカウント用の Azure Cosmos DB API で使用することができます。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/synapse-link\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/configure-synapse-link",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-02-05_08-40-29-1beebc8b53bf33e38dcfa037826225d3.png",
+            "assets/問題集1_files/2023-01-14_05-03-46-0b2dfdf8f1f20b07a0119dcb2cd46680.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -1402,9 +1464,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-022-c4"
           ],
-          "explanationHtml": "<p>Azure SQL Databaseのデプロイオプションとゾーン冗長のサポートなどをまとめると次のとおりです。</p><p>将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。</p><p></p><p><br></p><p><code>・データベースは、ゾーン停止時に利用可能であること</code></p><p><code>・コストを最小限に抑えること</code></p><p>選択肢のうち、ゾーン冗長に正式に対応しているのはAzure SQL DatabaseのHyperscaleとPremiumのみです。</p><p>このうち、コストを最小化できるのはPremiumなので選択肢4が正解です。</p><p><br></p><p><code>・データベースのレプリカ間でデータ損失なしにフェールオーバーできること</code></p><p>Azure SQL Database Premium（と Business Critical）は、Premium 可用性モデルのアーキテクチャで構成されています。3～4つのノードでクラスタを形成し、データのコピーを格納する最大 3 つのセカンダリ レプリカが含まれます。</p><p>プライマリ ノードは常にセカンダリ ノードへ順番に変更をプッシュし、各トランザクションをコミットする前に少なくとも 1 つのセカンダリ レプリカにデータが保持されるようにします。 このプロセスによって、何らかの理由でプライマリ ノードがクラッシュした場合に、フェールオーバー先となる完全に同期されたノードが常に用意されている状態が保証されます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/azure-sql-database/single/\">https://azure.microsoft.com/ja-jp/pricing/details/azure-sql-database/single/</a></p>",
+          "explanationHtml": "<p>Azure SQL Databaseのデプロイオプションとゾーン冗長のサポートなどをまとめると次のとおりです。</p><p>将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。</p><p><img src=\"assets/問題集1_files/2023-02-06_07-57-40-8394baba8bf5871e77204413f83b426e.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p><code>・データベースは、ゾーン停止時に利用可能であること</code></p><p><code>・コストを最小限に抑えること</code></p><p>選択肢のうち、ゾーン冗長に正式に対応しているのはAzure SQL DatabaseのHyperscaleとPremiumのみです。</p><p>このうち、コストを最小化できるのはPremiumなので選択肢4が正解です。</p><p><br></p><p><code>・データベースのレプリカ間でデータ損失なしにフェールオーバーできること</code></p><p>Azure SQL Database Premium（と Business Critical）は、Premium 可用性モデルのアーキテクチャで構成されています。3～4つのノードでクラスタを形成し、データのコピーを格納する最大 3 つのセカンダリ レプリカが含まれます。</p><p>プライマリ ノードは常にセカンダリ ノードへ順番に変更をプッシュし、各トランザクションをコミットする前に少なくとも 1 つのセカンダリ レプリカにデータが保持されるようにします。 このプロセスによって、何らかの理由でプライマリ ノードがクラッシュした場合に、フェールオーバー先となる完全に同期されたノードが常に用意されている状態が保証されます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/azure-sql-database/single/\">https://azure.microsoft.com/ja-jp/pricing/details/azure-sql-database/single/</a></p>",
           "explanationText": "Azure SQL Databaseのデプロイオプションとゾーン冗長のサポートなどをまとめると次のとおりです。\n将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。\n\n・データベースは、ゾーン停止時に利用可能であること\n・コストを最小限に抑えること\n選択肢のうち、ゾーン冗長に正式に対応しているのはAzure SQL DatabaseのHyperscaleとPremiumのみです。\nこのうち、コストを最小化できるのはPremiumなので選択肢4が正解です。\n\n・データベースのレプリカ間でデータ損失なしにフェールオーバーできること\nAzure SQL Database Premium（と Business Critical）は、Premium 可用性モデルのアーキテクチャで構成されています。3～4つのノードでクラスタを形成し、データのコピーを格納する最大 3 つのセカンダリ レプリカが含まれます。\nプライマリ ノードは常にセカンダリ ノードへ順番に変更をプッシュし、各トランザクションをコミットする前に少なくとも 1 つのセカンダリ レプリカにデータが保持されるようにします。 このプロセスによって、何らかの理由でプライマリ ノードがクラッシュした場合に、フェールオーバー先となる完全に同期されたノードが常に用意されている状態が保証されます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla\nhttps://azure.microsoft.com/ja-jp/pricing/details/azure-sql-database/single/",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-02-06_07-57-40-8394baba8bf5871e77204413f83b426e.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -1413,7 +1477,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp1-q-023",
           "sourceQuestionNumber": 23,
-          "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの会社には、次の表に示す事業部があります。</p><p>あなたは、各サブスクリプションにカスタムアプリケーションを展開する予定です。</p><p>アプリケーションは次のリソースを含みます。</p><p><br></p><p>・リソースグループ </p><p>・Azure Webアプリ</p><p>・カスタムロールの割り当て</p><p>・Azure Cosmos DB アカウント</p><p><br></p><p>あなたは、Azure Blueprintsを使用して、各サブスクリプションにアプリケーションをデプロイする必要があります。 </p><p>デプロイにはAzureポータルを使います。</p><p>アプリケーションをデプロイするために必要な<strong>管理グループ</strong>の最小数はいくつですか。</p><p><br></p><p>管理グループの数：</p><p>ブループリントの定義の数：</p><p>ブループリントの割り当ての数：</p>",
+          "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの会社には、次の表に示す事業部があります。</p><img src=\"assets/問題集1_files/2024-10-04_07-21-38-b04ca39003c4f95821562d8c7f9e73b7.png\" alt=\"\" loading=\"eager\"><p>あなたは、各サブスクリプションにカスタムアプリケーションを展開する予定です。</p><p>アプリケーションは次のリソースを含みます。</p><p><br></p><p>・リソースグループ </p><p>・Azure Webアプリ</p><p>・カスタムロールの割り当て</p><p>・Azure Cosmos DB アカウント</p><p><br></p><p>あなたは、Azure Blueprintsを使用して、各サブスクリプションにアプリケーションをデプロイする必要があります。 </p><p>デプロイにはAzureポータルを使います。</p><p>アプリケーションをデプロイするために必要な<strong>管理グループ</strong>の最小数はいくつですか。</p><p><br></p><p>管理グループの数：</p><p>ブループリントの定義の数：</p><p>ブループリントの割り当ての数：</p>",
           "promptText": "注：この問題は次とその次の問題と3問1セットです。\n\nあなたの会社には、次の表に示す事業部があります。\nあなたは、各サブスクリプションにカスタムアプリケーションを展開する予定です。\nアプリケーションは次のリソースを含みます。\n\n・リソースグループ\n・Azure Webアプリ\n・カスタムロールの割り当て\n・Azure Cosmos DB アカウント\n\nあなたは、Azure Blueprintsを使用して、各サブスクリプションにアプリケーションをデプロイする必要があります。\nデプロイにはAzureポータルを使います。\nアプリケーションをデプロイするために必要な管理グループの最小数はいくつですか。\n\n管理グループの数：\nブループリントの定義の数：\nブループリントの割り当ての数：",
           "choices": [
             {
@@ -1446,7 +1510,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>それぞれの事業部はそれぞれ別々のMicrosoft Entraテナントを持っていて、2つのサブスクリプションが関連付けられています。</p><p><br></p><p>管理グループは、複数のサブスクリプションをグループ化してロールやポリシー、ブループリント定義の割り当てを効率化することができます。</p><p>ただし、単一の管理グループ内のすべてのサブスクリプションは、<strong>同じ Microsoft Entra テナントを信頼する必要があります。</strong></p><p><br></p><p>本問題では、Microsoft Entraテナントが別々なので、テナントごとに1つ、少なくとも2つの管理グループが必要です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/management-groups/overview\">https://learn.microsoft.com/ja-jp/azure/governance/management-groups/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/create-blueprint-rest-api#assign-a-blueprint\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/create-blueprint-rest-api#assign-a-blueprint</a></p>",
           "explanationText": "それぞれの事業部はそれぞれ別々のMicrosoft Entraテナントを持っていて、2つのサブスクリプションが関連付けられています。\n\n管理グループは、複数のサブスクリプションをグループ化してロールやポリシー、ブループリント定義の割り当てを効率化することができます。\nただし、単一の管理グループ内のすべてのサブスクリプションは、同じ Microsoft Entra テナントを信頼する必要があります。\n\n本問題では、Microsoft Entraテナントが別々なので、テナントごとに1つ、少なくとも2つの管理グループが必要です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/management-groups/overview\nhttps://learn.microsoft.com/ja-jp/azure/governance/blueprints/create-blueprint-rest-api#assign-a-blueprint",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2024-10-04_07-21-38-b04ca39003c4f95821562d8c7f9e73b7.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -1455,7 +1521,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp1-q-024",
           "sourceQuestionNumber": 24,
-          "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの会社には、次の表に示す事業部があります。</p><p>あなたは、各サブスクリプションにカスタムアプリケーションを展開する予定です。</p><p>アプリケーションは次のリソースを含みます。</p><p><br></p><p>・リソースグループ </p><p>・Azure Webアプリ</p><p>・カスタムロールの割り当て</p><p>・Azure Cosmos DB アカウント</p><p><br></p><p>あなたは、Azure Blueprintsを使用して、各サブスクリプションにアプリケーションをデプロイする必要があります。 </p><p>デプロイにはAzureポータルを使います。</p><p>アプリケーションをデプロイするために必要な<strong>ブループリントの定義</strong>の最小数はいくつですか。</p><p><br></p><p>管理グループの数：</p><p>ブループリントの定義の数：</p><p>ブループリントの割り当ての数：</p>",
+          "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの会社には、次の表に示す事業部があります。</p><img src=\"assets/問題集1_files/2024-10-04_07-22-00-cfb7c9eff915004ed0fd47687c19c17f.png\" alt=\"\" loading=\"eager\"><p>あなたは、各サブスクリプションにカスタムアプリケーションを展開する予定です。</p><p>アプリケーションは次のリソースを含みます。</p><p><br></p><p>・リソースグループ </p><p>・Azure Webアプリ</p><p>・カスタムロールの割り当て</p><p>・Azure Cosmos DB アカウント</p><p><br></p><p>あなたは、Azure Blueprintsを使用して、各サブスクリプションにアプリケーションをデプロイする必要があります。 </p><p>デプロイにはAzureポータルを使います。</p><p>アプリケーションをデプロイするために必要な<strong>ブループリントの定義</strong>の最小数はいくつですか。</p><p><br></p><p>管理グループの数：</p><p>ブループリントの定義の数：</p><p>ブループリントの割り当ての数：</p>",
           "promptText": "注：この問題は前と次の問題と3問1セットです。\n\nあなたの会社には、次の表に示す事業部があります。\nあなたは、各サブスクリプションにカスタムアプリケーションを展開する予定です。\nアプリケーションは次のリソースを含みます。\n\n・リソースグループ\n・Azure Webアプリ\n・カスタムロールの割り当て\n・Azure Cosmos DB アカウント\n\nあなたは、Azure Blueprintsを使用して、各サブスクリプションにアプリケーションをデプロイする必要があります。\nデプロイにはAzureポータルを使います。\nアプリケーションをデプロイするために必要なブループリントの定義の最小数はいくつですか。\n\n管理グループの数：\nブループリントの定義の数：\nブループリントの割り当ての数：",
           "choices": [
             {
@@ -1488,7 +1554,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>前の問題の解説の通り、少なくとも2つの管理グループが必要です。</p><p>ブループリント定義は、管理グループまたはサブスクリプションに保存できます。</p><p>そして、ブループリント定義は管理グループまたはサブスクリプションに割り当てることができます。</p><p>※ただし、管理グループへの割り当てには注意点があります（次の問題で解説します）</p><p><br></p><p>ブループリント定義を各管理グループに保存すると、定義の数を最小にできます。この場合、少なくとも2つのブループリント定義が必要です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview#blueprint-definition-locations\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview#blueprint-definition-locations</a></p>",
           "explanationText": "前の問題の解説の通り、少なくとも2つの管理グループが必要です。\nブループリント定義は、管理グループまたはサブスクリプションに保存できます。\nそして、ブループリント定義は管理グループまたはサブスクリプションに割り当てることができます。\n※ただし、管理グループへの割り当てには注意点があります（次の問題で解説します）\n\nブループリント定義を各管理グループに保存すると、定義の数を最小にできます。この場合、少なくとも2つのブループリント定義が必要です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview#blueprint-definition-locations",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2024-10-04_07-22-00-cfb7c9eff915004ed0fd47687c19c17f.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -1497,7 +1565,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp1-q-025",
           "sourceQuestionNumber": 25,
-          "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの会社には、次の表に示す事業部があります。</p><p></p><p>あなたは、各サブスクリプションにカスタムアプリケーションを展開する予定です。</p><p>アプリケーションは次のリソースを含みます。</p><p><br></p><p>・リソースグループ </p><p>・Azure Webアプリ</p><p>・カスタムロールの割り当て</p><p>・Azure Cosmos DB アカウント</p><p><br></p><p>あなたは、Azure Blueprintsを使用して、各サブスクリプションにアプリケーションをデプロイする必要があります。 </p><p>デプロイにはAzureポータルを使います。</p><p>アプリケーションをデプロイするために必要な<strong>ブループリントの割り当て</strong>の最小数はいくつですか。</p><p><br></p><p>管理グループの数：</p><p>ブループリントの定義の数：</p><p>ブループリントの割り当ての数：</p>",
+          "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの会社には、次の表に示す事業部があります。</p><p><img src=\"assets/問題集1_files/2023-01-20_02-59-32-58913b01af6090c1608874a5b295a66b.png\" alt=\"\" loading=\"eager\"></p><p>あなたは、各サブスクリプションにカスタムアプリケーションを展開する予定です。</p><p>アプリケーションは次のリソースを含みます。</p><p><br></p><p>・リソースグループ </p><p>・Azure Webアプリ</p><p>・カスタムロールの割り当て</p><p>・Azure Cosmos DB アカウント</p><p><br></p><p>あなたは、Azure Blueprintsを使用して、各サブスクリプションにアプリケーションをデプロイする必要があります。 </p><p>デプロイにはAzureポータルを使います。</p><p>アプリケーションをデプロイするために必要な<strong>ブループリントの割り当て</strong>の最小数はいくつですか。</p><p><br></p><p>管理グループの数：</p><p>ブループリントの定義の数：</p><p>ブループリントの割り当ての数：</p>",
           "promptText": "注：この問題は前とその前の問題と3問1セットです。\n\nあなたの会社には、次の表に示す事業部があります。\n\nあなたは、各サブスクリプションにカスタムアプリケーションを展開する予定です。\nアプリケーションは次のリソースを含みます。\n\n・リソースグループ\n・Azure Webアプリ\n・カスタムロールの割り当て\n・Azure Cosmos DB アカウント\n\nあなたは、Azure Blueprintsを使用して、各サブスクリプションにアプリケーションをデプロイする必要があります。\nデプロイにはAzureポータルを使います。\nアプリケーションをデプロイするために必要なブループリントの割り当ての最小数はいくつですか。\n\n管理グループの数：\nブループリントの定義の数：\nブループリントの割り当ての数：",
           "choices": [
             {
@@ -1530,7 +1598,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>前の問題の解説の通り、少なくとも2つの管理グループにブループリント定義を保存すればオブジェクトの数を最小にできます。</p><p><br></p><p>ブループリント定義は管理グループまたはサブスクリプションに割り当てることができます。</p><p>ただし、Azureポータルから実施する場合は、管理グループに割り当てることは<strong>できません。</strong></p><p>サブスクリプションの数だけブループリント定義の割り当てを作成する必要があります。</p><p>よって、「4」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/create-blueprint-portal\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/create-blueprint-portal</a></p>",
           "explanationText": "前の問題の解説の通り、少なくとも2つの管理グループにブループリント定義を保存すればオブジェクトの数を最小にできます。\n\nブループリント定義は管理グループまたはサブスクリプションに割り当てることができます。\nただし、Azureポータルから実施する場合は、管理グループに割り当てることはできません。\nサブスクリプションの数だけブループリント定義の割り当てを作成する必要があります。\nよって、「4」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/blueprints/create-blueprint-portal",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-20_02-59-32-58913b01af6090c1608874a5b295a66b.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -1570,9 +1640,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-026-c4"
           ],
-          "explanationHtml": "<p><code>・仮想マシンがMicrosoft Entra IDで認証され、Azure Key Vaultにアクセスできること</code></p><p>この要件はマネージドID、サービスプリンシパルどちらでも実現できますが、</p><p><code>・仮想マシン上にシークレットと証明書を保存しないこと</code></p><p>サービスプリンシパルの認証に利用するシークレット、または、証明書を仮想マシンに保存しないようにする必要があるため、選択肢1、3は誤りです。</p><p><br></p><p><code>・2台の仮想マシンを追加でデプロイする際に、Azureサービスに新しいロールの割り当てが不要なこと</code></p><p>この要件を満たすことができるのは選択肢4の「ユーザー割り当てマネージドID」です。</p><p>マネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a>&nbsp;には次の2つがあります。</p><p><br></p><p>・システム割り当てマネージドID</p><p>・ユーザー割り当てマネージドID</p><p><br></p><p>システム割り当てマネージドIDは、仮想マシンなどAzureリソースの一部として作成され、仮想マシンが実行されているときのみ認証できます。仮想マシンごとにIDが発行されるため、ひとつずつIDに対してロールを割り当てる必要があります。</p><p><br></p><p>ユーザー割り当てマネージドIDは、独立したAzureリソースとして作成でき、それをAzureリソースに関連付けて使用します。一つのユーザー割り当てマネージドIDにロールを割り当てておけば、追加で仮想マシンをデプロイした際に新たにロールを割り当てることなく、仮想マシンにユーザー割り当てマネージドIDを関連付けるだけで済みます。</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a></p><p><br></p><p>この2つのマネージドIDの関係を例えるなら、仮想マシンのOSディスクとファイル共有としてマウントできるAzure Storageのようなものです。</p><p>仮想マシンのOSディスクは、必ず単一の仮想マシンに関連付けられ、仮想マシンが実行されている時のみディスクにアクセスできます。親リソースとともに削除される点も同様です。</p><p>ファイル共有は、仮想マシンとは別に独立して作成し、複数の仮想マシンにマウントすることでストレージ領域を使用できます。仮想マシンを削除してもファイル共有自体が削除されることはありません。</p>",
+          "explanationHtml": "<p><code>・仮想マシンがMicrosoft Entra IDで認証され、Azure Key Vaultにアクセスできること</code></p><p>この要件はマネージドID、サービスプリンシパルどちらでも実現できますが、</p><p><code>・仮想マシン上にシークレットと証明書を保存しないこと</code></p><p>サービスプリンシパルの認証に利用するシークレット、または、証明書を仮想マシンに保存しないようにする必要があるため、選択肢1、3は誤りです。</p><p><br></p><p><code>・2台の仮想マシンを追加でデプロイする際に、Azureサービスに新しいロールの割り当てが不要なこと</code></p><p>この要件を満たすことができるのは選択肢4の「ユーザー割り当てマネージドID」です。</p><p>マネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a>&nbsp;には次の2つがあります。</p><p><br></p><p>・システム割り当てマネージドID</p><p>・ユーザー割り当てマネージドID</p><p><br></p><p>システム割り当てマネージドIDは、仮想マシンなどAzureリソースの一部として作成され、仮想マシンが実行されているときのみ認証できます。仮想マシンごとにIDが発行されるため、ひとつずつIDに対してロールを割り当てる必要があります。</p><p><br></p><p>ユーザー割り当てマネージドIDは、独立したAzureリソースとして作成でき、それをAzureリソースに関連付けて使用します。一つのユーザー割り当てマネージドIDにロールを割り当てておけば、追加で仮想マシンをデプロイした際に新たにロールを割り当てることなく、仮想マシンにユーザー割り当てマネージドIDを関連付けるだけで済みます。</p><p><img src=\"assets/問題集1_files/2023-01-20_01-29-57-72cb72a86c5d89f3242acc592a7d80e9.png\" alt=\"\" loading=\"eager\"></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a></p><p><br></p><p>この2つのマネージドIDの関係を例えるなら、仮想マシンのOSディスクとファイル共有としてマウントできるAzure Storageのようなものです。</p><p>仮想マシンのOSディスクは、必ず単一の仮想マシンに関連付けられ、仮想マシンが実行されている時のみディスクにアクセスできます。親リソースとともに削除される点も同様です。</p><p>ファイル共有は、仮想マシンとは別に独立して作成し、複数の仮想マシンにマウントすることでストレージ領域を使用できます。仮想マシンを削除してもファイル共有自体が削除されることはありません。</p>",
           "explanationText": "・仮想マシンがMicrosoft Entra IDで認証され、Azure Key Vaultにアクセスできること\nこの要件はマネージドID、サービスプリンシパルどちらでも実現できますが、\n・仮想マシン上にシークレットと証明書を保存しないこと\nサービスプリンシパルの認証に利用するシークレット、または、証明書を仮想マシンに保存しないようにする必要があるため、選択肢1、3は誤りです。\n\n・2台の仮想マシンを追加でデプロイする際に、Azureサービスに新しいロールの割り当てが不要なこと\nこの要件を満たすことができるのは選択肢4の「ユーザー割り当てマネージドID」です。\nマネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。\nマネージドIDの種類 には次の2つがあります。\n\n・システム割り当てマネージドID\n・ユーザー割り当てマネージドID\n\nシステム割り当てマネージドIDは、仮想マシンなどAzureリソースの一部として作成され、仮想マシンが実行されているときのみ認証できます。仮想マシンごとにIDが発行されるため、ひとつずつIDに対してロールを割り当てる必要があります。\n\nユーザー割り当てマネージドIDは、独立したAzureリソースとして作成でき、それをAzureリソースに関連付けて使用します。一つのユーザー割り当てマネージドIDにロールを割り当てておけば、追加で仮想マシンをデプロイした際に新たにロールを割り当てることなく、仮想マシンにユーザー割り当てマネージドIDを関連付けるだけで済みます。\n\n出典：マネージドIDの種類\n\nこの2つのマネージドIDの関係を例えるなら、仮想マシンのOSディスクとファイル共有としてマウントできるAzure Storageのようなものです。\n仮想マシンのOSディスクは、必ず単一の仮想マシンに関連付けられ、仮想マシンが実行されている時のみディスクにアクセスできます。親リソースとともに削除される点も同様です。\nファイル共有は、仮想マシンとは別に独立して作成し、複数の仮想マシンにマウントすることでストレージ領域を使用できます。仮想マシンを削除してもファイル共有自体が削除されることはありません。",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-20_01-29-57-72cb72a86c5d89f3242acc592a7d80e9.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -1612,9 +1684,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-027-c2"
           ],
-          "explanationHtml": "<p>複数のアプリケーションを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがよくあります。</p><p>アプリとアプリを直接つなぐのではなく、間にメッセージングサービスを挟むことで、送信側は受信側の処理を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。</p><p><br></p><p>Azure には大きく次の2つのメッセージベースのソリューションが用意されています。</p><p>・Azure Queue Storage</p><p>・Azure Service Bus</p><p><br></p><p><code>将来的には、出荷要求の一部を処理するアプリケーションが追加される予定です。</code></p><p><code>出荷要求のキューを処理する各アプリケーションは、それぞれが独立して同じ情報（キュー）を読み取り可能である必要があります。</code></p><p>ここがポイントです。キューを処理するアプリが単一から複数になる予定があります。</p><p>そして、各アプリケーションそれぞれがキューを受け取る必要があります。（1対多）</p><p><br></p><p>Azure Queue Storageは送信者と受信者が1対1のサービスです。</p><p>受信者が複数になる場合、1つのAzure Service Busトピックを使用してパブリッシュ/サブスクライブ（Pub/Sub）方式でメッセージを送受信するように構成します。</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-queues-topics-subscriptions#topics-and-subscriptions\">トピックとサブスクリプション</a></p><p><br></p><p>Service Busのキューとトピックの違いは公式ドキュメントを参照してください。</p><p>ざっくり言うと、Service Busキューは1対1、Service Busトピックは1対多の形式の通信となります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-queues-topics-subscriptions\">https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-queues-topics-subscriptions</a></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted\">https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/training/modules/design-application-architecture/3-design-messaging-solution\">https://learn.microsoft.com/ja-jp/training/modules/design-application-architecture/3-design-messaging-solution</a></p>",
+          "explanationHtml": "<p>複数のアプリケーションを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがよくあります。</p><p>アプリとアプリを直接つなぐのではなく、間にメッセージングサービスを挟むことで、送信側は受信側の処理を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。</p><p><br></p><p>Azure には大きく次の2つのメッセージベースのソリューションが用意されています。</p><p>・Azure Queue Storage</p><p>・Azure Service Bus</p><p><br></p><p><code>将来的には、出荷要求の一部を処理するアプリケーションが追加される予定です。</code></p><p><code>出荷要求のキューを処理する各アプリケーションは、それぞれが独立して同じ情報（キュー）を読み取り可能である必要があります。</code></p><p>ここがポイントです。キューを処理するアプリが単一から複数になる予定があります。</p><p>そして、各アプリケーションそれぞれがキューを受け取る必要があります。（1対多）</p><p><br></p><p>Azure Queue Storageは送信者と受信者が1対1のサービスです。</p><p>受信者が複数になる場合、1つのAzure Service Busトピックを使用してパブリッシュ/サブスクライブ（Pub/Sub）方式でメッセージを送受信するように構成します。</p><p><img src=\"assets/問題集1_files/2023-02-07_05-04-09-85de7707578fa4e07098dfdb1053bb77.png\" alt=\"\" loading=\"eager\"></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-queues-topics-subscriptions#topics-and-subscriptions\">トピックとサブスクリプション</a></p><p><br></p><p>Service Busのキューとトピックの違いは公式ドキュメントを参照してください。</p><p>ざっくり言うと、Service Busキューは1対1、Service Busトピックは1対多の形式の通信となります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-queues-topics-subscriptions\">https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-queues-topics-subscriptions</a></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted\">https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/training/modules/design-application-architecture/3-design-messaging-solution\">https://learn.microsoft.com/ja-jp/training/modules/design-application-architecture/3-design-messaging-solution</a></p>",
           "explanationText": "複数のアプリケーションを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがよくあります。\nアプリとアプリを直接つなぐのではなく、間にメッセージングサービスを挟むことで、送信側は受信側の処理を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。\n\nAzure には大きく次の2つのメッセージベースのソリューションが用意されています。\n・Azure Queue Storage\n・Azure Service Bus\n\n将来的には、出荷要求の一部を処理するアプリケーションが追加される予定です。\n出荷要求のキューを処理する各アプリケーションは、それぞれが独立して同じ情報（キュー）を読み取り可能である必要があります。\nここがポイントです。キューを処理するアプリが単一から複数になる予定があります。\nそして、各アプリケーションそれぞれがキューを受け取る必要があります。（1対多）\n\nAzure Queue Storageは送信者と受信者が1対1のサービスです。\n受信者が複数になる場合、1つのAzure Service Busトピックを使用してパブリッシュ/サブスクライブ（Pub/Sub）方式でメッセージを送受信するように構成します。\n\n出典：トピックとサブスクリプション\n\nService Busのキューとトピックの違いは公式ドキュメントを参照してください。\nざっくり言うと、Service Busキューは1対1、Service Busトピックは1対多の形式の通信となります。\nhttps://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-queues-topics-subscriptions\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted\nhttps://learn.microsoft.com/ja-jp/training/modules/design-application-architecture/3-design-messaging-solution",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-02-07_05-04-09-85de7707578fa4e07098dfdb1053bb77.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -1726,20 +1800,24 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-030-c1"
           ],
-          "explanationHtml": "<p>Azure Network Watcher では、Azure 仮想ネットワーク内のリソースの監視、診断、メトリックの表示、ログの有効化または無効化を行うためのいくつかのツールが提供されています。</p><p><br></p><p>Network Watcher IP フロー検証では、5 つの組の情報に基づき、仮想マシンでパケットが許可されたか拒否されたかを確認することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/network-watcher/network-watcher-ip-flow-verify-overview\">https://learn.microsoft.com/ja-jp/azure/network-watcher/network-watcher-ip-flow-verify-overview</a></p>",
+          "explanationHtml": "<p>Azure Network Watcher では、Azure 仮想ネットワーク内のリソースの監視、診断、メトリックの表示、ログの有効化または無効化を行うためのいくつかのツールが提供されています。</p><p><br></p><p>Network Watcher IP フロー検証では、5 つの組の情報に基づき、仮想マシンでパケットが許可されたか拒否されたかを確認することができます。</p><p><br></p><img src=\"assets/問題集1_files/2023-01-20_04-22-44-e6766a5f1c3462a7b8c5244872c7474d.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/network-watcher/network-watcher-ip-flow-verify-overview\">https://learn.microsoft.com/ja-jp/azure/network-watcher/network-watcher-ip-flow-verify-overview</a></p>",
           "explanationText": "Azure Network Watcher では、Azure 仮想ネットワーク内のリソースの監視、診断、メトリックの表示、ログの有効化または無効化を行うためのいくつかのツールが提供されています。\n\nNetwork Watcher IP フロー検証では、5 つの組の情報に基づき、仮想マシンでパケットが許可されたか拒否されたかを確認することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/network-watcher/network-watcher-ip-flow-verify-overview",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-20_04-22-44-e6766a5f1c3462a7b8c5244872c7474d.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-004",
+          "tags": [
+            "linked-question"
+          ]
         }
       ]
     },
     "jp1-set-004": {
       "setId": "jp1-set-004",
       "title": "問題集1 31-40",
-      "sourceHtml": "udemy/問題集1.html",
+      "sourceHtml": "assets/問題集1.html",
       "questionIds": [
         "jp1-q-031",
         "jp1-q-032",
@@ -1780,8 +1858,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-004",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-032",
@@ -1817,9 +1897,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-032-c4"
           ],
-          "explanationHtml": "<p>Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。</p><p>例えば、「日本のリージョン以外のリソースの作成を拒否する」とか「仮想マシンの作成を特定のサイズに限定する」といったことが可能です。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/overview\">https://learn.microsoft.com/ja-jp/azure/governance/policy/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\">https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies</a></p>",
+          "explanationHtml": "<p>Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。</p><p>例えば、「日本のリージョン以外のリソースの作成を拒否する」とか「仮想マシンの作成を特定のサイズに限定する」といったことが可能です。</p><img src=\"assets/問題集1_files/2023-01-24_01-17-58-60f043dd1dbc9edee8d20e8a6d958d0e.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/overview\">https://learn.microsoft.com/ja-jp/azure/governance/policy/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\">https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies</a></p>",
           "explanationText": "Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。\n例えば、「日本のリージョン以外のリソースの作成を拒否する」とか「仮想マシンの作成を特定のサイズに限定する」といったことが可能です。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/overview\nhttps://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-24_01-17-58-60f043dd1dbc9edee8d20e8a6d958d0e.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -1828,7 +1910,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp1-q-033",
           "sourceQuestionNumber": 33,
-          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、次に示されているバックアップポリシーをデプロイすることを計画しています。</p><p></p><p>次の文章を完成させるのに正しい<strong>選択肢</strong>はどれですか。&nbsp; </p><p><br></p><p>ポリシーを使用してバックアップされた仮想マシンは、最大で［<strong>選択肢</strong>］前の状態まで復元することができます。</p>",
+          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、次に示されているバックアップポリシーをデプロイすることを計画しています。</p><p><img src=\"assets/問題集1_files/2023-01-23_01-27-17-284ae9abd80714072d6caef1db3705e4.png\" alt=\"\" loading=\"eager\"></p><p>次の文章を完成させるのに正しい<strong>選択肢</strong>はどれですか。&nbsp; </p><p><br></p><p>ポリシーを使用してバックアップされた仮想マシンは、最大で［<strong>選択肢</strong>］前の状態まで復元することができます。</p>",
           "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、次に示されているバックアップポリシーをデプロイすることを計画しています。\n\n次の文章を完成させるのに正しい選択肢はどれですか。 \n\nポリシーを使用してバックアップされた仮想マシンは、最大で［選択肢］前の状態まで復元することができます。",
           "choices": [
             {
@@ -1861,16 +1943,20 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>問題文に示されている画面は、Azure Backupのポリシー作成画面です。</p><p>毎日18:00にバックアップが取得され、年次を除く日次、週次、月次のバックアップポイントの保有期間が設定されています。</p><p>よって、最大で36か月前のバックアップポイントから仮想マシンを復元することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/backup-azure-arm-vms-prepare\">https://learn.microsoft.com/ja-jp/azure/backup/backup-azure-arm-vms-prepare</a></p>",
           "explanationText": "問題文に示されている画面は、Azure Backupのポリシー作成画面です。\n毎日18:00にバックアップが取得され、年次を除く日次、週次、月次のバックアップポイントの保有期間が設定されています。\nよって、最大で36か月前のバックアップポイントから仮想マシンを復元することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/backup/backup-azure-arm-vms-prepare",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-23_01-27-17-284ae9abd80714072d6caef1db3705e4.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-005",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-034",
           "sourceQuestionNumber": 34,
-          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、次に示されているバックアップポリシーをデプロイすることを計画しています。</p><p></p><p>次の文章を完成させるのに正しい<strong>選択肢</strong>はどれですか。&nbsp; </p><p><br></p><p>ポリシーを使用してバックアップされた仮想マシンの目標復旧地点（RPO）は、[<strong>選択肢</strong>] です。</p>",
+          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、次に示されているバックアップポリシーをデプロイすることを計画しています。</p><p><img src=\"assets/問題集1_files/2023-01-23_01-30-54-ef7423e0aaea4c85c339f0f6cefe8705.png\" alt=\"\" loading=\"eager\"></p><p>次の文章を完成させるのに正しい<strong>選択肢</strong>はどれですか。&nbsp; </p><p><br></p><p>ポリシーを使用してバックアップされた仮想マシンの目標復旧地点（RPO）は、[<strong>選択肢</strong>] です。</p>",
           "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、次に示されているバックアップポリシーをデプロイすることを計画しています。\n\n次の文章を完成させるのに正しい選択肢はどれですか。 \n\nポリシーを使用してバックアップされた仮想マシンの目標復旧地点（RPO）は、[選択肢] です。",
           "choices": [
             {
@@ -1907,18 +1993,23 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-034-c2"
           ],
-          "explanationHtml": "<p>問題文に示されている画面は、Azure Backupのポリシー作成画面です。</p><p>毎日18:00にバックアップが取得され、年次を除く日次、週次、月次のバックアップポイントの保有期間が設定されています。</p><p><br></p><p>目標復旧地点（RPO：Recovery Point Objective）は、「過去のどの時点のデータまでを復旧できるか」を表す指標です。本問題の場合、1日おきの頻度でバックアップが取得されるポリシーのため、1日前の時点まで復旧することができます。よって、選択肢2の「1日」が正解となります。</p><p><br></p><p>以下、試験とは直接関係ないかもしれませんが補足します。</p><p>データ損失の範囲を許容できずRPOを短くしたい場合は、バックアップの頻度を増やす（間隔を短くする）必要があります。</p><p>Azure Backupの場合、最短で1日1回のバックアップしか取得できませんでしたが、新たに <a href=\"https://learn.microsoft.com/ja-jp/azure/backup/backup-azure-vms-enhanced-policy\">拡張ポリシー</a> が提供されており、最短4時間おきに1日複数回のバックアップがサポートされています（収録時点ではまだプレビュー中です）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/backup-azure-arm-vms-prepare\">https://learn.microsoft.com/ja-jp/azure/backup/backup-azure-arm-vms-prepare</a></p>",
+          "explanationHtml": "<p>問題文に示されている画面は、Azure Backupのポリシー作成画面です。</p><p>毎日18:00にバックアップが取得され、年次を除く日次、週次、月次のバックアップポイントの保有期間が設定されています。</p><p><br></p><p>目標復旧地点（RPO：Recovery Point Objective）は、「過去のどの時点のデータまでを復旧できるか」を表す指標です。本問題の場合、1日おきの頻度でバックアップが取得されるポリシーのため、1日前の時点まで復旧することができます。よって、選択肢2の「1日」が正解となります。</p><p><br></p><p>以下、試験とは直接関係ないかもしれませんが補足します。</p><p>データ損失の範囲を許容できずRPOを短くしたい場合は、バックアップの頻度を増やす（間隔を短くする）必要があります。</p><p>Azure Backupの場合、最短で1日1回のバックアップしか取得できませんでしたが、新たに <a href=\"https://learn.microsoft.com/ja-jp/azure/backup/backup-azure-vms-enhanced-policy\">拡張ポリシー</a> が提供されており、最短4時間おきに1日複数回のバックアップがサポートされています（収録時点ではまだプレビュー中です）</p><img src=\"assets/問題集1_files/2023-01-23_01-45-14-6b8b741fd67ed853070c48db6bed6c48.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/backup-azure-arm-vms-prepare\">https://learn.microsoft.com/ja-jp/azure/backup/backup-azure-arm-vms-prepare</a></p>",
           "explanationText": "問題文に示されている画面は、Azure Backupのポリシー作成画面です。\n毎日18:00にバックアップが取得され、年次を除く日次、週次、月次のバックアップポイントの保有期間が設定されています。\n\n目標復旧地点（RPO：Recovery Point Objective）は、「過去のどの時点のデータまでを復旧できるか」を表す指標です。本問題の場合、1日おきの頻度でバックアップが取得されるポリシーのため、1日前の時点まで復旧することができます。よって、選択肢2の「1日」が正解となります。\n\n以下、試験とは直接関係ないかもしれませんが補足します。\nデータ損失の範囲を許容できずRPOを短くしたい場合は、バックアップの頻度を増やす（間隔を短くする）必要があります。\nAzure Backupの場合、最短で1日1回のバックアップしか取得できませんでしたが、新たに 拡張ポリシー が提供されており、最短4時間おきに1日複数回のバックアップがサポートされています（収録時点ではまだプレビュー中です）\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/backup/backup-azure-arm-vms-prepare",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-23_01-30-54-ef7423e0aaea4c85c339f0f6cefe8705.png",
+            "assets/問題集1_files/2023-01-23_01-45-14-6b8b741fd67ed853070c48db6bed6c48.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-005",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-035",
           "sourceQuestionNumber": 35,
-          "promptHtml": "<p>あなたは、次の表に示すストレージを持っています。</p><p></p><p>Server1には 500GB のファイルが保存されています。</p><p>あなたは、Server1のファイルのコピーをStorage1に格納する必要があります。</p><p>この目標を達成することができるAzureサービスは次のうちどれですか。2つ選択してください。</p>",
+          "promptHtml": "<p>あなたは、次の表に示すストレージを持っています。</p><p><img src=\"assets/問題集1_files/2023-02-01_02-09-14-c5ae6a105aaa21298cbf9753d1cce672.png\" alt=\"\" loading=\"eager\"></p><p>Server1には 500GB のファイルが保存されています。</p><p>あなたは、Server1のファイルのコピーをStorage1に格納する必要があります。</p><p>この目標を達成することができるAzureサービスは次のうちどれですか。2つ選択してください。</p>",
           "promptText": "あなたは、次の表に示すストレージを持っています。\n\nServer1には 500GB のファイルが保存されています。\nあなたは、Server1のファイルのコピーをStorage1に格納する必要があります。\nこの目標を達成することができるAzureサービスは次のうちどれですか。2つ選択してください。",
           "choices": [
             {
@@ -1956,9 +2047,12 @@ window.QUIZ_DATA = {
             "jp1-q-035-c4",
             "jp1-q-035-c5"
           ],
-          "explanationHtml": "<p>Azure Import/Export は、データのオフライン移行サービスです。</p><p>Azure データセンターにディスクドライブを直接送付することで、Azure Blob Storage と Azure Files に大量のデータを安全にインポートできます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/import-export/storage-import-export-service\">https://learn.microsoft.com/ja-jp/azure/import-export/storage-import-export-service</a></p><p><br></p><p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT&nbsp;/ データ統合のサービスと説明されています。</p><p><br></p><p>オンプレミスのファイルサーバーに「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、オンプレミスのデータをストレージアカウントのBLOBやファイル共有などにコピーすることができます。</p>",
+          "explanationHtml": "<p>Azure Import/Export は、データのオフライン移行サービスです。</p><p>Azure データセンターにディスクドライブを直接送付することで、Azure Blob Storage と Azure Files に大量のデータを安全にインポートできます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/import-export/storage-import-export-service\">https://learn.microsoft.com/ja-jp/azure/import-export/storage-import-export-service</a></p><p><br></p><p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT&nbsp;/ データ統合のサービスと説明されています。</p><p><br></p><p>オンプレミスのファイルサーバーに「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、オンプレミスのデータをストレージアカウントのBLOBやファイル共有などにコピーすることができます。</p><img src=\"assets/問題集1_files/2023-02-01_02-34-53-0e77ff617574ac273432d293f809e97a.png\" alt=\"\" loading=\"eager\">",
           "explanationText": "Azure Import/Export は、データのオフライン移行サービスです。\nAzure データセンターにディスクドライブを直接送付することで、Azure Blob Storage と Azure Files に大量のデータを安全にインポートできます。\nhttps://learn.microsoft.com/ja-jp/azure/import-export/storage-import-export-service\n\nAzure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。\nデータをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/introduction\n\n収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）\n公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。\n\nオンプレミスのファイルサーバーに「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、オンプレミスのデータをストレージアカウントのBLOBやファイル共有などにコピーすることができます。",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-02-01_02-09-14-c5ae6a105aaa21298cbf9753d1cce672.png",
+            "assets/問題集1_files/2023-02-01_02-34-53-0e77ff617574ac273432d293f809e97a.png"
+          ],
           "domain": null,
           "questionType": "multi",
           "contextGroupId": null,
@@ -2083,9 +2177,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-038-c3"
           ],
-          "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。</p><p><br></p><p>Azure Data Factoryのマッピングデータフローを使用すると、コードを記述することなく、箱と箱をつなぎ合わせて視覚的にデータの変換や移動などを設計することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-data-flow-overview\">https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-data-flow-overview</a></p>",
+          "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。</p><p><br></p><p>Azure Data Factoryのマッピングデータフローを使用すると、コードを記述することなく、箱と箱をつなぎ合わせて視覚的にデータの変換や移動などを設計することができます。</p><img src=\"assets/問題集1_files/2023-02-01_05-26-42-cb2aa70a7b522b03a38184cee4c43201.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-data-flow-overview\">https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-data-flow-overview</a></p>",
           "explanationText": "Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。\nデータをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。\n\n収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）\n公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。\n\nAzure Data Factoryのマッピングデータフローを使用すると、コードを記述することなく、箱と箱をつなぎ合わせて視覚的にデータの変換や移動などを設計することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/introduction\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/concepts-data-flow-overview",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-02-01_05-26-42-cb2aa70a7b522b03a38184cee4c43201.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -2138,9 +2234,11 @@ window.QUIZ_DATA = {
             "jp1-q-039-c1",
             "jp1-q-039-c5"
           ],
-          "explanationHtml": "<p>Microsoft Entraのアプリケーションプロキシを使用すると、ユーザーはVPN接続せずともインターネット経由で安全にオンプレミスのWebアプリケーションにシングルサインオン（SSO）でアクセスできます。</p><p>アプリケーションプロキシのコンポーネントには大きく次の2つがあります。</p><p><br></p><p>・クラウドで実行されるアプリケーションプロキシサービス</p><p>・オンプレミスのサーバーで実行されるアプリケーションプロキシコネクタ</p><p><br></p><p>アプリケーションプロキシサービスはリバースプロキシの役割があり、ユーザーからのアクセス要求をオンプレミスへ中継します。</p><p>アプリケーションプロキシサービスとオンプレミスとの間にセキュリティで保護された接続を確立するために、オンプレミスのサーバにはアプリケーションプロキシコネクタをインストールします。</p><p><br></p><p>また、アプリケーションプロキシを構成するには「エンタープライズアプリケーション」のメニューから独自のアプリケーションとしてWebApp1の登録が必要です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy\">https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application\">https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application</a></p>",
+          "explanationHtml": "<p>Microsoft Entraのアプリケーションプロキシを使用すると、ユーザーはVPN接続せずともインターネット経由で安全にオンプレミスのWebアプリケーションにシングルサインオン（SSO）でアクセスできます。</p><p>アプリケーションプロキシのコンポーネントには大きく次の2つがあります。</p><p><br></p><p>・クラウドで実行されるアプリケーションプロキシサービス</p><p>・オンプレミスのサーバーで実行されるアプリケーションプロキシコネクタ</p><p><br></p><p>アプリケーションプロキシサービスはリバースプロキシの役割があり、ユーザーからのアクセス要求をオンプレミスへ中継します。</p><p>アプリケーションプロキシサービスとオンプレミスとの間にセキュリティで保護された接続を確立するために、オンプレミスのサーバにはアプリケーションプロキシコネクタをインストールします。</p><p><br></p><p>また、アプリケーションプロキシを構成するには「エンタープライズアプリケーション」のメニューから独自のアプリケーションとしてWebApp1の登録が必要です。</p><img src=\"assets/問題集1_files/2024-10-04_06-54-06-a8aa7541e3581d7508babafb82a96eb4.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy\">https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application\">https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application</a></p>",
           "explanationText": "Microsoft Entraのアプリケーションプロキシを使用すると、ユーザーはVPN接続せずともインターネット経由で安全にオンプレミスのWebアプリケーションにシングルサインオン（SSO）でアクセスできます。\nアプリケーションプロキシのコンポーネントには大きく次の2つがあります。\n\n・クラウドで実行されるアプリケーションプロキシサービス\n・オンプレミスのサーバーで実行されるアプリケーションプロキシコネクタ\n\nアプリケーションプロキシサービスはリバースプロキシの役割があり、ユーザーからのアクセス要求をオンプレミスへ中継します。\nアプリケーションプロキシサービスとオンプレミスとの間にセキュリティで保護された接続を確立するために、オンプレミスのサーバにはアプリケーションプロキシコネクタをインストールします。\n\nまた、アプリケーションプロキシを構成するには「エンタープライズアプリケーション」のメニューから独自のアプリケーションとしてWebApp1の登録が必要です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2024-10-04_06-54-06-a8aa7541e3581d7508babafb82a96eb4.png"
+          ],
           "domain": null,
           "questionType": "multi",
           "contextGroupId": null,
@@ -2192,20 +2290,24 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-040-c2"
           ],
-          "explanationHtml": "<p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p></p><p><br></p><p><code>・アプリケーションがSQLインジェクションから保護されること</code></p><p><code>・レイヤー7のロードバランサーを使用していること</code></p><p>SQLインジェクションから保護するにはWeb Application Firewall（WAF）を使用します。</p><p>WAFの機能を持つレイヤー7のロードバランサーとしてはAzure Front Doorも選択肢となりますが、この問題の選択肢にはないため「Azure Application Gateway」が正解となります。</p><p><br></p><p>※Azure Front Doorはグローバル分散、レート制限が必要な場合に選択肢に登場しがち</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/application-gateway/features#web-application-firewall\">https://learn.microsoft.com/ja-jp/azure/application-gateway/features#web-application-firewall</a></p>",
+          "explanationHtml": "<p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p><img src=\"assets/問題集1_files/2023-01-10_07-16-41-5573e4973fe10c202f0b9465c58cb176.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p><code>・アプリケーションがSQLインジェクションから保護されること</code></p><p><code>・レイヤー7のロードバランサーを使用していること</code></p><p>SQLインジェクションから保護するにはWeb Application Firewall（WAF）を使用します。</p><p>WAFの機能を持つレイヤー7のロードバランサーとしてはAzure Front Doorも選択肢となりますが、この問題の選択肢にはないため「Azure Application Gateway」が正解となります。</p><p><br></p><p>※Azure Front Doorはグローバル分散、レート制限が必要な場合に選択肢に登場しがち</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/application-gateway/features#web-application-firewall\">https://learn.microsoft.com/ja-jp/azure/application-gateway/features#web-application-firewall</a></p>",
           "explanationText": "Azureの負荷分散オプションは大きく次の4種類があります。\n細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。\n\n・アプリケーションがSQLインジェクションから保護されること\n・レイヤー7のロードバランサーを使用していること\nSQLインジェクションから保護するにはWeb Application Firewall（WAF）を使用します。\nWAFの機能を持つレイヤー7のロードバランサーとしてはAzure Front Doorも選択肢となりますが、この問題の選択肢にはないため「Azure Application Gateway」が正解となります。\n\n※Azure Front Doorはグローバル分散、レート制限が必要な場合に選択肢に登場しがち\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\nhttps://learn.microsoft.com/ja-jp/azure/application-gateway/features#web-application-firewall",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-10_07-16-41-5573e4973fe10c202f0b9465c58cb176.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-006",
+          "tags": [
+            "linked-question"
+          ]
         }
       ]
     },
     "jp1-set-005": {
       "setId": "jp1-set-005",
       "title": "問題集1 41-50",
-      "sourceHtml": "udemy/問題集1.html",
+      "sourceHtml": "assets/問題集1.html",
       "questionIds": [
         "jp1-q-041",
         "jp1-q-042",
@@ -2270,8 +2372,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-006",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-042",
@@ -2307,9 +2411,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-042-c1"
           ],
-          "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。</p><p><br></p><p>ソース/宛先のデータストアとしてAzure StorageやAzure SQL Databaseなど様々なデータストアを選択可能で、作成したパイプライン（タスクをグループ化したもの）を実行するスケジュールを「トリガー」で定義することができます。</p><p><br></p><p>選択肢2、3のDMA / SSMAは、SQLServerの移行・評価ツールなので誤りです。</p><p>選択肢4のAzCopyは、コマンドラインでAzure Storageを操作するためのCUIツールで、Azure SQL Databaseへのコピーはできないため誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory\">https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipeline-execution-triggers\">https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipeline-execution-triggers</a></p>",
+          "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。</p><p><br></p><p>ソース/宛先のデータストアとしてAzure StorageやAzure SQL Databaseなど様々なデータストアを選択可能で、作成したパイプライン（タスクをグループ化したもの）を実行するスケジュールを「トリガー」で定義することができます。</p><img src=\"assets/問題集1_files/2023-02-01_06-12-09-5717b19a75227ff43da8ec83c93af278.png\" alt=\"\" loading=\"eager\"><p><br></p><p>選択肢2、3のDMA / SSMAは、SQLServerの移行・評価ツールなので誤りです。</p><p>選択肢4のAzCopyは、コマンドラインでAzure Storageを操作するためのCUIツールで、Azure SQL Databaseへのコピーはできないため誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory\">https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipeline-execution-triggers\">https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipeline-execution-triggers</a></p>",
           "explanationText": "Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。\nデータをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。\n\n収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）\n公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。\n\nソース/宛先のデータストアとしてAzure StorageやAzure SQL Databaseなど様々なデータストアを選択可能で、作成したパイプライン（タスクをグループ化したもの）を実行するスケジュールを「トリガー」で定義することができます。\n\n選択肢2、3のDMA / SSMAは、SQLServerの移行・評価ツールなので誤りです。\n選択肢4のAzCopyは、コマンドラインでAzure Storageを操作するためのCUIツールで、Azure SQL Databaseへのコピーはできないため誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/introduction\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipeline-execution-triggers",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-02-01_06-12-09-5717b19a75227ff43da8ec83c93af278.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -2349,9 +2455,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-043-c1"
           ],
-          "explanationHtml": "<p>共有アクセス署名（SAS：Shared Access Signature）はAzure Storageに対する制限付きのアクセスを提供するための仕組みで、次のような様々な条件に基づいてきめ細かなアクセス制御を実現することができます。</p><p><br></p><p>・使用できるサービス（Blob / File / Table / Queue）</p><p>・アクセス許可（読み取り / 書き込み / 更新 / 削除など）</p><p>・有効期限（開始 / 終了日時）</p><p>・接続元IPアドレス</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-sas-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-sas-overview</a></p>",
+          "explanationHtml": "<p>共有アクセス署名（SAS：Shared Access Signature）はAzure Storageに対する制限付きのアクセスを提供するための仕組みで、次のような様々な条件に基づいてきめ細かなアクセス制御を実現することができます。</p><p><br></p><p>・使用できるサービス（Blob / File / Table / Queue）</p><p>・アクセス許可（読み取り / 書き込み / 更新 / 削除など）</p><p>・有効期限（開始 / 終了日時）</p><p>・接続元IPアドレス</p><img src=\"assets/問題集1_files/2023-01-24_07-01-10-488da056dc1e08caad4d3f24285b25b8.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-sas-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-sas-overview</a></p>",
           "explanationText": "共有アクセス署名（SAS：Shared Access Signature）はAzure Storageに対する制限付きのアクセスを提供するための仕組みで、次のような様々な条件に基づいてきめ細かなアクセス制御を実現することができます。\n\n・使用できるサービス（Blob / File / Table / Queue）\n・アクセス許可（読み取り / 書き込み / 更新 / 削除など）\n・有効期限（開始 / 終了日時）\n・接続元IPアドレス\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-sas-overview",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-24_07-01-10-488da056dc1e08caad4d3f24285b25b8.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -2427,13 +2535,18 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-045-c1"
           ],
-          "explanationHtml": "<p>仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。</p><p><br></p><p>ホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。</p><p>ホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance</a></p><p></p><p><br></p><p>仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。</p><p>ログファイル：なし</p><p>データファイル：読み取り専用</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage?view=azuresql#data-file-caching-policies\">データ ファイルのキャッシュ ポリシー</a></p>",
+          "explanationHtml": "<p>仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。</p><p><br></p><p>ホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。</p><p>ホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance</a></p><p><img src=\"assets/問題集1_files/2023-01-24_07-42-20-ef9fd5b4eb8e1b8d8767618b160e6d89.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。</p><p>ログファイル：なし</p><p>データファイル：読み取り専用</p><p><img src=\"assets/問題集1_files/2023-01-24_07-42-20-4784c23856a4220b5602e97bc0fff52c.png\" alt=\"\" loading=\"eager\"></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage?view=azuresql#data-file-caching-policies\">データ ファイルのキャッシュ ポリシー</a></p>",
           "explanationText": "仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。\n\nホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。\nホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\n\n仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。\nログファイル：なし\nデータファイル：読み取り専用\n\n出典：データ ファイルのキャッシュ ポリシー",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-24_07-42-20-ef9fd5b4eb8e1b8d8767618b160e6d89.png",
+            "assets/問題集1_files/2023-01-24_07-42-20-4784c23856a4220b5602e97bc0fff52c.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-007",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-046",
@@ -2463,18 +2576,23 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-046-c2"
           ],
-          "explanationHtml": "<p>仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。</p><p><br></p><p>ホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。</p><p>ホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance</a></p><p></p><p><br></p><p>仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。</p><p>ログファイル：なし</p><p>データファイル：読み取り専用</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage?view=azuresql#data-file-caching-policies\">データ ファイルのキャッシュ ポリシー</a></p>",
+          "explanationHtml": "<p>仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。</p><p><br></p><p>ホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。</p><p>ホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance</a></p><p><img src=\"assets/問題集1_files/2023-01-24_07-44-22-f9348ba2b9a8a55947a9f8bae21c130b.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。</p><p>ログファイル：なし</p><p>データファイル：読み取り専用</p><p><img src=\"assets/問題集1_files/2023-01-24_07-44-22-783f5ea66f9fbf0a146247bfda4b62be.png\" alt=\"\" loading=\"eager\"></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage?view=azuresql#data-file-caching-policies\">データ ファイルのキャッシュ ポリシー</a></p>",
           "explanationText": "仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。\n\nホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。\nホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\n\n仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。\nログファイル：なし\nデータファイル：読み取り専用\n\n出典：データ ファイルのキャッシュ ポリシー",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-24_07-44-22-f9348ba2b9a8a55947a9f8bae21c130b.png",
+            "assets/問題集1_files/2023-01-24_07-44-22-783f5ea66f9fbf0a146247bfda4b62be.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp1-linked-007",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp1-q-047",
           "sourceQuestionNumber": 47,
-          "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。</p><p>アプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。</p><p>組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。</p><p></p><p><br></p><p>あなたは<strong>マネージャー</strong>の要件を満たすために何を提案する必要がありますか。</p><p><br></p><p>マネージャー：</p><p>開発者：</p><p>テスト担当者：</p>",
+          "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。</p><p>アプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。</p><p>組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。</p><p><img src=\"assets/問題集1_files/2023-01-22_04-59-54-83c6f3f2b740447d421951dc0e3c5b0d.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>あなたは<strong>マネージャー</strong>の要件を満たすために何を提案する必要がありますか。</p><p><br></p><p>マネージャー：</p><p>開発者：</p><p>テスト担当者：</p>",
           "promptText": "注：この問題は次とその次の問題と3問1セットです。\n\nあなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。\nアプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。\n組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。\n\nあなたはマネージャーの要件を満たすために何を提案する必要がありますか。\n\nマネージャー：\n開発者：\nテスト担当者：",
           "choices": [
             {
@@ -2507,7 +2625,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>Privileged Identity Management (PIM)はMicrosoft Entraに含まれるサービスで、代表的な機能には次のようなものがあります。PIMを使用するには Premium P2 ライセンスが必要です。</p><p><br></p><p>・開始日と終了日を使用した期限付きのアクセス権を割り当てる</p><p>・特権ロールがアクティブ化されたときに通知を受ける</p><p>・ユーザーにロールがまだ必要であることを確認するためにアクセスレビューを実施する</p><p>・Microsoft Entraロール、Azure リソースロールに関するアクティビティ、アクティブ化、監査履歴を表示する</p><p><br></p><p><code>・管理者ロールのメンバーシップを定期的にレビューし、メンバーシップを継続する正当な理由をユーザーに要求できる</code></p><p>これは「アクセスレビュー」を使えば要件を満たせるので選択肢3が正しいと思われるかもしれませんが、残り2つの要件を満たすにはPIMが必要です。</p><p>※少々ややこしいですが、アクセスレビューはPIMの機能のうちの一つでもあります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure\">https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-create-azure-ad-roles-and-resource-roles-review\">https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-create-azure-ad-roles-and-resource-roles-review</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-email-notifications\">https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-email-notifications</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/azure-pim-resource-rbac\">https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/azure-pim-resource-rbac</a></p><p><a href=\"https://jpazureid.github.io/blog/azure-active-directory/pim-overview/\">https://jpazureid.github.io/blog/azure-active-directory/pim-overview/</a></p>",
           "explanationText": "Privileged Identity Management (PIM)はMicrosoft Entraに含まれるサービスで、代表的な機能には次のようなものがあります。PIMを使用するには Premium P2 ライセンスが必要です。\n\n・開始日と終了日を使用した期限付きのアクセス権を割り当てる\n・特権ロールがアクティブ化されたときに通知を受ける\n・ユーザーにロールがまだ必要であることを確認するためにアクセスレビューを実施する\n・Microsoft Entraロール、Azure リソースロールに関するアクティビティ、アクティブ化、監査履歴を表示する\n\n・管理者ロールのメンバーシップを定期的にレビューし、メンバーシップを継続する正当な理由をユーザーに要求できる\nこれは「アクセスレビュー」を使えば要件を満たせるので選択肢3が正しいと思われるかもしれませんが、残り2つの要件を満たすにはPIMが必要です。\n※少々ややこしいですが、アクセスレビューはPIMの機能のうちの一つでもあります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-create-azure-ad-roles-and-resource-roles-review\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-email-notifications\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/azure-pim-resource-rbac\nhttps://jpazureid.github.io/blog/azure-active-directory/pim-overview/",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-22_04-59-54-83c6f3f2b740447d421951dc0e3c5b0d.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -2516,7 +2636,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp1-q-048",
           "sourceQuestionNumber": 48,
-          "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。</p><p>アプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。</p><p>組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。</p><p></p><p><br></p><p>あなたは<strong>開発者</strong>の要件を満たすために何を提案する必要がありますか。</p><p><br></p><p>マネージャー：</p><p>開発者：</p><p>テスト担当者：</p>",
+          "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。</p><p>アプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。</p><p>組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。</p><p><img src=\"assets/問題集1_files/2023-01-22_04-59-54-83c6f3f2b740447d421951dc0e3c5b0d.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>あなたは<strong>開発者</strong>の要件を満たすために何を提案する必要がありますか。</p><p><br></p><p>マネージャー：</p><p>開発者：</p><p>テスト担当者：</p>",
           "promptText": "注：この問題は前と次の問題と3問1セットです。\n\nあなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。\nアプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。\n組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。\n\nあなたは開発者の要件を満たすために何を提案する必要がありますか。\n\nマネージャー：\n開発者：\nテスト担当者：",
           "choices": [
             {
@@ -2549,7 +2669,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>マネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。</p><p>マネージドIDの種類&nbsp;には次の2つがあります。</p><p><br></p><p>・システム割り当てマネージドID</p><p>・ユーザー割り当てマネージドID</p><p><br></p><p>本問題の場合、アプリケーションをホストしているAzure App ServiceのマネージドIDを追加し、Azure Key Vaultのキーに対する「取得」のアクセス許可を与えることで要件を満たすことができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/overview-managed-identity\">https://learn.microsoft.com/ja-jp/azure/app-service/overview-managed-identity</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview\">https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview</a></p>",
           "explanationText": "マネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。\nマネージドIDの種類 には次の2つがあります。\n\n・システム割り当てマネージドID\n・ユーザー割り当てマネージドID\n\n本問題の場合、アプリケーションをホストしているAzure App ServiceのマネージドIDを追加し、Azure Key Vaultのキーに対する「取得」のアクセス許可を与えることで要件を満たすことができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/app-service/overview-managed-identity\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-22_04-59-54-83c6f3f2b740447d421951dc0e3c5b0d.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -2558,7 +2680,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp1-q-049",
           "sourceQuestionNumber": 49,
-          "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。</p><p>アプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。</p><p>組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。</p><p></p><p><br></p><p>あなたは<strong>テスト担当者</strong>の要件を満たすために何を提案する必要がありますか。</p><p><br></p><p>マネージャー：</p><p>開発者：</p><p>テスト担当者：</p>",
+          "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。</p><p>アプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。</p><p>組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。</p><p><img src=\"assets/問題集1_files/2023-01-22_04-59-54-83c6f3f2b740447d421951dc0e3c5b0d.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>あなたは<strong>テスト担当者</strong>の要件を満たすために何を提案する必要がありますか。</p><p><br></p><p>マネージャー：</p><p>開発者：</p><p>テスト担当者：</p>",
           "promptText": "注：この問題は前とその前の問題と3問1セットです。\n\nあなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。\nアプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。\n組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。\n\nあなたはテスト担当者の要件を満たすために何を提案する必要がありますか。\n\nマネージャー：\n開発者：\nテスト担当者：",
           "choices": [
             {
@@ -2591,7 +2713,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>Privileged Identity Management (PIM)はMicrosoft Entraに含まれるサービスで、代表的な機能には次のようなものがあります。PIMを使用するには Premium P2 ライセンスが必要です。</p><p><br></p><p>・開始日と終了日を使用した期限付きのアクセス権を割り当てる</p><p>・特権ロールがアクティブ化されたときに通知を受ける</p><p>・ユーザーにロールがまだ必要であることを確認するためにアクセスレビューを実施する</p><p>・Microsoft Entraロール、Azure リソースロールに関するアクティビティ、アクティブ化、監査履歴を表示する</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure\">https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure</a></p><p><a href=\"https://jpazureid.github.io/blog/azure-active-directory/pim-overview/\">https://jpazureid.github.io/blog/azure-active-directory/pim-overview/</a></p>",
           "explanationText": "Privileged Identity Management (PIM)はMicrosoft Entraに含まれるサービスで、代表的な機能には次のようなものがあります。PIMを使用するには Premium P2 ライセンスが必要です。\n\n・開始日と終了日を使用した期限付きのアクセス権を割り当てる\n・特権ロールがアクティブ化されたときに通知を受ける\n・ユーザーにロールがまだ必要であることを確認するためにアクセスレビューを実施する\n・Microsoft Entraロール、Azure リソースロールに関するアクティビティ、アクティブ化、監査履歴を表示する\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure\nhttps://jpazureid.github.io/blog/azure-active-directory/pim-overview/",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-22_04-59-54-83c6f3f2b740447d421951dc0e3c5b0d.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -2651,7 +2775,7 @@ window.QUIZ_DATA = {
     "jp1-set-006": {
       "setId": "jp1-set-006",
       "title": "問題集1 51-60",
-      "sourceHtml": "udemy/問題集1.html",
+      "sourceHtml": "assets/問題集1.html",
       "questionIds": [
         "jp1-q-051",
         "jp1-q-052",
@@ -2842,7 +2966,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp1-q-055",
           "sourceQuestionNumber": 55,
-          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>あなたは、App1のデータストレージがセキュリティとコンプライアンスの要件を満たすためのソリューションを提案する必要があります。</p><p>あなたは、Azure Storageに書き込まれたデータを3年間変更できないようにするために、何を提案する必要がありますか。</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p><img src=\"assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png\" alt=\"\" loading=\"eager\"></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>あなたは、App1のデータストレージがセキュリティとコンプライアンスの要件を満たすためのソリューションを提案する必要があります。</p><p>あなたは、Azure Storageに書き込まれたデータを3年間変更できないようにするために、何を提案する必要がありますか。</p>",
           "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\nあなたは、App1のデータストレージがセキュリティとコンプライアンスの要件を満たすためのソリューションを提案する必要があります。\nあなたは、Azure Storageに書き込まれたデータを3年間変更できないようにするために、何を提案する必要がありますか。",
           "choices": [
             {
@@ -2873,9 +2997,12 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-055-c1"
           ],
-          "explanationHtml": "<p><code>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><br></p><p>不変ストレージには次の２種類のポリシーがあります。</p><p>・時間ベースのアイテム保持ポリシー</p><p>・訴訟ホールドポリシー</p><p><br></p><p>時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。</p><p><br></p><p>Azureポータルのストレージアカウント &gt; コンテナー &gt; アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。</p><p></p><p>なお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p>",
+          "explanationHtml": "<p><code>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><br></p><p>不変ストレージには次の２種類のポリシーがあります。</p><p>・時間ベースのアイテム保持ポリシー</p><p>・訴訟ホールドポリシー</p><p><br></p><p>時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。</p><p><br></p><p>Azureポータルのストレージアカウント &gt; コンテナー &gt; アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。</p><p><img src=\"assets/問題集1_files/2023-01-12_05-03-46-d963e73393a34d3d6e8e55e1b847fcb5.png\" alt=\"\" loading=\"eager\"></p><p>なお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p>",
           "explanationText": "・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\nこの要件を満たすためにはBLOBの不変ストレージを利用します。\n不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。\n\n不変ストレージには次の２種類のポリシーがあります。\n・時間ベースのアイテム保持ポリシー\n・訴訟ホールドポリシー\n\n時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。\n\nAzureポータルのストレージアカウント > コンテナー > アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。\n\nなお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png",
+            "assets/問題集1_files/2023-01-12_05-03-46-d963e73393a34d3d6e8e55e1b847fcb5.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp1-case-001",
@@ -2886,7 +3013,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp1-q-056",
           "sourceQuestionNumber": 56,
-          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>あなたは、App1のデータをホストするAzure Storageアカウント用のネットワーク接続ソリューションを提案する必要があります。 </p><p>ソリューションは、セキュリティとコンプライアンス要件を満たす必要があります。</p><p>あなたは、提案に何を含めるべきですか。</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p><img src=\"assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png\" alt=\"\" loading=\"eager\"></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>あなたは、App1のデータをホストするAzure Storageアカウント用のネットワーク接続ソリューションを提案する必要があります。 </p><p>ソリューションは、セキュリティとコンプライアンス要件を満たす必要があります。</p><p>あなたは、提案に何を含めるべきですか。</p>",
           "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\nあなたは、App1のデータをホストするAzure Storageアカウント用のネットワーク接続ソリューションを提案する必要があります。\nソリューションは、セキュリティとコンプライアンス要件を満たす必要があります。\nあなたは、提案に何を含めるべきですか。",
           "choices": [
             {
@@ -2917,9 +3044,12 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-056-c1"
           ],
-          "explanationHtml": "<p><code>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</code></p><p><code>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</code> </p><p>インターネット経由で接続するのではなく、ExpressRoute（仮想ネットワーク）を経由してAzure Storageに接続するには「プライベートエンドポイント」を使用します。</p><p><br></p><p>プライベートエンドポイントを使用すると、プライベートIPアドレスでPaaSのリソースに接続できるようになります。</p><p><br></p><p>注意点として、プライベートエンドポイントを構成すると自動的にパブリックアクセスが無効になるわけではないので、別途、無効化する手順が必要になります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/private-link/private-endpoint-overview\">https://learn.microsoft.com/ja-jp/azure/private-link/private-endpoint-overview</a></p>",
+          "explanationHtml": "<p><code>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</code></p><p><code>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</code> </p><p>インターネット経由で接続するのではなく、ExpressRoute（仮想ネットワーク）を経由してAzure Storageに接続するには「プライベートエンドポイント」を使用します。</p><p><br></p><p>プライベートエンドポイントを使用すると、プライベートIPアドレスでPaaSのリソースに接続できるようになります。</p><p><br></p><p>注意点として、プライベートエンドポイントを構成すると自動的にパブリックアクセスが無効になるわけではないので、別途、無効化する手順が必要になります。</p><img src=\"assets/問題集1_files/2023-01-27_02-10-30-ce0068f9730d5795818d3a5254d83b27.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/private-link/private-endpoint-overview\">https://learn.microsoft.com/ja-jp/azure/private-link/private-endpoint-overview</a></p>",
           "explanationText": "・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\nインターネット経由で接続するのではなく、ExpressRoute（仮想ネットワーク）を経由してAzure Storageに接続するには「プライベートエンドポイント」を使用します。\n\nプライベートエンドポイントを使用すると、プライベートIPアドレスでPaaSのリソースに接続できるようになります。\n\n注意点として、プライベートエンドポイントを構成すると自動的にパブリックアクセスが無効になるわけではないので、別途、無効化する手順が必要になります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/private-link/private-endpoint-overview",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png",
+            "assets/問題集1_files/2023-01-27_02-10-30-ce0068f9730d5795818d3a5254d83b27.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp1-case-001",
@@ -2930,7 +3060,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp1-q-057",
           "sourceQuestionNumber": 57,
-          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、DB1とDB2をAzureに移行する予定です。</p><p>ソリューションは、弾力性とビジネス要件を満たす必要があります。</p><p>移行するDB1とDB2の<strong>データベース</strong>は、どのようにAzureに実装する必要がありますか。</p><p><br></p><p>データベース：</p><p>サービスレベル：</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p><img src=\"assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png\" alt=\"\" loading=\"eager\"></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、DB1とDB2をAzureに移行する予定です。</p><p>ソリューションは、弾力性とビジネス要件を満たす必要があります。</p><p>移行するDB1とDB2の<strong>データベース</strong>は、どのようにAzureに実装する必要がありますか。</p><p><br></p><p>データベース：</p><p>サービスレベル：</p>",
           "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\n注：この問題は次の問題と2問1セットです。\n\nあなたは、DB1とDB2をAzureに移行する予定です。\nソリューションは、弾力性とビジネス要件を満たす必要があります。\n移行するDB1とDB2のデータベースは、どのようにAzureに実装する必要がありますか。\n\nデータベース：\nサービスレベル：",
           "choices": [
             {
@@ -2955,20 +3085,24 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-057-c3"
           ],
-          "explanationHtml": "<p>Azure SQL Databaseのデプロイオプションとゾーン冗長のサポートなどをまとめると次のとおりです。</p><p>将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。</p><p></p><p><br></p><p>次の問題（サービスレベル）についても合わせて解説します。</p><p><code>・I/Oレイテンシーを最小限に抑えること</code> </p><p>この要件を満たすためには、Premium、または、Business Criticalを選択します。</p><p>どちらもデータストレージには高速なローカルSSDが使われており、低遅延と高い IOPS を提供します。</p><p>サービスレベルの選択肢にPremiumはないため、「Business Critical」が正解となります。</p><p><br></p><p><code>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</code></p><p><code>・自動的にフェイルオーバーすること</code></p><p>2つの可用性ゾーン障害に耐えるためには、ゾーン冗長構成（3つのAZに分散）、または、リージョンを跨いだ冗長構成にする必要があります。</p><p>「自動的にフェールオーバーすること」と聞いて「自動フェールオーバーグループ」を思い浮かべるかもしれませんが、これには別リージョンに複製するデータベースに追加コストがかかります。</p><p><br></p><p>Premium、または、Business Criticalでは、Premium 可用性モデルのアーキテクチャで構成されています。</p><p>3～4つのノードでクラスタを形成し、データのコピーを格納する最大 3 つのセカンダリ レプリカが含まれます。</p><p>また、Premium、または、Business Criticalのゾーン冗長構成では、追加のデータベース冗長を作成しないため、追加料金なしで使用することができます。</p><p>つまり、追加の構成・コストなしにデフォルトで冗長化されており、障害発生時にはフェールオーバーも自動的に行われます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla?view=azuresql&amp;tabs=azure-powershell#premium-and-business-critical-service-tier-zone-redundant-availability\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla?view=azuresql&amp;tabs=azure-powershell#premium-and-business-critical-service-tier-zone-redundant-availability</a></p><p><br></p><p><code>・管理作業を最小限に抑えること</code></p><p><code>・コストを最小限に抑えること</code></p><p>Business CriticalはAzure SQL Database、Azure SQL Managed Instanceどちらでも選択できますが、Azure SQL Managed Instanceは高額なので除外できます（Managed Instanceを必要とする要件の記載はありません）</p><p>そして、複数のデータベース（DB1とDB2）を移行する場合は、エラスティックプールを使用するのが適切です。</p><p><br></p><p>エラスティック プールは、個々のデータベースのコンピューティングリソースを選択するのではなく、リソースのプールを作成して複数のデータベースで共有できる仕組みです。データベース単位ではなく、プールしたコンピューティングリソースの時間に応じて課金されます。</p><p>ピーク時間の異なる複数のデータベースがある場合、エラスティックプールを作成して複数のデータベースで共有することでコストを節約することができます。</p><p>また、プール全体に対してリソースをプロビジョニングすることで、管理タスクを簡略化することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql</a></p>",
+          "explanationHtml": "<p>Azure SQL Databaseのデプロイオプションとゾーン冗長のサポートなどをまとめると次のとおりです。</p><p>将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。</p><p><img src=\"assets/問題集1_files/2023-02-06_08-08-54-a5f1e70527c3bb965cda1d0bb3d226eb.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>次の問題（サービスレベル）についても合わせて解説します。</p><p><code>・I/Oレイテンシーを最小限に抑えること</code> </p><p>この要件を満たすためには、Premium、または、Business Criticalを選択します。</p><p>どちらもデータストレージには高速なローカルSSDが使われており、低遅延と高い IOPS を提供します。</p><p>サービスレベルの選択肢にPremiumはないため、「Business Critical」が正解となります。</p><p><br></p><p><code>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</code></p><p><code>・自動的にフェイルオーバーすること</code></p><p>2つの可用性ゾーン障害に耐えるためには、ゾーン冗長構成（3つのAZに分散）、または、リージョンを跨いだ冗長構成にする必要があります。</p><p>「自動的にフェールオーバーすること」と聞いて「自動フェールオーバーグループ」を思い浮かべるかもしれませんが、これには別リージョンに複製するデータベースに追加コストがかかります。</p><p><br></p><p>Premium、または、Business Criticalでは、Premium 可用性モデルのアーキテクチャで構成されています。</p><p>3～4つのノードでクラスタを形成し、データのコピーを格納する最大 3 つのセカンダリ レプリカが含まれます。</p><p>また、Premium、または、Business Criticalのゾーン冗長構成では、追加のデータベース冗長を作成しないため、追加料金なしで使用することができます。</p><p>つまり、追加の構成・コストなしにデフォルトで冗長化されており、障害発生時にはフェールオーバーも自動的に行われます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla?view=azuresql&amp;tabs=azure-powershell#premium-and-business-critical-service-tier-zone-redundant-availability\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla?view=azuresql&amp;tabs=azure-powershell#premium-and-business-critical-service-tier-zone-redundant-availability</a></p><p><br></p><p><code>・管理作業を最小限に抑えること</code></p><p><code>・コストを最小限に抑えること</code></p><p>Business CriticalはAzure SQL Database、Azure SQL Managed Instanceどちらでも選択できますが、Azure SQL Managed Instanceは高額なので除外できます（Managed Instanceを必要とする要件の記載はありません）</p><p>そして、複数のデータベース（DB1とDB2）を移行する場合は、エラスティックプールを使用するのが適切です。</p><p><br></p><p>エラスティック プールは、個々のデータベースのコンピューティングリソースを選択するのではなく、リソースのプールを作成して複数のデータベースで共有できる仕組みです。データベース単位ではなく、プールしたコンピューティングリソースの時間に応じて課金されます。</p><p>ピーク時間の異なる複数のデータベースがある場合、エラスティックプールを作成して複数のデータベースで共有することでコストを節約することができます。</p><p>また、プール全体に対してリソースをプロビジョニングすることで、管理タスクを簡略化することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql</a></p>",
           "explanationText": "Azure SQL Databaseのデプロイオプションとゾーン冗長のサポートなどをまとめると次のとおりです。\n将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。\n\n次の問題（サービスレベル）についても合わせて解説します。\n・I/Oレイテンシーを最小限に抑えること\nこの要件を満たすためには、Premium、または、Business Criticalを選択します。\nどちらもデータストレージには高速なローカルSSDが使われており、低遅延と高い IOPS を提供します。\nサービスレベルの選択肢にPremiumはないため、「Business Critical」が正解となります。\n\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n2つの可用性ゾーン障害に耐えるためには、ゾーン冗長構成（3つのAZに分散）、または、リージョンを跨いだ冗長構成にする必要があります。\n「自動的にフェールオーバーすること」と聞いて「自動フェールオーバーグループ」を思い浮かべるかもしれませんが、これには別リージョンに複製するデータベースに追加コストがかかります。\n\nPremium、または、Business Criticalでは、Premium 可用性モデルのアーキテクチャで構成されています。\n3～4つのノードでクラスタを形成し、データのコピーを格納する最大 3 つのセカンダリ レプリカが含まれます。\nまた、Premium、または、Business Criticalのゾーン冗長構成では、追加のデータベース冗長を作成しないため、追加料金なしで使用することができます。\nつまり、追加の構成・コストなしにデフォルトで冗長化されており、障害発生時にはフェールオーバーも自動的に行われます。\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla?view=azuresql&tabs=azure-powershell#premium-and-business-critical-service-tier-zone-redundant-availability\n\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\nBusiness CriticalはAzure SQL Database、Azure SQL Managed Instanceどちらでも選択できますが、Azure SQL Managed Instanceは高額なので除外できます（Managed Instanceを必要とする要件の記載はありません）\nそして、複数のデータベース（DB1とDB2）を移行する場合は、エラスティックプールを使用するのが適切です。\n\nエラスティック プールは、個々のデータベースのコンピューティングリソースを選択するのではなく、リソースのプールを作成して複数のデータベースで共有できる仕組みです。データベース単位ではなく、プールしたコンピューティングリソースの時間に応じて課金されます。\nピーク時間の異なる複数のデータベースがある場合、エラスティックプールを作成して複数のデータベースで共有することでコストを節約することができます。\nまた、プール全体に対してリソースをプロビジョニングすることで、管理タスクを簡略化することができます。\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png",
+            "assets/問題集1_files/2023-02-06_08-08-54-a5f1e70527c3bb965cda1d0bb3d226eb.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp1-case-001",
           "tags": [
-            "case-study"
+            "case-study",
+            "linked-question"
           ]
         },
         {
           "questionId": "jp1-q-058",
           "sourceQuestionNumber": 58,
-          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、DB1とDB2をAzureに移行する予定です。</p><p>ソリューションは、弾力性とビジネス要件を満たす必要があります。</p><p>移行するDB1とDB2の<strong>サービスレベル</strong>は、どのようにAzureに実装する必要がありますか。</p><p><br></p><p>データベース：</p><p>サービスレベル：</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p><img src=\"assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png\" alt=\"\" loading=\"eager\"></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、DB1とDB2をAzureに移行する予定です。</p><p>ソリューションは、弾力性とビジネス要件を満たす必要があります。</p><p>移行するDB1とDB2の<strong>サービスレベル</strong>は、どのようにAzureに実装する必要がありますか。</p><p><br></p><p>データベース：</p><p>サービスレベル：</p>",
           "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\n注：この問題は前の問題と2問1セットです。\n\nあなたは、DB1とDB2をAzureに移行する予定です。\nソリューションは、弾力性とビジネス要件を満たす必要があります。\n移行するDB1とDB2のサービスレベルは、どのようにAzureに実装する必要がありますか。\n\nデータベース：\nサービスレベル：",
           "choices": [
             {
@@ -2995,18 +3129,21 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p><code>・I/Oレイテンシーを最小限に抑えること</code> </p><p>前の問題で解説しているとおり「Business Critical」が正解となります。</p>",
           "explanationText": "・I/Oレイテンシーを最小限に抑えること\n前の問題で解説しているとおり「Business Critical」が正解となります。",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp1-case-001",
           "tags": [
-            "case-study"
+            "case-study",
+            "linked-question"
           ]
         },
         {
           "questionId": "jp1-q-059",
           "sourceQuestionNumber": 59,
-          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、App1をAzureに移行する予定です。</p><p>App1のための高可用性ソリューションを提案する必要があります。</p><p>ソリューションは、弾力性の要件を満たす必要があります。</p><p><strong>ホストグループの数</strong>はいくつにするべきですか。</p><p><br></p><p>ホストグループの数：</p><p>仮想マシンスケールセットの数：</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p><img src=\"assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png\" alt=\"\" loading=\"eager\"></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、App1をAzureに移行する予定です。</p><p>App1のための高可用性ソリューションを提案する必要があります。</p><p>ソリューションは、弾力性の要件を満たす必要があります。</p><p><strong>ホストグループの数</strong>はいくつにするべきですか。</p><p><br></p><p>ホストグループの数：</p><p>仮想マシンスケールセットの数：</p>",
           "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\n注：この問題は次の問題と2問1セットです。\n\nあなたは、App1をAzureに移行する予定です。\nApp1のための高可用性ソリューションを提案する必要があります。\nソリューションは、弾力性の要件を満たす必要があります。\nホストグループの数はいくつにするべきですか。\n\nホストグループの数：\n仮想マシンスケールセットの数：",
           "choices": [
             {
@@ -3037,20 +3174,25 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-059-c3"
           ],
-          "explanationHtml": "<p>次の問題（仮想マシン スケールセットの数）についても合わせて解説します。</p><p><code>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</code> </p><p><code>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</code></p><p>仮想マシンスケールセットは専用ホスト（Azure Dedicated Host）にデプロイする必要があります。</p><p>ホストグループは専用ホストのコレクションを表すリソースです。最初にホストグループを作成し、そこのホスト（VM）を追加します。ホストグループはリージョン、可用性ゾーンなどの定義を持つ入れ物のような役割です。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts</a></p><p><br></p><p>ホストグループは各可用性ゾーンごとに作成する必要があるため、ゾーン1～3にそれぞれ作成するか、もしくは、可用性ゾーンを指定せずにリージョンホストグループとして構成します。</p><p></p><p><br></p><p><code>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</code></p><p>2つの可用性ゾーン障害に耐えるためには、ゾーン1～3にそれぞれホストグループを作成する必要があります。</p><p>よって、ホストグループの数は「3」が正解です。</p><p><br></p><p>専用ホストは仮想マシンスケールセットをサポートしていますがいくつかの条件があり、ホストグループとスケールセットでは、同じ可用性ゾーンが使用されている必要があります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts#virtual-machine-scale-set-support\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts#virtual-machine-scale-set-support</a></p><p><br></p><p>つまり、仮想マシンスケールセットもゾーン1～3にそれぞれ作成する必要があります。</p><p>よって、仮想マシンスケールセットの数も「3」が正解です。</p><p><br></p><p>仮想マシンスケールセットは次の画面のように3つのゾーンを選択してゾーンに分散するように構成できますが、この場合はゾーンを分けて作成したホストグループには割り当てができないことになります。</p><p><br></p>",
+          "explanationHtml": "<p>次の問題（仮想マシン スケールセットの数）についても合わせて解説します。</p><p><code>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</code> </p><p><code>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</code></p><p>仮想マシンスケールセットは専用ホスト（Azure Dedicated Host）にデプロイする必要があります。</p><p>ホストグループは専用ホストのコレクションを表すリソースです。最初にホストグループを作成し、そこのホスト（VM）を追加します。ホストグループはリージョン、可用性ゾーンなどの定義を持つ入れ物のような役割です。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts</a></p><p><br></p><p>ホストグループは各可用性ゾーンごとに作成する必要があるため、ゾーン1～3にそれぞれ作成するか、もしくは、可用性ゾーンを指定せずにリージョンホストグループとして構成します。</p><p><img src=\"assets/問題集1_files/2023-01-27_05-16-16-cf7b5d58222ad15de9ec0893d43d9bc8.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p><code>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</code></p><p>2つの可用性ゾーン障害に耐えるためには、ゾーン1～3にそれぞれホストグループを作成する必要があります。</p><p>よって、ホストグループの数は「3」が正解です。</p><p><br></p><p>専用ホストは仮想マシンスケールセットをサポートしていますがいくつかの条件があり、ホストグループとスケールセットでは、同じ可用性ゾーンが使用されている必要があります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts#virtual-machine-scale-set-support\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts#virtual-machine-scale-set-support</a></p><p><br></p><p>つまり、仮想マシンスケールセットもゾーン1～3にそれぞれ作成する必要があります。</p><p>よって、仮想マシンスケールセットの数も「3」が正解です。</p><p><br></p><p>仮想マシンスケールセットは次の画面のように3つのゾーンを選択してゾーンに分散するように構成できますが、この場合はゾーンを分けて作成したホストグループには割り当てができないことになります。</p><img src=\"assets/問題集1_files/2023-01-27_05-28-16-0f3b994ba009639b1d2638244a4135dc.png\" alt=\"\" loading=\"eager\"><p><br></p>",
           "explanationText": "次の問題（仮想マシン スケールセットの数）についても合わせて解説します。\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n仮想マシンスケールセットは専用ホスト（Azure Dedicated Host）にデプロイする必要があります。\nホストグループは専用ホストのコレクションを表すリソースです。最初にホストグループを作成し、そこのホスト（VM）を追加します。ホストグループはリージョン、可用性ゾーンなどの定義を持つ入れ物のような役割です。\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts\n\nホストグループは各可用性ゾーンごとに作成する必要があるため、ゾーン1～3にそれぞれ作成するか、もしくは、可用性ゾーンを指定せずにリージョンホストグループとして構成します。\n\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n2つの可用性ゾーン障害に耐えるためには、ゾーン1～3にそれぞれホストグループを作成する必要があります。\nよって、ホストグループの数は「3」が正解です。\n\n専用ホストは仮想マシンスケールセットをサポートしていますがいくつかの条件があり、ホストグループとスケールセットでは、同じ可用性ゾーンが使用されている必要があります。\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machines/dedicated-hosts#virtual-machine-scale-set-support\n\nつまり、仮想マシンスケールセットもゾーン1～3にそれぞれ作成する必要があります。\nよって、仮想マシンスケールセットの数も「3」が正解です。\n\n仮想マシンスケールセットは次の画面のように3つのゾーンを選択してゾーンに分散するように構成できますが、この場合はゾーンを分けて作成したホストグループには割り当てができないことになります。",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png",
+            "assets/問題集1_files/2023-01-27_05-16-16-cf7b5d58222ad15de9ec0893d43d9bc8.png",
+            "assets/問題集1_files/2023-01-27_05-28-16-0f3b994ba009639b1d2638244a4135dc.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp1-case-001",
           "tags": [
-            "case-study"
+            "case-study",
+            "linked-question"
           ]
         },
         {
           "questionId": "jp1-q-060",
           "sourceQuestionNumber": 60,
-          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、App1をAzureに移行する予定です。</p><p>App1のための高可用性ソリューションを提案する必要があります。</p><p>ソリューションは、弾力性の要件を満たす必要があります。</p><p><strong>仮想マシンスケールセットの数</strong>はいくつにするべきですか。</p><p><br></p><p>ホストグループの数：</p><p>仮想マシンスケールセットの数：</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p><img src=\"assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png\" alt=\"\" loading=\"eager\"></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、App1をAzureに移行する予定です。</p><p>App1のための高可用性ソリューションを提案する必要があります。</p><p>ソリューションは、弾力性の要件を満たす必要があります。</p><p><strong>仮想マシンスケールセットの数</strong>はいくつにするべきですか。</p><p><br></p><p>ホストグループの数：</p><p>仮想マシンスケールセットの数：</p>",
           "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\n注：この問題は前の問題と2問1セットです。\n\nあなたは、App1をAzureに移行する予定です。\nApp1のための高可用性ソリューションを提案する必要があります。\nソリューションは、弾力性の要件を満たす必要があります。\n仮想マシンスケールセットの数はいくつにするべきですか。\n\nホストグループの数：\n仮想マシンスケールセットの数：",
           "choices": [
             {
@@ -3081,14 +3223,20 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp1-q-060-c4"
           ],
-          "explanationHtml": "<p>前の問題の解説の通り、仮想マシンスケールセットの数は3つ必要です。</p><p>ホストグループは可用性ゾーンを分けて別々に作成する必要があります。</p><p>仮想マシンスケールセットはそれ単体では3つの可用性ゾーンを選択してゾーン冗長構成にすることが可能ですが、ホストグループに配置する場合はホストグループと同じ可用性ゾーンが使用されている必要があります。</p><p><br></p><p>最後に、解説で使用した比較表をまとめて添付しておきますので、見返したいときにご活用ください。（全ての演習テストの最後の解説に添付しておきます）</p><p><br></p><p><strong>ストレージアカウントの比較</strong></p><p></p><p><br></p><p><strong>負荷分散オプションの比較</strong></p><p></p><p><br></p><p><strong>Azure SQL Databaseの比較</strong></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla\">枠外の参考リンク：Azure SQL Database と SQL Managed Instance の高可用性</a></p><p></p>",
+          "explanationHtml": "<p>前の問題の解説の通り、仮想マシンスケールセットの数は3つ必要です。</p><p>ホストグループは可用性ゾーンを分けて別々に作成する必要があります。</p><p>仮想マシンスケールセットはそれ単体では3つの可用性ゾーンを選択してゾーン冗長構成にすることが可能ですが、ホストグループに配置する場合はホストグループと同じ可用性ゾーンが使用されている必要があります。</p><p><br></p><p>最後に、解説で使用した比較表をまとめて添付しておきますので、見返したいときにご活用ください。（全ての演習テストの最後の解説に添付しておきます）</p><p><br></p><p><strong>ストレージアカウントの比較</strong></p><p><img src=\"assets/問題集1_files/2023-02-07_05-36-29-25d2f59f627cacbe1d209eb0d9c4ad09.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p><strong>負荷分散オプションの比較</strong></p><p><img src=\"assets/問題集1_files/2023-02-07_05-36-30-8da7a1b8fcf0169b8fb07ca0ec10f796.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p><strong>Azure SQL Databaseの比較</strong></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla\">枠外の参考リンク：Azure SQL Database と SQL Managed Instance の高可用性</a></p><p><img src=\"assets/問題集1_files/2023-02-07_05-36-30-091dfa71abd367781962c63f74c343b0.png\" alt=\"\" loading=\"eager\"></p>",
           "explanationText": "前の問題の解説の通り、仮想マシンスケールセットの数は3つ必要です。\nホストグループは可用性ゾーンを分けて別々に作成する必要があります。\n仮想マシンスケールセットはそれ単体では3つの可用性ゾーンを選択してゾーン冗長構成にすることが可能ですが、ホストグループに配置する場合はホストグループと同じ可用性ゾーンが使用されている必要があります。\n\n最後に、解説で使用した比較表をまとめて添付しておきますので、見返したいときにご活用ください。（全ての演習テストの最後の解説に添付しておきます）\n\nストレージアカウントの比較\n\n負荷分散オプションの比較\n\nAzure SQL Databaseの比較\n枠外の参考リンク：Azure SQL Database と SQL Managed Instance の高可用性",
-          "images": [],
+          "images": [
+            "assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png",
+            "assets/問題集1_files/2023-02-07_05-36-29-25d2f59f627cacbe1d209eb0d9c4ad09.png",
+            "assets/問題集1_files/2023-02-07_05-36-30-8da7a1b8fcf0169b8fb07ca0ec10f796.png",
+            "assets/問題集1_files/2023-02-07_05-36-30-091dfa71abd367781962c63f74c343b0.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp1-case-001",
           "tags": [
-            "case-study"
+            "case-study",
+            "linked-question"
           ]
         }
       ]
@@ -3096,7 +3244,7 @@ window.QUIZ_DATA = {
     "jp2-set-001": {
       "setId": "jp2-set-001",
       "title": "問題集2 01-10",
-      "sourceHtml": "udemy/問題集2.html",
+      "sourceHtml": "assets/問題集2.html",
       "questionIds": [
         "jp2-q-001",
         "jp2-q-002",
@@ -3144,9 +3292,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-001-c4"
           ],
-          "explanationHtml": "<p>動的データマスキングは、データベース内にある機密データをマスクすることにより、特権のないユーザーへの機密データの公開を制限するためのSQL Serverの機能です。</p><p>Azure SQL Databaseでもサポートされており、Azureポータルの「動的データマスキング」メニューから設定することができます。（管理者は常にマスクルールから除外されるので閲覧可能）</p><p>なお、Azure SQL Managed Instanceでは動的データマスキングはサポートされていません。</p><p></p><p>紛らわしい選択肢として「<a href=\"https://learn.microsoft.com/ja-jp/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver16\">Always Encrypted</a>」と「<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=azuresql&amp;tabs=azure-portal\">Transparent Data Encryption (TDE)</a> 」があります。</p><p>Always Encryptedも機密データを保護するための仕組みですが、マスクではなく暗号化されて値が表示されます。下4桁のみ表示してそれ以外をマスクする、といった使い方はできません。</p><p><br></p><p>Transparent Data Encryption (TDE) は、ディスクに書き込まれる時に暗号化し、メモリに読み込まれる時に復号化する仕組みです。Azure SQL Databaseでデフォルトで有効になっている機能でAzureが勝手に行ってくれるので、ユーザー（アプリケーション）は暗号化/復号化を意識することはありません。</p><p>ディスク持ち出しなどオフラインアクティビティの脅威から保護するためのもので、テーブルをSELECTすると普通に復号化されて参照できるので、要件にあるような用途では使用できません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql</a></p><p><a href=\"https://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/\">https://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/</a></p>",
+          "explanationHtml": "<p>動的データマスキングは、データベース内にある機密データをマスクすることにより、特権のないユーザーへの機密データの公開を制限するためのSQL Serverの機能です。</p><p>Azure SQL Databaseでもサポートされており、Azureポータルの「動的データマスキング」メニューから設定することができます。（管理者は常にマスクルールから除外されるので閲覧可能）</p><p>なお、Azure SQL Managed Instanceでは動的データマスキングはサポートされていません。</p><p><img src=\"assets/問題集2_files/2023-01-19_03-47-14-a9e42318046c8f41b2c1c0fd814759bc.png\" alt=\"\" loading=\"eager\"></p><p>紛らわしい選択肢として「<a href=\"https://learn.microsoft.com/ja-jp/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver16\">Always Encrypted</a>」と「<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=azuresql&amp;tabs=azure-portal\">Transparent Data Encryption (TDE)</a> 」があります。</p><p>Always Encryptedも機密データを保護するための仕組みですが、マスクではなく暗号化されて値が表示されます。下4桁のみ表示してそれ以外をマスクする、といった使い方はできません。</p><p><br></p><p>Transparent Data Encryption (TDE) は、ディスクに書き込まれる時に暗号化し、メモリに読み込まれる時に復号化する仕組みです。Azure SQL Databaseでデフォルトで有効になっている機能でAzureが勝手に行ってくれるので、ユーザー（アプリケーション）は暗号化/復号化を意識することはありません。</p><p>ディスク持ち出しなどオフラインアクティビティの脅威から保護するためのもので、テーブルをSELECTすると普通に復号化されて参照できるので、要件にあるような用途では使用できません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql</a></p><p><a href=\"https://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/\">https://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/</a></p>",
           "explanationText": "動的データマスキングは、データベース内にある機密データをマスクすることにより、特権のないユーザーへの機密データの公開を制限するためのSQL Serverの機能です。\nAzure SQL Databaseでもサポートされており、Azureポータルの「動的データマスキング」メニューから設定することができます。（管理者は常にマスクルールから除外されるので閲覧可能）\nなお、Azure SQL Managed Instanceでは動的データマスキングはサポートされていません。\n\n紛らわしい選択肢として「Always Encrypted」と「Transparent Data Encryption (TDE) 」があります。\nAlways Encryptedも機密データを保護するための仕組みですが、マスクではなく暗号化されて値が表示されます。下4桁のみ表示してそれ以外をマスクする、といった使い方はできません。\n\nTransparent Data Encryption (TDE) は、ディスクに書き込まれる時に暗号化し、メモリに読み込まれる時に復号化する仕組みです。Azure SQL Databaseでデフォルトで有効になっている機能でAzureが勝手に行ってくれるので、ユーザー（アプリケーション）は暗号化/復号化を意識することはありません。\nディスク持ち出しなどオフラインアクティビティの脅威から保護するためのもので、テーブルをSELECTすると普通に復号化されて参照できるので、要件にあるような用途では使用できません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql\nhttps://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-19_03-47-14-a9e42318046c8f41b2c1c0fd814759bc.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -3174,9 +3324,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-002-c2"
           ],
-          "explanationHtml": "<p>代わりにAzure Front Doorを使用する必要があります。</p><p><br></p><p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p></p><p><code>・レート制限をサポートすること</code></p><p>負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）</p><p><br></p><p><code>・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること</code></p><p>リージョン障害から保護するにはグローバルサービスを選択する必要があります。</p><p>なお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。</p><p>・グローバルかリージョンサービスか</p><p>・レート制限の機能の有無</p><p>・コンテンツキャッシュの機能の有無</p><p><br></p><p><code>・すべてのインスタンス間でリクエストのバランスをとること</code></p><p>これはどの負荷分散オプションでも可能です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><br></p>",
+          "explanationHtml": "<p>代わりにAzure Front Doorを使用する必要があります。</p><p><br></p><p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p><img src=\"assets/問題集2_files/2023-01-10_07-32-36-4942a53dbe69c4c605c6408cb2b5d722.png\" alt=\"\" loading=\"eager\"></p><p><code>・レート制限をサポートすること</code></p><p>負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）</p><p><br></p><p><code>・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること</code></p><p>リージョン障害から保護するにはグローバルサービスを選択する必要があります。</p><p>なお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。</p><p>・グローバルかリージョンサービスか</p><p>・レート制限の機能の有無</p><p>・コンテンツキャッシュの機能の有無</p><p><br></p><p><code>・すべてのインスタンス間でリクエストのバランスをとること</code></p><p>これはどの負荷分散オプションでも可能です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><br></p>",
           "explanationText": "代わりにAzure Front Doorを使用する必要があります。\n\nAzureの負荷分散オプションは大きく次の4種類があります。\n細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。\n\n・レート制限をサポートすること\n負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）\n\n・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること\nリージョン障害から保護するにはグローバルサービスを選択する必要があります。\nなお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。\n・グローバルかリージョンサービスか\n・レート制限の機能の有無\n・コンテンツキャッシュの機能の有無\n\n・すべてのインスタンス間でリクエストのバランスをとること\nこれはどの負荷分散オプションでも可能です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-10_07-32-36-4942a53dbe69c4c605c6408cb2b5d722.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -3221,8 +3373,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-001",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-004",
@@ -3263,8 +3417,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-001",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-005",
@@ -3294,13 +3450,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-005-c1"
           ],
-          "explanationHtml": "<p>負荷分散オプションに関する問題です。Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p><code>・どちらか一方のリージョンに障害が発生した場合でも、ユーザーがWeb アプリを利用できること</code></p><p>リージョン障害から保護するにはグローバルサービスを選択する必要があります。</p><p>Azure Front Door、Azure Traffic Managerのいずれかが候補になりますが、選択肢に「Azure Front Door」はないので「Azure Traffic Manager」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><br></p>",
+          "explanationHtml": "<p>負荷分散オプションに関する問題です。Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><img src=\"assets/問題集2_files/2023-01-10_07-53-25-8eaa5ff9993dfd2af3f9d15b89f318c6.png\" alt=\"\" loading=\"eager\"><p><code>・どちらか一方のリージョンに障害が発生した場合でも、ユーザーがWeb アプリを利用できること</code></p><p>リージョン障害から保護するにはグローバルサービスを選択する必要があります。</p><p>Azure Front Door、Azure Traffic Managerのいずれかが候補になりますが、選択肢に「Azure Front Door」はないので「Azure Traffic Manager」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><br></p>",
           "explanationText": "負荷分散オプションに関する問題です。Azureの負荷分散オプションは大きく次の4種類があります。\n細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。\n・どちらか一方のリージョンに障害が発生した場合でも、ユーザーがWeb アプリを利用できること\nリージョン障害から保護するにはグローバルサービスを選択する必要があります。\nAzure Front Door、Azure Traffic Managerのいずれかが候補になりますが、選択肢に「Azure Front Door」はないので「Azure Traffic Manager」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-10_07-53-25-8eaa5ff9993dfd2af3f9d15b89f318c6.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-001",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-006",
@@ -3336,13 +3496,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-006-c3"
           ],
-          "explanationHtml": "<p>負荷分散オプションに関する問題です。Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p><code>・リージョンに障害が発生しない限り、ユーザーは常に北ヨーロッパリージョンの Web アプリにアクセスされること</code></p><p><code>・どちらか一方のリージョンに障害が発生した場合でも、ユーザーがWeb アプリを利用できること</code></p><p>Traffic Managerを使用する場合、この問題のケースだと例えば次のようにエンドポイントを登録することで、北ヨーロッパリージョンのWebアプリが正常な限りトラフィックはプライマリ (優先度が一番高い) エンドポイントに送信されます。プライマリ エンドポイントを使用できない場合は、2番目のエンドポイントにルーティングされます。</p><p><br></p><p>北ヨーロッパのWebアプリ：優先度1</p><p>西ヨーロッパのWebアプリ：優先度2</p><p><br></p><p>つまり、北ヨーロッパリージョンで障害が発生した場合、西ヨーロッパのWebアプリにルーティングされるようになるのでユーザーはWebアプリを利用することができます。</p><p>なお、西ヨーロッパリージョンで障害が発生した場合は、単に北ヨーロッパのWebアプリに優先的にルーティングされるだけなので、この場合もユーザーはWebアプリを利用することができます。</p><p><br></p><p>Traffic Managerには他にもパフォーマンス トラフィック ルーティング、加重トラフィック ルーティングなどのルーティング方法がありますが、これはネットワーク待ち時間や重み付けによりルーティングする方法なので適切ではありません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-routing-methods#priority-traffic-routing-method\">https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-routing-methods#priority-traffic-routing-method</a></p><p><br></p>",
+          "explanationHtml": "<p>負荷分散オプションに関する問題です。Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><img src=\"assets/問題集2_files/2023-01-10_08-08-31-59a770a9db00821d5da0e4d7637cb5d2.png\" alt=\"\" loading=\"eager\"><p><code>・リージョンに障害が発生しない限り、ユーザーは常に北ヨーロッパリージョンの Web アプリにアクセスされること</code></p><p><code>・どちらか一方のリージョンに障害が発生した場合でも、ユーザーがWeb アプリを利用できること</code></p><p>Traffic Managerを使用する場合、この問題のケースだと例えば次のようにエンドポイントを登録することで、北ヨーロッパリージョンのWebアプリが正常な限りトラフィックはプライマリ (優先度が一番高い) エンドポイントに送信されます。プライマリ エンドポイントを使用できない場合は、2番目のエンドポイントにルーティングされます。</p><p><br></p><p>北ヨーロッパのWebアプリ：優先度1</p><p>西ヨーロッパのWebアプリ：優先度2</p><p><br></p><p>つまり、北ヨーロッパリージョンで障害が発生した場合、西ヨーロッパのWebアプリにルーティングされるようになるのでユーザーはWebアプリを利用することができます。</p><p>なお、西ヨーロッパリージョンで障害が発生した場合は、単に北ヨーロッパのWebアプリに優先的にルーティングされるだけなので、この場合もユーザーはWebアプリを利用することができます。</p><p><br></p><p>Traffic Managerには他にもパフォーマンス トラフィック ルーティング、加重トラフィック ルーティングなどのルーティング方法がありますが、これはネットワーク待ち時間や重み付けによりルーティングする方法なので適切ではありません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-routing-methods#priority-traffic-routing-method\">https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-routing-methods#priority-traffic-routing-method</a></p><p><br></p>",
           "explanationText": "負荷分散オプションに関する問題です。Azureの負荷分散オプションは大きく次の4種類があります。\n細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。\n・リージョンに障害が発生しない限り、ユーザーは常に北ヨーロッパリージョンの Web アプリにアクセスされること\n・どちらか一方のリージョンに障害が発生した場合でも、ユーザーがWeb アプリを利用できること\nTraffic Managerを使用する場合、この問題のケースだと例えば次のようにエンドポイントを登録することで、北ヨーロッパリージョンのWebアプリが正常な限りトラフィックはプライマリ (優先度が一番高い) エンドポイントに送信されます。プライマリ エンドポイントを使用できない場合は、2番目のエンドポイントにルーティングされます。\n\n北ヨーロッパのWebアプリ：優先度1\n西ヨーロッパのWebアプリ：優先度2\n\nつまり、北ヨーロッパリージョンで障害が発生した場合、西ヨーロッパのWebアプリにルーティングされるようになるのでユーザーはWebアプリを利用することができます。\nなお、西ヨーロッパリージョンで障害が発生した場合は、単に北ヨーロッパのWebアプリに優先的にルーティングされるだけなので、この場合もユーザーはWebアプリを利用することができます。\n\nTraffic Managerには他にもパフォーマンス トラフィック ルーティング、加重トラフィック ルーティングなどのルーティング方法がありますが、これはネットワーク待ち時間や重み付けによりルーティングする方法なので適切ではありません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-routing-methods#priority-traffic-routing-method",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-10_08-08-31-59a770a9db00821d5da0e4d7637cb5d2.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-001",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-007",
@@ -3378,13 +3542,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-007-c3"
           ],
-          "explanationHtml": "<p><code>・ファイル共有にアクセスする際のレイテンシーを最小限に抑えること</code></p><p>ファイル共有はHDDベースのStandard 汎用 v2、または、SSDベースのPremium ファイル共有のストレージアカウントを作成して使うことができますが、示された性能の条件を満たすためには「Premium ファイル共有」を利用します。</p><p><br></p><p>Premium ファイル共有の場合、ストレージ層はPremiumになりますので選択肢3が正解です。</p><p>なお、Standard 汎用 v2のファイル共有の場合、ストレージ層は次の3つから選択できます。</p><p>・トランザクション最適化</p><p>・ホット</p><p>・クール</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/files/storage-files-planning#storage-tiers\">https://learn.microsoft.com/ja-jp/azure/storage/files/storage-files-planning#storage-tiers</a></p>",
+          "explanationHtml": "<p><code>・ファイル共有にアクセスする際のレイテンシーを最小限に抑えること</code></p><p>ファイル共有はHDDベースのStandard 汎用 v2、または、SSDベースのPremium ファイル共有のストレージアカウントを作成して使うことができますが、示された性能の条件を満たすためには「Premium ファイル共有」を利用します。</p><p><br></p><p>Premium ファイル共有の場合、ストレージ層はPremiumになりますので選択肢3が正解です。</p><p>なお、Standard 汎用 v2のファイル共有の場合、ストレージ層は次の3つから選択できます。</p><p>・トランザクション最適化</p><p>・ホット</p><p>・クール</p><img src=\"assets/問題集2_files/2023-02-07_06-29-04-c1f38498cc8953024fd8c2704e4c00b7.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/files/storage-files-planning#storage-tiers\">https://learn.microsoft.com/ja-jp/azure/storage/files/storage-files-planning#storage-tiers</a></p>",
           "explanationText": "・ファイル共有にアクセスする際のレイテンシーを最小限に抑えること\nファイル共有はHDDベースのStandard 汎用 v2、または、SSDベースのPremium ファイル共有のストレージアカウントを作成して使うことができますが、示された性能の条件を満たすためには「Premium ファイル共有」を利用します。\n\nPremium ファイル共有の場合、ストレージ層はPremiumになりますので選択肢3が正解です。\nなお、Standard 汎用 v2のファイル共有の場合、ストレージ層は次の3つから選択できます。\n・トランザクション最適化\n・ホット\n・クール\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/files/storage-files-planning#storage-tiers",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-02-07_06-29-04-c1f38498cc8953024fd8c2704e4c00b7.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-001",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-008",
@@ -3419,13 +3587,15 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-001",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-009",
           "sourceQuestionNumber": 9,
-          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、次の表に示されているリソースを持っています。</p><p>あなたは、Azureで「RG2」という名前の新しいリソースグループを作成しました。</p><p>あなたは、仮想マシンをRG2に移動する必要があります。</p><p><strong>VM1</strong>の仮想マシンをRG2に移動するために、何を使用する必要がありますか。</p><p><br></p><p>VM1：</p><p>VM2：</p>",
+          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、次の表に示されているリソースを持っています。</p><img src=\"assets/問題集2_files/2023-01-31_08-29-52-8ef981b9cea2c3b029feed460204095e.png\" alt=\"\" loading=\"eager\"><p>あなたは、Azureで「RG2」という名前の新しいリソースグループを作成しました。</p><p>あなたは、仮想マシンをRG2に移動する必要があります。</p><p><strong>VM1</strong>の仮想マシンをRG2に移動するために、何を使用する必要がありますか。</p><p><br></p><p>VM1：</p><p>VM2：</p>",
           "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、次の表に示されているリソースを持っています。\nあなたは、Azureで「RG2」という名前の新しいリソースグループを作成しました。\nあなたは、仮想マシンをRG2に移動する必要があります。\nVM1の仮想マシンをRG2に移動するために、何を使用する必要がありますか。\n\nVM1：\nVM2：",
           "choices": [
             {
@@ -3462,18 +3632,24 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-009-c4"
           ],
-          "explanationHtml": "<p>Azure Resource Moverは、Azureリソースをサブスクリプション、リソース グループ、リージョン間でシームレスに移動するためのサービスです。移動するリソース間の依存関係を検証した上で、関連リソースもまとめて移動することができます。</p><p></p><p><br></p><p>ちなみに、仮想マシンの概要メニューからリソースグループの移動操作ができますが、この場合も内部的には「Azure Resource Mover」が利用されています。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/resource-mover/overview\">https://learn.microsoft.com/ja-jp/azure/resource-mover/overview</a></p>",
+          "explanationHtml": "<p>Azure Resource Moverは、Azureリソースをサブスクリプション、リソース グループ、リージョン間でシームレスに移動するためのサービスです。移動するリソース間の依存関係を検証した上で、関連リソースもまとめて移動することができます。</p><p><img src=\"assets/問題集2_files/2023-01-31_08-29-52-d87ba6218c3fe14ea36262e067279c72.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>ちなみに、仮想マシンの概要メニューからリソースグループの移動操作ができますが、この場合も内部的には「Azure Resource Mover」が利用されています。</p><img src=\"assets/問題集2_files/2023-02-07_06-37-36-9d1710f026ab57e2c2ce9251634e56ba.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/resource-mover/overview\">https://learn.microsoft.com/ja-jp/azure/resource-mover/overview</a></p>",
           "explanationText": "Azure Resource Moverは、Azureリソースをサブスクリプション、リソース グループ、リージョン間でシームレスに移動するためのサービスです。移動するリソース間の依存関係を検証した上で、関連リソースもまとめて移動することができます。\n\nちなみに、仮想マシンの概要メニューからリソースグループの移動操作ができますが、この場合も内部的には「Azure Resource Mover」が利用されています。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/resource-mover/overview",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-31_08-29-52-8ef981b9cea2c3b029feed460204095e.png",
+            "assets/問題集2_files/2023-01-31_08-29-52-d87ba6218c3fe14ea36262e067279c72.png",
+            "assets/問題集2_files/2023-02-07_06-37-36-9d1710f026ab57e2c2ce9251634e56ba.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-001",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-010",
           "sourceQuestionNumber": 10,
-          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、次の表に示されているリソースを持っています。</p><p></p><p>あなたは、Azureで「RG2」という名前の新しいリソースグループを作成しました。</p><p>あなたは、仮想マシンをRG2に移動する必要があります。</p><p><strong>VM2</strong>の仮想マシンをRG2に移動するために、何を使用する必要がありますか。</p><p><br></p><p>VM1：</p><p>VM2：</p>",
+          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、次の表に示されているリソースを持っています。</p><p><img src=\"assets/問題集2_files/2023-01-31_08-29-52-8ef981b9cea2c3b029feed460204095e.png\" alt=\"\" loading=\"eager\"></p><p>あなたは、Azureで「RG2」という名前の新しいリソースグループを作成しました。</p><p>あなたは、仮想マシンをRG2に移動する必要があります。</p><p><strong>VM2</strong>の仮想マシンをRG2に移動するために、何を使用する必要がありますか。</p><p><br></p><p>VM1：</p><p>VM2：</p>",
           "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、次の表に示されているリソースを持っています。\n\nあなたは、Azureで「RG2」という名前の新しいリソースグループを作成しました。\nあなたは、仮想マシンをRG2に移動する必要があります。\nVM2の仮想マシンをRG2に移動するために、何を使用する必要がありますか。\n\nVM1：\nVM2：",
           "choices": [
             {
@@ -3510,20 +3686,25 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-010-c3"
           ],
-          "explanationHtml": "<p>Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。</p><p>サーバー、データベース、Webアプリ、仮想デスクトップなど移行対象のリソースを検出、評価し、実際に移行を実行、追跡するための一元化された管理機能を提供します。</p><p>オンプレミスのHyper-V VM、VMware VM、物理サーバーなどを移行する際にも役立ちます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview</a></p>",
+          "explanationHtml": "<p>Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。</p><p>サーバー、データベース、Webアプリ、仮想デスクトップなど移行対象のリソースを検出、評価し、実際に移行を実行、追跡するための一元化された管理機能を提供します。</p><p>オンプレミスのHyper-V VM、VMware VM、物理サーバーなどを移行する際にも役立ちます。</p><p><br></p><img src=\"assets/問題集2_files/2023-01-31_13-21-01-e9401b8d4a7157a4ea2916505cffdefe.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview</a></p>",
           "explanationText": "Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。\nサーバー、データベース、Webアプリ、仮想デスクトップなど移行対象のリソースを検出、評価し、実際に移行を実行、追跡するための一元化された管理機能を提供します。\nオンプレミスのHyper-V VM、VMware VM、物理サーバーなどを移行する際にも役立ちます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-31_08-29-52-8ef981b9cea2c3b029feed460204095e.png",
+            "assets/問題集2_files/2023-01-31_13-21-01-e9401b8d4a7157a4ea2916505cffdefe.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-001",
+          "tags": [
+            "linked-question"
+          ]
         }
       ]
     },
     "jp2-set-002": {
       "setId": "jp2-set-002",
       "title": "問題集2 11-20",
-      "sourceHtml": "udemy/問題集2.html",
+      "sourceHtml": "assets/問題集2.html",
       "questionIds": [
         "jp2-q-011",
         "jp2-q-012",
@@ -3565,9 +3746,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-011-c1"
           ],
-          "explanationHtml": "<p>BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションです。</p><p>ホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。</p><p>アーカイブ層は最も保存コストが低いですが、オフライン層に保存されるため即時アクセスができなくなります。よって、選択肢1のクール層が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview </a></p>",
+          "explanationHtml": "<p>BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションです。</p><p>ホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。</p><img src=\"assets/問題集2_files/2023-01-11_08-03-49-2a046917889e77d4c1bf640e2b8651b8.png\" alt=\"\" loading=\"eager\"><p>アーカイブ層は最も保存コストが低いですが、オフライン層に保存されるため即時アクセスができなくなります。よって、選択肢1のクール層が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview </a></p>",
           "explanationText": "BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションです。\nホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。\nアーカイブ層は最も保存コストが低いですが、オフライン層に保存されるため即時アクセスができなくなります。よって、選択肢1のクール層が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-11_08-03-49-2a046917889e77d4c1bf640e2b8651b8.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -3576,7 +3759,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp2-q-012",
           "sourceQuestionNumber": 12,
-          "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。</p><p>このWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。</p><p>仮想マシンは、次の図に示されている構成でデプロイされています。</p><p>Subnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。</p><p>VM1、および、VM2からAPIに接続できることはテストで確認されています。</p><p></p><p>パートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。</p><p>あなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。</p><p>あなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。</p><p>API Management の仮想ネットワークの構成は次のとおりです。</p><p></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。 </p><p><br></p><p>パートナー会社はインターネット経由で API を利用することができます</p>",
+          "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。</p><p>このWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。</p><p>仮想マシンは、次の図に示されている構成でデプロイされています。</p><p>Subnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。</p><p>VM1、および、VM2からAPIに接続できることはテストで確認されています。</p><p><img src=\"assets/問題集2_files/2025-05-19_02-51-06-5073e4ae751096a579b848f048533f4c.png\" alt=\"\" loading=\"eager\"></p><p>パートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。</p><p>あなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。</p><p>あなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。</p><p>API Management の仮想ネットワークの構成は次のとおりです。</p><p><img src=\"assets/問題集2_files/2023-02-02_02-47-03-bd38db69f3b9b64185db378a97da06d4.png\" alt=\"\" loading=\"eager\"></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。 </p><p><br></p><p>パートナー会社はインターネット経由で API を利用することができます</p>",
           "promptText": "注：この問題は次とその次の問題と3問1セットです。\n\nあなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。\nこのWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。\n仮想マシンは、次の図に示されている構成でデプロイされています。\nSubnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。\nVM1、および、VM2からAPIに接続できることはテストで確認されています。\n\nパートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。\nあなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。\nあなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。\nAPI Management の仮想ネットワークの構成は次のとおりです。\n\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nパートナー会社はインターネット経由で API を利用することができます",
           "choices": [
             {
@@ -3597,7 +3780,10 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>Azure API Managementには、バックエンド（本問題の場合はVM）にあるAPIを安全に公開するための中継（ゲートウェイ）の役割があります。その他、セキュリティ、レート制限、キャッシュ、モニタリングなどの機能を提供します。</p><p><br></p><p>Azure API Managementは仮想ネットワークに接続することができ、外部か内部を選択できます。</p><p>外部モードではパブリックIPアドレスを割り当てて、インターネット経由でAPI Management（とバックエンドのAPI）に接続するように構成することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet\">https://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts\">https://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts</a></p>",
           "explanationText": "Azure API Managementには、バックエンド（本問題の場合はVM）にあるAPIを安全に公開するための中継（ゲートウェイ）の役割があります。その他、セキュリティ、レート制限、キャッシュ、モニタリングなどの機能を提供します。\n\nAzure API Managementは仮想ネットワークに接続することができ、外部か内部を選択できます。\n外部モードではパブリックIPアドレスを割り当てて、インターネット経由でAPI Management（とバックエンドのAPI）に接続するように構成することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet\nhttps://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2025-05-19_02-51-06-5073e4ae751096a579b848f048533f4c.png",
+            "assets/問題集2_files/2023-02-02_02-47-03-bd38db69f3b9b64185db378a97da06d4.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -3606,7 +3792,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp2-q-013",
           "sourceQuestionNumber": 13,
-          "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。</p><p>このWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。</p><p>仮想マシンは、次の図に示されている構成でデプロイされています。</p><p>Subnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。</p><p>VM1、および、VM2からAPIに接続できることはテストで確認されています。</p><p></p><p>パートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。</p><p>あなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。</p><p>あなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。</p><p>API Management の仮想ネットワークの構成は次のとおりです。</p><p></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。 </p><p><br></p><p>Azure API Managementインスタンスは、リアルタイムのデータにアクセスすることができます</p>",
+          "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。</p><p>このWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。</p><p>仮想マシンは、次の図に示されている構成でデプロイされています。</p><p>Subnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。</p><p>VM1、および、VM2からAPIに接続できることはテストで確認されています。</p><p><img src=\"assets/問題集2_files/2025-05-19_02-51-41-35f1d3c92de7a6188bee52914c5a2855.png\" alt=\"\" loading=\"eager\"></p><p>パートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。</p><p>あなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。</p><p>あなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。</p><p>API Management の仮想ネットワークの構成は次のとおりです。</p><p><img src=\"assets/問題集2_files/2023-02-02_02-47-03-bd38db69f3b9b64185db378a97da06d4.png\" alt=\"\" loading=\"eager\"></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。 </p><p><br></p><p>Azure API Managementインスタンスは、リアルタイムのデータにアクセスすることができます</p>",
           "promptText": "注：この問題は前と次の問題と3問1セットです。\n\nあなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。\nこのWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。\n仮想マシンは、次の図に示されている構成でデプロイされています。\nSubnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。\nVM1、および、VM2からAPIに接続できることはテストで確認されています。\n\nパートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。\nあなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。\nあなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。\nAPI Management の仮想ネットワークの構成は次のとおりです。\n\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nAzure API Managementインスタンスは、リアルタイムのデータにアクセスすることができます",
           "choices": [
             {
@@ -3627,7 +3813,10 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>Azure API Management（以下、APIM）はProdSubnetに接続されています。</p><p>VM1とは異なるサブネットに接続されているため、APIMからVM1のAPIへ接続できないと思われるかもしれませんが、NSGの既定のセキュリティ規則によりVnet内の通信は許可されています。</p><p>よって、APIMからVM1のリアルタイムデータにアクセスすることができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet\">https://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts\">https://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-network/network-security-groups-overview#default-security-rules\">https://learn.microsoft.com/ja-jp/azure/virtual-network/network-security-groups-overview#default-security-rules</a></p>",
           "explanationText": "Azure API Management（以下、APIM）はProdSubnetに接続されています。\nVM1とは異なるサブネットに接続されているため、APIMからVM1のAPIへ接続できないと思われるかもしれませんが、NSGの既定のセキュリティ規則によりVnet内の通信は許可されています。\nよって、APIMからVM1のリアルタイムデータにアクセスすることができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet\nhttps://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts\nhttps://learn.microsoft.com/ja-jp/azure/virtual-network/network-security-groups-overview#default-security-rules",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2025-05-19_02-51-41-35f1d3c92de7a6188bee52914c5a2855.png",
+            "assets/問題集2_files/2023-02-02_02-47-03-bd38db69f3b9b64185db378a97da06d4.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -3636,7 +3825,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp2-q-014",
           "sourceQuestionNumber": 14,
-          "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。</p><p>このWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。</p><p>仮想マシンは、次の図に示されている構成でデプロイされています。</p><p>Subnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。</p><p>VM1、および、VM2からAPIに接続できることはテストで確認されています。</p><p></p><p>パートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。</p><p>あなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。</p><p>あなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。</p><p>API Management の仮想ネットワークの構成は次のとおりです。</p><p></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。 </p><p><br></p><p>パートナー会社からのアクセスには、VPNゲートウェイが必要です</p>",
+          "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。</p><p>このWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。</p><p>仮想マシンは、次の図に示されている構成でデプロイされています。</p><p>Subnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。</p><p>VM1、および、VM2からAPIに接続できることはテストで確認されています。</p><p><img src=\"assets/問題集2_files/2025-05-19_02-52-07-c2022ec7f67993c83deb331aa06068da.png\" alt=\"\" loading=\"eager\"></p><p>パートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。</p><p>あなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。</p><p>あなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。</p><p>API Management の仮想ネットワークの構成は次のとおりです。</p><p><img src=\"assets/問題集2_files/2023-02-02_02-47-03-bd38db69f3b9b64185db378a97da06d4.png\" alt=\"\" loading=\"eager\"></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。 </p><p><br></p><p>パートナー会社からのアクセスには、VPNゲートウェイが必要です</p>",
           "promptText": "注：この問題は前とその前の問題と3問1セットです。\n\nあなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。\nこのWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。\n仮想マシンは、次の図に示されている構成でデプロイされています。\nSubnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。\nVM1、および、VM2からAPIに接続できることはテストで確認されています。\n\nパートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。\nあなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。\nあなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。\nAPI Management の仮想ネットワークの構成は次のとおりです。\n\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nパートナー会社からのアクセスには、VPNゲートウェイが必要です",
           "choices": [
             {
@@ -3657,7 +3846,10 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>外部モードで仮想ネットワークに接続されていればインターネット経由でアクセスできるため、VPNゲートウェイは不要です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet\">https://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts\">https://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts</a></p>",
           "explanationText": "外部モードで仮想ネットワークに接続されていればインターネット経由でアクセスできるため、VPNゲートウェイは不要です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet\nhttps://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2025-05-19_02-52-07-c2022ec7f67993c83deb331aa06068da.png",
+            "assets/問題集2_files/2023-02-02_02-47-03-bd38db69f3b9b64185db378a97da06d4.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -3697,13 +3889,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-015-c4"
           ],
-          "explanationHtml": "<p>リソースの作成・更新時にタグの追加、更新、削除するには「Modify」効果を使います。</p><p>リソースにフィールドを追加するために使用される「Append」と似ていますが、次の点が異なります。</p><p><br></p><p>・Modifyは修復タスクがサポートされている</p><p>・Modifyは operation プロパティで複数のタグを操作できる（タグの更新に便利）</p><p><br></p><p>タグを管理している場合は、Append ではなく Modify を使用することが推奨されています。</p><p>通常、Azure Policyで適用するルールは、タグ付与を例に挙げると新しいリソースにはタグを強制付与、既存リソースは非準拠である旨を表示といった動作をしますが、「修復タスク」を使うと既存リソースに対しても不足しているタグを付与することができます。</p><p><br></p><p>なお、本問題の要件を満たすには、組み込みポリシーの「リソース グループからタグを継承する」で実現できます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects\">https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal</a></p>",
+          "explanationHtml": "<p>リソースの作成・更新時にタグの追加、更新、削除するには「Modify」効果を使います。</p><p>リソースにフィールドを追加するために使用される「Append」と似ていますが、次の点が異なります。</p><p><br></p><p>・Modifyは修復タスクがサポートされている</p><p>・Modifyは operation プロパティで複数のタグを操作できる（タグの更新に便利）</p><p><br></p><p>タグを管理している場合は、Append ではなく Modify を使用することが推奨されています。</p><p>通常、Azure Policyで適用するルールは、タグ付与を例に挙げると新しいリソースにはタグを強制付与、既存リソースは非準拠である旨を表示といった動作をしますが、「修復タスク」を使うと既存リソースに対しても不足しているタグを付与することができます。</p><p><br></p><p>なお、本問題の要件を満たすには、組み込みポリシーの「リソース グループからタグを継承する」で実現できます。</p><img src=\"assets/問題集2_files/2023-01-24_03-29-18-d5f41fa854794e0603dc4922f7b360ce.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects\">https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal</a></p>",
           "explanationText": "リソースの作成・更新時にタグの追加、更新、削除するには「Modify」効果を使います。\nリソースにフィールドを追加するために使用される「Append」と似ていますが、次の点が異なります。\n\n・Modifyは修復タスクがサポートされている\n・Modifyは operation プロパティで複数のタグを操作できる（タグの更新に便利）\n\nタグを管理している場合は、Append ではなく Modify を使用することが推奨されています。\n通常、Azure Policyで適用するルールは、タグ付与を例に挙げると新しいリソースにはタグを強制付与、既存リソースは非準拠である旨を表示といった動作をしますが、「修復タスク」を使うと既存リソースに対しても不足しているタグを付与することができます。\n\nなお、本問題の要件を満たすには、組み込みポリシーの「リソース グループからタグを継承する」で実現できます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-24_03-29-18-d5f41fa854794e0603dc4922f7b360ce.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-002",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-016",
@@ -3739,13 +3935,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-016-c1"
           ],
-          "explanationHtml": "<p>Azure Policyの「修復タスク」を使うと既存リソースに対して不足しているタグを付与することができます。</p><p>ただ、これはAzure PolicyがAzureリソースに変更を加える動作なので、Azure Policyに対してタグを追加するためのアクセス許可を与える必要があります。</p><p><br></p><p>AzureリソースにIDを割り当てる仕組みとしてマネージドIDがあり、Azure PolicyはマネージドIDを使用することができます（システム割り当て、ユーザー割り当てどちらでも構いません）</p><p>選択肢3、4のサービスプリンシパルはアプリケーションにIDを割り当てるための仕組みなので誤りです。</p><p><br></p><p>選択肢2の <a href=\"https://learn.microsoft.com/ja-jp/azure/role-based-access-control/built-in-roles#user-access-administrator\">ユーザーアクセス管理者</a> は、Azureリソースにロールを割り当てる権限を持ちますが、タグを追加するための権限を持っていないため誤りです。</p><p>よって、選択肢1の「共同作成者ロールのマネージドID」が正解です。<a href=\"https://learn.microsoft.com/ja-jp/azure/role-based-access-control/built-in-roles#contributor\">共同作成者</a> はAzureリソースを管理するためのフルアクセスの権限があります。</p><p><br></p><p>なお、Azureポータルで修復タスクを作成する場合、マネージドIDに対するロールは自動的に割り当ててくれます。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects\">https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/develop/howto-create-service-principal-portal\">https://learn.microsoft.com/ja-jp/azure/active-directory/develop/howto-create-service-principal-portal</a></p>",
+          "explanationHtml": "<p>Azure Policyの「修復タスク」を使うと既存リソースに対して不足しているタグを付与することができます。</p><p>ただ、これはAzure PolicyがAzureリソースに変更を加える動作なので、Azure Policyに対してタグを追加するためのアクセス許可を与える必要があります。</p><p><br></p><p>AzureリソースにIDを割り当てる仕組みとしてマネージドIDがあり、Azure PolicyはマネージドIDを使用することができます（システム割り当て、ユーザー割り当てどちらでも構いません）</p><p>選択肢3、4のサービスプリンシパルはアプリケーションにIDを割り当てるための仕組みなので誤りです。</p><p><br></p><p>選択肢2の <a href=\"https://learn.microsoft.com/ja-jp/azure/role-based-access-control/built-in-roles#user-access-administrator\">ユーザーアクセス管理者</a> は、Azureリソースにロールを割り当てる権限を持ちますが、タグを追加するための権限を持っていないため誤りです。</p><p>よって、選択肢1の「共同作成者ロールのマネージドID」が正解です。<a href=\"https://learn.microsoft.com/ja-jp/azure/role-based-access-control/built-in-roles#contributor\">共同作成者</a> はAzureリソースを管理するためのフルアクセスの権限があります。</p><p><br></p><p>なお、Azureポータルで修復タスクを作成する場合、マネージドIDに対するロールは自動的に割り当ててくれます。</p><img src=\"assets/問題集2_files/2023-01-24_05-28-47-82515d7ea0f0cf14bef97a0bee13705f.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects\">https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/develop/howto-create-service-principal-portal\">https://learn.microsoft.com/ja-jp/azure/active-directory/develop/howto-create-service-principal-portal</a></p>",
           "explanationText": "Azure Policyの「修復タスク」を使うと既存リソースに対して不足しているタグを付与することができます。\nただ、これはAzure PolicyがAzureリソースに変更を加える動作なので、Azure Policyに対してタグを追加するためのアクセス許可を与える必要があります。\n\nAzureリソースにIDを割り当てる仕組みとしてマネージドIDがあり、Azure PolicyはマネージドIDを使用することができます（システム割り当て、ユーザー割り当てどちらでも構いません）\n選択肢3、4のサービスプリンシパルはアプリケーションにIDを割り当てるための仕組みなので誤りです。\n\n選択肢2の ユーザーアクセス管理者 は、Azureリソースにロールを割り当てる権限を持ちますが、タグを追加するための権限を持っていないため誤りです。\nよって、選択肢1の「共同作成者ロールのマネージドID」が正解です。共同作成者 はAzureリソースを管理するためのフルアクセスの権限があります。\n\nなお、Azureポータルで修復タスクを作成する場合、マネージドIDに対するロールは自動的に割り当ててくれます。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/develop/howto-create-service-principal-portal",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-24_05-28-47-82515d7ea0f0cf14bef97a0bee13705f.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-002",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-017",
@@ -3792,7 +3992,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp2-q-018",
           "sourceQuestionNumber": 18,
-          "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。</p><p>それぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。</p><p><br></p><p>あなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。</p><p>ソリューションは、コストを最小限に抑える必要があります。</p><p><strong>販売アプリケーション</strong>には何を提案すべきですか。</p><p><br></p><p>販売アプリケーション：</p><p>財務アプリケーション：</p><p>帳票アプリケーション：</p>",
+          "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。</p><p>それぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。</p><img src=\"assets/問題集2_files/2023-01-23_05-37-37-755fabad1042308814dc068cf43066f3.png\" alt=\"\" loading=\"eager\"><p><br></p><p>あなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。</p><p>ソリューションは、コストを最小限に抑える必要があります。</p><p><strong>販売アプリケーション</strong>には何を提案すべきですか。</p><p><br></p><p>販売アプリケーション：</p><p>財務アプリケーション：</p><p>帳票アプリケーション：</p>",
           "promptText": "注：この問題は次とその次の問題と3問1セットです。\n\nあなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。\nそれぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。\n\nあなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。\nソリューションは、コストを最小限に抑える必要があります。\n販売アプリケーションには何を提案すべきですか。\n\n販売アプリケーション：\n財務アプリケーション：\n帳票アプリケーション：",
           "choices": [
             {
@@ -3819,7 +4019,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>Azure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。 </p><p>障害が発生した場合、オンプレミスからAzureへ、または、Azureの東日本リージョンから西日本リージョンへ、といった具合にプライマリサイトから予備のセカンダリサイトへ切り替えることで業務を継続することができます。</p><p>※ちなみに、Hyper-V VM のサイト間レプリケーション（オンプレミス → オンプレミス）は2023 年 3 月 に <a href=\"https://learn.microsoft.com/ja-jp/azure/site-recovery/site-to-site-deprecation\">廃止予定</a> です。</p><p><br></p><p>Azure Site Recovery の RTO SLA は 2 時間です。</p><p>ほとんどの場合、Site Recovery によって数分以内に VM がフェールオーバーされます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-overview\">https://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-overview</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/support/legal/sla/site-recovery/v1_2/\">https://azure.microsoft.com/ja-jp/support/legal/sla/site-recovery/v1_2/</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/site-recovery/azure-to-azure-common-questions#what-is-the-rto-of-a-vm-failover\">https://learn.microsoft.com/ja-jp/azure/site-recovery/azure-to-azure-common-questions#what-is-the-rto-of-a-vm-failover</a></p>",
           "explanationText": "Azure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。\n障害が発生した場合、オンプレミスからAzureへ、または、Azureの東日本リージョンから西日本リージョンへ、といった具合にプライマリサイトから予備のセカンダリサイトへ切り替えることで業務を継続することができます。\n※ちなみに、Hyper-V VM のサイト間レプリケーション（オンプレミス → オンプレミス）は2023 年 3 月 に 廃止予定 です。\n\nAzure Site Recovery の RTO SLA は 2 時間です。\nほとんどの場合、Site Recovery によって数分以内に VM がフェールオーバーされます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-overview\nhttps://azure.microsoft.com/ja-jp/support/legal/sla/site-recovery/v1_2/\nhttps://learn.microsoft.com/ja-jp/azure/site-recovery/azure-to-azure-common-questions#what-is-the-rto-of-a-vm-failover",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-23_05-37-37-755fabad1042308814dc068cf43066f3.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -3828,7 +4030,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp2-q-019",
           "sourceQuestionNumber": 19,
-          "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。</p><p>それぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。</p><p><br></p><p>あなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。</p><p>ソリューションは、コストを最小限に抑える必要があります。</p><p><strong>財務アプリケーション</strong>には何を提案すべきですか。</p><p><br></p><p>販売アプリケーション：</p><p>財務アプリケーション：</p><p>帳票アプリケーション：</p><p><br></p>",
+          "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。</p><p>それぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。</p><img src=\"assets/問題集2_files/2023-01-23_06-18-58-fbd91f42bd8cdcb048fac1ed87064732.png\" alt=\"\" loading=\"eager\"><p><br></p><p>あなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。</p><p>ソリューションは、コストを最小限に抑える必要があります。</p><p><strong>財務アプリケーション</strong>には何を提案すべきですか。</p><p><br></p><p>販売アプリケーション：</p><p>財務アプリケーション：</p><p>帳票アプリケーション：</p><p><br></p>",
           "promptText": "注：この問題は前と次の問題と3問1セットです。\n\nあなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。\nそれぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。\n\nあなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。\nソリューションは、コストを最小限に抑える必要があります。\n財務アプリケーションには何を提案すべきですか。\n\n販売アプリケーション：\n財務アプリケーション：\n帳票アプリケーション：",
           "choices": [
             {
@@ -3855,7 +4057,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p><code>・データを7年間保存すること</code> </p><p>Azure Backupを使用すると、オンプレミスやAzure上の仮想マシンなどをバックアップ・リストアすることができます。バックアップの保管場所や容量制限を意識することなく、バックアップ対象を選択することで決められたスケジュールに従ってバックアップを取得することができます。</p><p><br></p><p>Azure仮想マシンの場合は最大99年、MARSエージェントをインストールしたオンプレミスのサーバの場合は最大100年データを保存することができます。</p><p><br></p><p><code>・災害発生時、アプリケーションはAzure上で実行できること</code></p><p>オンプレミスからAzureにフェールオーバーしてサービスを継続するにはAzure Site Recoveryを使用します。</p><p>Azure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。</p><p>障害が発生した場合、オンプレミスからAzureへ、または、Azureの東日本リージョンから西日本リージョンへ、といった具合にプライマリサイトから予備のセカンダリサイトへ切り替えることで業務を継続することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/backup-overview\">https://learn.microsoft.com/ja-jp/azure/backup/backup-overview</a></p><p><a href=\"https://jpabrs-scem.github.io/blog/AzureBackupGeneral/Backup_RetentionPeriod/\">https://jpabrs-scem.github.io/blog/AzureBackupGeneral/Backup_RetentionPeriod/</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-overview\">https://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-overview</a></p>",
           "explanationText": "・データを7年間保存すること\nAzure Backupを使用すると、オンプレミスやAzure上の仮想マシンなどをバックアップ・リストアすることができます。バックアップの保管場所や容量制限を意識することなく、バックアップ対象を選択することで決められたスケジュールに従ってバックアップを取得することができます。\n\nAzure仮想マシンの場合は最大99年、MARSエージェントをインストールしたオンプレミスのサーバの場合は最大100年データを保存することができます。\n\n・災害発生時、アプリケーションはAzure上で実行できること\nオンプレミスからAzureにフェールオーバーしてサービスを継続するにはAzure Site Recoveryを使用します。\nAzure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。\n障害が発生した場合、オンプレミスからAzureへ、または、Azureの東日本リージョンから西日本リージョンへ、といった具合にプライマリサイトから予備のセカンダリサイトへ切り替えることで業務を継続することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/backup/backup-overview\nhttps://jpabrs-scem.github.io/blog/AzureBackupGeneral/Backup_RetentionPeriod/\nhttps://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-overview",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-23_06-18-58-fbd91f42bd8cdcb048fac1ed87064732.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -3864,7 +4068,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp2-q-020",
           "sourceQuestionNumber": 20,
-          "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。</p><p>それぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。</p><p><br></p><p>あなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。</p><p>ソリューションは、コストを最小限に抑える必要があります。</p><p><strong>帳票アプリケーション</strong>には何を提案すべきですか。</p><p><br></p><p>販売アプリケーション：</p><p>財務アプリケーション：</p><p>帳票アプリケーション：</p>",
+          "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。</p><p>それぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。</p><img src=\"assets/問題集2_files/2023-01-23_06-39-29-7367e21d04cfb65c497506ced002c171.png\" alt=\"\" loading=\"eager\"><p><br></p><p>あなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。</p><p>ソリューションは、コストを最小限に抑える必要があります。</p><p><strong>帳票アプリケーション</strong>には何を提案すべきですか。</p><p><br></p><p>販売アプリケーション：</p><p>財務アプリケーション：</p><p>帳票アプリケーション：</p>",
           "promptText": "注：この問題は前とその前の問題と3問1セットです。\n\nあなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。\nそれぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。\n\nあなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。\nソリューションは、コストを最小限に抑える必要があります。\n帳票アプリケーションには何を提案すべきですか。\n\n販売アプリケーション：\n財務アプリケーション：\n帳票アプリケーション：",
           "choices": [
             {
@@ -3889,9 +4093,12 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-020-c1"
           ],
-          "explanationHtml": "<p>Azure Backupを使用すると、オンプレミスやAzure上の仮想マシンなどをバックアップ・リストアすることができます。バックアップの保管場所や容量制限を意識することなく、バックアップ対象を選択することで決められたスケジュールに従ってバックアップを取得することができます。</p><p><br></p><p>バックアップのスケジュールは、Azure仮想マシンの場合はAzureポータルの「バックアップポリシー」で、オンプレミスのサーバ（MARS/MABSエージェント）の場合はツール画面から設定できます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/backup-support-matrix\">https://learn.microsoft.com/ja-jp/azure/backup/backup-support-matrix</a></p>",
+          "explanationHtml": "<p>Azure Backupを使用すると、オンプレミスやAzure上の仮想マシンなどをバックアップ・リストアすることができます。バックアップの保管場所や容量制限を意識することなく、バックアップ対象を選択することで決められたスケジュールに従ってバックアップを取得することができます。</p><p><br></p><p>バックアップのスケジュールは、Azure仮想マシンの場合はAzureポータルの「バックアップポリシー」で、オンプレミスのサーバ（MARS/MABSエージェント）の場合はツール画面から設定できます。</p><img src=\"assets/問題集2_files/2023-01-23_06-39-30-6d0f725fa17de1b6cd844ed3a85bec63.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/backup-support-matrix\">https://learn.microsoft.com/ja-jp/azure/backup/backup-support-matrix</a></p>",
           "explanationText": "Azure Backupを使用すると、オンプレミスやAzure上の仮想マシンなどをバックアップ・リストアすることができます。バックアップの保管場所や容量制限を意識することなく、バックアップ対象を選択することで決められたスケジュールに従ってバックアップを取得することができます。\n\nバックアップのスケジュールは、Azure仮想マシンの場合はAzureポータルの「バックアップポリシー」で、オンプレミスのサーバ（MARS/MABSエージェント）の場合はツール画面から設定できます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/backup/backup-support-matrix",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-23_06-39-29-7367e21d04cfb65c497506ced002c171.png",
+            "assets/問題集2_files/2023-01-23_06-39-30-6d0f725fa17de1b6cd844ed3a85bec63.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -3902,7 +4109,7 @@ window.QUIZ_DATA = {
     "jp2-set-003": {
       "setId": "jp2-set-003",
       "title": "問題集2 21-30",
-      "sourceHtml": "udemy/問題集2.html",
+      "sourceHtml": "assets/問題集2.html",
       "questionIds": [
         "jp2-q-021",
         "jp2-q-022",
@@ -3950,9 +4157,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-021-c3"
           ],
-          "explanationHtml": "<p>Azure Blueprintsは、Azure Policyやロール（RBAC）などの割り当て定義をテンプレート化して、複数のサブスクリプションに適用および監査・追跡するための仕組みです。</p><p><br></p><p>Azure Blueprints では、ブループリント定義（何をデプロイする<em>必要がある</em>か）とブループリント割り当て（何がデプロイ<em>された</em>か）の間の関係が維持されます。</p><p>複数の環境への同じリソースセットの展開を効率化する点はARMテンプレートと似ていますが、Azure Blueprintsでは関係性の維持によってデプロイの追跡がしやすく監査の観点でもメリットがあると言えます。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview</a></p>",
+          "explanationHtml": "<p>Azure Blueprintsは、Azure Policyやロール（RBAC）などの割り当て定義をテンプレート化して、複数のサブスクリプションに適用および監査・追跡するための仕組みです。</p><p><br></p><p>Azure Blueprints では、ブループリント定義（何をデプロイする<em>必要がある</em>か）とブループリント割り当て（何がデプロイ<em>された</em>か）の間の関係が維持されます。</p><p>複数の環境への同じリソースセットの展開を効率化する点はARMテンプレートと似ていますが、Azure Blueprintsでは関係性の維持によってデプロイの追跡がしやすく監査の観点でもメリットがあると言えます。</p><img src=\"assets/問題集2_files/2023-01-26_01-24-42-4ed33160aa97088efd9575cf5b69c0b3.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview</a></p>",
           "explanationText": "Azure Blueprintsは、Azure Policyやロール（RBAC）などの割り当て定義をテンプレート化して、複数のサブスクリプションに適用および監査・追跡するための仕組みです。\n\nAzure Blueprints では、ブループリント定義（何をデプロイする必要があるか）とブループリント割り当て（何がデプロイされたか）の間の関係が維持されます。\n複数の環境への同じリソースセットの展開を効率化する点はARMテンプレートと似ていますが、Azure Blueprintsでは関係性の維持によってデプロイの追跡がしやすく監査の観点でもメリットがあると言えます。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-26_01-24-42-4ed33160aa97088efd9575cf5b69c0b3.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -4028,13 +4237,18 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-023-c1"
           ],
-          "explanationHtml": "<p>まず、前提知識を少し解説します。</p><p><code>あなたは、Microsoft Entra認証を使用するApp1という名前のAzure Webアプリをデプロイする予定です。</code></p><p>Azure App ServiceのMicrosoft Entra認証（組み込み認証）を使うと、アプリのコードにログインの仕組みを実装することなく、Microsoft Entra IDと連携して認証できるようになります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/configure-authentication-provider-aad\">https://learn.microsoft.com/ja-jp/azure/app-service/configure-authentication-provider-aad</a></p><p><br></p><p>Microsoft Entra認証を構成するには、App Serviceの認証メニューで「ID プロバイダーの追加」の追加をクリックします。IDプロバイダーには「Microsoft」を選択します。</p><p></p><p>この操作により、自動的にMicrosoft Entra アプリとして登録され、Microsoft Entra認証が使用できるようになります。</p><p></p><p><br></p><p><code>・ユーザーは認証を要求されることなくApp1に接続できること </code></p><p>前述のとおりMicrosoft Entra認証を構成している場合、同じテナントのMicrosoft Entraに参加しているパソコンからであれば、認証を求められることなくAzure App Serviceに接続することができます。</p><p><br></p><p>Microsoft Entra認証の構成手順は簡素化されていますが、使用するには「Microsoft Entraへのアプリの登録」が必要なので選択肢1が正解です。</p>",
+          "explanationHtml": "<p>まず、前提知識を少し解説します。</p><p><code>あなたは、Microsoft Entra認証を使用するApp1という名前のAzure Webアプリをデプロイする予定です。</code></p><p>Azure App ServiceのMicrosoft Entra認証（組み込み認証）を使うと、アプリのコードにログインの仕組みを実装することなく、Microsoft Entra IDと連携して認証できるようになります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/configure-authentication-provider-aad\">https://learn.microsoft.com/ja-jp/azure/app-service/configure-authentication-provider-aad</a></p><p><br></p><p>Microsoft Entra認証を構成するには、App Serviceの認証メニューで「ID プロバイダーの追加」の追加をクリックします。IDプロバイダーには「Microsoft」を選択します。</p><p><img src=\"assets/問題集2_files/2023-01-17_06-02-45-9c3279f7441eb07aeb5d4c22d2e96952.png\" alt=\"\" loading=\"eager\"></p><p>この操作により、自動的にMicrosoft Entra アプリとして登録され、Microsoft Entra認証が使用できるようになります。</p><p><img src=\"assets/問題集2_files/2023-01-17_06-02-46-0c2eda70006719608b2427bd6f5dffba.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p><code>・ユーザーは認証を要求されることなくApp1に接続できること </code></p><p>前述のとおりMicrosoft Entra認証を構成している場合、同じテナントのMicrosoft Entraに参加しているパソコンからであれば、認証を求められることなくAzure App Serviceに接続することができます。</p><p><br></p><p>Microsoft Entra認証の構成手順は簡素化されていますが、使用するには「Microsoft Entraへのアプリの登録」が必要なので選択肢1が正解です。</p>",
           "explanationText": "まず、前提知識を少し解説します。\nあなたは、Microsoft Entra認証を使用するApp1という名前のAzure Webアプリをデプロイする予定です。\nAzure App ServiceのMicrosoft Entra認証（組み込み認証）を使うと、アプリのコードにログインの仕組みを実装することなく、Microsoft Entra IDと連携して認証できるようになります。\nhttps://learn.microsoft.com/ja-jp/azure/app-service/configure-authentication-provider-aad\n\nMicrosoft Entra認証を構成するには、App Serviceの認証メニューで「ID プロバイダーの追加」の追加をクリックします。IDプロバイダーには「Microsoft」を選択します。\n\nこの操作により、自動的にMicrosoft Entra アプリとして登録され、Microsoft Entra認証が使用できるようになります。\n\n・ユーザーは認証を要求されることなくApp1に接続できること\n前述のとおりMicrosoft Entra認証を構成している場合、同じテナントのMicrosoft Entraに参加しているパソコンからであれば、認証を求められることなくAzure App Serviceに接続することができます。\n\nMicrosoft Entra認証の構成手順は簡素化されていますが、使用するには「Microsoft Entraへのアプリの登録」が必要なので選択肢1が正解です。",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-17_06-02-45-9c3279f7441eb07aeb5d4c22d2e96952.png",
+            "assets/問題集2_files/2023-01-17_06-02-46-0c2eda70006719608b2427bd6f5dffba.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-003",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-024",
@@ -4076,13 +4290,18 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-024-c1"
           ],
-          "explanationHtml": "<p><code>・会社が所有するパソコンからのみApp1にアクセスできること</code> </p><p>ユーザーやデバイスの状態など様々なシグナルに基づいてリソースにアクセスできるかどうかを制御するには「条件付きアクセス」を使用します。</p><p><br></p><p>一般的には、パソコンなどのデバイス管理は「Microsoft Intune」というサービスで管理されます。</p><p>企業のパソコンがIntuneに登録され「会社所有」としてマークされている場合、条件付きアクセスではデバイスフィルターを使ってアクセス許可/拒否する条件を絞り込むことができます。</p><p></p><p>他にも、デバイスがIntuneで定められたルールに準拠していることや、Microsoft Entra ハイブリッド参加が構成済みであることなどを条件にすることもできます。</p><p>条件を満たさない場合、例えば次のようなメッセージが表示されます。</p><p><a href=\"https://jpazureid.github.io/blog/azure-active-directory/conditional-cannot-access-rightnow\">https://jpazureid.github.io/blog/azure-active-directory/conditional-cannot-access-rightnow</a></p><p></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/mem/intune/enrollment/device-enrollment\">https://learn.microsoft.com/ja-jp/mem/intune/enrollment/device-enrollment</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-condition-filters-for-devices\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-condition-filters-for-devices</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant</a></p>",
+          "explanationHtml": "<p><code>・会社が所有するパソコンからのみApp1にアクセスできること</code> </p><p>ユーザーやデバイスの状態など様々なシグナルに基づいてリソースにアクセスできるかどうかを制御するには「条件付きアクセス」を使用します。</p><p><br></p><p>一般的には、パソコンなどのデバイス管理は「Microsoft Intune」というサービスで管理されます。</p><p>企業のパソコンがIntuneに登録され「会社所有」としてマークされている場合、条件付きアクセスではデバイスフィルターを使ってアクセス許可/拒否する条件を絞り込むことができます。</p><p><img src=\"assets/問題集2_files/2023-01-18_01-32-11-24299fdb8f44fbdc59eebd3f05d4fbe1.png\" alt=\"\" loading=\"eager\"></p><p>他にも、デバイスがIntuneで定められたルールに準拠していることや、Microsoft Entra ハイブリッド参加が構成済みであることなどを条件にすることもできます。</p><p>条件を満たさない場合、例えば次のようなメッセージが表示されます。</p><p><a href=\"https://jpazureid.github.io/blog/azure-active-directory/conditional-cannot-access-rightnow\">https://jpazureid.github.io/blog/azure-active-directory/conditional-cannot-access-rightnow</a></p><p><img src=\"assets/問題集2_files/2023-01-18_01-32-11-4ff244c7691c10286c4f87d46cb296e0.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/mem/intune/enrollment/device-enrollment\">https://learn.microsoft.com/ja-jp/mem/intune/enrollment/device-enrollment</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-condition-filters-for-devices\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-condition-filters-for-devices</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant</a></p>",
           "explanationText": "・会社が所有するパソコンからのみApp1にアクセスできること\nユーザーやデバイスの状態など様々なシグナルに基づいてリソースにアクセスできるかどうかを制御するには「条件付きアクセス」を使用します。\n\n一般的には、パソコンなどのデバイス管理は「Microsoft Intune」というサービスで管理されます。\n企業のパソコンがIntuneに登録され「会社所有」としてマークされている場合、条件付きアクセスではデバイスフィルターを使ってアクセス許可/拒否する条件を絞り込むことができます。\n\n他にも、デバイスがIntuneで定められたルールに準拠していることや、Microsoft Entra ハイブリッド参加が構成済みであることなどを条件にすることもできます。\n条件を満たさない場合、例えば次のようなメッセージが表示されます。\nhttps://jpazureid.github.io/blog/azure-active-directory/conditional-cannot-access-rightnow\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/mem/intune/enrollment/device-enrollment\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-condition-filters-for-devices\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-18_01-32-11-24299fdb8f44fbdc59eebd3f05d4fbe1.png",
+            "assets/問題集2_files/2023-01-18_01-32-11-4ff244c7691c10286c4f87d46cb296e0.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-003",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-025",
@@ -4153,8 +4372,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-004",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-027",
@@ -4183,8 +4404,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-004",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-028",
@@ -4262,13 +4485,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-029-c1"
           ],
-          "explanationHtml": "<p><code>・スケールアップとスケールダウンをサポートすること</code></p><p><code>・地理的に冗長なバックアップをサポートすること</code></p><p>この要件からAzure SQL Databaseか、Azure SQL Managed Instanceが候補になりますが、<code>・最大 100 TB のデータベースをサポートすること</code> の要件を満たせるのは Azure SQL Database の Hyperscale のみです。</p><p>Hyperscaleでは、データベースを構成するときに最大データ サイズを指定する必要はなく、10 GB から 100 TB までの間 (必要に応じて 10 GB 単位で増分) で自動的に割り当てられます。</p><p><br></p><p>Azure SQL Databaseのデプロイオプションと最大ストレージサイズなどをまとめると次のとおりです。</p><p>将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。</p><p><br></p><p><code>・オンライントランザクション処理（OLTP）に最適化されていること</code></p><p>選択肢3のAzure Synapse Analytics は、データ統合、データ ウェアハウス、ビッグデータ分析が一つになった制限のない分析サービスです。</p><p>読み取りと書き込みの頻度が高い場合などOLTPワークロードでは、Azure Synapse Analytics は適していません。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/synapse-analytics/migration-guides/migrate-to-synapse-analytics-guide\">https://learn.microsoft.com/ja-jp/azure/synapse-analytics/migration-guides/migrate-to-synapse-analytics-guide</a></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/service-tier-hyperscale?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/service-tier-hyperscale?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-vcore-single-databases?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-vcore-single-databases?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/resource-limits?view=azuresql#hardware-configuration-characteristics\">https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/resource-limits?view=azuresql#hardware-configuration-characteristics</a></p>",
+          "explanationHtml": "<p><code>・スケールアップとスケールダウンをサポートすること</code></p><p><code>・地理的に冗長なバックアップをサポートすること</code></p><p>この要件からAzure SQL Databaseか、Azure SQL Managed Instanceが候補になりますが、<code>・最大 100 TB のデータベースをサポートすること</code> の要件を満たせるのは Azure SQL Database の Hyperscale のみです。</p><p>Hyperscaleでは、データベースを構成するときに最大データ サイズを指定する必要はなく、10 GB から 100 TB までの間 (必要に応じて 10 GB 単位で増分) で自動的に割り当てられます。</p><p><br></p><p>Azure SQL Databaseのデプロイオプションと最大ストレージサイズなどをまとめると次のとおりです。</p><p>将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。</p><img src=\"assets/問題集2_files/2023-02-06_08-09-36-88dd1e23692ccb19ec8b1155335f1538.png\" alt=\"\" loading=\"eager\"><p><br></p><p><code>・オンライントランザクション処理（OLTP）に最適化されていること</code></p><p>選択肢3のAzure Synapse Analytics は、データ統合、データ ウェアハウス、ビッグデータ分析が一つになった制限のない分析サービスです。</p><p>読み取りと書き込みの頻度が高い場合などOLTPワークロードでは、Azure Synapse Analytics は適していません。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/synapse-analytics/migration-guides/migrate-to-synapse-analytics-guide\">https://learn.microsoft.com/ja-jp/azure/synapse-analytics/migration-guides/migrate-to-synapse-analytics-guide</a></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/service-tier-hyperscale?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/service-tier-hyperscale?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-vcore-single-databases?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-vcore-single-databases?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/resource-limits?view=azuresql#hardware-configuration-characteristics\">https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/resource-limits?view=azuresql#hardware-configuration-characteristics</a></p>",
           "explanationText": "・スケールアップとスケールダウンをサポートすること\n・地理的に冗長なバックアップをサポートすること\nこの要件からAzure SQL Databaseか、Azure SQL Managed Instanceが候補になりますが、・最大 100 TB のデータベースをサポートすること の要件を満たせるのは Azure SQL Database の Hyperscale のみです。\nHyperscaleでは、データベースを構成するときに最大データ サイズを指定する必要はなく、10 GB から 100 TB までの間 (必要に応じて 10 GB 単位で増分) で自動的に割り当てられます。\n\nAzure SQL Databaseのデプロイオプションと最大ストレージサイズなどをまとめると次のとおりです。\n将来更新される可能性があるため、最新の情報は必ず公式ドキュメントを参照してください。\n\n・オンライントランザクション処理（OLTP）に最適化されていること\n選択肢3のAzure Synapse Analytics は、データ統合、データ ウェアハウス、ビッグデータ分析が一つになった制限のない分析サービスです。\n読み取りと書き込みの頻度が高い場合などOLTPワークロードでは、Azure Synapse Analytics は適していません。\nhttps://learn.microsoft.com/ja-jp/azure/synapse-analytics/migration-guides/migrate-to-synapse-analytics-guide\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/service-tier-hyperscale?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-vcore-single-databases?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/resource-limits?view=azuresql#hardware-configuration-characteristics",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-02-06_08-09-36-88dd1e23692ccb19ec8b1155335f1538.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-005",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-030",
@@ -4316,20 +4543,24 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-030-c4"
           ],
-          "explanationHtml": "<p><code>・最大 100 TB のデータベースをサポートすること</code></p><p>前の問題の解説の通り、この要件を満たせるのは Azure SQL Database の Hyperscale のみです。</p><p><br></p><p><code>・地理的に冗長なバックアップをサポートすること</code></p><p>Hyperscaleを含むどのサービスレベルでもgeo冗長のバックアップストレージがサポートされています。</p><p>（なお、前の問題の解説に添付している表中の「ゾーン冗長構成」はバックアップではなくデータベース構成の話なのでご注意ください）</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/hyperscale-automated-backups-overview?view=azuresql#data-and-backup-storage-redundancy\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/hyperscale-automated-backups-overview?view=azuresql#data-and-backup-storage-redundancy</a></p>",
+          "explanationHtml": "<p><code>・最大 100 TB のデータベースをサポートすること</code></p><p>前の問題の解説の通り、この要件を満たせるのは Azure SQL Database の Hyperscale のみです。</p><p><br></p><p><code>・地理的に冗長なバックアップをサポートすること</code></p><p>Hyperscaleを含むどのサービスレベルでもgeo冗長のバックアップストレージがサポートされています。</p><p>（なお、前の問題の解説に添付している表中の「ゾーン冗長構成」はバックアップではなくデータベース構成の話なのでご注意ください）</p><img src=\"assets/問題集2_files/2023-01-19_06-05-28-e20430dda77e6f76f44d65368ae106b2.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/hyperscale-automated-backups-overview?view=azuresql#data-and-backup-storage-redundancy\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/hyperscale-automated-backups-overview?view=azuresql#data-and-backup-storage-redundancy</a></p>",
           "explanationText": "・最大 100 TB のデータベースをサポートすること\n前の問題の解説の通り、この要件を満たせるのは Azure SQL Database の Hyperscale のみです。\n\n・地理的に冗長なバックアップをサポートすること\nHyperscaleを含むどのサービスレベルでもgeo冗長のバックアップストレージがサポートされています。\n（なお、前の問題の解説に添付している表中の「ゾーン冗長構成」はバックアップではなくデータベース構成の話なのでご注意ください）\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/hyperscale-automated-backups-overview?view=azuresql#data-and-backup-storage-redundancy",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-19_06-05-28-e20430dda77e6f76f44d65368ae106b2.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-005",
+          "tags": [
+            "linked-question"
+          ]
         }
       ]
     },
     "jp2-set-004": {
       "setId": "jp2-set-004",
       "title": "問題集2 31-40",
-      "sourceHtml": "udemy/問題集2.html",
+      "sourceHtml": "assets/問題集2.html",
       "questionIds": [
         "jp2-q-031",
         "jp2-q-032",
@@ -4377,13 +4608,20 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-031-c1"
           ],
-          "explanationHtml": "<p>Azure App ServiceからKey Vaultに保存されているシークレットを参照するには「Key Vault参照」を使います。</p><p>Key Vault参照を使用すると、アプリのコードを変更せず、シークレットを読み取ることができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/app-service-key-vault-references?tabs=azure-cli\">https://learn.microsoft.com/ja-jp/azure/app-service/app-service-key-vault-references?tabs=azure-cli</a></p><p><br></p><p>次のような構成手順になります。詳細は上記のドキュメントを参照してください。</p><p><br></p><p>1.Key Vaultを作成してシークレットを登録する</p><p>2.App ServiceのマネージドIDを有効化する（本問題の要件は\"システム割り当て\"ですが、ユーザー割り当てマネージドIDでもOKです）</p><p><br></p><p>3.Key Vaultのアクセスポリシーで、有効化したマネージドIDに対して「シークレットの取得（Get）」権限を付与する</p><p><br></p><p>4.App Serviceのアプリケーション設定を追加する</p><p>名前はアプリケーションの環境変数名です。シークレットの名前に合わせる必要はありません。</p><p>値の書き方は固有の参照構文で、<code>@Microsoft.KeyVault({referenceString})</code>の形です。詳細はドキュメントを参照。</p><p><br></p><p>アプリケーション設定は、環境変数としてアプリケーション コードに渡される変数です。</p><p>上記設定により、<code>DB_PASSWORD</code>の環境変数でシークレットの値が参照できます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/configure-common?tabs=portal\">https://learn.microsoft.com/ja-jp/azure/app-service/configure-common?tabs=portal</a></p>",
+          "explanationHtml": "<p>Azure App ServiceからKey Vaultに保存されているシークレットを参照するには「Key Vault参照」を使います。</p><p>Key Vault参照を使用すると、アプリのコードを変更せず、シークレットを読み取ることができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/app-service-key-vault-references?tabs=azure-cli\">https://learn.microsoft.com/ja-jp/azure/app-service/app-service-key-vault-references?tabs=azure-cli</a></p><p><br></p><p>次のような構成手順になります。詳細は上記のドキュメントを参照してください。</p><p><br></p><p>1.Key Vaultを作成してシークレットを登録する</p><img src=\"assets/問題集2_files/2023-01-17_03-09-20-f1aed0f0610c0d8ac6e7c724030deb32.png\" alt=\"\" loading=\"eager\"><p>2.App ServiceのマネージドIDを有効化する（本問題の要件は\"システム割り当て\"ですが、ユーザー割り当てマネージドIDでもOKです）</p><img src=\"assets/問題集2_files/2023-01-17_03-09-21-6a44479d99a34ebb58cfa441cdf50f59.png\" alt=\"\" loading=\"eager\"><p><br></p><p>3.Key Vaultのアクセスポリシーで、有効化したマネージドIDに対して「シークレットの取得（Get）」権限を付与する</p><img src=\"assets/問題集2_files/2023-01-17_03-09-21-13ffb941b72e4da9b08cd5eda729e560.png\" alt=\"\" loading=\"eager\"><p><br></p><p>4.App Serviceのアプリケーション設定を追加する</p><p>名前はアプリケーションの環境変数名です。シークレットの名前に合わせる必要はありません。</p><p>値の書き方は固有の参照構文で、<code>@Microsoft.KeyVault({referenceString})</code>の形です。詳細はドキュメントを参照。</p><img src=\"assets/問題集2_files/2023-01-17_03-09-21-da4372d070ddea4b18ebe4beba469877.png\" alt=\"\" loading=\"eager\"><p><br></p><p>アプリケーション設定は、環境変数としてアプリケーション コードに渡される変数です。</p><p>上記設定により、<code>DB_PASSWORD</code>の環境変数でシークレットの値が参照できます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/configure-common?tabs=portal\">https://learn.microsoft.com/ja-jp/azure/app-service/configure-common?tabs=portal</a></p>",
           "explanationText": "Azure App ServiceからKey Vaultに保存されているシークレットを参照するには「Key Vault参照」を使います。\nKey Vault参照を使用すると、アプリのコードを変更せず、シークレットを読み取ることができます。\nhttps://learn.microsoft.com/ja-jp/azure/app-service/app-service-key-vault-references?tabs=azure-cli\n\n次のような構成手順になります。詳細は上記のドキュメントを参照してください。\n\n1.Key Vaultを作成してシークレットを登録する\n2.App ServiceのマネージドIDを有効化する（本問題の要件は\"システム割り当て\"ですが、ユーザー割り当てマネージドIDでもOKです）\n\n3.Key Vaultのアクセスポリシーで、有効化したマネージドIDに対して「シークレットの取得（Get）」権限を付与する\n\n4.App Serviceのアプリケーション設定を追加する\n名前はアプリケーションの環境変数名です。シークレットの名前に合わせる必要はありません。\n値の書き方は固有の参照構文で、@Microsoft.KeyVault({referenceString})の形です。詳細はドキュメントを参照。\n\nアプリケーション設定は、環境変数としてアプリケーション コードに渡される変数です。\n上記設定により、DB_PASSWORDの環境変数でシークレットの値が参照できます。\nhttps://learn.microsoft.com/ja-jp/azure/app-service/configure-common?tabs=portal",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-17_03-09-20-f1aed0f0610c0d8ac6e7c724030deb32.png",
+            "assets/問題集2_files/2023-01-17_03-09-21-6a44479d99a34ebb58cfa441cdf50f59.png",
+            "assets/問題集2_files/2023-01-17_03-09-21-13ffb941b72e4da9b08cd5eda729e560.png",
+            "assets/問題集2_files/2023-01-17_03-09-21-da4372d070ddea4b18ebe4beba469877.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-005",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-032",
@@ -4424,8 +4662,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-005",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-033",
@@ -4472,7 +4712,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp2-q-034",
           "sourceQuestionNumber": 34,
-          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたのサブスクリプションには、次の表に示されているストレージアカウントがあります。</p><p></p><p>あなたは、次の表に示す要件を持つ2つの新しいアプリを実装する予定です。</p><p><br></p><p><strong>App1</strong>にはどのストレージアカウントを提案すべきですか。</p><p><br></p><p>App1：</p><p>App2：</p>",
+          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたのサブスクリプションには、次の表に示されているストレージアカウントがあります。</p><p><img src=\"assets/問題集2_files/2023-02-05_08-49-53-ea620a53eefae1a5bc8e56390398a7b1.png\" alt=\"\" loading=\"eager\"></p><p>あなたは、次の表に示す要件を持つ2つの新しいアプリを実装する予定です。</p><img src=\"assets/問題集2_files/2023-02-07_06-08-29-017bcb7ce845f7afdd2aed9ed5189bbb.png\" alt=\"\" loading=\"eager\"><p><br></p><p><strong>App1</strong>にはどのストレージアカウントを提案すべきですか。</p><p><br></p><p>App1：</p><p>App2：</p>",
           "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたのサブスクリプションには、次の表に示されているストレージアカウントがあります。\n\nあなたは、次の表に示す要件を持つ2つの新しいアプリを実装する予定です。\n\nApp1にはどのストレージアカウントを提案すべきですか。\n\nApp1：\nApp2：",
           "choices": [
             {
@@ -4503,18 +4743,24 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-034-c2"
           ],
-          "explanationHtml": "<p><code>・ライフサイクル管理を使用してアプリのデータを保存するストレージのアクセス層を移動できること</code></p><p>ライフサイクル管理を使用すると、最終更新日または作成日からの日数に従ってアクセス層を移動させたり、BLOBを削除することができます。</p><p>例えば、30日を経過するとたまにしかアクセスされないようなデータがあった場合、30日経過後にホット → クール層へ自動的に移動させるルールを作成することでコストを節約することができます。</p><p></p><p>ライフサイクル管理は、次のストレージアカウントでサポートされています。</p><p><br></p><p>・Standard 汎用 v2</p><p>・Premium ブロック BLOB</p><p>・Blob Storage（レガシー）</p><p><br></p><p>ただし、<strong>Premium ブロック BLOBはアクセス層をサポートしていないため、</strong>ライフサイクル管理で作成できるルールは「BLOBの削除」のみです（アクセス層を移動させることはできません）</p><p>よって、選択肢2の「Storage1 と Storage3 のみ」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/lifecycle-management-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/lifecycle-management-overview</a></p>",
+          "explanationHtml": "<p><code>・ライフサイクル管理を使用してアプリのデータを保存するストレージのアクセス層を移動できること</code></p><p>ライフサイクル管理を使用すると、最終更新日または作成日からの日数に従ってアクセス層を移動させたり、BLOBを削除することができます。</p><p>例えば、30日を経過するとたまにしかアクセスされないようなデータがあった場合、30日経過後にホット → クール層へ自動的に移動させるルールを作成することでコストを節約することができます。</p><p><img src=\"assets/問題集2_files/2023-01-11_06-23-57-6542fde1e07da366400e3dca053b7595.png\" alt=\"\" loading=\"eager\"></p><p>ライフサイクル管理は、次のストレージアカウントでサポートされています。</p><p><br></p><p>・Standard 汎用 v2</p><p>・Premium ブロック BLOB</p><p>・Blob Storage（レガシー）</p><p><br></p><p>ただし、<strong>Premium ブロック BLOBはアクセス層をサポートしていないため、</strong>ライフサイクル管理で作成できるルールは「BLOBの削除」のみです（アクセス層を移動させることはできません）</p><p>よって、選択肢2の「Storage1 と Storage3 のみ」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/lifecycle-management-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/lifecycle-management-overview</a></p>",
           "explanationText": "・ライフサイクル管理を使用してアプリのデータを保存するストレージのアクセス層を移動できること\nライフサイクル管理を使用すると、最終更新日または作成日からの日数に従ってアクセス層を移動させたり、BLOBを削除することができます。\n例えば、30日を経過するとたまにしかアクセスされないようなデータがあった場合、30日経過後にホット → クール層へ自動的に移動させるルールを作成することでコストを節約することができます。\n\nライフサイクル管理は、次のストレージアカウントでサポートされています。\n\n・Standard 汎用 v2\n・Premium ブロック BLOB\n・Blob Storage（レガシー）\n\nただし、Premium ブロック BLOBはアクセス層をサポートしていないため、ライフサイクル管理で作成できるルールは「BLOBの削除」のみです（アクセス層を移動させることはできません）\nよって、選択肢2の「Storage1 と Storage3 のみ」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/lifecycle-management-overview",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-02-05_08-49-53-ea620a53eefae1a5bc8e56390398a7b1.png",
+            "assets/問題集2_files/2023-02-07_06-08-29-017bcb7ce845f7afdd2aed9ed5189bbb.png",
+            "assets/問題集2_files/2023-01-11_06-23-57-6542fde1e07da366400e3dca053b7595.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-006",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-035",
           "sourceQuestionNumber": 35,
-          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたのサブスクリプションには、次の表に示されているストレージアカウントがあります。</p><p></p><p>あなたは、次の表に示す要件を持つ2つの新しいアプリを実装する予定です。</p><p><br></p><p><strong>App2</strong>にはどのストレージアカウントを提案すべきですか。</p><p><br></p><p>App1：</p><p>App2：</p>",
+          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたのサブスクリプションには、次の表に示されているストレージアカウントがあります。</p><p><img src=\"assets/問題集2_files/2023-02-05_08-50-16-719c86594589c111ac90ffce065fb740.png\" alt=\"\" loading=\"eager\"></p><p>あなたは、次の表に示す要件を持つ2つの新しいアプリを実装する予定です。</p><img src=\"assets/問題集2_files/2023-02-07_06-09-01-4dd785123a102ed614b1ef4b11a4181d.png\" alt=\"\" loading=\"eager\"><p><br></p><p><strong>App2</strong>にはどのストレージアカウントを提案すべきですか。</p><p><br></p><p>App1：</p><p>App2：</p>",
           "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたのサブスクリプションには、次の表に示されているストレージアカウントがあります。\n\nあなたは、次の表に示す要件を持つ2つの新しいアプリを実装する予定です。\n\nApp2にはどのストレージアカウントを提案すべきですか。\n\nApp1：\nApp2：",
           "choices": [
             {
@@ -4545,18 +4791,24 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-035-c2"
           ],
-          "explanationHtml": "<p>Azureファイル共有はHDDベースのStandard（汎用 v2）または、SSDベースのPremiumのストレージアカウントを作成して使うことができます。よって、選択肢2の「Storage1 と Storage4 のみ」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal</a></p>",
+          "explanationHtml": "<p>Azureファイル共有はHDDベースのStandard（汎用 v2）または、SSDベースのPremiumのストレージアカウントを作成して使うことができます。よって、選択肢2の「Storage1 と Storage4 のみ」が正解です。</p><img src=\"assets/問題集2_files/2023-01-11_06-32-10-70e43867dc95faf79580aa07949c782f.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal</a></p>",
           "explanationText": "Azureファイル共有はHDDベースのStandard（汎用 v2）または、SSDベースのPremiumのストレージアカウントを作成して使うことができます。よって、選択肢2の「Storage1 と Storage4 のみ」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\nhttps://learn.microsoft.com/ja-jp/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-02-05_08-50-16-719c86594589c111ac90ffce065fb740.png",
+            "assets/問題集2_files/2023-02-07_06-09-01-4dd785123a102ed614b1ef4b11a4181d.png",
+            "assets/問題集2_files/2023-01-11_06-32-10-70e43867dc95faf79580aa07949c782f.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-006",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-036",
           "sourceQuestionNumber": 36,
-          "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。</p><p>このソリューションには、次のコンポーネントが含まれます。</p><p><br></p><p>SQL Server 2016を実行する2台の仮想マシン：</p><p>同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります</p><p><br></p><p>SQL Serverのバックアップ：</p><p>SQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます</p><p><br></p><p>コンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。</p><p><br></p><p><strong>オペレーションシステム</strong>にはどのストレージタイプを提案すべきですか。</p><p><br></p><p>オペレーションシステム：</p><p>データベースファイル（mdf、ldf）：</p><p>バックアップ：</p>",
+          "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。</p><p>このソリューションには、次のコンポーネントが含まれます。</p><p><br></p><p>SQL Server 2016を実行する2台の仮想マシン：</p><p>同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります</p><p><br></p><p>SQL Serverのバックアップ：</p><p>SQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます</p><p><br></p><p>コンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。</p><img src=\"assets/問題集2_files/2023-01-12_01-17-56-95eff2fede88bcecdaa32abe2e1c1637.png\" alt=\"\" loading=\"eager\"><p><br></p><p><strong>オペレーションシステム</strong>にはどのストレージタイプを提案すべきですか。</p><p><br></p><p>オペレーションシステム：</p><p>データベースファイル（mdf、ldf）：</p><p>バックアップ：</p>",
           "promptText": "注：この問題は次とその次の問題と3問1セットです。\n\nあなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。\nこのソリューションには、次のコンポーネントが含まれます。\n\nSQL Server 2016を実行する2台の仮想マシン：\n同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります\n\nSQL Serverのバックアップ：\nSQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます\n\nコンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。\n\nオペレーションシステムにはどのストレージタイプを提案すべきですか。\n\nオペレーションシステム：\nデータベースファイル（mdf、ldf）：\nバックアップ：",
           "choices": [
             {
@@ -4589,7 +4841,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>仮想マシンのローカルディスク向けのストレージにはマネージドディスクがデプロイされます。</p><p>StandardよりPremiumのほうが性能、可用性が高いため選択肢3が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/managed-disks-overview\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/managed-disks-overview</a></p><p><br></p>",
           "explanationText": "仮想マシンのローカルディスク向けのストレージにはマネージドディスクがデプロイされます。\nStandardよりPremiumのほうが性能、可用性が高いため選択肢3が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machines/managed-disks-overview",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-12_01-17-56-95eff2fede88bcecdaa32abe2e1c1637.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -4598,7 +4852,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp2-q-037",
           "sourceQuestionNumber": 37,
-          "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。</p><p>このソリューションには、次のコンポーネントが含まれます。</p><p><br></p><p>SQL Server 2016を実行する2台の仮想マシン：</p><p>同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります</p><p><br></p><p>SQL Serverのバックアップ：</p><p>SQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます</p><p><br></p><p>コンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。</p><p><br></p><p><strong>データベースファイル（mdf、ldf）</strong>にはどのストレージタイプを提案すべきですか。</p><p><br></p><p>オペレーションシステム：</p><p>データベースファイル（mdf、ldf）：</p><p>バックアップ：</p>",
+          "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。</p><p>このソリューションには、次のコンポーネントが含まれます。</p><p><br></p><p>SQL Server 2016を実行する2台の仮想マシン：</p><p>同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります</p><p><br></p><p>SQL Serverのバックアップ：</p><p>SQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます</p><p><br></p><p>コンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。</p><img src=\"assets/問題集2_files/2023-01-12_01-38-21-cd5a429bf694d6922b89fd1ebf622990.png\" alt=\"\" loading=\"eager\"><p><br></p><p><strong>データベースファイル（mdf、ldf）</strong>にはどのストレージタイプを提案すべきですか。</p><p><br></p><p>オペレーションシステム：</p><p>データベースファイル（mdf、ldf）：</p><p>バックアップ：</p>",
           "promptText": "注：この問題は前と次の問題と3問1セットです。\n\nあなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。\nこのソリューションには、次のコンポーネントが含まれます。\n\nSQL Server 2016を実行する2台の仮想マシン：\n同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります\n\nSQL Serverのバックアップ：\nSQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます\n\nコンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。\n\nデータベースファイル（mdf、ldf）にはどのストレージタイプを提案すべきですか。\n\nオペレーションシステム：\nデータベースファイル（mdf、ldf）：\nバックアップ：",
           "choices": [
             {
@@ -4631,7 +4885,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>SQLServerのデータベースファイル（mdf、ldf）の保存先として次の選択肢があります。</p><p>・マネージドディスク（データディスク）※OSディスク内への保存は非推奨</p><p>・ページBLOB</p><p><br></p><p>GRSの汎用 v2 ストレージアカウントにページBLOBとして保存する方法もありますが、性能の要件を考慮すると選択肢3の「Premium マネージド ディスク」が適切です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/managed-disks-overview\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/managed-disks-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/relational-databases/databases/sql-server-data-files-in-microsoft-azure?view=sql-server-ver16\">https://learn.microsoft.com/ja-jp/sql/relational-databases/databases/sql-server-data-files-in-microsoft-azure?view=sql-server-ver16</a></p>",
           "explanationText": "SQLServerのデータベースファイル（mdf、ldf）の保存先として次の選択肢があります。\n・マネージドディスク（データディスク）※OSディスク内への保存は非推奨\n・ページBLOB\n\nGRSの汎用 v2 ストレージアカウントにページBLOBとして保存する方法もありますが、性能の要件を考慮すると選択肢3の「Premium マネージド ディスク」が適切です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machines/managed-disks-overview\nhttps://learn.microsoft.com/ja-jp/sql/relational-databases/databases/sql-server-data-files-in-microsoft-azure?view=sql-server-ver16",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-12_01-38-21-cd5a429bf694d6922b89fd1ebf622990.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -4640,7 +4896,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp2-q-038",
           "sourceQuestionNumber": 38,
-          "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。</p><p>このソリューションには、次のコンポーネントが含まれます。</p><p><br></p><p>SQL Server 2016を実行する2台の仮想マシン：</p><p>同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります</p><p><br></p><p>SQL Serverのバックアップ：</p><p>SQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます</p><p><br></p><p>コンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。</p><p><br></p><p><strong>バックアップ</strong>にはどのストレージタイプを提案すべきですか。</p><p><br></p><p>オペレーションシステム：</p><p>データベースファイル（mdf、ldf）：</p><p>バックアップ：</p>",
+          "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。</p><p>このソリューションには、次のコンポーネントが含まれます。</p><p><br></p><p>SQL Server 2016を実行する2台の仮想マシン：</p><p>同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります</p><p><br></p><p>SQL Serverのバックアップ：</p><p>SQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます</p><p><br></p><p>コンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。</p><img src=\"assets/問題集2_files/2023-01-12_01-54-08-779e6032f58bf43e864259f5dedac1e7.png\" alt=\"\" loading=\"eager\"><p><br></p><p><strong>バックアップ</strong>にはどのストレージタイプを提案すべきですか。</p><p><br></p><p>オペレーションシステム：</p><p>データベースファイル（mdf、ldf）：</p><p>バックアップ：</p>",
           "promptText": "注：この問題は前とその前の問題と3問1セットです。\n\nあなたは、高いパフォーマンスを必要とするアプリケーションの本番データベースをホストするAzureソリューションを計画しています。\nこのソリューションには、次のコンポーネントが含まれます。\n\nSQL Server 2016を実行する2台の仮想マシン：\n同じAzureリージョン内の異なるデータセンターにデプロイされる予定で、Always On 可用性グループの一部になります\n\nSQL Serverのバックアップ：\nSQL Server IaaS Agent 拡張機能 の自動バックアップ機能を使用してバックアップされます\n\nコンポーネントで使用されるデータのストレージは次の要件を満たす必要があります。\n\nバックアップにはどのストレージタイプを提案すべきですか。\n\nオペレーションシステム：\nデータベースファイル（mdf、ldf）：\nバックアップ：",
           "choices": [
             {
@@ -4671,9 +4927,12 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-038-c2"
           ],
-          "explanationHtml": "<p>SQL Server IaaS Agent 拡張機能 の自動バックアップを利用すると、週次や日次など決められたスケジュールに応じてSQLServerのバックアップをスケジュールできます。</p><p><br></p><p>自動バックアップのファイルはストレージアカウントのBLOBストレージに保存されます。</p><p>選択肢1、2が候補になりますが、コストを抑えるためには選択肢2のローカル冗長ストレージ (LRS) を選択します（GRSの場合、保存コストが約2倍になり、かつ、リージョン間のデータ転送料が余分にかかります）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/automated-backup?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/automated-backup?view=azuresql</a></p>",
+          "explanationHtml": "<p>SQL Server IaaS Agent 拡張機能 の自動バックアップを利用すると、週次や日次など決められたスケジュールに応じてSQLServerのバックアップをスケジュールできます。</p><img src=\"assets/問題集2_files/2023-02-07_07-03-04-924ffd4490600b4f238417c38a057198.png\" alt=\"\" loading=\"eager\"><p><br></p><p>自動バックアップのファイルはストレージアカウントのBLOBストレージに保存されます。</p><p>選択肢1、2が候補になりますが、コストを抑えるためには選択肢2のローカル冗長ストレージ (LRS) を選択します（GRSの場合、保存コストが約2倍になり、かつ、リージョン間のデータ転送料が余分にかかります）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/automated-backup?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/automated-backup?view=azuresql</a></p>",
           "explanationText": "SQL Server IaaS Agent 拡張機能 の自動バックアップを利用すると、週次や日次など決められたスケジュールに応じてSQLServerのバックアップをスケジュールできます。\n\n自動バックアップのファイルはストレージアカウントのBLOBストレージに保存されます。\n選択肢1、2が候補になりますが、コストを抑えるためには選択肢2のローカル冗長ストレージ (LRS) を選択します（GRSの場合、保存コストが約2倍になり、かつ、リージョン間のデータ転送料が余分にかかります）\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/automated-backup?view=azuresql",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-12_01-54-08-779e6032f58bf43e864259f5dedac1e7.png",
+            "assets/問題集2_files/2023-02-07_07-03-04-924ffd4490600b4f238417c38a057198.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -4682,7 +4941,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp2-q-039",
           "sourceQuestionNumber": 39,
-          "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、次の表に示すリソースが含まれています。</p><p><br></p><p><br></p><p>あなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>SQLdb1の監査を有効にすると、storage1に監査ログを保存することができます</p>",
+          "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、次の表に示すリソースが含まれています。</p><p><br></p><img src=\"assets/問題集2_files/2023-01-25_01-13-41-5c4ed22a7ed358d2f71b85dc1cc87933.png\" alt=\"\" loading=\"eager\"><p><br></p><p>あなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>SQLdb1の監査を有効にすると、storage1に監査ログを保存することができます</p>",
           "promptText": "注：この問題は次とその次の問題と3問1セットです。\n\nあなたは、Azureサブスクリプションを持っています。\nサブスクリプションには、次の表に示すリソースが含まれています。\n\nあなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nSQLdb1の監査を有効にすると、storage1に監査ログを保存することができます",
           "choices": [
             {
@@ -4701,9 +4960,12 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-039-c1"
           ],
-          "explanationHtml": "<p>SQL Databaseの監査ログは、Azureポータルの「監査」から有効にできます。</p><p>保存先として次のいずれか（複数可）を選択することができます。</p><p>・ストレージアカウント</p><p>・Log Analytics ワークスペース</p><p>・イベントハブ</p><p></p><p><br></p><p>本問題はストレージアカウントへの保存可否についての質問です。</p><p>Azureポータルからデプロイする場合、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。他の方法でデプロイする場合は、別のリージョンでもかまいません。</p><p><br></p><p>SQLdb1は米国東部にあり、storage1も米国東部にあります。</p><p>よって、SQLdb1の監査ログをstorage1に保存することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/auditing-overview?view=azuresql#audit-storage-destination\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/auditing-overview?view=azuresql#audit-storage-destination</a> </p>",
+          "explanationHtml": "<p>SQL Databaseの監査ログは、Azureポータルの「監査」から有効にできます。</p><p>保存先として次のいずれか（複数可）を選択することができます。</p><p>・ストレージアカウント</p><p>・Log Analytics ワークスペース</p><p>・イベントハブ</p><p><img src=\"assets/問題集2_files/2023-01-25_01-13-42-fb6bd8f352bf6951c2502bd9a6461bfb.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>本問題はストレージアカウントへの保存可否についての質問です。</p><p>Azureポータルからデプロイする場合、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。他の方法でデプロイする場合は、別のリージョンでもかまいません。</p><p><br></p><p>SQLdb1は米国東部にあり、storage1も米国東部にあります。</p><p>よって、SQLdb1の監査ログをstorage1に保存することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/auditing-overview?view=azuresql#audit-storage-destination\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/auditing-overview?view=azuresql#audit-storage-destination</a> </p>",
           "explanationText": "SQL Databaseの監査ログは、Azureポータルの「監査」から有効にできます。\n保存先として次のいずれか（複数可）を選択することができます。\n・ストレージアカウント\n・Log Analytics ワークスペース\n・イベントハブ\n\n本問題はストレージアカウントへの保存可否についての質問です。\nAzureポータルからデプロイする場合、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。他の方法でデプロイする場合は、別のリージョンでもかまいません。\n\nSQLdb1は米国東部にあり、storage1も米国東部にあります。\nよって、SQLdb1の監査ログをstorage1に保存することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/auditing-overview?view=azuresql#audit-storage-destination",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-25_01-13-41-5c4ed22a7ed358d2f71b85dc1cc87933.png",
+            "assets/問題集2_files/2023-01-25_01-13-42-fb6bd8f352bf6951c2502bd9a6461bfb.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -4712,7 +4974,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp2-q-040",
           "sourceQuestionNumber": 40,
-          "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、次の表に示すリソースが含まれています。</p><p><br></p><p><br></p><p>あなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>SQLdb2の監査を有効にすると、storage2に監査ログを保存することができます</p>",
+          "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、次の表に示すリソースが含まれています。</p><p><br></p><img src=\"assets/問題集2_files/2023-01-25_01-18-06-7ffb43a9f65243462e54520a1be81762.png\" alt=\"\" loading=\"eager\"><p><br></p><p>あなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>SQLdb2の監査を有効にすると、storage2に監査ログを保存することができます</p>",
           "promptText": "注：この問題は前と次の問題と3問1セットです。\n\nあなたは、Azureサブスクリプションを持っています。\nサブスクリプションには、次の表に示すリソースが含まれています。\n\nあなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nSQLdb2の監査を有効にすると、storage2に監査ログを保存することができます",
           "choices": [
             {
@@ -4733,7 +4995,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>前の問題の解説の通り、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。</p><p><br></p><p>SQLdb2は米国東部にありますが、storage2は米国中部にあるためリージョンが異なっています。</p><p>よって、SQLdb2の監査ログをstorage2に保存することはできません。</p>",
           "explanationText": "前の問題の解説の通り、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。\n\nSQLdb2は米国東部にありますが、storage2は米国中部にあるためリージョンが異なっています。\nよって、SQLdb2の監査ログをstorage2に保存することはできません。",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-25_01-18-06-7ffb43a9f65243462e54520a1be81762.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -4744,7 +5008,7 @@ window.QUIZ_DATA = {
     "jp2-set-005": {
       "setId": "jp2-set-005",
       "title": "問題集2 41-50",
-      "sourceHtml": "udemy/問題集2.html",
+      "sourceHtml": "assets/問題集2.html",
       "questionIds": [
         "jp2-q-041",
         "jp2-q-042",
@@ -4761,7 +5025,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp2-q-041",
           "sourceQuestionNumber": 41,
-          "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、次の表に示すリソースが含まれています。</p><p><br></p><p><br></p><p>あなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>SQLdb3の監査を有効にすると、storage2に監査ログを保存することができます</p>",
+          "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、次の表に示すリソースが含まれています。</p><p><br></p><img src=\"assets/問題集2_files/2023-01-25_01-21-16-baf67162b87ad047d2f83e52695240d9.png\" alt=\"\" loading=\"eager\"><p><br></p><p>あなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。</p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>SQLdb3の監査を有効にすると、storage2に監査ログを保存することができます</p>",
           "promptText": "注：この問題は前とその前の問題と3問1セットです。\n\nあなたは、Azureサブスクリプションを持っています。\nサブスクリプションには、次の表に示すリソースが含まれています。\n\nあなたは、Azureポータルを使ってSQL Databaseの監査ログが保存されるよう構成する予定です。\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nSQLdb3の監査を有効にすると、storage2に監査ログを保存することができます",
           "choices": [
             {
@@ -4782,7 +5046,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>前の問題の解説の通り、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。</p><p><br></p><p>SQLdb3は米国西部にありますが、storage2は米国中部にあるためリージョンが異なっています。</p><p>よって、SQLdb3の監査ログをstorage2に保存することはできません。</p>",
           "explanationText": "前の問題の解説の通り、ストレージアカウントがSQLServer（とデータベース）と同じリージョンに存在している必要があります。\n\nSQLdb3は米国西部にありますが、storage2は米国中部にあるためリージョンが異なっています。\nよって、SQLdb3の監査ログをstorage2に保存することはできません。",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-25_01-21-16-baf67162b87ad047d2f83e52695240d9.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -4864,13 +5130,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-043-c2"
           ],
-          "explanationHtml": "<p>ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。</p><p><br></p><p><code>・1年間データの変更を防止すること</code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p><p><br></p><p>Premium ファイル共有はBLOBではないので選択肢3は誤り、</p><p>Premium ページBLOBでは不変ストレージはサポートされていないため、選択肢1も誤りです。</p><p>不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations</a></p><p><br></p><p><code>・データのスループットを最大化すること</code></p><p><code>・読み取りと書き込み操作のレイテンシを最小限に抑えること</code></p><p>選択肢2、4のうち、より高スループット・低遅延なパフォーマンスを提供するのは「Premium ブロックBLOB」です。</p><p>Premium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium</a></p><p><br></p>",
+          "explanationHtml": "<p>ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。</p><img src=\"assets/問題集2_files/2023-02-07_04-23-55-0b9069403770990a1a8bc95fa4265cff.png\" alt=\"\" loading=\"eager\"><p><br></p><p><code>・1年間データの変更を防止すること</code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p><p><br></p><p>Premium ファイル共有はBLOBではないので選択肢3は誤り、</p><p>Premium ページBLOBでは不変ストレージはサポートされていないため、選択肢1も誤りです。</p><p>不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations</a></p><p><br></p><p><code>・データのスループットを最大化すること</code></p><p><code>・読み取りと書き込み操作のレイテンシを最小限に抑えること</code></p><p>選択肢2、4のうち、より高スループット・低遅延なパフォーマンスを提供するのは「Premium ブロックBLOB」です。</p><p>Premium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium</a></p><p><br></p>",
           "explanationText": "ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。\n\n・1年間データの変更を防止すること\nこの要件を満たすためにはBLOBの不変ストレージを利用します。\n不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\n\nPremium ファイル共有はBLOBではないので選択肢3は誤り、\nPremium ページBLOBでは不変ストレージはサポートされていないため、選択肢1も誤りです。\n不変ストレージをサポートするストレージアカウントの種類は以下のドキュメントを参照ください。\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\n\n・データのスループットを最大化すること\n・読み取りと書き込み操作のレイテンシを最小限に抑えること\n選択肢2、4のうち、より高スループット・低遅延なパフォーマンスを提供するのは「Premium ブロックBLOB」です。\nPremium ブロック BLOB は、ハイパフォーマンスの SSD ディスクにより、Standard ブロック BLOB と比較してきわめて短い待ち時間と高い一貫性を備えています。\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blob-block-blob-premium",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-02-07_04-23-55-0b9069403770990a1a8bc95fa4265cff.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-007",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-044",
@@ -4911,8 +5181,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-007",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-045",
@@ -4942,13 +5214,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-045-c2"
           ],
-          "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT&nbsp;/ データ統合のサービスと説明されています。</p><p><br></p><p>オンプレミスのファイルサーバーに「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、オンプレミスのデータをストレージアカウントのBLOBやファイル共有などにコピーすることができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory\">https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory</a></p><p><br></p>",
+          "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT&nbsp;/ データ統合のサービスと説明されています。</p><p><br></p><p>オンプレミスのファイルサーバーに「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、オンプレミスのデータをストレージアカウントのBLOBやファイル共有などにコピーすることができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory\">https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory</a></p><img src=\"assets/問題集2_files/2023-02-01_06-21-15-69e61207bc6185f9b14eedb6bbe789e8.png\" alt=\"\" loading=\"eager\"><p><br></p>",
           "explanationText": "Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。\nデータをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/introduction\n\n収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）\n公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。\n\nオンプレミスのファイルサーバーに「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、オンプレミスのデータをストレージアカウントのBLOBやファイル共有などにコピーすることができます。\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-02-01_06-21-15-69e61207bc6185f9b14eedb6bbe789e8.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-007",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-046",
@@ -4983,8 +5259,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-007",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-047",
@@ -5026,13 +5304,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-047-c3"
           ],
-          "explanationHtml": "<p>キャッシュは、システムのパフォーマンスとスケーラビリティを改善することを目的とする一般的な手法です。</p><p>ユーザーやアプリケーションに近い場所に、アクセス頻度が高いデータを一時的にキャッシュすることでパフォーマンスが向上します。</p><p><br></p><p>キャッシュと一言にいっても色々な場面で登場します。</p><p>・フロントエンドのWebコンテンツのキャッシュ（静的コンテンツ：javascript、css、画像ファイルなど）</p><p>・バックエンドのデータストアのキャッシュ（セッション、即時性が求められる更新データなど）</p><p>・マネージドディスクのホストキャッシュ</p><p>・DNSキャッシュ　...etc</p><p><br></p><p>エンドユーザーの近くにコンテンツを保管するにはContent Delivery Network （CDN）を利用します。</p><p>CDNは、世界中に戦略的に分散配置されたエッジサーバにWebコンテンツをキャッシュし、配信元（この問題の場合はAzure App Service）の負荷を軽減しながら効率的にWebコンテンツを配信するために利用されます。</p><p><br></p><p>Azureでは大きく、Azure Front Door、Azure CDNの2つのサービスが提供されていますが、Azure CDNはクラシックの扱いになっており、後発のAzure Front Door推奨されているようです。</p><p>（本問題の選択肢にFront Doorはないので、選択肢3の「Azure CDN」が正解です。）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cdn/cdn-overview\">https://learn.microsoft.com/ja-jp/azure/cdn/cdn-overview</a></p>",
+          "explanationHtml": "<p>キャッシュは、システムのパフォーマンスとスケーラビリティを改善することを目的とする一般的な手法です。</p><p>ユーザーやアプリケーションに近い場所に、アクセス頻度が高いデータを一時的にキャッシュすることでパフォーマンスが向上します。</p><p><br></p><p>キャッシュと一言にいっても色々な場面で登場します。</p><p>・フロントエンドのWebコンテンツのキャッシュ（静的コンテンツ：javascript、css、画像ファイルなど）</p><p>・バックエンドのデータストアのキャッシュ（セッション、即時性が求められる更新データなど）</p><p>・マネージドディスクのホストキャッシュ</p><p>・DNSキャッシュ　...etc</p><p><br></p><p>エンドユーザーの近くにコンテンツを保管するにはContent Delivery Network （CDN）を利用します。</p><p>CDNは、世界中に戦略的に分散配置されたエッジサーバにWebコンテンツをキャッシュし、配信元（この問題の場合はAzure App Service）の負荷を軽減しながら効率的にWebコンテンツを配信するために利用されます。</p><p><br></p><p>Azureでは大きく、Azure Front Door、Azure CDNの2つのサービスが提供されていますが、Azure CDNはクラシックの扱いになっており、後発のAzure Front Door推奨されているようです。</p><p>（本問題の選択肢にFront Doorはないので、選択肢3の「Azure CDN」が正解です。）</p><img src=\"assets/問題集2_files/2023-01-26_05-48-29-a95e1d12c33c9171511e2912627c79bc.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cdn/cdn-overview\">https://learn.microsoft.com/ja-jp/azure/cdn/cdn-overview</a></p>",
           "explanationText": "キャッシュは、システムのパフォーマンスとスケーラビリティを改善することを目的とする一般的な手法です。\nユーザーやアプリケーションに近い場所に、アクセス頻度が高いデータを一時的にキャッシュすることでパフォーマンスが向上します。\n\nキャッシュと一言にいっても色々な場面で登場します。\n・フロントエンドのWebコンテンツのキャッシュ（静的コンテンツ：javascript、css、画像ファイルなど）\n・バックエンドのデータストアのキャッシュ（セッション、即時性が求められる更新データなど）\n・マネージドディスクのホストキャッシュ\n・DNSキャッシュ　...etc\n\nエンドユーザーの近くにコンテンツを保管するにはContent Delivery Network （CDN）を利用します。\nCDNは、世界中に戦略的に分散配置されたエッジサーバにWebコンテンツをキャッシュし、配信元（この問題の場合はAzure App Service）の負荷を軽減しながら効率的にWebコンテンツを配信するために利用されます。\n\nAzureでは大きく、Azure Front Door、Azure CDNの2つのサービスが提供されていますが、Azure CDNはクラシックの扱いになっており、後発のAzure Front Door推奨されているようです。\n（本問題の選択肢にFront Doorはないので、選択肢3の「Azure CDN」が正解です。）\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/cdn/cdn-overview",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-26_05-48-29-a95e1d12c33c9171511e2912627c79bc.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-007",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-048",
@@ -5079,13 +5361,15 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-007",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-049",
           "sourceQuestionNumber": 49,
-          "promptHtml": "<p>あなたは、次の表に示すAzureリソースを含む注文処理システムを設計しています。</p><p></p><p><br></p><p>注文処理システムは、次のような流れで処理を行います。</p><p>・顧客は App1 を使用して注文を行う</p><p>・App1 はベンダー1とベンダー2の製品の在庫を確認するためのメッセージを統合コンポーネントに送信する</p><p>・統合コンポーネントは注文の種類に応じて Function1、または、Function2をトリガーする</p><p>・製品の在庫を確認後、App1 のステータスメッセージがFunction1、または、Function2 によって生成される</p><p>・すべてのステップのログは storage1 に記録される</p><p><br></p><p>統合コンポーネントにはどの Azure リソースを提案するのが最適ですか。</p>",
+          "promptHtml": "<p>あなたは、次の表に示すAzureリソースを含む注文処理システムを設計しています。</p><p><img src=\"assets/問題集2_files/2023-02-01_07-55-06-a37048e58e60b4f054003123773fccc6.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>注文処理システムは、次のような流れで処理を行います。</p><p>・顧客は App1 を使用して注文を行う</p><p>・App1 はベンダー1とベンダー2の製品の在庫を確認するためのメッセージを統合コンポーネントに送信する</p><p>・統合コンポーネントは注文の種類に応じて Function1、または、Function2をトリガーする</p><p>・製品の在庫を確認後、App1 のステータスメッセージがFunction1、または、Function2 によって生成される</p><p>・すべてのステップのログは storage1 に記録される</p><p><br></p><p>統合コンポーネントにはどの Azure リソースを提案するのが最適ですか。</p>",
           "promptText": "あなたは、次の表に示すAzureリソースを含む注文処理システムを設計しています。\n\n注文処理システムは、次のような流れで処理を行います。\n・顧客は App1 を使用して注文を行う\n・App1 はベンダー1とベンダー2の製品の在庫を確認するためのメッセージを統合コンポーネントに送信する\n・統合コンポーネントは注文の種類に応じて Function1、または、Function2をトリガーする\n・製品の在庫を確認後、App1 のステータスメッセージがFunction1、または、Function2 によって生成される\n・すべてのステップのログは storage1 に記録される\n\n統合コンポーネントにはどの Azure リソースを提案するのが最適ですか。",
           "choices": [
             {
@@ -5118,7 +5402,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>複数のアプリケーションコンポーネントを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがあります。</p><p>App1とFunctionsを直接連携させるのではなく、間にメッセージングサービス（統合コンポーネント）を挟むことで、ユーザーは後続処理の完了を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。</p><p><br></p><p>Azure には大きく次の2つのメッセージベースのソリューションが用意されています。</p><p>・Azure Queue Storage</p><p>・Azure Service Bus</p><p><br></p><p>Azure Service Bus の「トピック」を使用すると、1対多（App1 → Function1/Function2）のメッセージを処理させることができます。</p><p>Azure Queue Storage はよりシンプルはメッセージングサービスですが、1対1のメッセージ送受信を想定されたサービスであり、1対多の構成の場合は適切ではないため誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-messaging-overview\">https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-messaging-overview</a></p>",
           "explanationText": "複数のアプリケーションコンポーネントを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがあります。\nApp1とFunctionsを直接連携させるのではなく、間にメッセージングサービス（統合コンポーネント）を挟むことで、ユーザーは後続処理の完了を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。\n\nAzure には大きく次の2つのメッセージベースのソリューションが用意されています。\n・Azure Queue Storage\n・Azure Service Bus\n\nAzure Service Bus の「トピック」を使用すると、1対多（App1 → Function1/Function2）のメッセージを処理させることができます。\nAzure Queue Storage はよりシンプルはメッセージングサービスですが、1対1のメッセージ送受信を想定されたサービスであり、1対多の構成の場合は適切ではないため誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-messaging-overview",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-02-01_07-55-06-a37048e58e60b4f054003123773fccc6.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -5158,20 +5444,24 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-050-c2"
           ],
-          "explanationHtml": "<p>Microsoft Entra IDのサインインログは、診断設定から別の場所に送信（エクスポート）することができます。</p><p>イベントに基づいてアラートをトリガーするには、Log Analytics ワークスペースへ送信します。</p><p>なお、サインインログをエクスポートするには、Premium P1 以上のライセンスが必要です。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor\">https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal</a></p>",
+          "explanationHtml": "<p>Microsoft Entra IDのサインインログは、診断設定から別の場所に送信（エクスポート）することができます。</p><p>イベントに基づいてアラートをトリガーするには、Log Analytics ワークスペースへ送信します。</p><p>なお、サインインログをエクスポートするには、Premium P1 以上のライセンスが必要です。</p><p><img src=\"assets/問題集2_files/2023-01-24_12-54-25-45e2b28711603b2507ecd19592f6ea14.png\" alt=\"\" loading=\"eager\"></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor\">https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal</a></p>",
           "explanationText": "Microsoft Entra IDのサインインログは、診断設定から別の場所に送信（エクスポート）することができます。\nイベントに基づいてアラートをトリガーするには、Log Analytics ワークスペースへ送信します。\nなお、サインインログをエクスポートするには、Premium P1 以上のライセンスが必要です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-24_12-54-25-45e2b28711603b2507ecd19592f6ea14.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-008",
+          "tags": [
+            "linked-question"
+          ]
         }
       ]
     },
     "jp2-set-006": {
       "setId": "jp2-set-006",
       "title": "問題集2 51-60",
-      "sourceHtml": "udemy/問題集2.html",
+      "sourceHtml": "assets/問題集2.html",
       "questionIds": [
         "jp2-q-051",
         "jp2-q-052",
@@ -5213,13 +5503,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-051-c2"
           ],
-          "explanationHtml": "<p>Log Analytics ワークスペースに収集したログを検索してアラートルールを作成するには、シグナルの種類に「ログ」を選択します。</p><p>SigninLogsテーブルを検索するクエリを記述して、任意の条件でアラートをトリガーすることができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/alerts/alerts-create-new-alert-rule?tabs=log\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/alerts/alerts-create-new-alert-rule?tabs=log</a></p>",
+          "explanationHtml": "<p>Log Analytics ワークスペースに収集したログを検索してアラートルールを作成するには、シグナルの種類に「ログ」を選択します。</p><p>SigninLogsテーブルを検索するクエリを記述して、任意の条件でアラートをトリガーすることができます。</p><p><br></p><img src=\"assets/問題集2_files/2023-01-24_13-09-15-49e50aaa47ebbef92bde2f0c6547ab7d.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/alerts/alerts-create-new-alert-rule?tabs=log\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/alerts/alerts-create-new-alert-rule?tabs=log</a></p>",
           "explanationText": "Log Analytics ワークスペースに収集したログを検索してアラートルールを作成するには、シグナルの種類に「ログ」を選択します。\nSigninLogsテーブルを検索するクエリを記述して、任意の条件でアラートをトリガーすることができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/alerts/alerts-create-new-alert-rule?tabs=log",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-24_13-09-15-49e50aaa47ebbef92bde2f0c6547ab7d.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp2-linked-008",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp2-q-052",
@@ -5314,7 +5608,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp2-q-054",
           "sourceQuestionNumber": 54,
-          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>あなたは、ネットワーク共同作成者ロールの割り当てを実装する必要があります。</p><p>ソリューションは、認証と認可の要件を満たす必要があります。</p><p>ロールの割り当ての最小数はいくつですか。</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p><img src=\"assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png\" alt=\"\" loading=\"eager\"></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>あなたは、ネットワーク共同作成者ロールの割り当てを実装する必要があります。</p><p>ソリューションは、認証と認可の要件を満たす必要があります。</p><p>ロールの割り当ての最小数はいくつですか。</p>",
           "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\nあなたは、ネットワーク共同作成者ロールの割り当てを実装する必要があります。\nソリューションは、認証と認可の要件を満たす必要があります。\nロールの割り当ての最小数はいくつですか。",
           "choices": [
             {
@@ -5353,7 +5647,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p><code>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。</code></p><p><code>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</code> </p><p>ネットワーク共同作成者ロールの割り当て範囲はすべてのサブスクリプションです。</p><p><br></p><p><code>・RBAC のロールは、可能な限り高いレベルで適用すること</code> </p><p>RBACでは4つのレベル （管理グループ、サブスクリプション、リソース グループ、リソース）でスコープを指定できますが、要件を満たすためには管理グループに対してロールを割り当てます。</p><p>注意点として、単一の管理グループ内のすべてのサブスクリプションは、同じ Microsoft Entra テナントを信頼する必要があります。</p><p>この問題では、litware.com、dev.litware.comAzure とテナントが別々なので、テナントごとに1つ、少なくとも2つの管理グループが必要です。</p><p>よって、ロールの割り当てもそれぞれの管理グループに対して2つ必要となります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/management-groups/overview\">https://learn.microsoft.com/ja-jp/azure/governance/management-groups/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/role-based-access-control/scope-overview\">https://learn.microsoft.com/ja-jp/azure/role-based-access-control/scope-overview</a></p>",
           "explanationText": "Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\nネットワーク共同作成者ロールの割り当て範囲はすべてのサブスクリプションです。\n\n・RBAC のロールは、可能な限り高いレベルで適用すること\nRBACでは4つのレベル （管理グループ、サブスクリプション、リソース グループ、リソース）でスコープを指定できますが、要件を満たすためには管理グループに対してロールを割り当てます。\n注意点として、単一の管理グループ内のすべてのサブスクリプションは、同じ Microsoft Entra テナントを信頼する必要があります。\nこの問題では、litware.com、dev.litware.comAzure とテナントが別々なので、テナントごとに1つ、少なくとも2つの管理グループが必要です。\nよって、ロールの割り当てもそれぞれの管理グループに対して2つ必要となります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/management-groups/overview\nhttps://learn.microsoft.com/ja-jp/azure/role-based-access-control/scope-overview",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp2-case-001",
@@ -5364,7 +5660,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp2-q-055",
           "sourceQuestionNumber": 55,
-          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、本番環境を管理するユーザーが Azure MFA（多要素認証）に登録されており、Azureポータルにサインインする時に Azure MFA を使用して認証されるよう構成する必要があります。</p><p>ソリューションは、認証と認可の要件を満たす必要があります。</p><p><strong>ユーザーに Azure MFA のセットアップを要求するために使用する</strong>のは次のうちどれでしょうか。</p><p><br></p><p>ユーザーに Azure MFA のセットアップを要求するために使用する：</p><p>Azure MFA を要求して認証するための設定箇所：</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p><img src=\"assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png\" alt=\"\" loading=\"eager\"></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、本番環境を管理するユーザーが Azure MFA（多要素認証）に登録されており、Azureポータルにサインインする時に Azure MFA を使用して認証されるよう構成する必要があります。</p><p>ソリューションは、認証と認可の要件を満たす必要があります。</p><p><strong>ユーザーに Azure MFA のセットアップを要求するために使用する</strong>のは次のうちどれでしょうか。</p><p><br></p><p>ユーザーに Azure MFA のセットアップを要求するために使用する：</p><p>Azure MFA を要求して認証するための設定箇所：</p>",
           "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\n注：この問題は次の問題と2問1セットです。\n\nあなたは、本番環境を管理するユーザーが Azure MFA（多要素認証）に登録されており、Azureポータルにサインインする時に Azure MFA を使用して認証されるよう構成する必要があります。\nソリューションは、認証と認可の要件を満たす必要があります。\nユーザーに Azure MFA のセットアップを要求するために使用するのは次のうちどれでしょうか。\n\nユーザーに Azure MFA のセットアップを要求するために使用する：\nAzure MFA を要求して認証するための設定箇所：",
           "choices": [
             {
@@ -5389,20 +5685,26 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-055-c1"
           ],
-          "explanationHtml": "<p>Microsoft Entra Identity Protectionの「多要素認証登録ポリシー」を使って指定したユーザーやグループに対してMFAのセットアップを要求することができます。</p><p>ここでいう「セットアップ」とは、Microsoft Authenticator アプリに QR コードを取り込むなどして、MFAに利用する認証方法を設定することを指します（MFAで認証するために事前に必要な作業）</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy\">https://learn.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy</a></p><p></p><p><br></p><p>ここで少し Azure MFA の前提知識について解説します。</p><p>Microsoft Entra IDのユーザーに対してAzure MFAを有効化するには、大きく次の3つの方法があります。</p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/howto-mfa-userstates\">ユーザーごとのMFA</a>（無料）</p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults\">セキュリティの既定値群</a>（無料）</p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/tutorial-enable-azure-mfa\">条件付きアクセスポリシー</a>（Premium P1以上）</p><p><br></p><p>いずれかの方法でユーザーにMFAの認証を要求する場合、MFAセットアップが未実施であれば当然ながら最初にセットアップを要求するウィザードが表示されます。（①）</p><p></p><p><br></p><p>MFAのセットアップが完了後、サインイン時にはいずれかのポリシーによってMFAが要求されます。（②）</p><p></p><p><br></p><p>このように、①MFAセットアップと②MFA要求の2ステップがあるわけですが、Identity Protectionの「多要素認証登録ポリシー」は①を強制するための機能です（②MFA要求はしません）</p><p><br></p><p>多要素認証登録ポリシーを構成せずとも、前述のように②の段階でMFAセットアップが未実施の場合は①から行う必要があるため、Identity Protectionの多要素認証登録ポリシーは必ずしも必要ではありません。</p><p>よくある運用方法としては、多要素認証登録ポリシーを使ってユーザーに先行して①だけを完了させ、そのセットアップが浸透した段階で②のポリシーをオンにして実際に MFA なしではアクセスできないようにする、といった使い方があります。</p><p><br></p><p>問題の解説に移ります。</p><p>前述のように3つの選択肢どれでも結果的にユーザーに Azure MFA のセットアップを要求することはできますが、次の理由により選択肢1の「Microsoft Entra Identity Protection」<strong>以外</strong>は誤りです。</p><p><br></p><p><code>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</code></p><p><code>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</code></p><p><code>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entraに接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</code></p><p>これらの説明と要件より、条件付きアクセス ポリシー「Capolicy1」でアクセス制御すれば良いことがわかります。</p><p>条件付きアクセス ポリシーを有効にする場合、セキュリティの既定値群は無効にしておく必要があります。（逆も同様です。どちらか一方しか有効化することができません）</p><p>条件付きアクセス ポリシーを有効にする場合、ユーザーごとのMFA管理画面からMFAを有効にすることは推奨されていません。ユーザー単位で個別に有効化する必要があるため、保守性の観点からも不適切です。</p>",
+          "explanationHtml": "<p>Microsoft Entra Identity Protectionの「多要素認証登録ポリシー」を使って指定したユーザーやグループに対してMFAのセットアップを要求することができます。</p><p>ここでいう「セットアップ」とは、Microsoft Authenticator アプリに QR コードを取り込むなどして、MFAに利用する認証方法を設定することを指します（MFAで認証するために事前に必要な作業）</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy\">https://learn.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy</a></p><p><img src=\"assets/問題集2_files/2023-01-29_08-03-56-0ea5a36ab836b56f3d197853d46e59b6.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>ここで少し Azure MFA の前提知識について解説します。</p><p>Microsoft Entra IDのユーザーに対してAzure MFAを有効化するには、大きく次の3つの方法があります。</p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/howto-mfa-userstates\">ユーザーごとのMFA</a>（無料）</p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults\">セキュリティの既定値群</a>（無料）</p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/tutorial-enable-azure-mfa\">条件付きアクセスポリシー</a>（Premium P1以上）</p><p><br></p><p>いずれかの方法でユーザーにMFAの認証を要求する場合、MFAセットアップが未実施であれば当然ながら最初にセットアップを要求するウィザードが表示されます。（①）</p><p><img src=\"assets/問題集2_files/2023-01-29_11-52-59-adc2d74d8097ec4343932302957eea22.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>MFAのセットアップが完了後、サインイン時にはいずれかのポリシーによってMFAが要求されます。（②）</p><p><img src=\"assets/問題集2_files/2023-01-29_11-52-59-5827216c20cb80d9e80d9b52f57d41a1.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>このように、①MFAセットアップと②MFA要求の2ステップがあるわけですが、Identity Protectionの「多要素認証登録ポリシー」は①を強制するための機能です（②MFA要求はしません）</p><p><br></p><p>多要素認証登録ポリシーを構成せずとも、前述のように②の段階でMFAセットアップが未実施の場合は①から行う必要があるため、Identity Protectionの多要素認証登録ポリシーは必ずしも必要ではありません。</p><p>よくある運用方法としては、多要素認証登録ポリシーを使ってユーザーに先行して①だけを完了させ、そのセットアップが浸透した段階で②のポリシーをオンにして実際に MFA なしではアクセスできないようにする、といった使い方があります。</p><p><br></p><p>問題の解説に移ります。</p><p>前述のように3つの選択肢どれでも結果的にユーザーに Azure MFA のセットアップを要求することはできますが、次の理由により選択肢1の「Microsoft Entra Identity Protection」<strong>以外</strong>は誤りです。</p><p><br></p><p><code>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</code></p><p><code>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</code></p><p><code>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entraに接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</code></p><p>これらの説明と要件より、条件付きアクセス ポリシー「Capolicy1」でアクセス制御すれば良いことがわかります。</p><p>条件付きアクセス ポリシーを有効にする場合、セキュリティの既定値群は無効にしておく必要があります。（逆も同様です。どちらか一方しか有効化することができません）</p><p>条件付きアクセス ポリシーを有効にする場合、ユーザーごとのMFA管理画面からMFAを有効にすることは推奨されていません。ユーザー単位で個別に有効化する必要があるため、保守性の観点からも不適切です。</p>",
           "explanationText": "Microsoft Entra Identity Protectionの「多要素認証登録ポリシー」を使って指定したユーザーやグループに対してMFAのセットアップを要求することができます。\nここでいう「セットアップ」とは、Microsoft Authenticator アプリに QR コードを取り込むなどして、MFAに利用する認証方法を設定することを指します（MFAで認証するために事前に必要な作業）\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy\n\nここで少し Azure MFA の前提知識について解説します。\nMicrosoft Entra IDのユーザーに対してAzure MFAを有効化するには、大きく次の3つの方法があります。\n・ユーザーごとのMFA（無料）\n・セキュリティの既定値群（無料）\n・条件付きアクセスポリシー（Premium P1以上）\n\nいずれかの方法でユーザーにMFAの認証を要求する場合、MFAセットアップが未実施であれば当然ながら最初にセットアップを要求するウィザードが表示されます。（①）\n\nMFAのセットアップが完了後、サインイン時にはいずれかのポリシーによってMFAが要求されます。（②）\n\nこのように、①MFAセットアップと②MFA要求の2ステップがあるわけですが、Identity Protectionの「多要素認証登録ポリシー」は①を強制するための機能です（②MFA要求はしません）\n\n多要素認証登録ポリシーを構成せずとも、前述のように②の段階でMFAセットアップが未実施の場合は①から行う必要があるため、Identity Protectionの多要素認証登録ポリシーは必ずしも必要ではありません。\nよくある運用方法としては、多要素認証登録ポリシーを使ってユーザーに先行して①だけを完了させ、そのセットアップが浸透した段階で②のポリシーをオンにして実際に MFA なしではアクセスできないようにする、といった使い方があります。\n\n問題の解説に移ります。\n前述のように3つの選択肢どれでも結果的にユーザーに Azure MFA のセットアップを要求することはできますが、次の理由により選択肢1の「Microsoft Entra Identity Protection」以外は誤りです。\n\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entraに接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\nこれらの説明と要件より、条件付きアクセス ポリシー「Capolicy1」でアクセス制御すれば良いことがわかります。\n条件付きアクセス ポリシーを有効にする場合、セキュリティの既定値群は無効にしておく必要があります。（逆も同様です。どちらか一方しか有効化することができません）\n条件付きアクセス ポリシーを有効にする場合、ユーザーごとのMFA管理画面からMFAを有効にすることは推奨されていません。ユーザー単位で個別に有効化する必要があるため、保守性の観点からも不適切です。",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png",
+            "assets/問題集2_files/2023-01-29_08-03-56-0ea5a36ab836b56f3d197853d46e59b6.png",
+            "assets/問題集2_files/2023-01-29_11-52-59-adc2d74d8097ec4343932302957eea22.png",
+            "assets/問題集2_files/2023-01-29_11-52-59-5827216c20cb80d9e80d9b52f57d41a1.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp2-case-001",
           "tags": [
-            "case-study"
+            "case-study",
+            "linked-question"
           ]
         },
         {
           "questionId": "jp2-q-056",
           "sourceQuestionNumber": 56,
-          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、本番環境を管理するユーザーが Azure MFA（多要素認証）に登録されており、Azureポータルにサインインする時に Azure MFA を使用して認証されるよう構成する必要があります。</p><p>ソリューションは、認証と認可の要件を満たす必要があります。</p><p><strong>Azure MFA を要求して認証するための設定箇所</strong>は次のうちどれでしょうか。</p><p><br></p><p>ユーザーに Azure MFA のセットアップを要求するために使用する：</p><p>Azure MFA を要求して認証するための設定箇所：</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p><img src=\"assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png\" alt=\"\" loading=\"eager\"></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、本番環境を管理するユーザーが Azure MFA（多要素認証）に登録されており、Azureポータルにサインインする時に Azure MFA を使用して認証されるよう構成する必要があります。</p><p>ソリューションは、認証と認可の要件を満たす必要があります。</p><p><strong>Azure MFA を要求して認証するための設定箇所</strong>は次のうちどれでしょうか。</p><p><br></p><p>ユーザーに Azure MFA のセットアップを要求するために使用する：</p><p>Azure MFA を要求して認証するための設定箇所：</p>",
           "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\n注：この問題は前の問題と2問1セットです。\n\nあなたは、本番環境を管理するユーザーが Azure MFA（多要素認証）に登録されており、Azureポータルにサインインする時に Azure MFA を使用して認証されるよう構成する必要があります。\nソリューションは、認証と認可の要件を満たす必要があります。\nAzure MFA を要求して認証するための設定箇所は次のうちどれでしょうか。\n\nユーザーに Azure MFA のセットアップを要求するために使用する：\nAzure MFA を要求して認証するための設定箇所：",
           "choices": [
             {
@@ -5433,20 +5735,24 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-056-c1"
           ],
-          "explanationHtml": "<p><code>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</code></p><p>前の問題の解説のとおり、条件付きアクセス ポリシー「Capolicy1」でアクセス制御するわけですが、この要件を満たすための設定箇所は「アクセス制御の[許可]ブレード」になります。</p><p></p><p>[セッション]ブレードは、アクセスを許可したユーザーのセッションを継続的に監視して、制限を適用したり、不審なイベントがあればセッションを中断して再認証を求めたりするための設定です。</p><p>選択肢3、4の「Microsoft Entra Identity Protection」のリスクポリシーは、脆弱性やリスクのあるアカウントによる不正なアクセスから保護するための仕組みなので誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-session\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-session</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies\">https://learn.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies</a></p>",
+          "explanationHtml": "<p><code>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</code></p><p>前の問題の解説のとおり、条件付きアクセス ポリシー「Capolicy1」でアクセス制御するわけですが、この要件を満たすための設定箇所は「アクセス制御の[許可]ブレード」になります。</p><p><img src=\"assets/問題集2_files/2023-01-29_12-05-49-073714690354eac5c89e357b084728fb.png\" alt=\"\" loading=\"eager\"></p><p>[セッション]ブレードは、アクセスを許可したユーザーのセッションを継続的に監視して、制限を適用したり、不審なイベントがあればセッションを中断して再認証を求めたりするための設定です。</p><p>選択肢3、4の「Microsoft Entra Identity Protection」のリスクポリシーは、脆弱性やリスクのあるアカウントによる不正なアクセスから保護するための仕組みなので誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-session\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-session</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies\">https://learn.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies</a></p>",
           "explanationText": "・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n前の問題の解説のとおり、条件付きアクセス ポリシー「Capolicy1」でアクセス制御するわけですが、この要件を満たすための設定箇所は「アクセス制御の[許可]ブレード」になります。\n\n[セッション]ブレードは、アクセスを許可したユーザーのセッションを継続的に監視して、制限を適用したり、不審なイベントがあればセッションを中断して再認証を求めたりするための設定です。\n選択肢3、4の「Microsoft Entra Identity Protection」のリスクポリシーは、脆弱性やリスクのあるアカウントによる不正なアクセスから保護するための仕組みなので誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-grant\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/concept-conditional-access-session\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png",
+            "assets/問題集2_files/2023-01-29_12-05-49-073714690354eac5c89e357b084728fb.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp2-case-001",
           "tags": [
-            "case-study"
+            "case-study",
+            "linked-question"
           ]
         },
         {
           "questionId": "jp2-q-057",
           "sourceQuestionNumber": 57,
-          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>あなたは、データベースをAzureに移行した後、本番環境の Azure SQL Database の透過的なデータ暗号化 (TDE) が有効化されていないことを発見しました。</p><p>あなたは、透過的なデータ暗号化 (TDE) を有効にするために、Azureポータルを使用してAzure Policyを構成する必要があります。</p><p>ソリューションは、セキュリティとコンプライアンスの要件を満たす必要があります。 </p><p>あなたは、3つのアクションをどの順番で実行する必要がありますか。</p><p><br></p><p>1.DeployIfNotExists の効果を含むポリシー定義を作成する</p><p>2.ユーザー割り当てマネージドIDを作成する</p><p>3.修復タスクを起動する</p><p>4.ポリシー定義の割り当てを作成する</p><p>5.修復の機能を使ってポリシー定義を作成する</p><p>6.Modify の効果を含むポリシー定義を作成する</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p><img src=\"assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png\" alt=\"\" loading=\"eager\"></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>あなたは、データベースをAzureに移行した後、本番環境の Azure SQL Database の透過的なデータ暗号化 (TDE) が有効化されていないことを発見しました。</p><p>あなたは、透過的なデータ暗号化 (TDE) を有効にするために、Azureポータルを使用してAzure Policyを構成する必要があります。</p><p>ソリューションは、セキュリティとコンプライアンスの要件を満たす必要があります。 </p><p>あなたは、3つのアクションをどの順番で実行する必要がありますか。</p><p><br></p><p>1.DeployIfNotExists の効果を含むポリシー定義を作成する</p><p>2.ユーザー割り当てマネージドIDを作成する</p><p>3.修復タスクを起動する</p><p>4.ポリシー定義の割り当てを作成する</p><p>5.修復の機能を使ってポリシー定義を作成する</p><p>6.Modify の効果を含むポリシー定義を作成する</p>",
           "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\nあなたは、データベースをAzureに移行した後、本番環境の Azure SQL Database の透過的なデータ暗号化 (TDE) が有効化されていないことを発見しました。\nあなたは、透過的なデータ暗号化 (TDE) を有効にするために、Azureポータルを使用してAzure Policyを構成する必要があります。\nソリューションは、セキュリティとコンプライアンスの要件を満たす必要があります。\nあなたは、3つのアクションをどの順番で実行する必要がありますか。\n\n1.DeployIfNotExists の効果を含むポリシー定義を作成する\n2.ユーザー割り当てマネージドIDを作成する\n3.修復タスクを起動する\n4.ポリシー定義の割り当てを作成する\n5.修復の機能を使ってポリシー定義を作成する\n6.Modify の効果を含むポリシー定義を作成する",
           "choices": [
             {
@@ -5479,7 +5785,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>Azure Policyには大きく次の2つの効果があります。</p><p><br></p><p>・ルールに沿ったリソースの作成を強制（新規作成や更新時）</p><p>・ルール違反のリソースがあればお知らせ（既存リソース）</p><p><br></p><p>既存リソースに関するルール違反の有無はAzureポータルの画面などから確認できますが、加えて、修復タスクを作成することで、あるべき状態に修復することも可能です。</p><p>ただし、修復タスクを作成できるのは、収録時点では <strong>Modify </strong>と <strong>DeployIfNotExists </strong>の効果のみです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal</a></p><p><br></p><p>Modify 効果は主にタグを追加、更新、削除するために使用されます。</p><p>DeployIfNotExists 効果は Type で照合するリソース（<code>Microsoft.Sql/servers/databases</code>）と異なる設定値（<code>Microsoft.Sql/servers/databases/transparentDataEncryption</code>）を操作したいような場合でもDeployment プロパティに渡すARMテンプレートによって修復することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects#deployifnotexists-example\">https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects#deployifnotexists-example</a></p><p><br></p><p><code>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</code> </p><p>以上を踏まえ、既存の本番環境の Azure SQL DatabaseでTDEを強制するには次の手順で構成します。将来、新たに Azure SQL Database を作成した場合でもポリシーが適用されるので要件を満たすことができます。</p><p><br></p><p>1.DeployIfNotExists の効果を含むポリシー定義を作成する</p><p>4.ポリシー定義の割り当てを作成する</p><p>3.修復タスクを起動する</p><p><br></p><p>修復タスクによりリソースに変更を加えるには、SQL DatabaseにマネージドIDを追加しロールを割り当てる必要があるため「2.ユーザー割り当てマネージドIDを作成する」も必要と思われるかもしれませんが、Azureポータルから修復タスクを作成する時に自動的に「システム割り当てマネージドID」が作成されるため、手順2は必須ではありません。</p>",
           "explanationText": "Azure Policyには大きく次の2つの効果があります。\n\n・ルールに沿ったリソースの作成を強制（新規作成や更新時）\n・ルール違反のリソースがあればお知らせ（既存リソース）\n\n既存リソースに関するルール違反の有無はAzureポータルの画面などから確認できますが、加えて、修復タスクを作成することで、あるべき状態に修復することも可能です。\nただし、修復タスクを作成できるのは、収録時点では Modify と DeployIfNotExists の効果のみです。\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\n\nModify 効果は主にタグを追加、更新、削除するために使用されます。\nDeployIfNotExists 効果は Type で照合するリソース（Microsoft.Sql/servers/databases）と異なる設定値（Microsoft.Sql/servers/databases/transparentDataEncryption）を操作したいような場合でもDeployment プロパティに渡すARMテンプレートによって修復することができます。\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects#deployifnotexists-example\n\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n以上を踏まえ、既存の本番環境の Azure SQL DatabaseでTDEを強制するには次の手順で構成します。将来、新たに Azure SQL Database を作成した場合でもポリシーが適用されるので要件を満たすことができます。\n\n1.DeployIfNotExists の効果を含むポリシー定義を作成する\n4.ポリシー定義の割り当てを作成する\n3.修復タスクを起動する\n\n修復タスクによりリソースに変更を加えるには、SQL DatabaseにマネージドIDを追加しロールを割り当てる必要があるため「2.ユーザー割り当てマネージドIDを作成する」も必要と思われるかもしれませんが、Azureポータルから修復タスクを作成する時に自動的に「システム割り当てマネージドID」が作成されるため、手順2は必須ではありません。",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp2-case-001",
@@ -5490,7 +5798,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp2-q-058",
           "sourceQuestionNumber": 58,
-          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、App1用のストレージソリューションを提案する必要があります。</p><p>ソリューションは、セキュリティとコンプライアンスの要件を満たす必要があります。</p><p><strong>ストレージアカウントの種類</strong>はどれを提案すべきですか。</p><p><br></p><p>ストレージアカウントの種類：</p><p>ストレージアカウントの設定：</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p><img src=\"assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png\" alt=\"\" loading=\"eager\"></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、App1用のストレージソリューションを提案する必要があります。</p><p>ソリューションは、セキュリティとコンプライアンスの要件を満たす必要があります。</p><p><strong>ストレージアカウントの種類</strong>はどれを提案すべきですか。</p><p><br></p><p>ストレージアカウントの種類：</p><p>ストレージアカウントの設定：</p>",
           "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\n注：この問題は次の問題と2問1セットです。\n\nあなたは、App1用のストレージソリューションを提案する必要があります。\nソリューションは、セキュリティとコンプライアンスの要件を満たす必要があります。\nストレージアカウントの種類はどれを提案すべきですか。\n\nストレージアカウントの種類：\nストレージアカウントの設定：",
           "choices": [
             {
@@ -5515,20 +5823,24 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-058-c3"
           ],
-          "explanationHtml": "<p>次の問題（ストレージアカウントの設定）についても合わせて解説します。</p><p><code>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</code> </p><p>この要件を満たすためにBLOBの不変ストレージを利用する必要があるため、選択肢2の「Premium ファイル共有」は除外できます。</p><p><br></p><p><code>App1は、Apache Hadoopと互換性のあるデータストレージを提供する外部ストレージソリューションを使用します。</code></p><p><code>このデータストレージは、POSIXアクセス制御リスト（ACL）ファイルレベルのパーミッションをサポートしています。</code> </p><p>Hadoopと互換性があり、POSIX アクセス制御リスト (ACL) をサポートするには、Data Lake Storage Gen2 の機能を持つストレージアカウントが必要です。</p><p>Data Lake Storage Gen2 の機能を使用するには、「階層型名前空間」を持つストレージアカウントを作成します。</p><p></p><p>よって、次の問題（ストレージアカウントの設定）は「階層型名前空間」が正解となります。</p><p>「階層型名前空間」を有効化できて、かつ、不変ストレージもサポートしているのは、Standard 汎用 v2（とPremium ブロックBLOB）になります。Premium ページ BLOBでは利用できません。</p><p>よって、ストレージアカウントの種類は「Standard 汎用 v2」が正解となります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-introduction\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-introduction</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/create-data-lake-storage-account\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/create-data-lake-storage-account</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-access-control\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-access-control</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts</a></p>",
+          "explanationHtml": "<p>次の問題（ストレージアカウントの設定）についても合わせて解説します。</p><p><code>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</code> </p><p>この要件を満たすためにBLOBの不変ストレージを利用する必要があるため、選択肢2の「Premium ファイル共有」は除外できます。</p><p><br></p><p><code>App1は、Apache Hadoopと互換性のあるデータストレージを提供する外部ストレージソリューションを使用します。</code></p><p><code>このデータストレージは、POSIXアクセス制御リスト（ACL）ファイルレベルのパーミッションをサポートしています。</code> </p><p>Hadoopと互換性があり、POSIX アクセス制御リスト (ACL) をサポートするには、Data Lake Storage Gen2 の機能を持つストレージアカウントが必要です。</p><p>Data Lake Storage Gen2 の機能を使用するには、「階層型名前空間」を持つストレージアカウントを作成します。</p><p><img src=\"assets/問題集2_files/2023-01-30_05-07-15-ac68be70a0eefadb44459e8f603057ce.png\" alt=\"\" loading=\"eager\"></p><p>よって、次の問題（ストレージアカウントの設定）は「階層型名前空間」が正解となります。</p><p>「階層型名前空間」を有効化できて、かつ、不変ストレージもサポートしているのは、Standard 汎用 v2（とPremium ブロックBLOB）になります。Premium ページ BLOBでは利用できません。</p><p>よって、ストレージアカウントの種類は「Standard 汎用 v2」が正解となります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-introduction\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-introduction</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/create-data-lake-storage-account\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/create-data-lake-storage-account</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-access-control\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-access-control</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts</a></p>",
           "explanationText": "次の問題（ストレージアカウントの設定）についても合わせて解説します。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\nこの要件を満たすためにBLOBの不変ストレージを利用する必要があるため、選択肢2の「Premium ファイル共有」は除外できます。\n\nApp1は、Apache Hadoopと互換性のあるデータストレージを提供する外部ストレージソリューションを使用します。\nこのデータストレージは、POSIXアクセス制御リスト（ACL）ファイルレベルのパーミッションをサポートしています。\nHadoopと互換性があり、POSIX アクセス制御リスト (ACL) をサポートするには、Data Lake Storage Gen2 の機能を持つストレージアカウントが必要です。\nData Lake Storage Gen2 の機能を使用するには、「階層型名前空間」を持つストレージアカウントを作成します。\n\nよって、次の問題（ストレージアカウントの設定）は「階層型名前空間」が正解となります。\n「階層型名前空間」を有効化できて、かつ、不変ストレージもサポートしているのは、Standard 汎用 v2（とPremium ブロックBLOB）になります。Premium ページ BLOBでは利用できません。\nよって、ストレージアカウントの種類は「Standard 汎用 v2」が正解となります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-introduction\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/create-data-lake-storage-account\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-access-control\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png",
+            "assets/問題集2_files/2023-01-30_05-07-15-ac68be70a0eefadb44459e8f603057ce.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp2-case-001",
           "tags": [
-            "case-study"
+            "case-study",
+            "linked-question"
           ]
         },
         {
           "questionId": "jp2-q-059",
           "sourceQuestionNumber": 59,
-          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、App1用のストレージソリューションを提案する必要があります。</p><p>ソリューションは、セキュリティとコンプライアンスの要件を満たす必要があります。</p><p><strong>ストレージアカウントの設定</strong>はどれを提案すべきですか。</p><p><br></p><p>ストレージアカウントの種類：</p><p>ストレージアカウントの設定：</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p><img src=\"assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png\" alt=\"\" loading=\"eager\"></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、App1用のストレージソリューションを提案する必要があります。</p><p>ソリューションは、セキュリティとコンプライアンスの要件を満たす必要があります。</p><p><strong>ストレージアカウントの設定</strong>はどれを提案すべきですか。</p><p><br></p><p>ストレージアカウントの種類：</p><p>ストレージアカウントの設定：</p>",
           "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\n注：この問題は前の問題と2問1セットです。\n\nあなたは、App1用のストレージソリューションを提案する必要があります。\nソリューションは、セキュリティとコンプライアンスの要件を満たす必要があります。\nストレージアカウントの設定はどれを提案すべきですか。\n\nストレージアカウントの種類：\nストレージアカウントの設定：",
           "choices": [
             {
@@ -5555,18 +5867,21 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>前の問題の解説の通り、「階層型名前空間」が正解となります。</p>",
           "explanationText": "前の問題の解説の通り、「階層型名前空間」が正解となります。",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp2-case-001",
           "tags": [
-            "case-study"
+            "case-study",
+            "linked-question"
           ]
         },
         {
           "questionId": "jp2-q-060",
           "sourceQuestionNumber": 60,
-          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>あなたは App1 を Azure に移行することを計画しています。</p><p>ソリューションは、認証と承認の要件を満たす必要があります。</p><p>App1 はどの種類のエンドポイントを使用してアクセストークンを取得する必要がありますか。</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Litware社は、ボストンに本社がある中堅の金融会社です。</p><p><br></p><p><strong>■既存環境</strong></p><p><strong>既存のアイデンティティ環境</strong></p><p>ネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。</p><p>すべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。</p><p>Litware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。</p><p>litware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。</p><p>Capolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。</p><p><br></p><p><strong>既存のAzure 環境</strong></p><p>Litware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。</p><p>litware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。</p><p><br></p><p><strong>既存のオンプレミス環境</strong></p><p>Litware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。</p><p><img src=\"assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png\" alt=\"\" loading=\"eager\"></p><p><br><strong>既存のネットワーク環境</strong></p><p>Litware社は、AzureへのExpressRoute接続があります。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Litware社は、以下の変更を実施する予定です。</p><p>・DB1 と DB2 を Azure に移行する</p><p>・App1をAzureの仮想マシンに移行する</p><p>・App1が使用する外部ストレージをAzure Storageに移行する</p><p>・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする</p><p><br></p><p><strong>認証と認可の要件</strong></p><p>Litware社は、以下の認証と認可の要件を必要としています。</p><p>・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること</p><p>・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること</p><p>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</p><p>・RBAC のロールは、可能な限り高いレベルで適用すること<br></p><p><strong>弾力性の要件</strong></p><p>Litware社は以下の弾力性要件を必要としています。</p><p>Azureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p>・自動的にフェイルオーバーすること</p><p>・I/Oレイテンシーを最小限に抑えること</p><p><br></p><p>App1 は、以下の要件を満たす必要があります。</p><p>・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること</p><p>・自動スケーリングをサポートするAzure仮想マシン上でホストされていること</p><p>・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること</p><p><br></p><p><strong>セキュリティとコンプライアンスの要件</strong></p><p>Litware社は、次のセキュリティとコンプライアンス要件を必要としています。</p><p>・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること</p><p>・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること</p><p>・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること</p><p>・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること</p><p>・App1 は、他のワークロードと物理ハードウェアを共有しないこと</p><p><br></p><p><strong>ビジネス要件</strong></p><p>Litware社は、以下のビジネス要件を必要としています。</p><p>・管理作業を最小限に抑えること</p><p>・コストを最小限に抑えること</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>あなたは App1 を Azure に移行することを計画しています。</p><p>ソリューションは、認証と承認の要件を満たす必要があります。</p><p>App1 はどの種類のエンドポイントを使用してアクセストークンを取得する必要がありますか。</p>",
           "promptText": "ケーススタディ：\nLitware社は、ボストンに本社がある中堅の金融会社です。\n\n■既存環境\n既存のアイデンティティ環境\nネットワークには、litware.com という名前の Active Directory フォレストがあり、litware.com という Microsoft Entra テナントにリンクされています。\nすべてのユーザーは、Microsoft Entra ID Premium P2 ライセンスを持っています。\nLitware社は、dev.litware.com という名前の 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。\nlitware.com テナントには、Capolicy1 という名前の条件付きアクセス ポリシーがあります。\nCapolicy1 では、ユーザーが Azure ポータルを使用して本番環境の Azure サブスクリプションを管理する場合、Microsoft Entra ハイブリッド参加済みデバイスから接続する必要があります。\n\n既存のAzure 環境\nLitware社には、litware.com テナントにリンクされている 10 個の Azure サブスクリプションと、dev.litware.com テナントにリンクされている 5 個の Azure サブスクリプションがあります。すべてのサブスクリプションは、エンタープライズ アグリーメント (EA) です。\nlitware.com テナントには Role1 という名前のカスタムロールが含まれており、Azure Storage 内の BLOB およびファイルに対する DataActions の読み取り権限が付与されています。\n\n既存のオンプレミス環境\nLitware社のオンプレミス ネットワークには、次の表に示すリソースが含まれています。\n\n既存のネットワーク環境\nLitware社は、AzureへのExpressRoute接続があります。\n\n■計画されている変更と要件\nLitware社は、以下の変更を実施する予定です。\n・DB1 と DB2 を Azure に移行する\n・App1をAzureの仮想マシンに移行する\n・App1が使用する外部ストレージをAzure Storageに移行する\n・App1をホストするAzure仮想マシンをAzure専用ホストにデプロイする\n\n認証と認可の要件\nLitware社は、以下の認証と認可の要件を必要としています。\n・Azure ポータルを使用して本番環境を管理するユーザーは、Microsoft Entra に接続したハイブリッド デバイスから接続する必要があり、 Azure Multi-Factor Authentication（MFA）を使用して認証すること\n・すべての Azure サブスクリプションのすべての仮想ネットワークへのアクセスを制御するために、組み込みのRBACロールである「ネットワーク共同作成者」を使用すること\n・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\n・RBAC のロールは、可能な限り高いレベルで適用すること\n\n弾力性の要件\nLitware社は以下の弾力性要件を必要としています。\nAzureに移行した後、DB1およびDB2は、以下の要件を満たす必要があります。\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n・自動的にフェイルオーバーすること\n・I/Oレイテンシーを最小限に抑えること\n\nApp1 は、以下の要件を満たす必要があります。\n・可用性ゾーンをサポートする単一のAzureリージョンでホストされていること\n・自動スケーリングをサポートするAzure仮想マシン上でホストされていること\n・Azureのローカルリージョンにある2つの可用性ゾーンに障害が発生しても、可用性を維持できること\n\nセキュリティとコンプライアンスの要件\nLitware社は、次のセキュリティとコンプライアンス要件を必要としています。\n・App1 が Azure に移行されたら、新しいデータをアプリが書き込むことができるようにし、新規および既存のデータを3年間変更できないようにすること\n・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできること\n・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを禁止すること\n・本番環境のすべての Azure SQL Databaseで、透過的なデータ暗号化（TDE）が有効になっていること\n・App1 は、他のワークロードと物理ハードウェアを共有しないこと\n\nビジネス要件\nLitware社は、以下のビジネス要件を必要としています。\n・管理作業を最小限に抑えること\n・コストを最小限に抑えること\n\n設問\nあなたは App1 を Azure に移行することを計画しています。\nソリューションは、認証と承認の要件を満たす必要があります。\nApp1 はどの種類のエンドポイントを使用してアクセストークンを取得する必要がありますか。",
           "choices": [
             {
@@ -5597,9 +5912,16 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp2-q-060-c1"
           ],
-          "explanationHtml": "<p><code>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</code></p><p>App1をAzureに移行する場合、Linux仮想マシン上にアプリをホストし、マネージドIDを使用することになります。</p><p>実行中の仮想マシンに関する情報（メタデータ）を提供するエンドポイントとして、Azure Instance Metadata Service (IMDS) があります。</p><p>IMDSは、既知のルーティング不可能な IP アドレス (169.254.169.254) で使用できる REST API で、VM 内からのみアクセスできます。</p><p><br></p><p>たとえば、<code>http://169.254.169.254/metadata/instance/</code> では仮想マシン（自分自身）のリージョン、サイズ、タグなどの情報を取得することができます。</p><p>また、<code>http://169.254.169.254/metadata/identity/</code> ではマネージドIDのアクセストークンを取得することができます。</p><p>マネージドIDを使用する場合、内部的には IMDS&nbsp;からアクセストークンを取得し、Azureリソースにアクセスしているわけです。</p><p><br></p><p></p><p><br></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/how-managed-identities-work-vm\">Azure リソースのマネージド ID と Azure 仮想マシンの連携</a></p><p><br></p><p>以下は、VM上でcurlコマンドを使ってAPIをコールした実行例です。</p><p>ほとんどぼかしていますが、access_token が取得できていることがわかります。</p><p></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/linux/instance-metadata-service?tabs=linux\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/linux/instance-metadata-service?tabs=linux</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/how-to-use-vm-token\">https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/how-to-use-vm-token</a></p><p><br></p><p>最後に、解説で使用した比較表をまとめて添付しておきますので、見返したいときにご活用ください。（全ての演習テストの最後の解説に添付しておきます）</p><p><br></p><p><strong>ストレージアカウントの比較</strong></p><p></p><p><br></p><p><strong>負荷分散オプションの比較</strong></p><p></p><p><br></p><p><strong>Azure SQL Databaseの比較</strong></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla\">枠外の参考リンク：Azure SQL Database と SQL Managed Instance の高可用性</a></p><p></p>",
+          "explanationHtml": "<p><code>・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること</code></p><p>App1をAzureに移行する場合、Linux仮想マシン上にアプリをホストし、マネージドIDを使用することになります。</p><p>実行中の仮想マシンに関する情報（メタデータ）を提供するエンドポイントとして、Azure Instance Metadata Service (IMDS) があります。</p><p>IMDSは、既知のルーティング不可能な IP アドレス (169.254.169.254) で使用できる REST API で、VM 内からのみアクセスできます。</p><p><br></p><p>たとえば、<code>http://169.254.169.254/metadata/instance/</code> では仮想マシン（自分自身）のリージョン、サイズ、タグなどの情報を取得することができます。</p><p>また、<code>http://169.254.169.254/metadata/identity/</code> ではマネージドIDのアクセストークンを取得することができます。</p><p>マネージドIDを使用する場合、内部的には IMDS&nbsp;からアクセストークンを取得し、Azureリソースにアクセスしているわけです。</p><p><br></p><p><img src=\"assets/問題集2_files/2023-01-30_06-18-10-467b7efb1893968da1f525a72f63e67c.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/how-managed-identities-work-vm\">Azure リソースのマネージド ID と Azure 仮想マシンの連携</a></p><p><br></p><p>以下は、VM上でcurlコマンドを使ってAPIをコールした実行例です。</p><p>ほとんどぼかしていますが、access_token が取得できていることがわかります。</p><p><img src=\"assets/問題集2_files/2023-01-30_06-18-10-ceb68d83795292d03dcaffd7495a7119.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/linux/instance-metadata-service?tabs=linux\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/linux/instance-metadata-service?tabs=linux</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/how-to-use-vm-token\">https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/how-to-use-vm-token</a></p><p><br></p><p>最後に、解説で使用した比較表をまとめて添付しておきますので、見返したいときにご活用ください。（全ての演習テストの最後の解説に添付しておきます）</p><p><br></p><p><strong>ストレージアカウントの比較</strong></p><p><img src=\"assets/問題集2_files/2023-02-07_05-36-29-25d2f59f627cacbe1d209eb0d9c4ad09.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p><strong>負荷分散オプションの比較</strong></p><p><img src=\"assets/問題集2_files/2023-02-07_05-36-30-8da7a1b8fcf0169b8fb07ca0ec10f796.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p><strong>Azure SQL Databaseの比較</strong></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla\">枠外の参考リンク：Azure SQL Database と SQL Managed Instance の高可用性</a></p><p><img src=\"assets/問題集2_files/2023-02-07_05-36-30-091dfa71abd367781962c63f74c343b0.png\" alt=\"\" loading=\"eager\"></p>",
           "explanationText": "・Azure のリソースにアクセスするために、App1 は、アプリをホストする仮想マシンのマネージド ID を使用すること\nApp1をAzureに移行する場合、Linux仮想マシン上にアプリをホストし、マネージドIDを使用することになります。\n実行中の仮想マシンに関する情報（メタデータ）を提供するエンドポイントとして、Azure Instance Metadata Service (IMDS) があります。\nIMDSは、既知のルーティング不可能な IP アドレス (169.254.169.254) で使用できる REST API で、VM 内からのみアクセスできます。\n\nたとえば、http://169.254.169.254/metadata/instance/ では仮想マシン（自分自身）のリージョン、サイズ、タグなどの情報を取得することができます。\nまた、http://169.254.169.254/metadata/identity/ ではマネージドIDのアクセストークンを取得することができます。\nマネージドIDを使用する場合、内部的には IMDS からアクセストークンを取得し、Azureリソースにアクセスしているわけです。\n\n出典：Azure リソースのマネージド ID と Azure 仮想マシンの連携\n\n以下は、VM上でcurlコマンドを使ってAPIをコールした実行例です。\nほとんどぼかしていますが、access_token が取得できていることがわかります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machines/linux/instance-metadata-service?tabs=linux\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/how-to-use-vm-token\n\n最後に、解説で使用した比較表をまとめて添付しておきますので、見返したいときにご活用ください。（全ての演習テストの最後の解説に添付しておきます）\n\nストレージアカウントの比較\n\n負荷分散オプションの比較\n\nAzure SQL Databaseの比較\n枠外の参考リンク：Azure SQL Database と SQL Managed Instance の高可用性",
-          "images": [],
+          "images": [
+            "assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png",
+            "assets/問題集2_files/2023-01-30_06-18-10-467b7efb1893968da1f525a72f63e67c.png",
+            "assets/問題集2_files/2023-01-30_06-18-10-ceb68d83795292d03dcaffd7495a7119.png",
+            "assets/問題集2_files/2023-02-07_05-36-29-25d2f59f627cacbe1d209eb0d9c4ad09.png",
+            "assets/問題集2_files/2023-02-07_05-36-30-8da7a1b8fcf0169b8fb07ca0ec10f796.png",
+            "assets/問題集2_files/2023-02-07_05-36-30-091dfa71abd367781962c63f74c343b0.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp2-case-001",
@@ -5612,7 +5934,7 @@ window.QUIZ_DATA = {
     "jp3-set-001": {
       "setId": "jp3-set-001",
       "title": "問題集3 01-10",
-      "sourceHtml": "udemy/問題集3.html",
+      "sourceHtml": "assets/問題集3.html",
       "questionIds": [
         "jp3-q-001",
         "jp3-q-002",
@@ -5702,9 +6024,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-002-c2"
           ],
-          "explanationHtml": "<p><code>・5年間アーカイブすること</code></p><p><code>・ログファイルはApp1によって読み取り可能かつ、変更不可であること</code> </p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><br></p><p>不変ストレージには次の２種類のポリシーがあります。</p><p>・時間ベースのアイテム保持ポリシー</p><p>・訴訟ホールドポリシー</p><p><br></p><p>時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。</p><p><br></p><p>Azureポータルのストレージアカウント &gt; コンテナー &gt; アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。</p><p></p><p>なお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p>",
+          "explanationHtml": "<p><code>・5年間アーカイブすること</code></p><p><code>・ログファイルはApp1によって読み取り可能かつ、変更不可であること</code> </p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><br></p><p>不変ストレージには次の２種類のポリシーがあります。</p><p>・時間ベースのアイテム保持ポリシー</p><p>・訴訟ホールドポリシー</p><p><br></p><p>時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。</p><p><br></p><p>Azureポータルのストレージアカウント &gt; コンテナー &gt; アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。</p><p><img src=\"assets/問題集3_files/2023-01-12_05-03-46-d963e73393a34d3d6e8e55e1b847fcb5.png\" alt=\"\" loading=\"eager\"></p><p>なお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p>",
           "explanationText": "・5年間アーカイブすること\n・ログファイルはApp1によって読み取り可能かつ、変更不可であること\nこの要件を満たすためにはBLOBの不変ストレージを利用します。\n不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。\n\n不変ストレージには次の２種類のポリシーがあります。\n・時間ベースのアイテム保持ポリシー\n・訴訟ホールドポリシー\n\n時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。\n\nAzureポータルのストレージアカウント > コンテナー > アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。\n\nなお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-12_05-03-46-d963e73393a34d3d6e8e55e1b847fcb5.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -5732,13 +6056,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-003-c2"
           ],
-          "explanationHtml": "<p>リソースロックは、作成したリソースを誤って削除してしまわないようにするための機能なので誤りです。</p><p>代わりに、Azure Policyを使用します。</p><p><br></p><p>Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。</p><p>例えば、「日本のリージョン以外のリソースの作成を拒否する」とか「仮想マシンの作成を特定のサイズに限定する」といったことが可能です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/overview\">https://learn.microsoft.com/ja-jp/azure/governance/policy/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\">https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources?tabs=json\">https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources?tabs=json</a></p>",
+          "explanationHtml": "<p>リソースロックは、作成したリソースを誤って削除してしまわないようにするための機能なので誤りです。</p><p>代わりに、Azure Policyを使用します。</p><p><br></p><p>Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。</p><p>例えば、「日本のリージョン以外のリソースの作成を拒否する」とか「仮想マシンの作成を特定のサイズに限定する」といったことが可能です。</p><img src=\"assets/問題集3_files/2023-01-24_05-49-33-17600150614f141b8de3caaf585b4fed.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/overview\">https://learn.microsoft.com/ja-jp/azure/governance/policy/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\">https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources?tabs=json\">https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources?tabs=json</a></p>",
           "explanationText": "リソースロックは、作成したリソースを誤って削除してしまわないようにするための機能なので誤りです。\n代わりに、Azure Policyを使用します。\n\nAzure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。\n例えば、「日本のリージョン以外のリソースの作成を拒否する」とか「仮想マシンの作成を特定のサイズに限定する」といったことが可能です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/overview\nhttps://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\nhttps://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources?tabs=json",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-24_05-49-33-17600150614f141b8de3caaf585b4fed.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-001",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-004",
@@ -5762,13 +6090,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-004-c1"
           ],
-          "explanationHtml": "<p>Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。</p><p>Azure Policyの一つ一つのルールのことを「ポリシー定義」と呼び、複数のポリシー定義をひとまとめにしたものを「イニシアチブ定義」と呼びます。</p><p><br></p><p>「許可されている場所」の組み込みポリシー定義を使用すれば、Azureリソースをデプロイするリージョンを制限することができます。なお、このポリシー定義を含むイニシアチブ定義を作成し、それを適用しても問題ありません。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/overview\">https://learn.microsoft.com/ja-jp/azure/governance/policy/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\">https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies</a></p>",
+          "explanationHtml": "<p>Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。</p><p>Azure Policyの一つ一つのルールのことを「ポリシー定義」と呼び、複数のポリシー定義をひとまとめにしたものを「イニシアチブ定義」と呼びます。</p><p><br></p><p>「許可されている場所」の組み込みポリシー定義を使用すれば、Azureリソースをデプロイするリージョンを制限することができます。なお、このポリシー定義を含むイニシアチブ定義を作成し、それを適用しても問題ありません。</p><img src=\"assets/問題集3_files/2023-01-24_06-07-40-f27e0f0e158ba678c07920cea3afc378.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/overview\">https://learn.microsoft.com/ja-jp/azure/governance/policy/overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies\">https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies</a></p>",
           "explanationText": "Azure Policyは、Azureでシステムを運用する上でのルールを適用したり、そのルールに準拠しているか評価するためのサービスです。\nAzure Policyの一つ一つのルールのことを「ポリシー定義」と呼び、複数のポリシー定義をひとまとめにしたものを「イニシアチブ定義」と呼びます。\n\n「許可されている場所」の組み込みポリシー定義を使用すれば、Azureリソースをデプロイするリージョンを制限することができます。なお、このポリシー定義を含むイニシアチブ定義を作成し、それを適用しても問題ありません。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/overview\nhttps://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/manage/azure-server-management/common-policies",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-24_06-07-40-f27e0f0e158ba678c07920cea3afc378.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-001",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-005",
@@ -5804,9 +6136,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-005-c4"
           ],
-          "explanationHtml": "<p>Azureの負荷分散オプションは大きく次の4種類がありますが、選択肢のうち問題文に示された要件を満たすのは「Azure Application Gateway」のみです。</p><p><br></p><p>なお、ラウンドロビンとはバックエンドにある複数のサーバに対して順繰りに割り振っていく方式のことです。Azure Application Gatewayの他にもAzure Front Door（重み付け）、Traffic Manager（重み付け）でもサポートされています。Azure Load Balancerは、ハッシュ値（5タプル）を元に振り分け先を決定する方式です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/application-gateway/how-application-gateway-works\">https://learn.microsoft.com/ja-jp/azure/application-gateway/how-application-gateway-works</a></p>",
+          "explanationHtml": "<p>Azureの負荷分散オプションは大きく次の4種類がありますが、選択肢のうち問題文に示された要件を満たすのは「Azure Application Gateway」のみです。</p><img src=\"assets/問題集3_files/2023-01-10_13-08-13-8126e4c5f0546e2695900d56f48c8332.png\" alt=\"\" loading=\"eager\"><p><br></p><p>なお、ラウンドロビンとはバックエンドにある複数のサーバに対して順繰りに割り振っていく方式のことです。Azure Application Gatewayの他にもAzure Front Door（重み付け）、Traffic Manager（重み付け）でもサポートされています。Azure Load Balancerは、ハッシュ値（5タプル）を元に振り分け先を決定する方式です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/application-gateway/how-application-gateway-works\">https://learn.microsoft.com/ja-jp/azure/application-gateway/how-application-gateway-works</a></p>",
           "explanationText": "Azureの負荷分散オプションは大きく次の4種類がありますが、選択肢のうち問題文に示された要件を満たすのは「Azure Application Gateway」のみです。\n\nなお、ラウンドロビンとはバックエンドにある複数のサーバに対して順繰りに割り振っていく方式のことです。Azure Application Gatewayの他にもAzure Front Door（重み付け）、Traffic Manager（重み付け）でもサポートされています。Azure Load Balancerは、ハッシュ値（5タプル）を元に振り分け先を決定する方式です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\nhttps://learn.microsoft.com/ja-jp/azure/application-gateway/how-application-gateway-works",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-10_13-08-13-8126e4c5f0546e2695900d56f48c8332.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -5840,9 +6174,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-006-c1"
           ],
-          "explanationHtml": "<p>Azureポータルの「予約」メニューで SQL Database を選択して進めることで確認することができます。</p><p></p><p>\n【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql#buy-reserved-capacity\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql#buy-reserved-capacity</a></p>",
+          "explanationHtml": "<p>Azureポータルの「予約」メニューで SQL Database を選択して進めることで確認することができます。</p><p><img src=\"assets/問題集3_files/2023-01-19_06-14-02-56f5902ad6fa7a5b8ac65b4a8f810165.png\" alt=\"\" loading=\"eager\"></p><p>\n【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql#buy-reserved-capacity\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql#buy-reserved-capacity</a></p>",
           "explanationText": "Azureポータルの「予約」メニューで SQL Database を選択して進めることで確認することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql#buy-reserved-capacity",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-19_06-14-02-56f5902ad6fa7a5b8ac65b4a8f810165.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -5882,9 +6218,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-007-c1"
           ],
-          "explanationHtml": "<p>*.bak などのファイルベースのデータベースのバックアップの保存先としてAzure SQL Databaseは利用できないため選択肢2は誤りです。</p><p><br></p><p>残りの選択肢のうち、BLOBストレージがより安価に保存することができて、かつ、「バックアップがデータを回復するために使用されることはめったにありません」とあることから、選択肢1の「アーカイブ層を使用するAzure Blobストレージ」が最もコストを抑えることができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview </a></p>",
+          "explanationHtml": "<p>*.bak などのファイルベースのデータベースのバックアップの保存先としてAzure SQL Databaseは利用できないため選択肢2は誤りです。</p><p><br></p><p>残りの選択肢のうち、BLOBストレージがより安価に保存することができて、かつ、「バックアップがデータを回復するために使用されることはめったにありません」とあることから、選択肢1の「アーカイブ層を使用するAzure Blobストレージ」が最もコストを抑えることができます。</p><img src=\"assets/問題集3_files/2023-01-12_06-26-41-9efe624e8cff06c9d018e7d49c57afef.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview </a></p>",
           "explanationText": "*.bak などのファイルベースのデータベースのバックアップの保存先としてAzure SQL Databaseは利用できないため選択肢2は誤りです。\n\n残りの選択肢のうち、BLOBストレージがより安価に保存することができて、かつ、「バックアップがデータを回復するために使用されることはめったにありません」とあることから、選択肢1の「アーカイブ層を使用するAzure Blobストレージ」が最もコストを抑えることができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-12_06-26-41-9efe624e8cff06c9d018e7d49c57afef.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -5912,9 +6250,13 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-008-c1"
           ],
-          "explanationHtml": "<p>Azure Backup では、オンプレミスのサーバや Azure VM からファイル、フォルダー、システムの状態をバックアップする目的で Microsoft Azure Recovery Services (MARS) エージェントを使用することができます。MARS は Azure Backup エージェントとも呼ばれます。</p><p><br></p><p>詳細は公式ドキュメントに記載がありますが、手順を簡単にご紹介します。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/install-mars-agent\">https://learn.microsoft.com/ja-jp/azure/backup/install-mars-agent</a></p><p><br></p><p>1.Recovery Servicesコンテナーを作成後、MARSエージェントをダウンロードする</p><p>どこのサーバで何をバックアップするかを指定して「インフラストラクチャの準備」を押すと必要な手順が示され、エージェントもダウンロードできます。</p><p><br></p><p>MARSエージェントとRSコンテナーに接続するための資格情報をダウンロードします。</p><p><br></p><p>2.エージェントのインストールとバックアップのスケジュール</p><p>バックアップ対象のサーバ上でエージェントをインストール後、ウィザードに従ってバックアップをスケジュールします。</p>",
+          "explanationHtml": "<p>Azure Backup では、オンプレミスのサーバや Azure VM からファイル、フォルダー、システムの状態をバックアップする目的で Microsoft Azure Recovery Services (MARS) エージェントを使用することができます。MARS は Azure Backup エージェントとも呼ばれます。</p><p><br></p><p>詳細は公式ドキュメントに記載がありますが、手順を簡単にご紹介します。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/install-mars-agent\">https://learn.microsoft.com/ja-jp/azure/backup/install-mars-agent</a></p><p><br></p><p>1.Recovery Servicesコンテナーを作成後、MARSエージェントをダウンロードする</p><p>どこのサーバで何をバックアップするかを指定して「インフラストラクチャの準備」を押すと必要な手順が示され、エージェントもダウンロードできます。</p><img src=\"assets/問題集3_files/2023-01-23_02-53-52-3bbd679669e6f6dfc7ac02ed067b573f.png\" alt=\"\" loading=\"eager\"><p><br></p><p>MARSエージェントとRSコンテナーに接続するための資格情報をダウンロードします。</p><img src=\"assets/問題集3_files/2023-01-23_02-53-53-581b8c31a21881bce48f900ed3b88503.png\" alt=\"\" loading=\"eager\"><p><br></p><p>2.エージェントのインストールとバックアップのスケジュール</p><p>バックアップ対象のサーバ上でエージェントをインストール後、ウィザードに従ってバックアップをスケジュールします。</p><img src=\"assets/問題集3_files/2023-01-23_02-53-53-b62b3f453bb33e9a5b78bbb9f65177cf.png\" alt=\"\" loading=\"eager\">",
           "explanationText": "Azure Backup では、オンプレミスのサーバや Azure VM からファイル、フォルダー、システムの状態をバックアップする目的で Microsoft Azure Recovery Services (MARS) エージェントを使用することができます。MARS は Azure Backup エージェントとも呼ばれます。\n\n詳細は公式ドキュメントに記載がありますが、手順を簡単にご紹介します。\nhttps://learn.microsoft.com/ja-jp/azure/backup/install-mars-agent\n\n1.Recovery Servicesコンテナーを作成後、MARSエージェントをダウンロードする\nどこのサーバで何をバックアップするかを指定して「インフラストラクチャの準備」を押すと必要な手順が示され、エージェントもダウンロードできます。\n\nMARSエージェントとRSコンテナーに接続するための資格情報をダウンロードします。\n\n2.エージェントのインストールとバックアップのスケジュール\nバックアップ対象のサーバ上でエージェントをインストール後、ウィザードに従ってバックアップをスケジュールします。",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-23_02-53-52-3bbd679669e6f6dfc7ac02ed067b573f.png",
+            "assets/問題集3_files/2023-01-23_02-53-53-581b8c31a21881bce48f900ed3b88503.png",
+            "assets/問題集3_files/2023-01-23_02-53-53-b62b3f453bb33e9a5b78bbb9f65177cf.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -5953,8 +6295,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-002",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-010",
@@ -5984,20 +6328,24 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-010-c1"
           ],
-          "explanationHtml": "<p><code>・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること</code></p><p>データベースへのトラフィック負荷を減らすために、別のリージョンにコピー（geoレプリカ）を作成するには次のいずれかの機能が利用できます。</p><p><br></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/auto-failover-group-sql-db?view=azuresql&amp;tabs=azure-powershell\">自動フェールオーバーグループ</a></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/active-geo-replication-overview?view=azuresql\">アクティブgeoレプリケーション</a>　（SQL&nbsp;Managed Instanceではサポート外）</p><p><br></p><p><code>・ビジネス継続性を実装し維持するための管理労力を最小化すること</code> </p><p>どちらとも読み取り専用ワークロードの負荷軽減で利用できますが、いくつかの異なる点があります。「自動フェールオーバーグループ」が後発の機能なので、優れている点がいくつかあります。</p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql#compare-geo-replication-with-failover-groups\">geo レプリケーションとフェールオーバー グループを比較する</a></p><p><br></p><p>ビジネス継続性の観点では、リージョン障害発生時のフェールオーバーが自動化されているかどうかは重要な点です。「自動フェールオーバーグループ」では、その名の通り自動的にフェールオーバーされ、かつ、SQL Databaseへ接続するための接続文字列を更新する必要もありません。</p><p>よって、選択肢1の「自動フェールオーバーグループ」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/read-scale-out?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/read-scale-out?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql</a></p>",
+          "explanationHtml": "<p><code>・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること</code></p><p>データベースへのトラフィック負荷を減らすために、別のリージョンにコピー（geoレプリカ）を作成するには次のいずれかの機能が利用できます。</p><p><br></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/auto-failover-group-sql-db?view=azuresql&amp;tabs=azure-powershell\">自動フェールオーバーグループ</a></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/active-geo-replication-overview?view=azuresql\">アクティブgeoレプリケーション</a>　（SQL&nbsp;Managed Instanceではサポート外）</p><p><br></p><p><code>・ビジネス継続性を実装し維持するための管理労力を最小化すること</code> </p><p>どちらとも読み取り専用ワークロードの負荷軽減で利用できますが、いくつかの異なる点があります。「自動フェールオーバーグループ」が後発の機能なので、優れている点がいくつかあります。</p><img src=\"assets/問題集3_files/2023-01-19_07-02-50-92392b240bf3f1901d970e53c630778c.png\" alt=\"\" loading=\"eager\"><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql#compare-geo-replication-with-failover-groups\">geo レプリケーションとフェールオーバー グループを比較する</a></p><p><br></p><p>ビジネス継続性の観点では、リージョン障害発生時のフェールオーバーが自動化されているかどうかは重要な点です。「自動フェールオーバーグループ」では、その名の通り自動的にフェールオーバーされ、かつ、SQL Databaseへ接続するための接続文字列を更新する必要もありません。</p><p>よって、選択肢1の「自動フェールオーバーグループ」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/read-scale-out?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/read-scale-out?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql</a></p>",
           "explanationText": "・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること\nデータベースへのトラフィック負荷を減らすために、別のリージョンにコピー（geoレプリカ）を作成するには次のいずれかの機能が利用できます。\n\n・自動フェールオーバーグループ\n・アクティブgeoレプリケーション　（SQL Managed Instanceではサポート外）\n\n・ビジネス継続性を実装し維持するための管理労力を最小化すること\nどちらとも読み取り専用ワークロードの負荷軽減で利用できますが、いくつかの異なる点があります。「自動フェールオーバーグループ」が後発の機能なので、優れている点がいくつかあります。\n出典：geo レプリケーションとフェールオーバー グループを比較する\n\nビジネス継続性の観点では、リージョン障害発生時のフェールオーバーが自動化されているかどうかは重要な点です。「自動フェールオーバーグループ」では、その名の通り自動的にフェールオーバーされ、かつ、SQL Databaseへ接続するための接続文字列を更新する必要もありません。\nよって、選択肢1の「自動フェールオーバーグループ」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/read-scale-out?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview?view=azuresql",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-19_07-02-50-92392b240bf3f1901d970e53c630778c.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-002",
+          "tags": [
+            "linked-question"
+          ]
         }
       ]
     },
     "jp3-set-002": {
       "setId": "jp3-set-002",
       "title": "問題集3 11-20",
-      "sourceHtml": "udemy/問題集3.html",
+      "sourceHtml": "assets/問題集3.html",
       "questionIds": [
         "jp3-q-011",
         "jp3-q-012",
@@ -6045,13 +6393,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-011-c1"
           ],
-          "explanationHtml": "<p>Azure Databricksは、Apache Sparkに基づくビッグ データおよび機械学習のプラットフォームです。</p><p>Apache Sparkとは、ビッグデータと機械学習のための非常に高速な分散処理フレームワークです。</p><p>Azure Databricksでは、コマンドを実行するコンピューティングリソースと構成を「クラスター」という単位で作成します。</p><p>クラスターで「Azure Data Lake Storage 資格情報（クレデンシャル）パススルー」を有効にすると、そのクラスターで実行するコマンドは、ストレージにアクセスするためのサービス プリンシパルを構成しなくても（Microsoft EntraのIDを使って）、Azure Data Lake Storage のデータの読み取りと書き込みができるようになります。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/databricks/introduction/\">https://learn.microsoft.com/ja-jp/azure/databricks/introduction/</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/databricks/data-governance/credential-passthrough/adls-passthrough\">https://learn.microsoft.com/ja-jp/azure/databricks/data-governance/credential-passthrough/adls-passthrough</a></p>",
+          "explanationHtml": "<p>Azure Databricksは、Apache Sparkに基づくビッグ データおよび機械学習のプラットフォームです。</p><p>Apache Sparkとは、ビッグデータと機械学習のための非常に高速な分散処理フレームワークです。</p><p>Azure Databricksでは、コマンドを実行するコンピューティングリソースと構成を「クラスター」という単位で作成します。</p><p>クラスターで「Azure Data Lake Storage 資格情報（クレデンシャル）パススルー」を有効にすると、そのクラスターで実行するコマンドは、ストレージにアクセスするためのサービス プリンシパルを構成しなくても（Microsoft EntraのIDを使って）、Azure Data Lake Storage のデータの読み取りと書き込みができるようになります。</p><p><img src=\"assets/問題集3_files/2023-02-05_05-40-27-b4b99825686027b91ae927756d19532d.png\" alt=\"\" loading=\"eager\"></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/databricks/introduction/\">https://learn.microsoft.com/ja-jp/azure/databricks/introduction/</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/databricks/data-governance/credential-passthrough/adls-passthrough\">https://learn.microsoft.com/ja-jp/azure/databricks/data-governance/credential-passthrough/adls-passthrough</a></p>",
           "explanationText": "Azure Databricksは、Apache Sparkに基づくビッグ データおよび機械学習のプラットフォームです。\nApache Sparkとは、ビッグデータと機械学習のための非常に高速な分散処理フレームワークです。\nAzure Databricksでは、コマンドを実行するコンピューティングリソースと構成を「クラスター」という単位で作成します。\nクラスターで「Azure Data Lake Storage 資格情報（クレデンシャル）パススルー」を有効にすると、そのクラスターで実行するコマンドは、ストレージにアクセスするためのサービス プリンシパルを構成しなくても（Microsoft EntraのIDを使って）、Azure Data Lake Storage のデータの読み取りと書き込みができるようになります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/databricks/introduction/\nhttps://learn.microsoft.com/ja-jp/azure/databricks/data-governance/credential-passthrough/adls-passthrough",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-02-05_05-40-27-b4b99825686027b91ae927756d19532d.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-002",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-012",
@@ -6086,8 +6438,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-002",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-013",
@@ -6123,9 +6477,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-013-c2"
           ],
-          "explanationHtml": "<p>Azureではコンテナのホスティング環境としていくつかのサービスが提供されていますが、示された要件を満たすのは選択肢2の「(コンテナを使用する)Azure App Service」のみです。※コンテナは必須条件ではありません</p><p><br></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started?toc=%2Fazure%2Fapp-service%2Ftoc.json\">自動スケール</a></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/deploy-continuous-deployment?tabs=github#option-1-use-app-service-kudu-build-server\">継続的デプロイ</a></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/overview-authentication-authorization\">組み込み認証 (EasyAuth)</a></p><p><br></p><p>App Serviceでは、JavaやPythonなど言語を選択してコードをデプロイしたり、アプリをコンテナ化してデプロイすることができます。</p><p></p><p><br></p><p>なお、Azure Kubernetes Service&nbsp; (AKS) も自動スケール、継続的デプロイがサポートされていますが、EasyAuth のような組み込みのユーザー認証機能は提供されていません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/overview\">https://learn.microsoft.com/ja-jp/azure/app-service/overview</a></p>",
+          "explanationHtml": "<p>Azureではコンテナのホスティング環境としていくつかのサービスが提供されていますが、示された要件を満たすのは選択肢2の「(コンテナを使用する)Azure App Service」のみです。※コンテナは必須条件ではありません</p><p><br></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started?toc=%2Fazure%2Fapp-service%2Ftoc.json\">自動スケール</a></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/deploy-continuous-deployment?tabs=github#option-1-use-app-service-kudu-build-server\">継続的デプロイ</a></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/overview-authentication-authorization\">組み込み認証 (EasyAuth)</a></p><p><br></p><p>App Serviceでは、JavaやPythonなど言語を選択してコードをデプロイしたり、アプリをコンテナ化してデプロイすることができます。</p><p><img src=\"assets/問題集3_files/2023-01-16_02-04-08-0a383960c49ead2ced005f372f0120e9.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>なお、Azure Kubernetes Service&nbsp; (AKS) も自動スケール、継続的デプロイがサポートされていますが、EasyAuth のような組み込みのユーザー認証機能は提供されていません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/overview\">https://learn.microsoft.com/ja-jp/azure/app-service/overview</a></p>",
           "explanationText": "Azureではコンテナのホスティング環境としていくつかのサービスが提供されていますが、示された要件を満たすのは選択肢2の「(コンテナを使用する)Azure App Service」のみです。※コンテナは必須条件ではありません\n\n・自動スケール\n・継続的デプロイ\n・組み込み認証 (EasyAuth)\n\nApp Serviceでは、JavaやPythonなど言語を選択してコードをデプロイしたり、アプリをコンテナ化してデプロイすることができます。\n\nなお、Azure Kubernetes Service  (AKS) も自動スケール、継続的デプロイがサポートされていますが、EasyAuth のような組み込みのユーザー認証機能は提供されていません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/app-service/overview",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-16_02-04-08-0a383960c49ead2ced005f372f0120e9.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -6165,9 +6521,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-014-c3"
           ],
-          "explanationHtml": "<p>LinuxベースのDockerコンテナーをホストして要件を満たすような構成にするには、選択肢4の「Azure Container Registry」以外が利用できます。</p><p>Azure Container Registryは、コンテナーイメージを登録するためのサービスなので誤りです。</p><p><br></p><p>残りの3つのうち、コストを最小限に抑えることができるのは選択肢3の「Azure Container Instance」です。</p><p>Azure Container Instanceは、コンテナグループに割り当てるvCPUとメモリに応じて<em>秒単位</em>で<em>課金されます。</em></p><p>なお、収録時点ではAzureポータルから複数コンテナーをデプロイできないようなので、Azure CLIやARMテンプレートを使用する必要があります。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-container-groups\">https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-container-groups</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-multi-container-yaml\">https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-multi-container-yaml</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-restart-policy\">https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-restart-policy</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/container-instances/\">https://azure.microsoft.com/ja-jp/pricing/details/container-instances/</a></p>",
+          "explanationHtml": "<p>LinuxベースのDockerコンテナーをホストして要件を満たすような構成にするには、選択肢4の「Azure Container Registry」以外が利用できます。</p><p>Azure Container Registryは、コンテナーイメージを登録するためのサービスなので誤りです。</p><p><br></p><p>残りの3つのうち、コストを最小限に抑えることができるのは選択肢3の「Azure Container Instance」です。</p><p>Azure Container Instanceは、コンテナグループに割り当てるvCPUとメモリに応じて<em>秒単位</em>で<em>課金されます。</em></p><p>なお、収録時点ではAzureポータルから複数コンテナーをデプロイできないようなので、Azure CLIやARMテンプレートを使用する必要があります。</p><img src=\"assets/問題集3_files/2023-01-26_07-58-28-01a55edacbf3d31358f70dc8f90dda3a.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-container-groups\">https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-container-groups</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-multi-container-yaml\">https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-multi-container-yaml</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-restart-policy\">https://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-restart-policy</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/container-instances/\">https://azure.microsoft.com/ja-jp/pricing/details/container-instances/</a></p>",
           "explanationText": "LinuxベースのDockerコンテナーをホストして要件を満たすような構成にするには、選択肢4の「Azure Container Registry」以外が利用できます。\nAzure Container Registryは、コンテナーイメージを登録するためのサービスなので誤りです。\n\n残りの3つのうち、コストを最小限に抑えることができるのは選択肢3の「Azure Container Instance」です。\nAzure Container Instanceは、コンテナグループに割り当てるvCPUとメモリに応じて秒単位で課金されます。\nなお、収録時点ではAzureポータルから複数コンテナーをデプロイできないようなので、Azure CLIやARMテンプレートを使用する必要があります。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-container-groups\nhttps://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-multi-container-yaml\nhttps://learn.microsoft.com/ja-jp/azure/container-instances/container-instances-restart-policy\nhttps://azure.microsoft.com/ja-jp/pricing/details/container-instances/",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-26_07-58-28-01a55edacbf3d31358f70dc8f90dda3a.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -6195,9 +6553,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-015-c2"
           ],
-          "explanationHtml": "<p>代わりにAzure Front Doorを使用する必要があります。</p><p><br></p><p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p><code>・レート制限をサポートすること</code></p><p>負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）</p><p><br></p><p><code>・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること</code></p><p>リージョン障害から保護するにはグローバルサービスを選択する必要があります。</p><p>なお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。</p><p>・グローバルかリージョンサービスか</p><p>・レート制限の機能の有無</p><p>・コンテンツキャッシュの機能の有無</p><p><br></p><p><code>・すべてのインスタンス間でリクエストのバランスをとること</code></p><p>これはどの負荷分散オプションでも可能です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><br></p>",
+          "explanationHtml": "<p>代わりにAzure Front Doorを使用する必要があります。</p><p><br></p><p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><img src=\"assets/問題集3_files/2023-01-10_13-14-40-f83c8783905f238aa620ec102566d05d.png\" alt=\"\" loading=\"eager\"><p><code>・レート制限をサポートすること</code></p><p>負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）</p><p><br></p><p><code>・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること</code></p><p>リージョン障害から保護するにはグローバルサービスを選択する必要があります。</p><p>なお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。</p><p>・グローバルかリージョンサービスか</p><p>・レート制限の機能の有無</p><p>・コンテンツキャッシュの機能の有無</p><p><br></p><p><code>・すべてのインスタンス間でリクエストのバランスをとること</code></p><p>これはどの負荷分散オプションでも可能です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p><p><br></p>",
           "explanationText": "代わりにAzure Front Doorを使用する必要があります。\n\nAzureの負荷分散オプションは大きく次の4種類があります。\n細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。\n・レート制限をサポートすること\n負荷分散オプションで「レート制限」ときたらAzure Front Door一択です。他の負荷分散オプションではサポートされていません（主旨が異なりますが、Azure API Managementでも「レート制限」というキーワードは登場します）\n\n・リージョンで障害が発生した場合でも、ユーザーがアプリにアクセスできること\nリージョン障害から保護するにはグローバルサービスを選択する必要があります。\nなお、Azure Front DoorとApplication Gatewayは機能がよく似ていますが、次の点が異なります。\n・グローバルかリージョンサービスか\n・レート制限の機能の有無\n・コンテンツキャッシュの機能の有無\n\n・すべてのインスタンス間でリクエストのバランスをとること\nこれはどの負荷分散オプションでも可能です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-10_13-14-40-f83c8783905f238aa620ec102566d05d.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -6237,9 +6597,12 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-016-c4"
           ],
-          "explanationHtml": "<p>次の手順で構成します。詳細はチュートリアルを参照してください。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application\">https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application</a></p><p>3. Microsoft Entra アプリケーションプロキシ（コネクタのインストール）</p><p>6. Microsoft Entra エンタープライズ アプリケーションの登録</p><p>2. Microsoft Entra の条件付きアクセスポリシーの登録</p><p><br></p><p><code>ユーザーがインターネットからApp1に接続する</code></p><p>インターネット経由でオンプレミスのアプリに接続するために「アプリケーションプロキシ」を利用できます。</p><p>アプリケーション プロキシは、オンプレミスでホストされている Web アプリケーションにシングル サインオン (SSO) とセキュリティで保護されたリモート アクセスを提供します。</p><p>オンプレミスのサーバに「アプリケーションプロキシコネクタ」をインストールして構成します。</p><p><br></p><p>また、アプリケーションプロキシを構成するには「エンタープライズアプリケーション」のメニューから独自のアプリケーションとして登録が必要です。</p><p><br></p><p><code>Azure多要素認証(MFA)を使用してサインインする</code></p><p>MFAを要求するには「条件付きアクセスポリシー」を作成します。条件付きアクセスを使用すると、ユーザーやデバイスの状態など様々なシグナルに基づいてリソースにアクセスできるかどうかを制御することができます。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy\">https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa</a></p>",
+          "explanationHtml": "<p>次の手順で構成します。詳細はチュートリアルを参照してください。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application\">https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application</a></p><p>3. Microsoft Entra アプリケーションプロキシ（コネクタのインストール）</p><p>6. Microsoft Entra エンタープライズ アプリケーションの登録</p><p>2. Microsoft Entra の条件付きアクセスポリシーの登録</p><p><br></p><p><code>ユーザーがインターネットからApp1に接続する</code></p><p>インターネット経由でオンプレミスのアプリに接続するために「アプリケーションプロキシ」を利用できます。</p><p>アプリケーション プロキシは、オンプレミスでホストされている Web アプリケーションにシングル サインオン (SSO) とセキュリティで保護されたリモート アクセスを提供します。</p><p>オンプレミスのサーバに「アプリケーションプロキシコネクタ」をインストールして構成します。</p><p><br></p><p>また、アプリケーションプロキシを構成するには「エンタープライズアプリケーション」のメニューから独自のアプリケーションとして登録が必要です。</p><img src=\"assets/問題集3_files/2024-10-04_07-38-19-96f1a75f0924c205a465d1609894799c.png\" alt=\"\" loading=\"eager\"><p><br></p><p><code>Azure多要素認証(MFA)を使用してサインインする</code></p><p>MFAを要求するには「条件付きアクセスポリシー」を作成します。条件付きアクセスを使用すると、ユーザーやデバイスの状態など様々なシグナルに基づいてリソースにアクセスできるかどうかを制御することができます。</p><p><img src=\"assets/問題集3_files/2023-01-18_02-26-10-eef84952f7cf50146c59671446766533.png\" alt=\"\" loading=\"eager\"></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy\">https://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa\">https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa</a></p>",
           "explanationText": "次の手順で構成します。詳細はチュートリアルを参照してください。\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy-add-on-premises-application\n3. Microsoft Entra アプリケーションプロキシ（コネクタのインストール）\n6. Microsoft Entra エンタープライズ アプリケーションの登録\n2. Microsoft Entra の条件付きアクセスポリシーの登録\n\nユーザーがインターネットからApp1に接続する\nインターネット経由でオンプレミスのアプリに接続するために「アプリケーションプロキシ」を利用できます。\nアプリケーション プロキシは、オンプレミスでホストされている Web アプリケーションにシングル サインオン (SSO) とセキュリティで保護されたリモート アクセスを提供します。\nオンプレミスのサーバに「アプリケーションプロキシコネクタ」をインストールして構成します。\n\nまた、アプリケーションプロキシを構成するには「エンタープライズアプリケーション」のメニューから独自のアプリケーションとして登録が必要です。\n\nAzure多要素認証(MFA)を使用してサインインする\nMFAを要求するには「条件付きアクセスポリシー」を作成します。条件付きアクセスを使用すると、ユーザーやデバイスの状態など様々なシグナルに基づいてリソースにアクセスできるかどうかを制御することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/app-proxy/application-proxy\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2024-10-04_07-38-19-96f1a75f0924c205a465d1609894799c.png",
+            "assets/問題集3_files/2023-01-18_02-26-10-eef84952f7cf50146c59671446766533.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -6278,8 +6641,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-003",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-018",
@@ -6320,8 +6685,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-003",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-019",
@@ -6387,9 +6754,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-020-c3"
           ],
-          "explanationHtml": "<p>動的データマスキングは、データベース内にある機密データをマスクすることにより、特権のないユーザーへの機密データの公開を制限するためのSQL Serverの機能です。</p><p><br></p><p>Azure SQL Databaseでもサポートされており、Azureポータルの「動的データマスキング」メニューから設定することができます。（管理者は常にマスクルールから除外されるので閲覧可能）</p><p>なお、Azure SQL Managed Instanceでは動的データマスキングはサポートされていません。</p><p><br></p><p></p><p><br></p><p>選択肢1の「透過的なデータ暗号化(Transparent Data Encryption (TDE))」は、ディスクに書き込まれる時に暗号化し、メモリに読み込まれる時に復号化する仕組みです。Azure SQL Databaseでデフォルトで有効になっている機能でAzureが勝手に行ってくれるので、ユーザー（アプリケーション）は暗号化/復号化を意識することはありません。</p><p>ディスク持ち出しなどオフラインアクティビティの脅威から保護するためのもので、テーブルをSELECTすると普通に復号化されて参照できるので、要件にあるような用途では使用できません。</p><p><br></p><p>選択肢4の「ロールベースのアクセス制御（RBAC）」はAzure リソースに対するアクセス許可を設定するためのもので、SQL Database内のデータベースのアクセス許可には適用されないため誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql</a></p><p><a href=\"https://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/\">https://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/</a></p>",
+          "explanationHtml": "<p>動的データマスキングは、データベース内にある機密データをマスクすることにより、特権のないユーザーへの機密データの公開を制限するためのSQL Serverの機能です。</p><p><br></p><p>Azure SQL Databaseでもサポートされており、Azureポータルの「動的データマスキング」メニューから設定することができます。（管理者は常にマスクルールから除外されるので閲覧可能）</p><p>なお、Azure SQL Managed Instanceでは動的データマスキングはサポートされていません。</p><p><br></p><p><img src=\"assets/問題集3_files/2023-01-19_07-55-38-f669d88756c0c4dfabe6ce30ec3597cc.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>選択肢1の「透過的なデータ暗号化(Transparent Data Encryption (TDE))」は、ディスクに書き込まれる時に暗号化し、メモリに読み込まれる時に復号化する仕組みです。Azure SQL Databaseでデフォルトで有効になっている機能でAzureが勝手に行ってくれるので、ユーザー（アプリケーション）は暗号化/復号化を意識することはありません。</p><p>ディスク持ち出しなどオフラインアクティビティの脅威から保護するためのもので、テーブルをSELECTすると普通に復号化されて参照できるので、要件にあるような用途では使用できません。</p><p><br></p><p>選択肢4の「ロールベースのアクセス制御（RBAC）」はAzure リソースに対するアクセス許可を設定するためのもので、SQL Database内のデータベースのアクセス許可には適用されないため誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql</a></p><p><a href=\"https://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/\">https://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/</a></p>",
           "explanationText": "動的データマスキングは、データベース内にある機密データをマスクすることにより、特権のないユーザーへの機密データの公開を制限するためのSQL Serverの機能です。\n\nAzure SQL Databaseでもサポートされており、Azureポータルの「動的データマスキング」メニューから設定することができます。（管理者は常にマスクルールから除外されるので閲覧可能）\nなお、Azure SQL Managed Instanceでは動的データマスキングはサポートされていません。\n\n選択肢1の「透過的なデータ暗号化(Transparent Data Encryption (TDE))」は、ディスクに書き込まれる時に暗号化し、メモリに読み込まれる時に復号化する仕組みです。Azure SQL Databaseでデフォルトで有効になっている機能でAzureが勝手に行ってくれるので、ユーザー（アプリケーション）は暗号化/復号化を意識することはありません。\nディスク持ち出しなどオフラインアクティビティの脅威から保護するためのもので、テーブルをSELECTすると普通に復号化されて参照できるので、要件にあるような用途では使用できません。\n\n選択肢4の「ロールベースのアクセス制御（RBAC）」はAzure リソースに対するアクセス許可を設定するためのもので、SQL Database内のデータベースのアクセス許可には適用されないため誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql\nhttps://dev.classmethod.jp/articles/azure-sql-dynamic-data-masking/",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-19_07-55-38-f669d88756c0c4dfabe6ce30ec3597cc.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -6400,7 +6769,7 @@ window.QUIZ_DATA = {
     "jp3-set-003": {
       "setId": "jp3-set-003",
       "title": "問題集3 21-30",
-      "sourceHtml": "udemy/問題集3.html",
+      "sourceHtml": "assets/問題集3.html",
       "questionIds": [
         "jp3-q-021",
         "jp3-q-022",
@@ -6436,9 +6805,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-021-c1"
           ],
-          "explanationHtml": "<p>BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションです。</p><p>ホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。</p><p>アーカイブ層のデータはオフライン層に保存されるため読み取りや変更はできません。</p><p>アーカイブされた データの読み取りや変更を行うには、まず、ホットまたはクール層のいずれかのオンライン層にリハイドレートする必要があります。</p><p><br></p><p>リハイドレートには次の2つのオプションがあります。</p><p>・アーカイブ層のBLOBをオンライン層（ホットかクール）にコピーする</p><p>・アクセス層をアーカイブ層からオンライン層（ホットかクール）に変更する</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/archive-rehydrate-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/archive-rehydrate-overview</a></p>",
+          "explanationHtml": "<p>BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションです。</p><p>ホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。</p><img src=\"assets/問題集3_files/2023-01-12_07-58-33-1ea9d533eae034ac17244f4db9a13c23.png\" alt=\"\" loading=\"eager\"><p>アーカイブ層のデータはオフライン層に保存されるため読み取りや変更はできません。</p><p>アーカイブされた データの読み取りや変更を行うには、まず、ホットまたはクール層のいずれかのオンライン層にリハイドレートする必要があります。</p><p><br></p><p>リハイドレートには次の2つのオプションがあります。</p><p>・アーカイブ層のBLOBをオンライン層（ホットかクール）にコピーする</p><p>・アクセス層をアーカイブ層からオンライン層（ホットかクール）に変更する</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/archive-rehydrate-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/archive-rehydrate-overview</a></p>",
           "explanationText": "BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションです。\nホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。\nアーカイブ層のデータはオフライン層に保存されるため読み取りや変更はできません。\nアーカイブされた データの読み取りや変更を行うには、まず、ホットまたはクール層のいずれかのオンライン層にリハイドレートする必要があります。\n\nリハイドレートには次の2つのオプションがあります。\n・アーカイブ層のBLOBをオンライン層（ホットかクール）にコピーする\n・アクセス層をアーカイブ層からオンライン層（ホットかクール）に変更する\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/archive-rehydrate-overview",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-12_07-58-33-1ea9d533eae034ac17244f4db9a13c23.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -6478,13 +6849,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-022-c4"
           ],
-          "explanationHtml": "<p>Microsoft Entraのスマートロックアウトは、パスワードを推測したり、ブルートフォース攻撃により侵入しようとする悪意のあるユーザーのロックアウトを支援するための仕組みです。</p><p>すべての Microsoft Entra テナントでデフォルトで有効化されておりFreeエディションでも利用できますが、設定をカスタマイズするにはPremium P1 以上のライセンスが必要です。</p><p></p><p><br></p><p><code>・Microsoft Entra IDのユーザーアカウントを標的としたブルートフォース攻撃の結果として、Active Directoryドメインのユーザーアカウントがロックアウトされることを防止すること</code></p><p>スマート ロックアウトは、悪意のあるユーザーからブルートフォースなどの攻撃を受けた場合に、攻撃者のみをロックアウトします。正規のユーザーは自分のアカウントへのアクセスを継続できるため、生産性を落とすことはありません。</p><p>スマート ロックアウトは、パスワードハッシュ同期またはパススルー認証を使用するハイブリッド環境と統合することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/howto-password-smart-lockout\">https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/howto-password-smart-lockout</a></p>",
+          "explanationHtml": "<p>Microsoft Entraのスマートロックアウトは、パスワードを推測したり、ブルートフォース攻撃により侵入しようとする悪意のあるユーザーのロックアウトを支援するための仕組みです。</p><p>すべての Microsoft Entra テナントでデフォルトで有効化されておりFreeエディションでも利用できますが、設定をカスタマイズするにはPremium P1 以上のライセンスが必要です。</p><p><img src=\"assets/問題集3_files/2023-01-18_04-18-13-1fbbbee22d8ee1d60f14b18d08d03472.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p><code>・Microsoft Entra IDのユーザーアカウントを標的としたブルートフォース攻撃の結果として、Active Directoryドメインのユーザーアカウントがロックアウトされることを防止すること</code></p><p>スマート ロックアウトは、悪意のあるユーザーからブルートフォースなどの攻撃を受けた場合に、攻撃者のみをロックアウトします。正規のユーザーは自分のアカウントへのアクセスを継続できるため、生産性を落とすことはありません。</p><p>スマート ロックアウトは、パスワードハッシュ同期またはパススルー認証を使用するハイブリッド環境と統合することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/howto-password-smart-lockout\">https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/howto-password-smart-lockout</a></p>",
           "explanationText": "Microsoft Entraのスマートロックアウトは、パスワードを推測したり、ブルートフォース攻撃により侵入しようとする悪意のあるユーザーのロックアウトを支援するための仕組みです。\nすべての Microsoft Entra テナントでデフォルトで有効化されておりFreeエディションでも利用できますが、設定をカスタマイズするにはPremium P1 以上のライセンスが必要です。\n\n・Microsoft Entra IDのユーザーアカウントを標的としたブルートフォース攻撃の結果として、Active Directoryドメインのユーザーアカウントがロックアウトされることを防止すること\nスマート ロックアウトは、悪意のあるユーザーからブルートフォースなどの攻撃を受けた場合に、攻撃者のみをロックアウトします。正規のユーザーは自分のアカウントへのアクセスを継続できるため、生産性を落とすことはありません。\nスマート ロックアウトは、パスワードハッシュ同期またはパススルー認証を使用するハイブリッド環境と統合することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/authentication/howto-password-smart-lockout",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-18_04-18-13-1fbbbee22d8ee1d60f14b18d08d03472.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-004",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-023",
@@ -6520,13 +6895,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-023-c4"
           ],
-          "explanationHtml": "<p>セキュリティの既定値群は、無料で利用できる Microsoft Entra ID のセキュリティ機能です。</p><p>この機能を有効にすることで、次のセキュリティ機能が一括で有効になります。</p><p><br></p><p>・すべてのユーザーに対して、Microsoft Entra Multi-Factor Authentication への登録を必須にする</p><p>・管理者に多要素認証の実行を要求する</p><p>・必要に応じてユーザーに多要素認証を要求する</p><p>・レガシ認証プロトコルをブロックする</p><p>・Azure ポータル などへのアクセスに多要素認証を要求する</p><p><br></p><p>セキュリティの既定値群は、Microsoft Entra ID &gt; プロパティ &gt; セキュリティの既定値の管理から設定することができます。</p><p></p><p><br></p><p>なお、レガシー認証のブロックは <a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy\">条件付きアクセスポリシー</a> でも実現できますが、Premium P1以上のライセンスが必要なので選択肢3は誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults\">https://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults\">https://jpazureid.github.io/blog/azure-active-directory/security-default-2022/</a></p>",
+          "explanationHtml": "<p>セキュリティの既定値群は、無料で利用できる Microsoft Entra ID のセキュリティ機能です。</p><p>この機能を有効にすることで、次のセキュリティ機能が一括で有効になります。</p><p><br></p><p>・すべてのユーザーに対して、Microsoft Entra Multi-Factor Authentication への登録を必須にする</p><p>・管理者に多要素認証の実行を要求する</p><p>・必要に応じてユーザーに多要素認証を要求する</p><p>・レガシ認証プロトコルをブロックする</p><p>・Azure ポータル などへのアクセスに多要素認証を要求する</p><p><br></p><p>セキュリティの既定値群は、Microsoft Entra ID &gt; プロパティ &gt; セキュリティの既定値の管理から設定することができます。</p><p><img src=\"assets/問題集3_files/2023-01-18_04-37-49-1812be70e76c66ad6360478f5ae82234.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>なお、レガシー認証のブロックは <a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy\">条件付きアクセスポリシー</a> でも実現できますが、Premium P1以上のライセンスが必要なので選択肢3は誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults\">https://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults\">https://jpazureid.github.io/blog/azure-active-directory/security-default-2022/</a></p>",
           "explanationText": "セキュリティの既定値群は、無料で利用できる Microsoft Entra ID のセキュリティ機能です。\nこの機能を有効にすることで、次のセキュリティ機能が一括で有効になります。\n\n・すべてのユーザーに対して、Microsoft Entra Multi-Factor Authentication への登録を必須にする\n・管理者に多要素認証の実行を要求する\n・必要に応じてユーザーに多要素認証を要求する\n・レガシ認証プロトコルをブロックする\n・Azure ポータル などへのアクセスに多要素認証を要求する\n\nセキュリティの既定値群は、Microsoft Entra ID > プロパティ > セキュリティの既定値の管理から設定することができます。\n\nなお、レガシー認証のブロックは 条件付きアクセスポリシー でも実現できますが、Premium P1以上のライセンスが必要なので選択肢3は誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults\nhttps://jpazureid.github.io/blog/azure-active-directory/security-default-2022/",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-18_04-37-49-1812be70e76c66ad6360478f5ae82234.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-004",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-024",
@@ -6562,13 +6941,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-024-c3"
           ],
-          "explanationHtml": "<p>Azure Logic Appsからオンプレミスのデータへアクセスするには、最初にオンプレミスのサーバーに「オンプレミス データ ゲートウェイ」をインストールします。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-install\">https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-install</a></p>",
+          "explanationHtml": "<p>Azure Logic Appsからオンプレミスのデータへアクセスするには、最初にオンプレミスのサーバーに「オンプレミス データ ゲートウェイ」をインストールします。</p><p><img src=\"assets/問題集3_files/2023-02-05_06-43-46-0185e42266f34e022f3165f820a1bf6c.png\" alt=\"\" loading=\"eager\"></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-install\">https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-install</a></p>",
           "explanationText": "Azure Logic Appsからオンプレミスのデータへアクセスするには、最初にオンプレミスのサーバーに「オンプレミス データ ゲートウェイ」をインストールします。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-install",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-02-05_06-43-46-0185e42266f34e022f3165f820a1bf6c.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-004",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-025",
@@ -6604,13 +6987,18 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-025-c1"
           ],
-          "explanationHtml": "<p>オンプレミスで「オンプレミス データ ゲートウェイ」をインストールした後、Azureで「オンプレミス データ ゲートウェイ」というリソースを作成します。このゲートウェイは、オンプレミスのデータ ソースとLogic Appsのワークフロー間でのデータ転送と暗号化を高速に行うブリッジとして機能します。</p><p></p><p><br></p><p>オンプレミスにインストールするものと名前が同じで紛らわしいですが、公式ドキュメント、Azureポータルを見てもそういう名前になっています。。</p><p>ただ、Azure Logic Appsのワークフローでゲートウェイを指定する箇所は「接続ゲートウェイ」と表現されているので、頭の片隅に入れておいてください。</p><p></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-connection\">https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-connection</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/connectors/connectors-create-api-sqlazure?tabs=consumption#connect-to-on-premises-sql-server\">https://learn.microsoft.com/ja-jp/azure/connectors/connectors-create-api-sqlazure?tabs=consumption#connect-to-on-premises-sql-server</a></p>",
+          "explanationHtml": "<p>オンプレミスで「オンプレミス データ ゲートウェイ」をインストールした後、Azureで「オンプレミス データ ゲートウェイ」というリソースを作成します。このゲートウェイは、オンプレミスのデータ ソースとLogic Appsのワークフロー間でのデータ転送と暗号化を高速に行うブリッジとして機能します。</p><p><img src=\"assets/問題集3_files/2023-02-05_07-33-04-bf5607e568196e6df9c09732c107884b.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>オンプレミスにインストールするものと名前が同じで紛らわしいですが、公式ドキュメント、Azureポータルを見てもそういう名前になっています。。</p><p>ただ、Azure Logic Appsのワークフローでゲートウェイを指定する箇所は「接続ゲートウェイ」と表現されているので、頭の片隅に入れておいてください。</p><p><img src=\"assets/問題集3_files/2023-02-05_07-33-04-ca8b249b599ab36873a5319309701390.png\" alt=\"\" loading=\"eager\"></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-connection\">https://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-connection</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/connectors/connectors-create-api-sqlazure?tabs=consumption#connect-to-on-premises-sql-server\">https://learn.microsoft.com/ja-jp/azure/connectors/connectors-create-api-sqlazure?tabs=consumption#connect-to-on-premises-sql-server</a></p>",
           "explanationText": "オンプレミスで「オンプレミス データ ゲートウェイ」をインストールした後、Azureで「オンプレミス データ ゲートウェイ」というリソースを作成します。このゲートウェイは、オンプレミスのデータ ソースとLogic Appsのワークフロー間でのデータ転送と暗号化を高速に行うブリッジとして機能します。\n\nオンプレミスにインストールするものと名前が同じで紛らわしいですが、公式ドキュメント、Azureポータルを見てもそういう名前になっています。。\nただ、Azure Logic Appsのワークフローでゲートウェイを指定する箇所は「接続ゲートウェイ」と表現されているので、頭の片隅に入れておいてください。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/logic-apps/logic-apps-gateway-connection\nhttps://learn.microsoft.com/ja-jp/azure/connectors/connectors-create-api-sqlazure?tabs=consumption#connect-to-on-premises-sql-server",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-02-05_07-33-04-bf5607e568196e6df9c09732c107884b.png",
+            "assets/問題集3_files/2023-02-05_07-33-04-ca8b249b599ab36873a5319309701390.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-004",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-026",
@@ -6646,9 +7034,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-026-c4"
           ],
-          "explanationHtml": "<p>Azure Database Migration Service (DMS) を利用すると、オンプレミスのSQLServerをAzure SQL Managed Instance（やSQL&nbsp;VM、SQL Database）へ移行することができます。</p><p>Azure SQL Managed Instanceへの移行はオンライン、オフラインともサポートされています。</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/dms/dms-overview\">Azure Database Migration Service とは</a></p><p><br></p><p>Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。</p><p>サーバー、データベース、Webアプリ、仮想デスクトップなど様々な移行シナリオを支援するための管理機能やツールが提供されており、その中に「Azure Database Migration Service（DMS）」が包含されているのですが、選択肢に「Azure Database Migration Service（DMS）」があるため、選択肢4のほうが答えとしては適切です。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview</a></p><p><br></p><p>SQL Server Migration Assistant (SSMA)は、SQLServer<strong>以外</strong>（Access、MySQL、Oracleなど）からSQL Serverへの移行をサポートするツールです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/ssma/sql-server-migration-assistant\">https://learn.microsoft.com/ja-jp/sql/ssma/sql-server-migration-assistant</a></p><p><br></p><p>Data Migration Assistant（DMA）は、オンプレミスのSQLServerの移行をサポートするツールで、互換性の問題を検出する「評価（アセスメント）」と、スキーマやデータなどをターゲットサーバに「移行」する2つの機能があります。ただし、収録時点では Azure SQL Managed Instance へのデータベース移行をサポートしていません。</p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/dma/dma-overview\">https://learn.microsoft.com/ja-jp/sql/dma/dma-overview</a></p>",
+          "explanationHtml": "<p>Azure Database Migration Service (DMS) を利用すると、オンプレミスのSQLServerをAzure SQL Managed Instance（やSQL&nbsp;VM、SQL Database）へ移行することができます。</p><p>Azure SQL Managed Instanceへの移行はオンライン、オフラインともサポートされています。</p><p><img src=\"assets/問題集3_files/2023-02-05_08-28-17-70c81ac116ab8b9825e643c105a5465f.png\" alt=\"\" loading=\"eager\"></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/dms/dms-overview\">Azure Database Migration Service とは</a></p><p><br></p><p>Azure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。</p><p>サーバー、データベース、Webアプリ、仮想デスクトップなど様々な移行シナリオを支援するための管理機能やツールが提供されており、その中に「Azure Database Migration Service（DMS）」が包含されているのですが、選択肢に「Azure Database Migration Service（DMS）」があるため、選択肢4のほうが答えとしては適切です。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview</a></p><p><br></p><p>SQL Server Migration Assistant (SSMA)は、SQLServer<strong>以外</strong>（Access、MySQL、Oracleなど）からSQL Serverへの移行をサポートするツールです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/ssma/sql-server-migration-assistant\">https://learn.microsoft.com/ja-jp/sql/ssma/sql-server-migration-assistant</a></p><p><br></p><p>Data Migration Assistant（DMA）は、オンプレミスのSQLServerの移行をサポートするツールで、互換性の問題を検出する「評価（アセスメント）」と、スキーマやデータなどをターゲットサーバに「移行」する2つの機能があります。ただし、収録時点では Azure SQL Managed Instance へのデータベース移行をサポートしていません。</p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/dma/dma-overview\">https://learn.microsoft.com/ja-jp/sql/dma/dma-overview</a></p>",
           "explanationText": "Azure Database Migration Service (DMS) を利用すると、オンプレミスのSQLServerをAzure SQL Managed Instance（やSQL VM、SQL Database）へ移行することができます。\nAzure SQL Managed Instanceへの移行はオンライン、オフラインともサポートされています。\n\n出典：Azure Database Migration Service とは\n\nAzure Migrateは、オンプレミスや他社クラウドからAzureへの移行を支援してくれるサービスです。\nサーバー、データベース、Webアプリ、仮想デスクトップなど様々な移行シナリオを支援するための管理機能やツールが提供されており、その中に「Azure Database Migration Service（DMS）」が包含されているのですが、選択肢に「Azure Database Migration Service（DMS）」があるため、選択肢4のほうが答えとしては適切です。\nhttps://learn.microsoft.com/ja-jp/azure/migrate/migrate-services-overview\n\nSQL Server Migration Assistant (SSMA)は、SQLServer以外（Access、MySQL、Oracleなど）からSQL Serverへの移行をサポートするツールです。\nhttps://learn.microsoft.com/ja-jp/sql/ssma/sql-server-migration-assistant\n\nData Migration Assistant（DMA）は、オンプレミスのSQLServerの移行をサポートするツールで、互換性の問題を検出する「評価（アセスメント）」と、スキーマやデータなどをターゲットサーバに「移行」する2つの機能があります。ただし、収録時点では Azure SQL Managed Instance へのデータベース移行をサポートしていません。\nhttps://learn.microsoft.com/ja-jp/sql/dma/dma-overview",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-02-05_08-28-17-70c81ac116ab8b9825e643c105a5465f.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -6657,7 +7047,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp3-q-027",
           "sourceQuestionNumber": 27,
-          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、いくつかのAzure SQL Databaseをデプロイしており、</p><p>次の図に示すように、データベースの診断設定を構成することを計画しています。</p><p>次の文章を完成させるのに正しい選択肢はどれですか。&nbsp; </p><p><br></p><p>SQL Insights がBLOBストレージに保存される日数は、[<strong>選択肢</strong>]です。</p>",
+          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、いくつかのAzure SQL Databaseをデプロイしており、</p><p>次の図に示すように、データベースの診断設定を構成することを計画しています。</p><img src=\"assets/問題集3_files/2023-01-25_01-56-16-149b80f17566bf50a109459d8265bc57.png\" alt=\"\" loading=\"eager\"><p>次の文章を完成させるのに正しい選択肢はどれですか。&nbsp; </p><p><br></p><p>SQL Insights がBLOBストレージに保存される日数は、[<strong>選択肢</strong>]です。</p>",
           "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、いくつかのAzure SQL Databaseをデプロイしており、\n次の図に示すように、データベースの診断設定を構成することを計画しています。\n次の文章を完成させるのに正しい選択肢はどれですか。 \n\nSQL Insights がBLOBストレージに保存される日数は、[選択肢]です。",
           "choices": [
             {
@@ -6690,16 +7080,20 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>SQL Databaseのログは、Azureポータルの「診断設定」から有効にできます。</p><p>保存先として次のいずれか（複数可）を選択することができます。</p><p><br></p><p>・ストレージアカウント</p><p>・Log Analytics ワークスペース</p><p>・イベントハブ</p><p><br></p><p>ストレージアカウントを選択した場合、問題文の画面にあるように「保有(日数)」が表示され、ログのタイプごとに日数を個別に指定することができます。この「保有(日数)」はストレージ アカウントにのみ適用されます。</p><p>保有ポリシーは 1～365 日までの範囲で指定できます。データを永続的に保有する場合は 0 に設定します。</p><p>SQL Insightsは「90日」に設定されているので、選択肢2が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy</a></p>",
           "explanationText": "SQL Databaseのログは、Azureポータルの「診断設定」から有効にできます。\n保存先として次のいずれか（複数可）を選択することができます。\n\n・ストレージアカウント\n・Log Analytics ワークスペース\n・イベントハブ\n\nストレージアカウントを選択した場合、問題文の画面にあるように「保有(日数)」が表示され、ログのタイプごとに日数を個別に指定することができます。この「保有(日数)」はストレージ アカウントにのみ適用されます。\n保有ポリシーは 1～365 日までの範囲で指定できます。データを永続的に保有する場合は 0 に設定します。\nSQL Insightsは「90日」に設定されているので、選択肢2が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&tabs=azure-portal\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-25_01-56-16-149b80f17566bf50a109459d8265bc57.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-005",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-028",
           "sourceQuestionNumber": 28,
-          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、いくつかのAzure SQL Databaseをデプロイしており、</p><p>次の図に示すように、データベースの診断設定を構成することを計画しています。</p><p>次の文章を完成させるのに正しい選択肢はどれですか。&nbsp; </p><p><br></p><p>SQL Insights を Log Analytics ワークスペースに保存できる最大日数は、[<strong>選択肢</strong>]です。</p>",
+          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、いくつかのAzure SQL Databaseをデプロイしており、</p><p>次の図に示すように、データベースの診断設定を構成することを計画しています。</p><img src=\"assets/問題集3_files/2023-01-25_02-03-55-c3029c62f8e70c409e14cb0bb61b9618.png\" alt=\"\" loading=\"eager\"><p>次の文章を完成させるのに正しい選択肢はどれですか。&nbsp; </p><p><br></p><p>SQL Insights を Log Analytics ワークスペースに保存できる最大日数は、[<strong>選択肢</strong>]です。</p>",
           "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、いくつかのAzure SQL Databaseをデプロイしており、\n次の図に示すように、データベースの診断設定を構成することを計画しています。\n次の文章を完成させるのに正しい選択肢はどれですか。 \n\nSQL Insights を Log Analytics ワークスペースに保存できる最大日数は、[選択肢]です。",
           "choices": [
             {
@@ -6730,13 +7124,18 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-028-c3"
           ],
-          "explanationHtml": "<p>問題文の画面にある「保有(日数)」はストレージ アカウントを選択した場合にのみ表示され、ストレージ アカウントにのみ適用されます。Log Analytics ワークスペースには<strong>適用されません。</strong></p><p><br></p><p>Log Analytics ワークスペースの保有期間はデフォルトで30日（Application Insightsの場合は90日）になっています。</p><p>Azureポータルの「使用量と推定コスト」から変更することができ、最大で730日に設定可能です。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy</a></p>",
+          "explanationHtml": "<p>問題文の画面にある「保有(日数)」はストレージ アカウントを選択した場合にのみ表示され、ストレージ アカウントにのみ適用されます。Log Analytics ワークスペースには<strong>適用されません。</strong></p><p><br></p><p>Log Analytics ワークスペースの保有期間はデフォルトで30日（Application Insightsの場合は90日）になっています。</p><p>Azureポータルの「使用量と推定コスト」から変更することができ、最大で730日に設定可能です。</p><img src=\"assets/問題集3_files/2023-01-25_02-03-56-f616e71e97f8ab89512f6c3fab061753.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy</a></p>",
           "explanationText": "問題文の画面にある「保有(日数)」はストレージ アカウントを選択した場合にのみ表示され、ストレージ アカウントにのみ適用されます。Log Analytics ワークスペースには適用されません。\n\nLog Analytics ワークスペースの保有期間はデフォルトで30日（Application Insightsの場合は90日）になっています。\nAzureポータルの「使用量と推定コスト」から変更することができ、最大で730日に設定可能です。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&tabs=azure-portal\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#configure-the-default-workspace-retention-policy",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-25_02-03-55-c3029c62f8e70c409e14cb0bb61b9618.png",
+            "assets/問題集3_files/2023-01-25_02-03-56-f616e71e97f8ab89512f6c3fab061753.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-005",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-029",
@@ -6827,7 +7226,7 @@ window.QUIZ_DATA = {
     "jp3-set-004": {
       "setId": "jp3-set-004",
       "title": "問題集3 31-40",
-      "sourceHtml": "udemy/問題集3.html",
+      "sourceHtml": "assets/問題集3.html",
       "questionIds": [
         "jp3-q-031",
         "jp3-q-032",
@@ -6886,7 +7285,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp3-q-032",
           "sourceQuestionNumber": 32,
-          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは次のAzureリソースを含むサブスクリプションを持っています。</p><p>WebApp1はKV1にデータベースの接続文字列を格納します。</p><p>WebApp1はKV1に対して次のタイプのリクエストを実行します。</p><p>・取得（Get）</p><p>・一覧（List）</p><p>・削除（Delete）</p><p>・暗号化（Encrypt）</p><p>・暗号化解除（Decrypt）</p><p>・バックアップ（Backup）</p><p><br></p><p>あなたは、WebApp1のサービスの継続性を評価しています。</p><p>KV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。</p><p><br></p><p>・KV1 はどこにフェイルオーバーするか</p><p>・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか</p><p><br></p><p><strong>KV1のフェイルオーバー先</strong>はどれか選択してください。</p><p><br></p><p>KV1のフェイルオーバー先：</p><p>フェールオーバーの間、利用できなくなるリクエストタイプ：</p>",
+          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは次のAzureリソースを含むサブスクリプションを持っています。</p><img src=\"assets/問題集3_files/2023-01-17_05-19-11-e6acacd503dbb7dfae2972c3e3e8b4ba.png\" alt=\"\" loading=\"eager\"><p>WebApp1はKV1にデータベースの接続文字列を格納します。</p><p>WebApp1はKV1に対して次のタイプのリクエストを実行します。</p><p>・取得（Get）</p><p>・一覧（List）</p><p>・削除（Delete）</p><p>・暗号化（Encrypt）</p><p>・暗号化解除（Decrypt）</p><p>・バックアップ（Backup）</p><p><br></p><p>あなたは、WebApp1のサービスの継続性を評価しています。</p><p>KV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。</p><p><br></p><p>・KV1 はどこにフェイルオーバーするか</p><p>・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか</p><p><br></p><p><strong>KV1のフェイルオーバー先</strong>はどれか選択してください。</p><p><br></p><p>KV1のフェイルオーバー先：</p><p>フェールオーバーの間、利用できなくなるリクエストタイプ：</p>",
           "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは次のAzureリソースを含むサブスクリプションを持っています。\nWebApp1はKV1にデータベースの接続文字列を格納します。\nWebApp1はKV1に対して次のタイプのリクエストを実行します。\n・取得（Get）\n・一覧（List）\n・削除（Delete）\n・暗号化（Encrypt）\n・暗号化解除（Decrypt）\n・バックアップ（Backup）\n\nあなたは、WebApp1のサービスの継続性を評価しています。\nKV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。\n\n・KV1 はどこにフェイルオーバーするか\n・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか\n\nKV1のフェイルオーバー先はどれか選択してください。\n\nKV1のフェイルオーバー先：\nフェールオーバーの間、利用できなくなるリクエストタイプ：",
           "choices": [
             {
@@ -6919,16 +7318,20 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>Key Vaultに格納されるコンテンツは、ペアとなるセカンダリリージョンのサーバーに自動的にレプリケートされます。そして、障害発生時も自動的にセカンダリリージョンにルーティング（フェールオーバー）されます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance\">https://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance</a></p>",
           "explanationText": "Key Vaultに格納されるコンテンツは、ペアとなるセカンダリリージョンのサーバーに自動的にレプリケートされます。そして、障害発生時も自動的にセカンダリリージョンにルーティング（フェールオーバー）されます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-17_05-19-11-e6acacd503dbb7dfae2972c3e3e8b4ba.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-006",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-033",
           "sourceQuestionNumber": 33,
-          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは次のAzureリソースを含むサブスクリプションを持っています。</p><p>WebApp1はKV1にデータベースの接続文字列を格納します。</p><p>WebApp1はKV1に対して次のタイプのリクエストを実行します。</p><p>・取得（Get）</p><p>・一覧（List）</p><p>・削除（Delete）</p><p>・暗号化（Encrypt）</p><p>・暗号化解除（Decrypt）</p><p>・バックアップ（Backup）</p><p><br></p><p>あなたは、WebApp1のサービスの継続性を評価しています。</p><p>KV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。</p><p><br></p><p>・KV1 はどこにフェイルオーバーするか</p><p>・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか</p><p><br></p><p><strong>フェールオーバーの間、利用できなくなるリクエストタイプ</strong>はどれか選択してください。</p><p><br></p><p>KV1のフェイルオーバー先：</p><p>フェールオーバーの間、利用できなくなるリクエストタイプ：</p>",
+          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは次のAzureリソースを含むサブスクリプションを持っています。</p><img src=\"assets/問題集3_files/2023-01-17_05-22-25-d394415cf98cf639fa38e45680d2f253.png\" alt=\"\" loading=\"eager\"><p>WebApp1はKV1にデータベースの接続文字列を格納します。</p><p>WebApp1はKV1に対して次のタイプのリクエストを実行します。</p><p>・取得（Get）</p><p>・一覧（List）</p><p>・削除（Delete）</p><p>・暗号化（Encrypt）</p><p>・暗号化解除（Decrypt）</p><p>・バックアップ（Backup）</p><p><br></p><p>あなたは、WebApp1のサービスの継続性を評価しています。</p><p>KV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。</p><p><br></p><p>・KV1 はどこにフェイルオーバーするか</p><p>・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか</p><p><br></p><p><strong>フェールオーバーの間、利用できなくなるリクエストタイプ</strong>はどれか選択してください。</p><p><br></p><p>KV1のフェイルオーバー先：</p><p>フェールオーバーの間、利用できなくなるリクエストタイプ：</p>",
           "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは次のAzureリソースを含むサブスクリプションを持っています。\nWebApp1はKV1にデータベースの接続文字列を格納します。\nWebApp1はKV1に対して次のタイプのリクエストを実行します。\n・取得（Get）\n・一覧（List）\n・削除（Delete）\n・暗号化（Encrypt）\n・暗号化解除（Decrypt）\n・バックアップ（Backup）\n\nあなたは、WebApp1のサービスの継続性を評価しています。\nKV1をホストしているAzureリージョンが利用できなくなった場合に備え、次のことを確認する必要があります。\n\n・KV1 はどこにフェイルオーバーするか\n・フェイルオーバーの間、どのリクエストタイプが利用できなくなるか\n\nフェールオーバーの間、利用できなくなるリクエストタイプはどれか選択してください。\n\nKV1のフェイルオーバー先：\nフェールオーバーの間、利用できなくなるリクエストタイプ：",
           "choices": [
             {
@@ -6967,11 +7370,15 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>フェールオーバーの間、Key Vaultは読み取り専用モードになり、「削除」など一部の操作ができなくなります。</p><p>詳細は公式ドキュメントを参照してください。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance\">https://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance</a></p>",
           "explanationText": "フェールオーバーの間、Key Vaultは読み取り専用モードになり、「削除」など一部の操作ができなくなります。\n詳細は公式ドキュメントを参照してください。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/key-vault/general/disaster-recovery-guidance",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-17_05-22-25-d394415cf98cf639fa38e45680d2f253.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-006",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-034",
@@ -7019,7 +7426,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp3-q-035",
           "sourceQuestionNumber": 35,
-          "promptHtml": "<p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、VirtualWAN1という名前の Basic 仮想WAN と、次の表に示す仮想ハブを持っています。</p><p>あなたは、米国東部リージョンで ExpressRoute回線 を持っています。</p><p>VirtualWAN1 に ExpressRoute の関連付けを作成する必要があります。</p><p>あなたは、まず最初に何をすべきですか。</p>",
+          "promptHtml": "<p>あなたは、Azureサブスクリプションを持っています。</p><p>サブスクリプションには、VirtualWAN1という名前の Basic 仮想WAN と、次の表に示す仮想ハブを持っています。</p><img src=\"assets/問題集3_files/2023-01-26_00-08-21-0664be45b245a7684f42221d1755612b.png\" alt=\"\" loading=\"eager\"><p>あなたは、米国東部リージョンで ExpressRoute回線 を持っています。</p><p>VirtualWAN1 に ExpressRoute の関連付けを作成する必要があります。</p><p>あなたは、まず最初に何をすべきですか。</p>",
           "promptText": "あなたは、Azureサブスクリプションを持っています。\nサブスクリプションには、VirtualWAN1という名前の Basic 仮想WAN と、次の表に示す仮想ハブを持っています。\nあなたは、米国東部リージョンで ExpressRoute回線 を持っています。\nVirtualWAN1 に ExpressRoute の関連付けを作成する必要があります。\nあなたは、まず最初に何をすべきですか。",
           "choices": [
             {
@@ -7052,7 +7459,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>Azure Virtual WAN（仮想WAN）の種類には、Basic、Standardの2種類があります。</p><p>Basicの仮想WANは、サイト間VPN接続にのみ使用することができます。</p><p>ExpressRoute回線を含めるには、Standardにアップグレードする必要がありますので選択肢1が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-about#basicstandard\">https://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-about#basicstandard</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-expressroute-portal\">https://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-expressroute-portal</a></p>",
           "explanationText": "Azure Virtual WAN（仮想WAN）の種類には、Basic、Standardの2種類があります。\nBasicの仮想WANは、サイト間VPN接続にのみ使用することができます。\nExpressRoute回線を含めるには、Standardにアップグレードする必要がありますので選択肢1が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-about#basicstandard\nhttps://learn.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-expressroute-portal",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-26_00-08-21-0664be45b245a7684f42221d1755612b.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -7092,9 +7501,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-036-c2"
           ],
-          "explanationHtml": "<p>App Serviceの「デプロイスロット」を利用すると、公開されている運用環境（運用スロット）とは別のデプロイスロット（ステージング環境）を使用できます。</p><p><br></p><p>これにより、事前にステージング環境で新しいバージョンのアプリを検証し、問題がなければスロットを切り替えることでダウンタイムなしに安全にデプロイすることができます。</p><p><br></p><p>スロットを切り替えることを「スワップ」と呼びます。</p><p>スワップ後に問題があった場合は再びスロットを切り替えてロールバックすることもできます。</p><p>なお、デプロイスロットの機能は、Standard / Premium / Isolatedのプランで使用することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/deploy-staging-slots\">https://learn.microsoft.com/ja-jp/azure/app-service/deploy-staging-slots</a></p>",
+          "explanationHtml": "<p>App Serviceの「デプロイスロット」を利用すると、公開されている運用環境（運用スロット）とは別のデプロイスロット（ステージング環境）を使用できます。</p><p><br></p><p>これにより、事前にステージング環境で新しいバージョンのアプリを検証し、問題がなければスロットを切り替えることでダウンタイムなしに安全にデプロイすることができます。</p><p><br></p><p>スロットを切り替えることを「スワップ」と呼びます。</p><p>スワップ後に問題があった場合は再びスロットを切り替えてロールバックすることもできます。</p><p>なお、デプロイスロットの機能は、Standard / Premium / Isolatedのプランで使用することができます。</p><img src=\"assets/問題集3_files/2023-02-07_08-32-25-a8278e2479f6c957ce025f80142fd73d.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/deploy-staging-slots\">https://learn.microsoft.com/ja-jp/azure/app-service/deploy-staging-slots</a></p>",
           "explanationText": "App Serviceの「デプロイスロット」を利用すると、公開されている運用環境（運用スロット）とは別のデプロイスロット（ステージング環境）を使用できます。\n\nこれにより、事前にステージング環境で新しいバージョンのアプリを検証し、問題がなければスロットを切り替えることでダウンタイムなしに安全にデプロイすることができます。\n\nスロットを切り替えることを「スワップ」と呼びます。\nスワップ後に問題があった場合は再びスロットを切り替えてロールバックすることもできます。\nなお、デプロイスロットの機能は、Standard / Premium / Isolatedのプランで使用することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/app-service/deploy-staging-slots",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-02-07_08-32-25-a8278e2479f6c957ce025f80142fd73d.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -7175,8 +7586,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-007",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-039",
@@ -7211,8 +7624,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-007",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-040",
@@ -7242,9 +7657,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-040-c1"
           ],
-          "explanationHtml": "<p><code>・アプリケーションが10台の仮想マシン上で実行されているときのみ認証できること</code></p><p><code>・仮想マシンが削除されると認証できなくなること</code></p><p>この要件を満たすことができるのは選択肢1の「システム割り当てマネージドID」のみです。</p><p>マネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a> には次の2つがあります。</p><p><br></p><p>・システム割り当てマネージドID</p><p>・ユーザー割り当てマネージドID</p><p><br></p><p>システム割り当てマネージドIDは、仮想マシンなどAzureリソースの一部として作成され、仮想マシンが実行されているときのみ認証できます。仮想マシンが削除されると、システム割り当てマネージドIDも削除されます。</p><p><br></p><p>ユーザー割り当てマネージドIDは、独立したAzureリソースとして作成でき、それをAzureリソースに関連付けて使用します。仮想マシン以外のAzureリソースに関連付けてそのIDで認証できるため、この問題の要件を満たすことはできません。</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a></p><p><br></p><p>この2つのマネージドIDの関係を例えるなら、仮想マシンのOSディスクとファイル共有としてマウントできるAzure Storageのようなものです。</p><p>仮想マシンのOSディスクは、必ず単一の仮想マシンに関連付けられ、仮想マシンが実行されている時のみディスクにアクセスできます。親リソースとともに削除される点も同様です。</p><p>ファイル共有は、仮想マシンとは別に独立して作成し、複数の仮想マシンにマウントすることでストレージ領域を使用できます。仮想マシンを削除してもファイル共有自体が削除されることはありません。</p><p><br></p><p>選択肢3も問題の要件を満たすことはできません。</p><p>Microsoft Entra IDにそれぞれのアプリケーションを登録すると、アプリケーション用のIDとしてサービスプリンシパルが発行されます。</p><p>仮想マシンが実行中でなくともこの資格情報を利用して認証することが可能です。</p>",
+          "explanationHtml": "<p><code>・アプリケーションが10台の仮想マシン上で実行されているときのみ認証できること</code></p><p><code>・仮想マシンが削除されると認証できなくなること</code></p><p>この要件を満たすことができるのは選択肢1の「システム割り当てマネージドID」のみです。</p><p>マネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a> には次の2つがあります。</p><p><br></p><p>・システム割り当てマネージドID</p><p>・ユーザー割り当てマネージドID</p><p><br></p><p>システム割り当てマネージドIDは、仮想マシンなどAzureリソースの一部として作成され、仮想マシンが実行されているときのみ認証できます。仮想マシンが削除されると、システム割り当てマネージドIDも削除されます。</p><p><br></p><p>ユーザー割り当てマネージドIDは、独立したAzureリソースとして作成でき、それをAzureリソースに関連付けて使用します。仮想マシン以外のAzureリソースに関連付けてそのIDで認証できるため、この問題の要件を満たすことはできません。</p><p><img src=\"assets/問題集3_files/2023-01-20_01-03-13-8520b2d5abf054b321a674bfa509f6a3.png\" alt=\"\" loading=\"eager\"></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types\">マネージドIDの種類</a></p><p><br></p><p>この2つのマネージドIDの関係を例えるなら、仮想マシンのOSディスクとファイル共有としてマウントできるAzure Storageのようなものです。</p><p>仮想マシンのOSディスクは、必ず単一の仮想マシンに関連付けられ、仮想マシンが実行されている時のみディスクにアクセスできます。親リソースとともに削除される点も同様です。</p><p>ファイル共有は、仮想マシンとは別に独立して作成し、複数の仮想マシンにマウントすることでストレージ領域を使用できます。仮想マシンを削除してもファイル共有自体が削除されることはありません。</p><p><br></p><p>選択肢3も問題の要件を満たすことはできません。</p><p>Microsoft Entra IDにそれぞれのアプリケーションを登録すると、アプリケーション用のIDとしてサービスプリンシパルが発行されます。</p><p>仮想マシンが実行中でなくともこの資格情報を利用して認証することが可能です。</p>",
           "explanationText": "・アプリケーションが10台の仮想マシン上で実行されているときのみ認証できること\n・仮想マシンが削除されると認証できなくなること\nこの要件を満たすことができるのは選択肢1の「システム割り当てマネージドID」のみです。\nマネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。\nマネージドIDの種類 には次の2つがあります。\n\n・システム割り当てマネージドID\n・ユーザー割り当てマネージドID\n\nシステム割り当てマネージドIDは、仮想マシンなどAzureリソースの一部として作成され、仮想マシンが実行されているときのみ認証できます。仮想マシンが削除されると、システム割り当てマネージドIDも削除されます。\n\nユーザー割り当てマネージドIDは、独立したAzureリソースとして作成でき、それをAzureリソースに関連付けて使用します。仮想マシン以外のAzureリソースに関連付けてそのIDで認証できるため、この問題の要件を満たすことはできません。\n\n出典：マネージドIDの種類\n\nこの2つのマネージドIDの関係を例えるなら、仮想マシンのOSディスクとファイル共有としてマウントできるAzure Storageのようなものです。\n仮想マシンのOSディスクは、必ず単一の仮想マシンに関連付けられ、仮想マシンが実行されている時のみディスクにアクセスできます。親リソースとともに削除される点も同様です。\nファイル共有は、仮想マシンとは別に独立して作成し、複数の仮想マシンにマウントすることでストレージ領域を使用できます。仮想マシンを削除してもファイル共有自体が削除されることはありません。\n\n選択肢3も問題の要件を満たすことはできません。\nMicrosoft Entra IDにそれぞれのアプリケーションを登録すると、アプリケーション用のIDとしてサービスプリンシパルが発行されます。\n仮想マシンが実行中でなくともこの資格情報を利用して認証することが可能です。",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-20_01-03-13-8520b2d5abf054b321a674bfa509f6a3.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -7255,7 +7672,7 @@ window.QUIZ_DATA = {
     "jp3-set-005": {
       "setId": "jp3-set-005",
       "title": "問題集3 41-50",
-      "sourceHtml": "udemy/問題集3.html",
+      "sourceHtml": "assets/問題集3.html",
       "questionIds": [
         "jp3-q-041",
         "jp3-q-042",
@@ -7297,13 +7714,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-041-c3"
           ],
-          "explanationHtml": "<p>BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションで、汎用 v2 アカウントでサポートされています。</p><p>ホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。</p><p></p><p><code>・コストを最小限に抑えること </code> </p><p>ホット → クール → アーカイブの順に保存コストが低くなりますが、逆にアクセスコストが高くなります。</p><p>「保存するデータは毎日頻繁にアクセスされます」とあることから選択肢3の「ホットアクセス層」を提案するのが適切です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview</a></p>",
+          "explanationHtml": "<p>BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションで、汎用 v2 アカウントでサポートされています。</p><p>ホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。</p><p><img src=\"assets/問題集3_files/2023-01-12_12-27-21-84433dcf01ae985fb8f242b8dc352a1a.png\" alt=\"\" loading=\"eager\"></p><p><code>・コストを最小限に抑えること </code> </p><p>ホット → クール → アーカイブの順に保存コストが低くなりますが、逆にアクセスコストが高くなります。</p><p>「保存するデータは毎日頻繁にアクセスされます」とあることから選択肢3の「ホットアクセス層」を提案するのが適切です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview</a></p>",
           "explanationText": "BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションで、汎用 v2 アカウントでサポートされています。\nホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。\n\n・コストを最小限に抑えること\nホット → クール → アーカイブの順に保存コストが低くなりますが、逆にアクセスコストが高くなります。\n「保存するデータは毎日頻繁にアクセスされます」とあることから選択肢3の「ホットアクセス層」を提案するのが適切です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-12_12-27-21-84433dcf01ae985fb8f242b8dc352a1a.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-008",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-042",
@@ -7333,13 +7754,17 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-042-c2"
           ],
-          "explanationHtml": "<p><code>・データは一度書き込まれると、読み取りのみ可能で、変更や削除はできないこと</code></p><p><code>・5年経過後は、データの削除は可能であるが、変更はできないこと</code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><br></p><p>不変ストレージには次の２種類のポリシーがあります。</p><p>・時間ベースのアイテム保持ポリシー</p><p>・訴訟ホールドポリシー</p><p><br></p><p>時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。</p><p><br></p><p>Azureポータルのストレージアカウント &gt; コンテナー &gt; アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。</p><p><br></p><p>なお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。</p><p><br></p><p>ちなみに、選択肢3「ストレージアカウントのリソースロック」はストレージアカウント自体の削除や変更を防止するためのもので、ストレージアカウントに保存されるデータを保護するためのものではありません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p>",
+          "explanationHtml": "<p><code>・データは一度書き込まれると、読み取りのみ可能で、変更や削除はできないこと</code></p><p><code>・5年経過後は、データの削除は可能であるが、変更はできないこと</code></p><p>この要件を満たすためにはBLOBの不変ストレージを利用します。</p><p>不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。</p><p><br></p><p>不変ストレージには次の２種類のポリシーがあります。</p><p>・時間ベースのアイテム保持ポリシー</p><p>・訴訟ホールドポリシー</p><p><br></p><p>時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。</p><p><br></p><p>Azureポータルのストレージアカウント &gt; コンテナー &gt; アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。</p><img src=\"assets/問題集3_files/2023-01-12_12-41-51-73dc8c537d90635cd1861ca399aca924.png\" alt=\"\" loading=\"eager\"><p><br></p><p>なお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。</p><p><br></p><p>ちなみに、選択肢3「ストレージアカウントのリソースロック」はストレージアカウント自体の削除や変更を防止するためのもので、ストレージアカウントに保存されるデータを保護するためのものではありません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview</a></p>",
           "explanationText": "・データは一度書き込まれると、読み取りのみ可能で、変更や削除はできないこと\n・5年経過後は、データの削除は可能であるが、変更はできないこと\nこの要件を満たすためにはBLOBの不変ストレージを利用します。\n不変ストレージを使用すると、ユーザーはビジネスに不可欠なデータを WORM (Write Once, Read Many) 状態で保存できます。 WORM の状態では、ユーザーが指定した期間、データを変更、削除することができないため、上書きや削除からデータを保護することができます。\n\n不変ストレージには次の２種類のポリシーがあります。\n・時間ベースのアイテム保持ポリシー\n・訴訟ホールドポリシー\n\n時間ベースのアイテム保持ポリシーを設定すると、データの作成と読み取りは可能ですが、ユーザーが指定した保持期間の間はデータの変更と削除ができない状態になり、保持期間の期限が切れると、データはその後も変更できない状態のままですが、削除できるようになります。\n\nAzureポータルのストレージアカウント > コンテナー > アクセスポリシーのメニューでは、共有アクセス署名 (SAS)のポリシーと、不変ストレージのポリシーを追加することができ、以下の画面では不変ストレージのポリシー追加画面を示しています。\n\nなお、訴訟ホールドポリシーの場合は、ポリシーが適用されている間は常にデータの作成と読み取りは可能、変更と削除はできない状態となります。\n\nちなみに、選択肢3「ストレージアカウントのリソースロック」はストレージアカウント自体の削除や変更を防止するためのもので、ストレージアカウントに保存されるデータを保護するためのものではありません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/immutable-storage-overview",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-12_12-41-51-73dc8c537d90635cd1861ca399aca924.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-008",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-043",
@@ -7375,9 +7800,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-043-c3"
           ],
-          "explanationHtml": "<p><code>・ 評価は四半期（3ヶ月）ごとに自動的に繰り返されること</code></p><p><code>・Group1 のすべてのユーザーを評価対象とすること</code></p><p>Microsoft Entraのアクセスレビューを使用すると、ユーザーのアクセス許可を定期的にレビューし、適切なユーザーのみが継続的なアクセス権を持っていることを確認することができます。</p><p><br></p><p>毎週、毎月、毎四半期、毎年など、一定の頻度でユーザーのアクセスレビューを定期的に設定することができ、各レビューの開始時にレビュアーに通知されます。</p><p>レビュー担当者は、使いやすいインターフェイスとスマートな推奨事項の助けを借りてアクセスを承認または拒否することができます。</p><p><br></p><p><code>・Group1 に所属する必要がないユーザーは、Group1から自動的に削除されること</code></p><p><code>・Group1 に所属する必要があるかどうかを報告しないユーザーは、Group1 から自動的に削除されること</code></p><p>拒否されたユーザーがレビュー期間の終了後に Group1 から自動的に削除されるようにするには「<strong>リソースへの結果の自動適用</strong>」のチェックボックスをオンにします。</p><p>また、レビュー担当者が応答せずレビューされなかった場合のアクションも「<strong>レビュー担当者が応答しない場合</strong>」で設定することができるため、自動的にGroup1 から対象メンバーを削除することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings\">https://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings</a></p><p></p><p><br></p><p>なお、アクセスレビューを使用するには Microsoft Entra ID Premium P2 ライセンスが必要です（Premium P2 ライセンスはMicrosoft 365 E5 にも含まれています）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview\">https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview</a></p><p><a href=\"https://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing\">https://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing</a></p>",
+          "explanationHtml": "<p><code>・ 評価は四半期（3ヶ月）ごとに自動的に繰り返されること</code></p><p><code>・Group1 のすべてのユーザーを評価対象とすること</code></p><p>Microsoft Entraのアクセスレビューを使用すると、ユーザーのアクセス許可を定期的にレビューし、適切なユーザーのみが継続的なアクセス権を持っていることを確認することができます。</p><p><br></p><p>毎週、毎月、毎四半期、毎年など、一定の頻度でユーザーのアクセスレビューを定期的に設定することができ、各レビューの開始時にレビュアーに通知されます。</p><p>レビュー担当者は、使いやすいインターフェイスとスマートな推奨事項の助けを借りてアクセスを承認または拒否することができます。</p><p><br></p><p><code>・Group1 に所属する必要がないユーザーは、Group1から自動的に削除されること</code></p><p><code>・Group1 に所属する必要があるかどうかを報告しないユーザーは、Group1 から自動的に削除されること</code></p><p>拒否されたユーザーがレビュー期間の終了後に Group1 から自動的に削除されるようにするには「<strong>リソースへの結果の自動適用</strong>」のチェックボックスをオンにします。</p><p>また、レビュー担当者が応答せずレビューされなかった場合のアクションも「<strong>レビュー担当者が応答しない場合</strong>」で設定することができるため、自動的にGroup1 から対象メンバーを削除することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings\">https://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings</a></p><p><img src=\"assets/問題集3_files/2023-02-07_12-11-33-ea4dd016dedc32972889e31f8008ce49.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>なお、アクセスレビューを使用するには Microsoft Entra ID Premium P2 ライセンスが必要です（Premium P2 ライセンスはMicrosoft 365 E5 にも含まれています）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview\">https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview</a></p><p><a href=\"https://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing\">https://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing</a></p>",
           "explanationText": "・ 評価は四半期（3ヶ月）ごとに自動的に繰り返されること\n・Group1 のすべてのユーザーを評価対象とすること\nMicrosoft Entraのアクセスレビューを使用すると、ユーザーのアクセス許可を定期的にレビューし、適切なユーザーのみが継続的なアクセス権を持っていることを確認することができます。\n\n毎週、毎月、毎四半期、毎年など、一定の頻度でユーザーのアクセスレビューを定期的に設定することができ、各レビューの開始時にレビュアーに通知されます。\nレビュー担当者は、使いやすいインターフェイスとスマートな推奨事項の助けを借りてアクセスを承認または拒否することができます。\n\n・Group1 に所属する必要がないユーザーは、Group1から自動的に削除されること\n・Group1 に所属する必要があるかどうかを報告しないユーザーは、Group1 から自動的に削除されること\n拒否されたユーザーがレビュー期間の終了後に Group1 から自動的に削除されるようにするには「リソースへの結果の自動適用」のチェックボックスをオンにします。\nまた、レビュー担当者が応答せずレビューされなかった場合のアクションも「レビュー担当者が応答しない場合」で設定することができるため、自動的にGroup1 から対象メンバーを削除することができます。\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/governance/create-access-review#next-settings\n\nなお、アクセスレビューを使用するには Microsoft Entra ID Premium P2 ライセンスが必要です（Premium P2 ライセンスはMicrosoft 365 E5 にも含まれています）\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview\nhttps://www.microsoft.com/security/business/identity-access-management/azure-ad-pricing",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-02-07_12-11-33-ea4dd016dedc32972889e31f8008ce49.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -7416,8 +7843,10 @@ window.QUIZ_DATA = {
           "images": [],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-009",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-045",
@@ -7447,18 +7876,22 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-045-c3"
           ],
-          "explanationHtml": "<p><code>・Azure Blueprints のデプロイはAzureポータルから行うこと</code></p><p><code>・ブループリントの定義と割り当ての数を最小限に抑えること</code> </p><p>割り当ての数を最小にするために、ルート管理グループに作成したブループリント定義をルート管理グループに割り当てれば良いように思われるかもしれませんが、Azureポータルから割り当てを行う場合、管理グループに割り当てすることは<strong>できません。</strong></p><p>よって、サブスクリプションに割り当てることになります。</p><p><br></p><p>以下、補足です。</p><p>ブループリントは、管理グループまたはサブスクリプションに割り当てすることができます。</p><p>公式ドキュメントにもそう記載されていますが、管理グループへの割り当ては収録時点では非常にややこしい仕様になっています。</p><p>管理グループに割り当てると、配下のサブスクリプションにアーティファクトを一括適用できる（継承する）イメージを持ってしまうかもしれませんが実際はそうではありません。</p><p><br></p><p>・管理グループへの割り当ては、収録時点では <a href=\"https://learn.microsoft.com/ja-jp/rest/api/blueprints/assignments/create-or-update?tabs=HTTP\">REST&nbsp;API</a> か <a href=\"https://learn.microsoft.com/ja-jp/powershell/module/az.blueprint/new-azblueprintassignment\">Azure PowerShell</a> のみをサポート</p><p>・管理グループに割り当てる場合でも、ターゲットサブスクリプションの指定が必要</p><p>・管理グループに割り当てる場合、ターゲットサブスクリプションは管理グループの直接の子である必要がある</p><p><br></p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview#blueprint-assignment\">ブループリント割り当て</a></p><p><br></p><p>アーティファクトの配置が継承されないのであれば、管理グループに割る当てる意味がよくわからないかもしれません。</p><p>管理グループへの割り当ての用途としては、割り当てたブループリントのロックがあります。</p><p>たとえば、サブスクリプションの所有者権限を持っているユーザーは、サブスクリプションに割り当てられているブループリントを削除することが可能です。</p><p>削除させないよう制御するためには、このユーザーのスコープより上にある管理グループに割り当てる必要があります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/concepts/resource-locking#assign-at-management-group\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/concepts/resource-locking#assign-at-management-group</a></p><p><br></p><p>最後に、講師の個人的な見解です。あくまで参考までに。</p><p>収録時点でプレビュー中のサービスですし、今後、変更が加えられる可能性もあるのですが、試験対策としては「割り当てはサブスクリプション」と考えておけば良いかと思います（実際の試験でこのような問題が出題されたとしてもAzureポータルの利用が前提条件に含まれるかどうかはわかりません）</p>",
+          "explanationHtml": "<p><code>・Azure Blueprints のデプロイはAzureポータルから行うこと</code></p><p><code>・ブループリントの定義と割り当ての数を最小限に抑えること</code> </p><p>割り当ての数を最小にするために、ルート管理グループに作成したブループリント定義をルート管理グループに割り当てれば良いように思われるかもしれませんが、Azureポータルから割り当てを行う場合、管理グループに割り当てすることは<strong>できません。</strong></p><p>よって、サブスクリプションに割り当てることになります。</p><p><br></p><p>以下、補足です。</p><p>ブループリントは、管理グループまたはサブスクリプションに割り当てすることができます。</p><p>公式ドキュメントにもそう記載されていますが、管理グループへの割り当ては収録時点では非常にややこしい仕様になっています。</p><p>管理グループに割り当てると、配下のサブスクリプションにアーティファクトを一括適用できる（継承する）イメージを持ってしまうかもしれませんが実際はそうではありません。</p><p><br></p><p>・管理グループへの割り当ては、収録時点では <a href=\"https://learn.microsoft.com/ja-jp/rest/api/blueprints/assignments/create-or-update?tabs=HTTP\">REST&nbsp;API</a> か <a href=\"https://learn.microsoft.com/ja-jp/powershell/module/az.blueprint/new-azblueprintassignment\">Azure PowerShell</a> のみをサポート</p><p>・管理グループに割り当てる場合でも、ターゲットサブスクリプションの指定が必要</p><p>・管理グループに割り当てる場合、ターゲットサブスクリプションは管理グループの直接の子である必要がある</p><p><br></p><p><img src=\"assets/問題集3_files/2023-02-04_08-28-47-7d75db1b2793936431240d83ae71c213.png\" alt=\"\" loading=\"eager\"></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview#blueprint-assignment\">ブループリント割り当て</a></p><p><br></p><p>アーティファクトの配置が継承されないのであれば、管理グループに割る当てる意味がよくわからないかもしれません。</p><p>管理グループへの割り当ての用途としては、割り当てたブループリントのロックがあります。</p><p>たとえば、サブスクリプションの所有者権限を持っているユーザーは、サブスクリプションに割り当てられているブループリントを削除することが可能です。</p><p>削除させないよう制御するためには、このユーザーのスコープより上にある管理グループに割り当てる必要があります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/concepts/resource-locking#assign-at-management-group\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/concepts/resource-locking#assign-at-management-group</a></p><p><br></p><p>最後に、講師の個人的な見解です。あくまで参考までに。</p><p>収録時点でプレビュー中のサービスですし、今後、変更が加えられる可能性もあるのですが、試験対策としては「割り当てはサブスクリプション」と考えておけば良いかと思います（実際の試験でこのような問題が出題されたとしてもAzureポータルの利用が前提条件に含まれるかどうかはわかりません）</p>",
           "explanationText": "・Azure Blueprints のデプロイはAzureポータルから行うこと\n・ブループリントの定義と割り当ての数を最小限に抑えること\n割り当ての数を最小にするために、ルート管理グループに作成したブループリント定義をルート管理グループに割り当てれば良いように思われるかもしれませんが、Azureポータルから割り当てを行う場合、管理グループに割り当てすることはできません。\nよって、サブスクリプションに割り当てることになります。\n\n以下、補足です。\nブループリントは、管理グループまたはサブスクリプションに割り当てすることができます。\n公式ドキュメントにもそう記載されていますが、管理グループへの割り当ては収録時点では非常にややこしい仕様になっています。\n管理グループに割り当てると、配下のサブスクリプションにアーティファクトを一括適用できる（継承する）イメージを持ってしまうかもしれませんが実際はそうではありません。\n\n・管理グループへの割り当ては、収録時点では REST API か Azure PowerShell のみをサポート\n・管理グループに割り当てる場合でも、ターゲットサブスクリプションの指定が必要\n・管理グループに割り当てる場合、ターゲットサブスクリプションは管理グループの直接の子である必要がある\n\n出典：ブループリント割り当て\n\nアーティファクトの配置が継承されないのであれば、管理グループに割る当てる意味がよくわからないかもしれません。\n管理グループへの割り当ての用途としては、割り当てたブループリントのロックがあります。\nたとえば、サブスクリプションの所有者権限を持っているユーザーは、サブスクリプションに割り当てられているブループリントを削除することが可能です。\n削除させないよう制御するためには、このユーザーのスコープより上にある管理グループに割り当てる必要があります。\nhttps://learn.microsoft.com/ja-jp/azure/governance/blueprints/concepts/resource-locking#assign-at-management-group\n\n最後に、講師の個人的な見解です。あくまで参考までに。\n収録時点でプレビュー中のサービスですし、今後、変更が加えられる可能性もあるのですが、試験対策としては「割り当てはサブスクリプション」と考えておけば良いかと思います（実際の試験でこのような問題が出題されたとしてもAzureポータルの利用が前提条件に含まれるかどうかはわかりません）",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-02-04_08-28-47-7d75db1b2793936431240d83ae71c213.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-009",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-046",
           "sourceQuestionNumber": 46,
-          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、ユーザーの作成とロールの割り当てを追跡するためのアーキテクチャを設計しています。</p><p>収集されたデータはAzure Cosmos DBに格納する必要があります。</p><p></p><p><strong>Azureサービス1</strong> は何を使用すべきですか。</p><p><br></p><p>Azureサービス1：</p><p>Azureサービス2：</p>",
+          "promptHtml": "<p>注：この問題は次の問題と2問1セットです。</p><p><br></p><p>あなたは、ユーザーの作成とロールの割り当てを追跡するためのアーキテクチャを設計しています。</p><p>収集されたデータはAzure Cosmos DBに格納する必要があります。</p><p><img src=\"assets/問題集3_files/2024-10-04_04-39-55-48934fe9ffcd9d16beb061630783cbad.png\" alt=\"\" loading=\"eager\"></p><p><strong>Azureサービス1</strong> は何を使用すべきですか。</p><p><br></p><p>Azureサービス1：</p><p>Azureサービス2：</p>",
           "promptText": "注：この問題は次の問題と2問1セットです。\n\nあなたは、ユーザーの作成とロールの割り当てを追跡するためのアーキテクチャを設計しています。\n収集されたデータはAzure Cosmos DBに格納する必要があります。\n\nAzureサービス1 は何を使用すべきですか。\n\nAzureサービス1：\nAzureサービス2：",
           "choices": [
             {
@@ -7495,18 +7928,23 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-046-c2"
           ],
-          "explanationHtml": "<p>ユーザーの作成やロールの割り当ての操作はMicrosoft Entra IDの監査ログ（AuditLogs）に記録されます。</p><p>監査ログの「診断設定」からエクスポートすることができ、保存先として次のいずれか（複数可）を選択することができます。</p><p><br></p><p>・ストレージアカウント</p><p>・Log Analytics ワークスペース</p><p>・イベントハブ（Azure Event Hubs）</p><p></p><p><br></p><p>選択肢4の「Azure Log Analytics」にエクスポートすることもできますが、この問題では最終的にCosmos DBに保存するよう設計されているため、Azure Event Hubsにログをエクスポートして、Azureサービス2と連携するように構成します。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/entra/identity/monitoring-health/concept-audit-logs\">https://learn.microsoft.com/ja-jp/entra/identity/monitoring-health/concept-audit-logs</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/tutorial-azure-monitor-stream-logs-to-event-hub\">https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/tutorial-azure-monitor-stream-logs-to-event-hub</a></p>",
+          "explanationHtml": "<p>ユーザーの作成やロールの割り当ての操作はMicrosoft Entra IDの監査ログ（AuditLogs）に記録されます。</p><p>監査ログの「診断設定」からエクスポートすることができ、保存先として次のいずれか（複数可）を選択することができます。</p><p><br></p><p>・ストレージアカウント</p><p>・Log Analytics ワークスペース</p><p>・イベントハブ（Azure Event Hubs）</p><p><img src=\"assets/問題集3_files/2023-02-02_07-23-28-d69e72e9535d9eb2f653617b3042a64d.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>選択肢4の「Azure Log Analytics」にエクスポートすることもできますが、この問題では最終的にCosmos DBに保存するよう設計されているため、Azure Event Hubsにログをエクスポートして、Azureサービス2と連携するように構成します。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/entra/identity/monitoring-health/concept-audit-logs\">https://learn.microsoft.com/ja-jp/entra/identity/monitoring-health/concept-audit-logs</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/tutorial-azure-monitor-stream-logs-to-event-hub\">https://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/tutorial-azure-monitor-stream-logs-to-event-hub</a></p>",
           "explanationText": "ユーザーの作成やロールの割り当ての操作はMicrosoft Entra IDの監査ログ（AuditLogs）に記録されます。\n監査ログの「診断設定」からエクスポートすることができ、保存先として次のいずれか（複数可）を選択することができます。\n\n・ストレージアカウント\n・Log Analytics ワークスペース\n・イベントハブ（Azure Event Hubs）\n\n選択肢4の「Azure Log Analytics」にエクスポートすることもできますが、この問題では最終的にCosmos DBに保存するよう設計されているため、Azure Event Hubsにログをエクスポートして、Azureサービス2と連携するように構成します。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/entra/identity/monitoring-health/concept-audit-logs\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/tutorial-azure-monitor-stream-logs-to-event-hub",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2024-10-04_04-39-55-48934fe9ffcd9d16beb061630783cbad.png",
+            "assets/問題集3_files/2023-02-02_07-23-28-d69e72e9535d9eb2f653617b3042a64d.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-009",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-047",
           "sourceQuestionNumber": 47,
-          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、ユーザーの作成とロールの割り当てを追跡するためのアーキテクチャを設計しています。</p><p>収集されたデータはAzure Cosmos DBに格納する必要があります。</p><p></p><p><strong>Azureサービス2</strong> は何を使用すべきですか。</p><p><br></p><p>Azureサービス1：</p><p>Azureサービス2：</p>",
+          "promptHtml": "<p>注：この問題は前の問題と2問1セットです。</p><p><br></p><p>あなたは、ユーザーの作成とロールの割り当てを追跡するためのアーキテクチャを設計しています。</p><p>収集されたデータはAzure Cosmos DBに格納する必要があります。</p><p><img src=\"assets/問題集3_files/2024-10-04_04-41-09-5efcede32ea9b9f9ba9ab7add9aefb18.png\" alt=\"\" loading=\"eager\"></p><p><strong>Azureサービス2</strong> は何を使用すべきですか。</p><p><br></p><p>Azureサービス1：</p><p>Azureサービス2：</p>",
           "promptText": "注：この問題は前の問題と2問1セットです。\n\nあなたは、ユーザーの作成とロールの割り当てを追跡するためのアーキテクチャを設計しています。\n収集されたデータはAzure Cosmos DBに格納する必要があります。\n\nAzureサービス2 は何を使用すべきですか。\n\nAzureサービス1：\nAzureサービス2：",
           "choices": [
             {
@@ -7545,11 +7983,15 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>Azure Functionsは、次のトリガーと出力を使用して、イベントハブに送信されたイベントに応答し、読み取った内容をCosmos DBに書き込みすることができます。</p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-bindings-event-hubs-trigger?tabs=in-process%2Cfunctionsv2%2Cextensionv5&amp;pivots=programming-language-csharp\">Azure Event Hubs トリガー</a></p><p>・<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-bindings-cosmosdb-v2-output?tabs=in-process%2Cfunctionsv2&amp;pivots=programming-language-csharp\">Azure Cosmos DB の出力バインド</a></p><p><br></p><p>選択肢1の「Azure Event Grid」もイベントソースとしてイベントハブと統合できますが、イベントハンドラー（送信先）としてCosmos DBは収録時点ではサポートされていません。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/event-grid/event-handlers\">https://learn.microsoft.com/ja-jp/azure/event-grid/event-handlers</a></p><p><br></p><p>選択肢5の「Azure Notification Hubs」は通知を送るためのサービスなので誤りです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/notification-hubs/notification-hubs-push-notification-overview\">https://learn.microsoft.com/ja-jp/azure/notification-hubs/notification-hubs-push-notification-overview</a></p>",
           "explanationText": "Azure Functionsは、次のトリガーと出力を使用して、イベントハブに送信されたイベントに応答し、読み取った内容をCosmos DBに書き込みすることができます。\n・Azure Event Hubs トリガー\n・Azure Cosmos DB の出力バインド\n\n選択肢1の「Azure Event Grid」もイベントソースとしてイベントハブと統合できますが、イベントハンドラー（送信先）としてCosmos DBは収録時点ではサポートされていません。\nhttps://learn.microsoft.com/ja-jp/azure/event-grid/event-handlers\n\n選択肢5の「Azure Notification Hubs」は通知を送るためのサービスなので誤りです。\nhttps://learn.microsoft.com/ja-jp/azure/notification-hubs/notification-hubs-push-notification-overview",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2024-10-04_04-41-09-5efcede32ea9b9f9ba9ab7add9aefb18.png"
+          ],
           "domain": null,
           "questionType": "single",
-          "contextGroupId": null,
-          "tags": []
+          "contextGroupId": "jp3-linked-009",
+          "tags": [
+            "linked-question"
+          ]
         },
         {
           "questionId": "jp3-q-048",
@@ -7585,9 +8027,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-048-c1"
           ],
-          "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT&nbsp;/ データ統合のサービスと説明されています。</p><p><br></p><p>Azure仮想マシンやオンプレミスのサーバーのデータに統合するには、「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、データを変換し、Azure Data Lake Storageなどのデータストアに書き出すことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory\">https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory</a></p><p></p><p><br></p>",
+          "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT&nbsp;/ データ統合のサービスと説明されています。</p><p><br></p><p>Azure仮想マシンやオンプレミスのサーバーのデータに統合するには、「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、データを変換し、Azure Data Lake Storageなどのデータストアに書き出すことができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory\">https://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory</a></p><p><img src=\"assets/問題集3_files/2023-02-01_06-21-15-69e61207bc6185f9b14eedb6bbe789e8.png\" alt=\"\" loading=\"eager\"></p><p><br></p>",
           "explanationText": "Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。\nデータをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/introduction\n\n収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）\n公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。\n\nAzure仮想マシンやオンプレミスのサーバーのデータに統合するには、「セルフホステッド統合ランタイム」というエージェントのようなものをインストールしAzure Data Factoryと接続することで、データを変換し、Azure Data Lake Storageなどのデータストアに書き出すことができます。\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-02-01_06-21-15-69e61207bc6185f9b14eedb6bbe789e8.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -7621,9 +8065,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-049-c3"
           ],
-          "explanationHtml": "<p>ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。</p><p><br></p><p><code>・最大 7 TB の動画ファイルをアップロードできること</code></p><p>まず、mp4などの動画ファイルをページBLOBとしてアップロードすることはできないため、選択肢2は誤りです。</p><p>また、ファイル共有の1ファイルあたりの上限は4TiBなので要件を満たしません。</p><p>汎用 v2 アカウントを使用し、ブロックBLOBとして保存するのが適切です（ブロックBLOBの最大サイズは約 190.7 TiB）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-blob-storage-limits\">https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-blob-storage-limits</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs#about-block-blobs\">https://learn.microsoft.com/ja-jp/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs#about-block-blobs</a></p>",
+          "explanationHtml": "<p>ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。</p><img src=\"assets/問題集3_files/2023-02-07_04-25-49-ecc7fd33983451b0306483c58790069c.png\" alt=\"\" loading=\"eager\"><p><br></p><p><code>・最大 7 TB の動画ファイルをアップロードできること</code></p><p>まず、mp4などの動画ファイルをページBLOBとしてアップロードすることはできないため、選択肢2は誤りです。</p><p>また、ファイル共有の1ファイルあたりの上限は4TiBなので要件を満たしません。</p><p>汎用 v2 アカウントを使用し、ブロックBLOBとして保存するのが適切です（ブロックBLOBの最大サイズは約 190.7 TiB）</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-blob-storage-limits\">https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-blob-storage-limits</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs#about-block-blobs\">https://learn.microsoft.com/ja-jp/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs#about-block-blobs</a></p>",
           "explanationText": "ストレージアカウントの種類とサポートされる冗長性、代表的な機能などをまとめると次のとおりです。\n\n・最大 7 TB の動画ファイルをアップロードできること\nまず、mp4などの動画ファイルをページBLOBとしてアップロードすることはできないため、選択肢2は誤りです。\nまた、ファイル共有の1ファイルあたりの上限は4TiBなので要件を満たしません。\n汎用 v2 アカウントを使用し、ブロックBLOBとして保存するのが適切です（ブロックBLOBの最大サイズは約 190.7 TiB）\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-blob-storage-limits\nhttps://learn.microsoft.com/ja-jp/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs#about-block-blobs",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-02-07_04-25-49-ecc7fd33983451b0306483c58790069c.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -7670,7 +8116,7 @@ window.QUIZ_DATA = {
     "jp3-set-006": {
       "setId": "jp3-set-006",
       "title": "問題集3 51-60",
-      "sourceHtml": "udemy/問題集3.html",
+      "sourceHtml": "assets/問題集3.html",
       "questionIds": [
         "jp3-q-051",
         "jp3-q-052",
@@ -7754,9 +8200,12 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-052-c1"
           ],
-          "explanationHtml": "<p>アクティビティログは、サブスクリプションレベルの操作ログです。</p><p>サブスクリプション内のAzureリソースに対して行った操作やデプロイが記録されるため、例えば、SQL Database の作成、更新、削除といった操作をいつ、だれが行ったのかを確認することができます。</p><p><br></p><p>デフォルトではAzure上に90日間保存され、Azureポータルなどから参照できます。</p><p>90日以上保存したい場合は、CSV形式でダウンロードしておくか、診断設定によりLog Analytics ワークスペースなど別の場所へエクスポートすることもできます。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/activity-log?tabs=powershell\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/activity-log?tabs=powershell</a></p>",
+          "explanationHtml": "<p>アクティビティログは、サブスクリプションレベルの操作ログです。</p><p>サブスクリプション内のAzureリソースに対して行った操作やデプロイが記録されるため、例えば、SQL Database の作成、更新、削除といった操作をいつ、だれが行ったのかを確認することができます。</p><img src=\"assets/問題集3_files/2023-01-26_00-47-04-49f45e43568270a6aa6f2b9214eea523.png\" alt=\"\" loading=\"eager\"><p><br></p><p>デフォルトではAzure上に90日間保存され、Azureポータルなどから参照できます。</p><p>90日以上保存したい場合は、CSV形式でダウンロードしておくか、診断設定によりLog Analytics ワークスペースなど別の場所へエクスポートすることもできます。</p><img src=\"assets/問題集3_files/2023-01-26_00-47-04-71049af9caf3581c07362ab883a4be4b.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/activity-log?tabs=powershell\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/activity-log?tabs=powershell</a></p>",
           "explanationText": "アクティビティログは、サブスクリプションレベルの操作ログです。\nサブスクリプション内のAzureリソースに対して行った操作やデプロイが記録されるため、例えば、SQL Database の作成、更新、削除といった操作をいつ、だれが行ったのかを確認することができます。\n\nデフォルトではAzure上に90日間保存され、Azureポータルなどから参照できます。\n90日以上保存したい場合は、CSV形式でダウンロードしておくか、診断設定によりLog Analytics ワークスペースなど別の場所へエクスポートすることもできます。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/activity-log?tabs=powershell",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-26_00-47-04-49f45e43568270a6aa6f2b9214eea523.png",
+            "assets/問題集3_files/2023-01-26_00-47-04-71049af9caf3581c07362ab883a4be4b.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": null,
@@ -7796,9 +8245,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-053-c4"
           ],
-          "explanationHtml": "<p><code>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</code></p><p>Microsoft Entra Connect Health (旧Azure Active Directory&nbsp;Connect Health) の通知設定により、同期エラーをメール通知することができます。</p><p></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/hybrid/whatis-azure-ad-connect\">https://learn.microsoft.com/ja-jp/azure/active-directory/hybrid/whatis-azure-ad-connect</a></p>",
+          "explanationHtml": "<p><code>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</code></p><p>Microsoft Entra Connect Health (旧Azure Active Directory&nbsp;Connect Health) の通知設定により、同期エラーをメール通知することができます。</p><p><img src=\"assets/問題集3_files/2024-10-04_05-46-09-07029ba04f85970f6ab3c787ef128a79.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/hybrid/whatis-azure-ad-connect\">https://learn.microsoft.com/ja-jp/azure/active-directory/hybrid/whatis-azure-ad-connect</a></p>",
           "explanationText": "・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること\nMicrosoft Entra Connect Health (旧Azure Active Directory Connect Health) の通知設定により、同期エラーをメール通知することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/hybrid/whatis-azure-ad-connect",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2024-10-04_05-46-09-07029ba04f85970f6ab3c787ef128a79.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp3-case-001",
@@ -7809,7 +8260,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp3-q-054",
           "sourceQuestionNumber": 54,
-          "promptHtml": "<p>ケーススタディ：</p><p>Fabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。</p><p>同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。<br></p><p><strong>■既存環境</strong></p><p><strong>Active Directory環境</strong><br>ネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。</p><p>corp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。</p><p>rd.fabrikam.comは研究開発（R&amp;D）部門のみが使用します。R&amp;D部門は、オンプレミスリソースのみを使用するように制限されています。</p><p><br></p><p><strong>ネットワークインフラストラクチャ</strong></p><p>各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。</p><p>すべてのオフィスは、インターネットへの高速接続を持っています。</p><p>WebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。</p><p>WebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。</p><p>IT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。</p><p>Fabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。</p><p><br></p><p><strong>既存環境の問題点</strong></p><p>WebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。</p><p>その他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Fabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。<br>その最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。</p><p>研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。</p><p><br></p><p><strong>技術要件</strong></p><p>Fabrikam社は、以下の技術的要件を必要としています。</p><p>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</p><p>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</p><p>・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること</p><p>・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること</p><p>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</p><p>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</p><p>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</p><p>・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと</p><p><br></p><p><strong>データベース要件</strong></p><p>Fabrikam社は、以下のデータベース要件を必要としています。</p><p>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</p><p>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</p><p>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</p><p><br></p><p><strong>セキュリティ要件</strong></p><p>Fabrikam社は、次のセキュリティ要件を必要としています。</p><p>・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること</p><p>・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること</p><p>・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること</p><p>・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること</p><p>・WebApp1 の更新のテストは、会社の外の誰からも見えないこと</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたは、次の図に示されているように、WebApp1のWeb層のソリューションを設計しています。 </p><p>Azure App Service は Standard の価格レベルを使用する予定です。</p><p></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>技術要件にある冗長性を満たす設計になっています</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Fabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。</p><p>同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。<br></p><p><strong>■既存環境</strong></p><p><strong>Active Directory環境</strong><br>ネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。</p><p>corp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。</p><p>rd.fabrikam.comは研究開発（R&amp;D）部門のみが使用します。R&amp;D部門は、オンプレミスリソースのみを使用するように制限されています。</p><p><br></p><p><strong>ネットワークインフラストラクチャ</strong></p><p>各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。</p><p>すべてのオフィスは、インターネットへの高速接続を持っています。</p><p>WebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。</p><p>WebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。</p><p>IT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。</p><p>Fabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。</p><p><br></p><p><strong>既存環境の問題点</strong></p><p>WebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。</p><p>その他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Fabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。<br>その最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。</p><p>研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。</p><p><br></p><p><strong>技術要件</strong></p><p>Fabrikam社は、以下の技術的要件を必要としています。</p><p>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</p><p>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</p><p>・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること</p><p>・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること</p><p>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</p><p>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</p><p>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</p><p>・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと</p><p><br></p><p><strong>データベース要件</strong></p><p>Fabrikam社は、以下のデータベース要件を必要としています。</p><p>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</p><p>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</p><p>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</p><p><br></p><p><strong>セキュリティ要件</strong></p><p>Fabrikam社は、次のセキュリティ要件を必要としています。</p><p>・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること</p><p>・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること</p><p>・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること</p><p>・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること</p><p>・WebApp1 の更新のテストは、会社の外の誰からも見えないこと</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたは、次の図に示されているように、WebApp1のWeb層のソリューションを設計しています。 </p><p>Azure App Service は Standard の価格レベルを使用する予定です。</p><p><img src=\"assets/問題集3_files/2023-01-31_02-40-39-56969449886a9891a4b107de2e8986d1.png\" alt=\"\" loading=\"eager\"></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>技術要件にある冗長性を満たす設計になっています</p>",
           "promptText": "ケーススタディ：\nFabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。\n同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。\n\n■既存環境\nActive Directory環境\nネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。\ncorp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。\nrd.fabrikam.comは研究開発（R&D）部門のみが使用します。R&D部門は、オンプレミスリソースのみを使用するように制限されています。\n\nネットワークインフラストラクチャ\n各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。\nすべてのオフィスは、インターネットへの高速接続を持っています。\nWebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。\nWebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。\nIT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。\nFabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。\n\n既存環境の問題点\nWebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。\nその他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。\n\n■計画されている変更と要件\nFabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。\nその最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。\n研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。\n\n技術要件\nFabrikam社は、以下の技術的要件を必要としています。\n・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること\n・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること\n・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること\n・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること\n・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること\n・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\n・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること\n・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと\n\nデータベース要件\nFabrikam社は、以下のデータベース要件を必要としています。\n・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること\n・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること\n・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること\n\nセキュリティ要件\nFabrikam社は、次のセキュリティ要件を必要としています。\n・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること\n・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること\n・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること\n・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること\n・WebApp1 の更新のテストは、会社の外の誰からも見えないこと\n\n設問\n注：この問題は次とその次の問題と3問1セットです。\n\nあなたは、次の図に示されているように、WebApp1のWeb層のソリューションを設計しています。\nAzure App Service は Standard の価格レベルを使用する予定です。\n\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\n技術要件にある冗長性を満たす設計になっています",
           "choices": [
             {
@@ -7828,9 +8279,12 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-054-c1"
           ],
-          "explanationHtml": "<p><code>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</code> </p><p>問題の構成では、WebApp1のWeb層は2つのリージョンのAzure App Serviceに配置されており、前段にAzure Traffic Managerがあります。</p><p>リージョン障害から保護するにはグローバルな負荷分散サービスを選択する必要があり、Azure Front Door、Azure Traffic Managerのいずれかが候補になるため正しいです。</p><p><br></p><p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p>",
+          "explanationHtml": "<p><code>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</code> </p><p>問題の構成では、WebApp1のWeb層は2つのリージョンのAzure App Serviceに配置されており、前段にAzure Traffic Managerがあります。</p><p>リージョン障害から保護するにはグローバルな負荷分散サービスを選択する必要があり、Azure Front Door、Azure Traffic Managerのいずれかが候補になるため正しいです。</p><p><br></p><p>Azureの負荷分散オプションは大きく次の4種類があります。</p><p>細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。</p><img src=\"assets/問題集3_files/2023-01-31_06-20-42-e3688ad35a03c5a590dd006ae3f65827.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview</a></p>",
           "explanationText": "・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること\n問題の構成では、WebApp1のWeb層は2つのリージョンのAzure App Serviceに配置されており、前段にAzure Traffic Managerがあります。\nリージョン障害から保護するにはグローバルな負荷分散サービスを選択する必要があり、Azure Front Door、Azure Traffic Managerのいずれかが候補になるため正しいです。\n\nAzureの負荷分散オプションは大きく次の4種類があります。\n細かい違いは他にもありますが、試験対策として重要な点を示します。得点を稼ぎやすい分野ですので違いをしっかり理解しておきましょう。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-31_02-40-39-56969449886a9891a4b107de2e8986d1.png",
+            "assets/問題集3_files/2023-01-31_06-20-42-e3688ad35a03c5a590dd006ae3f65827.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp3-case-001",
@@ -7841,7 +8295,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp3-q-055",
           "sourceQuestionNumber": 55,
-          "promptHtml": "<p>ケーススタディ：</p><p>Fabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。</p><p>同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。<br></p><p><strong>■既存環境</strong></p><p><strong>Active Directory環境</strong><br>ネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。</p><p>corp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。</p><p>rd.fabrikam.comは研究開発（R&amp;D）部門のみが使用します。R&amp;D部門は、オンプレミスリソースのみを使用するように制限されています。</p><p><br></p><p><strong>ネットワークインフラストラクチャ</strong></p><p>各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。</p><p>すべてのオフィスは、インターネットへの高速接続を持っています。</p><p>WebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。</p><p>WebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。</p><p>IT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。</p><p>Fabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。</p><p><br></p><p><strong>既存環境の問題点</strong></p><p>WebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。</p><p>その他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Fabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。<br>その最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。</p><p>研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。</p><p><br></p><p><strong>技術要件</strong></p><p>Fabrikam社は、以下の技術的要件を必要としています。</p><p>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</p><p>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</p><p>・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること</p><p>・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること</p><p>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</p><p>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</p><p>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</p><p>・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと</p><p><br></p><p><strong>データベース要件</strong></p><p>Fabrikam社は、以下のデータベース要件を必要としています。</p><p>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</p><p>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</p><p>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</p><p><br></p><p><strong>セキュリティ要件</strong></p><p>Fabrikam社は、次のセキュリティ要件を必要としています。</p><p>・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること</p><p>・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること</p><p>・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること</p><p>・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること</p><p>・WebApp1 の更新のテストは、会社の外の誰からも見えないこと</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたは、次の図に示されているように、WebApp1のWeb層のソリューションを設計しています。 </p><p>Azure App Service は Standard の価格レベルを使用する予定です。</p><p></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>自動スケールに対応した設計です</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Fabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。</p><p>同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。<br></p><p><strong>■既存環境</strong></p><p><strong>Active Directory環境</strong><br>ネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。</p><p>corp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。</p><p>rd.fabrikam.comは研究開発（R&amp;D）部門のみが使用します。R&amp;D部門は、オンプレミスリソースのみを使用するように制限されています。</p><p><br></p><p><strong>ネットワークインフラストラクチャ</strong></p><p>各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。</p><p>すべてのオフィスは、インターネットへの高速接続を持っています。</p><p>WebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。</p><p>WebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。</p><p>IT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。</p><p>Fabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。</p><p><br></p><p><strong>既存環境の問題点</strong></p><p>WebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。</p><p>その他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Fabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。<br>その最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。</p><p>研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。</p><p><br></p><p><strong>技術要件</strong></p><p>Fabrikam社は、以下の技術的要件を必要としています。</p><p>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</p><p>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</p><p>・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること</p><p>・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること</p><p>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</p><p>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</p><p>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</p><p>・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと</p><p><br></p><p><strong>データベース要件</strong></p><p>Fabrikam社は、以下のデータベース要件を必要としています。</p><p>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</p><p>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</p><p>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</p><p><br></p><p><strong>セキュリティ要件</strong></p><p>Fabrikam社は、次のセキュリティ要件を必要としています。</p><p>・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること</p><p>・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること</p><p>・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること</p><p>・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること</p><p>・WebApp1 の更新のテストは、会社の外の誰からも見えないこと</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたは、次の図に示されているように、WebApp1のWeb層のソリューションを設計しています。 </p><p>Azure App Service は Standard の価格レベルを使用する予定です。</p><p><img src=\"assets/問題集3_files/2023-01-31_02-41-26-f666fcaad6ee9980f324d5774297b5b5.png\" alt=\"\" loading=\"eager\"></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>自動スケールに対応した設計です</p>",
           "promptText": "ケーススタディ：\nFabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。\n同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。\n\n■既存環境\nActive Directory環境\nネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。\ncorp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。\nrd.fabrikam.comは研究開発（R&D）部門のみが使用します。R&D部門は、オンプレミスリソースのみを使用するように制限されています。\n\nネットワークインフラストラクチャ\n各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。\nすべてのオフィスは、インターネットへの高速接続を持っています。\nWebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。\nWebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。\nIT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。\nFabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。\n\n既存環境の問題点\nWebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。\nその他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。\n\n■計画されている変更と要件\nFabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。\nその最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。\n研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。\n\n技術要件\nFabrikam社は、以下の技術的要件を必要としています。\n・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること\n・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること\n・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること\n・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること\n・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること\n・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\n・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること\n・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと\n\nデータベース要件\nFabrikam社は、以下のデータベース要件を必要としています。\n・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること\n・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること\n・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること\n\nセキュリティ要件\nFabrikam社は、次のセキュリティ要件を必要としています。\n・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること\n・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること\n・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること\n・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること\n・WebApp1 の更新のテストは、会社の外の誰からも見えないこと\n\n設問\n注：この問題は前と次の問題と3問1セットです。\n\nあなたは、次の図に示されているように、WebApp1のWeb層のソリューションを設計しています。\nAzure App Service は Standard の価格レベルを使用する予定です。\n\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\n自動スケールに対応した設計です",
           "choices": [
             {
@@ -7860,9 +8314,12 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-055-c1"
           ],
-          "explanationHtml": "<p>問題の構成では、WebApp1のWeb層は2つのリージョンのAzure App Serviceに配置されており、前段にAzure Traffic Managerがあります。</p><p><br></p><p><code>Azure App Service は Standard の価格レベルを使用する予定です。</code> </p><p>Azure App Serviceには自動スケールの機能が備わっており、Standard以上の価格レベルであれば使用することができます。よって、自動スケールに対応した設計になっており正しいです。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/\">https://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/</a></p>",
+          "explanationHtml": "<p>問題の構成では、WebApp1のWeb層は2つのリージョンのAzure App Serviceに配置されており、前段にAzure Traffic Managerがあります。</p><p><br></p><p><code>Azure App Service は Standard の価格レベルを使用する予定です。</code> </p><p>Azure App Serviceには自動スケールの機能が備わっており、Standard以上の価格レベルであれば使用することができます。よって、自動スケールに対応した設計になっており正しいです。</p><img src=\"assets/問題集3_files/2023-01-31_06-31-34-d10e2c7c6f6fd04c7c2eed769b8d0595.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/\">https://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/</a></p>",
           "explanationText": "問題の構成では、WebApp1のWeb層は2つのリージョンのAzure App Serviceに配置されており、前段にAzure Traffic Managerがあります。\n\nAzure App Service は Standard の価格レベルを使用する予定です。\nAzure App Serviceには自動スケールの機能が備わっており、Standard以上の価格レベルであれば使用することができます。よって、自動スケールに対応した設計になっており正しいです。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started\nhttps://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-31_02-41-26-f666fcaad6ee9980f324d5774297b5b5.png",
+            "assets/問題集3_files/2023-01-31_06-31-34-d10e2c7c6f6fd04c7c2eed769b8d0595.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp3-case-001",
@@ -7873,7 +8330,7 @@ window.QUIZ_DATA = {
         {
           "questionId": "jp3-q-056",
           "sourceQuestionNumber": 56,
-          "promptHtml": "<p>ケーススタディ：</p><p>Fabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。</p><p>同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。<br></p><p><strong>■既存環境</strong></p><p><strong>Active Directory環境</strong><br>ネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。</p><p>corp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。</p><p>rd.fabrikam.comは研究開発（R&amp;D）部門のみが使用します。R&amp;D部門は、オンプレミスリソースのみを使用するように制限されています。</p><p><br></p><p><strong>ネットワークインフラストラクチャ</strong></p><p>各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。</p><p>すべてのオフィスは、インターネットへの高速接続を持っています。</p><p>WebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。</p><p>WebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。</p><p>IT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。</p><p>Fabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。</p><p><br></p><p><strong>既存環境の問題点</strong></p><p>WebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。</p><p>その他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Fabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。<br>その最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。</p><p>研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。</p><p><br></p><p><strong>技術要件</strong></p><p>Fabrikam社は、以下の技術的要件を必要としています。</p><p>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</p><p>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</p><p>・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること</p><p>・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること</p><p>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</p><p>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</p><p>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</p><p>・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと</p><p><br></p><p><strong>データベース要件</strong></p><p>Fabrikam社は、以下のデータベース要件を必要としています。</p><p>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</p><p>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</p><p>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</p><p><br></p><p><strong>セキュリティ要件</strong></p><p>Fabrikam社は、次のセキュリティ要件を必要としています。</p><p>・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること</p><p>・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること</p><p>・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること</p><p>・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること</p><p>・WebApp1 の更新のテストは、会社の外の誰からも見えないこと</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたは、次の図に示されているように、WebApp1のWeb層のソリューションを設計しています。 </p><p>Azure App Service は Standard の価格レベルを使用する予定です。</p><p></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>Azureリージョンに障害が発生した場合、手動でフェールオーバーを行う必要があります</p>",
+          "promptHtml": "<p>ケーススタディ：</p><p>Fabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。</p><p>同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。<br></p><p><strong>■既存環境</strong></p><p><strong>Active Directory環境</strong><br>ネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。</p><p>corp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。</p><p>rd.fabrikam.comは研究開発（R&amp;D）部門のみが使用します。R&amp;D部門は、オンプレミスリソースのみを使用するように制限されています。</p><p><br></p><p><strong>ネットワークインフラストラクチャ</strong></p><p>各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。</p><p>すべてのオフィスは、インターネットへの高速接続を持っています。</p><p>WebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。</p><p>WebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。</p><p>IT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。</p><p>Fabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。</p><p><br></p><p><strong>既存環境の問題点</strong></p><p>WebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。</p><p>その他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。</p><p><br></p><p><strong>■計画されている変更と要件</strong></p><p>Fabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。<br>その最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。</p><p>研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。</p><p><br></p><p><strong>技術要件</strong></p><p>Fabrikam社は、以下の技術的要件を必要としています。</p><p>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</p><p>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</p><p>・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること</p><p>・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること</p><p>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</p><p>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</p><p>・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること</p><p>・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと</p><p><br></p><p><strong>データベース要件</strong></p><p>Fabrikam社は、以下のデータベース要件を必要としています。</p><p>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</p><p>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</p><p>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</p><p><br></p><p><strong>セキュリティ要件</strong></p><p>Fabrikam社は、次のセキュリティ要件を必要としています。</p><p>・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること</p><p>・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること</p><p>・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること</p><p>・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること</p><p>・WebApp1 の更新のテストは、会社の外の誰からも見えないこと</p><p><br></p><p><br></p><p><strong>設問</strong></p><p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたは、次の図に示されているように、WebApp1のWeb層のソリューションを設計しています。 </p><p>Azure App Service は Standard の価格レベルを使用する予定です。</p><p><img src=\"assets/問題集3_files/2023-01-31_02-42-56-b6393514afb4982cc8ba354c94a53064.png\" alt=\"\" loading=\"eager\"></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。</p><p><br></p><p>Azureリージョンに障害が発生した場合、手動でフェールオーバーを行う必要があります</p>",
           "promptText": "ケーススタディ：\nFabrikam社は、ヨーロッパ全土にオフィスを持つエンジニアリング企業です。\n同社は、ロンドンに本社があり、アムステルダム、ベルリン、ローマに3つの支社があります。\n\n■既存環境\nActive Directory環境\nネットワークには、corp.fabrikam.com と rd.fabrikam.com という2つのActive Directoryフォレストがあります。フォレスト間に信頼関係はありません。\ncorp.fabrikam.comは本番用フォレストで、内部のユーザーとコンピュータの認証に使用されるIDが含まれています。\nrd.fabrikam.comは研究開発（R&D）部門のみが使用します。R&D部門は、オンプレミスリソースのみを使用するように制限されています。\n\nネットワークインフラストラクチャ\n各オフィスには、corp.fabrikam.comドメインのドメインコントローラーが少なくとも1つあります。メインオフィスには rd.fabrikam.comフォレストのすべてのドメインコントローラーが含まれています。\nすべてのオフィスは、インターネットへの高速接続を持っています。\nWebApp1という名前の既存のアプリケーションは、ロンドンオフィスのデータセンターでホストされています。WebApp1 は、顧客が注文を行い、追跡するために使用されます。\nWebApp1 には、Internet Information Services (IIS) を使用する Web 層と、Microsoft SQL Server 2016 を実行するデータベース層があります。Web 層とデータベース層は、Hyper-V 上で動作する仮想マシンに実装されています。\nIT部門は現在、別のHyper-V環境を使用してWebApp1の更新をテストしています。\nFabrikam社は、ソフトウェア保証を含むMicrosoft Enterprise Agreementを通じて、すべてのMicrosoftライセンスを購入しています。\n\n既存環境の問題点\nWebApp1 の使用は予測不可能です。ピーク時には、ユーザーからしばしば遅延の報告があります。\nその他の時間帯では、WebApp1 の多くのリソースは十分に活用されていません。\n\n■計画されている変更と要件\nFabrikam社は今後数年の間に、本番ワークロードの大部分をAzureに移行する予定です。\nその最初のプロジェクトの1つとして、同社はハイブリッドIDモデルを確立し、今後予定されているMicrosoft 365の導入を促進する予定です。\n研究開発業務はすべてオンプレミスのままです。 Fabrikam社は、WebApp1の本番およびテスト用インスタンスをAzureに移行する予定です。\n\n技術要件\nFabrikam社は、以下の技術的要件を必要としています。\n・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること\n・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること\n・可能な限り、既存のオンプレミスライセンスを使用してコストを削減すること\n・ユーザーは常に corp.fabrikam.com の UPN ID を使用して認証すること\n・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること\n・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\n・ディレクトリの同期サービスに関連する問題が発生した場合、ITサポート担当者にメール通知されること\n・Microsoft Entra テナント と corp.fabrikam.com の間のディレクトリ同期は、Microsoft Entra テナント と corp.fabrikam.com の間のリンク障害の影響を受けないこと\n\nデータベース要件\nFabrikam社は、以下のデータベース要件を必要としています。\n・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること\n・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること\n・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること\n\nセキュリティ要件\nFabrikam社は、次のセキュリティ要件を必要としています。\n・ポリシー、テンプレート、データなどの企業情報は、社外からアクセスできないようにすること\n・オンプレミスネットワークのユーザーは、インターネットリンクに障害が発生しても、corp.fabrikam.com を認証できること\n・管理者は corp.fabrikam.com の認証情報を使用して Azure ポータルにサインインできること\n・Azure ポータルへのすべての管理者アクセスは、多要素認証（MFA）を使用して保護されること\n・WebApp1 の更新のテストは、会社の外の誰からも見えないこと\n\n設問\n注：この問題は前とその前の問題と3問1セットです。\n\nあなたは、次の図に示されているように、WebApp1のWeb層のソリューションを設計しています。\nAzure App Service は Standard の価格レベルを使用する予定です。\n\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nAzureリージョンに障害が発生した場合、手動でフェールオーバーを行う必要があります",
           "choices": [
             {
@@ -7894,7 +8351,9 @@ window.QUIZ_DATA = {
           ],
           "explanationHtml": "<p>問題の構成では、WebApp1のWeb層は2つのリージョンのAzure App Serviceに配置されており、前段にAzure Traffic Managerがあります。</p><p><br></p><p>Azure Traffic Manager には、エンドポイントの監視と自動フェールオーバーの機能が組み込まれています。</p><p>プローブの機能により、エンドポイント（本問題の場合はApp Service）の正常性が定期的にチェックされ、異常とみなされたエンドポイントにはルーティングされなくなります。</p><p><br></p><p>たとえば、次のように優先度ルーティングでエンドポイントを登録した場合、北ヨーロッパリージョンのWebアプリが正常な限りトラフィックはプライマリ (優先度が一番高い) エンドポイントに送信されます。プライマリ エンドポイントを使用できない場合は、2番目のエンドポイントにルーティングされます。</p><p><br></p><p>北ヨーロッパのWebアプリ：優先度1</p><p>西ヨーロッパのWebアプリ：優先度2</p><p><br></p><p>つまり、北ヨーロッパリージョンで障害が発生した場合、西ヨーロッパのWebアプリにルーティングされるようになるので（自動フェールオーバーされるので）、ユーザーはWebアプリを利用することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-monitoring\">https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-monitoring</a></p>",
           "explanationText": "問題の構成では、WebApp1のWeb層は2つのリージョンのAzure App Serviceに配置されており、前段にAzure Traffic Managerがあります。\n\nAzure Traffic Manager には、エンドポイントの監視と自動フェールオーバーの機能が組み込まれています。\nプローブの機能により、エンドポイント（本問題の場合はApp Service）の正常性が定期的にチェックされ、異常とみなされたエンドポイントにはルーティングされなくなります。\n\nたとえば、次のように優先度ルーティングでエンドポイントを登録した場合、北ヨーロッパリージョンのWebアプリが正常な限りトラフィックはプライマリ (優先度が一番高い) エンドポイントに送信されます。プライマリ エンドポイントを使用できない場合は、2番目のエンドポイントにルーティングされます。\n\n北ヨーロッパのWebアプリ：優先度1\n西ヨーロッパのWebアプリ：優先度2\n\nつまり、北ヨーロッパリージョンで障害が発生した場合、西ヨーロッパのWebアプリにルーティングされるようになるので（自動フェールオーバーされるので）、ユーザーはWebアプリを利用することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-monitoring",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-31_02-42-56-b6393514afb4982cc8ba354c94a53064.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp3-case-001",
@@ -7936,9 +8395,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-057-c1"
           ],
-          "explanationHtml": "<p><code>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</code></p><p><code>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</code></p><p>移行先のAzureサービスとしてPaaSを使用することが要件なので、Azure SQL&nbsp; Database、Azure SQL Managed Instanceのいずれかが候補になります。（どちらが適切かは後の問題で解説します）</p><p>いずれも、長期的なバックアップ（長期リテンション）をサポートしており、最大10年間のバックアップを保存することができます。</p><p><br></p><p>なお、Azure SQL&nbsp; Database、Azure SQL Managed Instanceとも自動バックアップの機能により、自動的にバックアップが取得されますが、長期リテンションを構成しない場合の保有期間は最大35日となっています。</p><p>バックアップの保有期間は、SQLServerのバックアップ &gt; ポリシーの構成から設定することができます。</p><p><br></p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/long-term-retention-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/long-term-retention-overview?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/automated-backups-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/automated-backups-overview?view=azuresql</a></p>",
+          "explanationHtml": "<p><code>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</code></p><p><code>・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること</code></p><p>移行先のAzureサービスとしてPaaSを使用することが要件なので、Azure SQL&nbsp; Database、Azure SQL Managed Instanceのいずれかが候補になります。（どちらが適切かは後の問題で解説します）</p><p>いずれも、長期的なバックアップ（長期リテンション）をサポートしており、最大10年間のバックアップを保存することができます。</p><p><br></p><p>なお、Azure SQL&nbsp; Database、Azure SQL Managed Instanceとも自動バックアップの機能により、自動的にバックアップが取得されますが、長期リテンションを構成しない場合の保有期間は最大35日となっています。</p><p>バックアップの保有期間は、SQLServerのバックアップ &gt; ポリシーの構成から設定することができます。</p><p><br></p><img src=\"assets/問題集3_files/2023-01-31_05-33-37-195b97bd01d68dc22f0a6c8e685237d8.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/long-term-retention-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/long-term-retention-overview?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/automated-backups-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/automated-backups-overview?view=azuresql</a></p>",
           "explanationText": "・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\n・コンプライアンス要件を満たすため、データベースのバックアップを最低7年間保持すること\n移行先のAzureサービスとしてPaaSを使用することが要件なので、Azure SQL  Database、Azure SQL Managed Instanceのいずれかが候補になります。（どちらが適切かは後の問題で解説します）\nいずれも、長期的なバックアップ（長期リテンション）をサポートしており、最大10年間のバックアップを保存することができます。\n\nなお、Azure SQL  Database、Azure SQL Managed Instanceとも自動バックアップの機能により、自動的にバックアップが取得されますが、長期リテンションを構成しない場合の保有期間は最大35日となっています。\nバックアップの保有期間は、SQLServerのバックアップ > ポリシーの構成から設定することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/long-term-retention-overview?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/automated-backups-overview?view=azuresql",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-31_05-33-37-195b97bd01d68dc22f0a6c8e685237d8.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp3-case-001",
@@ -7968,9 +8429,12 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-058-c1"
           ],
-          "explanationHtml": "<p><code>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</code></p><p><code>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</code></p><p>移行先のAzureサービスとしてPaaSを使用することが要件なので、Azure SQL&nbsp; Database、Azure SQL Managed Instance（以降、Azure SQL MI）のいずれかが候補になります。</p><p><br></p><p><code>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</code></p><p>ダウンタイムを最小限に抑えるには「オンライン移行」を選択する必要があります。</p><p>Azure Database Migration Serviceを利用すると、オンプレミスのSQLServerをAzureへオンライン移行できますが、次の通りシナリオは限定的です。</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/dms/dms-overview\">Azure Database Migration Service とは</a></p><p><br></p><p>Azure SQL&nbsp; Databaseのオンライン移行は収録時点ではサポートされていないため、Azure SQL MI を選択する必要があります。</p><p>そして、Azure Database Migration Serviceで Azure SQL MI にオンライン移行する場合、バックアップファイルのアップロード先としてストレージアカウントが必要となります。よって「はい」が正解です。</p><p><br></p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/dms/tutorial-sql-server-managed-instance-online-ads#configure-migration-settings\">移行の設定の構成</a></p>",
+          "explanationHtml": "<p><code>・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること</code></p><p><code>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</code></p><p>移行先のAzureサービスとしてPaaSを使用することが要件なので、Azure SQL&nbsp; Database、Azure SQL Managed Instance（以降、Azure SQL MI）のいずれかが候補になります。</p><p><br></p><p><code>・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること</code></p><p>ダウンタイムを最小限に抑えるには「オンライン移行」を選択する必要があります。</p><p>Azure Database Migration Serviceを利用すると、オンプレミスのSQLServerをAzureへオンライン移行できますが、次の通りシナリオは限定的です。</p><p><img src=\"assets/問題集3_files/2023-01-30_08-24-01-a6925a94c3511dbfc2895bd5c27f894e.png\" alt=\"\" loading=\"eager\"></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/dms/dms-overview\">Azure Database Migration Service とは</a></p><p><br></p><p>Azure SQL&nbsp; Databaseのオンライン移行は収録時点ではサポートされていないため、Azure SQL MI を選択する必要があります。</p><p>そして、Azure Database Migration Serviceで Azure SQL MI にオンライン移行する場合、バックアップファイルのアップロード先としてストレージアカウントが必要となります。よって「はい」が正解です。</p><p><br></p><p><img src=\"assets/問題集3_files/2023-01-30_08-24-01-cd773106a9eec033c4503836812cccc9.png\" alt=\"\" loading=\"eager\"></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/dms/tutorial-sql-server-managed-instance-online-ads#configure-migration-settings\">移行の設定の構成</a></p>",
           "explanationText": "・Azure環境は、Azureリージョンに障害が発生した場合に備えて冗長化されていること\n・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\n移行先のAzureサービスとしてPaaSを使用することが要件なので、Azure SQL  Database、Azure SQL Managed Instance（以降、Azure SQL MI）のいずれかが候補になります。\n\n・お客様のアクセスに支障をきたさないよう、データベースの移行時のダウンタイムを最小限に抑えること\nダウンタイムを最小限に抑えるには「オンライン移行」を選択する必要があります。\nAzure Database Migration Serviceを利用すると、オンプレミスのSQLServerをAzureへオンライン移行できますが、次の通りシナリオは限定的です。\n\n出典：Azure Database Migration Service とは\n\nAzure SQL  Databaseのオンライン移行は収録時点ではサポートされていないため、Azure SQL MI を選択する必要があります。\nそして、Azure Database Migration Serviceで Azure SQL MI にオンライン移行する場合、バックアップファイルのアップロード先としてストレージアカウントが必要となります。よって「はい」が正解です。\n\n出典：移行の設定の構成",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-30_08-24-01-a6925a94c3511dbfc2895bd5c27f894e.png",
+            "assets/問題集3_files/2023-01-30_08-24-01-cd773106a9eec033c4503836812cccc9.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp3-case-001",
@@ -8000,9 +8464,11 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-059-c2"
           ],
-          "explanationHtml": "<p><code>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</code></p><p><code>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</code></p><p><code>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</code> </p><p>すでに問題で登場していますが、WebApp1 のWeb層の移行先としては Azure App Serviceが適切です。</p><p>継続的デプロイ（CI/CD）を設定すると、GitHubなどのソース管理のリポジトリと連携することができ、コードを簡単に更新することができます。</p><p>また、手動、自動スケールの機能により、インスタンス台数の増減も容易にできます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/deploy-continuous-deployment?tabs=github\">https://learn.microsoft.com/ja-jp/azure/app-service/deploy-continuous-deployment?tabs=github</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started</a></p><p><br></p><p>Azure App Serviceにはストレージが組み込まれているので、ストレージアカウントをデプロイする必要はありません。</p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/\">https://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/</a></p>",
+          "explanationHtml": "<p><code>・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること</code></p><p><code>・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること</code></p><p><code>・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること</code> </p><p>すでに問題で登場していますが、WebApp1 のWeb層の移行先としては Azure App Serviceが適切です。</p><p>継続的デプロイ（CI/CD）を設定すると、GitHubなどのソース管理のリポジトリと連携することができ、コードを簡単に更新することができます。</p><p>また、手動、自動スケールの機能により、インスタンス台数の増減も容易にできます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/deploy-continuous-deployment?tabs=github\">https://learn.microsoft.com/ja-jp/azure/app-service/deploy-continuous-deployment?tabs=github</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started</a></p><p><br></p><p>Azure App Serviceにはストレージが組み込まれているので、ストレージアカウントをデプロイする必要はありません。</p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/\">https://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/</a></p><img src=\"assets/問題集3_files/2023-01-31_07-10-51-3f70c685ce11e698f2d7238b13a03b50.png\" alt=\"\" loading=\"eager\">",
           "explanationText": "・Web サイトのコンテンツは、1 つのポイントから簡単に更新できること\n・新しいアプリのインスタンスをプロビジョニングする際、ユーザーの入力を最小限に抑えること\n・可能な限り、PaaS（Platform as a Service）を使用してソリューションをAzureにデプロイすること\nすでに問題で登場していますが、WebApp1 のWeb層の移行先としては Azure App Serviceが適切です。\n継続的デプロイ（CI/CD）を設定すると、GitHubなどのソース管理のリポジトリと連携することができ、コードを簡単に更新することができます。\nまた、手動、自動スケールの機能により、インスタンス台数の増減も容易にできます。\nhttps://learn.microsoft.com/ja-jp/azure/app-service/deploy-continuous-deployment?tabs=github\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started\n\nAzure App Serviceにはストレージが組み込まれているので、ストレージアカウントをデプロイする必要はありません。\nhttps://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-31_07-10-51-3f70c685ce11e698f2d7238b13a03b50.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp3-case-001",
@@ -8032,9 +8498,14 @@ window.QUIZ_DATA = {
           "correctChoiceIds": [
             "jp3-q-060-c2"
           ],
-          "explanationHtml": "<p><code>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</code></p><p>SQL Databaseのメトリックを分析するために、診断設定でSQL Insightsなどのログを出力できます。</p><p>診断ログの保存先として次の<strong>いずれか</strong>（複数可）を選択することができます。</p><p><br></p><p>・ストレージアカウント</p><p>・Log Analytics ワークスペース</p><p>・イベントハブ</p><p><br></p><p></p><p><br></p><p>ストレージアカウントを選択することもできますが、必ずしもストレージアカウントをデプロイする必要はありません。よって「いいえ」が正解です。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal</a></p><p><br></p><p>最後に、解説で使用した比較表をまとめて添付しておきますので、見返したいときにご活用ください。（全ての演習テストの最後の解説に添付しておきます）</p><p><br></p><p><strong>ストレージアカウントの比較</strong></p><p></p><p><br></p><p><strong>負荷分散オプションの比較</strong></p><p></p><p><br></p><p><strong>Azure SQL Databaseの比較</strong></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla\">枠外の参考リンク：Azure SQL Database と SQL Managed Instance の高可用性</a></p><p></p>",
+          "explanationHtml": "<p><code>・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること</code></p><p>SQL Databaseのメトリックを分析するために、診断設定でSQL Insightsなどのログを出力できます。</p><p>診断ログの保存先として次の<strong>いずれか</strong>（複数可）を選択することができます。</p><p><br></p><p>・ストレージアカウント</p><p>・Log Analytics ワークスペース</p><p>・イベントハブ</p><p><br></p><p><img src=\"assets/問題集3_files/2023-01-31_07-48-33-ce54452498c43b4f582ace93da31b044.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>ストレージアカウントを選択することもできますが、必ずしもストレージアカウントをデプロイする必要はありません。よって「いいえ」が正解です。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&amp;tabs=azure-portal</a></p><p><br></p><p>最後に、解説で使用した比較表をまとめて添付しておきますので、見返したいときにご活用ください。（全ての演習テストの最後の解説に添付しておきます）</p><p><br></p><p><strong>ストレージアカウントの比較</strong></p><p><img src=\"assets/問題集3_files/2023-02-07_05-36-29-25d2f59f627cacbe1d209eb0d9c4ad09.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p><strong>負荷分散オプションの比較</strong></p><p><img src=\"assets/問題集3_files/2023-02-07_05-36-30-8da7a1b8fcf0169b8fb07ca0ec10f796.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p><strong>Azure SQL Databaseの比較</strong></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla\">枠外の参考リンク：Azure SQL Database と SQL Managed Instance の高可用性</a></p><p><img src=\"assets/問題集3_files/2023-02-07_05-36-30-091dfa71abd367781962c63f74c343b0.png\" alt=\"\" loading=\"eager\"></p>",
           "explanationText": "・データベース管理者がパフォーマンス設定を最適化できるように、WebApp1 の本番インスタンスのデータベースメトリクスを分析できるようにすること\nSQL Databaseのメトリックを分析するために、診断設定でSQL Insightsなどのログを出力できます。\n診断ログの保存先として次のいずれか（複数可）を選択することができます。\n\n・ストレージアカウント\n・Log Analytics ワークスペース\n・イベントハブ\n\nストレージアカウントを選択することもできますが、必ずしもストレージアカウントをデプロイする必要はありません。よって「いいえ」が正解です。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?view=azuresql&tabs=azure-portal\n\n最後に、解説で使用した比較表をまとめて添付しておきますので、見返したいときにご活用ください。（全ての演習テストの最後の解説に添付しておきます）\n\nストレージアカウントの比較\n\n負荷分散オプションの比較\n\nAzure SQL Databaseの比較\n枠外の参考リンク：Azure SQL Database と SQL Managed Instance の高可用性",
-          "images": [],
+          "images": [
+            "assets/問題集3_files/2023-01-31_07-48-33-ce54452498c43b4f582ace93da31b044.png",
+            "assets/問題集3_files/2023-02-07_05-36-29-25d2f59f627cacbe1d209eb0d9c4ad09.png",
+            "assets/問題集3_files/2023-02-07_05-36-30-8da7a1b8fcf0169b8fb07ca0ec10f796.png",
+            "assets/問題集3_files/2023-02-07_05-36-30-091dfa71abd367781962c63f74c343b0.png"
+          ],
           "domain": null,
           "questionType": "single",
           "contextGroupId": "jp3-case-001",

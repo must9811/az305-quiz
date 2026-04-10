@@ -1,7 +1,7 @@
 {
   "setId": "jp2-set-002",
   "title": "問題集2 11-20",
-  "sourceHtml": "udemy/問題集2.html",
+  "sourceHtml": "assets/問題集2.html",
   "questionIds": [
     "jp2-q-011",
     "jp2-q-012",
@@ -43,9 +43,11 @@
       "correctChoiceIds": [
         "jp2-q-011-c1"
       ],
-      "explanationHtml": "<p>BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションです。</p><p>ホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。</p><p>アーカイブ層は最も保存コストが低いですが、オフライン層に保存されるため即時アクセスができなくなります。よって、選択肢1のクール層が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview </a></p>",
+      "explanationHtml": "<p>BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションです。</p><p>ホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。</p><img src=\"assets/問題集2_files/2023-01-11_08-03-49-2a046917889e77d4c1bf640e2b8651b8.png\" alt=\"\" loading=\"eager\"><p>アーカイブ層は最も保存コストが低いですが、オフライン層に保存されるため即時アクセスができなくなります。よって、選択肢1のクール層が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview </a></p>",
       "explanationText": "BLOBストレージのアクセス層は、保存するデータのアクセス頻度と保存期間に基づいてコストを最適化するためのオプションです。\nホット、クール、アーカイブの3つがあり、保存コストとアクセスコスト（読み書きなど）は相反関係にあります。\nアーカイブ層は最も保存コストが低いですが、オフライン層に保存されるため即時アクセスができなくなります。よって、選択肢1のクール層が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-11_08-03-49-2a046917889e77d4c1bf640e2b8651b8.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -54,7 +56,7 @@
     {
       "questionId": "jp2-q-012",
       "sourceQuestionNumber": 12,
-      "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。</p><p>このWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。</p><p>仮想マシンは、次の図に示されている構成でデプロイされています。</p><p>Subnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。</p><p>VM1、および、VM2からAPIに接続できることはテストで確認されています。</p><p></p><p>パートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。</p><p>あなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。</p><p>あなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。</p><p>API Management の仮想ネットワークの構成は次のとおりです。</p><p></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。 </p><p><br></p><p>パートナー会社はインターネット経由で API を利用することができます</p>",
+      "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。</p><p>このWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。</p><p>仮想マシンは、次の図に示されている構成でデプロイされています。</p><p>Subnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。</p><p>VM1、および、VM2からAPIに接続できることはテストで確認されています。</p><p><img src=\"assets/問題集2_files/2025-05-19_02-51-06-5073e4ae751096a579b848f048533f4c.png\" alt=\"\" loading=\"eager\"></p><p>パートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。</p><p>あなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。</p><p>あなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。</p><p>API Management の仮想ネットワークの構成は次のとおりです。</p><p><img src=\"assets/問題集2_files/2023-02-02_02-47-03-bd38db69f3b9b64185db378a97da06d4.png\" alt=\"\" loading=\"eager\"></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。 </p><p><br></p><p>パートナー会社はインターネット経由で API を利用することができます</p>",
       "promptText": "注：この問題は次とその次の問題と3問1セットです。\n\nあなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。\nこのWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。\n仮想マシンは、次の図に示されている構成でデプロイされています。\nSubnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。\nVM1、および、VM2からAPIに接続できることはテストで確認されています。\n\nパートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。\nあなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。\nあなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。\nAPI Management の仮想ネットワークの構成は次のとおりです。\n\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nパートナー会社はインターネット経由で API を利用することができます",
       "choices": [
         {
@@ -75,7 +77,10 @@
       ],
       "explanationHtml": "<p>Azure API Managementには、バックエンド（本問題の場合はVM）にあるAPIを安全に公開するための中継（ゲートウェイ）の役割があります。その他、セキュリティ、レート制限、キャッシュ、モニタリングなどの機能を提供します。</p><p><br></p><p>Azure API Managementは仮想ネットワークに接続することができ、外部か内部を選択できます。</p><p>外部モードではパブリックIPアドレスを割り当てて、インターネット経由でAPI Management（とバックエンドのAPI）に接続するように構成することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet\">https://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts\">https://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts</a></p>",
       "explanationText": "Azure API Managementには、バックエンド（本問題の場合はVM）にあるAPIを安全に公開するための中継（ゲートウェイ）の役割があります。その他、セキュリティ、レート制限、キャッシュ、モニタリングなどの機能を提供します。\n\nAzure API Managementは仮想ネットワークに接続することができ、外部か内部を選択できます。\n外部モードではパブリックIPアドレスを割り当てて、インターネット経由でAPI Management（とバックエンドのAPI）に接続するように構成することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet\nhttps://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2025-05-19_02-51-06-5073e4ae751096a579b848f048533f4c.png",
+        "assets/問題集2_files/2023-02-02_02-47-03-bd38db69f3b9b64185db378a97da06d4.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -84,7 +89,7 @@
     {
       "questionId": "jp2-q-013",
       "sourceQuestionNumber": 13,
-      "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。</p><p>このWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。</p><p>仮想マシンは、次の図に示されている構成でデプロイされています。</p><p>Subnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。</p><p>VM1、および、VM2からAPIに接続できることはテストで確認されています。</p><p></p><p>パートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。</p><p>あなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。</p><p>あなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。</p><p>API Management の仮想ネットワークの構成は次のとおりです。</p><p></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。 </p><p><br></p><p>Azure API Managementインスタンスは、リアルタイムのデータにアクセスすることができます</p>",
+      "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。</p><p>このWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。</p><p>仮想マシンは、次の図に示されている構成でデプロイされています。</p><p>Subnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。</p><p>VM1、および、VM2からAPIに接続できることはテストで確認されています。</p><p><img src=\"assets/問題集2_files/2025-05-19_02-51-41-35f1d3c92de7a6188bee52914c5a2855.png\" alt=\"\" loading=\"eager\"></p><p>パートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。</p><p>あなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。</p><p>あなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。</p><p>API Management の仮想ネットワークの構成は次のとおりです。</p><p><img src=\"assets/問題集2_files/2023-02-02_02-47-03-bd38db69f3b9b64185db378a97da06d4.png\" alt=\"\" loading=\"eager\"></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。 </p><p><br></p><p>Azure API Managementインスタンスは、リアルタイムのデータにアクセスすることができます</p>",
       "promptText": "注：この問題は前と次の問題と3問1セットです。\n\nあなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。\nこのWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。\n仮想マシンは、次の図に示されている構成でデプロイされています。\nSubnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。\nVM1、および、VM2からAPIに接続できることはテストで確認されています。\n\nパートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。\nあなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。\nあなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。\nAPI Management の仮想ネットワークの構成は次のとおりです。\n\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nAzure API Managementインスタンスは、リアルタイムのデータにアクセスすることができます",
       "choices": [
         {
@@ -105,7 +110,10 @@
       ],
       "explanationHtml": "<p>Azure API Management（以下、APIM）はProdSubnetに接続されています。</p><p>VM1とは異なるサブネットに接続されているため、APIMからVM1のAPIへ接続できないと思われるかもしれませんが、NSGの既定のセキュリティ規則によりVnet内の通信は許可されています。</p><p>よって、APIMからVM1のリアルタイムデータにアクセスすることができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet\">https://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts\">https://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-network/network-security-groups-overview#default-security-rules\">https://learn.microsoft.com/ja-jp/azure/virtual-network/network-security-groups-overview#default-security-rules</a></p>",
       "explanationText": "Azure API Management（以下、APIM）はProdSubnetに接続されています。\nVM1とは異なるサブネットに接続されているため、APIMからVM1のAPIへ接続できないと思われるかもしれませんが、NSGの既定のセキュリティ規則によりVnet内の通信は許可されています。\nよって、APIMからVM1のリアルタイムデータにアクセスすることができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet\nhttps://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts\nhttps://learn.microsoft.com/ja-jp/azure/virtual-network/network-security-groups-overview#default-security-rules",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2025-05-19_02-51-41-35f1d3c92de7a6188bee52914c5a2855.png",
+        "assets/問題集2_files/2023-02-02_02-47-03-bd38db69f3b9b64185db378a97da06d4.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -114,7 +122,7 @@
     {
       "questionId": "jp2-q-014",
       "sourceQuestionNumber": 14,
-      "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。</p><p>このWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。</p><p>仮想マシンは、次の図に示されている構成でデプロイされています。</p><p>Subnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。</p><p>VM1、および、VM2からAPIに接続できることはテストで確認されています。</p><p></p><p>パートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。</p><p>あなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。</p><p>あなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。</p><p>API Management の仮想ネットワークの構成は次のとおりです。</p><p></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。 </p><p><br></p><p>パートナー会社からのアクセスには、VPNゲートウェイが必要です</p>",
+      "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。</p><p>このWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。</p><p>仮想マシンは、次の図に示されている構成でデプロイされています。</p><p>Subnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。</p><p>VM1、および、VM2からAPIに接続できることはテストで確認されています。</p><p><img src=\"assets/問題集2_files/2025-05-19_02-52-07-c2022ec7f67993c83deb331aa06068da.png\" alt=\"\" loading=\"eager\"></p><p>パートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。</p><p>あなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。</p><p>あなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。</p><p>API Management の仮想ネットワークの構成は次のとおりです。</p><p><img src=\"assets/問題集2_files/2023-02-02_02-47-03-bd38db69f3b9b64185db378a97da06d4.png\" alt=\"\" loading=\"eager\"></p><p>次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。 </p><p><br></p><p>パートナー会社からのアクセスには、VPNゲートウェイが必要です</p>",
       "promptText": "注：この問題は前とその前の問題と3問1セットです。\n\nあなたの会社は、VM1という名前のAzure仮想マシンにデプロイされるWebサービスを開発しています。\nこのWebサービスは、リアルタイムのデータにアクセスするためのAPIを提供します。\n仮想マシンは、次の図に示されている構成でデプロイされています。\nSubnet1、および、ProdSubnetには、既定のセキュリティ規則を含むネットワークセキュリティグループ（NSG）が関連付けられています。\nVM1、および、VM2からAPIに接続できることはテストで確認されています。\n\nパートナー会社は、彼らが開発するアプリケーションでリアルタイムのデータを使用する予定です。\nあなたは、パートナー会社からインターネット経由でAPIに接続できるようにする必要があります。\nあなたは、Azure API Management サービスをデプロイしたあと、インターネットからAPI Managementにアクセスするために必要な通信を許可しました。\nAPI Management の仮想ネットワークの構成は次のとおりです。\n\n次の説明が正しい場合は「はい」を、そうでない場合は「いいえ」を選択してください。\n\nパートナー会社からのアクセスには、VPNゲートウェイが必要です",
       "choices": [
         {
@@ -135,7 +143,10 @@
       ],
       "explanationHtml": "<p>外部モードで仮想ネットワークに接続されていればインターネット経由でアクセスできるため、VPNゲートウェイは不要です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet\">https://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts\">https://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts</a></p>",
       "explanationText": "外部モードで仮想ネットワークに接続されていればインターネット経由でアクセスできるため、VPNゲートウェイは不要です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/api-management/api-management-using-with-vnet\nhttps://learn.microsoft.com/ja-jp/azure/api-management/virtual-network-concepts",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2025-05-19_02-52-07-c2022ec7f67993c83deb331aa06068da.png",
+        "assets/問題集2_files/2023-02-02_02-47-03-bd38db69f3b9b64185db378a97da06d4.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -175,13 +186,17 @@
       "correctChoiceIds": [
         "jp2-q-015-c4"
       ],
-      "explanationHtml": "<p>リソースの作成・更新時にタグの追加、更新、削除するには「Modify」効果を使います。</p><p>リソースにフィールドを追加するために使用される「Append」と似ていますが、次の点が異なります。</p><p><br></p><p>・Modifyは修復タスクがサポートされている</p><p>・Modifyは operation プロパティで複数のタグを操作できる（タグの更新に便利）</p><p><br></p><p>タグを管理している場合は、Append ではなく Modify を使用することが推奨されています。</p><p>通常、Azure Policyで適用するルールは、タグ付与を例に挙げると新しいリソースにはタグを強制付与、既存リソースは非準拠である旨を表示といった動作をしますが、「修復タスク」を使うと既存リソースに対しても不足しているタグを付与することができます。</p><p><br></p><p>なお、本問題の要件を満たすには、組み込みポリシーの「リソース グループからタグを継承する」で実現できます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects\">https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal</a></p>",
+      "explanationHtml": "<p>リソースの作成・更新時にタグの追加、更新、削除するには「Modify」効果を使います。</p><p>リソースにフィールドを追加するために使用される「Append」と似ていますが、次の点が異なります。</p><p><br></p><p>・Modifyは修復タスクがサポートされている</p><p>・Modifyは operation プロパティで複数のタグを操作できる（タグの更新に便利）</p><p><br></p><p>タグを管理している場合は、Append ではなく Modify を使用することが推奨されています。</p><p>通常、Azure Policyで適用するルールは、タグ付与を例に挙げると新しいリソースにはタグを強制付与、既存リソースは非準拠である旨を表示といった動作をしますが、「修復タスク」を使うと既存リソースに対しても不足しているタグを付与することができます。</p><p><br></p><p>なお、本問題の要件を満たすには、組み込みポリシーの「リソース グループからタグを継承する」で実現できます。</p><img src=\"assets/問題集2_files/2023-01-24_03-29-18-d5f41fa854794e0603dc4922f7b360ce.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects\">https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal</a></p>",
       "explanationText": "リソースの作成・更新時にタグの追加、更新、削除するには「Modify」効果を使います。\nリソースにフィールドを追加するために使用される「Append」と似ていますが、次の点が異なります。\n\n・Modifyは修復タスクがサポートされている\n・Modifyは operation プロパティで複数のタグを操作できる（タグの更新に便利）\n\nタグを管理している場合は、Append ではなく Modify を使用することが推奨されています。\n通常、Azure Policyで適用するルールは、タグ付与を例に挙げると新しいリソースにはタグを強制付与、既存リソースは非準拠である旨を表示といった動作をしますが、「修復タスク」を使うと既存リソースに対しても不足しているタグを付与することができます。\n\nなお、本問題の要件を満たすには、組み込みポリシーの「リソース グループからタグを継承する」で実現できます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-24_03-29-18-d5f41fa854794e0603dc4922f7b360ce.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-002",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-016",
@@ -217,13 +232,17 @@
       "correctChoiceIds": [
         "jp2-q-016-c1"
       ],
-      "explanationHtml": "<p>Azure Policyの「修復タスク」を使うと既存リソースに対して不足しているタグを付与することができます。</p><p>ただ、これはAzure PolicyがAzureリソースに変更を加える動作なので、Azure Policyに対してタグを追加するためのアクセス許可を与える必要があります。</p><p><br></p><p>AzureリソースにIDを割り当てる仕組みとしてマネージドIDがあり、Azure PolicyはマネージドIDを使用することができます（システム割り当て、ユーザー割り当てどちらでも構いません）</p><p>選択肢3、4のサービスプリンシパルはアプリケーションにIDを割り当てるための仕組みなので誤りです。</p><p><br></p><p>選択肢2の <a href=\"https://learn.microsoft.com/ja-jp/azure/role-based-access-control/built-in-roles#user-access-administrator\">ユーザーアクセス管理者</a> は、Azureリソースにロールを割り当てる権限を持ちますが、タグを追加するための権限を持っていないため誤りです。</p><p>よって、選択肢1の「共同作成者ロールのマネージドID」が正解です。<a href=\"https://learn.microsoft.com/ja-jp/azure/role-based-access-control/built-in-roles#contributor\">共同作成者</a> はAzureリソースを管理するためのフルアクセスの権限があります。</p><p><br></p><p>なお、Azureポータルで修復タスクを作成する場合、マネージドIDに対するロールは自動的に割り当ててくれます。</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects\">https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/develop/howto-create-service-principal-portal\">https://learn.microsoft.com/ja-jp/azure/active-directory/develop/howto-create-service-principal-portal</a></p>",
+      "explanationHtml": "<p>Azure Policyの「修復タスク」を使うと既存リソースに対して不足しているタグを付与することができます。</p><p>ただ、これはAzure PolicyがAzureリソースに変更を加える動作なので、Azure Policyに対してタグを追加するためのアクセス許可を与える必要があります。</p><p><br></p><p>AzureリソースにIDを割り当てる仕組みとしてマネージドIDがあり、Azure PolicyはマネージドIDを使用することができます（システム割り当て、ユーザー割り当てどちらでも構いません）</p><p>選択肢3、4のサービスプリンシパルはアプリケーションにIDを割り当てるための仕組みなので誤りです。</p><p><br></p><p>選択肢2の <a href=\"https://learn.microsoft.com/ja-jp/azure/role-based-access-control/built-in-roles#user-access-administrator\">ユーザーアクセス管理者</a> は、Azureリソースにロールを割り当てる権限を持ちますが、タグを追加するための権限を持っていないため誤りです。</p><p>よって、選択肢1の「共同作成者ロールのマネージドID」が正解です。<a href=\"https://learn.microsoft.com/ja-jp/azure/role-based-access-control/built-in-roles#contributor\">共同作成者</a> はAzureリソースを管理するためのフルアクセスの権限があります。</p><p><br></p><p>なお、Azureポータルで修復タスクを作成する場合、マネージドIDに対するロールは自動的に割り当ててくれます。</p><img src=\"assets/問題集2_files/2023-01-24_05-28-47-82515d7ea0f0cf14bef97a0bee13705f.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects\">https://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\">https://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/develop/howto-create-service-principal-portal\">https://learn.microsoft.com/ja-jp/azure/active-directory/develop/howto-create-service-principal-portal</a></p>",
       "explanationText": "Azure Policyの「修復タスク」を使うと既存リソースに対して不足しているタグを付与することができます。\nただ、これはAzure PolicyがAzureリソースに変更を加える動作なので、Azure Policyに対してタグを追加するためのアクセス許可を与える必要があります。\n\nAzureリソースにIDを割り当てる仕組みとしてマネージドIDがあり、Azure PolicyはマネージドIDを使用することができます（システム割り当て、ユーザー割り当てどちらでも構いません）\n選択肢3、4のサービスプリンシパルはアプリケーションにIDを割り当てるための仕組みなので誤りです。\n\n選択肢2の ユーザーアクセス管理者 は、Azureリソースにロールを割り当てる権限を持ちますが、タグを追加するための権限を持っていないため誤りです。\nよって、選択肢1の「共同作成者ロールのマネージドID」が正解です。共同作成者 はAzureリソースを管理するためのフルアクセスの権限があります。\n\nなお、Azureポータルで修復タスクを作成する場合、マネージドIDに対するロールは自動的に割り当ててくれます。\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/concepts/effects\nhttps://learn.microsoft.com/ja-jp/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/develop/howto-create-service-principal-portal",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-24_05-28-47-82515d7ea0f0cf14bef97a0bee13705f.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-002",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-017",
@@ -270,7 +289,7 @@
     {
       "questionId": "jp2-q-018",
       "sourceQuestionNumber": 18,
-      "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。</p><p>それぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。</p><p><br></p><p>あなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。</p><p>ソリューションは、コストを最小限に抑える必要があります。</p><p><strong>販売アプリケーション</strong>には何を提案すべきですか。</p><p><br></p><p>販売アプリケーション：</p><p>財務アプリケーション：</p><p>帳票アプリケーション：</p>",
+      "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。</p><p>それぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。</p><img src=\"assets/問題集2_files/2023-01-23_05-37-37-755fabad1042308814dc068cf43066f3.png\" alt=\"\" loading=\"eager\"><p><br></p><p>あなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。</p><p>ソリューションは、コストを最小限に抑える必要があります。</p><p><strong>販売アプリケーション</strong>には何を提案すべきですか。</p><p><br></p><p>販売アプリケーション：</p><p>財務アプリケーション：</p><p>帳票アプリケーション：</p>",
       "promptText": "注：この問題は次とその次の問題と3問1セットです。\n\nあなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。\nそれぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。\n\nあなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。\nソリューションは、コストを最小限に抑える必要があります。\n販売アプリケーションには何を提案すべきですか。\n\n販売アプリケーション：\n財務アプリケーション：\n帳票アプリケーション：",
       "choices": [
         {
@@ -297,7 +316,9 @@
       ],
       "explanationHtml": "<p>Azure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。 </p><p>障害が発生した場合、オンプレミスからAzureへ、または、Azureの東日本リージョンから西日本リージョンへ、といった具合にプライマリサイトから予備のセカンダリサイトへ切り替えることで業務を継続することができます。</p><p>※ちなみに、Hyper-V VM のサイト間レプリケーション（オンプレミス → オンプレミス）は2023 年 3 月 に <a href=\"https://learn.microsoft.com/ja-jp/azure/site-recovery/site-to-site-deprecation\">廃止予定</a> です。</p><p><br></p><p>Azure Site Recovery の RTO SLA は 2 時間です。</p><p>ほとんどの場合、Site Recovery によって数分以内に VM がフェールオーバーされます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-overview\">https://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-overview</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/support/legal/sla/site-recovery/v1_2/\">https://azure.microsoft.com/ja-jp/support/legal/sla/site-recovery/v1_2/</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/site-recovery/azure-to-azure-common-questions#what-is-the-rto-of-a-vm-failover\">https://learn.microsoft.com/ja-jp/azure/site-recovery/azure-to-azure-common-questions#what-is-the-rto-of-a-vm-failover</a></p>",
       "explanationText": "Azure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。\n障害が発生した場合、オンプレミスからAzureへ、または、Azureの東日本リージョンから西日本リージョンへ、といった具合にプライマリサイトから予備のセカンダリサイトへ切り替えることで業務を継続することができます。\n※ちなみに、Hyper-V VM のサイト間レプリケーション（オンプレミス → オンプレミス）は2023 年 3 月 に 廃止予定 です。\n\nAzure Site Recovery の RTO SLA は 2 時間です。\nほとんどの場合、Site Recovery によって数分以内に VM がフェールオーバーされます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-overview\nhttps://azure.microsoft.com/ja-jp/support/legal/sla/site-recovery/v1_2/\nhttps://learn.microsoft.com/ja-jp/azure/site-recovery/azure-to-azure-common-questions#what-is-the-rto-of-a-vm-failover",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-23_05-37-37-755fabad1042308814dc068cf43066f3.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -306,7 +327,7 @@
     {
       "questionId": "jp2-q-019",
       "sourceQuestionNumber": 19,
-      "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。</p><p>それぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。</p><p><br></p><p>あなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。</p><p>ソリューションは、コストを最小限に抑える必要があります。</p><p><strong>財務アプリケーション</strong>には何を提案すべきですか。</p><p><br></p><p>販売アプリケーション：</p><p>財務アプリケーション：</p><p>帳票アプリケーション：</p><p><br></p>",
+      "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。</p><p>それぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。</p><img src=\"assets/問題集2_files/2023-01-23_06-18-58-fbd91f42bd8cdcb048fac1ed87064732.png\" alt=\"\" loading=\"eager\"><p><br></p><p>あなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。</p><p>ソリューションは、コストを最小限に抑える必要があります。</p><p><strong>財務アプリケーション</strong>には何を提案すべきですか。</p><p><br></p><p>販売アプリケーション：</p><p>財務アプリケーション：</p><p>帳票アプリケーション：</p><p><br></p>",
       "promptText": "注：この問題は前と次の問題と3問1セットです。\n\nあなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。\nそれぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。\n\nあなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。\nソリューションは、コストを最小限に抑える必要があります。\n財務アプリケーションには何を提案すべきですか。\n\n販売アプリケーション：\n財務アプリケーション：\n帳票アプリケーション：",
       "choices": [
         {
@@ -333,7 +354,9 @@
       ],
       "explanationHtml": "<p><code>・データを7年間保存すること</code> </p><p>Azure Backupを使用すると、オンプレミスやAzure上の仮想マシンなどをバックアップ・リストアすることができます。バックアップの保管場所や容量制限を意識することなく、バックアップ対象を選択することで決められたスケジュールに従ってバックアップを取得することができます。</p><p><br></p><p>Azure仮想マシンの場合は最大99年、MARSエージェントをインストールしたオンプレミスのサーバの場合は最大100年データを保存することができます。</p><p><br></p><p><code>・災害発生時、アプリケーションはAzure上で実行できること</code></p><p>オンプレミスからAzureにフェールオーバーしてサービスを継続するにはAzure Site Recoveryを使用します。</p><p>Azure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。</p><p>障害が発生した場合、オンプレミスからAzureへ、または、Azureの東日本リージョンから西日本リージョンへ、といった具合にプライマリサイトから予備のセカンダリサイトへ切り替えることで業務を継続することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/backup-overview\">https://learn.microsoft.com/ja-jp/azure/backup/backup-overview</a></p><p><a href=\"https://jpabrs-scem.github.io/blog/AzureBackupGeneral/Backup_RetentionPeriod/\">https://jpabrs-scem.github.io/blog/AzureBackupGeneral/Backup_RetentionPeriod/</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-overview\">https://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-overview</a></p>",
       "explanationText": "・データを7年間保存すること\nAzure Backupを使用すると、オンプレミスやAzure上の仮想マシンなどをバックアップ・リストアすることができます。バックアップの保管場所や容量制限を意識することなく、バックアップ対象を選択することで決められたスケジュールに従ってバックアップを取得することができます。\n\nAzure仮想マシンの場合は最大99年、MARSエージェントをインストールしたオンプレミスのサーバの場合は最大100年データを保存することができます。\n\n・災害発生時、アプリケーションはAzure上で実行できること\nオンプレミスからAzureにフェールオーバーしてサービスを継続するにはAzure Site Recoveryを使用します。\nAzure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。\n障害が発生した場合、オンプレミスからAzureへ、または、Azureの東日本リージョンから西日本リージョンへ、といった具合にプライマリサイトから予備のセカンダリサイトへ切り替えることで業務を継続することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/backup/backup-overview\nhttps://jpabrs-scem.github.io/blog/AzureBackupGeneral/Backup_RetentionPeriod/\nhttps://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-overview",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-23_06-18-58-fbd91f42bd8cdcb048fac1ed87064732.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -342,7 +365,7 @@
     {
       "questionId": "jp2-q-020",
       "sourceQuestionNumber": 20,
-      "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。</p><p>それぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。</p><p><br></p><p>あなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。</p><p>ソリューションは、コストを最小限に抑える必要があります。</p><p><strong>帳票アプリケーション</strong>には何を提案すべきですか。</p><p><br></p><p>販売アプリケーション：</p><p>財務アプリケーション：</p><p>帳票アプリケーション：</p>",
+      "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。</p><p>それぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。</p><img src=\"assets/問題集2_files/2023-01-23_06-39-29-7367e21d04cfb65c497506ced002c171.png\" alt=\"\" loading=\"eager\"><p><br></p><p>あなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。</p><p>ソリューションは、コストを最小限に抑える必要があります。</p><p><strong>帳票アプリケーション</strong>には何を提案すべきですか。</p><p><br></p><p>販売アプリケーション：</p><p>財務アプリケーション：</p><p>帳票アプリケーション：</p>",
       "promptText": "注：この問題は前とその前の問題と3問1セットです。\n\nあなたの会社は、オンプレミスとAzureのハイブリッド環境を持っています。\nそれぞれの環境でホストされているアプリケーションの災害復旧について計画しており、次の要件を特定しています。\n\nあなたは、事業継続とディザスタリカバリの目標を満たすための Azure サービスを提案する必要があります。\nソリューションは、コストを最小限に抑える必要があります。\n帳票アプリケーションには何を提案すべきですか。\n\n販売アプリケーション：\n財務アプリケーション：\n帳票アプリケーション：",
       "choices": [
         {
@@ -367,9 +390,12 @@
       "correctChoiceIds": [
         "jp2-q-020-c1"
       ],
-      "explanationHtml": "<p>Azure Backupを使用すると、オンプレミスやAzure上の仮想マシンなどをバックアップ・リストアすることができます。バックアップの保管場所や容量制限を意識することなく、バックアップ対象を選択することで決められたスケジュールに従ってバックアップを取得することができます。</p><p><br></p><p>バックアップのスケジュールは、Azure仮想マシンの場合はAzureポータルの「バックアップポリシー」で、オンプレミスのサーバ（MARS/MABSエージェント）の場合はツール画面から設定できます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/backup-support-matrix\">https://learn.microsoft.com/ja-jp/azure/backup/backup-support-matrix</a></p>",
+      "explanationHtml": "<p>Azure Backupを使用すると、オンプレミスやAzure上の仮想マシンなどをバックアップ・リストアすることができます。バックアップの保管場所や容量制限を意識することなく、バックアップ対象を選択することで決められたスケジュールに従ってバックアップを取得することができます。</p><p><br></p><p>バックアップのスケジュールは、Azure仮想マシンの場合はAzureポータルの「バックアップポリシー」で、オンプレミスのサーバ（MARS/MABSエージェント）の場合はツール画面から設定できます。</p><img src=\"assets/問題集2_files/2023-01-23_06-39-30-6d0f725fa17de1b6cd844ed3a85bec63.png\" alt=\"\" loading=\"eager\"><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/backup/backup-support-matrix\">https://learn.microsoft.com/ja-jp/azure/backup/backup-support-matrix</a></p>",
       "explanationText": "Azure Backupを使用すると、オンプレミスやAzure上の仮想マシンなどをバックアップ・リストアすることができます。バックアップの保管場所や容量制限を意識することなく、バックアップ対象を選択することで決められたスケジュールに従ってバックアップを取得することができます。\n\nバックアップのスケジュールは、Azure仮想マシンの場合はAzureポータルの「バックアップポリシー」で、オンプレミスのサーバ（MARS/MABSエージェント）の場合はツール画面から設定できます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/backup/backup-support-matrix",
-      "images": [],
+      "images": [
+        "assets/問題集2_files/2023-01-23_06-39-29-7367e21d04cfb65c497506ced002c171.png",
+        "assets/問題集2_files/2023-01-23_06-39-30-6d0f725fa17de1b6cd844ed3a85bec63.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,

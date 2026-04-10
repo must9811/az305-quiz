@@ -1,7 +1,7 @@
 {
   "setId": "jp1-set-005",
   "title": "問題集1 41-50",
-  "sourceHtml": "udemy/問題集1.html",
+  "sourceHtml": "assets/問題集1.html",
   "questionIds": [
     "jp1-q-041",
     "jp1-q-042",
@@ -66,8 +66,10 @@
       "images": [],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp1-linked-006",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp1-q-042",
@@ -103,9 +105,11 @@
       "correctChoiceIds": [
         "jp1-q-042-c1"
       ],
-      "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。</p><p><br></p><p>ソース/宛先のデータストアとしてAzure StorageやAzure SQL Databaseなど様々なデータストアを選択可能で、作成したパイプライン（タスクをグループ化したもの）を実行するスケジュールを「トリガー」で定義することができます。</p><p><br></p><p>選択肢2、3のDMA / SSMAは、SQLServerの移行・評価ツールなので誤りです。</p><p>選択肢4のAzCopyは、コマンドラインでAzure Storageを操作するためのCUIツールで、Azure SQL Databaseへのコピーはできないため誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory\">https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipeline-execution-triggers\">https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipeline-execution-triggers</a></p>",
+      "explanationHtml": "<p>Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。</p><p>データをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。</p><p><br></p><p>収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）</p><p>公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。</p><p><br></p><p>ソース/宛先のデータストアとしてAzure StorageやAzure SQL Databaseなど様々なデータストアを選択可能で、作成したパイプライン（タスクをグループ化したもの）を実行するスケジュールを「トリガー」で定義することができます。</p><img src=\"assets/問題集1_files/2023-02-01_06-12-09-5717b19a75227ff43da8ec83c93af278.png\" alt=\"\" loading=\"eager\"><p><br></p><p>選択肢2、3のDMA / SSMAは、SQLServerの移行・評価ツールなので誤りです。</p><p>選択肢4のAzCopyは、コマンドラインでAzure Storageを操作するためのCUIツールで、Azure SQL Databaseへのコピーはできないため誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/introduction\">https://learn.microsoft.com/ja-jp/azure/data-factory/introduction</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory\">https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipeline-execution-triggers\">https://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipeline-execution-triggers</a></p>",
       "explanationText": "Azure Data Factoryは、さまざまなデータを処理したり連携するためのサービスです。\nデータをコピーする、読み取る、変換する、統合するなどの操作を「Azure Data Factory Studio」という管理GUIの画面から行うことができます。\n\n収集するデータを変換・加工して、別の場所に保存することを、Extract（抽出）、Transform（変換）、Load（書き出し）の頭文字を取って、ETL や ELT と呼ぶこともあります。（TとLの順番が逆の場合もある）\n公式ドキュメントでは、Azure Data Factoryは ETL / ELT / データ統合のサービスと説明されています。\n\nソース/宛先のデータストアとしてAzure StorageやAzure SQL Databaseなど様々なデータストアを選択可能で、作成したパイプライン（タスクをグループ化したもの）を実行するスケジュールを「トリガー」で定義することができます。\n\n選択肢2、3のDMA / SSMAは、SQLServerの移行・評価ツールなので誤りです。\n選択肢4のAzCopyは、コマンドラインでAzure Storageを操作するためのCUIツールで、Azure SQL Databaseへのコピーはできないため誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/introduction\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities?tabs=data-factory\nhttps://learn.microsoft.com/ja-jp/azure/data-factory/concepts-pipeline-execution-triggers",
-      "images": [],
+      "images": [
+        "assets/問題集1_files/2023-02-01_06-12-09-5717b19a75227ff43da8ec83c93af278.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -145,9 +149,11 @@
       "correctChoiceIds": [
         "jp1-q-043-c1"
       ],
-      "explanationHtml": "<p>共有アクセス署名（SAS：Shared Access Signature）はAzure Storageに対する制限付きのアクセスを提供するための仕組みで、次のような様々な条件に基づいてきめ細かなアクセス制御を実現することができます。</p><p><br></p><p>・使用できるサービス（Blob / File / Table / Queue）</p><p>・アクセス許可（読み取り / 書き込み / 更新 / 削除など）</p><p>・有効期限（開始 / 終了日時）</p><p>・接続元IPアドレス</p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-sas-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-sas-overview</a></p>",
+      "explanationHtml": "<p>共有アクセス署名（SAS：Shared Access Signature）はAzure Storageに対する制限付きのアクセスを提供するための仕組みで、次のような様々な条件に基づいてきめ細かなアクセス制御を実現することができます。</p><p><br></p><p>・使用できるサービス（Blob / File / Table / Queue）</p><p>・アクセス許可（読み取り / 書き込み / 更新 / 削除など）</p><p>・有効期限（開始 / 終了日時）</p><p>・接続元IPアドレス</p><img src=\"assets/問題集1_files/2023-01-24_07-01-10-488da056dc1e08caad4d3f24285b25b8.png\" alt=\"\" loading=\"eager\"><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-sas-overview\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-sas-overview</a></p>",
       "explanationText": "共有アクセス署名（SAS：Shared Access Signature）はAzure Storageに対する制限付きのアクセスを提供するための仕組みで、次のような様々な条件に基づいてきめ細かなアクセス制御を実現することができます。\n\n・使用できるサービス（Blob / File / Table / Queue）\n・アクセス許可（読み取り / 書き込み / 更新 / 削除など）\n・有効期限（開始 / 終了日時）\n・接続元IPアドレス\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-sas-overview",
-      "images": [],
+      "images": [
+        "assets/問題集1_files/2023-01-24_07-01-10-488da056dc1e08caad4d3f24285b25b8.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -223,13 +229,18 @@
       "correctChoiceIds": [
         "jp1-q-045-c1"
       ],
-      "explanationHtml": "<p>仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。</p><p><br></p><p>ホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。</p><p>ホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance</a></p><p></p><p><br></p><p>仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。</p><p>ログファイル：なし</p><p>データファイル：読み取り専用</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage?view=azuresql#data-file-caching-policies\">データ ファイルのキャッシュ ポリシー</a></p>",
+      "explanationHtml": "<p>仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。</p><p><br></p><p>ホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。</p><p>ホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance</a></p><p><img src=\"assets/問題集1_files/2023-01-24_07-42-20-ef9fd5b4eb8e1b8d8767618b160e6d89.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。</p><p>ログファイル：なし</p><p>データファイル：読み取り専用</p><p><img src=\"assets/問題集1_files/2023-01-24_07-42-20-4784c23856a4220b5602e97bc0fff52c.png\" alt=\"\" loading=\"eager\"></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage?view=azuresql#data-file-caching-policies\">データ ファイルのキャッシュ ポリシー</a></p>",
       "explanationText": "仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。\n\nホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。\nホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\n\n仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。\nログファイル：なし\nデータファイル：読み取り専用\n\n出典：データ ファイルのキャッシュ ポリシー",
-      "images": [],
+      "images": [
+        "assets/問題集1_files/2023-01-24_07-42-20-ef9fd5b4eb8e1b8d8767618b160e6d89.png",
+        "assets/問題集1_files/2023-01-24_07-42-20-4784c23856a4220b5602e97bc0fff52c.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp1-linked-007",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp1-q-046",
@@ -259,18 +270,23 @@
       "correctChoiceIds": [
         "jp1-q-046-c2"
       ],
-      "explanationHtml": "<p>仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。</p><p><br></p><p>ホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。</p><p>ホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance</a></p><p></p><p><br></p><p>仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。</p><p>ログファイル：なし</p><p>データファイル：読み取り専用</p><p></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage?view=azuresql#data-file-caching-policies\">データ ファイルのキャッシュ ポリシー</a></p>",
+      "explanationHtml": "<p>仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。</p><p><br></p><p>ホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。</p><p>ホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\">https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance</a></p><p><img src=\"assets/問題集1_files/2023-01-24_07-44-22-f9348ba2b9a8a55947a9f8bae21c130b.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。</p><p>ログファイル：なし</p><p>データファイル：読み取り専用</p><p><img src=\"assets/問題集1_files/2023-01-24_07-44-22-783f5ea66f9fbf0a146247bfda4b62be.png\" alt=\"\" loading=\"eager\"></p><p>出典：<a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage?view=azuresql#data-file-caching-policies\">データ ファイルのキャッシュ ポリシー</a></p>",
       "explanationText": "仮想マシンのディスク（マネージドディスク）の実態はBLOBストレージ上に保存されており、ローカルディスクにアクセスしているように見えますが内部的にはネットワーク越しにAzure Storageにアクセスしています。\n\nホストキャッシュを使用すると、その名の通り仮想マシンのホストOS側にキャッシュを保持することができ、Azure Storageへのアクセス頻度を減らすことでパフォーマンスを向上できる場合があります。\nホストキャッシュは、本問題の選択肢のとおり、なし、読み取り専用、読み取り/書き込みのいずれかを指定できます。\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-performance\n\n仮想マシン上のSQL Serverのパフォーマンスに関するベストプラクティスとして、次のように推奨事項が示されています。\nログファイル：なし\nデータファイル：読み取り専用\n\n出典：データ ファイルのキャッシュ ポリシー",
-      "images": [],
+      "images": [
+        "assets/問題集1_files/2023-01-24_07-44-22-f9348ba2b9a8a55947a9f8bae21c130b.png",
+        "assets/問題集1_files/2023-01-24_07-44-22-783f5ea66f9fbf0a146247bfda4b62be.png"
+      ],
       "domain": null,
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp1-linked-007",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp1-q-047",
       "sourceQuestionNumber": 47,
-      "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。</p><p>アプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。</p><p>組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。</p><p></p><p><br></p><p>あなたは<strong>マネージャー</strong>の要件を満たすために何を提案する必要がありますか。</p><p><br></p><p>マネージャー：</p><p>開発者：</p><p>テスト担当者：</p>",
+      "promptHtml": "<p>注：この問題は次とその次の問題と3問1セットです。</p><p><br></p><p>あなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。</p><p>アプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。</p><p>組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。</p><p><img src=\"assets/問題集1_files/2023-01-22_04-59-54-83c6f3f2b740447d421951dc0e3c5b0d.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>あなたは<strong>マネージャー</strong>の要件を満たすために何を提案する必要がありますか。</p><p><br></p><p>マネージャー：</p><p>開発者：</p><p>テスト担当者：</p>",
       "promptText": "注：この問題は次とその次の問題と3問1セットです。\n\nあなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。\nアプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。\n組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。\n\nあなたはマネージャーの要件を満たすために何を提案する必要がありますか。\n\nマネージャー：\n開発者：\nテスト担当者：",
       "choices": [
         {
@@ -303,7 +319,9 @@
       ],
       "explanationHtml": "<p>Privileged Identity Management (PIM)はMicrosoft Entraに含まれるサービスで、代表的な機能には次のようなものがあります。PIMを使用するには Premium P2 ライセンスが必要です。</p><p><br></p><p>・開始日と終了日を使用した期限付きのアクセス権を割り当てる</p><p>・特権ロールがアクティブ化されたときに通知を受ける</p><p>・ユーザーにロールがまだ必要であることを確認するためにアクセスレビューを実施する</p><p>・Microsoft Entraロール、Azure リソースロールに関するアクティビティ、アクティブ化、監査履歴を表示する</p><p><br></p><p><code>・管理者ロールのメンバーシップを定期的にレビューし、メンバーシップを継続する正当な理由をユーザーに要求できる</code></p><p>これは「アクセスレビュー」を使えば要件を満たせるので選択肢3が正しいと思われるかもしれませんが、残り2つの要件を満たすにはPIMが必要です。</p><p>※少々ややこしいですが、アクセスレビューはPIMの機能のうちの一つでもあります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure\">https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-create-azure-ad-roles-and-resource-roles-review\">https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-create-azure-ad-roles-and-resource-roles-review</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-email-notifications\">https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-email-notifications</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/azure-pim-resource-rbac\">https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/azure-pim-resource-rbac</a></p><p><a href=\"https://jpazureid.github.io/blog/azure-active-directory/pim-overview/\">https://jpazureid.github.io/blog/azure-active-directory/pim-overview/</a></p>",
       "explanationText": "Privileged Identity Management (PIM)はMicrosoft Entraに含まれるサービスで、代表的な機能には次のようなものがあります。PIMを使用するには Premium P2 ライセンスが必要です。\n\n・開始日と終了日を使用した期限付きのアクセス権を割り当てる\n・特権ロールがアクティブ化されたときに通知を受ける\n・ユーザーにロールがまだ必要であることを確認するためにアクセスレビューを実施する\n・Microsoft Entraロール、Azure リソースロールに関するアクティビティ、アクティブ化、監査履歴を表示する\n\n・管理者ロールのメンバーシップを定期的にレビューし、メンバーシップを継続する正当な理由をユーザーに要求できる\nこれは「アクセスレビュー」を使えば要件を満たせるので選択肢3が正しいと思われるかもしれませんが、残り2つの要件を満たすにはPIMが必要です。\n※少々ややこしいですが、アクセスレビューはPIMの機能のうちの一つでもあります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-create-azure-ad-roles-and-resource-roles-review\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-email-notifications\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/azure-pim-resource-rbac\nhttps://jpazureid.github.io/blog/azure-active-directory/pim-overview/",
-      "images": [],
+      "images": [
+        "assets/問題集1_files/2023-01-22_04-59-54-83c6f3f2b740447d421951dc0e3c5b0d.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -312,7 +330,7 @@
     {
       "questionId": "jp1-q-048",
       "sourceQuestionNumber": 48,
-      "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。</p><p>アプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。</p><p>組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。</p><p></p><p><br></p><p>あなたは<strong>開発者</strong>の要件を満たすために何を提案する必要がありますか。</p><p><br></p><p>マネージャー：</p><p>開発者：</p><p>テスト担当者：</p>",
+      "promptHtml": "<p>注：この問題は前と次の問題と3問1セットです。</p><p><br></p><p>あなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。</p><p>アプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。</p><p>組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。</p><p><img src=\"assets/問題集1_files/2023-01-22_04-59-54-83c6f3f2b740447d421951dc0e3c5b0d.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>あなたは<strong>開発者</strong>の要件を満たすために何を提案する必要がありますか。</p><p><br></p><p>マネージャー：</p><p>開発者：</p><p>テスト担当者：</p>",
       "promptText": "注：この問題は前と次の問題と3問1セットです。\n\nあなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。\nアプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。\n組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。\n\nあなたは開発者の要件を満たすために何を提案する必要がありますか。\n\nマネージャー：\n開発者：\nテスト担当者：",
       "choices": [
         {
@@ -345,7 +363,9 @@
       ],
       "explanationHtml": "<p>マネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。</p><p>マネージドIDの種類&nbsp;には次の2つがあります。</p><p><br></p><p>・システム割り当てマネージドID</p><p>・ユーザー割り当てマネージドID</p><p><br></p><p>本問題の場合、アプリケーションをホストしているAzure App ServiceのマネージドIDを追加し、Azure Key Vaultのキーに対する「取得」のアクセス許可を与えることで要件を満たすことができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/app-service/overview-managed-identity\">https://learn.microsoft.com/ja-jp/azure/app-service/overview-managed-identity</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview\">https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview</a></p>",
       "explanationText": "マネージドIDはAzureリソースに関連付けることができるMicrosoft EntraのIDのことです。\nマネージドIDの種類 には次の2つがあります。\n\n・システム割り当てマネージドID\n・ユーザー割り当てマネージドID\n\n本問題の場合、アプリケーションをホストしているAzure App ServiceのマネージドIDを追加し、Azure Key Vaultのキーに対する「取得」のアクセス許可を与えることで要件を満たすことができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/app-service/overview-managed-identity\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview",
-      "images": [],
+      "images": [
+        "assets/問題集1_files/2023-01-22_04-59-54-83c6f3f2b740447d421951dc0e3c5b0d.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,
@@ -354,7 +374,7 @@
     {
       "questionId": "jp1-q-049",
       "sourceQuestionNumber": 49,
-      "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。</p><p>アプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。</p><p>組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。</p><p></p><p><br></p><p>あなたは<strong>テスト担当者</strong>の要件を満たすために何を提案する必要がありますか。</p><p><br></p><p>マネージャー：</p><p>開発者：</p><p>テスト担当者：</p>",
+      "promptHtml": "<p>注：この問題は前とその前の問題と3問1セットです。</p><p><br></p><p>あなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。</p><p>アプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。</p><p>組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。</p><p><img src=\"assets/問題集1_files/2023-01-22_04-59-54-83c6f3f2b740447d421951dc0e3c5b0d.png\" alt=\"\" loading=\"eager\"></p><p><br></p><p>あなたは<strong>テスト担当者</strong>の要件を満たすために何を提案する必要がありますか。</p><p><br></p><p>マネージャー：</p><p>開発者：</p><p>テスト担当者：</p>",
       "promptText": "注：この問題は前とその前の問題と3問1セットです。\n\nあなたの組織は、いくつかのAzure App ServiceのWebアプリ、APIアプリを開発してデプロイしました。\nアプリケーションは、いくつかの暗号化キーを格納するためにAzure Key Vaultを使用します。\n組織の担当者は、アプリケーションをサポートするために、次の要件を必要としています。\n\nあなたはテスト担当者の要件を満たすために何を提案する必要がありますか。\n\nマネージャー：\n開発者：\nテスト担当者：",
       "choices": [
         {
@@ -387,7 +407,9 @@
       ],
       "explanationHtml": "<p>Privileged Identity Management (PIM)はMicrosoft Entraに含まれるサービスで、代表的な機能には次のようなものがあります。PIMを使用するには Premium P2 ライセンスが必要です。</p><p><br></p><p>・開始日と終了日を使用した期限付きのアクセス権を割り当てる</p><p>・特権ロールがアクティブ化されたときに通知を受ける</p><p>・ユーザーにロールがまだ必要であることを確認するためにアクセスレビューを実施する</p><p>・Microsoft Entraロール、Azure リソースロールに関するアクティビティ、アクティブ化、監査履歴を表示する</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure\">https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure</a></p><p><a href=\"https://jpazureid.github.io/blog/azure-active-directory/pim-overview/\">https://jpazureid.github.io/blog/azure-active-directory/pim-overview/</a></p>",
       "explanationText": "Privileged Identity Management (PIM)はMicrosoft Entraに含まれるサービスで、代表的な機能には次のようなものがあります。PIMを使用するには Premium P2 ライセンスが必要です。\n\n・開始日と終了日を使用した期限付きのアクセス権を割り当てる\n・特権ロールがアクティブ化されたときに通知を受ける\n・ユーザーにロールがまだ必要であることを確認するためにアクセスレビューを実施する\n・Microsoft Entraロール、Azure リソースロールに関するアクティビティ、アクティブ化、監査履歴を表示する\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure\nhttps://jpazureid.github.io/blog/azure-active-directory/pim-overview/",
-      "images": [],
+      "images": [
+        "assets/問題集1_files/2023-01-22_04-59-54-83c6f3f2b740447d421951dc0e3c5b0d.png"
+      ],
       "domain": null,
       "questionType": "single",
       "contextGroupId": null,

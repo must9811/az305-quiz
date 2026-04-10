@@ -1,6 +1,7 @@
 const QUESTION_STATE_KEY = "az305.quiz.state.v1";
 const SESSION_KEY = "az305.quiz.session.v1";
 const REPORT_KEY = "az305.quiz.report.v1";
+const SET_ATTEMPT_KEY = "az305.quiz.set-attempts.v1";
 
 function loadJson(key, fallbackValue) {
   try {
@@ -67,6 +68,30 @@ function saveReport(setId, report) {
   return reports[setId];
 }
 
+function getSetAttempts() {
+  return loadJson(SET_ATTEMPT_KEY, {});
+}
+
+function getSetAttemptState(setId) {
+  const attempts = getSetAttempts()[setId];
+  const defaults = [false, false, false];
+
+  if (!Array.isArray(attempts)) {
+    return defaults;
+  }
+
+  return defaults.map((value, index) => Boolean(attempts[index] ?? value));
+}
+
+function updateSetAttemptState(setId, attemptIndex, checked) {
+  const attempts = getSetAttempts();
+  const nextState = getSetAttemptState(setId);
+  nextState[attemptIndex] = Boolean(checked);
+  attempts[setId] = nextState;
+  saveJson(SET_ATTEMPT_KEY, attempts);
+  return nextState;
+}
+
 window.QuizStorage = {
   getQuestionStates,
   getQuestionState,
@@ -76,4 +101,7 @@ window.QuizStorage = {
   clearSession,
   getReports,
   saveReport,
+  getSetAttempts,
+  getSetAttemptState,
+  updateSetAttemptState,
 };

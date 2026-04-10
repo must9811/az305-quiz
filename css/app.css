@@ -141,6 +141,29 @@ select {
   gap: 16px;
 }
 
+.attempt-row,
+.attempt-checklist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.attempt-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface-strong);
+  color: var(--text);
+}
+
+.attempt-checkbox input {
+  margin: 0;
+}
+
 .badge,
 .stat-pill,
 .mode-chip {

@@ -6,22 +6,33 @@ const OUTPUT_DIR = path.join(ROOT_DIR, "data");
 const SETS_DIR = path.join(OUTPUT_DIR, "sets");
 const MODULE_OUTPUT = path.join(OUTPUT_DIR, "quiz-data.js");
 const MANIFEST_OUTPUT = path.join(OUTPUT_DIR, "quiz-manifest.json");
+const EXTERNAL_UDEMY_DIR = path.join(
+  "C:\\Users\\ms-98\\OneDrive\\Desktop\\codex proj",
+  "az305-udemy",
+);
+const SOURCE_FILTER = process.argv
+  .slice(2)
+  .find((arg) => arg.startsWith("--source="))
+  ?.slice("--source=".length);
 
 const SOURCES = [
   {
     sourceId: "jp1",
-    fileName: "問題集1.html",
-    title: "問題集1",
+    fileName: "\u554f\u984c\u96c61.html",
+    title: "\u554f\u984c\u96c61",
+    inputDir: EXTERNAL_UDEMY_DIR,
   },
   {
     sourceId: "jp2",
-    fileName: "問題集2.html",
-    title: "問題集2",
+    fileName: "\u554f\u984c\u96c62.html",
+    title: "\u554f\u984c\u96c62",
+    inputDir: path.join(ROOT_DIR, "assets"),
   },
   {
     sourceId: "jp3",
-    fileName: "問題集3.html",
-    title: "問題集3",
+    fileName: "\u554f\u984c\u96c63.html",
+    title: "\u554f\u984c\u96c63",
+    inputDir: path.join(ROOT_DIR, "assets"),
   },
 ];
 
@@ -32,23 +43,23 @@ const RELATED_FIELDS_MARKER =
   '<div class="result-pane--question-related-fields--c3m--">';
 
 function main() {
-  const sets = [];
+  const targetSources = resolveTargetSources();
+  const generatedSets = [];
 
-  for (const source of SOURCES) {
-    const sourcePath = path.join(ROOT_DIR, "udemy", source.fileName);
+  for (const source of targetSources) {
+    const sourcePath = path.join(source.inputDir, source.fileName);
     const html = fs.readFileSync(sourcePath, "utf8");
     const questions = buildQuestions(html, source);
-    const sourceSets = buildSets(questions, source);
-    sets.push(...sourceSets);
+    generatedSets.push(...buildSets(questions, source));
   }
 
-  const manifest = buildManifest(sets);
+  const { manifest, allSets } = buildOutputs(generatedSets);
 
   fs.mkdirSync(SETS_DIR, { recursive: true });
   fs.writeFileSync(MANIFEST_OUTPUT, JSON.stringify(manifest, null, 2), "utf8");
-  fs.writeFileSync(MODULE_OUTPUT, buildModuleSource(manifest, sets), "utf8");
+  fs.writeFileSync(MODULE_OUTPUT, buildModuleSource(manifest, allSets), "utf8");
 
-  for (const set of sets) {
+  for (const set of generatedSets) {
     fs.writeFileSync(
       path.join(SETS_DIR, `${set.setId}.json`),
       JSON.stringify(set, null, 2),
@@ -57,8 +68,52 @@ function main() {
   }
 
   console.log(
-    `Generated ${manifest.setCount} sets from ${SOURCES.map((source) => source.fileName).join(", ")}`,
+    `Generated ${generatedSets.length} set(s) for ${targetSources
+      .map((source) => source.sourceId)
+      .join(", ")}`,
   );
+}
+
+function resolveTargetSources() {
+  if (!SOURCE_FILTER) {
+    return SOURCES;
+  }
+
+  const source = SOURCES.find((entry) => entry.sourceId === SOURCE_FILTER);
+  if (!source) {
+    throw new Error(`Unknown source filter: ${SOURCE_FILTER}`);
+  }
+
+  return [source];
+}
+
+function buildOutputs(generatedSets) {
+  if (!SOURCE_FILTER) {
+    return {
+      manifest: buildManifest(generatedSets),
+      allSets: generatedSets,
+    };
+  }
+
+  const existingManifest = JSON.parse(fs.readFileSync(MANIFEST_OUTPUT, "utf8"));
+  const existingSets = loadExistingSets(existingManifest);
+  const existingSetMap = new Map(existingSets.map((set) => [set.setId, set]));
+  const generatedSetMap = new Map(generatedSets.map((set) => [set.setId, set]));
+  const allSets = existingManifest.sets
+    .map((summary) => generatedSetMap.get(summary.setId) ?? existingSetMap.get(summary.setId))
+    .filter(Boolean);
+
+  return {
+    manifest: buildManifest(allSets),
+    allSets,
+  };
+}
+
+function loadExistingSets(manifest) {
+  return manifest.sets.map((summary) => {
+    const setPath = path.join(SETS_DIR, `${summary.setId}.json`);
+    return JSON.parse(fs.readFileSync(setPath, "utf8"));
+  });
 }
 
 function buildModuleSource(manifest, sets) {
@@ -102,11 +157,11 @@ function buildQuestions(html, source) {
       sourceQuestionNumber,
       promptHtml,
       promptText,
-      choices: choices.map(({ choiceId, html, text }) => ({
+      choices: choices.map(({ choiceId, html: choiceHtml, text }) => ({
         choiceId,
         label: null,
         text,
-        html,
+        html: choiceHtml,
       })),
       correctChoiceIds,
       explanationHtml,
@@ -137,7 +192,7 @@ function buildSets(questions, source) {
       title: `${source.title} ${String(firstQuestion.sourceQuestionNumber).padStart(2, "0")}-${String(
         lastQuestion.sourceQuestionNumber,
       ).padStart(2, "0")}`,
-      sourceHtml: `udemy/${source.fileName}`,
+      sourceHtml: `assets/${source.fileName}`,
       questionIds: setQuestions.map((question) => question.questionId),
       questions: setQuestions,
     });
@@ -148,7 +203,7 @@ function buildSets(questions, source) {
 
 function buildManifest(sets) {
   return {
-    sourceHtml: SOURCES.map((source) => `udemy/${source.fileName}`),
+    sourceHtml: SOURCES.map((source) => `assets/${source.fileName}`),
     generatedAt: new Date().toISOString(),
     setCount: sets.length,
     sets: sets.map((set) => ({
@@ -197,8 +252,7 @@ function extractChoices(block, questionId) {
       choiceId: `${questionId}-c${choices.length + 1}`,
       html,
       text,
-      isCorrect:
-        answerBlock.includes(">正解<") || answerBlock.includes(">正しい選択<"),
+      isCorrect: answerBlock.includes(">正解<") || answerBlock.includes(">正しい選択"),
     });
 
     cursor = end;
@@ -251,11 +305,11 @@ function extractImages(html) {
 }
 
 function normalizeHtmlPaths(html) {
-  return html.replace(/src="\.\/([^"]+)"/g, 'src="udemy/$1"');
+  return html.replace(/src="\.\/([^"]+)"/g, 'src="assets/$1"');
 }
 
 function normalizeSrc(src) {
-  return src.startsWith("./") ? `udemy/${src.slice(2)}` : src;
+  return src.startsWith("./") ? `assets/${src.slice(2)}` : src;
 }
 
 function htmlToText(html) {
@@ -273,11 +327,13 @@ function htmlToText(html) {
 
 function sanitizeRichHtml(html) {
   return html
+    .replace(
+      /<span[^>]*class="[^"]*open-full-size-image[^"]*"[^>]*>\s*(<div[^>]*data-purpose="open-full-size-image"[\s\S]*?<\/div>)\s*<\/span>/gi,
+      "$1",
+    )
     .replace(/<img[^>]*style="display:\s*none;?"[^>]*>/gi, "")
     .replace(/<button[\s\S]*?<\/button>/gi, "")
     .replace(/<svg[\s\S]*?<\/svg>/gi, "")
-    .replace(/<span[^>]*class="[^"]*open-full-size-image[^"]*"[\s\S]*?<\/span>/gi, "")
-    .replace(/<div[^>]*class="[^"]*open-full-size-image[^"]*"[\s\S]*?<\/div>/gi, "")
     .replace(/<\/?span\b[^>]*>/gi, "")
     .replace(/<\/?div\b[^>]*>/gi, "")
     .trim();
@@ -291,7 +347,12 @@ function detectQuestionType(promptText, choiceCount, correctCount) {
   if (correctCount > 1) {
     return "multi";
   }
-  if (choiceCount === 2 && /正誤を選択していますか|ソリューションは正誤を選択していますか/.test(promptText)) {
+  if (
+    choiceCount === 2 &&
+    /正しい記述を選択していますか|ソリューションは正しい記述を選択していますか/.test(
+      promptText,
+    )
+  ) {
     return "boolean";
   }
   return "single";
@@ -302,7 +363,7 @@ function buildTags(promptText, questionType) {
   if (/ケーススタディ/.test(promptText)) {
     tags.push("case-study");
   }
-  if (/2問セット/.test(promptText)) {
+  if (/2問1セット/.test(promptText)) {
     tags.push("linked-question");
   }
   if (questionType === "boolean") {
@@ -347,7 +408,7 @@ function assignContextGroups(questions, sourceId) {
 
     question.contextGroupId = groupId;
 
-    if (/次の問題と2問セット/.test(question.promptText) && questions[index + 1]) {
+    if (/次の問題と2問1セット/.test(question.promptText) && questions[index + 1]) {
       questions[index + 1].contextGroupId = groupId;
       if (!questions[index + 1].tags.includes("linked-question")) {
         questions[index + 1].tags.push("linked-question");

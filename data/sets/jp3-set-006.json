@@ -46,10 +46,12 @@
       "explanationHtml": "<p><code>・ExpressRoute を使用して、オンプレミス ネットワークからファイルをアップロードできるようにすること</code> </p><p>インターネット経由で接続するのではなく、ExpressRoute（仮想ネットワーク）を経由してストレージアカウントに接続するには「プライベートエンドポイント」を使用します。</p><p><br></p><p>プライベートエンドポイントを使用すると、プライベートIPアドレスでPaaSのリソースに接続できるようになります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/private-link/private-endpoint-overview\">https://learn.microsoft.com/ja-jp/azure/private-link/private-endpoint-overview</a></p>",
       "explanationText": "・ExpressRoute を使用して、オンプレミス ネットワークからファイルをアップロードできるようにすること\nインターネット経由で接続するのではなく、ExpressRoute（仮想ネットワーク）を経由してストレージアカウントに接続するには「プライベートエンドポイント」を使用します。\n\nプライベートエンドポイントを使用すると、プライベートIPアドレスでPaaSのリソースに接続できるようになります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/private-link/private-endpoint-overview",
       "images": [],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-010",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-052",
@@ -91,7 +93,7 @@
         "assets/問題集3_files/2023-01-26_00-47-04-49f45e43568270a6aa6f2b9214eea523.png",
         "assets/問題集3_files/2023-01-26_00-47-04-71049af9caf3581c07362ab883a4be4b.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -135,7 +137,7 @@
       "images": [
         "assets/問題集3_files/2024-10-04_05-46-09-07029ba04f85970f6ab3c787ef128a79.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-case-001",
       "tags": [
@@ -170,11 +172,13 @@
         "assets/問題集3_files/2023-01-31_02-40-39-56969449886a9891a4b107de2e8986d1.png",
         "assets/問題集3_files/2023-01-31_06-20-42-e3688ad35a03c5a590dd006ae3f65827.png"
       ],
-      "domain": null,
-      "questionType": "single",
+      "domain": "インフラストラクチャソリューションを設計する",
+      "questionType": "boolean",
       "contextGroupId": "jp3-case-001",
       "tags": [
-        "case-study"
+        "case-study",
+        "linked-question",
+        "boolean"
       ]
     },
     {
@@ -205,11 +209,13 @@
         "assets/問題集3_files/2023-01-31_02-41-26-f666fcaad6ee9980f324d5774297b5b5.png",
         "assets/問題集3_files/2023-01-31_06-31-34-d10e2c7c6f6fd04c7c2eed769b8d0595.png"
       ],
-      "domain": null,
-      "questionType": "single",
+      "domain": "インフラストラクチャソリューションを設計する",
+      "questionType": "boolean",
       "contextGroupId": "jp3-case-001",
       "tags": [
-        "case-study"
+        "case-study",
+        "linked-question",
+        "boolean"
       ]
     },
     {
@@ -239,11 +245,13 @@
       "images": [
         "assets/問題集3_files/2023-01-31_02-42-56-b6393514afb4982cc8ba354c94a53064.png"
       ],
-      "domain": null,
-      "questionType": "single",
+      "domain": "ビジネス継続性ソリューションを設計する",
+      "questionType": "boolean",
       "contextGroupId": "jp3-case-001",
       "tags": [
-        "case-study"
+        "case-study",
+        "linked-question",
+        "boolean"
       ]
     },
     {
@@ -285,7 +293,7 @@
       "images": [
         "assets/問題集3_files/2023-01-31_05-33-37-195b97bd01d68dc22f0a6c8e685237d8.png"
       ],
-      "domain": null,
+      "domain": "ビジネス継続性ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-case-001",
       "tags": [
@@ -320,11 +328,13 @@
         "assets/問題集3_files/2023-01-30_08-24-01-a6925a94c3511dbfc2895bd5c27f894e.png",
         "assets/問題集3_files/2023-01-30_08-24-01-cd773106a9eec033c4503836812cccc9.png"
       ],
-      "domain": null,
-      "questionType": "single",
+      "domain": "インフラストラクチャソリューションを設計する",
+      "questionType": "boolean",
       "contextGroupId": "jp3-case-001",
       "tags": [
-        "case-study"
+        "case-study",
+        "linked-question",
+        "boolean"
       ]
     },
     {
@@ -354,11 +364,13 @@
       "images": [
         "assets/問題集3_files/2023-01-31_07-10-51-3f70c685ce11e698f2d7238b13a03b50.png"
       ],
-      "domain": null,
-      "questionType": "single",
+      "domain": "インフラストラクチャソリューションを設計する",
+      "questionType": "boolean",
       "contextGroupId": "jp3-case-001",
       "tags": [
-        "case-study"
+        "case-study",
+        "linked-question",
+        "boolean"
       ]
     },
     {
@@ -391,11 +403,13 @@
         "assets/問題集3_files/2023-02-07_05-36-30-8da7a1b8fcf0169b8fb07ca0ec10f796.png",
         "assets/問題集3_files/2023-02-07_05-36-30-091dfa71abd367781962c63f74c343b0.png"
       ],
-      "domain": null,
-      "questionType": "single",
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
+      "questionType": "boolean",
       "contextGroupId": "jp3-case-001",
       "tags": [
-        "case-study"
+        "case-study",
+        "linked-question",
+        "boolean"
       ]
     }
   ]

@@ -54,7 +54,7 @@
       "images": [
         "assets/問題集2_files/2023-01-26_01-24-42-4ed33160aa97088efd9575cf5b69c0b3.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -96,7 +96,7 @@
       "explanationHtml": "<p>Azure SQL Databaseの購入モデルには次の2つがあります。</p><p>・仮想コア</p><p>・DTU</p><p><br></p><p>予約割引を適用できるのは「仮想コア」です。</p><p>DTU ベース (Basic、Standard、Premium) のデータベースで予約割引を適用することはできないので注意しましょう。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/purchasing-models?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/purchasing-models?view=azuresql</a></p>",
       "explanationText": "Azure SQL Databaseの購入モデルには次の2つがあります。\n・仮想コア\n・DTU\n\n予約割引を適用できるのは「仮想コア」です。\nDTU ベース (Basic、Standard、Premium) のデータベースで予約割引を適用することはできないので注意しましょう。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/purchasing-models?view=azuresql",
       "images": [],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -135,9 +135,9 @@
         "assets/問題集2_files/2023-01-17_06-02-45-9c3279f7441eb07aeb5d4c22d2e96952.png",
         "assets/問題集2_files/2023-01-17_06-02-46-0c2eda70006719608b2427bd6f5dffba.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": "jp2-linked-003",
+      "contextGroupId": "jp2-linked-004",
       "tags": [
         "linked-question"
       ]
@@ -188,9 +188,9 @@
         "assets/問題集2_files/2023-01-18_01-32-11-24299fdb8f44fbdc59eebd3f05d4fbe1.png",
         "assets/問題集2_files/2023-01-18_01-32-11-4ff244c7691c10286c4f87d46cb296e0.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": "jp2-linked-003",
+      "contextGroupId": "jp2-linked-004",
       "tags": [
         "linked-question"
       ]
@@ -232,7 +232,7 @@
       "explanationHtml": "<p>Azureリソースを任意の運用情報に基づいて識別するにはタグが便利です。</p><p>タグは、リソースに対するメタデータ（付加情報）で、目印、ラベルのようなものです。名前と値のペアで登録します。</p><p><br></p><p>必須のタグを強制したい場合、Azure Policyを使用します。</p><p>Azure Policyのポリシー定義を割り当てることで、必要とされるタグの登録漏れを防ぐことができます。</p><p>また、修復タスクを使用して、既存リソースにタグを適用することもできます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/tag-policies\">https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/tag-policies</a></p>",
       "explanationText": "Azureリソースを任意の運用情報に基づいて識別するにはタグが便利です。\nタグは、リソースに対するメタデータ（付加情報）で、目印、ラベルのようなものです。名前と値のペアで登録します。\n\n必須のタグを強制したい場合、Azure Policyを使用します。\nAzure Policyのポリシー定義を割り当てることで、必要とされるタグの登録漏れを防ぐことができます。\nまた、修復タスクを使用して、既存リソースにタグを適用することもできます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/tag-policies",
       "images": [],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -262,11 +262,12 @@
       "explanationHtml": "<p><code>・完全な.NETフレームワークへのアクセスを提供すること</code></p><p><code>・カスタムアプリケーションの依存関係をインストールするために、管理者がオペレーティングシステムにアクセスできること</code></p><p>この2つの要件より、IaaSベースのサービスを使用する必要があります。</p><p><br></p><p><code>・Azureリージョンに障害が発生した場合に備えて冗長性を提供すること</code></p><p>仮想マシンスケールセットは、可用性ゾーンに分散させて構成することはできますが、リージョンを跨いで冗長構成にすることはできません。</p><p><br></p><p>代わりに、たとえば2つのAzure仮想マシンを2つのAzureリージョンに展開して、Traffic Manager や Azure Front Doorを使ってグローバルに負荷分散することで、リージョン障害に備えることができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones\">https://learn.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-overview\">https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/frontdoor/front-door-overview\">https://learn.microsoft.com/ja-jp/azure/frontdoor/front-door-overview</a></p>",
       "explanationText": "・完全な.NETフレームワークへのアクセスを提供すること\n・カスタムアプリケーションの依存関係をインストールするために、管理者がオペレーティングシステムにアクセスできること\nこの2つの要件より、IaaSベースのサービスを使用する必要があります。\n\n・Azureリージョンに障害が発生した場合に備えて冗長性を提供すること\n仮想マシンスケールセットは、可用性ゾーンに分散させて構成することはできますが、リージョンを跨いで冗長構成にすることはできません。\n\n代わりに、たとえば2つのAzure仮想マシンを2つのAzureリージョンに展開して、Traffic Manager や Azure Front Doorを使ってグローバルに負荷分散することで、リージョン障害に備えることができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones\nhttps://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-overview\nhttps://learn.microsoft.com/ja-jp/azure/frontdoor/front-door-overview",
       "images": [],
-      "domain": null,
-      "questionType": "single",
-      "contextGroupId": "jp2-linked-004",
+      "domain": "ビジネス継続性ソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "jp2-linked-005",
       "tags": [
-        "linked-question"
+        "linked-question",
+        "boolean"
       ]
     },
     {
@@ -294,11 +295,12 @@
       "explanationHtml": "<p><code>・完全な.NETフレームワークへのアクセスを提供すること</code></p><p><code>・カスタムアプリケーションの依存関係をインストールするために、管理者がオペレーティングシステムにアクセスできること</code></p><p>この2つの要件より、IaaSベースのサービスを使用する必要があります。仮想マシンは要件を満たします。</p><p><br></p><p><code>・Azureリージョンに障害が発生した場合に備えて冗長性を提供すること</code></p><p>Traffic Managerを使用すると、DNSベースのルーティング方法を用いてトラフィックをAzureリージョン全体に分散することができます。</p><p>2台の仮想マシンを別々のリージョンにデプロイし、Traffic Manager プロファイル作成後、 エンドポイントに仮想マシンのパブリックIPアドレスを登録することで、リージョン障害に備えることができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-overview\">https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-endpoint-types\">https://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-endpoint-types</a></p>",
       "explanationText": "・完全な.NETフレームワークへのアクセスを提供すること\n・カスタムアプリケーションの依存関係をインストールするために、管理者がオペレーティングシステムにアクセスできること\nこの2つの要件より、IaaSベースのサービスを使用する必要があります。仮想マシンは要件を満たします。\n\n・Azureリージョンに障害が発生した場合に備えて冗長性を提供すること\nTraffic Managerを使用すると、DNSベースのルーティング方法を用いてトラフィックをAzureリージョン全体に分散することができます。\n2台の仮想マシンを別々のリージョンにデプロイし、Traffic Manager プロファイル作成後、 エンドポイントに仮想マシンのパブリックIPアドレスを登録することで、リージョン障害に備えることができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-overview\nhttps://learn.microsoft.com/ja-jp/azure/traffic-manager/traffic-manager-endpoint-types",
       "images": [],
-      "domain": null,
-      "questionType": "single",
-      "contextGroupId": "jp2-linked-004",
+      "domain": "ビジネス継続性ソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "jp2-linked-005",
       "tags": [
-        "linked-question"
+        "linked-question",
+        "boolean"
       ]
     },
     {
@@ -338,7 +340,7 @@
       "explanationHtml": "<p><code>・マルチマスターの書き込みをサポートすること</code></p><p><code>・低遅延の読み取り操作を保証すること</code></p><p>Azure Cosmos DB は、フルマネージドの NoSQL とリレーショナルデータベースです。</p><p>数ミリ秒 (1 桁台)の応答時間、グローバル分散、マルチマスター（複数リージョンに書き込み可能）などの特徴があり、スループット、レイテンシー（待機時間）、月間稼働時間などに対してSLAが提供されています。</p><p><br></p><p><code>・SQLコマンドをサポートすること</code></p><p>Azure Cosmos DB には、次のように複数のAPIが用意されています。</p><p>・Azure Cosmos DB for NoSQL</p><p>・Azure Cosmos DB for MongoDB</p><p>・Azure Cosmos DB for Apache Cassandra</p><p>・Azure Cosmos DB for Table</p><p>・Azure Cosmos DB for Apache Gremlin</p><p>・Azure Cosmos DB for PostgreSQL</p><p><br></p><p>このうち、Azure Cosmos DB for NoSQLではSQL構文を使用したクエリがサポートされています。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/introduction\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/introduction</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/choose-api#coresql-api\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/choose-api#coresql-api</a></p>",
       "explanationText": "・マルチマスターの書き込みをサポートすること\n・低遅延の読み取り操作を保証すること\nAzure Cosmos DB は、フルマネージドの NoSQL とリレーショナルデータベースです。\n数ミリ秒 (1 桁台)の応答時間、グローバル分散、マルチマスター（複数リージョンに書き込み可能）などの特徴があり、スループット、レイテンシー（待機時間）、月間稼働時間などに対してSLAが提供されています。\n\n・SQLコマンドをサポートすること\nAzure Cosmos DB には、次のように複数のAPIが用意されています。\n・Azure Cosmos DB for NoSQL\n・Azure Cosmos DB for MongoDB\n・Azure Cosmos DB for Apache Cassandra\n・Azure Cosmos DB for Table\n・Azure Cosmos DB for Apache Gremlin\n・Azure Cosmos DB for PostgreSQL\n\nこのうち、Azure Cosmos DB for NoSQLではSQL構文を使用したクエリがサポートされています。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/introduction\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/choose-api#coresql-api",
       "images": [],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -382,9 +384,9 @@
       "images": [
         "assets/問題集2_files/2023-02-06_08-09-36-88dd1e23692ccb19ec8b1155335f1538.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": "jp2-linked-005",
+      "contextGroupId": "jp2-linked-006",
       "tags": [
         "linked-question"
       ]
@@ -440,9 +442,9 @@
       "images": [
         "assets/問題集2_files/2023-01-19_06-05-28-e20430dda77e6f76f44d65368ae106b2.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": "jp2-linked-005",
+      "contextGroupId": "jp2-linked-006",
       "tags": [
         "linked-question"
       ]

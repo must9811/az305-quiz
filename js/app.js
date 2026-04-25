@@ -205,7 +205,7 @@
             <div>
               <h2>セットを選択</h2>
               <p class="section-subtle">
-                10 問ずつに分割した ${state.manifest.setCount} セットから学習を開始できます。
+                全 ${state.manifest.setCount} セットから学習を開始できます。セットごとの問題数は問題集に応じて異なります。
               </p>
             </div>
           </div>

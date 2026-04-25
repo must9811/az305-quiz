@@ -54,7 +54,7 @@
       "images": [
         "assets/問題集1_files/2023-01-16_01-31-53-c1fd0560cc4546c8d1907d4744eec09b.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -98,7 +98,7 @@
       "images": [
         "assets/問題集1_files/2023-02-07_04-44-22-2784abb3236cec077feb6b456335a928.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -142,7 +142,7 @@
       "images": [
         "assets/問題集1_files/2023-01-16_05-23-05-ecb73208782c629dcee9456eba18175e.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-linked-003",
       "tags": [
@@ -188,7 +188,7 @@
       "images": [
         "assets/問題集1_files/2023-01-16_05-46-59-ef174c4b989f297ccd13655c3ba53c39.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-linked-003",
       "tags": [
@@ -232,7 +232,7 @@
       "explanationHtml": "<p><code>・ 着信接続は TLS を使用し、TCP ポート 443 に接続すること</code> </p><p><code>・RDP と SSH の両方をサポートすること</code></p><p>443ポートで仮想マシンに接続するのは選択肢1の「Azure Bastion」のみです。</p><p>Azure Bastion は、Azureポータル、または、ローカルPCにインストール済みのSSH か RDP クライアントを介してTLS経由で仮想マシンに接続できるようにするフルマネージドな踏み台サービスです。</p><p><br></p><p>RDP（3389）やSSH（22）などの管理ポートをインターネットに公開する必要がなく、一般的にWebサービス公開のために使用するHTTPS（443）で接続できる点が特徴です。</p><p><br></p><p>なお、選択肢2のJust-In-Time VM アクセス (JIT)は Microsoft Defender for Cloud の機能の一つで、一時的にRDP（3389）やSSH（22）を許可するための仕組み（443ポートへの接続ではない）なので誤りです。</p><p><br></p><p>選択肢4のVPNGatewayも同様で、VPN接続するとプライベートIPアドレスで仮想マシンにアクセスできますが、この場合もRDPやSSHで接続することになりますので、443ポートへの接続ではありません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/bastion/bastion-overview\">https://learn.microsoft.com/ja-jp/azure/bastion/bastion-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/defender-for-cloud/just-in-time-access-usage\">https://learn.microsoft.com/ja-jp/azure/defender-for-cloud/just-in-time-access-usage</a></p>",
       "explanationText": "・ 着信接続は TLS を使用し、TCP ポート 443 に接続すること\n・RDP と SSH の両方をサポートすること\n443ポートで仮想マシンに接続するのは選択肢1の「Azure Bastion」のみです。\nAzure Bastion は、Azureポータル、または、ローカルPCにインストール済みのSSH か RDP クライアントを介してTLS経由で仮想マシンに接続できるようにするフルマネージドな踏み台サービスです。\n\nRDP（3389）やSSH（22）などの管理ポートをインターネットに公開する必要がなく、一般的にWebサービス公開のために使用するHTTPS（443）で接続できる点が特徴です。\n\nなお、選択肢2のJust-In-Time VM アクセス (JIT)は Microsoft Defender for Cloud の機能の一つで、一時的にRDP（3389）やSSH（22）を許可するための仕組み（443ポートへの接続ではない）なので誤りです。\n\n選択肢4のVPNGatewayも同様で、VPN接続するとプライベートIPアドレスで仮想マシンにアクセスできますが、この場合もRDPやSSHで接続することになりますので、443ポートへの接続ではありません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/bastion/bastion-overview\nhttps://learn.microsoft.com/ja-jp/azure/defender-for-cloud/just-in-time-access-usage",
       "images": [],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-linked-003",
       "tags": [
@@ -273,7 +273,7 @@
         "assets/問題集1_files/2023-01-16_08-26-29-f03980e4ee441ec161bf9618ddd78e06.png",
         "assets/問題集1_files/2023-01-16_08-26-29-fb716493b69bd2c111721b5917b9892f.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-linked-003",
       "tags": [
@@ -326,7 +326,7 @@
         "assets/問題集1_files/2023-01-16_14-29-10-6457eaa6c0d7effe2ed67ab100bfa37b.png",
         "assets/問題集1_files/2023-01-16_14-29-10-a9f2dbcf573b7ca11d8f7bc52b7ad8ff.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-linked-003",
       "tags": [
@@ -373,7 +373,7 @@
         "assets/問題集1_files/2023-01-16_14-39-15-ee60af6506701de5cce8b2dd61b10bbc.png",
         "assets/問題集1_files/2023-01-16_14-39-15-5fd01000a0e32a2aead50b8fa3a27ac2.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-linked-003",
       "tags": [
@@ -420,7 +420,7 @@
         "assets/問題集1_files/2023-01-17_07-16-07-2360e4d7e587b776bba169a4078e4050.png",
         "assets/問題集1_files/2023-01-17_07-16-07-6f62487926286a2811468608755d91c5.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-linked-003",
       "tags": [
@@ -464,7 +464,7 @@
       "explanationHtml": "<p>イベントログやパフォーマンスカウンターを収集するにはAzure Monitor エージェントがインストールされる必要があります。</p><p>データ収集ルールを作成すると、イベントログやパフォーマンスカウンターを収集するために、対象の仮想マシンにはAzure Monitor エージェントが自動的にインストールされます。</p><p><br></p><p>なお、レガシーな方法として <a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-sources-windows-events\">Log Analytics エージェントを使用</a> する方法もありますが、将来これは非推奨になる予定です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal</a></p>",
       "explanationText": "イベントログやパフォーマンスカウンターを収集するにはAzure Monitor エージェントがインストールされる必要があります。\nデータ収集ルールを作成すると、イベントログやパフォーマンスカウンターを収集するために、対象の仮想マシンにはAzure Monitor エージェントが自動的にインストールされます。\n\nなお、レガシーな方法として Log Analytics エージェントを使用 する方法もありますが、将来これは非推奨になる予定です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal",
       "images": [],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-linked-003",
       "tags": [

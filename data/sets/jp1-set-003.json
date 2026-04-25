@@ -55,7 +55,7 @@
         "assets/問題集1_files/2023-02-05_08-40-29-1beebc8b53bf33e38dcfa037826225d3.png",
         "assets/問題集1_files/2023-01-14_05-03-46-0b2dfdf8f1f20b07a0119dcb2cd46680.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -99,7 +99,7 @@
       "images": [
         "assets/問題集1_files/2023-02-06_07-57-40-8394baba8bf5871e77204413f83b426e.png"
       ],
-      "domain": null,
+      "domain": "ビジネス継続性ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -143,10 +143,12 @@
       "images": [
         "assets/問題集1_files/2024-10-04_07-21-38-b04ca39003c4f95821562d8c7f9e73b7.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp1-linked-004",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp1-q-024",
@@ -187,10 +189,12 @@
       "images": [
         "assets/問題集1_files/2024-10-04_07-22-00-cfb7c9eff915004ed0fd47687c19c17f.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp1-linked-004",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp1-q-025",
@@ -231,10 +235,12 @@
       "images": [
         "assets/問題集1_files/2023-01-20_02-59-32-58913b01af6090c1608874a5b295a66b.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp1-linked-004",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp1-q-026",
@@ -275,7 +281,7 @@
       "images": [
         "assets/問題集1_files/2023-01-20_01-29-57-72cb72a86c5d89f3242acc592a7d80e9.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -319,7 +325,7 @@
       "images": [
         "assets/問題集1_files/2023-02-07_05-04-09-85de7707578fa4e07098dfdb1053bb77.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -361,7 +367,7 @@
       "explanationHtml": "<p><code>・地域の停電が発生した場合でも復旧できること</code> </p><p>Azure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。</p><p>障害が発生した場合、オンプレミスからAzureへ、または、Azureの東日本リージョンから西日本リージョンへ、といった具合にプライマリサイトから予備のセカンダリサイトへ切り替えることで業務を継続することができます。</p><p><br></p><p><code>・15分の目標復旧時間（RTO）をサポートすること</code></p><p><code>・24時間の目標復旧時点（RPO）をサポートすること</code> </p><p>目標復旧時間（RTO）は、通常は15分未満です。また、SLAでは2時間のRTOが保証されています。</p><p>目標復旧時点（RPO）は、アプリケーション整合性では 1 時間、クラッシュ整合性では 5 分です。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-sql#combining-bcdr-technologies-with-site-recovery\">https://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-sql#combining-bcdr-technologies-with-site-recovery</a></p><p><br></p><p><code>・自動復旧をサポートすること</code> </p><p>復旧計画を作成すると、フェールオーバーを自動化することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/site-recovery/recovery-plan-overview\">https://learn.microsoft.com/ja-jp/azure/site-recovery/recovery-plan-overview</a></p>",
       "explanationText": "・地域の停電が発生した場合でも復旧できること\nAzure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。\n障害が発生した場合、オンプレミスからAzureへ、または、Azureの東日本リージョンから西日本リージョンへ、といった具合にプライマリサイトから予備のセカンダリサイトへ切り替えることで業務を継続することができます。\n\n・15分の目標復旧時間（RTO）をサポートすること\n・24時間の目標復旧時点（RPO）をサポートすること\n目標復旧時間（RTO）は、通常は15分未満です。また、SLAでは2時間のRTOが保証されています。\n目標復旧時点（RPO）は、アプリケーション整合性では 1 時間、クラッシュ整合性では 5 分です。\nhttps://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-sql#combining-bcdr-technologies-with-site-recovery\n\n・自動復旧をサポートすること\n復旧計画を作成すると、フェールオーバーを自動化することができます。\nhttps://learn.microsoft.com/ja-jp/azure/site-recovery/recovery-plan-overview",
       "images": [],
-      "domain": null,
+      "domain": "ビジネス継続性ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -403,7 +409,7 @@
       "explanationHtml": "<p>Azure API Managementには、バックエンドにあるAPIを安全に公開するための中継（ゲートウェイ）の役割があります。その他、セキュリティ、レート制限、キャッシュ、モニタリングなどの機能を提供します。</p><p><br></p><p><code>・開発者からの Logic Apps へのリクエストは、Contosoのユーザーからのリクエストよりも低いレートに制限できること</code></p><p><code>・Logic Apps を変更する必要がないこと</code></p><p>バックエンドAPIとして、Logic Appsをインポートすることができます。</p><p>また、クライアントIPアドレスなどに対してレート制限を設けることができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/import-logic-app-as-api\">https://learn.microsoft.com/ja-jp/azure/api-management/import-logic-app-as-api</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/api-management-sample-flexible-throttling\">https://learn.microsoft.com/ja-jp/azure/api-management/api-management-sample-flexible-throttling</a></p><p><br></p><p><code>・開発者は、既存のOAuth 2.0プロバイダーを使用して Logic Apps にアクセスできること</code></p><p><code>・Microsoft Entra のゲストアカウントを使用しないこと</code></p><p>外部のOAuth 2.0プロバイダーを使用して、API Managementを認証することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/api-management/authorizations-overview\">https://learn.microsoft.com/ja-jp/azure/api-management/authorizations-overview</a></p>",
       "explanationText": "Azure API Managementには、バックエンドにあるAPIを安全に公開するための中継（ゲートウェイ）の役割があります。その他、セキュリティ、レート制限、キャッシュ、モニタリングなどの機能を提供します。\n\n・開発者からの Logic Apps へのリクエストは、Contosoのユーザーからのリクエストよりも低いレートに制限できること\n・Logic Apps を変更する必要がないこと\nバックエンドAPIとして、Logic Appsをインポートすることができます。\nまた、クライアントIPアドレスなどに対してレート制限を設けることができます。\nhttps://learn.microsoft.com/ja-jp/azure/api-management/import-logic-app-as-api\nhttps://learn.microsoft.com/ja-jp/azure/api-management/api-management-sample-flexible-throttling\n\n・開発者は、既存のOAuth 2.0プロバイダーを使用して Logic Apps にアクセスできること\n・Microsoft Entra のゲストアカウントを使用しないこと\n外部のOAuth 2.0プロバイダーを使用して、API Managementを認証することができます。\nhttps://learn.microsoft.com/ja-jp/azure/api-management/authorizations-overview",
       "images": [],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -435,11 +441,12 @@
       "images": [
         "assets/問題集1_files/2023-01-20_04-22-44-e6766a5f1c3462a7b8c5244872c7474d.png"
       ],
-      "domain": null,
-      "questionType": "single",
-      "contextGroupId": "jp1-linked-004",
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "jp1-linked-005",
       "tags": [
-        "linked-question"
+        "linked-question",
+        "boolean"
       ]
     }
   ]

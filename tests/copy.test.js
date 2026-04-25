@@ -37,8 +37,10 @@ describe("markdown copy", () => {
 
   test("extractImageSources returns image sources in order", () => {
     const QuizCopy = loadCopyModule();
-    const sources = QuizCopy.extractImageSources(
+    const sources = Array.from(
+      QuizCopy.extractImageSources(
       '<p>a</p><img src="assets/a.png"><img src="assets/b.png">',
+      ),
     );
 
     assert.deepEqual(sources, ["assets/a.png", "assets/b.png"]);

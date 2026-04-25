@@ -48,9 +48,9 @@
       "images": [
         "assets/問題集2_files/2023-01-24_13-09-15-49e50aaa47ebbef92bde2f0c6547ab7d.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": "jp2-linked-008",
+      "contextGroupId": "jp2-linked-009",
       "tags": [
         "linked-question"
       ]
@@ -98,7 +98,7 @@
       "explanationHtml": "<p>Linuxのイベント ログは「Syslog」のテーブルに収集されます。</p><p>仮想マシンから収集できる代表的なログには次のようなものがあります。</p><p><br></p><p>・Heartbeat：エージェントの正常性を示すログ</p><p>・Perf：パフォーマンスカウンター</p><p>・Event：Windowsのイベントログ</p><p>・Syslog：Linuxのイベントログ</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-sources-syslog\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-sources-syslog</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/syslog\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/syslog</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/tables-category#virtual-machines\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/tables-category#virtual-machines</a></p>",
       "explanationText": "Linuxのイベント ログは「Syslog」のテーブルに収集されます。\n仮想マシンから収集できる代表的なログには次のようなものがあります。\n\n・Heartbeat：エージェントの正常性を示すログ\n・Perf：パフォーマンスカウンター\n・Event：Windowsのイベントログ\n・Syslog：Linuxのイベントログ\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-sources-syslog\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/syslog\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/tables-category#virtual-machines",
       "images": [],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -140,7 +140,7 @@
       "explanationHtml": "<p>複数のアプリケーションコンポーネントを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがあります。</p><p>アプリのコンポーネント間を直接つなぐのではなく、間にメッセージングサービスを挟むことで、送信側は受信側の処理を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。</p><p><br></p><p>Azure には大きく次の2つのメッセージベースのソリューションが用意されています。</p><p>・Azure Queue Storage</p><p>・Azure Service Bus</p><p><br></p><p>よって、選択肢1の「Azure Service Bus」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-messaging-overview\">https://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-messaging-overview</a></p>",
       "explanationText": "複数のアプリケーションコンポーネントを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがあります。\nアプリのコンポーネント間を直接つなぐのではなく、間にメッセージングサービスを挟むことで、送信側は受信側の処理を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。\n\nAzure には大きく次の2つのメッセージベースのソリューションが用意されています。\n・Azure Queue Storage\n・Azure Service Bus\n\nよって、選択肢1の「Azure Service Bus」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/service-bus-messaging/service-bus-messaging-overview",
       "images": [],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -190,7 +190,7 @@
       "images": [
         "assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-case-001",
       "tags": [
@@ -233,7 +233,7 @@
         "assets/問題集2_files/2023-01-29_11-52-59-adc2d74d8097ec4343932302957eea22.png",
         "assets/問題集2_files/2023-01-29_11-52-59-5827216c20cb80d9e80d9b52f57d41a1.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-case-001",
       "tags": [
@@ -281,7 +281,7 @@
         "assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png",
         "assets/問題集2_files/2023-01-29_12-05-49-073714690354eac5c89e357b084728fb.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-case-001",
       "tags": [
@@ -328,7 +328,7 @@
       "images": [
         "assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-case-001",
       "tags": [
@@ -369,7 +369,7 @@
         "assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png",
         "assets/問題集2_files/2023-01-30_05-07-15-ac68be70a0eefadb44459e8f603057ce.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-case-001",
       "tags": [
@@ -410,7 +410,7 @@
       "images": [
         "assets/問題集2_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-case-001",
       "tags": [
@@ -462,7 +462,7 @@
         "assets/問題集2_files/2023-02-07_05-36-30-8da7a1b8fcf0169b8fb07ca0ec10f796.png",
         "assets/問題集2_files/2023-02-07_05-36-30-091dfa71abd367781962c63f74c343b0.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-case-001",
       "tags": [

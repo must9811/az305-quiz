@@ -1,0 +1,408 @@
+{
+  "setId": "en5-set-002",
+  "title": "英語問題集5 翻訳版 11-20",
+  "sourceHtml": "assets/英語問題集5.html",
+  "questionIds": [
+    "en5-q-011",
+    "en5-q-012",
+    "en5-q-013",
+    "en5-q-014",
+    "en5-q-015",
+    "en5-q-016",
+    "en5-q-017",
+    "en5-q-018",
+    "en5-q-019",
+    "en5-q-020"
+  ],
+  "questions": [
+    {
+      "questionId": "en5-q-011",
+      "sourceQuestionNumber": 11,
+      "promptHtml": "<p>あなたは 100 個の Azure ストレージ アカウントを管理しており、これらのアカウントへのアクセスは Azure ロールベースのアクセス制御 (Azure RBAC) を使用して制御されています。</p><p>各ストレージ アカウント内の個々のリソースに適用されるタグに基づいてロールの割り当て条件を評価できるソリューションを推奨する必要があります。</p><p><strong>これらのロールの割り当てを実装するには何を使用する必要がありますか条件。</strong></p>",
+      "promptText": "あなたは 100 個の Azure ストレージ アカウントを管理しており、これらのアカウントへのアクセスは Azure ロールベースのアクセス制御 (Azure RBAC) を使用して制御されています。\n各ストレージ アカウント内の個々のリソースに適用されるタグに基づいてロールの割り当て条件を評価できるソリューションを推奨する必要があります。\nこれらのロールの割り当てを実装するには何を使用する必要がありますか条件。",
+      "choices": [
+        {
+          "choiceId": "en5-q-011-c1",
+          "label": null,
+          "text": "アクセス制御リスト (ACL)",
+          "html": "アクセス制御リスト (ACL)"
+        },
+        {
+          "choiceId": "en5-q-011-c2",
+          "label": null,
+          "text": "属性ベースのアクセス制御 (ABAC)",
+          "html": "属性ベースのアクセス制御 (ABAC)"
+        },
+        {
+          "choiceId": "en5-q-011-c3",
+          "label": null,
+          "text": "共有アクセス署名 (SAS)",
+          "html": "共有アクセス署名 (SAS)"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-011-c2"
+      ],
+      "explanationHtml": "<p>属性ベースのアクセス制御 (ABAC) が正解です。ABAC 割り当ては、保護しようとしているリソースに対して RBAC 割り当てが既に設定されているエンティティの属性 (メタデータ) を操作するためです。</p><p>アクセス制御リスト (ACL) は誤りです。ACL は、Posix のようなアクセス制御リストを定義する必要がある Azure Data Lake Storage で使用されるためです。</p><p>Shared Access Signatures (SAS) は、RBAC の割り当てに関係なく、SAS トークンを所有するすべてのユーザーに定義されたアクセス権を与えるため、不正確です。ただし、質問のとおり、RBAC 割り当てを操作し、既存の割り当てに条件を追加する必要があります。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview\">https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control\">https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview\">https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview</a></p></li></ul>",
+      "explanationText": "正解は属性ベースのアクセス制御 (ABAC) です。ABAC 割り当ては、保護しようとしているリソースに対して RBAC 割り当てが既に設定されているエンティティの属性 (メタデータ) を操作するためです。\nアクセス制御リスト (ACL) は誤りです。ACL は、Posix のようなアクセス制御リストを定義する必要がある Azure Data Lake Storage で使用されるためです。\nShared Access Signatures (SAS) は、RBAC の割り当てに関係なく、SAS トークンを所有するすべてのユーザーに定義されたアクセス権を与えるため、不正確です。ただし、質問のとおり、RBAC 割り当てを操作し、既存の割り当てに条件を追加する必要があります。\n参考:\n・https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control\n\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-012",
+      "sourceQuestionNumber": 12,
+      "promptHtml": "<p>あなたは 100 個の Azure ストレージ アカウントを管理しており、これらのアカウントへのアクセスは Azure ロールベースのアクセス制御 (Azure RBAC) を使用して制御されています。</p><p>各ストレージ アカウント内の個々のリソースに適用されるタグに基づいてロールの割り当て条件を評価できるソリューションを推奨する必要があります。</p><p><strong>アクセス許可を何に割り当てる必要がありますか。 to。</strong></p>",
+      "promptText": "あなたは 100 個の Azure ストレージ アカウントを管理しており、これらのアカウントへのアクセスは Azure ロールベースのアクセス制御 (Azure RBAC) を使用して制御されています。\n各ストレージ アカウント内の個々のリソースに適用されるタグに基づいてロールの割り当て条件を評価できるソリューションを推奨する必要があります。\nアクセス許可を何に割り当てる必要がありますか。 to。",
+      "choices": [
+        {
+          "choiceId": "en5-q-012-c1",
+          "label": null,
+          "text": "ブロブ",
+          "html": "ブロブ"
+        },
+        {
+          "choiceId": "en5-q-012-c2",
+          "label": null,
+          "text": "ファイル",
+          "html": "ファイル"
+        },
+        {
+          "choiceId": "en5-q-012-c3",
+          "label": null,
+          "text": "テーブル",
+          "html": "テーブル"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-012-c1"
+      ],
+      "explanationHtml": "<p>ブロブ が正解です。これらの ABAC 条件は、BLOB ストレージまたはキュー ストレージ サービスへの割り当てでのみ使用できます。</p><p><img src=\"assets/英語問題集5_files/2025-03-26_19-30-55-544ae402820b2369c17767dba26eb4ec.png\" alt=\"\" loading=\"eager\"><br></p><p>ファイルとテーブルは、これらの種類のストレージ サービスではこれらのABAC条件を使用できないため、間違ったオプションです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview\">https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control\">https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control</a></p></li></ul>",
+      "explanationText": "正解はブロブ です。これらの ABAC 条件は、BLOB ストレージまたはキュー ストレージ サービスへの割り当てでのみ使用できます。\n\nファイルとテーブルは、これらの種類のストレージ サービスではこれらのABAC条件を使用できないため、間違ったオプションです。\n参考:\n・https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control",
+      "images": [
+        "assets/英語問題集5_files/2025-03-26_19-30-55-544ae402820b2369c17767dba26eb4ec.png"
+      ],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-013",
+      "sourceQuestionNumber": 13,
+      "promptHtml": "<p>Azure サブスクリプションをお持ちで、BLOB のポイントインタイム復元をサポートするソリューションをデプロイする必要があります。</p><p>関係するストレージ アカウントでは、既に BLOB のバージョン管理と BLOB の論理的な削除が有効になっています。</p><p>この要件を満たすにはどの<strong> BLOB タイプ</strong>を作成する必要がありますか。</p>",
+      "promptText": "Azure サブスクリプションをお持ちで、BLOB のポイントインタイム復元をサポートするソリューションをデプロイする必要があります。\n関係するストレージ アカウントでは、既に BLOB のバージョン管理と BLOB の論理的な削除が有効になっています。\nこの要件を満たすにはどの BLOB タイプを作成する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-013-c1",
+          "label": null,
+          "text": "追加",
+          "html": "追加"
+        },
+        {
+          "choiceId": "en5-q-013-c2",
+          "label": null,
+          "text": "ブロック",
+          "html": "ブロック"
+        },
+        {
+          "choiceId": "en5-q-013-c3",
+          "label": null,
+          "text": "ページ",
+          "html": "ページ"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-013-c2"
+      ],
+      "explanationHtml": "<p>ブロック blob が正解です。</p><p><img src=\"assets/英語問題集5_files/2025-03-26_19-32-06-240673199e4e2f109a8eb02bd790ddc6.png\" alt=\"\"loading=\"eager\"><br></p><p>追加とページBLOBは、現時点ではこれらのサービスがバージョン管理と論理的な削除をサポートしていないため、間違ったオプションです。したがって、これらは使用できません。</p><p><img src=\"assets/英語問題集5_files/2025-03-26_19-32-06-f4e20c75d358eda44e37eca8599717fb.png\" alt=\"\"loading=\"eager\"><br></p><p>読む詳細:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/point-in-time-restore-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/point-in-time-restore-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs\">https://learn.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview\">https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview</a></p></li></ul>",
+      "explanationText": "正解はブロック blob です。\n\n追加とページBLOBは、現時点ではこれらのサービスがバージョン管理と論理的な削除をサポートしていないため、間違ったオプションです。したがって、これらは使用できません。\n\n読む詳細:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/point-in-time-restore-overview\n\n・https://learn.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs\n\n・https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview",
+      "images": [
+        "assets/英語問題集5_files/2025-03-26_19-32-06-240673199e4e2f109a8eb02bd790ddc6.png",
+        "assets/英語問題集5_files/2025-03-26_19-32-06-f4e20c75d358eda44e37eca8599717fb.png"
+      ],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-001",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-014",
+      "sourceQuestionNumber": 14,
+      "promptHtml": "<p>Azure サブスクリプションをお持ちで、BLOB のポイントインタイム復元をサポートするソリューションをデプロイする必要があります。</p><p>関係するストレージ アカウントでは、すでに BLOB のバージョン管理と BLOB の論理的な削除が有効になっています。</p><p><strong>アカウントに対して何を有効にする必要がありますか。</strong></p>",
+      "promptText": "Azure サブスクリプションをお持ちで、BLOB のポイントインタイム復元をサポートするソリューションをデプロイする必要があります。\n関係するストレージ アカウントでは、すでに BLOB のバージョン管理と BLOB の論理的な削除が有効になっています。\nアカウントに対して何を有効にする必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-014-c1",
+          "label": null,
+          "text": "保存されたアクセス ポリシー",
+          "html": "保存されたアクセス ポリシー"
+        },
+        {
+          "choiceId": "en5-q-014-c2",
+          "label": null,
+          "text": "不変 BLOB ストレージ",
+          "html": "不変 BLOB ストレージ"
+        },
+        {
+          "choiceId": "en5-q-014-c3",
+          "label": null,
+          "text": "オブジェクト レプリケーション",
+          "html": "オブジェクト レプリケーション"
+        },
+        {
+          "choiceId": "en5-q-014-c4",
+          "label": null,
+          "text": "変更フィード",
+          "html": "変更フィード"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-014-c4"
+      ],
+      "explanationHtml": "<p>変更フィード が正解です。これは、ポイントインタイム復元を有効にするためです。</p><p>ストレージ アクセス ポリシー は誤りです。これは、ストアド アクセス ポリシーがサーバー側のサービス レベルの共有アクセス署名 (SAS) に対する追加レベルの制御を提供するためです。</p><p>不変 BLOB ストレージ は誤りです。これは、基本的に、定義された期間ストレージ アカウント内の BLOB への変更を防ぐために使用されるためです。</p><p>オブジェクト レプリケーション は誤りです。この機能は、ストレージ アカウント内に BLOB のコピーが複数存在することを保証するために使用されるためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/point-in-time-restore-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/point-in-time-restore-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-change-feed?tabs=azure-portal\">https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-change-feed?tabs=azure-portal</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/object-replication-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/object-replication-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/rest/api/storageservices/define-stored-access-policy\">https://learn.microsoft.com/en-us/rest/api/storageservices/define-stored-access-policy</a></p></li></ul>",
+      "explanationText": "正解は変更フィード です。これは、ポイントインタイム復元を有効にするためです。\nストレージ アクセス ポリシー は誤りです。これは、ストアド アクセス ポリシーがサーバー側のサービス レベルの共有アクセス署名 (SAS) に対する追加レベルの制御を提供するためです。\n不変 BLOB ストレージ は誤りです。これは、基本的に、定義された期間ストレージ アカウント内の BLOB への変更を防ぐために使用されるためです。\nオブジェクト レプリケーション は誤りです。この機能は、ストレージ アカウント内に BLOB のコピーが複数存在することを保証するために使用されるためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/point-in-time-restore-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-change-feed?tabs=azure-portal\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/object-replication-overview\n\n・https://learn.microsoft.com/en-us/rest/api/storageservices/define-stored-access-policy",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-001",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-015",
+      "sourceQuestionNumber": 15,
+      "promptHtml": "<p>10 個の Web アプリケーションを含む Azure サブスクリプションを持っています。アプリケーションは Microsoft Entra と統合されており、異なるプロジェクト チームに属するユーザーがアクセスします。</p><p>ユーザーはプロジェクト間を頻繁に移動します。</p><p>次の要件を満たす Web アプリケーションのアクセス管理ソリューションを推奨する必要があります。</p><ul><li><p>ユーザーは、現在割り当てられているプロジェクトに関連付けられた Web アプリケーションにのみアクセスできる必要があります。</p></li><li><p>プロジェクト マネージャーは、どのユーザーが自分のプロジェクトにアクセスできるかを確認できる必要があります。 </p></li><li><p>プロジェクト マネージャーは 30 日ごとに、プロジェクトに割り当てられているユーザーのリストを再検証するよう自動的に求められます。</p></li></ul><p>推奨事項には何を含めるべきですか。</p>",
+      "promptText": "10 個の Web アプリケーションを含む Azure サブスクリプションを持っています。アプリケーションは Microsoft Entra と統合されており、異なるプロジェクト チームに属するユーザーがアクセスします。\nユーザーはプロジェクト間を頻繁に移動します。\n次の要件を満たす Web アプリケーションのアクセス管理ソリューションを推奨する必要があります。\n・ユーザーは、現在割り当てられているプロジェクトに関連付けられた Web アプリケーションにのみアクセスできる必要があります。\n\n・プロジェクト マネージャーは、どのユーザーが自分のプロジェクトにアクセスできるかを確認できる必要があります。\n\n・プロジェクト マネージャーは 30 日ごとに、プロジェクトに割り当てられているユーザーのリストを再検証するよう自動的に求められます。\n\n推奨事項には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-015-c1",
+          "label": null,
+          "text": "Microsoft Entra Permissions Management",
+          "html": "Microsoft Entra Permissions Management"
+        },
+        {
+          "choiceId": "en5-q-015-c2",
+          "label": null,
+          "text": "Microsoft Entra Identity Governance",
+          "html": "<p>Microsoft Entra Identity Governance</p>"
+        },
+        {
+          "choiceId": "en5-q-015-c3",
+          "label": null,
+          "text": "Microsoft Defender for Identity",
+          "html": "Microsoft Defender for Identity"
+        },
+        {
+          "choiceId": "en5-q-015-c4",
+          "label": null,
+          "text": "Microsoft Entra ID Protection",
+          "html": "<p>Microsoft Entra ID Protection</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-015-c2"
+      ],
+      "explanationHtml": "<p>Microsoft Entra Identityガバナンス が正解です。これは、Azure の特定のリソースに割り当てられているすべてのユーザーのアクセスを確認するためにマネージャーにリマインダーを送信するプロセスを自動化できる、アクセス レビューと呼ばれるサービスを提供するためです。</p><p>Microsoft Entra Permissions Management は、質問で必要なことをすべて実行できるため不正解ですが、Azure の 10 個の Web アプリへのアクセスを監視するためだけに Entra Permissions Management を使用するのはやりすぎです。これは、すべてのユーザーがアクセスするすべてのアクセス許可を 1 か所で監視できるマルチクラウド アクセス管理を目的としています。</p><p>Microsoft Defender for Identity は、ID の侵害からインフラストラクチャを保護することを目的としたセキュリティ ソリューションであるため、不正解です。これは、オンプレミスの Active Directory シグナルを使用して、高度な脅威、ID の侵害、および組織に対する悪意のある内部関係者の行為を特定、検出、調査するクラウドベースのセキュリティ ソリューションです。</p><p>Microsoft Entra ID Protection は誤りです。このサービスは、組織が ID ベースのリスクを検出、調査、修復するのに役立つためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/id-governance/identity-governance-overview\">https://learn.microsoft.com/en-us/entra/id-governance/identity-governance-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/permissions-management/overview\">https://learn.microsoft.com/en-us/entra/permissions-management/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/defender-for-identity/what-is\">https://learn.microsoft.com/en-us/defender-for-identity/what-is</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection\">https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/id-governance/create-access-review\">https://learn.microsoft.com/en-us/entra/id-governance/create-access-review</a></p></li></ul>",
+      "explanationText": "正解はMicrosoft Entra Identityガバナンス です。これは、Azure の特定のリソースに割り当てられているすべてのユーザーのアクセスを確認するためにマネージャーにリマインダーを送信するプロセスを自動化できる、アクセス レビューと呼ばれるサービスを提供するためです。\nMicrosoft Entra Permissions Management は、質問で必要なことをすべて実行できるため不正解ですが、Azure の 10 個の Web アプリへのアクセスを監視するためだけに Entra Permissions Management を使用するのはやりすぎです。これは、すべてのユーザーがアクセスするすべてのアクセス許可を 1 か所で監視できるマルチクラウド アクセス管理を目的としています。\nMicrosoft Defender for Identity は、ID の侵害からインフラストラクチャを保護することを目的としたセキュリティ ソリューションであるため、不正解です。これは、オンプレミスの Active Directory シグナルを使用して、高度な脅威、ID の侵害、および組織に対する悪意のある内部関係者の行為を特定、検出、調査するクラウドベースのセキュリティ ソリューションです。\nMicrosoft Entra ID Protection は誤りです。このサービスは、組織が ID ベースのリスクを検出、調査、修復するのに役立つためです。\n参考:\n・https://learn.microsoft.com/en-us/entra/id-governance/identity-governance-overview\n\n・https://learn.microsoft.com/en-us/entra/permissions-management/overview\n\n・https://learn.microsoft.com/en-us/defender-for-identity/what-is\n\n・https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection\n\n・https://learn.microsoft.com/en-us/entra/id-governance/create-access-review",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en5-q-016",
+      "sourceQuestionNumber": 16,
+      "promptHtml": "<p>次の特性を持つインフラストラクチャ ソリューションのデプロイを計画しています。</p><ul><li><p>外部ユーザーは Azure Front Door 経由でソリューションに接続します。</p></li><li><p>Azure Kubernetes Service (AKS) でホストされているバックエンド API への外部ユーザーからのアクセスは、Azure API 管理によって管理されます。</p></li><li><p>外部ユーザー認証は、サードパーティ ID プロバイダーとの OpenID Connect ベースのフェデレーションを使用する Microsoft Entra B2C テナントによって処理されます。</p></li></ul><p>このアーキテクチャ内で、<code>Azure Front Door</code> サービスはどのような役割を果たしますか。</p>",
+      "promptText": "次の特性を持つインフラストラクチャ ソリューションのデプロイを計画しています。\n・外部ユーザーは Azure Front Door 経由でソリューションに接続します。\n\n・Azure Kubernetes Service (AKS) でホストされているバックエンド API への外部ユーザーからのアクセスは、Azure API 管理によって管理されます。\n\n・外部ユーザー認証は、サードパーティ ID プロバイダーとの OpenID Connect ベースのフェデレーションを使用する Microsoft Entra B2C テナントによって処理されます。\n\nこのアーキテクチャ内で、Azure Front Door サービスはどのような役割を果たしますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-016-c1",
+          "label": null,
+          "text": "Open Web Application Security Project (OWASP) の脆弱性に対する保護",
+          "html": "Open Web Application Security Project (OWASP) の脆弱性に対する保護"
+        },
+        {
+          "choiceId": "en5-q-016-c2",
+          "label": null,
+          "text": "API レベルごとの IP フィルタリング",
+          "html": "API レベルごとの IP フィルタリング"
+        },
+        {
+          "choiceId": "en5-q-016-c3",
+          "label": null,
+          "text": "Azure B2C JSON Web トークン (JWT) の検証",
+          "html": "Azure B2C JSON Web トークン (JWT) の検証"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-016-c1"
+      ],
+      "explanationHtml": "<p>Open Web Application Security Project (OWASP) に対する保護脆弱性は正解です。Azure フロント ドアで Web アプリケーション ファイアウォール (WAF) を有効にし、Web アプリで実行されているアプリケーションの OWASP 脆弱性に対する保護を有効にすることができます。</p><p>API レベルごとの IP フィルタリング は誤りです。ロードバランサーは、トラフィックを適切なバックエンド アプリケーションに転送する場合にのみ機能します。</p><p>Azure B2C JSON Web トークン (JWT) の検証は次のとおりです。これは Azure のフロント ドアからは実行できないため不正解です。</p><p>参考:</p><ul><li><p><a href=\"https://microsoft.github.io/AzureTipsAndTricks/blog/tip254.html\">https://microsoft.github.io/AzureTipsAndTricks/blog/tip254.html</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/api-management/ip-filter-policy\">https://learn.microsoft.com/en-us/azure/api-management/ip-filter-policy</a></p></li></ul>",
+      "explanationText": "Open Web Application Security Project (OWASP) に対する保護脆弱性は正解です。Azure フロント ドアで Web アプリケーション ファイアウォール (WAF) を有効にし、Web アプリで実行されているアプリケーションの OWASP 脆弱性に対する保護を有効にすることができます。\nAPI レベルごとの IP フィルタリング は誤りです。ロードバランサーは、トラフィックを適切なバックエンド アプリケーションに転送する場合にのみ機能します。\nAzure B2C JSON Web トークン (JWT) の検証は次のとおりです。これは Azure のフロント ドアからは実行できないため不正解です。\n参考:\n・https://microsoft.github.io/AzureTipsAndTricks/blog/tip254.html\n\n・https://learn.microsoft.com/en-us/azure/api-management/ip-filter-policy",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-002",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-017",
+      "sourceQuestionNumber": 17,
+      "promptHtml": "<p>次の特性を持つインフラストラクチャ ソリューションのデプロイを計画しています。</p><ul><li><p>外部ユーザーは Azure Front Door 経由でソリューションに接続します。</p></li><li><p>Azure Kubernetes Service (AKS) でホストされているバックエンド API への外部ユーザーからのアクセスは、Azure API 管理によって管理されます。</p></li><li><p>外部ユーザー認証は、サードパーティ ID プロバイダーとの OpenID Connect ベースのフェデレーションを使用する Microsoft Entra B2C テナントによって処理されます。</p></li></ul><p>このアーキテクチャ内で、<code>API 管理</code> サービスはどのような役割を果たしますか。</p>",
+      "promptText": "次の特性を持つインフラストラクチャ ソリューションのデプロイを計画しています。\n・外部ユーザーは Azure Front Door 経由でソリューションに接続します。\n\n・Azure Kubernetes Service (AKS) でホストされているバックエンド API への外部ユーザーからのアクセスは、Azure API 管理によって管理されます。\n\n・外部ユーザー認証は、サードパーティ ID プロバイダーとの OpenID Connect ベースのフェデレーションを使用する Microsoft Entra B2C テナントによって処理されます。\n\nこのアーキテクチャ内で、API 管理 サービスはどのような役割を果たしますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-017-c1",
+          "label": null,
+          "text": "Open Web Application Security Project (OWASP) に対する保護脆弱性",
+          "html": "Open Web Application Security Project (OWASP) に対する保護脆弱性"
+        },
+        {
+          "choiceId": "en5-q-017-c2",
+          "label": null,
+          "text": "API レベルごとの IP フィルタリング",
+          "html": "API レベルごとの IP フィルタリング"
+        },
+        {
+          "choiceId": "en5-q-017-c3",
+          "label": null,
+          "text": "Azure B2C JSON Web トークン (JWT) の検証",
+          "html": "Azure B2C JSON Web トークン (JWT) の検証"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-017-c3"
+      ],
+      "explanationHtml": "<p>Azure B2C JSON Web トークン (JWT) の検証 が正解です。このアーキテクチャでは、Azure Front Door がルーティングを担当し、Web アプリケーション ファイアウォール (WAF) 機能を介して OWASP の脆弱性に対する保護を提供します。</p><p>API レベルごとの IP フィルタリングは、要件が送信元 IP アドレスによるリクエストの制限に関するものではないため、このコンテキストでは不正確です。さらに、一般向けの B2C シナリオの場合、クライアント IP は非常に変動する可能性があるため、IP フィルタリングの実際的な価値は制限されることがよくあります。</p><p>オープン Web アプリケーション セキュリティ プロジェクト (OWASP) の脆弱性に対する保護 は、APIM が Web アプリケーション ファイアウォールではないため不正確です。この機能は、WAF が有効になっている Azure Front Door によってより適切に提供されます。</p><p>参考:</p><ul><li><p><a href=\"https://stackoverflow.com/questions/63631752/azure-b2c-apimanagement-multitenant-jwt-validation\">https://stackoverflow.com/questions/63631752/azure-b2c-apimanagement-multitenant-jwt-validation</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/api-management/validate-jwt-policy\">https://learn.microsoft.com/en-us/azure/api-management/validate-jwt-policy</a></p></li></ul>",
+      "explanationText": "正解はAzure B2C JSON Web トークン (JWT) の検証 です。このアーキテクチャでは、Azure Front Door がルーティングを担当し、Web アプリケーション ファイアウォール (WAF) 機能を介して OWASP の脆弱性に対する保護を提供します。\nAPI レベルごとの IP フィルタリングは、要件が送信元 IP アドレスによるリクエストの制限に関するものではないため、このコンテキストでは不正確です。さらに、一般向けの B2C シナリオの場合、クライアント IP は非常に変動する可能性があるため、IP フィルタリングの実際的な価値は制限されることがよくあります。\nオープン Web アプリケーション セキュリティ プロジェクト (OWASP) の脆弱性に対する保護 は、APIM が Web アプリケーション ファイアウォールではないため不正確です。この機能は、WAF が有効になっている Azure Front Door によってより適切に提供されます。\n参考:\n・https://stackoverflow.com/questions/63631752/azure-b2c-apimanagement-multitenant-jwt-validation\n\n・https://learn.microsoft.com/en-us/azure/api-management/validate-jwt-policy",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-002",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-018",
+      "sourceQuestionNumber": 18,
+      "promptHtml": "<p>あなたは、サブスクリプション内の Azure SQL データベース全体に暗号化標準を適用する責任があります。</p><p>サブスクリプションには現在 80 の Azure SQL データベースが含まれており、一部のデータベースでは透過的データ暗号化 (TDE) が有効になっていません。</p><p>Template1 という名前の Azure Resource Manager (ARM) テンプレートを作成しました。 </p><p>準拠していないことが判明した Azure SQL データベースを修復するために、Policy1 を自動的に適用する Policy1 という名前の Azure Policy 定義を作成したいと考えています。</p><p><strong>利用可能な効果を何に設定する必要がありますか。</strong></p>",
+      "promptText": "あなたは、サブスクリプション内の Azure SQL データベース全体に暗号化標準を適用する責任があります。\nサブスクリプションには現在 80 の Azure SQL データベースが含まれており、一部のデータベースでは透過的データ暗号化 (TDE) が有効になっていません。\nTemplate1 という名前の Azure Resource Manager (ARM) テンプレートを作成しました。\n準拠していないことが判明した Azure SQL データベースを修復するために、Policy1 を自動的に適用する Policy1 という名前の Azure Policy 定義を作成したいと考えています。\n利用可能な効果を何に設定する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-018-c1",
+          "label": null,
+          "text": "DeployIfNotExists",
+          "html": "DeployIfNotExists"
+        },
+        {
+          "choiceId": "en5-q-018-c2",
+          "label": null,
+          "text": "EnforceRegoPolicy",
+          "html": "EnforceRegoPolicy"
+        },
+        {
+          "choiceId": "en5-q-018-c3",
+          "label": null,
+          "text": "変更",
+          "html": "変更"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-018-c1"
+      ],
+      "explanationHtml": "<p>DeployIfNotExists は、この効果と同様に正しいです。非準拠リソースを修復するために ARM テンプレートを使用することができます。</p><p>変更 は誤りです。この効果は、通常、リソース内のタグ、BLOB コンテナーのパブリック アクセス レベルなど、既存のリソースのメタデータであるリソースのプロパティを編集/更新するために使用されるためです。</p><p>EnforceRegoPolicy は誤りです。これは、Azure Kubernetes Service の Gatekeeper v2 で Open Policy Agent アドミッション コントローラーを構成する Azure ポリシーの非推奨の効果であるためです。</p><p>読み取り詳細:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effects\">https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effects</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-deploy-if-not-exists\">https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-deploy-if-not-exists</a></p></li></ul>",
+      "explanationText": "DeployIfNotExists は、この効果と同様に正しいです。非準拠リソースを修復するために ARM テンプレートを使用することができます。\n変更 は誤りです。この効果は、通常、リソース内のタグ、BLOB コンテナーのパブリック アクセス レベルなど、既存のリソースのメタデータであるリソースのプロパティを編集/更新するために使用されるためです。\nEnforceRegoPolicy は誤りです。これは、Azure Kubernetes Service の Gatekeeper v2 で Open Policy Agent アドミッション コントローラーを構成する Azure ポリシーの非推奨の効果であるためです。\n読み取り詳細:\n・https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effects\n\n・https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-deploy-if-not-exists",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-003",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-019",
+      "sourceQuestionNumber": 19,
+      "promptHtml": "<p>あなたは、サブスクリプション内の Azure SQL データベース全体に暗号化標準を適用する責任があります。</p><p>サブスクリプションには現在 80 の Azure SQL データベースが含まれており、一部のデータベースでは透過的データ暗号化 (TDE) が有効になっていません。</p><p>Template1 という名前の Azure Resource Manager (ARM) テンプレートを作成しました。 </p><p>準拠していないことが判明した Azure SQL データベースを修復するために、Template1 を自動的に適用する Policy1 という名前の Azure Policy 定義を作成したいと考えています。</p><p><strong>定義には何を含める必要がありますか。</strong></p>",
+      "promptText": "あなたは、サブスクリプション内の Azure SQL データベース全体に暗号化標準を適用する責任があります。\nサブスクリプションには現在 80 の Azure SQL データベースが含まれており、一部のデータベースでは透過的データ暗号化 (TDE) が有効になっていません。\nTemplate1 という名前の Azure Resource Manager (ARM) テンプレートを作成しました。\n準拠していないことが判明した Azure SQL データベースを修復するために、Template1 を自動的に適用する Policy1 という名前の Azure Policy 定義を作成したいと考えています。\n定義には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-019-c1",
+          "label": null,
+          "text": "修復の実行に必要な IDタスク",
+          "html": "修復の実行に必要な IDタスク"
+        },
+        {
+          "choiceId": "en5-q-019-c2",
+          "label": null,
+          "text": "ポリシー割り当ての範囲",
+          "html": "ポリシー割り当ての範囲"
+        },
+        {
+          "choiceId": "en5-q-019-c3",
+          "label": null,
+          "text": "修復タスクの実行に必要なロールベースのアクセス制御 (RBAC) ロール",
+          "html": "修復タスクの実行に必要なロールベースのアクセス制御 (RBAC) ロール"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-019-c3"
+      ],
+      "explanationHtml": "<p>ロールベースのアクセス制御DeployIfNotExists 効果を使用して Azure ポリシーを定義する場合、ポリシー定義には roleDefinitionIds プロパティが含まれている必要があるため、 修復タスク を実行するために必要な (RBAC) ロールは正しいです。このプロパティにより、ポリシーのマネージド ID に必要なアクセス許可が確実に割り当てられるため、準拠していないリソースを修復できます。</p><p>修復タスクの実行に必要な ID は正しくありません。割り当てにはマネージド ID が必要ですが、ポリシー定義自体に含まれていないためです。</p><p>ポリシー割り当てのスコープ は誤りです。これは、ポリシーのスコープはポリシー定義時ではなく割り当て時に決定されるためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\">https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure\">https://learn.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-Basics#deployifnotexists\">https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-Basics#deployifnotexists</a></p></li></ul>",
+      "explanationText": "ロールベースのアクセス制御DeployIfNotExists 効果を使用して Azure ポリシーを定義する場合、ポリシー定義には roleDefinitionIds プロパティが含まれている必要があるため、 修復タスク を実行するために必要な (RBAC) ロールは正しいです。このプロパティにより、ポリシーのマネージド ID に必要なアクセス許可が確実に割り当てられるため、準拠していないリソースを修復できます。\n修復タスクの実行に必要な ID は正しくありません。割り当てにはマネージド ID が必要ですが、ポリシー定義自体に含まれていないためです。\nポリシー割り当てのスコープ は誤りです。これは、ポリシーのスコープはポリシー定義時ではなく割り当て時に決定されるためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\n\n・https://learn.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure\n\n・https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-Basics#deployifnotexists",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-003",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-020",
+      "sourceQuestionNumber": 20,
+      "promptHtml": "<p>あなたは、ビジネス クリティカルなデータを Azure に保存する新しいアプリケーションを設計しています。</p><p>データ プラットフォームでは、新しく書き込まれたデータが 1 年間変更されないように不変性を強制する必要があります。さらに、ソリューションは、低遅延の読み取りアクセスを実現しながら、可能な限り最高レベルのデータ耐久性を提供する必要があります。</p><p>どの<code>ストレージ冗長性</code>オプションを選択する必要がありますか。</p>",
+      "promptText": "あなたは、ビジネス クリティカルなデータを Azure に保存する新しいアプリケーションを設計しています。\nデータ プラットフォームでは、新しく書き込まれたデータが 1 年間変更されないように不変性を強制する必要があります。さらに、ソリューションは、低遅延の読み取りアクセスを実現しながら、可能な限り最高レベルのデータ耐久性を提供する必要があります。\nどのストレージ冗長性オプションを選択する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-020-c1",
+          "label": null,
+          "text": "ゾーン冗長ストレージ (ZRS)",
+          "html": "ゾーン冗長ストレージ (ZRS)"
+        },
+        {
+          "choiceId": "en5-q-020-c2",
+          "label": null,
+          "text": "ローカル冗長ストレージ(LRS)",
+          "html": "ローカル冗長ストレージ(LRS)"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-020-c1"
+      ],
+      "explanationHtml": "<p>ゾーン冗長ストレージ (ZRS) は、複数の可用性ゾーン間でデータをレプリケートし、1 つのゾーンに障害が発生してもデータが他のゾーンで利用可能な状態を維持するため正しいです。これにより、LRS と比較して、より高いレベルのデータ復元力が提供されます。</p><p>ローカル冗長ストレージ (LRS) は、同じリージョン内の単一のデータ センター内でデータを 3 回複製するため、不正解です。ローカルのハードウェア障害に対する保護は提供されますが、ビジネス クリティカルなデータに必要な高可用性は提供されません。</p><p>参考:</p><ul><li><p><a href=\"https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy\">https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy</a></p></li><li><p><a href=\"https://docs.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview\">https://docs.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview</a></p></li></ul>",
+      "explanationText": "ゾーン冗長ストレージ (ZRS) は、複数の可用性ゾーン間でデータをレプリケートし、1 つのゾーンに障害が発生してもデータが他のゾーンで利用可能な状態を維持するため正しいです。これにより、LRS と比較して、より高いレベルのデータ復元力が提供されます。\nローカル冗長ストレージ (LRS) は、同じリージョン内の単一のデータ センター内でデータを 3 回複製するため、不正解です。ローカルのハードウェア障害に対する保護は提供されますが、ビジネス クリティカルなデータに必要な高可用性は提供されません。\n参考:\n・https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy\n\n・https://docs.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-004",
+      "tags": [
+        "linked-question"
+      ]
+    }
+  ]
+}

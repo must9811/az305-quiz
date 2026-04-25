@@ -2,10 +2,16 @@
   "sourceHtml": [
     "assets/問題集1.html",
     "assets/問題集2.html",
-    "assets/問題集3.html"
+    "assets/問題集3.html",
+    "assets/英語問題集1.html",
+    "assets/英語問題集2.html",
+    "assets/英語問題集3.html",
+    "assets/英語問題集4.html",
+    "assets/英語問題集5.html",
+    "assets/英語問題集6.html"
   ],
-  "generatedAt": "2026-04-10T05:35:15.762Z",
-  "setCount": 18,
+  "generatedAt": "2026-04-25T14:16:12.414Z",
+  "setCount": 54,
   "sets": [
     {
       "setId": "jp1-set-001",
@@ -438,6 +444,841 @@
       ],
       "hasImages": true,
       "hasMultiSelect": false
+    },
+    {
+      "setId": "en1-set-001",
+      "title": "英語問題集1 翻訳版 01-10",
+      "sourceHtml": "assets/英語問題集1.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en1-q-001",
+        "en1-q-002",
+        "en1-q-003",
+        "en1-q-004",
+        "en1-q-005",
+        "en1-q-006",
+        "en1-q-007",
+        "en1-q-008",
+        "en1-q-009",
+        "en1-q-010"
+      ],
+      "questionNumberRange": [
+        1,
+        10
+      ],
+      "hasImages": true,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en1-set-002",
+      "title": "英語問題集1 翻訳版 11-20",
+      "sourceHtml": "assets/英語問題集1.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en1-q-011",
+        "en1-q-012",
+        "en1-q-013",
+        "en1-q-014",
+        "en1-q-015",
+        "en1-q-016",
+        "en1-q-017",
+        "en1-q-018",
+        "en1-q-019",
+        "en1-q-020"
+      ],
+      "questionNumberRange": [
+        11,
+        20
+      ],
+      "hasImages": false,
+      "hasMultiSelect": true
+    },
+    {
+      "setId": "en1-set-003",
+      "title": "英語問題集1 翻訳版 21-30",
+      "sourceHtml": "assets/英語問題集1.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en1-q-021",
+        "en1-q-022",
+        "en1-q-023",
+        "en1-q-024",
+        "en1-q-025",
+        "en1-q-026",
+        "en1-q-027",
+        "en1-q-028",
+        "en1-q-029",
+        "en1-q-030"
+      ],
+      "questionNumberRange": [
+        21,
+        30
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en1-set-004",
+      "title": "英語問題集1 翻訳版 31-40",
+      "sourceHtml": "assets/英語問題集1.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en1-q-031",
+        "en1-q-032",
+        "en1-q-033",
+        "en1-q-034",
+        "en1-q-035",
+        "en1-q-036",
+        "en1-q-037",
+        "en1-q-038",
+        "en1-q-039",
+        "en1-q-040"
+      ],
+      "questionNumberRange": [
+        31,
+        40
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en1-set-005",
+      "title": "英語問題集1 翻訳版 41-50",
+      "sourceHtml": "assets/英語問題集1.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en1-q-041",
+        "en1-q-042",
+        "en1-q-043",
+        "en1-q-044",
+        "en1-q-045",
+        "en1-q-046",
+        "en1-q-047",
+        "en1-q-048",
+        "en1-q-049",
+        "en1-q-050"
+      ],
+      "questionNumberRange": [
+        41,
+        50
+      ],
+      "hasImages": true,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en1-set-006",
+      "title": "英語問題集1 翻訳版 51-55",
+      "sourceHtml": "assets/英語問題集1.html",
+      "questionCount": 5,
+      "questionIds": [
+        "en1-q-051",
+        "en1-q-052",
+        "en1-q-053",
+        "en1-q-054",
+        "en1-q-055"
+      ],
+      "questionNumberRange": [
+        51,
+        55
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en2-set-001",
+      "title": "英語問題集2 翻訳版 01-10",
+      "sourceHtml": "assets/英語問題集2.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en2-q-001",
+        "en2-q-002",
+        "en2-q-003",
+        "en2-q-004",
+        "en2-q-005",
+        "en2-q-006",
+        "en2-q-007",
+        "en2-q-008",
+        "en2-q-009",
+        "en2-q-010"
+      ],
+      "questionNumberRange": [
+        1,
+        10
+      ],
+      "hasImages": true,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en2-set-002",
+      "title": "英語問題集2 翻訳版 11-20",
+      "sourceHtml": "assets/英語問題集2.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en2-q-011",
+        "en2-q-012",
+        "en2-q-013",
+        "en2-q-014",
+        "en2-q-015",
+        "en2-q-016",
+        "en2-q-017",
+        "en2-q-018",
+        "en2-q-019",
+        "en2-q-020"
+      ],
+      "questionNumberRange": [
+        11,
+        20
+      ],
+      "hasImages": true,
+      "hasMultiSelect": true
+    },
+    {
+      "setId": "en2-set-003",
+      "title": "英語問題集2 翻訳版 21-30",
+      "sourceHtml": "assets/英語問題集2.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en2-q-021",
+        "en2-q-022",
+        "en2-q-023",
+        "en2-q-024",
+        "en2-q-025",
+        "en2-q-026",
+        "en2-q-027",
+        "en2-q-028",
+        "en2-q-029",
+        "en2-q-030"
+      ],
+      "questionNumberRange": [
+        21,
+        30
+      ],
+      "hasImages": false,
+      "hasMultiSelect": true
+    },
+    {
+      "setId": "en2-set-004",
+      "title": "英語問題集2 翻訳版 31-40",
+      "sourceHtml": "assets/英語問題集2.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en2-q-031",
+        "en2-q-032",
+        "en2-q-033",
+        "en2-q-034",
+        "en2-q-035",
+        "en2-q-036",
+        "en2-q-037",
+        "en2-q-038",
+        "en2-q-039",
+        "en2-q-040"
+      ],
+      "questionNumberRange": [
+        31,
+        40
+      ],
+      "hasImages": true,
+      "hasMultiSelect": true
+    },
+    {
+      "setId": "en2-set-005",
+      "title": "英語問題集2 翻訳版 41-50",
+      "sourceHtml": "assets/英語問題集2.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en2-q-041",
+        "en2-q-042",
+        "en2-q-043",
+        "en2-q-044",
+        "en2-q-045",
+        "en2-q-046",
+        "en2-q-047",
+        "en2-q-048",
+        "en2-q-049",
+        "en2-q-050"
+      ],
+      "questionNumberRange": [
+        41,
+        50
+      ],
+      "hasImages": true,
+      "hasMultiSelect": true
+    },
+    {
+      "setId": "en2-set-006",
+      "title": "英語問題集2 翻訳版 51-55",
+      "sourceHtml": "assets/英語問題集2.html",
+      "questionCount": 5,
+      "questionIds": [
+        "en2-q-051",
+        "en2-q-052",
+        "en2-q-053",
+        "en2-q-054",
+        "en2-q-055"
+      ],
+      "questionNumberRange": [
+        51,
+        55
+      ],
+      "hasImages": true,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en3-set-001",
+      "title": "英語問題集3 翻訳版 01-10",
+      "sourceHtml": "assets/英語問題集3.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en3-q-001",
+        "en3-q-002",
+        "en3-q-003",
+        "en3-q-004",
+        "en3-q-005",
+        "en3-q-006",
+        "en3-q-007",
+        "en3-q-008",
+        "en3-q-009",
+        "en3-q-010"
+      ],
+      "questionNumberRange": [
+        1,
+        10
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en3-set-002",
+      "title": "英語問題集3 翻訳版 11-20",
+      "sourceHtml": "assets/英語問題集3.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en3-q-011",
+        "en3-q-012",
+        "en3-q-013",
+        "en3-q-014",
+        "en3-q-015",
+        "en3-q-016",
+        "en3-q-017",
+        "en3-q-018",
+        "en3-q-019",
+        "en3-q-020"
+      ],
+      "questionNumberRange": [
+        11,
+        20
+      ],
+      "hasImages": true,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en3-set-003",
+      "title": "英語問題集3 翻訳版 21-30",
+      "sourceHtml": "assets/英語問題集3.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en3-q-021",
+        "en3-q-022",
+        "en3-q-023",
+        "en3-q-024",
+        "en3-q-025",
+        "en3-q-026",
+        "en3-q-027",
+        "en3-q-028",
+        "en3-q-029",
+        "en3-q-030"
+      ],
+      "questionNumberRange": [
+        21,
+        30
+      ],
+      "hasImages": true,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en3-set-004",
+      "title": "英語問題集3 翻訳版 31-40",
+      "sourceHtml": "assets/英語問題集3.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en3-q-031",
+        "en3-q-032",
+        "en3-q-033",
+        "en3-q-034",
+        "en3-q-035",
+        "en3-q-036",
+        "en3-q-037",
+        "en3-q-038",
+        "en3-q-039",
+        "en3-q-040"
+      ],
+      "questionNumberRange": [
+        31,
+        40
+      ],
+      "hasImages": true,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en3-set-005",
+      "title": "英語問題集3 翻訳版 41-50",
+      "sourceHtml": "assets/英語問題集3.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en3-q-041",
+        "en3-q-042",
+        "en3-q-043",
+        "en3-q-044",
+        "en3-q-045",
+        "en3-q-046",
+        "en3-q-047",
+        "en3-q-048",
+        "en3-q-049",
+        "en3-q-050"
+      ],
+      "questionNumberRange": [
+        41,
+        50
+      ],
+      "hasImages": true,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en3-set-006",
+      "title": "英語問題集3 翻訳版 51-52",
+      "sourceHtml": "assets/英語問題集3.html",
+      "questionCount": 2,
+      "questionIds": [
+        "en3-q-051",
+        "en3-q-052"
+      ],
+      "questionNumberRange": [
+        51,
+        52
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en4-set-001",
+      "title": "英語問題集4 翻訳版 01-10",
+      "sourceHtml": "assets/英語問題集4.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en4-q-001",
+        "en4-q-002",
+        "en4-q-003",
+        "en4-q-004",
+        "en4-q-005",
+        "en4-q-006",
+        "en4-q-007",
+        "en4-q-008",
+        "en4-q-009",
+        "en4-q-010"
+      ],
+      "questionNumberRange": [
+        1,
+        10
+      ],
+      "hasImages": false,
+      "hasMultiSelect": true
+    },
+    {
+      "setId": "en4-set-002",
+      "title": "英語問題集4 翻訳版 11-20",
+      "sourceHtml": "assets/英語問題集4.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en4-q-011",
+        "en4-q-012",
+        "en4-q-013",
+        "en4-q-014",
+        "en4-q-015",
+        "en4-q-016",
+        "en4-q-017",
+        "en4-q-018",
+        "en4-q-019",
+        "en4-q-020"
+      ],
+      "questionNumberRange": [
+        11,
+        20
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en4-set-003",
+      "title": "英語問題集4 翻訳版 21-30",
+      "sourceHtml": "assets/英語問題集4.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en4-q-021",
+        "en4-q-022",
+        "en4-q-023",
+        "en4-q-024",
+        "en4-q-025",
+        "en4-q-026",
+        "en4-q-027",
+        "en4-q-028",
+        "en4-q-029",
+        "en4-q-030"
+      ],
+      "questionNumberRange": [
+        21,
+        30
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en4-set-004",
+      "title": "英語問題集4 翻訳版 31-40",
+      "sourceHtml": "assets/英語問題集4.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en4-q-031",
+        "en4-q-032",
+        "en4-q-033",
+        "en4-q-034",
+        "en4-q-035",
+        "en4-q-036",
+        "en4-q-037",
+        "en4-q-038",
+        "en4-q-039",
+        "en4-q-040"
+      ],
+      "questionNumberRange": [
+        31,
+        40
+      ],
+      "hasImages": false,
+      "hasMultiSelect": true
+    },
+    {
+      "setId": "en4-set-005",
+      "title": "英語問題集4 翻訳版 41-50",
+      "sourceHtml": "assets/英語問題集4.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en4-q-041",
+        "en4-q-042",
+        "en4-q-043",
+        "en4-q-044",
+        "en4-q-045",
+        "en4-q-046",
+        "en4-q-047",
+        "en4-q-048",
+        "en4-q-049",
+        "en4-q-050"
+      ],
+      "questionNumberRange": [
+        41,
+        50
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en4-set-006",
+      "title": "英語問題集4 翻訳版 51-57",
+      "sourceHtml": "assets/英語問題集4.html",
+      "questionCount": 7,
+      "questionIds": [
+        "en4-q-051",
+        "en4-q-052",
+        "en4-q-053",
+        "en4-q-054",
+        "en4-q-055",
+        "en4-q-056",
+        "en4-q-057"
+      ],
+      "questionNumberRange": [
+        51,
+        57
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en5-set-001",
+      "title": "英語問題集5 翻訳版 01-10",
+      "sourceHtml": "assets/英語問題集5.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en5-q-001",
+        "en5-q-002",
+        "en5-q-003",
+        "en5-q-004",
+        "en5-q-005",
+        "en5-q-006",
+        "en5-q-007",
+        "en5-q-008",
+        "en5-q-009",
+        "en5-q-010"
+      ],
+      "questionNumberRange": [
+        1,
+        10
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en5-set-002",
+      "title": "英語問題集5 翻訳版 11-20",
+      "sourceHtml": "assets/英語問題集5.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en5-q-011",
+        "en5-q-012",
+        "en5-q-013",
+        "en5-q-014",
+        "en5-q-015",
+        "en5-q-016",
+        "en5-q-017",
+        "en5-q-018",
+        "en5-q-019",
+        "en5-q-020"
+      ],
+      "questionNumberRange": [
+        11,
+        20
+      ],
+      "hasImages": true,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en5-set-003",
+      "title": "英語問題集5 翻訳版 21-30",
+      "sourceHtml": "assets/英語問題集5.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en5-q-021",
+        "en5-q-022",
+        "en5-q-023",
+        "en5-q-024",
+        "en5-q-025",
+        "en5-q-026",
+        "en5-q-027",
+        "en5-q-028",
+        "en5-q-029",
+        "en5-q-030"
+      ],
+      "questionNumberRange": [
+        21,
+        30
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en5-set-004",
+      "title": "英語問題集5 翻訳版 31-40",
+      "sourceHtml": "assets/英語問題集5.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en5-q-031",
+        "en5-q-032",
+        "en5-q-033",
+        "en5-q-034",
+        "en5-q-035",
+        "en5-q-036",
+        "en5-q-037",
+        "en5-q-038",
+        "en5-q-039",
+        "en5-q-040"
+      ],
+      "questionNumberRange": [
+        31,
+        40
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en5-set-005",
+      "title": "英語問題集5 翻訳版 41-50",
+      "sourceHtml": "assets/英語問題集5.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en5-q-041",
+        "en5-q-042",
+        "en5-q-043",
+        "en5-q-044",
+        "en5-q-045",
+        "en5-q-046",
+        "en5-q-047",
+        "en5-q-048",
+        "en5-q-049",
+        "en5-q-050"
+      ],
+      "questionNumberRange": [
+        41,
+        50
+      ],
+      "hasImages": false,
+      "hasMultiSelect": true
+    },
+    {
+      "setId": "en5-set-006",
+      "title": "英語問題集5 翻訳版 51-57",
+      "sourceHtml": "assets/英語問題集5.html",
+      "questionCount": 7,
+      "questionIds": [
+        "en5-q-051",
+        "en5-q-052",
+        "en5-q-053",
+        "en5-q-054",
+        "en5-q-055",
+        "en5-q-056",
+        "en5-q-057"
+      ],
+      "questionNumberRange": [
+        51,
+        57
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en6-set-001",
+      "title": "英語問題集6 翻訳版 01-10",
+      "sourceHtml": "assets/英語問題集6.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en6-q-001",
+        "en6-q-002",
+        "en6-q-003",
+        "en6-q-004",
+        "en6-q-005",
+        "en6-q-006",
+        "en6-q-007",
+        "en6-q-008",
+        "en6-q-009",
+        "en6-q-010"
+      ],
+      "questionNumberRange": [
+        1,
+        10
+      ],
+      "hasImages": false,
+      "hasMultiSelect": true
+    },
+    {
+      "setId": "en6-set-002",
+      "title": "英語問題集6 翻訳版 11-20",
+      "sourceHtml": "assets/英語問題集6.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en6-q-011",
+        "en6-q-012",
+        "en6-q-013",
+        "en6-q-014",
+        "en6-q-015",
+        "en6-q-016",
+        "en6-q-017",
+        "en6-q-018",
+        "en6-q-019",
+        "en6-q-020"
+      ],
+      "questionNumberRange": [
+        11,
+        20
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en6-set-003",
+      "title": "英語問題集6 翻訳版 21-30",
+      "sourceHtml": "assets/英語問題集6.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en6-q-021",
+        "en6-q-022",
+        "en6-q-023",
+        "en6-q-024",
+        "en6-q-025",
+        "en6-q-026",
+        "en6-q-027",
+        "en6-q-028",
+        "en6-q-029",
+        "en6-q-030"
+      ],
+      "questionNumberRange": [
+        21,
+        30
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en6-set-004",
+      "title": "英語問題集6 翻訳版 31-40",
+      "sourceHtml": "assets/英語問題集6.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en6-q-031",
+        "en6-q-032",
+        "en6-q-033",
+        "en6-q-034",
+        "en6-q-035",
+        "en6-q-036",
+        "en6-q-037",
+        "en6-q-038",
+        "en6-q-039",
+        "en6-q-040"
+      ],
+      "questionNumberRange": [
+        31,
+        40
+      ],
+      "hasImages": false,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en6-set-005",
+      "title": "英語問題集6 翻訳版 41-50",
+      "sourceHtml": "assets/英語問題集6.html",
+      "questionCount": 10,
+      "questionIds": [
+        "en6-q-041",
+        "en6-q-042",
+        "en6-q-043",
+        "en6-q-044",
+        "en6-q-045",
+        "en6-q-046",
+        "en6-q-047",
+        "en6-q-048",
+        "en6-q-049",
+        "en6-q-050"
+      ],
+      "questionNumberRange": [
+        41,
+        50
+      ],
+      "hasImages": true,
+      "hasMultiSelect": false
+    },
+    {
+      "setId": "en6-set-006",
+      "title": "英語問題集6 翻訳版 51-55",
+      "sourceHtml": "assets/英語問題集6.html",
+      "questionCount": 5,
+      "questionIds": [
+        "en6-q-051",
+        "en6-q-052",
+        "en6-q-053",
+        "en6-q-054",
+        "en6-q-055"
+      ],
+      "questionNumberRange": [
+        51,
+        55
+      ],
+      "hasImages": true,
+      "hasMultiSelect": true
     }
   ]
 }

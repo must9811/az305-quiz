@@ -1,0 +1,461 @@
+{
+  "setId": "en3-set-003",
+  "title": "英語問題集3 翻訳版 21-30",
+  "sourceHtml": "assets/英語問題集3.html",
+  "questionIds": [
+    "en3-q-021",
+    "en3-q-022",
+    "en3-q-023",
+    "en3-q-024",
+    "en3-q-025",
+    "en3-q-026",
+    "en3-q-027",
+    "en3-q-028",
+    "en3-q-029",
+    "en3-q-030"
+  ],
+  "questions": [
+    {
+      "questionId": "en3-q-021",
+      "sourceQuestionNumber": 21,
+      "promptHtml": "<p>組織は次のように構成されています。</p><p><strong>東部門</strong></p><ul><li><p>Azure サブスクリプション: <strong>Sub1</strong></p></li><li><p>Microsoft Entra テナント: <strong>apexcore.com</strong></p></li></ul><p><strong>西部門</strong></p><ul><li><p>Azure サブスクリプション: <strong>Sub2</strong></p></li><li><p>Microsoft Entra テナント: <strong>ironclad.com</strong></p></li></ul><p>サブスクリプション <strong>Sub1</strong> には、という名前の<strong>Azure App Service Web アプリ</strong>が含まれています。 <strong>App1</strong>。 App1 は<strong>シングルテナント認証</strong>に<strong>Microsoft Entra ID</strong>を使用しており、現在、<strong>apexcore.com</strong>テナントのユーザーのみがApp1にサインインできます。</p><p><strong>ironclad.com</strong>テナントのユーザーが認証できるソリューションを推奨する必要があります。 <strong>App1</strong>.</p><p>何を推奨しますか。</p>",
+      "promptText": "組織は次のように構成されています。\n東部門\n・Azure サブスクリプション: Sub1\n\n・Microsoft Entra テナント: apexcore.com\n\n西部門\n・Azure サブスクリプション: Sub2\n\n・Microsoft Entra テナント: ironclad.com\n\nサブスクリプション Sub1 には、という名前のAzure App Service Web アプリが含まれています。 App1。 App1 はシングルテナント認証にMicrosoft Entra IDを使用しており、現在、apexcore.comテナントのユーザーのみがApp1にサインインできます。\nironclad.comテナントのユーザーが認証できるソリューションを推奨する必要があります。 App1.\n何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-021-c1",
+          "label": null,
+          "text": "Microsoft Entra パススルー認証を有効にし、サインイン エンドポイントを更新します。",
+          "html": "<p>Microsoft Entra パススルー認証を有効にし、サインイン エンドポイントを更新します。</p>"
+        },
+        {
+          "choiceId": "en3-q-021-c2",
+          "label": null,
+          "text": "Microsoft Entra 資格管理を使用して外部ユーザーを管理します。",
+          "html": "<p>Microsoft Entra 資格管理を使用して外部ユーザーを管理します。</p>"
+        },
+        {
+          "choiceId": "en3-q-021-c3",
+          "label": null,
+          "text": "条件付きアクセス ポリシーを構成します。",
+          "html": "条件付きアクセス ポリシーを構成します。"
+        },
+        {
+          "choiceId": "en3-q-021-c4",
+          "label": null,
+          "text": "Microsoft Entra プロビジョニング サービスを構成します。",
+          "html": "<p>Microsoft Entra プロビジョニング サービスを構成します。</p>"
+        },
+        {
+          "choiceId": "en3-q-021-c5",
+          "label": null,
+          "text": "Microsoft Entra 参加を構成します。",
+          "html": "<p>Microsoft Entra 参加を構成します。</p>"
+        },
+        {
+          "choiceId": "en3-q-021-c6",
+          "label": null,
+          "text": "Microsoft Entra Identity を構成します。保護。",
+          "html": "<p>Microsoft Entra Identity を構成します。保護。</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-021-c2"
+      ],
+      "explanationHtml": "<p>Microsoft Entra 資格管理を使用して外部ユーザーを管理する は正解です。これは、このシナリオでは、ironclad.com テナントのユーザーが apexcore.com テナントでホストされているシングルテナント アプリケーション (App1) に対して認証できるようにする必要があるためです。</p><p>Microsoft Entra パススルー認証を有効にしてサインイン エンドポイントを更新する は誤りです。パススルー認証はオンプレミスのディレクトリ同期を有効にするためではなく、オンプレミスのディレクトリ同期用に設計されているためです。</p><p>条件付きアクセス ポリシーの構成 は誤りです。条件付きアクセスは場所やデバイスのコンプライアンスなどの条件に基づいてアクセスを制御しますが、B2B アクセスを有効にしたり、アプリのテナントを変更したりすることはありません。</p><p>Microsoft Entra プロビジョニング サービスを構成する は誤りです。プロビジョニングは Microsoft Entra テナントまたは外部システム間でユーザーを同期するために使用されますが、それ自体ではシングルテナント アプリケーションへの認証アクセスを許可しません。</p><p>Microsoft Entra を構成するjoin は誤りです。Entra join はユーザー ID やアプリ認証シナリオではなく、デバイスに適用されるためです。</p><p>Microsoft Entra ID Protection の構成 は、Identity Protection はクロステナント認証やゲストを有効にするためではなく、ID ベースのリスクを検出して対応するために使用されるため、不正確です。アクセス。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview\">https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview\">https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection\">https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/app-provisioning/how-provisioning-works\">https://learn.microsoft.com/en-us/entra/identity/app-provisioning/how-provisioning-works</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/devices/concept-directory-join\">https://learn.microsoft.com/en-us/entra/identity/devices/concept-directory-join</a></p></li></ul>",
+      "explanationText": "Microsoft Entra 資格管理を使用して外部ユーザーを管理する は正解です。これは、このシナリオでは、ironclad.com テナントのユーザーが apexcore.com テナントでホストされているシングルテナント アプリケーション (App1) に対して認証できるようにする必要があるためです。\nMicrosoft Entra パススルー認証を有効にしてサインイン エンドポイントを更新する は誤りです。パススルー認証はオンプレミスのディレクトリ同期を有効にするためではなく、オンプレミスのディレクトリ同期用に設計されているためです。\n条件付きアクセス ポリシーの構成 は誤りです。条件付きアクセスは場所やデバイスのコンプライアンスなどの条件に基づいてアクセスを制御しますが、B2B アクセスを有効にしたり、アプリのテナントを変更したりすることはありません。\nMicrosoft Entra プロビジョニング サービスを構成する は誤りです。プロビジョニングは Microsoft Entra テナントまたは外部システム間でユーザーを同期するために使用されますが、それ自体ではシングルテナント アプリケーションへの認証アクセスを許可しません。\nMicrosoft Entra を構成するjoin は誤りです。Entra join はユーザー ID やアプリ認証シナリオではなく、デバイスに適用されるためです。\nMicrosoft Entra ID Protection の構成 は、Identity Protection はクロステナント認証やゲストを有効にするためではなく、ID ベースのリスクを検出して対応するために使用されるため、不正確です。アクセス。\n参照:\n・https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview\n\n・https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview\n\n・https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection\n\n・https://learn.microsoft.com/en-us/entra/identity/app-provisioning/how-provisioning-works\n\n・https://learn.microsoft.com/en-us/entra/identity/devices/concept-directory-join",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en3-q-022",
+      "sourceQuestionNumber": 22,
+      "promptHtml": "<p>あなたの組織には、以下に示すように、複数の<strong>オンプレミス Microsoft SQL サーバー データベース</strong>からのデータを使用する <strong>App1</strong> という名前のアプリケーションがあります。</p><ul><li><p><strong>DB1</strong>: 450 GB</p></li><li><p><strong>DB2</strong>: 250 GB</p></li><li><p><strong>DB3</strong>: 300 GB</p></li><li><p><strong>DB4</strong>: 50 GB</p></li></ul><p>App1 とその関連データは<strong>毎月 1 日のみ</strong>にアクセスされます。データ量の増加は<strong>年間 3% 以内</strong>と予想されます。</p><p>同社は App1 を<strong>Azure ベースの Web アプリケーション</strong>として再設計しており、<strong>すべての既存データを Azure に移行</strong>する予定です。</p><p>データを<strong>Azure SQL データベース</strong>に移行し、データベースが<strong>毎月 1 日にのみ利用可能</strong>です。</p><p>どの<strong>Azure SQL データベース サービス レベル</strong>を選択する必要がありますか。</p>",
+      "promptText": "あなたの組織には、以下に示すように、複数のオンプレミス Microsoft SQL サーバー データベースからのデータを使用する App1 という名前のアプリケーションがあります。\n・DB1: 450 GB\n\n・DB2: 250 GB\n\n・DB3: 300 GB\n\n・DB4: 50 GB\n\nApp1 とその関連データは毎月 1 日のみにアクセスされます。データ量の増加は年間 3% 以内と予想されます。\n同社は App1 をAzure ベースの Web アプリケーションとして再設計しており、すべての既存データを Azure に移行する予定です。\nデータをAzure SQL データベースに移行し、データベースが毎月 1 日にのみ利用可能です。\nどのAzure SQL データベース サービス レベルを選択する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-022-c1",
+          "label": null,
+          "text": "仮想コアベースの汎用",
+          "html": "仮想コアベースの汎用"
+        },
+        {
+          "choiceId": "en3-q-022-c2",
+          "label": null,
+          "text": "DTU ベースの基本",
+          "html": "DTU ベースの基本"
+        },
+        {
+          "choiceId": "en3-q-022-c3",
+          "label": null,
+          "text": "DTU ベースの標準",
+          "html": "DTU ベースの標準"
+        },
+        {
+          "choiceId": "en3-q-022-c4",
+          "label": null,
+          "text": "仮想コアベースのビジネス クリティカル",
+          "html": "仮想コアベースのビジネス クリティカル"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-022-c1"
+      ],
+      "explanationHtml": "<p>仮想コアベースの汎用は、データベースの自動一時停止と再開をサポートするサーバーレス コンピューティング層を提供するため正解です。活動に基づいて。</p><p>DTU ベースの Basic は、最大 2 GB のサイズのデータ​​ベースのみをサポートしているのに対し、テーブルからの合計データベース サイズが 1 TB を超えているため、不正解です。このため、このシナリオには適していません。</p><p>DTU ベースの標準 は誤りです。これは、より大きなデータベース サイズ (最大 1 TB) をサポートしていますが、DTU は実際の使用量に関係なく常にプロビジョニングされ、請求されます。</p><p>仮想コアベースのビジネス クリティカル は誤りです。これは、最高のパフォーマンス、最低のレイテンシ、および複数のレプリカによる組み込みの高可用性を必要とするミッション クリティカルなアプリケーション向けに設計されているためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview?view=azuresql&amp;tabs=general-purpose\">https://learn.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview?view=azuresql&amp;tabs=general-purpose</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-general-purpose\">https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-general-purpose</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu\">https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql</a></p></li></ul>",
+      "explanationText": "仮想コアベースの汎用は、データベースの自動一時停止と再開をサポートするサーバーレス コンピューティング層を提供するため正解です。活動に基づいて。\nDTU ベースの Basic は、最大 2 GB のサイズのデータ​​ベースのみをサポートしているのに対し、テーブルからの合計データベース サイズが 1 TB を超えているため、不正解です。このため、このシナリオには適していません。\nDTU ベースの標準 は誤りです。これは、より大きなデータベース サイズ (最大 1 TB) をサポートしていますが、DTU は実際の使用量に関係なく常にプロビジョニングされ、請求されます。\n仮想コアベースのビジネス クリティカル は誤りです。これは、最高のパフォーマンス、最低のレイテンシ、および複数のレプリカによる組み込みの高可用性を必要とするミッション クリティカルなアプリケーション向けに設計されているためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview?view=azuresql&tabs=general-purpose\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-general-purpose\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/resource-limits-dtu-single-databases?view=azuresql",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-linked-001",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-023",
+      "sourceQuestionNumber": 23,
+      "promptHtml": "<p>次の要件を満たす<strong>Azure Storage</strong> ソリューションを推奨する必要があります。</p><ul><li><p>ソリューションは<strong>最大 1 PB のデータ</strong>をサポートする必要があります。</p></li><li><p>データは<strong>Blob Storage</strong> に保存する必要があります。</p></li><li><p>ストレージ ソリューションは以下をサポートする必要があります。 <strong>3 レベルのサブフォルダー</strong>。</p></li><li><p>ストレージ ソリューションは<strong>アクセス制御リスト (ACL)</strong>をサポートする必要があります。</p></li></ul><p>推奨事項には何を含める必要がありますか。</p>",
+      "promptText": "次の要件を満たすAzure Storage ソリューションを推奨する必要があります。\n・ソリューションは最大 1 PB のデータをサポートする必要があります。\n\n・データはBlob Storage に保存する必要があります。\n\n・ストレージ ソリューションは以下をサポートする必要があります。 3 レベルのサブフォルダー。\n\n・ストレージ ソリューションはアクセス制御リスト (ACL)をサポートする必要があります。\n\n推奨事項には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-023-c1",
+          "label": null,
+          "text": "ページ BLOB 用に構成された Premium Storage アカウント",
+          "html": "<p>ページ BLOB 用に構成された Premium Storage アカウント</p>"
+        },
+        {
+          "choiceId": "en3-q-023-c2",
+          "label": null,
+          "text": "ブロック BLOB 用に構成された Premium ストレージ アカウント",
+          "html": "<p>ブロック BLOB 用に構成された Premium ストレージ アカウント</p>"
+        },
+        {
+          "choiceId": "en3-q-023-c3",
+          "label": null,
+          "text": "ファイル共有用に構成され、大規模なファイル共有をサポートする Premium ストレージ アカウント",
+          "html": "<p>ファイル共有用に構成され、大規模なファイル共有をサポートする Premium ストレージ アカウント</p>"
+        },
+        {
+          "choiceId": "en3-q-023-c4",
+          "label": null,
+          "text": "階層型名前空間が有効になっている汎用 v2 ストレージ アカウント",
+          "html": "階層型名前空間が有効になっている汎用 v2 ストレージ アカウント"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-023-c4"
+      ],
+      "explanationHtml": "<p>階層型名前空間が有効になっている汎用 v2 ストレージ アカウントは、この構成が Azure Data Lake Storage Gen2 をサポートしているため正解です。これにより、BLOB ストレージをペタバイト レベルの容量までスケールアップでき、3 レベル以上のサブフォルダーがサポートされ、アクセス コントロール リスト (ACL) が提供されます。</p><p>ページ BLOB 用に構成された Premium Storage アカウント は誤りです。これは、ページ BLOB は主に IaaS 仮想ハード ディスク (Azure VM の OS やデータ ディスクなど) 用に設計されており、階層フォルダー構造や、 ACL。</p><p>ブロック BLOB 用に構成された Premium Storage アカウント は誤りです。ブロック BLOB は非構造化データの保存には適していますが、ここでは両方とも必要な階層名前空間や ACL をサポートしていないためです。</p><p>ファイル共有用に構成された Premium Storage アカウントAzure Files は Blob Storage とは異なるサービスであるため、 大規模なファイル共有をサポート は誤りです。 ACL と階層構造はサポートされていますが、特に BLOB ストレージにデータを保存するという要件は満たしておらず、ペタバイト規模の BLOB データ シナリオ向けに最適化されていません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction\">https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-namespace\">https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-namespace</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control\">https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview</a></p></li></ul>",
+      "explanationText": "階層型名前空間が有効になっている汎用 v2 ストレージ アカウントは、この構成が Azure Data Lake Storage Gen2 をサポートしているため正解です。これにより、BLOB ストレージをペタバイト レベルの容量までスケールアップでき、3 レベル以上のサブフォルダーがサポートされ、アクセス コントロール リスト (ACL) が提供されます。\nページ BLOB 用に構成された Premium Storage アカウント は誤りです。これは、ページ BLOB は主に IaaS 仮想ハード ディスク (Azure VM の OS やデータ ディスクなど) 用に設計されており、階層フォルダー構造や、 ACL。\nブロック BLOB 用に構成された Premium Storage アカウント は誤りです。ブロック BLOB は非構造化データの保存には適していますが、ここでは両方とも必要な階層名前空間や ACL をサポートしていないためです。\nファイル共有用に構成された Premium Storage アカウントAzure Files は Blob Storage とは異なるサービスであるため、 大規模なファイル共有をサポート は誤りです。 ACL と階層構造はサポートされていますが、特に BLOB ストレージにデータを保存するという要件は満たしておらず、ペタバイト規模の BLOB データ シナリオ向けに最適化されていません。\n参照:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-namespace\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control\n\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en3-q-024",
+      "sourceQuestionNumber": 24,
+      "promptHtml": "<p><strong>ファイル共有</strong>をホストする<strong>Azure ストレージ アカウント</strong>を作成する予定です。これらのファイル共有には、<strong>オンプレミス環境</strong>で実行される<strong>トランザクション集約型アプリケーション</strong>によってアクセスされます。</p><p>次のようなソリューションを推奨する必要があります。</p><ul><li><p><strong>ファイル共有の使用時にアクセス遅延を最小限に抑える</strong>。</p></li><li><p>選択したストレージで利用可能な<strong>最高レベルの復元力</strong>を提供する</p></li></ul><p>推奨事項の次の項目を完了する必要があります:</p><p><code>ストレージ層</code></p><p>何を推奨しますか。</p>",
+      "promptText": "ファイル共有をホストするAzure ストレージ アカウントを作成する予定です。これらのファイル共有には、オンプレミス環境で実行されるトランザクション集約型アプリケーションによってアクセスされます。\n次のようなソリューションを推奨する必要があります。\n・ファイル共有の使用時にアクセス遅延を最小限に抑える。\n\n・選択したストレージで利用可能な最高レベルの復元力を提供する\n\n推奨事項の次の項目を完了する必要があります:\nストレージ層\n何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-024-c1",
+          "label": null,
+          "text": "ホット",
+          "html": "ホット"
+        },
+        {
+          "choiceId": "en3-q-024-c2",
+          "label": null,
+          "text": "プレミアム",
+          "html": "プレミアム"
+        },
+        {
+          "choiceId": "en3-q-024-c3",
+          "label": null,
+          "text": "トランザクション最適化",
+          "html": "トランザクション最適化"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-024-c2"
+      ],
+      "explanationHtml": "<p>プレミアム は、パフォーマンス重視のトランザクション集中型のワークロード向けに特別に設計されているため、正解です。Azure Premium Files ストレージは、低遅延、高 IOPS、安定したスループットを提供するソリッド ステート ドライブ (SSD) によって支えられており、高速かつ頻繁なアクセスを必要とするオンプレミス アプリケーションに最適です。</p><p>ホット は、Azure Files ではなく Blob Storage に適用されるため、不正解です。ホット層はアクセス コストが低い一方で、ファイル共有をサポートしておらず、トランザクションの多いシナリオ向けに SSD によるパフォーマンスも提供しません。</p><p>トランザクション最適化 は不正解です。これは、頻繁にアクセスされるファイル共有には適していますが、HDD によってサポートされており、他のものと比べてパフォーマンスが低く、遅延が大きいためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/files/storage-files-planning#storage-tiers\">https://learn.microsoft.com/en-us/azure/storage/files/storage-files-planning#storage-tiers</a></p></li></ul>",
+      "explanationText": "プレミアム は、パフォーマンス重視のトランザクション集中型のワークロード向けに特別に設計されているため、正解です。Azure Premium Files ストレージは、低遅延、高 IOPS、安定したスループットを提供するソリッド ステート ドライブ (SSD) によって支えられており、高速かつ頻繁なアクセスを必要とするオンプレミス アプリケーションに最適です。\nホット は、Azure Files ではなく Blob Storage に適用されるため、不正解です。ホット層はアクセス コストが低い一方で、ファイル共有をサポートしておらず、トランザクションの多いシナリオ向けに SSD によるパフォーマンスも提供しません。\nトランザクション最適化 は誤りです。これは、頻繁にアクセスされるファイル共有には適していますが、HDD によってサポートされており、他のものと比べてパフォーマンスが低く、遅延が大きいためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/files/storage-files-planning#storage-tiers",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-linked-005",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-025",
+      "sourceQuestionNumber": 25,
+      "promptHtml": "<p><strong>ファイル共有</strong>をホストする<strong>Azure ストレージ アカウント</strong>を作成する予定です。これらのファイル共有には、<strong>オンプレミス環境</strong>で実行される<strong>トランザクション集約型アプリケーション</strong>によってアクセスされます。</p><p>次のようなソリューションを推奨する必要があります。</p><ul><li><p><strong>ファイル共有の使用時にアクセス遅延を最小限に抑える</strong>。</p></li><li><p>選択したストレージで利用可能な<strong>最高レベルの復元力</strong>を提供する</p></li></ul><p>推奨事項の次の項目を完了する必要があります:</p><p><code>冗長性</code></p><p>何を推奨しますか。</p>",
+      "promptText": "ファイル共有をホストするAzure ストレージ アカウントを作成する予定です。これらのファイル共有には、オンプレミス環境で実行されるトランザクション集約型アプリケーションによってアクセスされます。\n次のようなソリューションを推奨する必要があります。\n・ファイル共有の使用時にアクセス遅延を最小限に抑える。\n\n・選択したストレージで利用可能な最高レベルの復元力を提供する\n\n推奨事項の次の項目を完了する必要があります:\n冗長性\n何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-025-c1",
+          "label": null,
+          "text": "地理冗長ストレージ (GRS)",
+          "html": "地理冗長ストレージ (GRS)"
+        },
+        {
+          "choiceId": "en3-q-025-c2",
+          "label": null,
+          "text": "ゾーン冗長ストレージ(ZRS)",
+          "html": "ゾーン冗長ストレージ(ZRS)"
+        },
+        {
+          "choiceId": "en3-q-025-c3",
+          "label": null,
+          "text": "ローカル冗長ストレージ (LRS)",
+          "html": "ローカル冗長ストレージ (LRS)"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-025-c2"
+      ],
+      "explanationHtml": "<p>ゾーン冗長ストレージ (ZRS) は、Azure File 共有の Premium レベルで利用可能な最高レベルの復元性を提供するため、正解です。トランザクション集約型のワークロード。</p><p>地理冗長ストレージ (GRS) は誤りです。これは、データをセカンダリ リージョンに非同期にレプリケートすることで地理的冗長性を提供しますが、遅延が長くなり、Premium ではサポートされていないためです。</p><p>ローカル冗長ストレージ (LRS) は誤りです。これは、単一のデータセンター内で冗長性を提供しますが、3 つのオプションの中で最も回復力が低く、データセンター レベルまたはゾーンの障害から保護するものではないためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy\">https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/files/storage-files-planning#storage-tiers\">https://learn.microsoft.com/en-us/azure/storage/files/storage-files-planning#storage-tiers</a></p></li></ul>",
+      "explanationText": "ゾーン冗長ストレージ (ZRS) は、Azure File 共有の Premium レベルで利用可能な最高レベルの復元性を提供するため、正解です。トランザクション集約型のワークロード。\n地理冗長ストレージ (GRS) は誤りです。これは、データをセカンダリ リージョンに非同期にレプリケートすることで地理的冗長性を提供しますが、遅延が長くなり、Premium ではサポートされていないためです。\nローカル冗長ストレージ (LRS) は誤りです。これは、単一のデータセンター内で冗長性を提供しますが、3 つのオプションの中で最も回復力が低く、データセンター レベルまたはゾーンの障害から保護するものではないためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy\n\n・https://learn.microsoft.com/en-us/azure/storage/files/storage-files-planning#storage-tiers",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-linked-005",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-026",
+      "sourceQuestionNumber": 26,
+      "promptHtml": "<p><strong>App1</strong> という名前の <strong>Azure Web アプリ</strong>と、<strong>KV1</strong> という名前の<strong>Azure Key Vault</strong>があります。</p><p>App1 はその<strong>データベース接続文字列</strong>を次の場所に保存します。 KV1.</p><p>App1 は、次の操作を実行します。 KV1:</p><ul><li><p><strong>取得</strong></p></li><li><p><strong>リスト</strong></p></li><li><p><strong>ラップ</strong></p></li><li><p><strong>削除</strong></p></li> ><li><p><strong>ラップ解除</strong></p></li><li><p><strong>バックアップ</strong></p></li><li><p><strong>復号化</strong></p></li><li><p><strong>暗号化</strong></p></li></ul><p>あなたApp1 の<strong>サービス継続性</strong>を評価しています。</p><p>KV1 をホストしている<strong>Azure リージョンが利用できなくなった場合</strong>の場合、次のシナリオの結果を判断する必要があります:</p><p><code>KV1 はどこにフェイルオーバーしますか。</code></p><p>何をすべきですか。 </p>",
+      "promptText": "App1 という名前の Azure Web アプリと、KV1 という名前のAzure Key Vaultがあります。\nApp1 はそのデータベース接続文字列を次の場所に保存します。 KV1.\nApp1 は、次の操作を実行します。 KV1:\n・取得\n\n・リスト\n\n・ラップ\n\n・削除\n\n >・ラップ解除\n\n・バックアップ\n\n・復号化\n\n・暗号化\n\nあなたApp1 のサービス継続性を評価しています。\nKV1 をホストしているAzure リージョンが利用できなくなった場合の場合、次のシナリオの結果を判断する必要があります:\nKV1 はどこにフェイルオーバーしますか。\n何をすべきですか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-026-c1",
+          "label": null,
+          "text": "同じ可用性セット内のサーバー",
+          "html": "同じ可用性セット内のサーバー"
+        },
+        {
+          "choiceId": "en3-q-026-c2",
+          "label": null,
+          "text": "同じ障害ドメイン内のサーバー",
+          "html": "同じ障害ドメイン内のサーバー"
+        },
+        {
+          "choiceId": "en3-q-026-c3",
+          "label": null,
+          "text": "ペアになったリージョン内のサーバー",
+          "html": "ペアになったリージョン内のサーバー"
+        },
+        {
+          "choiceId": "en3-q-026-c4",
+          "label": null,
+          "text": "スケール セット内の仮想マシン",
+          "html": "スケール セット内の仮想マシン"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-026-c3"
+      ],
+      "explanationHtml": "<p>ペアになったリージョン内のサーバーは、Azure Key Vault がリージョン サービスであるため正しいですが、論理的な削除とパージ保護が有効になっている場合、その内容をペアになった Azure リージョンにレプリケートすることで geo 冗長回復をサポートします。リージョンに障害が発生した場合、Microsoft はペアになったリージョンへの Key Vault の手動フェールオーバーを開始して、アクセスを復元します。</p><p>同じ可用性セット内のサーバー は誤りです。これは、可用性セットは Azure 仮想マシンにのみ適用され、リージョン間ではなく単一リージョン内の高可用性を確保するために使用されるためです。</p><p>同じ障害ドメイン内のサーバー は誤りです。障害ドメインはデータセンター内でハードウェアを分離するため、地域的な停止の場合には役立ちません。</p><p>スケール内の仮想マシンAzure Key Vault は PaaS サービスであり、ユーザー管理の VM または VM スケール セットでホストされていないため、set は誤りです。また、スケール セットは、Key Vault などの PaaS サービスの冗長性ではなく、コンピューティングのスケーラビリティを提供します。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/key-vault/general/disaster-recovery-guidance\">https://learn.microsoft.com/en-us/azure/key-vault/general/disaster-recovery-guidance</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/key-vault/general/overview\">https://learn.microsoft.com/en-us/azure/key-vault/general/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/key-vault/general/disaster-recovery-guidance\">https://learn.microsoft.com/en-us/azure/key-vault/general/disaster-recovery-guidance</a></p></li></ul>",
+      "explanationText": "ペアになったリージョン内のサーバーは、Azure Key Vault がリージョン サービスであるため正しいですが、論理的な削除とパージ保護が有効になっている場合、その内容をペアになった Azure リージョンにレプリケートすることで geo 冗長回復をサポートします。リージョンに障害が発生した場合、Microsoft はペアになったリージョンへの Key Vault の手動フェールオーバーを開始して、アクセスを復元します。\n同じ可用性セット内のサーバー は誤りです。これは、可用性セットは Azure 仮想マシンにのみ適用され、リージョン間ではなく単一リージョン内の高可用性を確保するために使用されるためです。\n同じ障害ドメイン内のサーバー は誤りです。障害ドメインはデータセンター内でハードウェアを分離するため、地域的な停止の場合には役立ちません。\nスケール内の仮想マシンAzure Key Vault は PaaS サービスであり、ユーザー管理の VM または VM スケール セットでホストされていないため、set は誤りです。また、スケール セットは、Key Vault などの PaaS サービスの冗長性ではなく、コンピューティングのスケーラビリティを提供します。\n参照:\n・https://learn.microsoft.com/en-us/azure/key-vault/general/disaster-recovery-guidance\n\n・https://learn.microsoft.com/en-us/azure/key-vault/general/overview\n\n・https://learn.microsoft.com/en-us/azure/key-vault/general/disaster-recovery-guidance",
+      "images": [],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-linked-006",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-027",
+      "sourceQuestionNumber": 27,
+      "promptHtml": "<p><strong>App1</strong> という名前の <strong>Azure Web アプリ</strong>と、<strong>KV1</strong> という名前の<strong>Azure Key Vault</strong>があります。</p><p>App1 はその<strong>データベース接続文字列</strong>を次の場所に保存します。 KV1.</p><p>App1 は、次の操作を実行します。 KV1:</p><ul><li><p><strong>取得</strong></p></li><li><p><strong>リスト</strong></p></li><li><p><strong>ラップ</strong></p></li><li><p><strong>削除</strong></p></li> ><li><p><strong>ラップ解除</strong></p></li><li><p><strong>バックアップ</strong></p></li><li><p><strong>復号化</strong></p></li><li><p><strong>暗号化</strong></p></li></ul><p>あなたApp1 の<strong>サービス継続性</strong>を評価しています。</p><p>KV1 をホストしている<strong>Azure リージョンが利用できなくなった場合</strong>の場合、次のシナリオの結果を判断する必要があります。</p><p><code>フェールオーバー中、どのリクエスト タイプが利用できなくなります</code></p><p>何をすべきか識別しますか。</p>",
+      "promptText": "App1 という名前の Azure Web アプリと、KV1 という名前のAzure Key Vaultがあります。\nApp1 はそのデータベース接続文字列を次の場所に保存します。 KV1.\nApp1 は、次の操作を実行します。 KV1:\n・取得\n\n・リスト\n\n・ラップ\n\n・削除\n\n >・ラップ解除\n\n・バックアップ\n\n・復号化\n\n・暗号化\n\nあなたApp1 のサービス継続性を評価しています。\nKV1 をホストしているAzure リージョンが利用できなくなった場合の場合、次のシナリオの結果を判断する必要があります。\nフェールオーバー中、どのリクエスト タイプが利用できなくなります\n何をすべきか識別しますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-027-c1",
+          "label": null,
+          "text": "バックアップ",
+          "html": "バックアップ"
+        },
+        {
+          "choiceId": "en3-q-027-c2",
+          "label": null,
+          "text": "復号化",
+          "html": "復号化"
+        },
+        {
+          "choiceId": "en3-q-027-c3",
+          "label": null,
+          "text": "削除",
+          "html": "削除"
+        },
+        {
+          "choiceId": "en3-q-027-c4",
+          "label": null,
+          "text": "暗号化",
+          "html": "暗号化"
+        },
+        {
+          "choiceId": "en3-q-027-c5",
+          "label": null,
+          "text": "取得",
+          "html": "取得"
+        },
+        {
+          "choiceId": "en3-q-027-c6",
+          "label": null,
+          "text": "リスト",
+          "html": "リスト"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-027-c3"
+      ],
+      "explanationHtml": "<p>削除 は正解です。リージョン フェールオーバー中、Azure Key Vault はデータの整合性を維持するために読み取り専用モードに入ります。</p>\n<img src=\"assets/英語問題集3_files/2025-03-25_14-02-45-d32638cbf8d51931e5e2efc2282af039.png\" alt=\"\"loading=\"eager\"><p>参考文献:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/key-vault/general/disaster-recovery-guidance\">https://learn.microsoft.com/en-us/azure/key-vault/general/disaster-recovery-guidance</a></p></li></ul>",
+      "explanationText": "削除 は正解です。リージョン フェールオーバー中、Azure Key Vault はデータの整合性を維持するために読み取り専用モードに入ります。\n\n参考文献:\n・https://learn.microsoft.com/en-us/azure/key-vault/general/disaster-recovery-guidance",
+      "images": [
+        "assets/英語問題集3_files/2025-03-25_14-02-45-d32638cbf8d51931e5e2efc2282af039.png"
+      ],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-linked-006",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-028",
+      "sourceQuestionNumber": 28,
+      "promptHtml": "<p><strong>オンプレミス ネットワーク</strong>と<strong>Azure サブスクリプション</strong>があり、オンプレミス環境には<strong>複数のブランチ オフィス</strong>が含まれています。</p><p><strong>トロント</strong>にある 1 つのブランチ オフィスは、<strong>ファイル サーバー</strong>として機能する <strong>VM1</strong> という名前の仮想マシンをホストしています。すべての支社のユーザーが VM1 に保存されている共有ファイルにアクセスします。</p><p><strong>トロント支社が利用できなくなった</strong>場合でも、 ユーザーが<strong>可能な限り待ち時間を最小限に抑えて共有ファイルにアクセスし続けることができる</strong>ソリューションを推奨する必要があります。</p><p>推奨事項には何を含めるべきですか。</p>",
+      "promptText": "オンプレミス ネットワークとAzure サブスクリプションがあり、オンプレミス環境には複数のブランチ オフィスが含まれています。\nトロントにある 1 つのブランチ オフィスは、ファイル サーバーとして機能する VM1 という名前の仮想マシンをホストしています。すべての支社のユーザーが VM1 に保存されている共有ファイルにアクセスします。\nトロント支社が利用できなくなった場合でも、 ユーザーが可能な限り待ち時間を最小限に抑えて共有ファイルにアクセスし続けることができるソリューションを推奨する必要があります。\n推奨事項には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-028-c1",
+          "label": null,
+          "text": "Recovery Services コンテナーと Windows Serverバックアップ",
+          "html": "Recovery Services コンテナーと Windows Serverバックアップ"
+        },
+        {
+          "choiceId": "en3-q-028-c2",
+          "label": null,
+          "text": "Azure ファイル共有と Azure File Sync",
+          "html": "Azure ファイル共有と Azure File Sync"
+        },
+        {
+          "choiceId": "en3-q-028-c3",
+          "label": null,
+          "text": "Recovery Services コンテナーと Azure Backup",
+          "html": "Recovery Services コンテナーと Azure Backup"
+        },
+        {
+          "choiceId": "en3-q-028-c4",
+          "label": null,
+          "text": "Azure BLOB コンテナーと Azure File Sync",
+          "html": "Azure BLOB コンテナーと Azure File Sync"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-028-c2"
+      ],
+      "explanationHtml": "<p>Azure ファイル共有と Azure File同期 は正解です。Azure File Sync を使用すると、オンプレミスのファイル サーバー データ (トロントの VM1 など) を Azure ファイル共有にレプリケートできるため、他のブランチ オフィスにある複数のキャッシュ サーバーを使用して一元化されたクラウド ストレージが可能になります。</p><p>Recovery Services コンテナーと Windows Server バックアップ は誤りです。これは、継続的なファイル アクセスやレプリケーションを維持するためではなく、災害復旧のために設計されたバックアップ ソリューションであるためです。</p><p>Recovery Services コンテナーと Azure Backup は誤りです。Azure Backup は VM1 のデータを保護できますが、リアルタイム アクセスや同期機能向けに設計されていないからです。</p><p>Azure BLOB コンテナーと Azure File Sync は誤りです。これは、Azure File Sync が BLOB コンテナーではなく Azure ファイル共有でのみ機能するためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide\">https://learn.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction\">https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-overview\">https://learn.microsoft.com/en-us/azure/backup/backup-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview\">https://learn.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview</a></p></li></ul>",
+      "explanationText": "Azure ファイル共有と Azure File同期 は正解です。Azure File Sync を使用すると、オンプレミスのファイル サーバー データ (トロントの VM1 など) を Azure ファイル共有にレプリケートできるため、他のブランチ オフィスにある複数のキャッシュ サーバーを使用して一元化されたクラウド ストレージが可能になります。\nRecovery Services コンテナーと Windows Server バックアップ は誤りです。これは、継続的なファイル アクセスやレプリケーションを維持するためではなく、災害復旧のために設計されたバックアップ ソリューションであるためです。\nRecovery Services コンテナーと Azure Backup は誤りです。Azure Backup は VM1 のデータを保護できますが、リアルタイム アクセスや同期機能向けに設計されていないからです。\nAzure BLOB コンテナーと Azure File Sync は誤りです。これは、Azure File Sync が BLOB コンテナーではなく Azure ファイル共有でのみ機能するためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide\n\n・https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction\n\n・https://learn.microsoft.com/en-us/azure/backup/backup-overview\n\n・https://learn.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview",
+      "images": [],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en3-q-029",
+      "sourceQuestionNumber": 29,
+      "promptHtml": "<p><strong>2 TB のデータ ファイル</strong>を含む<strong>オンプレミス ファイル サーバー</strong>があります。</p><p>これらのデータ ファイルを<strong>西ヨーロッパ</strong> Azure リージョンの<strong>Azure Blob Storage</strong>に移行する予定です。</p><p>適切な<strong>ストレージ アカウント タイプ</strong>と<strong>レプリケーションを推奨する必要があります。ストレージ アカウントの戦略</strong>です。選択したソリューションは次の要件を満たす必要があります。</p><ul><li><p>データは<strong>単一の Azure データ センターに障害が発生した場合でも利用可能な状態を維持する必要があります</strong>。</p></li><li><p>ストレージ ソリューションは<strong>複数のストレージ層をサポート</strong>する必要があります。</p></li><li><p><strong>コストは最小限に抑える必要があります</strong>。</p></li></ul><p>次の項目について、何をすべきか推奨しますか。</p><p><code>ストレージ アカウントの種類</code> </p>",
+      "promptText": "2 TB のデータ ファイルを含むオンプレミス ファイル サーバーがあります。\nこれらのデータ ファイルを西ヨーロッパ Azure リージョンのAzure Blob Storageに移行する予定です。\n適切なストレージ アカウント タイプとレプリケーションを推奨する必要があります。ストレージ アカウントの戦略です。選択したソリューションは次の要件を満たす必要があります。\n・データは単一の Azure データ センターに障害が発生した場合でも利用可能な状態を維持する必要があります。\n\n・ストレージ ソリューションは複数のストレージ層をサポートする必要があります。\n\n・コストは最小限に抑える必要があります。\n\n次の項目について、何をすべきか推奨しますか。\nストレージ アカウントの種類",
+      "choices": [
+        {
+          "choiceId": "en3-q-029-c1",
+          "label": null,
+          "text": "プレミアム ブロック BLOB",
+          "html": "プレミアム ブロック BLOB"
+        },
+        {
+          "choiceId": "en3-q-029-c2",
+          "label": null,
+          "text": "標準汎用 v1",
+          "html": "標準汎用 v1"
+        },
+        {
+          "choiceId": "en3-q-029-c3",
+          "label": null,
+          "text": "標準汎用 v2",
+          "html": "標準汎用 v2"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-029-c3"
+      ],
+      "explanationHtml": "<p>標準汎用 v2 は、Azure Blob Storage、利用可能なすべてのストレージ層 (ホット、クール、アーカイブ) をサポートし、ほとんどの一般的なワークロードに対して最もコスト効率の高いオプションを提供するため正解です。また、必要に応じて、単一の Azure データセンターに障害が発生した場合でも高可用性を確保するゾーン冗長ストレージ (ZRS) などのレプリケーション オプションもサポートしています。</p><p>プレミアム ブロック BLOB は、低遅延と高 IOPS を必要とする高パフォーマンス シナリオ向けに設計されているため、不正確です (例: リアルタイム分析やトランザクションの多いワークロード）。クール層またはアーカイブ層はサポートされていないため、一般的なファイル ストレージのコスト効率が低くなり、「コストの最小化」要件に違反します。</p><p>標準汎用 v1 は誤りです。これは、機能サポートが制限され、一部の操作の価格が高く、階層化 BLOB ストレージや高度なデータ管理機能など​​の新しい機能にアクセスできない従来のアカウント タイプであるためです。</p><p>参考資料:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers\">https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy\">https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy</a></p></li></ul>",
+      "explanationText": "標準汎用 v2 は、Azure Blob Storage、利用可能なすべてのストレージ層 (ホット、クール、アーカイブ) をサポートし、ほとんどの一般的なワークロードに対して最もコスト効率の高いオプションを提供するため正解です。また、必要に応じて、単一の Azure データセンターに障害が発生した場合でも高可用性を確保するゾーン冗長ストレージ (ZRS) などのレプリケーション オプションもサポートしています。\nプレミアム ブロック BLOB は、低遅延と高 IOPS を必要とする高パフォーマンス シナリオ向けに設計されているため、不正確です (例: リアルタイム分析やトランザクションの多いワークロード）。クール層またはアーカイブ層はサポートされていないため、一般的なファイル ストレージのコスト効率が低くなり、「コストの最小化」要件に違反します。\n標準汎用 v1 は誤りです。これは、機能サポートが制限され、一部の操作の価格が高く、階層化 BLOB ストレージや高度なデータ管理機能など​​の新しい機能にアクセスできない従来のアカウント タイプであるためです。\n参考資料:\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers\n\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-linked-007",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-030",
+      "sourceQuestionNumber": 30,
+      "promptHtml": "<p><strong>2 TB のデータ ファイル</strong>を含む<strong>オンプレミス ファイル サーバー</strong>があります。</p><p>これらのデータ ファイルを<strong>西ヨーロッパ</strong> Azure リージョンの<strong>Azure Blob Storage</strong>に移行する予定です。</p><p>適切な<strong>ストレージ アカウント タイプ</strong>と<strong>レプリケーションを推奨する必要があります。ストレージ アカウントの戦略</strong>です。選択したソリューションは次の要件を満たす必要があります。</p><ul><li><p>データは<strong>単一の Azure データ センターに障害が発生した場合でも利用可能な状態を維持する必要があります</strong>。</p></li><li><p>ストレージ ソリューションは<strong>複数のストレージ層をサポート</strong>する必要があります。</p></li><li><p><strong>コストは最小限に抑える必要があります</strong>。</p></li></ul><p>次の項目について、何をすべきかお勧めしますか。</p><p><code>冗長性</code> </p>",
+      "promptText": "2 TB のデータ ファイルを含むオンプレミス ファイル サーバーがあります。\nこれらのデータ ファイルを西ヨーロッパ Azure リージョンのAzure Blob Storageに移行する予定です。\n適切なストレージ アカウント タイプとレプリケーションを推奨する必要があります。ストレージ アカウントの戦略です。選択したソリューションは次の要件を満たす必要があります。\n・データは単一の Azure データ センターに障害が発生した場合でも利用可能な状態を維持する必要があります。\n\n・ストレージ ソリューションは複数のストレージ層をサポートする必要があります。\n\n・コストは最小限に抑える必要があります。\n\n次の項目について、何をすべきかお勧めしますか。\n冗長性",
+      "choices": [
+        {
+          "choiceId": "en3-q-030-c1",
+          "label": null,
+          "text": "地理冗長ストレージ (GRS)",
+          "html": "地理冗長ストレージ (GRS)"
+        },
+        {
+          "choiceId": "en3-q-030-c2",
+          "label": null,
+          "text": "ゾーン冗長ストレージ (ZRS)",
+          "html": "ゾーン冗長ストレージ (ZRS)"
+        },
+        {
+          "choiceId": "en3-q-030-c3",
+          "label": null,
+          "text": "ローカル冗長ストレージ (LRS)",
+          "html": "ローカル冗長ストレージ (LRS)"
+        },
+        {
+          "choiceId": "en3-q-030-c4",
+          "label": null,
+          "text": "読み取りアクセス地理冗長ストレージ (RA-GRS)",
+          "html": "読み取りアクセス地理冗長ストレージ (RA-GRS)"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-030-c2"
+      ],
+      "explanationHtml": "<p>ゾーン冗長ストレージ (ZRS) は、西ヨーロッパなどの単一の Azure リージョン内の 3 つの可用性ゾーン間でデータを同期的にレプリケートするため正解です。これにより、単一のデータセンター (または可用性ゾーン) に障害が発生した場合でもストレージが利用可能な状態が維持され、高可用性の要件が満たされます。</p><p>地理冗長ストレージ (GRS) は誤りです。データをセカンダリに非同期にレプリケートすることで地理的冗長性を提供しますが、地域の場合、費用が高くなります。</p><p>ローカル冗長ストレージ (LRS) は単一のデータセンター内でのみデータをレプリケートするため不正解です。そのデータセンターに障害が発生すると、すべてのデータが利用できなくなり、可用性要件に違反します。</p><p>読み取りアクセス地理冗長ストレージ (RA-GRS) は、GRS よりもさらに高価であり、停止中にセカンダリ リージョンへの読み取りアクセスが必要なシナリオを対象としているため、不正確です。単一のデータセンター障害のみからの保護が必要な場合は不要です。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy\">https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview</a></p></li></ul>",
+      "explanationText": "ゾーン冗長ストレージ (ZRS) は、西ヨーロッパなどの単一の Azure リージョン内の 3 つの可用性ゾーン間でデータを同期的にレプリケートするため正解です。これにより、単一のデータセンター (または可用性ゾーン) に障害が発生した場合でもストレージが利用可能な状態が維持され、高可用性の要件が満たされます。\n地理冗長ストレージ (GRS) は誤りです。データをセカンダリに非同期にレプリケートすることで地理的冗長性を提供しますが、地域の場合、費用が高くなります。\nローカル冗長ストレージ (LRS) は単一のデータセンター内でのみデータをレプリケートするため不正解です。そのデータセンターに障害が発生すると、すべてのデータが利用できなくなり、可用性要件に違反します。\n読み取りアクセス地理冗長ストレージ (RA-GRS) は、GRS よりもさらに高価であり、停止中にセカンダリ リージョンへの読み取りアクセスが必要なシナリオを対象としているため、不正確です。単一のデータセンター障害のみからの保護が必要な場合は不要です。\n参照:\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy\n\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-linked-007",
+      "tags": [
+        "linked-question"
+      ]
+    }
+  ]
+}

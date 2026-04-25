@@ -1,0 +1,276 @@
+{
+  "setId": "en5-set-006",
+  "title": "英語問題集5 翻訳版 51-57",
+  "sourceHtml": "assets/英語問題集5.html",
+  "questionIds": [
+    "en5-q-051",
+    "en5-q-052",
+    "en5-q-053",
+    "en5-q-054",
+    "en5-q-055",
+    "en5-q-056",
+    "en5-q-057"
+  ],
+  "questions": [
+    {
+      "questionId": "en5-q-051",
+      "sourceQuestionNumber": 51,
+      "promptHtml": "<p><strong>以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><em>https://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing</em></p><p><br></p><p>IronClad, Ltd. の WebApp1 の Azure への移行の一環として、計画されている機能をサポートするためにどの Azure コンポーネントをプロビジョニングする必要があるかを検討しています。アーキテクチャ。</p><p><br></p><p><strong>正誤:</strong></p><p><code>「Web サイトのコンテンツ ストレージ用に Azure Storage アカウントをプロビジョニングする必要があります。」</code> </p>",
+      "promptText": "以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing\n\nIronClad, Ltd. の WebApp1 の Azure への移行の一環として、計画されている機能をサポートするためにどの Azure コンポーネントをプロビジョニングする必要があるかを検討しています。アーキテクチャ。\n\n正誤:\n「Web サイトのコンテンツ ストレージ用に Azure Storage アカウントをプロビジョニングする必要があります。」",
+      "choices": [
+        {
+          "choiceId": "en5-q-051-c1",
+          "label": null,
+          "text": "真",
+          "html": "<p>真</p>"
+        },
+        {
+          "choiceId": "en5-q-051-c2",
+          "label": null,
+          "text": "False",
+          "html": "<p>False</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-051-c2"
+      ],
+      "explanationHtml": "<p>False は正解です。WebApp は WebApp に移行され、コンテンツを保持するためにストレージ アカウントは必要ありません。</p><p>読み取り詳細:</p><ul><li><p><a href=\"https://docs.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-get-started。toc=/azure/app-service/toc.json\">https://docs.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-get-started。toc=/azure/app-service/toc.json</a></p></li></ul>",
+      "explanationText": "False は正解です。WebApp は WebApp に移行され、コンテンツを保持するためにストレージ アカウントは必要ありません。\n読み取り詳細:\n・https://docs.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-get-started。toc=/azure/app-service/toc.json",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-052",
+      "sourceQuestionNumber": 52,
+      "promptHtml": "<p><strong>以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><em>https://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing</em></p><p><br></p><p>IronClad, Ltd. の <strong>WebApp1</strong> の Azure への移行の一環として、2 つにデプロイされた<strong>Azure App Service インスタンスとして実行されるように<strong>Web 層</strong>を設計します。別々の Azure リージョン</strong> (北ヨーロッパと西ヨーロッパ)。</p><p>Web アプリケーションへのトラフィックは、<strong>Azure Traffic Manager</strong> を使用して分散され、ユーザーは利用可能な地域エンドポイントに誘導されます。</p><p><br></p><p><strong>正誤:</strong></p><p><code>「提案された Web 層設計は、IronClad の冗長性とリージョン復元力を満たしています。 \"</code> </p>",
+      "promptText": "以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing\n\nIronClad, Ltd. の WebApp1 の Azure への移行の一環として、2 つにデプロイされたAzure App Service インスタンスとして実行されるようにWeb 層を設計します。別々の Azure リージョン (北ヨーロッパと西ヨーロッパ)。\nWeb アプリケーションへのトラフィックは、Azure Traffic Manager を使用して分散され、ユーザーは利用可能な地域エンドポイントに誘導されます。\n\n正誤:\n「提案された Web 層設計は、IronClad の冗長性とリージョン復元力を満たしています。 \"",
+      "choices": [
+        {
+          "choiceId": "en5-q-052-c1",
+          "label": null,
+          "text": "True",
+          "html": "<p>True</p>"
+        },
+        {
+          "choiceId": "en5-q-052-c2",
+          "label": null,
+          "text": "False",
+          "html": "<p>False</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-052-c1"
+      ],
+      "explanationHtml": "<p>True が正解です。図では、Web アプリはペアになったリージョンにデプロイされているため、リージョン レベルの障害を回避するのに十分な冗長性が確保されています。</p><p>参考:</p><ul><li><p><a href=\"https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\">https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview</a></p></li><li><p><a href=\"https://blogs.msdn.microsoft.com/hsirtl/2017/07/03/autoscaling-azure-web-apps/\">https://blogs.msdn.microsoft.com/hsirtl/2017/07/03/autoscaling-azure-web-apps/</a></p></li></ul>",
+      "explanationText": "正解はTrue です。図では、Web アプリはペアになったリージョンにデプロイされているため、リージョン レベルの障害を回避するのに十分な冗長性が確保されています。\n参考:\n・https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\n\n・https://blogs.msdn.microsoft.com/hsirtl/2017/07/03/autoscaling-azure-web-apps/",
+      "images": [],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-053",
+      "sourceQuestionNumber": 53,
+      "promptHtml": "<p><strong>以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><em>https://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing</em></p><p><br></p><p>IronClad, Ltd. の <strong>WebApp1</strong> の Azure への移行の一環として、2 つにデプロイされた<strong>Azure App Service インスタンスとして実行されるように<strong>Web 層</strong>を設計します。別々の Azure リージョン</strong> (北ヨーロッパと西ヨーロッパ)。</p><p>Web アプリケーションへのトラフィックは、<strong>Azure Traffic Manager</strong> を使用して分散され、ユーザーは利用可能な地域エンドポイントに誘導されます。</p><p><br></p><p><strong>正誤:</strong></p><p><code>「提案された設計は自動スケーリングをサポートしています。」</code> </p>",
+      "promptText": "以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing\n\nIronClad, Ltd. の WebApp1 の Azure への移行の一環として、2 つにデプロイされたAzure App Service インスタンスとして実行されるようにWeb 層を設計します。別々の Azure リージョン (北ヨーロッパと西ヨーロッパ)。\nWeb アプリケーションへのトラフィックは、Azure Traffic Manager を使用して分散され、ユーザーは利用可能な地域エンドポイントに誘導されます。\n\n正誤:\n「提案された設計は自動スケーリングをサポートしています。」",
+      "choices": [
+        {
+          "choiceId": "en5-q-053-c1",
+          "label": null,
+          "text": "True",
+          "html": "<p>True</p>"
+        },
+        {
+          "choiceId": "en5-q-053-c2",
+          "label": null,
+          "text": "False",
+          "html": "<p>False</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-053-c1"
+      ],
+      "explanationHtml": "<p>True は、webApps が自動スケーリングをサポートしており、次の環境で利用できるため正解です。すべての層が含まれるため、設計で自動スケーリングが自動的に有効になります。</p><p>参考:</p><ul><li><p><a href=\"https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\">https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview</a></p></li><li><p><a href=\"https://blogs.msdn.microsoft.com/hsirtl/2017/07/03/autoscaling-azure-web-apps/\">https://blogs.msdn.microsoft.com/hsirtl/2017/07/03/autoscaling-azure-web-apps/</a></p></li></ul>",
+      "explanationText": "True は、webApps が自動スケーリングをサポートしており、次の環境で利用できるため正解です。すべての層が含まれるため、設計で自動スケーリングが自動的に有効になります。\n参考:\n・https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\n\n・https://blogs.msdn.microsoft.com/hsirtl/2017/07/03/autoscaling-azure-web-apps/",
+      "images": [],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-054",
+      "sourceQuestionNumber": 54,
+      "promptHtml": "<p><strong>以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><em>https://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing</em></p><p><br></p><p>IronClad, Ltd. の <strong>WebApp1</strong> の Azure への移行の一環として、2 つにデプロイされた<strong>Azure App Service インスタンスとして実行されるように<strong>Web 層</strong>を設計します。別々の Azure リージョン</strong> (北ヨーロッパと西ヨーロッパ)。</p><p>Web アプリケーションへのトラフィックは、<strong>Azure Traffic Manager</strong> を使用して分散され、ユーザーは利用可能なリージョン エンドポイントに誘導されます。</p><p><br></p><p><strong>正誤:</strong></p><p><code>「提案された設計では、Azure リージョンに障害が発生した場合に手動構成が必要です。」</code> </p>",
+      "promptText": "以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing\n\nIronClad, Ltd. の WebApp1 の Azure への移行の一環として、2 つにデプロイされたAzure App Service インスタンスとして実行されるようにWeb 層を設計します。別々の Azure リージョン (北ヨーロッパと西ヨーロッパ)。\nWeb アプリケーションへのトラフィックは、Azure Traffic Manager を使用して分散され、ユーザーは利用可能なリージョン エンドポイントに誘導されます。\n\n正誤:\n「提案された設計では、Azure リージョンに障害が発生した場合に手動構成が必要です。」",
+      "choices": [
+        {
+          "choiceId": "en5-q-054-c1",
+          "label": null,
+          "text": "True",
+          "html": "<p>True</p>"
+        },
+        {
+          "choiceId": "en5-q-054-c2",
+          "label": null,
+          "text": "False",
+          "html": "<p>False</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-054-c2"
+      ],
+      "explanationHtml": "<p>False は、トラフィック マネージャーがトラフィックをルーティングするのに十分な機能を備えているため正解です。リージョンに障害が発生した場合に、利用可能なリージョンが自動的に確保されるため、アプリケーションを再度起動するために手動で作業する必要はありません。</p><p>参考:</p><ul><li><p><a href=\"https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\">https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview</a></p></li><li><p><a href=\"https://blogs.msdn.microsoft.com/hsirtl/2017/07/03/autoscaling-azure-web-apps/\">https://blogs.msdn.microsoft.com/hsirtl/2017/07/03/autoscaling-azure-web-apps/</a></p></li></ul>",
+      "explanationText": "False は、トラフィック マネージャーがトラフィックをルーティングするのに十分な機能を備えているため正解です。リージョンに障害が発生した場合に、利用可能なリージョンが自動的に確保されるため、アプリケーションを再度起動するために手動で作業する必要はありません。\n参考:\n・https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\n\n・https://blogs.msdn.microsoft.com/hsirtl/2017/07/03/autoscaling-azure-web-apps/",
+      "images": [],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-055",
+      "sourceQuestionNumber": 55,
+      "promptHtml": "<p><strong>以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><em>https://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing</em></p><p><br></p><p><strong>IronClad, Ltd.</strong> の Azure 移行の一環として、ケース スタディで定義されている<strong>認証と ID の要件</strong>を確認しています。これらの要件には、運用の複雑さを最小限に抑え、不必要な ID の拡散を回避しながら、ユーザー、アプリケーション、サービスをサポートすることが含まれます。</p><p>IronClad について説明した認証モデルと計画されている Azure アーキテクチャに基づいて、認証要件を満たすために実装する必要がある<strong>Microsoft Entra テナントの最小数</strong>を決定します。</p><p>必要な Microsoft Entra テナントの最小数はどれくらいですか。</p>",
+      "promptText": "以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing\n\nIronClad, Ltd. の Azure 移行の一環として、ケース スタディで定義されている認証と ID の要件を確認しています。これらの要件には、運用の複雑さを最小限に抑え、不必要な ID の拡散を回避しながら、ユーザー、アプリケーション、サービスをサポートすることが含まれます。\nIronClad について説明した認証モデルと計画されている Azure アーキテクチャに基づいて、認証要件を満たすために実装する必要があるMicrosoft Entra テナントの最小数を決定します。\n必要な Microsoft Entra テナントの最小数はどれくらいですか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-055-c1",
+          "label": null,
+          "text": "0",
+          "html": "0"
+        },
+        {
+          "choiceId": "en5-q-055-c2",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "en5-q-055-c3",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "en5-q-055-c4",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-055-c2"
+      ],
+      "explanationHtml": "<p>1 が正解です。次のすべての要件に従っています。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/architecture/sync-directory\">https://learn.microsoft.com/en-us/entra/architecture/sync-directory</a></p></li></ul>",
+      "explanationText": "正解は1 です。次のすべての要件に従っています。\n参考:\n・https://learn.microsoft.com/en-us/entra/architecture/sync-directory",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-056",
+      "sourceQuestionNumber": 56,
+      "promptHtml": "<p><strong>以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><em>https://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing</em></p><p><br></p><p><strong>IronClad, Ltd.</strong> の Azure 移行の一環として、ケース スタディで定義されている<strong>認証と ID の要件</strong>を確認しています。これらの要件には、運用の複雑さを最小限に抑え、不必要な ID の拡散を回避しながら、ユーザー、アプリケーション、サービスをサポートすることが含まれます。</p><p>IronClad について説明した認証モデルと計画されている Azure アーキテクチャに基づいて、認証要件を満たすために必要な<strong>条件付きアクセス ポリシーの最小数</strong>を決定します。</p><p>必要な条件付きアクセス ポリシーの最小数はどれくらいですか。</p>",
+      "promptText": "以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing\n\nIronClad, Ltd. の Azure 移行の一環として、ケース スタディで定義されている認証と ID の要件を確認しています。これらの要件には、運用の複雑さを最小限に抑え、不必要な ID の拡散を回避しながら、ユーザー、アプリケーション、サービスをサポートすることが含まれます。\nIronClad について説明した認証モデルと計画されている Azure アーキテクチャに基づいて、認証要件を満たすために必要な条件付きアクセス ポリシーの最小数を決定します。\n必要な条件付きアクセス ポリシーの最小数はどれくらいですか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-056-c1",
+          "label": null,
+          "text": "0",
+          "html": "0"
+        },
+        {
+          "choiceId": "en5-q-056-c2",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "en5-q-056-c3",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "en5-q-056-c4",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-056-c2"
+      ],
+      "explanationHtml": "<p>1 は条件付きアクセスが 1 つ必要なので正解です。すべての管理者が MFA を使用して Azure portal への認証を行うようにするためのポリシーです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-old-require-mfa-azure-mgmt\">https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-old-require-mfa-azure-mgmt</a></p></li></ul>",
+      "explanationText": "1 は条件付きアクセスが 1 つ必要なので正解です。すべての管理者が MFA を使用して Azure portal への認証を行うようにするためのポリシーです。\n参考:\n・https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-old-require-mfa-azure-mgmt",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-057",
+      "sourceQuestionNumber": 57,
+      "promptHtml": "<p><strong>以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><em>https://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing</em></p><p><br></p><p>IronClad, Ltd.の Azure 移行の一環として、<strong>運用通知とアラート</strong>を<strong>IT サポート配布グループ</strong>に配信する方法を定義しています。</p><p>ベースIronClad の要件。IT サポート通知ソリューションの推奨事項には何を含めるべきですか。</p>",
+      "promptText": "以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing\n\nIronClad, Ltd.の Azure 移行の一環として、運用通知とアラートをIT サポート配布グループに配信する方法を定義しています。\nベースIronClad の要件。IT サポート通知ソリューションの推奨事項には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-057-c1",
+          "label": null,
+          "text": "高度なレポート機能を備えた SendGrid アカウント",
+          "html": "高度なレポート機能を備えた SendGrid アカウント"
+        },
+        {
+          "choiceId": "en5-q-057-c2",
+          "label": null,
+          "text": "アクション グループ",
+          "html": "アクション グループ"
+        },
+        {
+          "choiceId": "en5-q-057-c3",
+          "label": null,
+          "text": "Azure Network Watcher",
+          "html": "Azure Network Watcher"
+        },
+        {
+          "choiceId": "en5-q-057-c4",
+          "label": null,
+          "text": "Microsoft Entra Connect Health",
+          "html": "<p>Microsoft Entra Connect Health</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-057-c4"
+      ],
+      "explanationHtml": "<p>Microsoft Entra Connect Health は、サービスがオンプレミスと Microsoft Entra の間で行われている同期の正常性を監視する責任があるため、正しいです。同期に障害が発生した場合、Microsoft Entra Connect Health サービスは各チーム (この場合は IT サポート) に電子メールで通知できます。</p><p>高度なレポート機能を備えた SendGrid アカウント は、SendGrid アカウントが電子メールの送信に役立つため不正確ですが、進行中の同期を監視するには何らかのサービスが必要になります。したがって、このオプションは選択できません。</p><p>Azure Network watcher は、ネットワーク間のネットワーク トラフィックを監視することしかできず、ローカル Active Directory と Microsoft Entra 間のディレクトリ同期の監視には役立ちません。</p><p>アクション グループ は誤りです。Azure モニター アラートでアクション グループを使用します。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-health-operations\">https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-health-operations</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview\">https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups\">https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups</a></p></li></ul>",
+      "explanationText": "Microsoft Entra Connect Health は、サービスがオンプレミスと Microsoft Entra の間で行われている同期の正常性を監視する責任があるため、正しいです。同期に障害が発生した場合、Microsoft Entra Connect Health サービスは各チーム (この場合は IT サポート) に電子メールで通知できます。\n高度なレポート機能を備えた SendGrid アカウント は、SendGrid アカウントが電子メールの送信に役立つため不正確ですが、進行中の同期を監視するには何らかのサービスが必要になります。したがって、このオプションは選択できません。\nAzure Network watcher は、ネットワーク間のネットワーク トラフィックを監視することしかできず、ローカル Active Directory と Microsoft Entra 間のディレクトリ同期の監視には役立ちません。\nアクション グループ は誤りです。Azure モニター アラートでアクション グループを使用します。\n参考:\n・https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-health-operations\n\n・https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-002",
+      "tags": [
+        "case-study"
+      ]
+    }
+  ]
+}

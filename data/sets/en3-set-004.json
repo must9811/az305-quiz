@@ -1,0 +1,389 @@
+{
+  "setId": "en3-set-004",
+  "title": "英語問題集3 翻訳版 31-40",
+  "sourceHtml": "assets/英語問題集3.html",
+  "questionIds": [
+    "en3-q-031",
+    "en3-q-032",
+    "en3-q-033",
+    "en3-q-034",
+    "en3-q-035",
+    "en3-q-036",
+    "en3-q-037",
+    "en3-q-038",
+    "en3-q-039",
+    "en3-q-040"
+  ],
+  "questions": [
+    {
+      "questionId": "en3-q-031",
+      "sourceQuestionNumber": 31,
+      "promptHtml": "<p><strong>注:</strong> この質問は、同じ全体的なシナリオを使用するシリーズの一部です。このシリーズの各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。</p><p><br></p><p>あなたの組織では、<strong>オンプレミス</strong>と<strong>Azure</strong>の両方で複数の<strong>仮想マシン (VM)</strong>を実行しています。 <strong>Azure ExpressRoute</strong> は、オンプレミス環境と Azure 間の接続を提供するように構成されています。</p><p>いくつかの仮想マシンで<strong>ネットワーク接続の問題</strong>が発生しています。</p><p>VM へのパケットが許可されているか拒否されているかを判断するには、<strong>ネットワーク トラフィックを検査</strong>する必要があります。</p><p><strong>提案された解決策: </strong>Azure Monitoring Agent とすべての仮想マシン上の依存関係エージェント。 Azure Monitor の VM の分析情報を使用して、ネットワーク トラフィックを分析します。</p><p>ソリューションは目標を達成していますか。</p>",
+      "promptText": "注: この質問は、同じ全体的なシナリオを使用するシリーズの一部です。このシリーズの各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。\n\nあなたの組織では、オンプレミスとAzureの両方で複数の仮想マシン (VM)を実行しています。 Azure ExpressRoute は、オンプレミス環境と Azure 間の接続を提供するように構成されています。\nいくつかの仮想マシンでネットワーク接続の問題が発生しています。\nVM へのパケットが許可されているか拒否されているかを判断するには、ネットワーク トラフィックを検査する必要があります。\n提案された解決策: Azure Monitoring Agent とすべての仮想マシン上の依存関係エージェント。 Azure Monitor の VM の分析情報を使用して、ネットワーク トラフィックを分析します。\nソリューションは目標を達成していますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-031-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "en3-q-031-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-031-c2"
+      ],
+      "explanationHtml": "<p>いいえ は VM であるため正しいです。Azure Monitor の分析情報は、Azure Monitoring Agent と依存関係エージェントを通じて有効になり、プロセス レベルとアプリケーション レベルで依存関係マップと接続データを提供します。</p><p>パケットが明示的に許可されているか拒否されているかを分析するには、Azure Network Watcher、特に IP フロー検証機能を使用する必要があります。このツールは、特定の VM に対する有効な NSG ルールをチェックし、特定のポートとプロトコルのトラフィックが許可されているかブロックされているかを示します。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview\">https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-overview\">https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview\">https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-dependency-agent\">https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-dependency-agent</a></p></li></ul>",
+      "explanationText": "いいえ は VM であるため正しいです。Azure Monitor の分析情報は、Azure Monitoring Agent と依存関係エージェントを通じて有効になり、プロセス レベルとアプリケーション レベルで依存関係マップと接続データを提供します。\nパケットが明示的に許可されているか拒否されているかを分析するには、Azure Network Watcher、特に IP フロー検証機能を使用する必要があります。このツールは、特定の VM に対する有効な NSG ルールをチェックし、特定のポートとプロトコルのトラフィックが許可されているかブロックされているかを示します。\n参照:\n・https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-overview\n\n・https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-dependency-agent",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "en3-linked-008",
+      "tags": [
+        "boolean",
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-032",
+      "sourceQuestionNumber": 32,
+      "promptHtml": "<p><strong>注:</strong> この質問は、同じ全体的なシナリオを使用するシリーズの一部です。このシリーズの各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。</p><p><br></p><p>あなたの組織では、<strong>オンプレミス</strong>と<strong>Azure</strong>の両方で複数の<strong>仮想マシン (VM)</strong>を実行しています。 <strong>Azure ExpressRoute</strong> は、オンプレミス環境と Azure 間の接続を提供するように構成されています。</p><p>いくつかの仮想マシンで<strong>ネットワーク接続の問題</strong>が発生しています。</p><p>VM へのパケットが許可されているか拒否されているかを判断するには、<strong>ネットワーク トラフィックを検査</strong>する必要があります。</p><p><strong>提案された解決策: </strong>Azure Log の Azure Traffic Analytics ソリューションを使用します。ネットワーク トラフィックを分析する分析。</p><p>ソリューションは目標を達成していますか。</p>",
+      "promptText": "注: この質問は、同じ全体的なシナリオを使用するシリーズの一部です。このシリーズの各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。\n\nあなたの組織では、オンプレミスとAzureの両方で複数の仮想マシン (VM)を実行しています。 Azure ExpressRoute は、オンプレミス環境と Azure 間の接続を提供するように構成されています。\nいくつかの仮想マシンでネットワーク接続の問題が発生しています。\nVM へのパケットが許可されているか拒否されているかを判断するには、ネットワーク トラフィックを検査する必要があります。\n提案された解決策: Azure Log の Azure Traffic Analytics ソリューションを使用します。ネットワーク トラフィックを分析する分析。\nソリューションは目標を達成していますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-032-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "en3-q-032-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-032-c2"
+      ],
+      "explanationHtml": "<p>いいえは、Azure Traffic Analytics であるため正解です。NSG フロー ログの集約と視覚化には役立ちますが、リアルタイムのパケット レベルの診断や、個々のパケットが許可されているか拒否されているかを明示的に示すようには設計されていません。</p><p>パケットが許可されているか拒否されているかを正確に判断するには、Azure Network Watcher の IP Flow Verify が適切なツールです。これは、送信元/宛先 IP、ポート、プロトコルに対してリアルタイムで NSG ルールを評価し、明示的な許可または拒否を示します。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview\">https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview</a></p></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/network-watcher/traffic-analytics\">https://learn.microsoft.com/en-us/azure/network-watcher/traffic-analytics</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview\">https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-overview\">https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-overview</a></p></li></ul>",
+      "explanationText": "いいえは、Azure Traffic Analytics であるため正解です。NSG フロー ログの集約と視覚化には役立ちますが、リアルタイムのパケット レベルの診断や、個々のパケットが許可されているか拒否されているかを明示的に示すようには設計されていません。\nパケットが許可されているか拒否されているかを正確に判断するには、Azure Network Watcher の IP Flow Verify が適切なツールです。これは、送信元/宛先 IP、ポート、プロトコルに対してリアルタイムで NSG ルールを評価し、明示的な許可または拒否を示します。\n参照:\n・https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview\n\n・https://learn.microsoft.com/en-us/azure/network-watcher/traffic-analytics\n\n・https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview\n\n・https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "en3-linked-008",
+      "tags": [
+        "boolean",
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-033",
+      "sourceQuestionNumber": 33,
+      "promptHtml": "<p><strong>注:</strong> この質問は、同じ全体的なシナリオを使用するシリーズの一部です。このシリーズの各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。</p><p><br></p><p>あなたの組織では、<strong>オンプレミス</strong>と<strong>Azure</strong>の両方で複数の<strong>仮想マシン (VM)</strong>を実行しています。 <strong>Azure ExpressRoute</strong> は、オンプレミス環境と Azure 間の接続を提供するように構成されています。</p><p>いくつかの仮想マシンで<strong>ネットワーク接続の問題</strong>が発生しています。</p><p>VM へのパケットが許可されているか拒否されているかを判断するには、<strong>ネットワーク トラフィックを検査</strong>する必要があります。</p><p><strong>提案された解決策: </strong>Azure Network Watcher で Azure Traffic Analytics を使用します。 </p><p>ソリューションは目標を達成していますか。</p>",
+      "promptText": "注: この質問は、同じ全体的なシナリオを使用するシリーズの一部です。このシリーズの各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。\n\nあなたの組織では、オンプレミスとAzureの両方で複数の仮想マシン (VM)を実行しています。 Azure ExpressRoute は、オンプレミス環境と Azure 間の接続を提供するように構成されています。\nいくつかの仮想マシンでネットワーク接続の問題が発生しています。\nVM へのパケットが許可されているか拒否されているかを判断するには、ネットワーク トラフィックを検査する必要があります。\n提案された解決策: Azure Network Watcher で Azure Traffic Analytics を使用します。\nソリューションは目標を達成していますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-033-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "en3-q-033-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-033-c2"
+      ],
+      "explanationHtml": "<p>いいえは、Azure Traffic Analytics にアクセスしている場合でも正しいためです。Azure Network Watcher を通じて、トラフィック量、トップ トーカー、プロトコルの使用状況、NSG フロー ログに基づくセキュリティ アラートなど、集約されたフロー レベルの洞察を提供します。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview\">https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/network-watcher/traffic-analytics\">https://learn.microsoft.com/en-us/azure/network-watcher/traffic-analytics</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview\">https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-overview\">https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-overview</a></p></li></ul>",
+      "explanationText": "いいえは、Azure Traffic Analytics にアクセスしている場合でも正しいためです。Azure Network Watcher を通じて、トラフィック量、トップ トーカー、プロトコルの使用状況、NSG フロー ログに基づくセキュリティ アラートなど、集約されたフロー レベルの洞察を提供します。\n参照:\n・https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview\n\n・https://learn.microsoft.com/en-us/azure/network-watcher/traffic-analytics\n\n・https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview\n\n・https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "en3-linked-008",
+      "tags": [
+        "boolean",
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-034",
+      "sourceQuestionNumber": 34,
+      "promptHtml": "<p><strong>注:</strong> この質問は、同じ全体的なシナリオを使用するシリーズの一部です。このシリーズの各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。</p><p><br></p><p>あなたの組織では、<strong>オンプレミス</strong>と<strong>Azure</strong>の両方で複数の<strong>仮想マシン (VM)</strong>を実行しています。 <strong>Azure ExpressRoute</strong> は、オンプレミス環境と Azure 間の接続を提供するように構成されています。</p><p>いくつかの仮想マシンで<strong>ネットワーク接続の問題</strong>が発生しています。</p><p>VM へのパケットが許可されているか拒否されているかを判断するには、<strong>ネットワーク トラフィックを検査</strong>する必要があります。</p><p><strong>提案された解決策: </strong>Microsoft Entra IDvisor を使用してネットワークを分析する</p><p>ソリューションは目標を満たしていますか。</p>",
+      "promptText": "注: この質問は、同じ全体的なシナリオを使用するシリーズの一部です。このシリーズの各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。\n\nあなたの組織では、オンプレミスとAzureの両方で複数の仮想マシン (VM)を実行しています。 Azure ExpressRoute は、オンプレミス環境と Azure 間の接続を提供するように構成されています。\nいくつかの仮想マシンでネットワーク接続の問題が発生しています。\nVM へのパケットが許可されているか拒否されているかを判断するには、ネットワーク トラフィックを検査する必要があります。\n提案された解決策: Microsoft Entra IDvisor を使用してネットワークを分析する\nソリューションは目標を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-034-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "en3-q-034-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-034-c2"
+      ],
+      "explanationHtml": "<p>いいえは正解です。これは、Microsoft Entra IDvisor が高可用性を向上させるための一般的なベスト プラクティスと推奨事項を提供しているためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/advisor/advisor-overview\">https://learn.microsoft.com/en-us/azure/advisor/advisor-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview\">https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview\">https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview</a></p></li></ul>",
+      "explanationText": "いいえは正解です。これは、Microsoft Entra IDvisor が高可用性を向上させるための一般的なベスト プラクティスと推奨事項を提供しているためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/advisor/advisor-overview\n\n・https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview\n\n・https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "en3-linked-008",
+      "tags": [
+        "boolean",
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-035",
+      "sourceQuestionNumber": 35,
+      "promptHtml": "<p>次の<strong>Azure リソース</strong>がデプロイされています:</p>\n<img src=\"assets/英語問題集3_files/2026-02-11_12-51-53-141f646146ab6df45630d158bde33b78.png\" alt=\"\"loading=\"eager\"><p><strong>すべてに適用される<strong>必須ルール</strong>を定義する<strong>新しい Azure Firewall ポリシー</strong>をデプロイする必要があります。 Azure Firewall デプロイ</strong>。</p><p>新しいポリシーは、既存のファイアウォール ポリシーの<strong>親ポリシー</strong>として構成されます。</p><p>作成する必要がある追加の Azure Firewall ポリシーの<strong>最小数</strong>は何ですか。</p>",
+      "promptText": "次のAzure リソースがデプロイされています:\n\nすべてに適用される必須ルールを定義する新しい Azure Firewall ポリシーをデプロイする必要があります。 Azure Firewall デプロイ。\n新しいポリシーは、既存のファイアウォール ポリシーの親ポリシーとして構成されます。\n作成する必要がある追加の Azure Firewall ポリシーの最小数は何ですか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-035-c1",
+          "label": null,
+          "text": "0",
+          "html": "0"
+        },
+        {
+          "choiceId": "en3-q-035-c2",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "en3-q-035-c3",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "en3-q-035-c4",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-035-c4"
+      ],
+      "explanationHtml": "<p>3 は正解です。Azure Firewall ポリシーは論理的にグローバルですが、親子ポリシーの継承を使用する場合、Microsoft は親ポリシーがリンクされる子ポリシーと同じリージョンに存在する必要があるからです。</p><ul><li><p>US-Central-Firewall-policy は 米国中部</p></li><li><p>US-East-Firewall-policy は米国東部</p></li><li><p>EU-Firewall-policy は西部にありますヨーロッパ</p></li></ul><p>既存の各地域ポリシーの親子関係を構成するには、地域ごとに 1 つの親ポリシーを作成する必要があります。その結果、米国中部、米国東部、西ヨーロッパに 1 つずつ、合計 3 つの追加ポリシーが作成されます。</p><p>これにより、各子ポリシーが同じリージョンにある親ポリシーから必須ルールを継承し、Azure のポリシー スコープに準拠できるようになります。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/firewall/policy-rule-sets\">https://learn.microsoft.com/en-us/azure/firewall/policy-rule-sets</a></p></li></ul>",
+      "explanationText": "3 は正解です。Azure Firewall ポリシーは論理的にグローバルですが、親子ポリシーの継承を使用する場合、Microsoft は親ポリシーがリンクされる子ポリシーと同じリージョンに存在する必要があるからです。\n・US-Central-Firewall-policy は 米国中部\n\n・US-East-Firewall-policy は米国東部\n\n・EU-Firewall-policy は西部にありますヨーロッパ\n\n既存の各地域ポリシーの親子関係を構成するには、地域ごとに 1 つの親ポリシーを作成する必要があります。その結果、米国中部、米国東部、西ヨーロッパに 1 つずつ、合計 3 つの追加ポリシーが作成されます。\nこれにより、各子ポリシーが同じリージョンにある親ポリシーから必須ルールを継承し、Azure のポリシー スコープに準拠できるようになります。\n参照:\n・https://learn.microsoft.com/en-us/azure/firewall/policy-rule-sets",
+      "images": [
+        "assets/英語問題集3_files/2026-02-11_12-51-53-141f646146ab6df45630d158bde33b78.png"
+      ],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en3-q-036",
+      "sourceQuestionNumber": 36,
+      "promptHtml": "<p>次の Azure リソースがあります:</p><ul><li><p><strong>AS1</strong>: <strong>Azure Synapse Analytics</strong> インスタンス</p></li><li><p><strong>CDB1</strong>: <strong>Azure Cosmos DB SQL API</strong> アカウント</p></li></ul><p>CDB1 には<strong>継続的に更新される運用データ</strong>を保持するコンテナが含まれています。</p><p>あなたは<strong>AS1</strong> を<strong>毎日の運用データの分析</strong>に使用するソリューションを設計しています。</p><p> CDB1 の運用データ ストアの<strong>パフォーマンスに影響を与えることなく</strong>分析を実行できるソリューション。</p><p>推奨事項には何を含めるべきですか。</p>",
+      "promptText": "次の Azure リソースがあります:\n・AS1: Azure Synapse Analytics インスタンス\n\n・CDB1: Azure Cosmos DB SQL API アカウント\n\nCDB1 には継続的に更新される運用データを保持するコンテナが含まれています。\nあなたはAS1 を毎日の運用データの分析に使用するソリューションを設計しています。\n CDB1 の運用データ ストアのパフォーマンスに影響を与えることなく分析を実行できるソリューション。\n推奨事項には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-036-c1",
+          "label": null,
+          "text": "Azure Cosmos DB 変更フィード",
+          "html": "Azure Cosmos DB 変更フィード"
+        },
+        {
+          "choiceId": "en3-q-036-c2",
+          "label": null,
+          "text": "Azure Cosmos DB および Azure Synapse Analytics を使用した Azure Data Factoryコネクタ",
+          "html": "Azure Cosmos DB および Azure Synapse Analytics を使用した Azure Data Factoryコネクタ"
+        },
+        {
+          "choiceId": "en3-q-036-c3",
+          "label": null,
+          "text": "PolyBase データの読み込みを使用した Azure Synapse Analytics",
+          "html": "PolyBase データの読み込みを使用した Azure Synapse Analytics"
+        },
+        {
+          "choiceId": "en3-q-036-c4",
+          "label": null,
+          "text": "Azure Cosmos DB の Azure Synapse Link",
+          "html": "Azure Cosmos DB の Azure Synapse Link"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-036-c4"
+      ],
+      "explanationHtml": "<p>Azure Cosmos DB の Azure Synapse Link は、これにより、トランザクション (運用) ワークロードのパフォーマンスに影響を与えることなく、Azure Cosmos DB に保存されている運用データに対するほぼリアルタイムの分析が可能になるため、正解です。Synapse Link は、Cosmos DB と Azure Synapse Analytics の間に直接のハイブリッド トランザクション分析処理 (HTAP) 接続を作成し、抽出、変換、読み込み (ETL) を必要とせずにデータをインプレースで分析できるようにします。</p><p>Azure Cosmos DB 変更フィード は、データの変更をキャプチャしながらも追加の処理 (例: Azure Functions 経由) を必要とするため、不正確です。または Azure Stream Analytics) を使用してデータを移動し、分析します。</p><p>Azure Cosmos DB および Azure Synapse Analytics コネクタを使用した Azure Data Factory は誤りです。これにより、ETL オーバーヘッドが発生し、運用ストアのパフォーマンスに影響を与える可能性があり、ライブ データに影響を与えないという要件に違反します。</p><p>PolyBase データ読み込みを使用した Azure Synapse Analytics は誤りです。これは、PolyBase は通常、Azure Data Lake や Blob Storage などの外部ソースからデータを読み込むために使用されるためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/synapse-link\">https://learn.microsoft.com/en-us/azure/cosmos-db/synapse-link</a></p></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/change-feed\">https://learn.microsoft.com/en-us/azure/cosmos-db/change-feed</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/load-data-overview\">https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/load-data-overview</a></p></li></ul>",
+      "explanationText": "Azure Cosmos DB の Azure Synapse Link は、これにより、トランザクション (運用) ワークロードのパフォーマンスに影響を与えることなく、Azure Cosmos DB に保存されている運用データに対するほぼリアルタイムの分析が可能になるため、正解です。Synapse Link は、Cosmos DB と Azure Synapse Analytics の間に直接のハイブリッド トランザクション分析処理 (HTAP) 接続を作成し、抽出、変換、読み込み (ETL) を必要とせずにデータをインプレースで分析できるようにします。\nAzure Cosmos DB 変更フィード は、データの変更をキャプチャしながらも追加の処理 (例: Azure Functions 経由) を必要とするため、不正確です。または Azure Stream Analytics) を使用してデータを移動し、分析します。\nAzure Cosmos DB および Azure Synapse Analytics コネクタを使用した Azure Data Factory は誤りです。これにより、ETL オーバーヘッドが発生し、運用ストアのパフォーマンスに影響を与える可能性があり、ライブ データに影響を与えないという要件に違反します。\nPolyBase データ読み込みを使用した Azure Synapse Analytics は誤りです。これは、PolyBase は通常、Azure Data Lake や Blob Storage などの外部ソースからデータを読み込むために使用されるためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/cosmos-db/synapse-link\n\n・https://learn.microsoft.com/en-us/azure/cosmos-db/change-feed\n\n・https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/load-data-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en3-q-037",
+      "sourceQuestionNumber": 37,
+      "promptHtml": "<p><strong>注: この質問は、同じ全体的なシナリオを使用するシリーズの一部です。このシリーズの各質問は、指定された要件を満たす場合と満たさない場合がある、異なるソリューションを提案します。</strong></p><p><br></p><p>あなたの組織は、<strong>Azure SQL データベース</strong>に接続する複数の<strong>Azure App Service</strong> インスタンスを展開することを計画しています。 App Service インスタンスと対応する Azure [[KEEP_5 データベースは<strong>同時に</strong>プロビジョニングされます。</p><p>規制要件により、次のことが義務付けられています。</p><ul><li><p>App Service インスタンスは<strong>特定の Azure リージョンにのみ</strong>デプロイできます。</p></li><li><p>App Service インスタンスに関連付けられたすべてのリソースは<strong>同じ Azure に配置する必要があります。 </p></li></ul><p>この規制上の制約を満たすソリューションを推奨する必要があります。</p><p><strong>提案されたソリューション:</strong> 場所に基づいてリソース グループを作成し、リソース グループにリソース ロックを実装することをお勧めします。</p><p>このソリューションは要件を満たしていますか。</p>",
+      "promptText": "注: この質問は、同じ全体的なシナリオを使用するシリーズの一部です。このシリーズの各質問は、指定された要件を満たす場合と満たさない場合がある、異なるソリューションを提案します。\n\nあなたの組織は、Azure SQL データベースに接続する複数のAzure App Service インスタンスを展開することを計画しています。 App Service インスタンスと対応する Azure [[KEEP_5 データベースは同時にプロビジョニングされます。\n規制要件により、次のことが義務付けられています。\n・App Service インスタンスは特定の Azure リージョンにのみデプロイできます。\n\n・App Service インスタンスに関連付けられたすべてのリソースは同じ Azure に配置する必要があります。\n\nこの規制上の制約を満たすソリューションを推奨する必要があります。\n提案されたソリューション: 場所に基づいてリソース グループを作成し、リソース グループにリソース ロックを実装することをお勧めします。\nこのソリューションは要件を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-037-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "en3-q-037-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-037-c2"
+      ],
+      "explanationHtml": "<p>いいえは正解です。場所に基づいてリソース グループを作成するとリソースを地理的に整理でき、リソース ロックによりそれらのグループの削除や変更を防ぐことができますが、どちらも新しい App Service インスタンスを特定の Azure リージョンにのみデプロイできるわけではありません。</p><p>特定のリージョンへのデプロイを制限する規制要件を満たすには、正しいソリューションには、Azure Policy を使用して、リソース デプロイが許可される場所を定義し、強制することが含まれます。 Azure Policy では、指定された承認済みリージョン外のリソース (App Services など) のデプロイを明示的に禁止できます。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/overview\">https://learn.microsoft.com/en-us/azure/governance/policy/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources\">https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources</a></p></li></ul>",
+      "explanationText": "いいえは正解です。場所に基づいてリソース グループを作成するとリソースを地理的に整理でき、リソース ロックによりそれらのグループの削除や変更を防ぐことができますが、どちらも新しい App Service インスタンスを特定の Azure リージョンにのみデプロイできるわけではありません。\n特定のリージョンへのデプロイを制限する規制要件を満たすには、正しいソリューションには、Azure Policy を使用して、リソース デプロイが許可される場所を定義し、強制することが含まれます。 Azure Policy では、指定された承認済みリージョン外のリソース (App Services など) のデプロイを明示的に禁止できます。\n参照:\n・https://learn.microsoft.com/en-us/azure/governance/policy/overview\n\n・https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": null,
+      "tags": [
+        "boolean"
+      ]
+    },
+    {
+      "questionId": "en3-q-038",
+      "sourceQuestionNumber": 38,
+      "promptHtml": "<p><strong>複数のストレージ アカウント</strong>を含む<strong>Azure サブスクリプション</strong>があり、それらのストレージ アカウントに<strong>Azure Policy 定義</strong>が割り当てられています。</p><p>次の要件を満たすソリューションを推奨する必要があります。</p><ul><li><p><strong>オンデマンドの Azure Policy コンプライアンスのトリガースキャン</strong>。</p></li><li><p><strong><strong>Log Analytics</strong> に保存されているデータをクエリすることで、非準拠リソースに対する Azure Monitor アラート</strong>を生成します。</p></li></ul><p>これらの要件を満たすには、<strong>Azure Policy 準拠スキャンのトリガー</strong>に何を使用する必要がありますか。</p>",
+      "promptText": "複数のストレージ アカウントを含むAzure サブスクリプションがあり、それらのストレージ アカウントにAzure Policy 定義が割り当てられています。\n次の要件を満たすソリューションを推奨する必要があります。\n・オンデマンドの Azure Policy コンプライアンスのトリガースキャン。\n\n・Log Analytics に保存されているデータをクエリすることで、非準拠リソースに対する Azure Monitor アラートを生成します。\n\nこれらの要件を満たすには、Azure Policy 準拠スキャンのトリガーに何を使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-038-c1",
+          "label": null,
+          "text": "Azureテンプレート",
+          "html": "<p>Azureテンプレート</p>"
+        },
+        {
+          "choiceId": "en3-q-038-c2",
+          "label": null,
+          "text": "Azure コマンド ライン インターフェイス (CLI)",
+          "html": "<p>Azure コマンド ライン インターフェイス (CLI)</p>"
+        },
+        {
+          "choiceId": "en3-q-038-c3",
+          "label": null,
+          "text": "Azure ポータル",
+          "html": "<p>Azure ポータル</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-038-c2"
+      ],
+      "explanationHtml": "<p>Azure コマンド ライン インターフェイス (CLI) が正解です。オンデマンドの Azure Policy コンプライアンス スキャンを開始するには、Azure CLI、Azure PowerShell、直接 REST API 呼び出しなどのさまざまなオプションを使用するか、Azure Policy Compliance Scan GitHub アクションを使用できます。</p><p>Azure テンプレート は誤りです。Azure テンプレートは、Azure リソースを定義してデプロイするための青写真として機能する JSON ファイルです。</p><p>Azure portal は誤りです。Azure portal は、ユーザーが Azure リソースを視覚的に操作および管理できるようにする Web ベースのユーザー インターフェイスであり、コマンド ライン ツールの代替手段を提供します。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/how-to/get-compliance-data#on-demand-evaluation-scan\">https://learn.microsoft.com/en-us/azure/governance/policy/how-to/get-compliance-data#on-demand-evaluation-scan</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview\">https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/best-practices\">https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/best-practices</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/frequently-asked-questions\">https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/frequently-asked-questions</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-overview\">https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-overview</a></p></li></ul>",
+      "explanationText": "正解はAzure コマンド ライン インターフェイス (CLI) です。オンデマンドの Azure Policy コンプライアンス スキャンを開始するには、Azure CLI、Azure PowerShell、直接 REST API 呼び出しなどのさまざまなオプションを使用するか、Azure Policy Compliance Scan GitHub アクションを使用できます。\nAzure テンプレート は誤りです。Azure テンプレートは、Azure リソースを定義してデプロイするための青写真として機能する JSON ファイルです。\nAzure portal は誤りです。Azure portal は、ユーザーが Azure リソースを視覚的に操作および管理できるようにする Web ベースのユーザー インターフェイスであり、コマンド ライン ツールの代替手段を提供します。\n参考:\n・https://learn.microsoft.com/en-us/azure/governance/policy/how-to/get-compliance-data#on-demand-evaluation-scan\n\n・https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview\n\n・https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/best-practices\n\n・https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/frequently-asked-questions\n\n・https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-overview",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-linked-009",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-039",
+      "sourceQuestionNumber": 39,
+      "promptHtml": "<p><strong>複数のストレージ アカウント</strong>を含む<strong>Azure サブスクリプション</strong>があり、それらのストレージ アカウントに<strong>Azure Policy 定義</strong>が割り当てられています。</p><p>次の要件を満たすソリューションを推奨する必要があります。</p><ul><li><p><strong>オンデマンドの Azure Policy コンプライアンスのトリガースキャン</strong>。</p></li><li><p><strong><strong>Log Analytics</strong> に保存されているデータをクエリすることで、非準拠リソースに対する Azure Monitor アラートを生成</strong>します。</p></li></ul><p>これらの要件を満たすには、<strong>非準拠アラートを生成するために診断設定を構成する必要がありますか。</strong></p>",
+      "promptText": "複数のストレージ アカウントを含むAzure サブスクリプションがあり、それらのストレージ アカウントにAzure Policy 定義が割り当てられています。\n次の要件を満たすソリューションを推奨する必要があります。\n・オンデマンドの Azure Policy コンプライアンスのトリガースキャン。\n\n・Log Analytics に保存されているデータをクエリすることで、非準拠リソースに対する Azure Monitor アラートを生成します。\n\nこれらの要件を満たすには、非準拠アラートを生成するために診断設定を構成する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-039-c1",
+          "label": null,
+          "text": "Azure アクティビティ ログ",
+          "html": "<p>Azure アクティビティ ログ</p>"
+        },
+        {
+          "choiceId": "en3-q-039-c2",
+          "label": null,
+          "text": "Log Analytics ワークスペース",
+          "html": "<p>Log Analytics ワークスペース</p>"
+        },
+        {
+          "choiceId": "en3-q-039-c3",
+          "label": null,
+          "text": "ストレージ アカウント",
+          "html": "<p>ストレージ アカウント</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-039-c2"
+      ],
+      "explanationHtml": "<p>Log Analyticsワークスペース が正解です。Azure Policy 定義が Azure サブスクリプション内の複数のストレージ アカウントに割り当てられている特定のシナリオでは、目標は、これらのリソース全体でコンプライアンスを確保することです。</p><p>ストレージ アカウント は誤りです。Azure ストレージ アカウントは Azure の基本コンポーネントとして機能し、さまざまな種類のデータを保存するためのスケーラブルで安全なソリューションを提供します。</p><p>Azure アクティビティ ログ は誤りです。Azure アクティビティ ログは、Azure サブスクリプションで発生したすべての詳細な履歴のようなものです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/monitor-workspace\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/monitor-workspace</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/monitor-workspace#alert-rules\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/monitor-workspace#alert-rules</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/activity-log?tabs=powershell\">https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/activity-log?tabs=powershell</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview</a></p></li></ul>",
+      "explanationText": "正解はLog Analyticsワークスペース です。Azure Policy 定義が Azure サブスクリプション内の複数のストレージ アカウントに割り当てられている特定のシナリオでは、目標は、これらのリソース全体でコンプライアンスを確保することです。\nストレージ アカウント は誤りです。Azure ストレージ アカウントは Azure の基本コンポーネントとして機能し、さまざまな種類のデータを保存するためのスケーラブルで安全なソリューションを提供します。\nAzure アクティビティ ログ は誤りです。Azure アクティビティ ログは、Azure サブスクリプションで発生したすべての詳細な履歴のようなものです。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/monitor-workspace\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/monitor-workspace#alert-rules\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/activity-log?tabs=powershell\n\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-linked-009",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-040",
+      "sourceQuestionNumber": 40,
+      "promptHtml": "<p>複数の<strong>Azure SQL データベース</strong> インスタンスをデプロイしました。提供された構成ビューに示されているように、データベースの<strong>診断設定</strong>を構成する予定です。</p><p>診断設定には次の特性が含まれます:</p><p><img src=\"assets/英語問題集3_files/2025-03-27_15-51-28-964b96e918dbb448f6cabba09be9d4bd.png\" alt=\"\"loading=\"eager\"></p><p><br></p><p>この構成に基づいて、次のステートメントを正しく完了するオプションを選択します:</p><p><code>「SQL Insights データが BLOB ストレージに保存される時間は ____________ です。」</code> </p>",
+      "promptText": "複数のAzure SQL データベース インスタンスをデプロイしました。提供された構成ビューに示されているように、データベースの診断設定を構成する予定です。\n診断設定には次の特性が含まれます:\n\nこの構成に基づいて、次のステートメントを正しく完了するオプションを選択します:\n「SQL Insights データが BLOB ストレージに保存される時間は ____________ です。」",
+      "choices": [
+        {
+          "choiceId": "en3-q-040-c1",
+          "label": null,
+          "text": "30日",
+          "html": "<p>30日</p>"
+        },
+        {
+          "choiceId": "en3-q-040-c2",
+          "label": null,
+          "text": "90 日",
+          "html": "<p>90 日</p>"
+        },
+        {
+          "choiceId": "en3-q-040-c3",
+          "label": null,
+          "text": "730 日",
+          "html": "<p>730 日</p>"
+        },
+        {
+          "choiceId": "en3-q-040-c4",
+          "label": null,
+          "text": "無期限",
+          "html": "<p>無期限</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-040-c2"
+      ],
+      "explanationHtml": "<p>90日 が正しいです。簡単に言うと、SQL Insights のログ保持日数の設定は、データベースの詳細を保持する期間を決定するようなものです。</p><p>30 日 は誤りです。表示された内容によると、30 日は正しいオプションではありません。</p><p>730 日 は誤りです。特定の展示を考慮すると、730 日の設定を選択することは、データをより長期間保持することを意味します。</p><p>無期限 は誤りです。特定の展示のコンテキストでは、これは履歴データの保存などの状況によっては適切かもしれませんが、保管コストが高くなる可能性もあります。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview#how-does-application-insights-handle-data-collection-retention-storage-and-privacy\">https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview#how-does-application-insights-handle-data-collection-retention-storage-and-privacy</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#set-data-retention-for-classic-application-insights-resources\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#set-data-retention-for-classic-application-insights-resources</a></p></li></ul>",
+      "explanationText": "90日 が正しいです。簡単に言うと、SQL Insights のログ保持日数の設定は、データベースの詳細を保持する期間を決定するようなものです。\n30 日 は誤りです。表示された内容によると、30 日は正しいオプションではありません。\n730 日 は誤りです。特定の展示を考慮すると、730 日の設定を選択することは、データをより長期間保持することを意味します。\n無期限 は誤りです。特定の展示のコンテキストでは、これは履歴データの保存などの状況によっては適切かもしれませんが、保管コストが高くなる可能性もあります。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview#how-does-application-insights-handle-data-collection-retention-storage-and-privacy\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-retention-archive?tabs=portal-1%2Cportal-2#set-data-retention-for-classic-application-insights-resources",
+      "images": [
+        "assets/英語問題集3_files/2025-03-27_15-51-28-964b96e918dbb448f6cabba09be9d4bd.png"
+      ],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

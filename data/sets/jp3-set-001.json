@@ -52,7 +52,7 @@
       "explanationHtml": "<p>Azure Cache for Redis は、オープンソースの「Redis」を基にしたインメモリ データ ストアです。</p><p>ユーザーのセッション情報や即時性が求められる更新データなどアクセス頻度の高いデータを、高速に読み書きできるサーバーのメモリ内に一時的にキャッシュすることで、アプリケーションのパフォーマンスを向上させることができます。</p><p><br></p><p>Azure Front DoorとAzure CDNは、主に静的コンテンツ（javascript、css、画像ファイルなど）をキャッシュするためのサービスで、バックエンドのデータベースのデータをキャッシュする用途としては不適切なので誤りです。</p><p>Azure Data Factoryは、膨大な量のデータの統合やETL (抽出 - 変換 - 読み込み)を行うためのサービスなので誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-cache-for-redis/cache-overview\">https://learn.microsoft.com/ja-jp/azure/azure-cache-for-redis/cache-overview</a></p>",
       "explanationText": "Azure Cache for Redis は、オープンソースの「Redis」を基にしたインメモリ データ ストアです。\nユーザーのセッション情報や即時性が求められる更新データなどアクセス頻度の高いデータを、高速に読み書きできるサーバーのメモリ内に一時的にキャッシュすることで、アプリケーションのパフォーマンスを向上させることができます。\n\nAzure Front DoorとAzure CDNは、主に静的コンテンツ（javascript、css、画像ファイルなど）をキャッシュするためのサービスで、バックエンドのデータベースのデータをキャッシュする用途としては不適切なので誤りです。\nAzure Data Factoryは、膨大な量のデータの統合やETL (抽出 - 変換 - 読み込み)を行うためのサービスなので誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-cache-for-redis/cache-overview",
       "images": [],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -96,7 +96,7 @@
       "images": [
         "assets/問題集3_files/2023-01-12_05-03-46-d963e73393a34d3d6e8e55e1b847fcb5.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -128,11 +128,12 @@
       "images": [
         "assets/問題集3_files/2023-01-24_05-49-33-17600150614f141b8de3caaf585b4fed.png"
       ],
-      "domain": null,
-      "questionType": "single",
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
+      "questionType": "boolean",
       "contextGroupId": "jp3-linked-001",
       "tags": [
-        "linked-question"
+        "linked-question",
+        "boolean"
       ]
     },
     {
@@ -162,11 +163,12 @@
       "images": [
         "assets/問題集3_files/2023-01-24_06-07-40-f27e0f0e158ba678c07920cea3afc378.png"
       ],
-      "domain": null,
-      "questionType": "single",
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
+      "questionType": "boolean",
       "contextGroupId": "jp3-linked-001",
       "tags": [
-        "linked-question"
+        "linked-question",
+        "boolean"
       ]
     },
     {
@@ -208,7 +210,7 @@
       "images": [
         "assets/問題集3_files/2023-01-10_13-08-13-8126e4c5f0546e2695900d56f48c8332.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -246,7 +248,7 @@
       "images": [
         "assets/問題集3_files/2023-01-19_06-14-02-56f5902ad6fa7a5b8ac65b4a8f810165.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -290,7 +292,7 @@
       "images": [
         "assets/問題集3_files/2023-01-12_06-26-41-9efe624e8cff06c9d018e7d49c57afef.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -324,10 +326,12 @@
         "assets/問題集3_files/2023-01-23_02-53-53-581b8c31a21881bce48f900ed3b88503.png",
         "assets/問題集3_files/2023-01-23_02-53-53-b62b3f453bb33e9a5b78bbb9f65177cf.png"
       ],
-      "domain": null,
-      "questionType": "single",
+      "domain": "ビジネス継続性ソリューションを設計する",
+      "questionType": "boolean",
       "contextGroupId": null,
-      "tags": []
+      "tags": [
+        "boolean"
+      ]
     },
     {
       "questionId": "jp3-q-009",
@@ -360,7 +364,7 @@
       "explanationHtml": "<p><code>・ユーザー主導のバックアップをサポートすること</code></p><p>Azure SQL Databaseではシステムによって開始される自動バックアップのみサポートされていますが、Azure SQL Managed InstanceではBACKUPコマンドによる手動バックアップを取得することも可能です。</p><p>よって、選択肢1の「Azure SQL Managed Instance」が正解になります。</p><p><br></p><p><code>・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること</code></p><p><code>・ビジネス継続性を実装し維持するための管理労力を最小化すること</code></p><p>この要件を満たすためには「自動フェールオーバーグループ」を使用します（次の問題で解説します）</p><p>Azure SQL Database、Azure SQL Managed Instanceともサポートされていますが、Azure 仮想マシン上のSQL Serverでは利用できないため選択肢2は誤りです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/transact-sql-tsql-differences-sql-server?view=azuresql#backup\">https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/transact-sql-tsql-differences-sql-server?view=azuresql#backup</a></p>",
       "explanationText": "・ユーザー主導のバックアップをサポートすること\nAzure SQL Databaseではシステムによって開始される自動バックアップのみサポートされていますが、Azure SQL Managed InstanceではBACKUPコマンドによる手動バックアップを取得することも可能です。\nよって、選択肢1の「Azure SQL Managed Instance」が正解になります。\n\n・データベースを別のリージョンに複製し、読み取り専用ワークロードをオフロードする目的で使用できること\n・ビジネス継続性を実装し維持するための管理労力を最小化すること\nこの要件を満たすためには「自動フェールオーバーグループ」を使用します（次の問題で解説します）\nAzure SQL Database、Azure SQL Managed Instanceともサポートされていますが、Azure 仮想マシン上のSQL Serverでは利用できないため選択肢2は誤りです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql#features-of-sql-database-and-sql-managed-instance\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/transact-sql-tsql-differences-sql-server?view=azuresql#backup",
       "images": [],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-002",
       "tags": [
@@ -400,7 +404,7 @@
       "images": [
         "assets/問題集3_files/2023-01-19_07-02-50-92392b240bf3f1901d970e53c630778c.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-002",
       "tags": [

@@ -54,7 +54,7 @@
       "images": [
         "assets/問題集2_files/2023-01-19_03-47-14-a9e42318046c8f41b2c1c0fd814759bc.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -86,10 +86,12 @@
       "images": [
         "assets/問題集2_files/2023-01-10_07-32-36-4942a53dbe69c4c605c6408cb2b5d722.png"
       ],
-      "domain": null,
-      "questionType": "single",
+      "domain": "インフラストラクチャソリューションを設計する",
+      "questionType": "boolean",
       "contextGroupId": null,
-      "tags": []
+      "tags": [
+        "boolean"
+      ]
     },
     {
       "questionId": "jp2-q-003",
@@ -128,7 +130,7 @@
       "explanationHtml": "<p><code>・両方のアプリケーションのストレージは、データセンターに障害が発生した場合でも利用可能であること</code></p><p><code>・Application1のストレージは、可能な限り高いトランザクションレートと低いレイテンシを提供すること</code></p><p>データセンター障害から保護するためにはLRS以外の冗長性が必要ですので選択肢1、2が候補となり、より高い性能を提供するPremiumブロックBLOBの選択肢2が正解となります。</p><p><br></p><p>【参考】</p><p><a href=\"https://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a>\n<a href=\"https://docs.microsoft.com/ja-jp/azure/storage/common/storage-redundancy\">https://docs.microsoft.com/ja-jp/azure/storage/common/storage-redundancy</a></p>",
       "explanationText": "・両方のアプリケーションのストレージは、データセンターに障害が発生した場合でも利用可能であること\n・Application1のストレージは、可能な限り高いトランザクションレートと低いレイテンシを提供すること\nデータセンター障害から保護するためにはLRS以外の冗長性が必要ですので選択肢1、2が候補となり、より高い性能を提供するPremiumブロックBLOBの選択肢2が正解となります。\n\n【参考】\nhttps://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\nhttps://docs.microsoft.com/ja-jp/azure/storage/common/storage-redundancy",
       "images": [],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-linked-001",
       "tags": [
@@ -172,7 +174,7 @@
       "explanationHtml": "<p><code>・両方のアプリケーションのストレージは、データセンターに障害が発生した場合でも利用可能であること</code></p><p>データセンター障害から保護するためにはLRS以外の冗長性が必要ですが全ての選択肢が条件を満たしているので次のコストの条件で絞りこみます。</p><p><br></p><p><code>・Application2のストレージは、GBあたりの保存コストを可能な限り抑えること</code></p><p>まず、コストを抑える必要があるため選択肢2、3のPremiumは除外できます。</p><p>選択肢1、4を比較すると、クールアクセス層を使用するほうが保存コストを節約できるため選択肢4が正解です。</p><p>なお、選択肢1の「StandardパフォーマンスのBlobストレージ」はレガシーなストレージアカウントを指します。</p><p><br></p><p>【参考】</p><p><a href=\"https://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\">https://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview</a></p>",
       "explanationText": "・両方のアプリケーションのストレージは、データセンターに障害が発生した場合でも利用可能であること\nデータセンター障害から保護するためにはLRS以外の冗長性が必要ですが全ての選択肢が条件を満たしているので次のコストの条件で絞りこみます。\n\n・Application2のストレージは、GBあたりの保存コストを可能な限り抑えること\nまず、コストを抑える必要があるため選択肢2、3のPremiumは除外できます。\n選択肢1、4を比較すると、クールアクセス層を使用するほうが保存コストを節約できるため選択肢4が正解です。\nなお、選択肢1の「StandardパフォーマンスのBlobストレージ」はレガシーなストレージアカウントを指します。\n\n【参考】\nhttps://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/access-tiers-overview",
       "images": [],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-linked-001",
       "tags": [
@@ -212,7 +214,7 @@
       "images": [
         "assets/問題集2_files/2023-01-10_07-53-25-8eaa5ff9993dfd2af3f9d15b89f318c6.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-linked-001",
       "tags": [
@@ -258,7 +260,7 @@
       "images": [
         "assets/問題集2_files/2023-01-10_08-08-31-59a770a9db00821d5da0e4d7637cb5d2.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-linked-001",
       "tags": [
@@ -304,7 +306,7 @@
       "images": [
         "assets/問題集2_files/2023-02-07_06-29-04-c1f38498cc8953024fd8c2704e4c00b7.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-linked-001",
       "tags": [
@@ -342,7 +344,7 @@
       "explanationHtml": "<p><code>・冗長性を最大化すること</code></p><p>Premium ファイル共有の冗長性はLRS、ZRSのみサポートされています。</p><p>示された要件を満たすためにはZRSを選択する必要があります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types</a></p>",
       "explanationText": "・冗長性を最大化すること\nPremium ファイル共有の冗長性はLRS、ZRSのみサポートされています。\n示された要件を満たすためにはZRSを選択する必要があります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#supported-storage-account-types",
       "images": [],
-      "domain": null,
+      "domain": "ビジネス継続性ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-linked-001",
       "tags": [
@@ -396,7 +398,7 @@
         "assets/問題集2_files/2023-01-31_08-29-52-d87ba6218c3fe14ea36262e067279c72.png",
         "assets/問題集2_files/2023-02-07_06-37-36-9d1710f026ab57e2c2ce9251634e56ba.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-linked-001",
       "tags": [
@@ -449,7 +451,7 @@
         "assets/問題集2_files/2023-01-31_08-29-52-8ef981b9cea2c3b029feed460204095e.png",
         "assets/問題集2_files/2023-01-31_13-21-01-e9401b8d4a7157a4ea2916505cffdefe.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-linked-001",
       "tags": [

@@ -1,0 +1,473 @@
+{
+  "setId": "en1-set-001",
+  "title": "英語問題集1 翻訳版 01-10",
+  "sourceHtml": "assets/英語問題集1.html",
+  "questionIds": [
+    "en1-q-001",
+    "en1-q-002",
+    "en1-q-003",
+    "en1-q-004",
+    "en1-q-005",
+    "en1-q-006",
+    "en1-q-007",
+    "en1-q-008",
+    "en1-q-009",
+    "en1-q-010"
+  ],
+  "questions": [
+    {
+      "questionId": "en1-q-001",
+      "sourceQuestionNumber": 1,
+      "promptHtml": "<p>次の特性を持つ複数の Azure サブスクリプションを管理する責任があります。</p><ul><li><p><strong>サブスクリプション名:</strong> Sub1</p><ul><li><p><strong>地域:</strong> 米国東部</p></li><li><p><strong>Microsoft Entra テナント:</strong> contoso.onmicrosoft.com</p></li></ul></li><li><p><strong>サブスクリプション名:</strong> Sub2</p><ul><li><p><strong>地域:</strong> 米国東部</p></li><li><p><strong>Microsoft Entra テナント:</strong> contoso-recovery.onmicrosoft.com</p></li></ul></li></ul><p><strong>contoso.onmicrosoft.com</strong> テナントには、<strong>User1</strong> という名前のユーザー アカウントが含まれています。</p><p>ランサムウェアの脅威から保護するソリューションを設計して展開する必要があります。ソリューションは次の要件を満たす必要があります。</p><ul><li><p><strong>Sub1</strong> にデプロイされたすべてのリソースは、<strong>Azure Backup</strong> を使用して保護する必要があります。</p></li><li><p><strong>User1</strong> は、重要な変更を行う前に、<strong>Sub2</strong> でロールの割り当てを受け取る必要があります。 </p></li></ul><p><code>Sub1</code> にどのリソースを作成する必要がありますか。</p>",
+      "promptText": "次の特性を持つ複数の Azure サブスクリプションを管理する責任があります。\n・サブスクリプション名: Sub1\n・地域: 米国東部\n\n・Microsoft Entra テナント: contoso.onmicrosoft.com\n\n・サブスクリプション名: Sub2\n・地域: 米国東部\n\n・Microsoft Entra テナント: contoso-recovery.onmicrosoft.com\n\ncontoso.onmicrosoft.com テナントには、User1 という名前のユーザー アカウントが含まれています。\nランサムウェアの脅威から保護するソリューションを設計して展開する必要があります。ソリューションは次の要件を満たす必要があります。\n・Sub1 にデプロイされたすべてのリソースは、Azure Backup を使用して保護する必要があります。\n\n・User1 は、重要な変更を行う前に、Sub2 でロールの割り当てを受け取る必要があります。\n\nSub1 にどのリソースを作成する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-001-c1",
+          "label": null,
+          "text": "Recovery Services コンテナー",
+          "html": "Recovery Services コンテナー"
+        },
+        {
+          "choiceId": "en1-q-001-c2",
+          "label": null,
+          "text": "Resource Guard",
+          "html": "Resource Guard"
+        },
+        {
+          "choiceId": "en1-q-001-c3",
+          "label": null,
+          "text": "Azure Site Recovery ジョブ",
+          "html": "Azure Site Recovery ジョブ"
+        },
+        {
+          "choiceId": "en1-q-001-c4",
+          "label": null,
+          "text": "Microsoft Azure Backup Server (MABS)",
+          "html": "Microsoft Azure Backup Server (MABS)"
+        },
+        {
+          "choiceId": "en1-q-001-c5",
+          "label": null,
+          "text": "Microsoft Azure Recovery Services (MARS) エージェント",
+          "html": "Microsoft Azure Recovery Services (MARS) エージェント"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-001-c1"
+      ],
+      "explanationHtml": "<p>Recovery Services コンテナー が正解です。Azure Backup は、Recovery Services コンテナーを使用してバックアップ データを保持します。</p><p>リソース ガード は誤りです。Azure Backup は、Recovery Services コンテナーとバックアップ コンテナーの両方に対する追加の承認として Resource Guard を使用します。</p><p>Azure Site Recovery ジョブ は誤りです。Azure Site Recovery (ASR) は、ディザスター リカバリー シナリオ向けに設計されています。</p><p>Microsoft Azure Backup Server (MABS) は誤りです。Microsoft Azure Backup Server (MABS) は、Azure Backup サービスとシームレスに統合されたオンプレミスのバックアップ ソリューションです。</p><p>Microsoft Azure Recovery Services (MARS) エージェント は誤りです。Microsoft Azure Recovery Services (MARS) エージェントは、オンプレミスのサーバーとアプリケーションを保護するために使用されます。</p>\n<img src=\"assets/英語問題集1_files/2025-03-27_15-54-31-dae702687dd5fe41b9b98a0e48188989.png\" alt=\"\"loading=\"eager\"><br><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview\">https://learn.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-create-recovery-services-vault\">https://learn.microsoft.com/en-us/azure/backup/backup-create-recovery-services-vault</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-azure-about-mars\">https://learn.microsoft.com/en-us/azure/backup/backup-azure-about-mars</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/install-mars-agent\">https://learn.microsoft.com/en-us/azure/backup/install-mars-agent</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-mabs-whats-new-mabs\">https://learn.microsoft.com/en-us/azure/backup/backup-mabs-whats-new-mabs</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview\">https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview</a></p></li></ul>",
+      "explanationText": "正解はRecovery Services コンテナー です。Azure Backup は、Recovery Services コンテナーを使用してバックアップ データを保持します。\nリソース ガード は誤りです。Azure Backup は、Recovery Services コンテナーとバックアップ コンテナーの両方に対する追加の承認として Resource Guard を使用します。\nAzure Site Recovery ジョブ は誤りです。Azure Site Recovery (ASR) は、ディザスター リカバリー シナリオ向けに設計されています。\nMicrosoft Azure Backup Server (MABS) は誤りです。Microsoft Azure Backup Server (MABS) は、Azure Backup サービスとシームレスに統合されたオンプレミスのバックアップ ソリューションです。\nMicrosoft Azure Recovery Services (MARS) エージェント は誤りです。Microsoft Azure Recovery Services (MARS) エージェントは、オンプレミスのサーバーとアプリケーションを保護するために使用されます。\n\n参考:\n・https://learn.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview\n\n・https://learn.microsoft.com/en-us/azure/backup/backup-create-recovery-services-vault\n\n・https://learn.microsoft.com/en-us/azure/backup/backup-azure-about-mars\n\n・https://learn.microsoft.com/en-us/azure/backup/install-mars-agent\n\n・https://learn.microsoft.com/en-us/azure/backup/backup-mabs-whats-new-mabs\n\n・https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview",
+      "images": [
+        "assets/英語問題集1_files/2025-03-27_15-54-31-dae702687dd5fe41b9b98a0e48188989.png"
+      ],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-002",
+      "sourceQuestionNumber": 2,
+      "promptHtml": "<p>次の特性を持つ複数の Azure サブスクリプションを管理する責任があります。</p><ul><li><p><strong>サブスクリプション名:</strong> Sub1</p><ul><li><p><strong>地域:</strong> 米国東部</p></li><li><p><strong>Microsoft Entra テナント:</strong> contoso.onmicrosoft.com</p></li></ul></li><li><p><strong>サブスクリプション名:</strong> Sub2</p><ul><li><p><strong>地域:</strong> 米国東部</p></li><li><p><strong>Microsoft Entra テナント:</strong> contoso-recovery.onmicrosoft.com</p></li></ul></li></ul><p><strong>contoso.onmicrosoft.com</strong> テナントには、<strong>User1</strong> という名前のユーザー アカウントが含まれています。</p><p>ランサムウェアの脅威から保護するソリューションを設計して展開する必要があります。ソリューションは次の要件を満たす必要があります。</p><ul><li><p><strong>Sub1</strong> にデプロイされたすべてのリソースは、<strong>Azure Backup</strong> を使用して保護する必要があります。</p></li><li><p><strong>User1</strong> は、重要な変更を行う前に、<strong>Sub2</strong> でロールの割り当てを受け取る必要があります。 </p></li></ul><p><code>Sub2</code> にどのリソースを作成する必要がありますか。</p>",
+      "promptText": "次の特性を持つ複数の Azure サブスクリプションを管理する責任があります。\n・サブスクリプション名: Sub1\n・地域: 米国東部\n\n・Microsoft Entra テナント: contoso.onmicrosoft.com\n\n・サブスクリプション名: Sub2\n・地域: 米国東部\n\n・Microsoft Entra テナント: contoso-recovery.onmicrosoft.com\n\ncontoso.onmicrosoft.com テナントには、User1 という名前のユーザー アカウントが含まれています。\nランサムウェアの脅威から保護するソリューションを設計して展開する必要があります。ソリューションは次の要件を満たす必要があります。\n・Sub1 にデプロイされたすべてのリソースは、Azure Backup を使用して保護する必要があります。\n\n・User1 は、重要な変更を行う前に、Sub2 でロールの割り当てを受け取る必要があります。\n\nSub2 にどのリソースを作成する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-002-c1",
+          "label": null,
+          "text": "Recovery Services コンテナー",
+          "html": "Recovery Services コンテナー"
+        },
+        {
+          "choiceId": "en1-q-002-c2",
+          "label": null,
+          "text": "Resource Guard",
+          "html": "Resource Guard"
+        },
+        {
+          "choiceId": "en1-q-002-c3",
+          "label": null,
+          "text": "Azure Site Recovery ジョブ",
+          "html": "Azure Site Recovery ジョブ"
+        },
+        {
+          "choiceId": "en1-q-002-c4",
+          "label": null,
+          "text": "Microsoft Azure Backup Server (MABS)",
+          "html": "Microsoft Azure Backup Server (MABS)"
+        },
+        {
+          "choiceId": "en1-q-002-c5",
+          "label": null,
+          "text": "Microsoft Azure Recovery Services (MARS) エージェント",
+          "html": "Microsoft Azure Recovery Services (MARS) エージェント"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-002-c2"
+      ],
+      "explanationHtml": "<p>リソース ガード が正解です。Azure Backup は、Recovery Services コンテナーとバックアップ コンテナーの両方に対する追加の承認として Resource Guard を使用します。</p>\n<img src=\"assets/英語問題集1_files/2025-03-27_15-55-18-c98395d3d67c63dd8fad4b993b78b3c6.png\" alt=\"\"loading=\"eager\"><p>Recovery Services コンテナー は誤りです。Azure Backup は Recovery Services コンテナーを利用してバックアップ データを保存し、IaaS VM (Linux または Windows) や Azure VM の SQL サーバーなどのさまざまな Azure サービスの保護を提供します。</p><p>Azure Site Recovery ジョブ は誤りです。Azure Site Recovery (ASR) は、ディザスター リカバリー シナリオ向けに設計されています。</p><p>Microsoft Azure Backup Server (MABS) は誤りです。Microsoft Azure Backup Server (MABS) は、Azure Backup サービスとシームレスに統合されたオンプレミスのバックアップ ソリューションです。</p><p>Microsoft Azure Recovery Services (MARS) エージェント は誤りです。Microsoft Azure Recovery Services (MARS) エージェントは、オンプレミスのサーバーとアプリケーションを保護するために使用されます。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview\">https://learn.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-create-recovery-services-vault\">https://learn.microsoft.com/en-us/azure/backup/backup-create-recovery-services-vault</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-azure-about-mars\">https://learn.microsoft.com/en-us/azure/backup/backup-azure-about-mars</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/install-mars-agent\">https://learn.microsoft.com/en-us/azure/backup/install-mars-agent</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-mabs-whats-new-mabs\">https://learn.microsoft.com/en-us/azure/backup/backup-mabs-whats-new-mabs</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview\">https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview</a></p></li></ul>",
+      "explanationText": "正解はリソース ガード です。Azure Backup は、Recovery Services コンテナーとバックアップ コンテナーの両方に対する追加の承認として Resource Guard を使用します。\n\nRecovery Services コンテナー は誤りです。Azure Backup は Recovery Services コンテナーを利用してバックアップ データを保存し、IaaS VM (Linux または Windows) や Azure VM の SQL サーバーなどのさまざまな Azure サービスの保護を提供します。\nAzure Site Recovery ジョブ は誤りです。Azure Site Recovery (ASR) は、ディザスター リカバリー シナリオ向けに設計されています。\nMicrosoft Azure Backup Server (MABS) は誤りです。Microsoft Azure Backup Server (MABS) は、Azure Backup サービスとシームレスに統合されたオンプレミスのバックアップ ソリューションです。\nMicrosoft Azure Recovery Services (MARS) エージェント は誤りです。Microsoft Azure Recovery Services (MARS) エージェントは、オンプレミスのサーバーとアプリケーションを保護するために使用されます。\n参考:\n・https://learn.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview\n\n・https://learn.microsoft.com/en-us/azure/backup/backup-create-recovery-services-vault\n\n・https://learn.microsoft.com/en-us/azure/backup/backup-azure-about-mars\n\n・https://learn.microsoft.com/en-us/azure/backup/install-mars-agent\n\n・https://learn.microsoft.com/en-us/azure/backup/backup-mabs-whats-new-mabs\n\n・https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview",
+      "images": [
+        "assets/英語問題集1_files/2025-03-27_15-55-18-c98395d3d67c63dd8fad4b993b78b3c6.png"
+      ],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-003",
+      "sourceQuestionNumber": 3,
+      "promptHtml": "<p>AKS1 という名前の Azure Kubernetes Service (AKS) クラスターを含む Azure サブスクリプションがあります。 AKS クラスターは、既定以外の HTTP ポートでリッスンするように構成されたマイクロサービス ベースの API をホストします。</p><p>標準レベルを使用して APIM1 という名前の Azure API 管理インスタンスをデプロイして、これらの API を外部コンシューマーに公開する予定です。</p><p>AKS1 でホストされている API が APIM1 からアクセスできることを確認する必要があります。ソリューションは次の要件を満たす必要があります。</p><ul><li><p>相互 TLS (mTLS) 認証は APIM1 と AKS1 の間に構成する必要があります。</p></li><li><p>ソリューションには最小限の開発労力が必要です。</p></li><li><p>ソリューションは全体的なコストを最小限に抑える必要があります。</p></li></ul><p>何をすべきかしますか。</p>",
+      "promptText": "AKS1 という名前の Azure Kubernetes Service (AKS) クラスターを含む Azure サブスクリプションがあります。 AKS クラスターは、既定以外の HTTP ポートでリッスンするように構成されたマイクロサービス ベースの API をホストします。\n標準レベルを使用して APIM1 という名前の Azure API 管理インスタンスをデプロイして、これらの API を外部コンシューマーに公開する予定です。\nAKS1 でホストされている API が APIM1 からアクセスできることを確認する必要があります。ソリューションは次の要件を満たす必要があります。\n・相互 TLS (mTLS) 認証は APIM1 と AKS1 の間に構成する必要があります。\n\n・ソリューションには最小限の開発労力が必要です。\n\n・ソリューションは全体的なコストを最小限に抑える必要があります。\n\n何をする必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-003-c1",
+          "label": null,
+          "text": "AKS1 の外部ロード バランサーを構成します。",
+          "html": "<p>AKS1 の外部ロード バランサーを構成します。</p>"
+        },
+        {
+          "choiceId": "en1-q-003-c2",
+          "label": null,
+          "text": "AKS1 を含む仮想ネットワークに APIM1 を再デプロイします。",
+          "html": "AKS1 を含む仮想ネットワークに APIM1 を再デプロイします。"
+        },
+        {
+          "choiceId": "en1-q-003-c3",
+          "label": null,
+          "text": "構成AKS1 の ExternalName サービス。",
+          "html": "<p>構成AKS1 の ExternalName サービス。</p>"
+        },
+        {
+          "choiceId": "en1-q-003-c4",
+          "label": null,
+          "text": "イングレス コントローラーを AKS1 にデプロイします。",
+          "html": "イングレス コントローラーを AKS1 にデプロイします。"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-003-c4"
+      ],
+      "explanationHtml": "<p>イングレス コントローラーを AKS1 にデプロイします。それは正解です。</p><p>AKS1 用に外部ロード バランサーを構成する は誤りです。Azure Load Balancer は、OSI モデルのレイヤー 4 で動作し、受信シナリオと送信シナリオの両方をサポートします。</p><p>AKS1 を含む仮想ネットワークに APIM1 を再デプロイする は誤りです。APIM1 を AKS1 を含む仮想ネットワークに再デプロイすると、ネットワーク パフォーマンスが向上し、待機時間が短縮されるという利点があります。</p><p>AKS1 で ExternalName サービスを構成する は誤りです。AKS1 ベースのサービス検出用に設計された、AKS1 での ExternalName サービスの使用。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/api-management/api-management-kubernetes#option-2-install-an-ingress-controller\">https://learn.microsoft.com/en-us/azure/api-management/api-management-kubernetes#option-2-install-an-ingress-controller</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/aks/load-balancer-Standard\">https://learn.microsoft.com/en-us/azure/aks/load-balancer-Standard</a></p></li><li><p><a href=\"https://kubernetes.io/docs/concepts/services-networking/service/#service-no-selector-access\">https://kubernetes.io/docs/concepts/services-networking/service/#service-no-selector-access</a></p></li></ul>",
+      "explanationText": "イングレス コントローラーを AKS1 にデプロイします。が正解です。\nAKS1 用に外部ロード バランサーを構成する は誤りです。Azure Load Balancer は、OSI モデルのレイヤー 4 で動作し、受信シナリオと送信シナリオの両方をサポートします。\nAKS1 を含む仮想ネットワークに APIM1 を再デプロイする は誤りです。APIM1 を AKS1 を含む仮想ネットワークに再デプロイすると、ネットワーク パフォーマンスが向上し、待機時間が短縮されるという利点があります。\nAKS1 で ExternalName サービスを構成する は誤りです。AKS1 ベースのサービス検出用に設計された、AKS1 での ExternalName サービスの使用。\n参考:\n・https://learn.microsoft.com/en-us/azure/api-management/api-management-kubernetes#option-2-install-an-ingress-controller\n\n・https://learn.microsoft.com/en-us/azure/aks/load-balancer-Standard\n\n・https://kubernetes.io/docs/concepts/services-networking/service/#service-no-selector-access",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-004",
+      "sourceQuestionNumber": 4,
+      "promptHtml": "<p>オンプレミス データセンターは、App1 という名前の Java アプリケーションを実行する Linux ベースのサーバーをホストしています。このアプリケーションには次の特徴があります。</p><ul><li><p>App1 は、ユーザーが HTTPS 経由でアクセスする対話型アプリケーションです。</p></li><li><p>App1 への接続量は、1 日を通して大きく変化します。</p></li><li><p>App1 は複数のインスタンスを実行します。 </p></li><li><p>コンテナ化された環境で App1 を実行するには、大幅なリファクタリングが必要です。</p></li></ul><p>App1 を Azure に移行する予定です。</p><p>次の条件を満たす App1 用の Azure コンピューティング ソリューションを推奨する必要があります。要件:</p><ul><li><p>ソリューションは、App1 の複数のインスタンスの実行をサポートする必要があります。</p></li><li><p>インスタンスの数は、ワークロードの需要に基づいて自動的にスケールする必要があります。</p></li><li><p>管理および運用のオーバーヘッドは最小限に抑える必要があります。</p></li></ul><p>推奨事項には何を含めるべきですか。</p>",
+      "promptText": "オンプレミス データセンターは、App1 という名前の Java アプリケーションを実行する Linux ベースのサーバーをホストしています。このアプリケーションには次の特徴があります。\n・App1 は、ユーザーが HTTPS 経由でアクセスする対話型アプリケーションです。\n\n・App1 への接続量は、1 日を通して大きく変化します。\n\n・App1 は複数のインスタンスを実行します。\n\n・コンテナ化された環境で App1 を実行するには、大幅なリファクタリングが必要です。\n\nApp1 を Azure に移行する予定です。\n次の条件を満たす App1 用の Azure コンピューティング ソリューションを推奨する必要があります。要件:\n・ソリューションは、App1 の複数のインスタンスの実行をサポートする必要があります。\n\n・インスタンスの数は、ワークロードの需要に基づいて自動的にスケールする必要があります。\n\n・管理および運用のオーバーヘッドは最小限に抑える必要があります。\n\n推奨事項には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-004-c1",
+          "label": null,
+          "text": "Azure Batch",
+          "html": "Azure Batch"
+        },
+        {
+          "choiceId": "en1-q-004-c2",
+          "label": null,
+          "text": "Azure App Service",
+          "html": "Azure App Service"
+        },
+        {
+          "choiceId": "en1-q-004-c3",
+          "label": null,
+          "text": "Azure Kubernetes Service (AKS)",
+          "html": "Azure Kubernetes Service (AKS)"
+        },
+        {
+          "choiceId": "en1-q-004-c4",
+          "label": null,
+          "text": "Azure 仮想マシン スケール セット",
+          "html": "Azure 仮想マシン スケール セット"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-004-c2"
+      ],
+      "explanationHtml": "<p>Azure App Service は正解です。これは、App1 のような Web アプリケーションをコンテナー化せずにホストするためのプラットフォームを提供するため、大きな変更が必要なくなります。</p><p>Azure Virtual Machine Scale Sets は、自動スケーリングと複数のインスタンスの実行が可能ですが、特に最小限の管理労力の要件と App1 という事実を考慮すると、Azure App Service に比べて管理上の負担と複雑さが増すため、不正解です。コンテナ化された環境で実行するには大幅な変更が必要です。</p><p>Azure Kubernetes Service (AKS) は、このコンテキストでは不正確です。複数のインスタンスの実行と自動スケーリングの機能にもかかわらず、主にコンテナ化されたアプリケーション用に設計されています。</p><p>Azure Batch も不正解です。これは、次のような対話型アプリケーションをホストするのではなく、大規模な並列処理やバッチ処理のワークロードに合わせて調整されているためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/app-service/overview\">https://learn.microsoft.com/en-us/azure/app-service/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-autoscale-overview\">https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-autoscale-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/aks/intro-kubernetes\">https://learn.microsoft.com/en-us/azure/aks/intro-kubernetes</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/batch/batch-technical-overview\">https://learn.microsoft.com/en-us/azure/batch/batch-technical-overview</a></p></li></ul>",
+      "explanationText": "Azure App Service は正解です。これは、App1 のような Web アプリケーションをコンテナー化せずにホストするためのプラットフォームを提供するため、大きな変更が必要なくなります。\nAzure Virtual Machine Scale Sets は、自動スケーリングと複数のインスタンスの実行が可能ですが、特に最小限の管理労力の要件と App1 という事実を考慮すると、Azure App Service に比べて管理上の負担と複雑さが増すため、不正解です。コンテナ化された環境で実行するには大幅な変更が必要です。\nAzure Kubernetes Service (AKS) は、このコンテキストでは不正確です。複数のインスタンスの実行と自動スケーリングの機能にもかかわらず、主にコンテナ化されたアプリケーション用に設計されています。\nAzure Batch も不正解です。これは、次のような対話型アプリケーションをホストするのではなく、大規模な並列処理やバッチ処理のワークロードに合わせて調整されているためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/app-service/overview\n\n・https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-autoscale-overview\n\n・https://learn.microsoft.com/en-us/azure/aks/intro-kubernetes\n\n・https://learn.microsoft.com/en-us/azure/batch/batch-technical-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-005",
+      "sourceQuestionNumber": 5,
+      "promptHtml": "<p>あなたの組織である ApexCore Consulting には、次のリソースが含まれる Azure サブスクリプションがあります。</p><ul><li><p>apexcoreworkspace1 という名前の Azure Synapse Analytics ワークスペース</p></li><li><p>apexcorelake1 という名前の Azure Data Lake Storage アカウント</p></li><li><p>Azure SQL データベースapexcoresql1 という名前の</p></li></ul><p>ApexCore の製品データは、apexcoresql1 から apexcorelake1 に定期的にコピーされます。</p><p>ApexCore は、IrondClad Inc. というパートナー組織とも連携しています。IrondClad Inc. には、次のリソースを含む独自の Azure サブスクリプションがあります。</p><ul><li><p>Microsoft を実行している IroncladVM1 という名前の仮想マシンSQL Server 2019</p></li><li><p>ironcladsa1 という名前の Azure Storage アカウント</p></li></ul><p>ApexCore は、IroncladVM1 に保存されている研究データを apexcorelake1 にアップロードする予定です。このアップロード プロセス中に、調査データを ApexCore で使用されるデータ形式に変換する必要があります。</p><p>apexcorelake1 に保存されたデータは、apexcoreworkspace1 を使用して分析されます。</p><p>次の要件を満たすソリューションを推奨する必要があります。</p><ul><li><p><strong>調査データをアップロードして変換します。 IroncladVM1.</strong></p></li></ul><p>何を推奨しますか。</p>",
+      "promptText": "あなたの組織である ApexCore Consulting には、次のリソースが含まれる Azure サブスクリプションがあります。\n・apexcoreworkspace1 という名前の Azure Synapse Analytics ワークスペース\n\n・apexcorelake1 という名前の Azure Data Lake Storage アカウント\n\n・Azure SQL データベースapexcoresql1 という名前の\n\nApexCore の製品データは、apexcoresql1 から apexcorelake1 に定期的にコピーされます。\nApexCore は、IrondClad Inc. というパートナー組織とも連携しています。IrondClad Inc. には、次のリソースを含む独自の Azure サブスクリプションがあります。\n・Microsoft を実行している IroncladVM1 という名前の仮想マシンSQL Server 2019\n\n・ironcladsa1 という名前の Azure Storage アカウント\n\nApexCore は、IroncladVM1 に保存されている研究データを apexcorelake1 にアップロードする予定です。このアップロード プロセス中に、調査データを ApexCore で使用されるデータ形式に変換する必要があります。\napexcorelake1 に保存されたデータは、apexcoreworkspace1 を使用して分析されます。\n次の要件を満たすソリューションを推奨する必要があります。\n・調査データをアップロードして変換します。 IroncladVM1.\n\n何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-005-c1",
+          "label": null,
+          "text": "Azure Data Box Gateway",
+          "html": "Azure Data Box Gateway"
+        },
+        {
+          "choiceId": "en1-q-005-c2",
+          "label": null,
+          "text": "Azure Data Share",
+          "html": "Azure Data Share"
+        },
+        {
+          "choiceId": "en1-q-005-c3",
+          "label": null,
+          "text": "Azure Synapse パイプライン",
+          "html": "Azure Synapse パイプライン"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-005-c3"
+      ],
+      "explanationHtml": "<p>Azure Synapse パイプライン が正解です。指定されたシナリオでは、ApexCore は研究データを IroncladVM1 から apexcorelake1 にアップロードして変換する必要があります。</p><p>Azure Data Share は誤りです。Azure Data Share は、異なる組織間でデータを安全に共有するために設計されたツールです。</p><p>Azure Data Box Gateway は誤りです。これは主に、オンプレミス環境と Azure の間の効率的なデータ転送を促進するために設計されています。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-share/overview\">https://learn.microsoft.com/en-us/azure/data-share/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/databox-gateway/data-box-gateway-overview\">https://learn.microsoft.com/en-us/azure/databox-gateway/data-box-gateway-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities?context=%2Fazure%2Fsynapse-analytics%2Fcontext%2Fcontext&amp;tabs=synapse-analytics#overview\">https://learn.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities?context=%2Fazure%2Fsynapse-analytics%2Fcontext%2Fcontext&amp;tabs=synapse-analytics#overview</a></p></li></ul>",
+      "explanationText": "正解はAzure Synapse パイプライン です。指定されたシナリオでは、ApexCore は研究データを IroncladVM1 から apexcorelake1 にアップロードして変換する必要があります。\nAzure Data Share は誤りです。Azure Data Share は、異なる組織間でデータを安全に共有するために設計されたツールです。\nAzure Data Box Gateway は誤りです。これは主に、オンプレミス環境と Azure の間の効率的なデータ転送を促進するために設計されています。\n参考:\n・https://learn.microsoft.com/en-us/azure/data-share/overview\n\n・https://learn.microsoft.com/en-us/azure/databox-gateway/data-box-gateway-overview\n\n・https://learn.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities?context=%2Fazure%2Fsynapse-analytics%2Fcontext%2Fcontext&tabs=synapse-analytics#overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-006",
+      "sourceQuestionNumber": 6,
+      "promptHtml": "<p>あなたの組織である ApexCore Consulting には、次のリソースが含まれる Azure サブスクリプションがあります。</p><ul><li><p>apexcoreworkspace1 という名前の Azure Synapse Analytics ワークスペース</p></li><li><p>apexcorelake1 という名前の Azure Data Lake Storage アカウント</p></li><li><p>という名前の Azure SQL データベースapexcoresql1</p></li></ul><p>ApexCore の製品データは、apexcoresql1 から apexcorelake1 に定期的にコピーされます。</p><p>ApexCore は、IrondClad Inc. というパートナー組織とも連携しています。IrondClad Inc. には、次のリソースを含む独自の Azure サブスクリプションがあります。</p><ul><li><p>Microsoft を実行している IroncladVM1 という名前の仮想マシンSQL Server 2019</p></li><li><p>ironcladsa1 という名前の Azure Storage アカウント</p></li></ul><p>ApexCore は、IroncladVM1 に保存されている研究データを apexcorelake1 にアップロードする予定です。このアップロード プロセス中に、調査データを ApexCore で使用されるデータ形式に変換する必要があります。</p><p>apexcorelake1 に保存されたデータは、apexcoreworkspace1 を使用して分析されます。</p><p>次の要件を満たすソリューションを推奨する必要があります。</p><ul><li><p><strong>Ironclad に、データのスナップショットへの制限付きアクセスを提供するapexcoreworkspace1.</strong></p></li></ul><p>何を推奨しますか。</p>",
+      "promptText": "あなたの組織である ApexCore Consulting には、次のリソースが含まれる Azure サブスクリプションがあります。\n・apexcoreworkspace1 という名前の Azure Synapse Analytics ワークスペース\n\n・apexcorelake1 という名前の Azure Data Lake Storage アカウント\n\n・という名前の Azure SQL データベースapexcoresql1\n\nApexCore の製品データは、apexcoresql1 から apexcorelake1 に定期的にコピーされます。\nApexCore は、IrondClad Inc. というパートナー組織とも連携しています。IrondClad Inc. には、次のリソースを含む独自の Azure サブスクリプションがあります。\n・Microsoft を実行している IroncladVM1 という名前の仮想マシンSQL Server 2019\n\n・ironcladsa1 という名前の Azure Storage アカウント\n\nApexCore は、IroncladVM1 に保存されている研究データを apexcorelake1 にアップロードする予定です。このアップロード プロセス中に、調査データを ApexCore で使用されるデータ形式に変換する必要があります。\napexcorelake1 に保存されたデータは、apexcoreworkspace1 を使用して分析されます。\n次の要件を満たすソリューションを推奨する必要があります。\n・Ironclad に、データのスナップショットへの制限付きアクセスを提供するapexcoreworkspace1.\n\n何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-006-c1",
+          "label": null,
+          "text": "Azure Data Box Gateway",
+          "html": "Azure Data Box Gateway"
+        },
+        {
+          "choiceId": "en1-q-006-c2",
+          "label": null,
+          "text": "Azure Data Share",
+          "html": "Azure Data Share"
+        },
+        {
+          "choiceId": "en1-q-006-c3",
+          "label": null,
+          "text": "Azure Synapse パイプライン",
+          "html": "Azure Synapse パイプライン"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-006-c2"
+      ],
+      "explanationHtml": "<p>Azure Data Share が正解です。Ironclad に apexcoreworkspace1 内のデータのスナップショットへの制限付きアクセスを提供するという要件を満たすために、推奨されるソリューションは Azure Data Share です。</p><p><img src=\"assets/英語問題集1_files/2025-03-27_15-59-00-9378ccb5739c73541368a13957057c7a.png\" alt=\"\" loading=\"eager\"></p><p>Azure Synapse パイプラインは正しくありません。Azure Synapse パイプラインは、データ パイプラインの作成、スケジュール、管理を可能にするクラウドベースのデータ統合サービスを提供します。</p><p>Azure Data Box Gateway は誤りです。これは主に、オンプレミス環境と Azure の間の効率的なデータ転送を促進するために設計されています。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-share/overview\">https://learn.microsoft.com/en-us/azure/data-share/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/databox-gateway/data-box-gateway-overview\">https://learn.microsoft.com/en-us/azure/databox-gateway/data-box-gateway-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities?context=%2Fazure%2Fsynapse-analytics%2Fcontext%2Fcontext&amp;tabs=synapse-analytics#overview\">https://learn.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities?context=%2Fazure%2Fsynapse-analytics%2Fcontext%2Fcontext&amp;tabs=synapse-analytics#overview</a></p></li></ul>",
+      "explanationText": "正解はAzure Data Share です。Ironclad に apexcoreworkspace1 内のデータのスナップショットへの制限付きアクセスを提供するという要件を満たすために、推奨されるソリューションは Azure Data Share です。\n\nAzure Synapse パイプラインは正しくありません。Azure Synapse パイプラインは、データ パイプラインの作成、スケジュール、管理を可能にするクラウドベースのデータ統合サービスを提供します。\nAzure Data Box Gateway は誤りです。これは主に、オンプレミス環境と Azure の間の効率的なデータ転送を促進するために設計されています。\n参考:\n・https://learn.microsoft.com/en-us/azure/data-share/overview\n\n・https://learn.microsoft.com/en-us/azure/databox-gateway/data-box-gateway-overview\n\n・https://learn.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities?context=%2Fazure%2Fsynapse-analytics%2Fcontext%2Fcontext&tabs=synapse-analytics#overview",
+      "images": [
+        "assets/英語問題集1_files/2025-03-27_15-59-00-9378ccb5739c73541368a13957057c7a.png"
+      ],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-007",
+      "sourceQuestionNumber": 7,
+      "promptHtml": "<p>次のリソースを含む Azure サブスクリプションをお持ちです:</p>\n<img src=\"assets/英語問題集1_files/2026-02-11_12-37-54-3ca1518ba02239cae1b238f7b3d695cb.png\" alt=\"\"loading=\"eager\"><p>VMSS1 の受信トラフィックを分散する負荷分散ソリューションを推奨する必要があります。 NVA1 および NVA2。</p><p>ソリューションでは管理オーバーヘッドを最小限に抑える必要があります。</p><p>推奨事項には何を含めるべきですか。</p>",
+      "promptText": "次のリソースを含む Azure サブスクリプションをお持ちです:\n\nVMSS1 の受信トラフィックを分散する負荷分散ソリューションを推奨する必要があります。 NVA1 および NVA2。\nソリューションでは管理オーバーヘッドを最小限に抑える必要があります。\n推奨事項には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-007-c1",
+          "label": null,
+          "text": "ゲートウェイ ロード バランサーを使用する",
+          "html": "<p>ゲートウェイ ロード バランサーを使用する</p>"
+        },
+        {
+          "choiceId": "en1-q-007-c2",
+          "label": null,
+          "text": "Azure Front Door",
+          "html": "<p>Azure Front Door</p>"
+        },
+        {
+          "choiceId": "en1-q-007-c3",
+          "label": null,
+          "text": "Azure Application Gateway のデプロイ",
+          "html": "<p>Azure Application Gateway のデプロイ</p>"
+        },
+        {
+          "choiceId": "en1-q-007-c4",
+          "label": null,
+          "text": "Azure Traffic Manager の実装",
+          "html": "<p>Azure Traffic Manager の実装</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-007-c1"
+      ],
+      "explanationHtml": "<p>ゲートウェイ ロード バランサーの使用は、それは正解です。VMSS1 の NVA1 と NVA2 全体にトラフィックを分散するシナリオでは、推奨されるソリューションは Azure Gateway Load Balancer (GLB) です。</p><p><img src=\"assets/英語問題集1_files/2025-03-27_16-01-58-d2e74009d1fb2b83599bd477d6d5117f.png\" alt=\"\" loading=\"eager\"></p><p>Azure Application Gateway のデプロイ は誤りです。VMSS1 の NVA1 と NVA2 全体にトラフィックを分散するというコンテキストでは、Azure Application Gateway は適切な選択肢ではありません。</p><p><img src=\"assets/英語問題集1_files/2025-03-27_16-01-58-912ad27f0bf293f15239345d06487e1e.png\" alt=\"\"loading=\"eager\"><br></p><p><img src=\"assets/英語問題集1_files/2025-03-27_16-01-58-83e81629232719bcec6fdbac3a24c519.png\" alt=\"\"loading=\"eager\"></p><p>Azure Front Door は誤りです。Azure Front Door は、Web アプリケーションのパフォーマンス、可用性、セキュリティを向上させるために設計された Azure のグローバル サービスです。</p><p>Azure Traffic Manager の実装 は誤りです。これは DNS ベースのロード バランサーであり、受信したクライアント リクエストをさまざまなエンドポイントに分散するように設計されています。</p><p><img src=\"assets/英語問題集1_files/2025-03-27_16-01-58-07544105b075d0c0450111403286e38e.png\" alt=\"\"loading=\"eager\"><br></p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview\">https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\">https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/dmz/nva-ha#ha-architectures-overview\">https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/dmz/nva-ha#ha-architectures-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/application-gateway/overview\">https://learn.microsoft.com/en-us/azure/application-gateway/overview</a></p></li></ul>",
+      "explanationText": "正解はゲートウェイ ロード バランサーの使用は、です。VMSS1 の NVA1 と NVA2 全体にトラフィックを分散するシナリオでは、推奨されるソリューションは Azure Gateway Load Balancer (GLB) です。\n\nAzure Application Gateway のデプロイ は誤りです。VMSS1 の NVA1 と NVA2 全体にトラフィックを分散するというコンテキストでは、Azure Application Gateway は適切な選択肢ではありません。\n\nAzure Front Door は誤りです。Azure Front Door は、Web アプリケーションのパフォーマンス、可用性、セキュリティを向上させるために設計された Azure のグローバル サービスです。\nAzure Traffic Manager の実装 は誤りです。これは DNS ベースのロード バランサーであり、受信したクライアント リクエストをさまざまなエンドポイントに分散するように設計されています。\n\n参考:\n・https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview\n\n・https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\n\n・https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/dmz/nva-ha#ha-architectures-overview\n\n・https://learn.microsoft.com/en-us/azure/application-gateway/overview",
+      "images": [
+        "assets/英語問題集1_files/2026-02-11_12-37-54-3ca1518ba02239cae1b238f7b3d695cb.png",
+        "assets/英語問題集1_files/2025-03-27_16-01-58-d2e74009d1fb2b83599bd477d6d5117f.png",
+        "assets/英語問題集1_files/2025-03-27_16-01-58-912ad27f0bf293f15239345d06487e1e.png",
+        "assets/英語問題集1_files/2025-03-27_16-01-58-83e81629232719bcec6fdbac3a24c519.png",
+        "assets/英語問題集1_files/2025-03-27_16-01-58-07544105b075d0c0450111403286e38e.png"
+      ],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-008",
+      "sourceQuestionNumber": 8,
+      "promptHtml": "<p>データベース プラットフォームとして Azure SQL を使用する予定です。</p><p>Azure SQL オファリングと、次の要件を満たす適切なサービス レベルを推奨する必要があります。</p><ul><li><p>コンピューティング リソースは、ワークロードの需要に基づいて自動的にスケールする必要があります。</p></li><li><p>請求は秒単位で計算する必要があります。 </p></li></ul><p>どの<strong>Azure SQL 製品</strong>をお勧めしますか。</p>",
+      "promptText": "データベース プラットフォームとして Azure SQL を使用する予定です。\nAzure SQL オファリングと、次の要件を満たす適切なサービス レベルを推奨する必要があります。\n・コンピューティング リソースは、ワークロードの需要に基づいて自動的にスケールする必要があります。\n\n・請求は秒単位で計算する必要があります。\n\nどのAzure SQL 製品をお勧めしますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-008-c1",
+          "label": null,
+          "text": "単一の Azure SQL データベース",
+          "html": "単一の Azure SQL データベース"
+        },
+        {
+          "choiceId": "en1-q-008-c2",
+          "label": null,
+          "text": "Azure SQL データベース エラスティック プール",
+          "html": "Azure SQL データベース エラスティック プール"
+        },
+        {
+          "choiceId": "en1-q-008-c3",
+          "label": null,
+          "text": "Azure SQL マネージド インスタンス",
+          "html": "Azure SQL マネージド インスタンス"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-008-c1"
+      ],
+      "explanationHtml": "<p>単一の Azure SQL データベース が正解です。Azure SQL Database は、アップグレード、パッチ適用、バックアップ、監視などのさまざまなデータベース機能をすべてユーザーの関与を必要とせずに管理する、フル マネージドのサービスとしてのプラットフォーム (PaaS) データベース エンジンです。</p><p>Azure SQL Database エラスティック プール は誤りです。Azure SQL データベース エラスティック プールは、複数のデータベース間でリソースを共有するように設計されています。</p><p>Azure SQL マネージド インスタンス は誤りです。Azure SQL マネージド インスタンスは、大規模なアプリケーションをさまざまな環境 (オンプレミス、IaaS、または ISV ソリューションなど) からフルマネージドの PaaS クラウド環境に移行する組織に最適です。</p>\n<img src=\"assets/英語問題集1_files/2025-03-27_16-02-55-5cb5a0e2a598bd82f085acdca1ceb8fa.png\" alt=\"\"loading=\"eager\"><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql#compute-tiers\">https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql#compute-tiers</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview?view=azuresql&amp;tabs=general-purpose\">https://learn.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview?view=azuresql&amp;tabs=general-purpose</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql</a></p></li></ul>",
+      "explanationText": "正解は単一の Azure SQL データベース です。Azure SQL Database は、アップグレード、パッチ適用、バックアップ、監視などのさまざまなデータベース機能をすべてユーザーの関与を必要とせずに管理する、フル マネージドのサービスとしてのプラットフォーム (PaaS) データベース エンジンです。\nAzure SQL Database エラスティック プール は誤りです。Azure SQL データベース エラスティック プールは、複数のデータベース間でリソースを共有するように設計されています。\nAzure SQL マネージド インスタンス は誤りです。Azure SQL マネージド インスタンスは、大規模なアプリケーションをさまざまな環境 (オンプレミス、IaaS、または ISV ソリューションなど) からフルマネージドの PaaS クラウド環境に移行する組織に最適です。\n\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql#compute-tiers\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview?view=azuresql&tabs=general-purpose\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql",
+      "images": [
+        "assets/英語問題集1_files/2025-03-27_16-02-55-5cb5a0e2a598bd82f085acdca1ceb8fa.png"
+      ],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "linked-question",
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-009",
+      "sourceQuestionNumber": 9,
+      "promptHtml": "<p>データベース プラットフォームとして Azure SQL を使用する予定です。</p><p>Azure SQL オファリングと、次の要件を満たす適切なサービス レベルを推奨する必要があります。</p><ul><li><p>コンピューティング リソースは、ワークロードの需要に基づいて自動的にスケールする必要があります。</p></li><li><p>請求は、 </p></li></ul><p>どの<strong>サービス レベル</strong>を推奨しますか。</p>",
+      "promptText": "データベース プラットフォームとして Azure SQL を使用する予定です。\nAzure SQL オファリングと、次の要件を満たす適切なサービス レベルを推奨する必要があります。\n・コンピューティング リソースは、ワークロードの需要に基づいて自動的にスケールする必要があります。\n\n・請求は、\n\nどのサービス レベルを推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-009-c1",
+          "label": null,
+          "text": "ベーシック",
+          "html": "ベーシック"
+        },
+        {
+          "choiceId": "en1-q-009-c2",
+          "label": null,
+          "text": "ビジネス クリティカル",
+          "html": "ビジネス クリティカル"
+        },
+        {
+          "choiceId": "en1-q-009-c3",
+          "label": null,
+          "text": "汎用",
+          "html": "汎用"
+        },
+        {
+          "choiceId": "en1-q-009-c4",
+          "label": null,
+          "text": "ハイパースケール",
+          "html": "ハイパースケール"
+        },
+        {
+          "choiceId": "en1-q-009-c5",
+          "label": null,
+          "text": "標準",
+          "html": "標準"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-009-c3"
+      ],
+      "explanationHtml": "<p>汎用 は正解です。Azure SQL データベースの汎用サービス レベルは、一般的なワークロードに適しており、予算重視のバランスのとれたコンピューティング オプションとストレージ オプションを提供します。</p>\n<img src=\"assets/英語問題集1_files/2025-03-27_16-05-13-e4c5d35aba71c30b0d9b642390be54e1.png\" alt=\"\"loading=\"eager\"><br><p>基本 は誤りです。Azure の基本サービス レベル SQL は、低コストの使用に適しており、特にワークロードの軽い小規模データベース向けに設計されています。</p><p>ビジネス クリティカル は誤りです。Business Critical サービス層は、複数のデータベース エンジン プロセスを備えたクラスター化モデルで動作し、堅牢性を確保します。</p>\n<img src=\"assets/英語問題集1_files/2025-03-27_16-05-13-faf940709a9700869decc4a7c3f9159f.png\" alt=\"\"loading=\"eager\"><br><p>ハイパースケール は誤りです。ワークロードの需要と秒単位の課金に基づいたコンピューティング リソースの自動スケーリングの要件を持つデータベース プラットフォームとして Azure SQL を使用するという特定のシナリオでは、ハイパースケール サービス レベルが最適な推奨事項ではない可能性があります。</p>\n<img src=\"assets/英語問題集1_files/2025-03-27_16-05-14-52ed1807140635ae114c6a8e181739bc.png\" alt=\"\"loading=\"eager\"><br><p>標準 は誤りです。Standard サービス レベルは、バランスの取れたコンピューティング リソースとメモリ リソースを提供する基本的なサービスであり、ほとんどのデータベース ワークロードに適しています。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql#service-tiers\">https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql#service-tiers</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-Hyperscale?view=azuresql#Hyperscale-pricing-model\">https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-Hyperscale?view=azuresql#Hyperscale-pricing-model</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql#general-purpose\">https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql#general-purpose</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-Hyperscale?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-Hyperscale?view=azuresql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql#Standard-series-gen5\">https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql#Standard-series-gen5</a></p></li></ul>",
+      "explanationText": "汎用 は正解です。Azure SQL データベースの汎用サービス レベルは、一般的なワークロードに適しており、予算重視のバランスのとれたコンピューティング オプションとストレージ オプションを提供します。\n\n基本 は誤りです。Azure の基本サービス レベル SQL は、低コストの使用に適しており、特にワークロードの軽い小規模データベース向けに設計されています。\nビジネス クリティカル は誤りです。Business Critical サービス層は、複数のデータベース エンジン プロセスを備えたクラスター化モデルで動作し、堅牢性を確保します。\n\nハイパースケール は誤りです。ワークロードの需要と秒単位の課金に基づいたコンピューティング リソースの自動スケーリングの要件を持つデータベース プラットフォームとして Azure SQL を使用するという特定のシナリオでは、ハイパースケール サービス レベルが最適な推奨事項ではない可能性があります。\n\n標準 は誤りです。Standard サービス レベルは、バランスの取れたコンピューティング リソースとメモリ リソースを提供する基本的なサービスであり、ほとんどのデータベース ワークロードに適しています。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql#service-tiers\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-Hyperscale?view=azuresql#Hyperscale-pricing-model\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql#general-purpose\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-Hyperscale?view=azuresql\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql#Standard-series-gen5",
+      "images": [
+        "assets/英語問題集1_files/2025-03-27_16-05-13-e4c5d35aba71c30b0d9b642390be54e1.png",
+        "assets/英語問題集1_files/2025-03-27_16-05-13-faf940709a9700869decc4a7c3f9159f.png",
+        "assets/英語問題集1_files/2025-03-27_16-05-14-52ed1807140635ae114c6a8e181739bc.png"
+      ],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "linked-question",
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-010",
+      "sourceQuestionNumber": 10,
+      "promptHtml": "<p>次のリソースを含む Azure サブスクリプションがあります:</p><ol><li><p><strong>App1</strong>、Azure App Service アプリケーション</p></li><li><p><strong>Workspace1</strong>、従量課金制で構成された Log Analytics ワークスペース層</p></li><li><p><strong>App1Logs</strong>、次の Log Analytics テーブル:</p><ul><li><p><strong>Workspace1</strong></p> でホストされている</li><li><p><strong>Analytics ログ</strong> データを使用します。計画</p></li></ul></li></ol><p><strong>App1</strong> によって生成されたログ データは、<strong>App1Logs</strong> に収集され、1 日あたりの平均取り込み量は約 <strong>120 GB</strong> になります。</p><p>エラー メッセージが検出されたときにトリガーされる <strong>Azure Monitor アラート</strong>を構成しました。 <strong>App1</strong> ログ。</p><p><strong>App1</strong> に関連する<strong>Log Analytics コスト</strong>を削減する必要があります。ソリューションは次の要件を満たす必要があります。</p><ul><li><p><strong>App1</strong> によって生成されたすべてのログ データは、引き続き <strong>App1Logs</strong> に取り込まれる必要があります。</p></li><li><p>既存の<strong>Azure Monitor アラート</strong>への影響は最小限に抑える必要があります。</p></li></ul><p> <strong>リソース</strong>を変更する必要がありますか。</p>",
+      "promptText": "次のリソースを含む Azure サブスクリプションがあります:\n・App1、Azure App Service アプリケーション\n\n・Workspace1、従量課金制で構成された Log Analytics ワークスペース層\n\n・App1Logs、次の Log Analytics テーブル:\n・Workspace1\n でホストされている\n・Analytics ログ データ プランを使用します\n\nApp1 によって生成されたログ データは、App1Logs に収集され、1 日あたりの平均取り込み量は約 120 GB になります。\nApp1 のログでエラー メッセージが検出されたときにトリガーされる Azure Monitor アラート を構成しました。\nApp1 に関連する Log Analytics コストを削減する必要があります。ソリューションは次の要件を満たす必要があります。\n・App1 によって生成されたすべてのログ データは、引き続き App1Logs に取り込まれる必要があります。\n\n・既存のAzure Monitor アラートへの影響は最小限に抑える必要があります。\nどのリソースを変更する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-010-c1",
+          "label": null,
+          "text": "App1",
+          "html": "App1"
+        },
+        {
+          "choiceId": "en1-q-010-c2",
+          "label": null,
+          "text": "App1 ログ",
+          "html": "App1 ログ"
+        },
+        {
+          "choiceId": "en1-q-010-c3",
+          "label": null,
+          "text": "Workspace1",
+          "html": "Workspace1"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-010-c3"
+      ],
+      "explanationHtml": "<p>Workspace1 が正解です。Workspace1 が Azure の App1 からのすべてのログのメイン ハブです。</p><p>App1 は誤りです。アプリケーション App1 を変更しても、Log Analytics のコストやデータ取り込み効率には直接影響しません。</p><p>App1 ログ は誤りです。App1 ログが Workspace1 内のログ データ用の割り当てられたリポジトリとして機能する Azure Monitor セットアップでは、Analytics ログ データ プランを適用した場合でも、App1 ログへの直接変更は限定的な制御しか提供しません。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/app-service/overview-monitoring\">https://learn.microsoft.com/en-us/azure/app-service/overview-monitoring</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/cost-logs#commitment-tiers\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/cost-logs#commitment-tiers</a></p></li></ul>",
+      "explanationText": "正解はWorkspace1 です。Workspace1 が Azure の App1 からのすべてのログのメイン ハブです。\nApp1 は誤りです。アプリケーション App1 を変更しても、Log Analytics のコストやデータ取り込み効率には直接影響しません。\nApp1 ログ は誤りです。App1 ログが Workspace1 内のログ データ用の割り当てられたリポジトリとして機能する Azure Monitor セットアップでは、Analytics ログ データ プランを適用した場合でも、App1 ログへの直接変更は限定的な制御しか提供しません。\n参考:\n・https://learn.microsoft.com/en-us/azure/app-service/overview-monitoring\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/cost-logs#commitment-tiers",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    }
+  ]
+}

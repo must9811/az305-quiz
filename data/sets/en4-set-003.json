@@ -1,0 +1,411 @@
+{
+  "setId": "en4-set-003",
+  "title": "英語問題集4 翻訳版 21-30",
+  "sourceHtml": "assets/英語問題集4.html",
+  "questionIds": [
+    "en4-q-021",
+    "en4-q-022",
+    "en4-q-023",
+    "en4-q-024",
+    "en4-q-025",
+    "en4-q-026",
+    "en4-q-027",
+    "en4-q-028",
+    "en4-q-029",
+    "en4-q-030"
+  ],
+  "questions": [
+    {
+      "questionId": "en4-q-021",
+      "sourceQuestionNumber": 21,
+      "promptHtml": "<p>あなたは、Server1 という名前の Azure Database for MySQL フレキシブル サーバーを米国東部 Azure リージョンにデプロイすることを計画しています。</p><p>Server1 のビジネス継続性戦略を設計する必要があります。このソリューションでは、ペアになっている Azure リージョンへのフェールオーバーが発生した場合のサービスのダウンタイムを最小限に抑える必要があります。</p><p>どのようなアクションを実行する必要がありますか。</p>",
+      "promptText": "あなたは、Server1 という名前の Azure Database for MySQL フレキシブル サーバーを米国東部 Azure リージョンにデプロイすることを計画しています。\nServer1 のビジネス継続性戦略を設計する必要があります。このソリューションでは、ペアになっている Azure リージョンへのフェールオーバーが発生した場合のサービスのダウンタイムを最小限に抑える必要があります。\nどのようなアクションを実行する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-021-c1",
+          "label": null,
+          "text": "サーバーの読み取り専用レプリカを構成します。",
+          "html": "<p>サーバーの読み取り専用レプリカを構成します。</p>"
+        },
+        {
+          "choiceId": "en4-q-021-c2",
+          "label": null,
+          "text": "データベース ファイルを Azure プレミアム ファイル共有に保存します。",
+          "html": "データベース ファイルを Azure プレミアム ファイル共有に保存します。"
+        },
+        {
+          "choiceId": "en4-q-021-c3",
+          "label": null,
+          "text": "有効にする",
+          "html": "<p>有効にする</p>"
+        },
+        {
+          "choiceId": "en4-q-021-c4",
+          "label": null,
+          "text": "ネイティブ MySQL レプリケーションを設定します。",
+          "html": "<p>ネイティブ MySQL レプリケーションを設定します。</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-021-c3"
+      ],
+      "explanationHtml": "<p>地理冗長バックアップを有効にする は、Azure Database for MySQL – フレキシブル サーバーが地理冗長バックアップをサポートしているため正しいです。(Geo-RA-GRS) により、地域的な障害が発生した場合に、別の地域にサーバーを復元できます。</p><p>地理冗長バックアップはペアになった Azure リージョンに保存されるため、障害発生時にサーバーとデータを手動で復元できます。</p><p>サーバーの読み取り専用レプリカを構成する は誤りです。リードレプリカは高可用性やフェイルオーバーではなく、読み取り専用のスケーリングに使用されるためです。</p><p>データベース ファイルを Azure プレミアム ファイル共有に保存する は誤りです。これは、これは Azure Database for MySQL でサポートされていないためです。</p><p>ネイティブ MySQL レプリケーションのセットアップ は誤りです。これは、自己管理型 MySQL 環境では技術的には可能ですが、Azure Database for MySQL – フレキシブル サーバーは、リージョンをまたがるフレキシブル サーバー間のユーザー構成のネイティブ レプリケーションをサポートしていないためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-backup-restore\">https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-backup-restore</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-high-availability\">https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-high-availability</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-read-replicas\">https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-read-replicas</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-business-continuity\">https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-business-continuity</a></p></li></ul>",
+      "explanationText": "地理冗長バックアップを有効にする は、Azure Database for MySQL – フレキシブル サーバーが地理冗長バックアップをサポートしているため正しいです。(Geo-RA-GRS) により、地域的な障害が発生した場合に、別の地域にサーバーを復元できます。\n地理冗長バックアップはペアになった Azure リージョンに保存されるため、障害発生時にサーバーとデータを手動で復元できます。\nサーバーの読み取り専用レプリカを構成する は誤りです。リードレプリカは高可用性やフェイルオーバーではなく、読み取り専用のスケーリングに使用されるためです。\nデータベース ファイルを Azure プレミアム ファイル共有に保存する は誤りです。これは、これは Azure Database for MySQL でサポートされていないためです。\nネイティブ MySQL レプリケーションのセットアップ は誤りです。これは、自己管理型 MySQL 環境では技術的には可能ですが、Azure Database for MySQL – フレキシブル サーバーは、リージョンをまたがるフレキシブル サーバー間のユーザー構成のネイティブ レプリケーションをサポートしていないためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-backup-restore\n\n・https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-high-availability\n\n・https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-read-replicas\n\n・https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-business-continuity",
+      "images": [],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en4-q-022",
+      "sourceQuestionNumber": 22,
+      "promptHtml": "<p>オンプレミスの MySQL データベースを <strong>Azure Database for MySQL フレキシブル サーバー</strong>に移行することを計画しています。</p><p>Azure Database for MySQL フレキシブル サーバーに適切なコンピューティング層構成を推奨する必要があります。ソリューションは次の要件を満たす必要があります。</p><ul><li><p>データセンターが停止した場合でもデータベースにアクセスできるようにする</p></li><li><p>全体的なコストを最小限に抑える</p></li></ul><p>どのコンピューティング層を推奨しますか。</p>",
+      "promptText": "オンプレミスの MySQL データベースを Azure Database for MySQL フレキシブル サーバーに移行することを計画しています。\nAzure Database for MySQL フレキシブル サーバーに適切なコンピューティング層構成を推奨する必要があります。ソリューションは次の要件を満たす必要があります。\n・データセンターが停止した場合でもデータベースにアクセスできるようにする\n\n・全体的なコストを最小限に抑える\n\nどのコンピューティング層を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-022-c1",
+          "label": null,
+          "text": "バースト可能",
+          "html": "バースト可能"
+        },
+        {
+          "choiceId": "en4-q-022-c2",
+          "label": null,
+          "text": "一般目的",
+          "html": "一般目的"
+        },
+        {
+          "choiceId": "en4-q-022-c3",
+          "label": null,
+          "text": "メモリ最適化",
+          "html": "メモリ最適化"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-022-c2"
+      ],
+      "explanationHtml": "<p>汎用 は、MySQL データベースを含むほとんどの実稼働ワークロードに適したバランスの取れたコンピューティングとメモリ構成を提供するため正解です。最も重要なのは、Azure Database for MySQL – フレキシブル サーバーの汎用レベルがゾーン冗長高可用性 (HA) をサポートしていることです。</p><p>コストの点では、汎用はパフォーマンスと価格のバランスが取れており、高可用性をサポートし続ける最もコスト効率の高いオプションとなっています。</p><p>バースト可能は、軽量、開発、または使用頻度の低いワークロードを対象としているため、不正確です。高可用性やゾーン冗長性はサポートされていないため、データセンターの障害時にアクセシビリティを維持するという要件は満たされません。</p><p>メモリ最適化 は誤りです。これは、高可用性をサポートしている一方で、高性能でメモリを大量に使用するワークロード向けに設計されており、コストが高くなります。</p><p>参考資料:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-compute-storage\">https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-compute-storage</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-high-availability\">https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-high-availability</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/mysql/flexible-server/overview\">https://learn.microsoft.com/en-us/azure/mysql/flexible-server/overview</a></p></li></ul>",
+      "explanationText": "汎用 は、MySQL データベースを含むほとんどの実稼働ワークロードに適したバランスの取れたコンピューティングとメモリ構成を提供するため正解です。最も重要なのは、Azure Database for MySQL – フレキシブル サーバーの汎用レベルがゾーン冗長高可用性 (HA) をサポートしていることです。\nコストの点では、汎用はパフォーマンスと価格のバランスが取れており、高可用性をサポートし続ける最もコスト効率の高いオプションとなっています。\nバースト可能は、軽量、開発、または使用頻度の低いワークロードを対象としているため、不正確です。高可用性やゾーン冗長性はサポートされていないため、データセンターの障害時にアクセシビリティを維持するという要件は満たされません。\nメモリ最適化 は誤りです。これは、高可用性をサポートしている一方で、高性能でメモリを大量に使用するワークロード向けに設計されており、コストが高くなります。\n参考資料:\n・https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-compute-storage\n\n・https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-high-availability\n\n・https://learn.microsoft.com/en-us/azure/mysql/flexible-server/overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en4-q-023",
+      "sourceQuestionNumber": 23,
+      "promptHtml": "<p>あなたは、従業員の個人識別情報 (PII) を保存する Azure ベースの Web アプリケーションを開発しています。</p><p>アプリケーションには Azure SQL データベース構成を推奨する必要があります。提案されたソリューションは次の要件を満たす必要があります。</p><ul><li><p>単一のデータセンターが停止した場合でも利用可能な状態を維持する</p></li><li><p>PII を含むデータの列レベルでの暗号化を許可する</p></li><li><p>給与計算期間中にコンピューティング リソースを自動的にスケールする</p></li><li><p>運用コストを最小限に抑える可能</p></li></ul><p>推奨事項にどの<code>サービス レベルとコンピューティング レベル</code>を含めるべきですか。</p>",
+      "promptText": "あなたは、従業員の個人識別情報 (PII) を保存する Azure ベースの Web アプリケーションを開発しています。\nアプリケーションには Azure SQL データベース構成を推奨する必要があります。提案されたソリューションは次の要件を満たす必要があります。\n・単一のデータセンターが停止した場合でも利用可能な状態を維持する\n\n・PII を含むデータの列レベルでの暗号化を許可する\n\n・給与計算期間中にコンピューティング リソースを自動的にスケールする\n\n・運用コストを最小限に抑える可能\n\n推奨事項にどのサービス レベルとコンピューティング レベルを含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-023-c1",
+          "label": null,
+          "text": "サーバーレス コンピューティング レベルを備えた Business Critical サービス レベル",
+          "html": "<p>サーバーレス コンピューティング レベルを備えた Business Critical サービス レベル</p>"
+        },
+        {
+          "choiceId": "en4-q-023-c2",
+          "label": null,
+          "text": "サーバーレス コンピューティングを備えた汎用サービス レベル層",
+          "html": "<p>サーバーレス コンピューティングを備えた汎用サービス レベル層</p>"
+        },
+        {
+          "choiceId": "en4-q-023-c3",
+          "label": null,
+          "text": "プロビジョニングされたコンピューティング層を備えたハイパースケール サービス層",
+          "html": "<p>プロビジョニングされたコンピューティング層を備えたハイパースケール サービス層</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-023-c2"
+      ],
+      "explanationHtml": "<p>サーバーレス コンピューティング層を備えた汎用サービス層は、シナリオのすべての要件を最小限に抑えながら最もよく満たされるため、正解です。コスト:</p><ul><li><p>単一のデータセンターが停止した場合でも可用性を維持する: 汎用レベルはゾーン冗長構成 (ZRC) をサポートしており、可用性ゾーン全体で高可用性を提供し、単一のデータセンターの障害に対する復元力を確保します。</p></li><li><p>PII を含む特定の列の暗号化をサポート: すべての Azure SQL データベース層は Always Encrypted をサポートしており、列レベルの暗号化が可能で、個人識別情報 (PII) の保護に最適です。</p></li><li><p>給与計算操作中に自動的にスケールアップ: サーバーレス コンピューティング層では、ワークロードの需要に基づいてコンピューティング リソースの自動スケーリングが可能で、自動一時停止がサポートされているため、コスト効率が高く動的になり、特に給与計算などの急激なワークロードに役立ちます。</p></li><li><p>コストを最小限に抑える: 汎用レベルのサーバーレスは、ビジネス クリティカル レベルやハイパースケール レベルよりも安価で、断続的または変動するワークロード向けに設計されており、パフォーマンスとコスト制御の両方を提供します。</p></li></ul><p>サーバーレス コンピューティング レベルを備えたビジネス クリティカル サービス レベルは、 Business Critical 層はサーバーレス コンピューティングをサポートしていないため不正解です。さらに、Business Critical はより高価であり、低遅延、高スループットのニーズを持つミッションクリティカルなワークロードを対象としており、コストの制約を超えています。</p><p>プロビジョニングされたコンピューティング層を備えたハイパースケール サービス層 は誤りです。ハイパースケールは高いスケーラビリティを提供しますが、一般的な Web アプリのワークロードに対してコスト効率が低く、サーバーレス コンピューティングをサポートしていないためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql</a></p></li></ul>",
+      "explanationText": "サーバーレス コンピューティング層を備えた汎用サービス層は、シナリオのすべての要件を最小限に抑えながら最もよく満たされるため、正解です。コスト:\n・単一のデータセンターが停止した場合でも可用性を維持する: 汎用レベルはゾーン冗長構成 (ZRC) をサポートしており、可用性ゾーン全体で高可用性を提供し、単一のデータセンターの障害に対する復元力を確保します。\n\n・PII を含む特定の列の暗号化をサポート: すべての Azure SQL データベース層は Always Encrypted をサポートしており、列レベルの暗号化が可能で、個人識別情報 (PII) の保護に最適です。\n\n・給与計算操作中に自動的にスケールアップ: サーバーレス コンピューティング層では、ワークロードの需要に基づいてコンピューティング リソースの自動スケーリングが可能で、自動一時停止がサポートされているため、コスト効率が高く動的になり、特に給与計算などの急激なワークロードに役立ちます。\n\n・コストを最小限に抑える: 汎用レベルのサーバーレスは、ビジネス クリティカル レベルやハイパースケール レベルよりも安価で、断続的または変動するワークロード向けに設計されており、パフォーマンスとコスト制御の両方を提供します。\n\nサーバーレス コンピューティング レベルを備えたビジネス クリティカル サービス レベルは、 Business Critical 層はサーバーレス コンピューティングをサポートしていないため不正解です。さらに、Business Critical はより高価であり、低遅延、高スループットのニーズを持つミッションクリティカルなワークロードを対象としており、コストの制約を超えています。\nプロビジョニングされたコンピューティング層を備えたハイパースケール サービス層 は誤りです。ハイパースケールは高いスケーラビリティを提供しますが、一般的な Web アプリのワークロードに対してコスト効率が低く、サーバーレス コンピューティングをサポートしていないためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-linked-001",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en4-q-024",
+      "sourceQuestionNumber": 24,
+      "promptHtml": "<p>あなたは、従業員の個人識別情報 (PII) を保存する Azure ベースの Web アプリケーションを開発しています。</p><p>アプリケーションには Azure SQL データベース構成を推奨する必要があります。提案されたソリューションは次の要件を満たす必要があります。</p><ul><li><p>単一のデータセンターが停止した場合でも利用可能な状態を維持する</p></li><li><p>PII を含むデータの列レベルでの暗号化を許可する</p></li><li><p>給与計算期間中にコンピューティング リソースを自動的にスケールする</p></li><li><p>運用コストを可能な限り低く抑える</p></li></ul><p>内容<code>暗号化方式</code><strong> </strong>推奨事項に含めるべきですか。</p>",
+      "promptText": "あなたは、従業員の個人識別情報 (PII) を保存する Azure ベースの Web アプリケーションを開発しています。\nアプリケーションには Azure SQL データベース構成を推奨する必要があります。提案されたソリューションは次の要件を満たす必要があります。\n・単一のデータセンターが停止した場合でも利用可能な状態を維持する\n\n・PII を含むデータの列レベルでの暗号化を許可する\n\n・給与計算期間中にコンピューティング リソースを自動的にスケールする\n\n・運用コストを可能な限り低く抑える\n\n内容暗号化方式 推奨事項に含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-024-c1",
+          "label": null,
+          "text": "常に暗号化",
+          "html": "常に暗号化"
+        },
+        {
+          "choiceId": "en4-q-024-c2",
+          "label": null,
+          "text": "Microsoft SQL サーバーおよびデータベースの暗号化キー",
+          "html": "Microsoft SQL サーバーおよびデータベースの暗号化キー"
+        },
+        {
+          "choiceId": "en4-q-024-c3",
+          "label": null,
+          "text": "透過的データ暗号化(TDE)",
+          "html": "透過的データ暗号化(TDE)"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-024-c1"
+      ],
+      "explanationHtml": "<p>常に暗号化 は正解です。これは、データベース内の特定の列を暗号化することで、個人を特定できる情報 (PII) などの機密データを保護するように特別に設計されているためです。</p><p>これは次の要件に一致します。</p><ul><li><p>PII を含む特定の列を暗号化する</p></li><li><p>処理中だけでなく、処理中に機密データを保護するrest</p></li><li><p>厳格なデータ プライバシー標準への準拠を確認する</p></li></ul><p>Microsoft SQL サーバーとデータベースの暗号化キーは一般的な説明であるため不正確であり、SQL サーバーはいくつかの暗号化機能をサポートしていますが、このオプションは、 Azure SQL データベースは、個々の列を暗号化するための特定の要件を満たしていません。</p><p>透過的データ暗号化 (TDE) は誤りです。TDE は、Azure SQL データベースではデフォルトで有効になっており、保存時にデータベース全体を暗号化しますが、特定の列を暗号化したり、使用中のデータを保護したりすることはありません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver16\">https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver16</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/encryption-hierarchy?view=sql-server-ver15\">https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/encryption-hierarchy?view=sql-server-ver15</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=azuresql&amp;tabs=azure-portal\">https://learn.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=azuresql&amp;tabs=azure-portal</a></p></li></ul>",
+      "explanationText": "常に暗号化 は正解です。これは、データベース内の特定の列を暗号化することで、個人を特定できる情報 (PII) などの機密データを保護するように特別に設計されているためです。\nこれは次の要件に一致します。\n・PII を含む特定の列を暗号化する\n\n・処理中だけでなく、処理中に機密データを保護するrest\n\n・厳格なデータ プライバシー標準への準拠を確認する\n\nMicrosoft SQL サーバーとデータベースの暗号化キーは一般的な説明であるため不正確であり、SQL サーバーはいくつかの暗号化機能をサポートしていますが、このオプションは、 Azure SQL データベースは、個々の列を暗号化するための特定の要件を満たしていません。\n透過的データ暗号化 (TDE) は誤りです。TDE は、Azure SQL データベースではデフォルトで有効になっており、保存時にデータベース全体を暗号化しますが、特定の列を暗号化したり、使用中のデータを保護したりすることはありません。\n参照:\n・https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver16\n\n・https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/encryption-hierarchy?view=sql-server-ver15\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=azuresql&tabs=azure-portal",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-linked-001",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en4-q-025",
+      "sourceQuestionNumber": 25,
+      "promptHtml": "<p>App1 という名前のアプリケーションがあり、現在 DB1 というオンプレミスの Microsoft SQL サーバー データベースに接続しています。</p><p>DB1 を Azure SQL マネージド インスタンスに移行する予定です。</p><p>構成する必要があります。マネージド インスタンスの顧客管理の透過的データ暗号化 (TDE)。このソリューションでは、可能な限り最高レベルの暗号化強度が提供される必要があります。</p><p>TDE プロテクターにはどの暗号化アルゴリズムとキー長を選択する必要がありますか。</p>",
+      "promptText": "App1 という名前のアプリケーションがあり、現在 DB1 というオンプレミスの Microsoft SQL サーバー データベースに接続しています。\nDB1 を Azure SQL マネージド インスタンスに移行する予定です。\n構成する必要があります。マネージド インスタンスの顧客管理の透過的データ暗号化 (TDE)。このソリューションでは、可能な限り最高レベルの暗号化強度が提供される必要があります。\nTDE プロテクターにはどの暗号化アルゴリズムとキー長を選択する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-025-c1",
+          "label": null,
+          "text": "RSA 3072",
+          "html": "RSA 3072"
+        },
+        {
+          "choiceId": "en4-q-025-c2",
+          "label": null,
+          "text": "AES 256",
+          "html": "AES 256"
+        },
+        {
+          "choiceId": "en4-q-025-c3",
+          "label": null,
+          "text": "RSA 4096",
+          "html": "RSA 4096"
+        },
+        {
+          "choiceId": "en4-q-025-c4",
+          "label": null,
+          "text": "RSA 2048",
+          "html": "RSA 2048"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-025-c1"
+      ],
+      "explanationHtml": "<p>RSA 3072 は、強力な暗号化キーの長さを提供し、Azure SQL データベースと Azure SQL マネージド インスタンスでサポートされているため、正解です。TDE プロテクター (データベース暗号化キーの暗号化に使用される、Azure Key Vault に保存されている非対称キー)。</p><p>RSA 2048 は誤りです。顧客管理の TDE での使用がサポートされていますが、提供される暗号化強度は RSA 3072 よりも低いためです。</p><p>AES 256 は誤りです。AES は対称アルゴリズムであり、データベース暗号化キー (DEK) 自体の暗号化に使用されるためです。</p><p>RSA 4096 は誤りです。これは、より高い暗号化強度を提供しているにもかかわらず、Azure SQL データベースと Azure が理由です。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-byok-overview\">https://learn.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-byok-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/key-vault/keys/about-keys#supported-key-types-and-sizes\">https://learn.microsoft.com/en-us/azure/key-vault/keys/about-keys#supported-key-types-and-sizes</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=azuresql&amp;tabs=azure-portal\">https://learn.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=azuresql&amp;tabs=azure-portal</a></p></li></ul>",
+      "explanationText": "RSA 3072 は、強力な暗号化キーの長さを提供し、Azure SQL データベースと Azure SQL マネージド インスタンスでサポートされているため、正解です。TDE プロテクター (データベース暗号化キーの暗号化に使用される、Azure Key Vault に保存されている非対称キー)。\nRSA 2048 は誤りです。顧客管理の TDE での使用がサポートされていますが、提供される暗号化強度は RSA 3072 よりも低いためです。\nAES 256 は誤りです。AES は対称アルゴリズムであり、データベース暗号化キー (DEK) 自体の暗号化に使用されるためです。\nRSA 4096 は誤りです。これは、より高い暗号化強度を提供しているにもかかわらず、Azure SQL データベースと Azure が理由です。\n参照:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-byok-overview\n\n・https://learn.microsoft.com/en-us/azure/key-vault/keys/about-keys#supported-key-types-and-sizes\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=azuresql&tabs=azure-portal",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en4-q-026",
+      "sourceQuestionNumber": 26,
+      "promptHtml": "<p>あなたは、Azure Cosmos DB を使用して複数の国からの販売データを集約するソリューションを設計しています。</p><p>最適な Azure Cosmos DB API を推奨する必要があります。ソリューションは次の要件を満たす必要があります。</p><ul><li><p>SQL ベースのクエリをサポートする</p></li><li><p>リージョン間の地理レプリケーションをサポートする</p></li><li><p>リレーショナル スタイル モデルを使用してデータを保存およびアクセスする</p></li></ul><p>どの API を推奨しますか。</p>",
+      "promptText": "あなたは、Azure Cosmos DB を使用して複数の国からの販売データを集約するソリューションを設計しています。\n最適な Azure Cosmos DB API を推奨する必要があります。ソリューションは次の要件を満たす必要があります。\n・SQL ベースのクエリをサポートする\n\n・リージョン間の地理レプリケーションをサポートする\n\n・リレーショナル スタイル モデルを使用してデータを保存およびアクセスする\n\nどの API を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-026-c1",
+          "label": null,
+          "text": "Apache Cassandra",
+          "html": "Apache Cassandra"
+        },
+        {
+          "choiceId": "en4-q-026-c2",
+          "label": null,
+          "text": "PostgreSQL",
+          "html": "PostgreSQL"
+        },
+        {
+          "choiceId": "en4-q-026-c3",
+          "label": null,
+          "text": "MongoDB",
+          "html": "MongoDB"
+        },
+        {
+          "choiceId": "en4-q-026-c4",
+          "label": null,
+          "text": "NoSQL",
+          "html": "NoSQL"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-026-c2"
+      ],
+      "explanationHtml": "<p>PostgreSQL はAzure Cosmos DB for PostgreSQL はリレーショナル データ モデリングを可能にし、標準の ANSI SQL クエリをサポートし、分散データベース機能のために Citus で強化されたオープンソース PostgreSQL 上に構築されているため正解です。また、複数の Azure リージョンにわたる geo レプリケーションと高可用性もサポートしているため、リレーショナル構造を使用して複数の国の販売データを照合およびクエリするのに最適です。</p><p>Apache Cassandra は誤りです。これは、geo レプリケーションをサポートしていますが、ワイド列 NoSQL データベースであり、CQL (Cassandra Query Language) を使用しているためです。</p><p>MongoDB は誤りです。Cosmos DB MongoDB API はリレーショナル データ モデルではなくドキュメント ベースのストレージをサポートしているためです。</p><p>NoSQL は、Cosmos DB NoSQL (Core/SQL) であるため不正確です。API は SQL のような構文をサポートしますが、これはドキュメント データベースであり、リレーショナル データベースではありません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/introduction\">https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/query/\">https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/query/</a></p></li></ul>",
+      "explanationText": "PostgreSQL はAzure Cosmos DB for PostgreSQL はリレーショナル データ モデリングを可能にし、標準の ANSI SQL クエリをサポートし、分散データベース機能のために Citus で強化されたオープンソース PostgreSQL 上に構築されているため正解です。また、複数の Azure リージョンにわたる geo レプリケーションと高可用性もサポートしているため、リレーショナル構造を使用して複数の国の販売データを照合およびクエリするのに最適です。\nApache Cassandra は誤りです。これは、geo レプリケーションをサポートしていますが、ワイド列 NoSQL データベースであり、CQL (Cassandra Query Language) を使用しているためです。\nMongoDB は誤りです。Cosmos DB MongoDB API はリレーショナル データ モデルではなくドキュメント ベースのストレージをサポートしているためです。\nNoSQL は、Cosmos DB NoSQL (Core/SQL) であるため不正確です。API は SQL のような構文をサポートしますが、これはドキュメント データベースであり、リレーショナル データベースではありません。\n参照:\n・https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/introduction\n\n・https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/query/",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en4-q-027",
+      "sourceQuestionNumber": 27,
+      "promptHtml": "<p>あなたの組織は、ニューヨーク市、シドニー、パリ、ヨハネスブルグでオフィスを運営しており、単一の Azure サブスクリプションを使用しています。</p><p>次の要件を満たす必要がある新しい Azure ネットワーキング アーキテクチャを設計しています。</p><ul><li><p>米国東部、東南アジア、北ヨーロッパ、南アフリカの Azure リージョンに展開されている ExpressRoute 回線に接続する</p></li><li><p>ネットワークを削減する3 つのリージョンでの接続を有効にすることで遅延を軽減します</p></li><li><p>サイト間 VPN 接続をサポートします</p></li><li><p>全体のコストを可能な限り低く抑える</p></li></ul><p>展開する必要がある <code>Azure Virtual WAN ハブの最小数</code>は何ですか。</p>",
+      "promptText": "あなたの組織は、ニューヨーク市、シドニー、パリ、ヨハネスブルグでオフィスを運営しており、単一の Azure サブスクリプションを使用しています。\n次の要件を満たす必要がある新しい Azure ネットワーキング アーキテクチャを設計しています。\n・米国東部、東南アジア、北ヨーロッパ、南アフリカの Azure リージョンに展開されている ExpressRoute 回線に接続する\n\n・ネットワークを削減する3 つのリージョンでの接続を有効にすることで遅延を軽減します\n\n・サイト間 VPN 接続をサポートします\n\n・全体のコストを可能な限り低く抑える\n\n展開する必要がある Azure Virtual WAN ハブの最小数は何ですか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-027-c1",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "en4-q-027-c2",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "en4-q-027-c3",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        },
+        {
+          "choiceId": "en4-q-027-c4",
+          "label": null,
+          "text": "4",
+          "html": "4"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-027-c3"
+      ],
+      "explanationHtml": "<p>3 は、Azure Virtual WAN が必要とするため正解です。リージョンごとに少なくとも 1 つのハブをデプロイして、待機時間を最小限に抑えながら ExpressRoute 接続をサポートします。</p><ul><li><p>4 つの Azure リージョン (米国東部、東南アジア、北ヨーロッパ、南アフリカ) の ExpressRoute 回線に接続する</p></li><li><p>3 つのリージョンでの接続をサポートすることで遅延を最小限に抑える</p></li><li><p>サイト間 VPN 接続をサポートする</p></li><li><p>コストを最小限に抑える</p></li></ul><p>少なくとも 3 つの Virtual WAN ハブ。それぞれが戦略的に選択された Azure リージョンに配置され、最も近いオフィスと ExpressRoute 回線に低遅延でサービスを提供できます。</p><p>例:</p><ul><li><p>ニューヨーク オフィス用の米国東部のハブ</p></li><li><p>シドニー用の東南アジアのハブオフィス</p></li><li><p>パリまたはヨハネスブルグのいずれかにサービスを提供する、北ヨーロッパまたは南アフリカのハブ (ただし、ハブ数を 3 に保つために両方にサービスを提供することはできません)</p></li></ul><p>この設定は、すべての ExpressRoute 接続をカバーしながら、「 3 つのリージョンでの接続」と「コストの最小化」の要件を満たします。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about\">https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-faq\">https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-faq</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/expressroute/expressroute-global-reach\">https://learn.microsoft.com/en-us/azure/expressroute/expressroute-global-reach</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-global-transit-network-architecture\">https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-global-transit-network-architecture</a></p></li></ul>",
+      "explanationText": "3 は、Azure Virtual WAN が必要とするため正解です。リージョンごとに少なくとも 1 つのハブをデプロイして、待機時間を最小限に抑えながら ExpressRoute 接続をサポートします。\n・4 つの Azure リージョン (米国東部、東南アジア、北ヨーロッパ、南アフリカ) の ExpressRoute 回線に接続する\n\n・3 つのリージョンでの接続をサポートすることで遅延を最小限に抑える\n\n・サイト間 VPN 接続をサポートする\n\n・コストを最小限に抑える\n\n少なくとも 3 つの Virtual WAN ハブ。それぞれが戦略的に選択された Azure リージョンに配置され、最も近いオフィスと ExpressRoute 回線に低遅延でサービスを提供できます。\n例:\n・ニューヨーク オフィス用の米国東部のハブ\n\n・シドニー用の東南アジアのハブオフィス\n\n・パリまたはヨハネスブルグのいずれかにサービスを提供する、北ヨーロッパまたは南アフリカのハブ (ただし、ハブ数を 3 に保つために両方にサービスを提供することはできません)\n\nこの設定は、すべての ExpressRoute 接続をカバーしながら、「 3 つのリージョンでの接続」と「コストの最小化」の要件を満たします。\n参照:\n・https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about\n\n・https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-faq\n\n・https://learn.microsoft.com/en-us/azure/expressroute/expressroute-global-reach\n\n・https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-global-transit-network-architecture",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-linked-004",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en4-q-028",
+      "sourceQuestionNumber": 28,
+      "promptHtml": "<p>あなたの組織は、ニューヨーク市、シドニー、パリ、ヨハネスブルグでオフィスを運営しており、単一の Azure サブスクリプションを使用しています。</p><p>次の要件を満たす必要がある新しい Azure ネットワーキング アーキテクチャを設計しています。</p><ul><li><p>米国東部、東南アジア、北ヨーロッパ、南アフリカの Azure リージョンに展開されている ExpressRoute 回線に接続する</p></li><li><p>ネットワークを削減する3 つのリージョンでの接続を有効にすることで遅延を軽減します</p></li><li><p>サイト間 VPN 接続をサポートします</p></li><li><p>全体のコストを可能な限り低く抑える</p></li></ul><p>どの <code>Virtual WAN SKU</code> を使用する必要がありますか。</p>",
+      "promptText": "あなたの組織は、ニューヨーク市、シドニー、パリ、ヨハネスブルグでオフィスを運営しており、単一の Azure サブスクリプションを使用しています。\n次の要件を満たす必要がある新しい Azure ネットワーキング アーキテクチャを設計しています。\n・米国東部、東南アジア、北ヨーロッパ、南アフリカの Azure リージョンに展開されている ExpressRoute 回線に接続する\n\n・ネットワークを削減する3 つのリージョンでの接続を有効にすることで遅延を軽減します\n\n・サイト間 VPN 接続をサポートします\n\n・全体のコストを可能な限り低く抑える\n\nどの Virtual WAN SKU を使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-028-c1",
+          "label": null,
+          "text": "Basic",
+          "html": "Basic"
+        },
+        {
+          "choiceId": "en4-q-028-c2",
+          "label": null,
+          "text": "Standard",
+          "html": "Standard"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-028-c2"
+      ],
+      "explanationHtml": "<p>Standard は正解です。これは、Azure Virtual WAN の Standard SKU のみが、シナリオで必要な次の機能をすべてサポートしているためです。</p><ul><li><p>複数の Azure にわたる ExpressRoute 回線への接続リージョン (Basic SKU は、単一リージョン内でのみ ExpressRoute をサポートします)。</p></li><li><p>ブランチ間およびマルチリージョン VPN 接続を含む、サイト間 VPN サポート。</p></li><li><p>リージョン間接続。 3 つの戦略的リージョン に展開することで、WAN ハブがリージョン間で通信し、遅延を削減できるようになります。</p></li><li><p>グローバル トランジット アーキテクチャ。ニューヨーク市、シドニー、パリ、 ヨハネスブルグのオフィスを接続するために必要です。</p></li></ul><p>ベーシック SKU はExpressRoute、マルチリージョン接続、ハブ間通信をサポートしていないため、シナリオを満たすことができません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about\">https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-faq\">https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-faq</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-global-transit-network-architecture\">https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-global-transit-network-architecture</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-wan/upgrade-virtual-wan\">https://learn.microsoft.com/en-us/azure/virtual-wan/upgrade-virtual-wan</a></p></li></ul>",
+      "explanationText": "Standard は正解です。これは、Azure Virtual WAN の Standard SKU のみが、シナリオで必要な次の機能をすべてサポートしているためです。\n・複数の Azure にわたる ExpressRoute 回線への接続リージョン (Basic SKU は、単一リージョン内でのみ ExpressRoute をサポートします)。\n\n・ブランチ間およびマルチリージョン VPN 接続を含む、サイト間 VPN サポート。\n\n・リージョン間接続。 3 つの戦略的リージョン に展開することで、WAN ハブがリージョン間で通信し、遅延を削減できるようになります。\n\n・グローバル トランジット アーキテクチャ。ニューヨーク市、シドニー、パリ、 ヨハネスブルグのオフィスを接続するために必要です。\n\nベーシック SKU はExpressRoute、マルチリージョン接続、ハブ間通信をサポートしていないため、シナリオを満たすことができません。\n参照:\n・https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about\n\n・https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-faq\n\n・https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-global-transit-network-architecture\n\n・https://learn.microsoft.com/en-us/azure/virtual-wan/upgrade-virtual-wan",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-linked-004",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en4-q-029",
+      "sourceQuestionNumber": 29,
+      "promptHtml": "<p>あなたは、複数のサイトに展開される販売時点管理 (POS) ソリューションを設計しています。このソリューションでは、Standard レベルで実行されている Azure Databricks ワークスペースを使用します。いくつかのアプリケーションが各場所のオンプレミス ネットワーク内で実行されます。</p><p>アプリケーションが Databricks ワークスペースにアクセスするために使用する認証メカニズムを定義する必要があります。このソリューションにより、従業員の離職や継続的な資格情報管理に関連する管理オーバーヘッドが削減されるはずです。</p><p>何を構成する必要がありますか。</p>",
+      "promptText": "あなたは、複数のサイトに展開される販売時点管理 (POS) ソリューションを設計しています。このソリューションでは、Standard レベルで実行されている Azure Databricks ワークスペースを使用します。いくつかのアプリケーションが各場所のオンプレミス ネットワーク内で実行されます。\nアプリケーションが Databricks ワークスペースにアクセスするために使用する認証メカニズムを定義する必要があります。このソリューションにより、従業員の離職や継続的な資格情報管理に関連する管理オーバーヘッドが削減されるはずです。\n何を構成する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-029-c1",
+          "label": null,
+          "text": "マネージド ID",
+          "html": "マネージド ID"
+        },
+        {
+          "choiceId": "en4-q-029-c2",
+          "label": null,
+          "text": "サービス プリンシパル",
+          "html": "サービス プリンシパル"
+        },
+        {
+          "choiceId": "en4-q-029-c3",
+          "label": null,
+          "text": "個人アクセス トークン",
+          "html": "個人アクセス トークン"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-029-c2"
+      ],
+      "explanationHtml": "<p>サービス プリンシパルは正解です。これは、アプリケーションがユーザー ベースの資格情報に依存せずに Azure Databricks に対して認証する安全かつスケーラブルな方法を提供するためです。</p><p>マネージド ID は、Azure Databricks Standard レベルでは認証用のマネージド ID がサポートされていないため不正確です。マネージド ID は主に Premium レベルで、Databricks が Key Vault や Data Lake などの Azure リソースに安全にアクセスできるようにするために使用されますが、Databricks ワークスペースに対するアプリの認証には使用されません。</p><p>個人アクセス トークン は、特定のユーザー アカウントに関連付けられているため不正確です。これにより、特に従業員の異動時に資格情報管理にオーバーヘッドが生じます。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/databricks/dev-tools/auth\">https://learn.microsoft.com/en-us/azure/databricks/dev-tools/auth</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/databricks/admin/users-groups/service-principals\">https://learn.microsoft.com/en-us/azure/databricks/admin/users-groups/service-principals</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/databricks/dev-tools/api/latest/authentication\">https://learn.microsoft.com/en-us/azure/databricks/dev-tools/api/latest/authentication</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals\">https://learn.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals</a></p></li></ul>",
+      "explanationText": "サービス プリンシパルは正解です。これは、アプリケーションがユーザー ベースの資格情報に依存せずに Azure Databricks に対して認証する安全かつスケーラブルな方法を提供するためです。\nマネージド ID は、Azure Databricks Standard レベルでは認証用のマネージド ID がサポートされていないため不正確です。マネージド ID は主に Premium レベルで、Databricks が Key Vault や Data Lake などの Azure リソースに安全にアクセスできるようにするために使用されますが、Databricks ワークスペースに対するアプリの認証には使用されません。\n個人アクセス トークン は、特定のユーザー アカウントに関連付けられているため不正確です。これにより、特に従業員の異動時に資格情報管理にオーバーヘッドが生じます。\n参照:\n・https://learn.microsoft.com/en-us/azure/databricks/dev-tools/auth\n\n・https://learn.microsoft.com/en-us/azure/databricks/admin/users-groups/service-principals\n\n・https://learn.microsoft.com/en-us/azure/databricks/dev-tools/api/latest/authentication\n\n・https://learn.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en4-q-030",
+      "sourceQuestionNumber": 30,
+      "promptHtml": "<p>あなたの組織は、北米とヨーロッパの複数の地域でオフィスを運営しており、そのインフラストラクチャを Azure に移行する準備をしています。</p><p>次の要件を満たす Azure 環境のネットワーク アーキテクチャを設計する必要があります。</p><ul><li><p>ポイント対サイト (P2S) 経由で接続するモバイル ユーザーは、VPN で最も近い Azure に自動的に接続する必要があります。リージョン</p></li><li><p>各地域オフィスは、ExpressRoute 回線を使用して、対応するローカル Azure リージョンに接続する必要があります。</p></li><li><p>仮想ネットワークとオンプレミス ネットワーク間で推移的ルーティングがサポートされている必要があります。</p></li><li><p>仮想ネットワーク間を流れるトラフィックは、完全修飾ドメイン名 (FQDN) に基づいてフィルター処理する必要があります。</p></li></ul><p>推奨事項。</p>",
+      "promptText": "あなたの組織は、北米とヨーロッパの複数の地域でオフィスを運営しており、そのインフラストラクチャを Azure に移行する準備をしています。\n次の要件を満たす Azure 環境のネットワーク アーキテクチャを設計する必要があります。\n・ポイント対サイト (P2S) 経由で接続するモバイル ユーザーは、VPN で最も近い Azure に自動的に接続する必要があります。リージョン\n\n・各地域オフィスは、ExpressRoute 回線を使用して、対応するローカル Azure リージョンに接続する必要があります。\n\n・仮想ネットワークとオンプレミス ネットワーク間で推移的ルーティングがサポートされている必要があります。\n\n・仮想ネットワーク間を流れるトラフィックは、完全修飾ドメイン名 (FQDN) に基づいてフィルター処理する必要があります。\n\n推奨事項。",
+      "choices": [
+        {
+          "choiceId": "en4-q-030-c1",
+          "label": null,
+          "text": "セキュリティで保護された仮想ハブで構成された Azure Virtual WAN",
+          "html": "<p>セキュリティで保護された仮想ハブで構成された Azure Virtual WAN</p>"
+        },
+        {
+          "choiceId": "en4-q-030-c2",
+          "label": null,
+          "text": "アプリケーション セキュリティ グループと組み合わせた仮想ネットワーク ピアリング",
+          "html": "<p>アプリケーション セキュリティ グループと組み合わせた仮想ネットワーク ピアリング</p>"
+        },
+        {
+          "choiceId": "en4-q-030-c3",
+          "label": null,
+          "text": "ネットワーク セキュリティ グループ (NSG) と組み合わせた仮想ネットワーク ゲートウェイ",
+          "html": "<p>ネットワーク セキュリティ グループ (NSG) と組み合わせた仮想ネットワーク ゲートウェイ</p>"
+        },
+        {
+          "choiceId": "en4-q-030-c4",
+          "label": null,
+          "text": "Azure Network Function Manager と一緒に使用される Azure Route Server",
+          "html": "<p>Azure Network Function Manager と一緒に使用される Azure Route Server</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-030-c1"
+      ],
+      "explanationHtml": "<p>セキュリティで保護された仮想ハブで構成された Azure Virtual WAN は、指定されたすべての要件をスケーラブルかつ一元的な方法で満たす唯一のソリューションであるため、正しいです。</p><ul><li><p>自動P2S 最も近い Azure リージョンへの VPN 接続は、Azure Virtual WAN のエニーキャスト IP 機能によってサポートされており、モバイル ユーザーは最も近い利用可能な VPN ゲートウェイにルーティングされます。</p></li><li><p>ExpressRoute 統合は Virtual WAN によってネイティブにサポートされており、各オフィスが独自の ExpressRoute 回線を介してローカルの Azure リージョンに接続できるようになります。</p></li><li><p>推移的ルーティングは Virtual で完全にサポートされています。ハブ アンド スポーク トポロジを介した WAN により、セキュリティで保護された仮想ハブを介したオンプレミスから VNet および VNet から VNet へのトラフィック フローが可能になります。</p></li><li><p>FQDN ベースのトラフィック フィルタリングは、Azure Firewall (セキュリティで保護された仮想ハブ内) を統合することによって提供され、FQDN を使用して仮想ネットワーク間のトラフィックを制御するアプリケーション ルールをサポートします。</p></li></ul><p>このアーキテクチャにより、一元化されたセキュリティ、グローバルなスケーラビリティ、およびポリシーベースが可能になります。</p><p>アプリケーション セキュリティ グループと組み合わせた仮想ネットワーク ピアリング は誤りです。VNet ピアリングでは VNet 間の通信が可能ですが、デフォルトでは推移的ルーティングがサポートされておらず、ExpressRoute と統合されず、自動リージョン P2S VPN が提供されないためです。</p><p>仮想ネットワーク ゲートウェイとネットワーク セキュリティ グループ (NSG) は誤りです。NSG は L3/L4 フィルタリングのみを提供し、FQDN フィルタリングをサポートしていないためです。</p><p>Azure Network Function Manager と一緒に使用される Azure Route Server は誤りです。Route Server は、NVA または ExpressRoute ゲートウェイによる動的ルーティングを簡素化しますが、自動 VPN ルーティング、FQDN フィルタリング、または完全な安全な接続ソリューションを提供しないためです。</p><p>リファレンス:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about\">https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-faq\">https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-faq</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/firewall/features#application-fqdn-filtering-rules\">https://learn.microsoft.com/en-us/azure/firewall/features#application-fqdn-filtering-rules</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/route-server/overview\">https://learn.microsoft.com/en-us/azure/route-server/overview</a></p></li></ul>",
+      "explanationText": "セキュリティで保護された仮想ハブで構成された Azure Virtual WAN は、指定されたすべての要件をスケーラブルかつ一元的な方法で満たす唯一のソリューションであるため、正しいです。\n・自動P2S 最も近い Azure リージョンへの VPN 接続は、Azure Virtual WAN のエニーキャスト IP 機能によってサポートされており、モバイル ユーザーは最も近い利用可能な VPN ゲートウェイにルーティングされます。\n\n・ExpressRoute 統合は Virtual WAN によってネイティブにサポートされており、各オフィスが独自の ExpressRoute 回線を介してローカルの Azure リージョンに接続できるようになります。\n\n・推移的ルーティングは Virtual で完全にサポートされています。ハブ アンド スポーク トポロジを介した WAN により、セキュリティで保護された仮想ハブを介したオンプレミスから VNet および VNet から VNet へのトラフィック フローが可能になります。\n\n・FQDN ベースのトラフィック フィルタリングは、Azure Firewall (セキュリティで保護された仮想ハブ内) を統合することによって提供され、FQDN を使用して仮想ネットワーク間のトラフィックを制御するアプリケーション ルールをサポートします。\n\nこのアーキテクチャにより、一元化されたセキュリティ、グローバルなスケーラビリティ、およびポリシーベースが可能になります。\nアプリケーション セキュリティ グループと組み合わせた仮想ネットワーク ピアリング は誤りです。VNet ピアリングでは VNet 間の通信が可能ですが、デフォルトでは推移的ルーティングがサポートされておらず、ExpressRoute と統合されず、自動リージョン P2S VPN が提供されないためです。\n仮想ネットワーク ゲートウェイとネットワーク セキュリティ グループ (NSG) は誤りです。NSG は L3/L4 フィルタリングのみを提供し、FQDN フィルタリングをサポートしていないためです。\nAzure Network Function Manager と一緒に使用される Azure Route Server は誤りです。Route Server は、NVA または ExpressRoute ゲートウェイによる動的ルーティングを簡素化しますが、自動 VPN ルーティング、FQDN フィルタリング、または完全な安全な接続ソリューションを提供しないためです。\nリファレンス:\n・https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about\n\n・https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-faq\n\n・https://learn.microsoft.com/en-us/azure/firewall/features#application-fqdn-filtering-rules\n\n・https://learn.microsoft.com/en-us/azure/route-server/overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

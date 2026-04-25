@@ -1,0 +1,365 @@
+{
+  "setId": "en5-set-004",
+  "title": "英語問題集5 翻訳版 31-40",
+  "sourceHtml": "assets/英語問題集5.html",
+  "questionIds": [
+    "en5-q-031",
+    "en5-q-032",
+    "en5-q-033",
+    "en5-q-034",
+    "en5-q-035",
+    "en5-q-036",
+    "en5-q-037",
+    "en5-q-038",
+    "en5-q-039",
+    "en5-q-040"
+  ],
+  "questions": [
+    {
+      "questionId": "en5-q-031",
+      "sourceQuestionNumber": 31,
+      "promptHtml": "<p><strong>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。</strong></p><p><br>あなたの組織は、<strong>VM1</strong> という名前の Azure 仮想マシン上で Web サービスをホストしています。このサービスは、仮想マシンからリアルタイム データを提供する API を公開します。</p><p>現在のデプロイメントには、</p><ul><li><p><strong>VM1</strong> と <strong>VM2</strong> が <strong>Subnet1</strong> 内にデプロイされています。 <strong>VNet1</strong></p></li><li><p>同じ仮想ネットワーク内の <strong>ProdSubnet</strong> という名前の追加サブネット</p></li><li><p><strong>外部</strong>仮想ネットワーク モードでデプロイされ、統合された <strong>Azure API 管理 (APIM)</strong> インスタンス<strong>VNet1</strong> <strong>ProdSubnet</strong></p></li></ul><p>テストにより、API が <strong>VM1</strong> および <strong>VM2</strong> からアクセス可能であることが確認されました。ビジネス パートナーは、公共のインターネット経由で API にアクセスし、独自のアプリケーションから利用できる必要があります。</p><p><br></p><p><strong>正誤問題:</strong></p><p><code>「パートナーは、インターネット経由で API にアクセスできます。」</code> </p>",
+      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。\n\nあなたの組織は、VM1 という名前の Azure 仮想マシン上で Web サービスをホストしています。このサービスは、仮想マシンからリアルタイム データを提供する API を公開します。\n現在のデプロイメントには、\n・VM1 と VM2 が Subnet1 内にデプロイされています。 VNet1\n\n・同じ仮想ネットワーク内の ProdSubnet という名前の追加サブネット\n\n・外部仮想ネットワーク モードでデプロイされ、統合された Azure API 管理 (APIM) インスタンスVNet1 ProdSubnet\n\nテストにより、API が VM1 および VM2 からアクセス可能であることが確認されました。ビジネス パートナーは、公共のインターネット経由で API にアクセスし、独自のアプリケーションから利用できる必要があります。\n\n正誤問題:\n「パートナーは、インターネット経由で API にアクセスできます。」",
+      "choices": [
+        {
+          "choiceId": "en5-q-031-c1",
+          "label": null,
+          "text": "True",
+          "html": "<p>True</p>"
+        },
+        {
+          "choiceId": "en5-q-031-c2",
+          "label": null,
+          "text": "False",
+          "html": "<p>False</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-031-c1"
+      ],
+      "explanationHtml": "<p>True は、APIM の外部構成により正しいため、APIM のバックエンド API にアクセスできるようになります。外部ネットワークも同様です。</p><p>参考:</p><ul><li><p><a href=\"https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet\">https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet</a></p></li></ul>",
+      "explanationText": "True は、APIM の外部構成により正しいため、APIM のバックエンド API にアクセスできるようになります。外部ネットワークも同様です。\n参考:\n・https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-007",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-032",
+      "sourceQuestionNumber": 32,
+      "promptHtml": "<p><strong>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。</strong></p><p><br>あなたの組織は、<strong>VM1</strong> という名前の Azure 仮想マシン上で Web サービスをホストしています。このサービスは、仮想マシンからリアルタイム データを提供する API を公開します。</p><p>現在のデプロイメントには、</p><ul><li><p><strong>VM1</strong> と <strong>VM2</strong> が <strong>Subnet1</strong> 内にデプロイされています。 <strong>VNet1</strong></p></li><li><p>同じ仮想ネットワーク内の <strong>ProdSubnet</strong> という名前の追加サブネット</p></li><li><p><strong>外部</strong>仮想ネットワーク モードでデプロイされ、統合された <strong>Azure API 管理 (APIM)</strong> インスタンス<strong>VNet1</strong> <strong>ProdSubnet</strong></p></li></ul><p>テストにより、API が <strong>VM1</strong> および <strong>VM2</strong> からアクセス可能であることが確認されました。ビジネス パートナーは、パブリック インターネット経由で API にアクセスし、独自のアプリケーションからそれを利用できる必要があります。</p><p><br></p><p><strong>正誤:</strong></p><p><code>「APIM インスタンスは、VM1 からリアルタイム データにアクセスできます。」</code> </p>",
+      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。\n\nあなたの組織は、VM1 という名前の Azure 仮想マシン上で Web サービスをホストしています。このサービスは、仮想マシンからリアルタイム データを提供する API を公開します。\n現在のデプロイメントには、\n・VM1 と VM2 が Subnet1 内にデプロイされています。 VNet1\n\n・同じ仮想ネットワーク内の ProdSubnet という名前の追加サブネット\n\n・外部仮想ネットワーク モードでデプロイされ、統合された Azure API 管理 (APIM) インスタンスVNet1 ProdSubnet\n\nテストにより、API が VM1 および VM2 からアクセス可能であることが確認されました。ビジネス パートナーは、パブリック インターネット経由で API にアクセスし、独自のアプリケーションからそれを利用できる必要があります。\n\n正誤:\n「APIM インスタンスは、VM1 からリアルタイム データにアクセスできます。」",
+      "choices": [
+        {
+          "choiceId": "en5-q-032-c1",
+          "label": null,
+          "text": "True",
+          "html": "<p>True</p>"
+        },
+        {
+          "choiceId": "en5-q-032-c2",
+          "label": null,
+          "text": "False",
+          "html": "<p>False</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-032-c1"
+      ],
+      "explanationHtml": "<p>True は正解です。これは、APIM が仮想ネットワークにリンクされているため、バックエンド API にアクセスできるようになります。</p><p>参考:</p><ul><li><p><a href=\"https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet\">https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet</a></p></li></ul>",
+      "explanationText": "True は正解です。これは、APIM が仮想ネットワークにリンクされているため、バックエンド API にアクセスできるようになります。\n参考:\n・https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-007",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-033",
+      "sourceQuestionNumber": 33,
+      "promptHtml": "<p><strong>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。</strong></p><p><br>あなたの組織は、<strong>VM1</strong> という名前の Azure 仮想マシン上で Web サービスをホストしています。このサービスは、仮想マシンからリアルタイム データを提供する API を公開します。</p><p>現在のデプロイメントには、</p><ul><li><p><strong>VM1</strong> と <strong>VM2</strong> が <strong>Subnet1</strong> 内にデプロイされています。 <strong>VNet1</strong></p></li><li><p>同じ仮想ネットワーク内の <strong>ProdSubnet</strong> という名前の追加サブネット</p></li><li><p><strong>外部</strong>仮想ネットワーク モードでデプロイされ、統合された <strong>Azure API 管理 (APIM)</strong> インスタンス<strong>VNet1</strong> <strong>ProdSubnet</strong></p></li></ul><p>テストにより、API が <strong>VM1</strong> および <strong>VM2</strong> からアクセス可能であることが確認されました。ビジネス パートナーは、パブリック インターネット経由で API にアクセスし、独自のアプリケーションからそれを利用できる必要があります。</p><p><br></p><p><strong>正誤:</strong></p><p><code>「パートナー アクセスには VPN ゲートウェイが必要です。」</code> </p>",
+      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。\n\nあなたの組織は、VM1 という名前の Azure 仮想マシン上で Web サービスをホストしています。このサービスは、仮想マシンからリアルタイム データを提供する API を公開します。\n現在のデプロイメントには、\n・VM1 と VM2 が Subnet1 内にデプロイされています。 VNet1\n\n・同じ仮想ネットワーク内の ProdSubnet という名前の追加サブネット\n\n・外部仮想ネットワーク モードでデプロイされ、統合された Azure API 管理 (APIM) インスタンスVNet1 ProdSubnet\n\nテストにより、API が VM1 および VM2 からアクセス可能であることが確認されました。ビジネス パートナーは、パブリック インターネット経由で API にアクセスし、独自のアプリケーションからそれを利用できる必要があります。\n\n正誤:\n「パートナー アクセスには VPN ゲートウェイが必要です。」",
+      "choices": [
+        {
+          "choiceId": "en5-q-033-c1",
+          "label": null,
+          "text": "",
+          "html": ""
+        },
+        {
+          "choiceId": "en5-q-033-c2",
+          "label": null,
+          "text": "",
+          "html": ""
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-033-c2"
+      ],
+      "explanationHtml": "",
+      "explanationText": "",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-007",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-034",
+      "sourceQuestionNumber": 34,
+      "promptHtml": "<p>あなたは、<strong>app1data</strong> という <strong>Azure Blob Storage</strong> コンテナーにデータを保存する <strong>App1</strong> という名前のアプリケーションのデータ保護戦略を設計する責任があります。</p><p>1 時間ごとに、App1 は という名前のブロック BLOB をアップロードします。 <strong>File1.txt</strong> には、<strong>当日のみ</strong>の累積トランザクション ログが含まれます。アップロードするたびに、同じ名前の既存の BLOB が上書きされます。</p><p><strong>任意の日</strong>から<strong>最後にアップロードされた File1.txt のバージョン</strong>を、<strong>BLOB が上書きされてから最大 30 日間</strong>回復できることを確認する必要があります。同時に、ソリューションでは追加のストレージ消費を最小限に抑える必要があります。</p><p>ソリューションには何を含める必要がありますか。</p>",
+      "promptText": "あなたは、app1data という Azure Blob Storage コンテナーにデータを保存する App1 という名前のアプリケーションのデータ保護戦略を設計する責任があります。\n1 時間ごとに、App1 は という名前のブロック BLOB をアップロードします。 File1.txt には、当日のみの累積トランザクション ログが含まれます。アップロードするたびに、同じ名前の既存の BLOB が上書きされます。\n任意の日から最後にアップロードされた File1.txt のバージョンを、BLOB が上書きされてから最大 30 日間回復できることを確認する必要があります。同時に、ソリューションでは追加のストレージ消費を最小限に抑える必要があります。\nソリューションには何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-034-c1",
+          "label": null,
+          "text": "BLOB の論理的な削除",
+          "html": "BLOB の論理的な削除"
+        },
+        {
+          "choiceId": "en5-q-034-c2",
+          "label": null,
+          "text": "コンテナーの論理的な削除",
+          "html": "コンテナーの論理的な削除"
+        },
+        {
+          "choiceId": "en5-q-034-c3",
+          "label": null,
+          "text": "BLOB のバージョン管理",
+          "html": "BLOB のバージョン管理"
+        },
+        {
+          "choiceId": "en5-q-034-c4",
+          "label": null,
+          "text": "BLOBスナップショット",
+          "html": "BLOBスナップショット"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-034-c3"
+      ],
+      "explanationHtml": "<p>Blob のバージョン管理 が正解です。この場合、バージョンは自動的に作成され、その上で、過去 30 日間のバージョンのみが保持され、残りのバージョンは削除されてストレージ コストが維持されるように保持ポリシーを構成できます。</p><p>Blob の論理的な削除は間違っています 論理的な削除は、BLOB の不要な削除から保護するためにのみ役立ちます。ファイルのバージョンが 30 日前のものであることを確認するのには役立ちません。</p><p>コンテナの論理的な削除 は誤りです。これも、コンテナの誤った削除を防ぐだけであり、コンテナ内の BLOB を以前のバージョンに復元することはできません。</p><p>Blobスナップショットはこの目的には不正確です。バージョンを必要なだけ保持するのに役立つ場合がありますが、この場合、ファイルは毎日更新されるため、自動化できるものよりも手動で何かを行うのは賢明ではありません。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-container-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-container-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview</a></p></li></ul>",
+      "explanationText": "正解はBlob のバージョン管理 です。この場合、バージョンは自動的に作成され、その上で、過去 30 日間のバージョンのみが保持され、残りのバージョンは削除されてストレージ コストが維持されるように保持ポリシーを構成できます。\nBlob の論理的な削除は間違っています 論理的な削除は、BLOB の不要な削除から保護するためにのみ役立ちます。ファイルのバージョンが 30 日前のものであることを確認するのには役立ちません。\nコンテナの論理的な削除 は誤りです。これも、コンテナの誤った削除を防ぐだけであり、コンテナ内の BLOB を以前のバージョンに復元することはできません。\nBlobスナップショットはこの目的には不正確です。バージョンを必要なだけ保持するのに役立つ場合がありますが、この場合、ファイルは毎日更新されるため、自動化できるものよりも手動で何かを行うのは賢明ではありません。\n参考:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-container-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en5-q-035",
+      "sourceQuestionNumber": 35,
+      "promptHtml": "<p>あなたの組織は、顧客データを保存する<strong>12 のオンプレミス データ ソース</strong>を維持しています。これらのソースには、<strong>Microsoft SQL サーバー</strong>、<strong>MySQL</strong>、<strong>Oracle</strong> データベースが混在しています。</p><p>あなたは Azure サブスクリプションを持っており、分析とレポートのワークロードをサポートするためにこの顧客データを <strong>Azure Data Lake Storage</strong> アカウントに一元管理する予定です。</p><p><strong>抽出、変換、読み込みを自動的に実行するソリューションを推奨する必要があります。 (ETL)</strong> 操作により、新しく追加または更新されたデータをオンプレミス ソースから Data Lake Storage アカウントにコピーします。ソリューションには<strong>最小限の継続的な管理</strong>が必要です。</p><p>推奨事項には何を含める必要がありますか。</p>",
+      "promptText": "あなたの組織は、顧客データを保存する12 のオンプレミス データ ソースを維持しています。これらのソースには、Microsoft SQL サーバー、MySQL、Oracle データベースが混在しています。\nあなたは Azure サブスクリプションを持っており、分析とレポートのワークロードをサポートするためにこの顧客データを Azure Data Lake Storage アカウントに一元管理する予定です。\n抽出、変換、読み込みを自動的に実行するソリューションを推奨する必要があります。 (ETL) 操作により、新しく追加または更新されたデータをオンプレミス ソースから Data Lake Storage アカウントにコピーします。ソリューションには最小限の継続的な管理が必要です。\n推奨事項には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-035-c1",
+          "label": null,
+          "text": "Azure Data Studio",
+          "html": "Azure Data Studio"
+        },
+        {
+          "choiceId": "en5-q-035-c2",
+          "label": null,
+          "text": "Azure Data Explorer",
+          "html": "Azure Data Explorer"
+        },
+        {
+          "choiceId": "en5-q-035-c3",
+          "label": null,
+          "text": "Azure Data Share",
+          "html": "Azure Data Share"
+        },
+        {
+          "choiceId": "en5-q-035-c4",
+          "label": null,
+          "text": "Azure Data Factory",
+          "html": "Azure Data Factory"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-035-c4"
+      ],
+      "explanationHtml": "<p>Azure Data Factory は、さまざまなソースから Data Lake Storage などのさまざまな宛先にデータを移動および変換するためのデータ パイプラインの作成、スケジュール、管理を可能にするクラウドベースのデータ統合サービスであるため正解です。</p><p>Azure Data Studio は誤りです。これは、データベースのクエリ、スクリプトの管理、SQL 関連タスクの操作など、データベースの開発と管理のための強力なツールです。</p><p>Azure Data Explorer は、大量のデータを扱うために最適化された強力なデータ分析プラットフォームであるため、不正解です。大規模なデータセットを迅速に分析およびクエリする必要があるシナリオに適しています。</p><p>Azure Data Share は、組織間または同じ組織内の Azure サブスクリプション間でデータを共有できるサービスであるため、不正確です。 Azure Data Share は他のユーザーとデータを共有するために使用できますが、分析とレポートのためにオンプレミス データベース (SQL サーバー、MySQL、Oracle) の顧客情報を Azure Data Lake Storage アカウントに統合するという特定のユース ケースには最適ではない可能性があります。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-factory/introduction\">https://learn.microsoft.com/en-us/azure/data-factory/introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure-data-studio/what-is-azure-data-studio\">https://learn.microsoft.com/en-us/azure-data-studio/what-is-azure-data-studio</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-explorer/data-explorer-overview\">https://learn.microsoft.com/en-us/azure/data-explorer/data-explorer-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-share/overview\">https://learn.microsoft.com/en-us/azure/data-share/overview</a></p></li></ul>",
+      "explanationText": "Azure Data Factory は、さまざまなソースから Data Lake Storage などのさまざまな宛先にデータを移動および変換するためのデータ パイプラインの作成、スケジュール、管理を可能にするクラウドベースのデータ統合サービスであるため正解です。\nAzure Data Studio は誤りです。これは、データベースのクエリ、スクリプトの管理、SQL 関連タスクの操作など、データベースの開発と管理のための強力なツールです。\nAzure Data Explorer は、大量のデータを扱うために最適化された強力なデータ分析プラットフォームであるため、不正解です。大規模なデータセットを迅速に分析およびクエリする必要があるシナリオに適しています。\nAzure Data Share は、組織間または同じ組織内の Azure サブスクリプション間でデータを共有できるサービスであるため、不正確です。 Azure Data Share は他のユーザーとデータを共有するために使用できますが、分析とレポートのためにオンプレミス データベース (SQL サーバー、MySQL、Oracle) の顧客情報を Azure Data Lake Storage アカウントに統合するという特定のユース ケースには最適ではない可能性があります。\n参考:\n・https://learn.microsoft.com/en-us/azure/data-factory/introduction\n\n・https://learn.microsoft.com/en-us/azure-data-studio/what-is-azure-data-studio\n\n・https://learn.microsoft.com/en-us/azure/data-explorer/data-explorer-overview\n\n・https://learn.microsoft.com/en-us/azure/data-share/overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en5-q-036",
+      "sourceQuestionNumber": 36,
+      "promptHtml": "<p>Microsoft Entra テナントには、<strong>MG1</strong> という名前の管理グループが含まれています。</p><p>Azure 環境は次のように構成されています。</p><ul><li><p><strong>Sub1</strong> と <strong>Sub2</strong> は、 <strong>MG1</strong></p></li><li><li><p><strong>Sub3</strong> は<strong>テナント ルート グループ</strong></p></li></ul><p>各サブスクリプションには単一のリソース グループが含まれます。</p><ul><li><p><strong>RG1</strong> Sub1</p></li><li><p><strong>Sub2 のRG2</strong> Sub2</p></li><li><p><strong>Sub3 のRG3</strong></p></li></ul><p>Microsoft Entra セキュリティ グループ階層が定義されていますas:</p><ul><li><p><strong>Group1</strong> と <strong>Group2</strong> は <strong>Group3</strong></p> のメンバーです</li><li><p><strong>Group3</strong> は他のどのメンバーでもありませんグループ</p></li></ul><p>ユーザー メンバーシップは次のように構成されます。</p><ul><li><p><strong>User1</strong> は <strong>Group1</strong></p> のメンバーです。</li><li><p><strong>User2</strong> は のメンバーです<strong>Group2</strong></p></li><li><p><strong>User3</strong> は <strong>Group1</strong> と <strong>Group2</strong></strong> の両方のメンバーです。</li></ul><p>次の役割の割り当ては次のとおりです。適用:</p><ul><li><p><strong>User3</strong> には、<strong>Sub1</strong> スコープの<strong>共同作成者</strong>ロールが割り当てられます。</p></li><li><p><strong>Group1</strong> には、<strong>仮想マシン共同作成者</strong>ロールが割り当てられます。 <strong>MG1</strong> スコープ</p></li><li><p><strong>Group3</strong> には<strong>テナント ルート グループ</strong> スコープの<strong>共同作成者</strong> ロールが割り当てられます</p></li></ul><p><br></p><p><strong>True またはFalse:</strong></p><p><code>「User1 は RG1 に新しい仮想マシンを作成できます。」</code> </p>",
+      "promptText": "Microsoft Entra テナントには、MG1 という名前の管理グループが含まれています。\nAzure 環境は次のように構成されています。\n・Sub1 と Sub2 は、 MG1\n\n・・Sub3 はテナント ルート グループ\n\n各サブスクリプションには単一のリソース グループが含まれます。\n・RG1 Sub1\n\n・Sub2 のRG2 Sub2\n\n・Sub3 のRG3\n\nMicrosoft Entra セキュリティ グループ階層が定義されていますas:\n・Group1 と Group2 は Group3\n のメンバーです\n・Group3 は他のどのメンバーでもありませんグループ\n\nユーザー メンバーシップは次のように構成されます。\n・User1 は Group1\n のメンバーです。\n・User2 は のメンバーですGroup2\n\n・User3 は Group1 と Group2 の両方のメンバーです。\n\n次の役割の割り当ては次のとおりです。適用:\n・User3 には、Sub1 スコープの共同作成者ロールが割り当てられます。\n\n・Group1 には、仮想マシン共同作成者ロールが割り当てられます。 MG1 スコープ\n\n・Group3 にはテナント ルート グループ スコープの共同作成者 ロールが割り当てられます\n\nTrue またはFalse:\n「User1 は RG1 に新しい仮想マシンを作成できます。」",
+      "choices": [
+        {
+          "choiceId": "en5-q-036-c1",
+          "label": null,
+          "text": "True",
+          "html": "<p>True</p>"
+        },
+        {
+          "choiceId": "en5-q-036-c2",
+          "label": null,
+          "text": "False",
+          "html": "<p>False</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-036-c1"
+      ],
+      "explanationHtml": "<p>真 は正解です。User1 は Group1 の一部であり、グループ 1 には MG1 に対する VM 共同作成者権限があり、これには Sub1 とその内部が含まれます。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept\">https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept</a></p></li></ul>",
+      "explanationText": "真 は正解です。User1 は Group1 の一部であり、グループ 1 には MG1 に対する VM 共同作成者権限があり、これには Sub1 とその内部が含まれます。\n参考:\n・https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en5-q-037",
+      "sourceQuestionNumber": 37,
+      "promptHtml": "<p><strong>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。</strong></p><p><br></p><p>Microsoft Entra テナントには、<strong>MG1</strong> という名前の管理グループが含まれています。</p><p>Azure 環境は次のように構成されています。</p><ul><li><p><strong>Sub1</strong> <strong>Sub2</strong> は <strong>MG1</strong></p></li><li><p><strong>Sub3</strong> は<strong>テナント ルート グループ</strong></p>に直接割り当てられます</li></ul><p>各サブスクリプションには単一のリソースが含まれますグループ:</p><ul><li><p><strong>RG1</strong> 内 Sub1</p></li><li><p><strong>RG2</strong> 内 Sub2</p></li><li><p><strong>RG3</strong> 内Sub3</p></li></ul><p>Microsoft Entra セキュリティ グループ階層は次のように定義されています。</p><ul><li><p><strong>Group1</strong> と <strong>Group2</strong> は次のメンバーです。 <strong>Group3</strong></p></li><li><p><strong>Group3</strong> は他のグループのメンバーではありません</p></li></ul><p>ユーザー メンバーシップは次のように設定されています:</p><ul><li><p><strong>User1</strong> は次のメンバーです。 <strong>Group1</strong></p></li><li><p><strong>User2</strong> は <strong>Group2</strong></p> のメンバーです</li><li><p><strong>User3</strong> は両方の <strong>Group1</strong> のメンバーです<strong>Group2</strong></p></li></ul><p>次のロール割り当てが適用されます:</p><ul><li><p><strong>User3</strong> には、<strong>Sub1</strong> の<strong>共同作成者</strong>ロールが割り当てられます。スコープ</p></li><li><p><strong>Group1</strong> には、<strong>MG1</strong> スコープの<strong>仮想マシン共同作成者</strong>の役割が割り当てられます。</p></li><li><p><strong>Group3</strong> には<strong>テナント ルートの<strong>共同作成者</strong>の役割が割り当てられます。グループ</strong> スコープ</p></li></ul><p><br></p><p><strong>正誤:</strong></p><p><code>「User2 は Group2 に権限を付与できます。」</code> </p>",
+      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。\n\nMicrosoft Entra テナントには、MG1 という名前の管理グループが含まれています。\nAzure 環境は次のように構成されています。\n・Sub1 Sub2 は MG1\n\n・Sub3 はテナント ルート グループ\nに直接割り当てられます\n\n各サブスクリプションには単一のリソースが含まれますグループ:\n・RG1 内 Sub1\n\n・RG2 内 Sub2\n\n・RG3 内Sub3\n\nMicrosoft Entra セキュリティ グループ階層は次のように定義されています。\n・Group1 と Group2 は次のメンバーです。 Group3\n\n・Group3 は他のグループのメンバーではありません\n\nユーザー メンバーシップは次のように設定されています:\n・User1 は次のメンバーです。 Group1\n\n・User2 は Group2\n のメンバーです\n・User3 は両方の Group1 のメンバーですGroup2\n\n次のロール割り当てが適用されます:\n・User3 には、Sub1 の共同作成者ロールが割り当てられます。スコープ\n\n・Group1 には、MG1 スコープの仮想マシン共同作成者の役割が割り当てられます。\n\n・Group3 にはテナント ルートの共同作成者の役割が割り当てられます。グループ スコープ\n\n正誤:\n「User2 は Group2 に権限を付与できます。」",
+      "choices": [
+        {
+          "choiceId": "en5-q-037-c1",
+          "label": null,
+          "text": "True",
+          "html": "<p>True</p>"
+        },
+        {
+          "choiceId": "en5-q-037-c2",
+          "label": null,
+          "text": "False",
+          "html": "<p>False</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-037-c2"
+      ],
+      "explanationHtml": "<p>False は Group2 の一部であるため正解であり、Group2 の一部でもあります。Group3、これにはテナントのルート グループに対する共同作成者のアクセス許可のみが与えられます。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/active-directory/roles/groups-concept\">https://learn.microsoft.com/en-us/azure/active-directory/roles/groups-</a><a href=\"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept\">https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept</a></p></li></ul>",
+      "explanationText": "False は Group2 の一部であるため正解であり、Group2 の一部でもあります。Group3、これにはテナントのルート グループに対する共同作成者のアクセス許可のみが与えられます。\n参考:\n・https://learn.microsoft.com/en-us/azure/active-directory/roles/groups-https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-008",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-038",
+      "sourceQuestionNumber": 38,
+      "promptHtml": "<p><strong>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。</strong></p><p><br></p><p>Microsoft Entra テナントには、<strong>MG1</strong> という名前の管理グループが含まれています。</p><p>Azure 環境は次のように構成されています。</p><ul><li><p><strong>Sub1</strong> <strong>Sub2</strong> は <strong>MG1</strong></p></li><li><p><strong>Sub3</strong> は<strong>テナント ルート グループ</strong></p>に直接割り当てられます</li></ul><p>各サブスクリプションには単一のリソースが含まれますグループ:</p><ul><li><p><strong>RG1</strong> 内 Sub1</p></li><li><p><strong>RG2</strong> 内 Sub2</p></li><li><p><strong>RG3</strong> 内Sub3</p></li></ul><p>Microsoft Entra セキュリティ グループ階層は次のように定義されています。</p><ul><li><p><strong>Group1</strong> と <strong>Group2</strong> は次のメンバーです。 <strong>Group3</strong></p></li><li><p><strong>Group3</strong> は他のグループのメンバーではありません</p></li></ul><p>ユーザー メンバーシップは次のように設定されています:</p><ul><li><p><strong>User1</strong> は次のメンバーです。 <strong>Group1</strong></p></li><li><p><strong>User2</strong> は <strong>Group2</strong></p> のメンバーです</li><li><p><strong>User3</strong> は両方の <strong>Group1</strong> のメンバーです<strong>Group2</strong></p></li></ul><p>次のロール割り当てが適用されます:</p><ul><li><p><strong>User3</strong> には、<strong>Sub1</strong> の<strong>共同作成者</strong>ロールが割り当てられます。スコープ</p></li><li><p><strong>Group1</strong> には、<strong>MG1</strong> スコープの<strong>仮想マシン共同作成者</strong>の役割が割り当てられます。</p></li><li><p><strong>Group3</strong> には<strong>テナント ルートの<strong>共同作成者</strong>の役割が割り当てられます。グループ</strong> スコープ</p></li></ul><p><br></p><p><strong>正誤問題:</strong></p><p><code>「User3 は RG2 にストレージ アカウントを作成できます。」</code> </p>",
+      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。\n\nMicrosoft Entra テナントには、MG1 という名前の管理グループが含まれています。\nAzure 環境は次のように構成されています。\n・Sub1 Sub2 は MG1\n\n・Sub3 はテナント ルート グループ\nに直接割り当てられます\n\n各サブスクリプションには単一のリソースが含まれますグループ:\n・RG1 内 Sub1\n\n・RG2 内 Sub2\n\n・RG3 内Sub3\n\nMicrosoft Entra セキュリティ グループ階層は次のように定義されています。\n・Group1 と Group2 は次のメンバーです。 Group3\n\n・Group3 は他のグループのメンバーではありません\n\nユーザー メンバーシップは次のように設定されています:\n・User1 は次のメンバーです。 Group1\n\n・User2 は Group2\n のメンバーです\n・User3 は両方の Group1 のメンバーですGroup2\n\n次のロール割り当てが適用されます:\n・User3 には、Sub1 の共同作成者ロールが割り当てられます。スコープ\n\n・Group1 には、MG1 スコープの仮想マシン共同作成者の役割が割り当てられます。\n\n・Group3 にはテナント ルートの共同作成者の役割が割り当てられます。グループ スコープ\n\n正誤問題:\n「User3 は RG2 にストレージ アカウントを作成できます。」",
+      "choices": [
+        {
+          "choiceId": "en5-q-038-c1",
+          "label": null,
+          "text": "True",
+          "html": "<p>True</p>"
+        },
+        {
+          "choiceId": "en5-q-038-c2",
+          "label": null,
+          "text": "False",
+          "html": "<p>False</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-038-c1"
+      ],
+      "explanationHtml": "<p>True は、グループ 3 がテナント ルート グループの共同作成者の役割を持っているため正解です。User3 は間接的にその一部です。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept\">https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept</a></p></li></ul>",
+      "explanationText": "True は、グループ 3 がテナント ルート グループの共同作成者の役割を持っているため正解です。User3 は間接的にその一部です。\n参考:\n・https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-008",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-039",
+      "sourceQuestionNumber": 39,
+      "promptHtml": "<p>あなたの組織は 5 つの Azure サブスクリプションを管理しており、各サブスクリプションは異なる Microsoft Entra テナントに関連付けられています。すべてのサブスクリプションには、Windows Server 2022 を実行する仮想マシンが含まれています。</p><p>これらすべての仮想マシンからの Windows セキュリティ イベント ログを 1 つの Log Analytics ワークスペースに一元化する予定です。</p><p>次の要件を満たすソリューションを推奨する必要があります。</p><ul><li><p><strong>複数の Azure サブスクリプションにまたがる仮想マシンからのイベント ログの収集を有効にする。</strong></p></li></ul><p>何を推奨するかこの要件を満たすには。</p>",
+      "promptText": "あなたの組織は 5 つの Azure サブスクリプションを管理しており、各サブスクリプションは異なる Microsoft Entra テナントに関連付けられています。すべてのサブスクリプションには、Windows Server 2022 を実行する仮想マシンが含まれています。\nこれらすべての仮想マシンからの Windows セキュリティ イベント ログを 1 つの Log Analytics ワークスペースに一元化する予定です。\n次の要件を満たすソリューションを推奨する必要があります。\n・複数の Azure サブスクリプションにまたがる仮想マシンからのイベント ログの収集を有効にする。\n\n何を推奨するかこの要件を満たすには。",
+      "choices": [
+        {
+          "choiceId": "en5-q-039-c1",
+          "label": null,
+          "text": "Azure Event Grid",
+          "html": "Azure Event Grid"
+        },
+        {
+          "choiceId": "en5-q-039-c2",
+          "label": null,
+          "text": "Azure Lighthouse",
+          "html": "Azure Lighthouse"
+        },
+        {
+          "choiceId": "en5-q-039-c3",
+          "label": null,
+          "text": "Azure Purview",
+          "html": "Azure Purview"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-039-c2"
+      ],
+      "explanationHtml": "<p>Azure Lighthouse は正解です。Lighthouse を使用すると、さまざまなテナントに接続し、単一のウィンドウからリソースを管理できます。</p><p>Azure Event Grid はイベントに基づくメッセージング サービスであるため、不正確です。これを使用すると、アプリケーション内の特定のイベントに基づいてシステム間の統合をトリガーできます。</p><p>Azure Purview は誤りです。このサービスは、Azure、他のクラウド プロバイダー、さらにはオンプレミスに至るまで、データ ドメイン全体のデータ ガバナンス、セキュリティ、管理を一元的に制御することを目的としているためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/event-grid/overview\">https://learn.microsoft.com/en-us/azure/event-grid/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/lighthouse/overview\">https://learn.microsoft.com/en-us/azure/lighthouse/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/purview/purview\">https://learn.microsoft.com/en-us/purview/purview</a></p></li></ul>",
+      "explanationText": "Azure Lighthouse は正解です。Lighthouse を使用すると、さまざまなテナントに接続し、単一のウィンドウからリソースを管理できます。\nAzure Event Grid はイベントに基づくメッセージング サービスであるため、不正確です。これを使用すると、アプリケーション内の特定のイベントに基づいてシステム間の統合をトリガーできます。\nAzure Purview は誤りです。このサービスは、Azure、他のクラウド プロバイダー、さらにはオンプレミスに至るまで、データ ドメイン全体のデータ ガバナンス、セキュリティ、管理を一元的に制御することを目的としているためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/event-grid/overview\n\n・https://learn.microsoft.com/en-us/azure/lighthouse/overview\n\n・https://learn.microsoft.com/en-us/purview/purview",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en5-q-040",
+      "sourceQuestionNumber": 40,
+      "promptHtml": "<p>あなたの組織は 5 つの Azure サブスクリプションを管理しており、各サブスクリプションは異なる Microsoft Entra テナントに関連付けられています。すべてのサブスクリプションには、Windows Server 2022 を実行する仮想マシンが含まれています。</p><p>これらすべての仮想マシンからの Windows セキュリティ イベント ログを 1 つの Log Analytics ワークスペースに一元化する予定です。</p><p>次の要件を満たすソリューションを推奨する必要があります。</p><ul><li><p><strong>収集するイベントを定義するためのデータ収集ルール (DCR) の使用をサポートします。</strong></p></li></ul><p>何をすべきかこの要件を満たすことをお勧めしますか。</p>",
+      "promptText": "あなたの組織は 5 つの Azure サブスクリプションを管理しており、各サブスクリプションは異なる Microsoft Entra テナントに関連付けられています。すべてのサブスクリプションには、Windows Server 2022 を実行する仮想マシンが含まれています。\nこれらすべての仮想マシンからの Windows セキュリティ イベント ログを 1 つの Log Analytics ワークスペースに一元化する予定です。\n次の要件を満たすソリューションを推奨する必要があります。\n・収集するイベントを定義するためのデータ収集ルール (DCR) の使用をサポートします。\n\n何をすべきかこの要件を満たすことをお勧めしますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-040-c1",
+          "label": null,
+          "text": "Log Analytics エージェント",
+          "html": "Log Analytics エージェント"
+        },
+        {
+          "choiceId": "en5-q-040-c2",
+          "label": null,
+          "text": "Azure Monitor エージェント",
+          "html": "Azure Monitor エージェント"
+        },
+        {
+          "choiceId": "en5-q-040-c3",
+          "label": null,
+          "text": "Azure Connected Machine エージェント",
+          "html": "Azure Connected Machine エージェント"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-040-c2"
+      ],
+      "explanationHtml": "<p>Azure Monitor エージェントは正解です。ログ分析エージェントとは異なり、このエージェントは、データ収集ルール (DCR) を使用してデータ収集を構成する簡素化された柔軟な方法を導入しています。</p><p>ログ分析エージェント は誤りです。このエージェントは廃止される予定であり、ログ収集のための DCR の使用をサポートしていないためです。</p><p>Azure Connected Machine エージェント は誤りです。これは、通常、これは Azure-Arc 経由で VM が接続されている場合に使用することを目的としているためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-arc/servers/concept-log-analytics-extension-deployment\">https://learn.microsoft.com/en-us/azure/azure-arc/servers/concept-log-analytics-extension-deployment</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration\">https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration</a></p></li></ul>",
+      "explanationText": "Azure Monitor エージェントは正解です。ログ分析エージェントとは異なり、このエージェントは、データ収集ルール (DCR) を使用してデータ収集を構成する簡素化された柔軟な方法を導入しています。\nログ分析エージェント は誤りです。このエージェントは廃止される予定であり、ログ収集のための DCR の使用をサポートしていないためです。\nAzure Connected Machine エージェント は誤りです。これは、通常、これは Azure-Arc 経由で VM が接続されている場合に使用することを目的としているためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-arc/servers/concept-log-analytics-extension-deployment\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

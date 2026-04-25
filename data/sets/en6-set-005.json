@@ -1,0 +1,417 @@
+{
+  "setId": "en6-set-005",
+  "title": "英語問題集6 翻訳版 41-50",
+  "sourceHtml": "assets/英語問題集6.html",
+  "questionIds": [
+    "en6-q-041",
+    "en6-q-042",
+    "en6-q-043",
+    "en6-q-044",
+    "en6-q-045",
+    "en6-q-046",
+    "en6-q-047",
+    "en6-q-048",
+    "en6-q-049",
+    "en6-q-050"
+  ],
+  "questions": [
+    {
+      "questionId": "en6-q-041",
+      "sourceQuestionNumber": 41,
+      "promptHtml": "<p>あなたは、Microsoft Entra ID ユーザーがオンライン アンケートを作成および公開できるようにする Software-as-a-Service (SaaS) ソリューションを設計しています。このソリューションは、フロントエンド Web アプリケーションとバックエンド Web API で構成されており、Web アプリケーションは API を呼び出して調査の更新を管理します。</p><p>このアーキテクチャの認証モデルを定義する必要があります。設計は次の要件を満たす必要があります。</p><ul><li><p>Web アプリケーションは、<strong>OAuth 2.0 ベアラー トークン</strong>を使用してバックエンド API を呼び出す必要があります。</p></li><li><p>Web アプリケーションは、アプリケーションのみではなく<strong>サインイン ユーザーの個人 ID</strong>を使用して認証する必要があります。 </p></li></ul><p>これらの要件に基づいて、最も適切なオプションを指定して次のステートメントを完成させます。</p><p><code>アクセス トークンは ___________________ によって生成されます。</code> </p>",
+      "promptText": "あなたは、Microsoft Entra ID ユーザーがオンライン アンケートを作成および公開できるようにする Software-as-a-Service (SaaS) ソリューションを設計しています。このソリューションは、フロントエンド Web アプリケーションとバックエンド Web API で構成されており、Web アプリケーションは API を呼び出して調査の更新を管理します。\nこのアーキテクチャの認証モデルを定義する必要があります。設計は次の要件を満たす必要があります。\n・Web アプリケーションは、OAuth 2.0 ベアラー トークンを使用してバックエンド API を呼び出す必要があります。\n\n・Web アプリケーションは、アプリケーションのみではなくサインイン ユーザーの個人 IDを使用して認証する必要があります。\n\nこれらの要件に基づいて、最も適切なオプションを指定して次のステートメントを完成させます。\nアクセス トークンは ___________________ によって生成されます。",
+      "choices": [
+        {
+          "choiceId": "en6-q-041-c1",
+          "label": null,
+          "text": "Microsoft Entra",
+          "html": "<p>Microsoft Entra</p>"
+        },
+        {
+          "choiceId": "en6-q-041-c2",
+          "label": null,
+          "text": "Web アプリ",
+          "html": "Web アプリ"
+        },
+        {
+          "choiceId": "en6-q-041-c3",
+          "label": null,
+          "text": "Web API",
+          "html": "Web API"
+        },
+        {
+          "choiceId": "en6-q-041-c4",
+          "label": null,
+          "text": "Azure Site Recovery",
+          "html": "Azure Site Recovery"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-041-c1"
+      ],
+      "explanationHtml": "<p>Microsoft Entra は、Microsoft Entra ID (以前の Azure Active) を使用した OAuth 2.0 認証フローであるため正しいです。Directory)、認証サーバー (Microsoft Entra ID) がアクセス トークンの発行を担当します。</p><p>プロセスには以下が含まれます。</p><ul><li><p>ユーザーは Microsoft Entra ID を使用して Web アプリにサインインします。</p></li><li><p>Web アプリは、Microsoft Entra ID から API のアクセス トークンを要求します。</p></li><li><p>Microsoft Entra ID はアクセス トークンを発行します。ウェブ アプリはこれを使用して API を呼び出します。</p></li></ul>\n<img src=\"assets/英語問題集6_files/2025-03-21_17-25-09-fe93d448b6736e73653cc289fe823385.png\" alt=\"\"loading=\"eager\"><p>ウェブ アプリ は誤りです。これは、Web アプリが OAuth 2.0 フローのクライアントとして機能するためです。</p><p>Web API は、Web API が発行者ではなくリソース サーバーであるため、不正確です。トークンは検証されますが、生成はされません。</p><p>参考リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-auth-code-flow\">https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-auth-code-flow</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity-platform/access-tokens\">https://learn.microsoft.com/en-us/entra/identity-platform/access-tokens</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity-platform/scenario-web-app-call-api-app-registration\">https://learn.microsoft.com/en-us/entra/identity-platform/scenario-web-app-call-api-app-registration</a></p></li></ul>",
+      "explanationText": "Microsoft Entra は、Microsoft Entra ID (以前の Azure Active) を使用した OAuth 2.0 認証フローであるため正しいです。Directory)、認証サーバー (Microsoft Entra ID) がアクセス トークンの発行を担当します。\nプロセスには以下が含まれます。\n・ユーザーは Microsoft Entra ID を使用して Web アプリにサインインします。\n\n・Web アプリは、Microsoft Entra ID から API のアクセス トークンを要求します。\n\n・Microsoft Entra ID はアクセス トークンを発行します。ウェブ アプリはこれを使用して API を呼び出します。\n\nウェブ アプリ は誤りです。これは、Web アプリが OAuth 2.0 フローのクライアントとして機能するためです。\nWeb API は、Web API が発行者ではなくリソース サーバーであるため、不正確です。トークンは検証されますが、生成はされません。\n参考リンク:\n・https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-auth-code-flow\n\n・https://learn.microsoft.com/en-us/entra/identity-platform/access-tokens\n\n・https://learn.microsoft.com/en-us/entra/identity-platform/scenario-web-app-call-api-app-registration",
+      "images": [
+        "assets/英語問題集6_files/2025-03-21_17-25-09-fe93d448b6736e73653cc289fe823385.png"
+      ],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en6-linked-008",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en6-q-042",
+      "sourceQuestionNumber": 42,
+      "promptHtml": "<p>あなたは、Microsoft Entra ID ユーザーがオンライン アンケートを作成および公開できるようにする Software-as-a-Service (SaaS) ソリューションを設計しています。このソリューションは、フロントエンド Web アプリケーションとバックエンド Web API で構成されており、Web アプリケーションは API を呼び出して調査の更新を管理します。</p><p>このアーキテクチャの認証モデルを定義する必要があります。設計は次の要件を満たす必要があります。</p><ul><li><p>Web アプリケーションは、<strong>OAuth 2.0 ベアラー トークン</strong>を使用してバックエンド API を呼び出す必要があります。</p></li><li><p>Web アプリケーションは、アプリケーションのみではなく<strong>サインイン ユーザーの個人 ID</strong>を使用して認証する必要があります。 </p></li></ul><p>これらの要件に基づいて、最も適切なオプションを指定して次のステートメントを完成させます。</p><p><code>承認の決定は ___________________ によって実行されます。</code> </p>",
+      "promptText": "あなたは、Microsoft Entra ID ユーザーがオンライン アンケートを作成および公開できるようにする Software-as-a-Service (SaaS) ソリューションを設計しています。このソリューションは、フロントエンド Web アプリケーションとバックエンド Web API で構成されており、Web アプリケーションは API を呼び出して調査の更新を管理します。\nこのアーキテクチャの認証モデルを定義する必要があります。設計は次の要件を満たす必要があります。\n・Web アプリケーションは、OAuth 2.0 ベアラー トークンを使用してバックエンド API を呼び出す必要があります。\n\n・Web アプリケーションは、アプリケーションのみではなくサインイン ユーザーの個人 IDを使用して認証する必要があります。\n\nこれらの要件に基づいて、最も適切なオプションを指定して次のステートメントを完成させます。\n承認の決定は ___________________ によって実行されます。",
+      "choices": [
+        {
+          "choiceId": "en6-q-042-c1",
+          "label": null,
+          "text": "Microsoft Entra",
+          "html": "<p>Microsoft Entra</p>"
+        },
+        {
+          "choiceId": "en6-q-042-c2",
+          "label": null,
+          "text": "Web アプリ",
+          "html": "Web アプリ"
+        },
+        {
+          "choiceId": "en6-q-042-c3",
+          "label": null,
+          "text": "Web API",
+          "html": "Web API"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-042-c3"
+      ],
+      "explanationHtml": "<p>Web API は正解です。OAuth 2.0 ベースのアーキテクチャでは、リソース サーバー (この場合は Web API) が承認を担当します。</p><p>Web API はトークンを検証し、そのクレーム (ロール、スコープ、ユーザー ID など) を検査し、トークンの内容と内部ロジック (ユーザーなど) に基づいて承認の決定を行います。</p><p><img src=\"assets/英語問題集6_files/2025-03-21_17-28-08-0669dec33f6704d2d84cc664caf53f3b.png\" alt=\"\" loading=\"eager\"></p><p>Microsoft Entra は ID プロバイダーでありトークン発行者であるため、不正確です。リソース レベルの認可決定は行わず、単に認証と同意されたスコープに基づいてトークンを発行します。</p><p>ウェブ アプリは、ユーザーを認証し、UI レベルのアクセス制御を実行する可能性がある一方で、バックエンド API リソースへのアクセスを制御しないため、不正確です。その責任は、このフローで保護されているリソースであるウェブ API にあります。</p><p>参照リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/active-directory/develop/scenario-web-api-call-api-overview\">https://learn.microsoft.com/en-us/azure/active-directory/develop/scenario-web-api-call-api-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity-platform/access-tokens\">https://learn.microsoft.com/en-us/entra/identity-platform/access-tokens</a></p></li><li><p><a href=\"https://learn.microsoft.com/lb-lu/azure/architecture/guide/multitenant/considerations/identity\">https://learn.microsoft.com/lb-lu/azure/architecture/guide/multitenant/considerations/identity</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/architecture/auth-oauth2\">https://learn.microsoft.com/en-us/entra/architecture/auth-oauth2</a></p></li></ul>",
+      "explanationText": "Web API は正解です。OAuth 2.0 ベースのアーキテクチャでは、リソース サーバー (この場合は Web API) が承認を担当します。\nWeb API はトークンを検証し、そのクレーム (ロール、スコープ、ユーザー ID など) を検査し、トークンの内容と内部ロジック (ユーザーなど) に基づいて承認の決定を行います。\n\nMicrosoft Entra は ID プロバイダーでありトークン発行者であるため、不正確です。リソース レベルの認可決定は行わず、単に認証と同意されたスコープに基づいてトークンを発行します。\nウェブ アプリは、ユーザーを認証し、UI レベルのアクセス制御を実行する可能性がある一方で、バックエンド API リソースへのアクセスを制御しないため、不正確です。その責任は、このフローで保護されているリソースであるウェブ API にあります。\n参照リンク:\n・https://learn.microsoft.com/en-us/azure/active-directory/develop/scenario-web-api-call-api-overview\n\n・https://learn.microsoft.com/en-us/entra/identity-platform/access-tokens\n\n・https://learn.microsoft.com/lb-lu/azure/architecture/guide/multitenant/considerations/identity\n\n・https://learn.microsoft.com/en-us/entra/architecture/auth-oauth2",
+      "images": [
+        "assets/英語問題集6_files/2025-03-21_17-28-08-0669dec33f6704d2d84cc664caf53f3b.png"
+      ],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en6-linked-008",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en6-q-043",
+      "sourceQuestionNumber": 43,
+      "promptHtml": "<p>あなたは、複数の BLOB を含む BLOB コンテナーを含む Azure サブスクリプションを管理しています。</p><p>人事部門の 15 人のユーザーが BLOB にアクセスする必要がありますが、その期間は 9 月中のみです。</p><p>この限られた期間はアクセスを許可し、9 月以外のアクセスは自動的に禁止するセキュリティ アプローチを推奨する必要があります。</p><p>どのセキュリティ ソリューションを推奨事項。</p>",
+      "promptText": "あなたは、複数の BLOB を含む BLOB コンテナーを含む Azure サブスクリプションを管理しています。\n人事部門の 15 人のユーザーが BLOB にアクセスする必要がありますが、その期間は 9 月中のみです。\nこの限られた期間はアクセスを許可し、9 月以外のアクセスは自動的に禁止するセキュリティ アプローチを推奨する必要があります。\nどのセキュリティ ソリューションを推奨事項。",
+      "choices": [
+        {
+          "choiceId": "en6-q-043-c1",
+          "label": null,
+          "text": "条件付きアクセス ポリシー",
+          "html": "条件付きアクセス ポリシー"
+        },
+        {
+          "choiceId": "en6-q-043-c2",
+          "label": null,
+          "text": "共有アクセス署名 (SAS)",
+          "html": "共有アクセス署名 (SAS)"
+        },
+        {
+          "choiceId": "en6-q-043-c3",
+          "label": null,
+          "text": "アクセス キー",
+          "html": "アクセス キー"
+        },
+        {
+          "choiceId": "en6-q-043-c4",
+          "label": null,
+          "text": "証明書",
+          "html": "証明書"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-043-c2"
+      ],
+      "explanationHtml": "<p>Shared Access Signature (SAS) が正解です。これにより、特定の期間 (この場合は 9 月中) に Azure Blob Storage リソースへの制限付きアクセスを許可できるからです。</p><p>条件付きアクセス ポリシー は、Microsoft Entra ID のユーザー サインイン条件に適用され、Azure Storage アクセスには使用されないため不正確です。コントロール。</p><p>アクセス キーは、ストレージ アカウントへの完全なアクセスを許可し、詳細なアクセスや時間制限のあるアクセスを提供しないため、不正確です。アクセス キーの共有は安全性が低いため、一時的なユーザー アクセスには推奨されません。</p><p>証明書 は誤りです。これらは通常、アプリケーションまたは API シナリオでのクライアント認証に使用され、Azure Storage リソースへの一時的または詳細なアクセスには使用されないためです。</p><p>リファレンスリンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview\">https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/authorize-access-azure-storage\">https://learn.microsoft.com/en-us/azure/storage/blobs/authorize-access-azure-storage</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/rest/api/storageservices/delegate-access-with-shared-access-signature\">https://learn.microsoft.com/en-us/rest/api/storageservices/delegate-access-with-shared-access-signature</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal\">https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal</a></p></li></ul>",
+      "explanationText": "正解はShared Access Signature (SAS) です。これにより、特定の期間 (この場合は 9 月中) に Azure Blob Storage リソースへの制限付きアクセスを許可できるからです。\n条件付きアクセス ポリシー は、Microsoft Entra ID のユーザー サインイン条件に適用され、Azure Storage アクセスには使用されないため不正確です。コントロール。\nアクセス キーは、ストレージ アカウントへの完全なアクセスを許可し、詳細なアクセスや時間制限のあるアクセスを提供しないため、不正確です。アクセス キーの共有は安全性が低いため、一時的なユーザー アクセスには推奨されません。\n証明書 は誤りです。これらは通常、アプリケーションまたは API シナリオでのクライアント認証に使用され、Azure Storage リソースへの一時的または詳細なアクセスには使用されないためです。\nリファレンスリンク:\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/authorize-access-azure-storage\n\n・https://learn.microsoft.com/en-us/rest/api/storageservices/delegate-access-with-shared-access-signature\n\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en6-q-044",
+      "sourceQuestionNumber": 44,
+      "promptHtml": "<p>データ資産の保存に Azure ストレージ アカウントを使用する予定です。</p><p>ストレージ ソリューションは次の要件を満たす必要があります。</p><ul><li><p>保存されたデータが書き込まれた後に変更されないようにする</p></li><li><p>ストレージ アカウントへの匿名アクセスが許可されていないことを確認する</p></li><li><p>サポート アクセス制御リストMicrosoft Entra と統合する (ACL) ベースのアクセス許可</p></li></ul><p>推奨事項には何を含める必要がありますか。</p>",
+      "promptText": "データ資産の保存に Azure ストレージ アカウントを使用する予定です。\nストレージ ソリューションは次の要件を満たす必要があります。\n・保存されたデータが書き込まれた後に変更されないようにする\n\n・ストレージ アカウントへの匿名アクセスが許可されていないことを確認する\n\n・サポート アクセス制御リストMicrosoft Entra と統合する (ACL) ベースのアクセス許可\n\n推奨事項には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-044-c1",
+          "label": null,
+          "text": "Azure Blob Storage",
+          "html": "<p>Azure Blob Storage</p>"
+        },
+        {
+          "choiceId": "en6-q-044-c2",
+          "label": null,
+          "text": "Azure Data Lake Storage",
+          "html": "<p>Azure Data Lake Storage</p>"
+        },
+        {
+          "choiceId": "en6-q-044-c3",
+          "label": null,
+          "text": "Azure NetApp Files",
+          "html": "<p>Azure NetApp Files</p>"
+        },
+        {
+          "choiceId": "en6-q-044-c4",
+          "label": null,
+          "text": "Azure Files",
+          "html": "<p>Azure Files</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-044-c2"
+      ],
+      "explanationHtml": "<p>Azure Data Lake Storage が正解です。Azure Data Lake Storage は、要件に対処するのに最適なオプションです。</p><p>Azure Blob Storage は誤りです。Microsoft のクラウド製品の主要コンポーネントである Azure Blob Storage は、長期にわたってデータの整合性を維持するためのバージョン管理による不変性をサポートしています。</p><p>Azure NetApp Files は誤りです。Azure NetApp Files は、エンタープライズ ワークロード向けにカスタマイズされた高パフォーマンスのファイル ストレージを提供するように特別に設計されています。</p><p>Azure Files は誤りです。Azure Files は、Windows、Linux、macOS と互換性のあるフルマネージド ファイル共有サービスであり、SMB、NFS、Azure Files REST API を通じてアクセスできます。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction#finer-grain-security-model\">https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction#finer-grain-security-model</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-lake-store/data-lake-store-comparison-with-blob-storage\">https://learn.microsoft.com/en-us/azure/data-lake-store/data-lake-store-comparison-with-blob-storage</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\">https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-introduction\">https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction\">https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction</a></p></li></ul>",
+      "explanationText": "正解はAzure Data Lake Storage です。Azure Data Lake Storage は、要件に対処するのに最適なオプションです。\nAzure Blob Storage は誤りです。Microsoft のクラウド製品の主要コンポーネントである Azure Blob Storage は、長期にわたってデータの整合性を維持するためのバージョン管理による不変性をサポートしています。\nAzure NetApp Files は誤りです。Azure NetApp Files は、エンタープライズ ワークロード向けにカスタマイズされた高パフォーマンスのファイル ストレージを提供するように特別に設計されています。\nAzure Files は誤りです。Azure Files は、Windows、Linux、macOS と互換性のあるフルマネージド ファイル共有サービスであり、SMB、NFS、Azure Files REST API を通じてアクセスできます。\n参考:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction#finer-grain-security-model\n\n・https://learn.microsoft.com/en-us/azure/data-lake-store/data-lake-store-comparison-with-blob-storage\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\n\n・https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-introduction\n\n・https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en6-q-045",
+      "sourceQuestionNumber": 45,
+      "promptHtml": "<p>あなたは、<strong>Windows Server</strong> を実行している <strong>20 台のオンプレミス サーバー</strong> 上のデータを Azure にバックアップすることで保護する責任があります。</p><p>バックアップ ソリューションは次の条件を満たす必要があります。</p><ul><li><p>各サーバー上の<strong>すべてのファイルとディレクトリ</strong>をキャプチャする</p></li><li><p><strong>3 つの複製を維持するAzure 内のバックアップ データのコピー</strong></p></li><li><p><strong>全体的なバックアップ コストを可能な限り低く保ちます</strong></p></li></ul><p><strong>これらの要件を満たすためにサーバーで何を構成する必要がありますか。</strong></p>",
+      "promptText": "あなたは、Windows Server を実行している 20 台のオンプレミス サーバー 上のデータを Azure にバックアップすることで保護する責任があります。\nバックアップ ソリューションは次の条件を満たす必要があります。\n・各サーバー上のすべてのファイルとディレクトリをキャプチャする\n\n・3 つの複製を維持するAzure 内のバックアップ データのコピー\n\n・全体的なバックアップ コストを可能な限り低く保ちます\n\nこれらの要件を満たすためにサーバーで何を構成する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-045-c1",
+          "label": null,
+          "text": "Azure Site Recovery Mobility サービス",
+          "html": "<p>Azure Site Recovery Mobility サービス</p>"
+        },
+        {
+          "choiceId": "en6-q-045-c2",
+          "label": null,
+          "text": "Microsoft Azure Recovery Services (MARS) エージェント",
+          "html": "<p>Microsoft Azure Recovery Services (MARS) エージェント</p>"
+        },
+        {
+          "choiceId": "en6-q-045-c3",
+          "label": null,
+          "text": "ボリューム シャドウ コピー サービス (VSS)",
+          "html": "<p>ボリューム シャドウ コピー サービス (VSS)</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-045-c2"
+      ],
+      "explanationHtml": "<p>Microsoft Azure Recovery Services (MARS))エージェント が正解です。Windows Server を実行している 20 台のオンプレミス サーバーが毎日バックアップされ、すべてのファイルとフォルダーがこれらのバックアップに含まれていることを確認しながら、バックアップの 3 つのコピーを Azure に維持するには、サーバー上に Microsoft Azure Recovery Services (MARS) エージェントをセットアップすることが最善です。</p><p>Azure Site Recovery Mobility サービス は正しくありませんです。これは主に、災害復旧と移行のシナリオに使用されます。</p><p>ボリューム シャドウ コピー サービス (VSS) は誤りです。VSS は、ファイルやフォルダーのスナップショットを取得するのに役立つ Windows のツールのようなものです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/install-mars-agent#about-the-mars-agent\">https://learn.microsoft.com/en-us/azure/backup/install-mars-agent#about-the-mars-agent</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/site-recovery/vmware-physical-manage-mobility-service\">https://learn.microsoft.com/en-us/azure/site-recovery/vmware-physical-manage-mobility-service</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview\">https://learn.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/windows-server/storage/file-server/volume-shadow-copy-service\">https://learn.microsoft.com/en-us/windows-server/storage/file-server/volume-shadow-copy-service</a></p></li></ul>",
+      "explanationText": "正解はMicrosoft Azure Recovery Services (MARS))エージェント です。Windows Server を実行している 20 台のオンプレミス サーバーが毎日バックアップされ、すべてのファイルとフォルダーがこれらのバックアップに含まれていることを確認しながら、バックアップの 3 つのコピーを Azure に維持するには、サーバー上に Microsoft Azure Recovery Services (MARS) エージェントをセットアップすることが最善です。\nAzure Site Recovery Mobility サービス は正しくありませんです。これは主に、災害復旧と移行のシナリオに使用されます。\nボリューム シャドウ コピー サービス (VSS) は誤りです。VSS は、ファイルやフォルダーのスナップショットを取得するのに役立つ Windows のツールのようなものです。\n参考:\n・https://learn.microsoft.com/en-us/azure/backup/install-mars-agent#about-the-mars-agent\n\n・https://learn.microsoft.com/en-us/azure/site-recovery/vmware-physical-manage-mobility-service\n\n・https://learn.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview\n\n・https://learn.microsoft.com/en-us/windows-server/storage/file-server/volume-shadow-copy-service",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en6-linked-009",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en6-q-046",
+      "sourceQuestionNumber": 46,
+      "promptHtml": "<p>あなたは、<strong>Windows Server</strong> を実行している <strong>20 台のオンプレミス サーバー</strong> 上のデータを Azure にバックアップすることで保護する責任があります。</p><p>バックアップ ソリューションは次の条件を満たす必要があります。</p><ul><li><p>各サーバー上の<strong>すべてのファイルとディレクトリ</strong>をキャプチャする</p></li><li><p><strong>3 つの複製を維持するAzure 内のバックアップ データのコピー</strong></p></li><li><p><strong>全体的なバックアップ コストを可能な限り低く保ちます</strong></p></li></ul><p><strong>ストレージには何を構成する必要がありますか。</strong></p>",
+      "promptText": "あなたは、Windows Server を実行している 20 台のオンプレミス サーバー 上のデータを Azure にバックアップすることで保護する責任があります。\nバックアップ ソリューションは次の条件を満たす必要があります。\n・各サーバー上のすべてのファイルとディレクトリをキャプチャする\n\n・3 つの複製を維持するAzure 内のバックアップ データのコピー\n\n・全体的なバックアップ コストを可能な限り低く保ちます\n\nストレージには何を構成する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-046-c1",
+          "label": null,
+          "text": "地理冗長ストレージ (GRS)",
+          "html": "<p>地理冗長ストレージ (GRS)</p>"
+        },
+        {
+          "choiceId": "en6-q-046-c2",
+          "label": null,
+          "text": "ローカル冗長ストレージ (LRS)",
+          "html": "<p>ローカル冗長ストレージ (LRS)</p>"
+        },
+        {
+          "choiceId": "en6-q-046-c3",
+          "label": null,
+          "text": "ゾーン冗長ストレージ (ZRS)",
+          "html": "<p>ゾーン冗長ストレージ (ZRS)</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-046-c2"
+      ],
+      "explanationHtml": "<p>ローカル冗長ストレージ (LRS) はそれは正解です。質問の特定の要件を満たすには、20 台のオンプレミス サーバーの Recovery Services コンテナーへの毎日のバックアップを実行しながら、バックアップの 3 つのコピーを Azure に保持し、コストを最小限に抑える必要があるため、ストレージをローカル冗長ストレージ (LRS) で構成することをお勧めします。</p><p><img src=\"assets/英語問題集6_files/2025-03-27_15-45-36-c843d1dc0f3d091f0f8ec1fcfe461fb9.png\" alt=\"\"loading=\"eager\"><br></p><p>地理冗長ストレージ (GRS) は誤りです。これは、高いデータ可用性と災害復旧を目的として設計されています。</p><p><img src=\"assets/英語問題集6_files/2025-03-27_15-45-36-87c98fda0d45b8b66b9124212bcf0f87.png\" alt=\"\"loading=\"eager\"><br></p><p>ゾーン冗長ストレージ (ZRS) はそれは不正解です。リージョン内の複数の可用性ゾーンにデータを保存することで、データの可用性が向上します。</p><p><img src=\"assets/英語問題集6_files/2025-03-27_15-45-36-58c71f306b948028bc58c8294518d3aa.png\" alt=\"\"loading=\"eager\"></p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy\">https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy</a></p></li></ul>",
+      "explanationText": "正解はローカル冗長ストレージ (LRS) です。質問の特定の要件を満たすには、20 台のオンプレミス サーバーの Recovery Services コンテナーへの毎日のバックアップを実行しながら、バックアップの 3 つのコピーを Azure に保持し、コストを最小限に抑える必要があるため、ストレージをローカル冗長ストレージ (LRS) で構成することをお勧めします。\n\n地理冗長ストレージ (GRS) は誤りです。これは、高いデータ可用性と災害復旧を目的として設計されています。\n\nゾーン冗長ストレージ (ZRS) は誤りです。リージョン内の複数の可用性ゾーンにデータを保存することで、データの可用性が向上します。\n\n参考:\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy",
+      "images": [
+        "assets/英語問題集6_files/2025-03-27_15-45-36-c843d1dc0f3d091f0f8ec1fcfe461fb9.png",
+        "assets/英語問題集6_files/2025-03-27_15-45-36-87c98fda0d45b8b66b9124212bcf0f87.png",
+        "assets/英語問題集6_files/2025-03-27_15-45-36-58c71f306b948028bc58c8294518d3aa.png"
+      ],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en6-linked-009",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en6-q-047",
+      "sourceQuestionNumber": 47,
+      "promptHtml": "<p>あなたは、単一のサブスクリプション内の複数の<strong>Azure Storage アカウント</strong>に対するアクセス承認アプローチを設計しています。</p><p>プランには次のものが含まれます。</p><ul><li><p><strong>ブロック BLOB</strong> の保存に使用される 5 つのストレージ アカウント</p></li><li><p><strong>SMB 経由でアクセスされる<strong>ファイル共有</strong>のホストに使用される 5 つのストレージ アカウントプロトコル</strong></p></li></ul><p>アクセス ソリューションは次の要件を満たす必要があります。</p><ul><li><p><strong>可能な限り最高レベルのセキュリティ</strong></p></li><li><p><strong>共有アクセス キーを禁止する</strong></p></li><li><p>可能な場合は常に<strong>期限付きアクセス</strong>をサポートする</p></li></ul><p>何を含めるべきか<code>BLOB アクセス</code> 専用のソリューションですか。</p>",
+      "promptText": "あなたは、単一のサブスクリプション内の複数のAzure Storage アカウントに対するアクセス承認アプローチを設計しています。\nプランには次のものが含まれます。\n・ブロック BLOB の保存に使用される 5 つのストレージ アカウント\n\n・SMB 経由でアクセスされるファイル共有のホストに使用される 5 つのストレージ アカウントプロトコル\n\nアクセス ソリューションは次の要件を満たす必要があります。\n・可能な限り最高レベルのセキュリティ\n\n・共有アクセス キーを禁止する\n\n・可能な場合は常に期限付きアクセスをサポートする\n\n何を含めるべきかBLOB アクセス 専用のソリューションですか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-047-c1",
+          "label": null,
+          "text": "ユーザー委任の共有アクセス署名 (SAS) のみ",
+          "html": "<p>ユーザー委任の共有アクセス署名 (SAS) のみ</p>"
+        },
+        {
+          "choiceId": "en6-q-047-c2",
+          "label": null,
+          "text": "共有アクセス署名 (SAS) と保存されたアクセス ポリシー",
+          "html": "<p>共有アクセス署名 (SAS) と保存されたアクセス ポリシー</p>"
+        },
+        {
+          "choiceId": "en6-q-047-c3",
+          "label": null,
+          "text": "ユーザー委任共有アクセス署名 (SAS) と保存されたアクセス ポリシー",
+          "html": "<p>ユーザー委任共有アクセス署名 (SAS) と保存されたアクセス ポリシー</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-047-c1"
+      ],
+      "explanationHtml": "<p>ユーザー委任共有アクセス署名 (SAS) のみ が正解です。セキュリティを最大限に高め、共有キーの使用を防止し、Azure にブロック BLOB を保存するストレージ アカウントへの時間制限付きアクセスをサポートするには、ユーザー委任の Shared Access Signature (SAS) のみを実装することをお勧めします。</p><p>共有アクセス署名 (SAS) のみと格納されたアクセス ポリシー は誤りです。Shared Access Signature (SAS) と Stored Access Policy を組み合わせると、セキュリティ リスクが生じます。</p><p>ユーザー委任の共有アクセス署名 (SAS) と保存されたアクセス ポリシー は誤りです。ユーザー委任 SAS は、Microsoft Entra を通じて安全な委任をすでに提供しており、時間制限付きアクセスもサポートしているため、指定された要件の特定のシナリオにはシンプルで十分です。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/rest/api/storageservices/define-stored-access-policy\">https://learn.microsoft.com/en-us/rest/api/storageservices/define-stored-access-policy</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/rest/api/storageservices/create-user-delegation-sas\">https://learn.microsoft.com/en-us/rest/api/storageservices/create-user-delegation-sas</a></p></li></ul>",
+      "explanationText": "正解はユーザー委任共有アクセス署名 (SAS) のみ です。セキュリティを最大限に高め、共有キーの使用を防止し、Azure にブロック BLOB を保存するストレージ アカウントへの時間制限付きアクセスをサポートするには、ユーザー委任の Shared Access Signature (SAS) のみを実装することをお勧めします。\n共有アクセス署名 (SAS) のみと格納されたアクセス ポリシー は誤りです。Shared Access Signature (SAS) と Stored Access Policy を組み合わせると、セキュリティ リスクが生じます。\nユーザー委任の共有アクセス署名 (SAS) と保存されたアクセス ポリシー は誤りです。ユーザー委任 SAS は、Microsoft Entra を通じて安全な委任をすでに提供しており、時間制限付きアクセスもサポートしているため、指定された要件の特定のシナリオにはシンプルで十分です。\n参考:\n・https://learn.microsoft.com/en-us/rest/api/storageservices/define-stored-access-policy\n\n・https://learn.microsoft.com/en-us/rest/api/storageservices/create-user-delegation-sas",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en6-linked-010",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en6-q-048",
+      "sourceQuestionNumber": 48,
+      "promptHtml": "<p>あなたは、単一のサブスクリプション内の複数の<strong>Azure Storage アカウント</strong>に対するアクセス承認アプローチを設計しています。</p><p>プランには次のものが含まれます。</p><ul><li><p><strong>ブロック BLOB</strong> の保存に使用される 5 つのストレージ アカウント</p></li><li><p><strong>SMB 経由でアクセスされる<strong>ファイル共有</strong>のホストに使用される 5 つのストレージ アカウントプロトコル</strong></p></li></ul><p>アクセス ソリューションは次の要件を満たす必要があります。</p><ul><li><p><strong>可能な限り最高レベルのセキュリティ</strong></p></li><li><p><strong>共有アクセス キーを禁止する</strong></p></li><li><p>可能な場合は常に<strong>期限付きアクセス</strong>をサポートする</p></li></ul><p>何を含めるべきか<code>ファイル共有</code>専用のソリューションですか。</p>",
+      "promptText": "あなたは、単一のサブスクリプション内の複数のAzure Storage アカウントに対するアクセス承認アプローチを設計しています。\nプランには次のものが含まれます。\n・ブロック BLOB の保存に使用される 5 つのストレージ アカウント\n\n・SMB 経由でアクセスされるファイル共有のホストに使用される 5 つのストレージ アカウントプロトコル\n\nアクセス ソリューションは次の要件を満たす必要があります。\n・可能な限り最高レベルのセキュリティ\n\n・共有アクセス キーを禁止する\n\n・可能な場合は常に期限付きアクセスをサポートする\n\n何を含めるべきかファイル共有専用のソリューションですか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-048-c1",
+          "label": null,
+          "text": "Microsoft Entra 資格情報",
+          "html": "<p>Microsoft Entra 資格情報</p>"
+        },
+        {
+          "choiceId": "en6-q-048-c2",
+          "label": null,
+          "text": "ユーザー委任の共有アクセス署名 (SAS) のみ",
+          "html": "<p>ユーザー委任の共有アクセス署名 (SAS) のみ</p>"
+        },
+        {
+          "choiceId": "en6-q-048-c3",
+          "label": null,
+          "text": "ユーザー委任の共有アクセス署名(SAS) および保存されたアクセス ポリシー",
+          "html": "<p>ユーザー委任の共有アクセス署名(SAS) および保存されたアクセス ポリシー</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-048-c1"
+      ],
+      "explanationHtml": "<p>Microsoft Entra 資格情報 が正解です。セキュリティを強化し、共有キーの使用を回避し、Azure ファイル共有への時間制限付きアクセスを有効にするには、Microsoft Entra 資格情報を使用するのが最善です。</p><p>ユーザー委任の Shared Access Signature (SAS) とストアド アクセス ポリシー は誤りです。保存されたアクセス ポリシーは、ユーザー委任 SAS ではサポートされません。</p><p>ユーザー委任の Shared Access Signature (SAS) のみ は誤りです。ファイル共有にユーザー委任の Shared Access Signature (SAS) のみを選択することは、Microsoft Entra 資格情報によって提供される ID ベースのセキュリティが欠けているため、お勧めできません。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/rest/api/storageservices/define-stored-access-policy\">https://learn.microsoft.com/en-us/rest/api/storageservices/define-stored-access-policy</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/rest/api/storageservices/create-user-delegation-sas\">https://learn.microsoft.com/en-us/rest/api/storageservices/create-user-delegation-sas</a></p></li></ul>",
+      "explanationText": "正解はMicrosoft Entra 資格情報 です。セキュリティを強化し、共有キーの使用を回避し、Azure ファイル共有への時間制限付きアクセスを有効にするには、Microsoft Entra 資格情報を使用するのが最善です。\nユーザー委任の Shared Access Signature (SAS) とストアド アクセス ポリシー は誤りです。保存されたアクセス ポリシーは、ユーザー委任 SAS ではサポートされません。\nユーザー委任の Shared Access Signature (SAS) のみ は誤りです。ファイル共有にユーザー委任の Shared Access Signature (SAS) のみを選択することは、Microsoft Entra 資格情報によって提供される ID ベースのセキュリティが欠けているため、お勧めできません。\n参考:\n・https://learn.microsoft.com/en-us/rest/api/storageservices/define-stored-access-policy\n\n・https://learn.microsoft.com/en-us/rest/api/storageservices/create-user-delegation-sas",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en6-linked-010",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en6-q-049",
+      "sourceQuestionNumber": 49,
+      "promptHtml": "<p>あなたは、Azure Synapse Analytics と Azure Data Lake Storage Gen2 を併用するデータ分析ソリューションを設計しています。</p><p>設計の一環として、次の要件を満たす適切な Azure Synapse プール タイプを選択する必要があります。</p><ul><li><p><strong>Azure Data Lake Storage からハッシュ分散にデータを読み込むテーブル</strong></p></li></ul><p>この要件に対して推奨するものは何ですか。</p>",
+      "promptText": "あなたは、Azure Synapse Analytics と Azure Data Lake Storage Gen2 を併用するデータ分析ソリューションを設計しています。\n設計の一環として、次の要件を満たす適切な Azure Synapse プール タイプを選択する必要があります。\n・Azure Data Lake Storage からハッシュ分散にデータを読み込むテーブル\n\nこの要件に対して推奨するものは何ですか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-049-c1",
+          "label": null,
+          "text": "専用の SQL プール",
+          "html": "<p>専用の SQL プール</p>"
+        },
+        {
+          "choiceId": "en6-q-049-c2",
+          "label": null,
+          "text": "サーバーレス Apache Spark プール",
+          "html": "<p>サーバーレス Apache Spark プール</p>"
+        },
+        {
+          "choiceId": "en6-q-049-c3",
+          "label": null,
+          "text": "サーバーレスSQL プール",
+          "html": "<p>サーバーレスSQL プール</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-049-c1"
+      ],
+      "explanationHtml": "<p>専用の SQL プール が正解です。Azure Data Lake Storage Gen2 から Azure Synapse Analytics のハッシュ分散テーブルにデータを取り込む場合は、専用の SQL プールを使用することをお勧めします。</p><p>サーバーレス Apache Spark プール は誤りです。Azure Synapse Analytics のサーバーレス Apache Spark プールは、Apache Spark エンジンを使用したオンデマンドのデータ処理と分析用に設計されています。</p><p>サーバーレス SQL プール は誤りです。すべての Azure Synapse Analytics ワークスペースには、Azure Data Lake 内のデータのクエリに使用できるサーバーレス SQL プール エンドポイントが付属しています。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is\">https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/on-demand-workspace-overview\">https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/on-demand-workspace-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/best-practices-serverless-sql-pool\">https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/best-practices-serverless-sql-pool</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/best-practices-dedicated-sql-pool\">https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/best-practices-dedicated-sql-pool</a></p></li></ul>",
+      "explanationText": "正解は専用の SQL プール です。Azure Data Lake Storage Gen2 から Azure Synapse Analytics のハッシュ分散テーブルにデータを取り込む場合は、専用の SQL プールを使用することをお勧めします。\nサーバーレス Apache Spark プール は誤りです。Azure Synapse Analytics のサーバーレス Apache Spark プールは、Apache Spark エンジンを使用したオンデマンドのデータ処理と分析用に設計されています。\nサーバーレス SQL プール は誤りです。すべての Azure Synapse Analytics ワークスペースには、Azure Data Lake 内のデータのクエリに使用できるサーバーレス SQL プール エンドポイントが付属しています。\n参考:\n・https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is\n\n・https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/on-demand-workspace-overview\n\n・https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/best-practices-serverless-sql-pool\n\n・https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/best-practices-dedicated-sql-pool",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en6-q-050",
+      "sourceQuestionNumber": 50,
+      "promptHtml": "<p>あなたは、Azure Synapse Analytics と Azure Data Lake Storage Gen2 を併用するデータ分析ソリューションを設計しています。</p><p>設計の一環として、次の要件を満たす適切な Azure Synapse プール タイプを選択する必要があります。</p><ul><li><p><strong>デルタでのデータの実装、クエリ、更新Lake</strong></p></li></ul><p>この要件には何を推奨しますか。</p>",
+      "promptText": "あなたは、Azure Synapse Analytics と Azure Data Lake Storage Gen2 を併用するデータ分析ソリューションを設計しています。\n設計の一環として、次の要件を満たす適切な Azure Synapse プール タイプを選択する必要があります。\n・デルタでのデータの実装、クエリ、更新Lake\n\nこの要件には何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-050-c1",
+          "label": null,
+          "text": "専用 SQL プール",
+          "html": "<p>専用 SQL プール</p>"
+        },
+        {
+          "choiceId": "en6-q-050-c2",
+          "label": null,
+          "text": "サーバーレス Apache Spark プール",
+          "html": "<p>サーバーレス Apache Spark プール</p>"
+        },
+        {
+          "choiceId": "en6-q-050-c3",
+          "label": null,
+          "text": "サーバーレスSQL プール",
+          "html": "<p>サーバーレスSQL プール</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-050-c2"
+      ],
+      "explanationHtml": "<p>サーバーレス Apache Spark プール が正解です。Azure Synapse Analytics と Azure Data Lake Storage Gen2 を使用してデルタ レイクにクエリを実装し、データを更新するには、サーバーレス Apache Spark プールが特定のシナリオに適しています。</p><p>サーバーレス SQL プール は誤りです。Synapse ワークスペースのサーバーレス SQL プールを使用すると、Delta Lake 形式で保存されたデータに簡単にアクセスして取得できるため、レポート ツールに便利です。</p><p>専用の SQL プール は誤りです。専用の SQL プール (以前は Azure Synapse Analytics の SQL データ ウェアハウスと呼ばれていました) はデータのクエリをサポートしており、分析クエリと実質的なデータ ウェアハウジング タスク用に最適化されています。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/synapse-analytics/overview-what-is\">https://learn.microsoft.com/en-us/azure/synapse-analytics/overview-what-is</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/resources-self-help-sql-on-demand?tabs=x80070002#delta-lake\">https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/resources-self-help-sql-on-demand?tabs=x80070002#delta-lake</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction\">https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/query-delta-lake-format\">https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/query-delta-lake-format</a></p></li></ul>",
+      "explanationText": "正解はサーバーレス Apache Spark プール です。Azure Synapse Analytics と Azure Data Lake Storage Gen2 を使用してデルタ レイクにクエリを実装し、データを更新するには、サーバーレス Apache Spark プールが特定のシナリオに適しています。\nサーバーレス SQL プール は誤りです。Synapse ワークスペースのサーバーレス SQL プールを使用すると、Delta Lake 形式で保存されたデータに簡単にアクセスして取得できるため、レポート ツールに便利です。\n専用の SQL プール は誤りです。専用の SQL プール (以前は Azure Synapse Analytics の SQL データ ウェアハウスと呼ばれていました) はデータのクエリをサポートしており、分析クエリと実質的なデータ ウェアハウジング タスク用に最適化されています。\n参考:\n・https://learn.microsoft.com/en-us/azure/synapse-analytics/overview-what-is\n\n・https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/resources-self-help-sql-on-demand?tabs=x80070002#delta-lake\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction\n\n・https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/query-delta-lake-format",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "setId": "en1-set-003",
+  "title": "英語問題集1 翻訳版 21-30",
+  "sourceHtml": "assets/英語問題集1.html",
+  "questionIds": [
+    "en1-q-021",
+    "en1-q-022",
+    "en1-q-023",
+    "en1-q-024",
+    "en1-q-025",
+    "en1-q-026",
+    "en1-q-027",
+    "en1-q-028",
+    "en1-q-029",
+    "en1-q-030"
+  ],
+  "questions": [
+    {
+      "questionId": "en1-q-021",
+      "sourceQuestionNumber": 21,
+      "promptHtml": "<p><strong>Microsoft Entra ID テナント</strong>には、<strong>MarketingAU</strong> という名前の管理単位が含まれており、これには約 <strong>100 のユーザー アカウント</strong>が含まれています。</p><p>2 人の新しいユーザー <strong>User1</strong> と <strong>User2</strong> がテナントに作成されます。</p><p>次の手順を実行する必要があります。 <strong> MarketingAU</strong> 内で次の要件が満たされるように権限を設定します。</p><ul><li><p><strong>User1</strong> は新しいユーザー アカウントを作成できる必要があります。</p></li><li><p><strong>User2</strong> は既存のユーザーのパスワードをリセットできる必要があります。</p></li></ul><p>どれを行うべきか<code>User2</code>。</p>",
+      "promptText": "Microsoft Entra ID テナントには、MarketingAU という名前の管理単位が含まれており、これには約 100 のユーザー アカウントが含まれています。\n2 人の新しいユーザー User1 と User2 がテナントに作成されます。\n次の手順を実行する必要があります。  MarketingAU 内で次の要件が満たされるように権限を設定します。\n・User1 は新しいユーザー アカウントを作成できる必要があります。\n\n・User2 は既存のユーザーのパスワードをリセットできる必要があります。\n\nUser2 に対して何を行うべきですか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-021-c1",
+          "label": null,
+          "text": "MarketingAU をスコープとするヘルプデスク管理者ロールを割り当てます。",
+          "html": "<p>MarketingAU をスコープとするヘルプデスク管理者ロールを割り当てます。</p>"
+        },
+        {
+          "choiceId": "en1-q-021-c2",
+          "label": null,
+          "text": "テナント レベルでヘルプデスク管理者ロールを割り当てます。",
+          "html": "<p>テナント レベルでヘルプデスク管理者ロールを割り当てます。</p>"
+        },
+        {
+          "choiceId": "en1-q-021-c3",
+          "label": null,
+          "text": "MarketingAU を範囲とするユーザー管理者ロールを割り当てます。",
+          "html": "<p>MarketingAU を範囲とするユーザー管理者ロールを割り当てます。</p>"
+        },
+        {
+          "choiceId": "en1-q-021-c4",
+          "label": null,
+          "text": "テナント レベルでユーザー管理者ロールを割り当てます。",
+          "html": "<p>テナント レベルでユーザー管理者ロールを割り当てます。</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-021-c1"
+      ],
+      "explanationHtml": "<p>MarketingAU を範囲とするヘルプデスク管理者ロールを割り当てますそれは正解です。User2 が MarketingAU 管理単位でユーザー パスワードをリセットできるようにするには、MarketingAU のヘルプデスク管理者ロールを割り当てることが正しい選択です。</p><p>テナント レベルでヘルプデスク管理者の役割を割り当てる は誤りです。テナント レベルの MarketingAU のヘルプデスク管理者ロールでは、管理者以外のパスワードのリセット、更新トークンの無効化、Azure および Microsoft 365 サービスに対する Microsoft へのサポート リクエストの作成と管理、サービスの正常性の監視など、いくつかの管理操作が可能ですが、この管理者は Microsoft Entra テナント内のすべてのユーザーのパスワードをリセットできる (この管理者は MarketingAU 以外のすべての組織のパスワードをリセットできる) ため、最小の原則と一致しないことに注意することが重要です。</p><p>MarketingAU を対象としたユーザー管理者ロールの割り当て は誤りです。「MarketingAU のユーザー管理者」ロールの割り当ては、User1 に必要以上の権限を付与するため、正しくありません。</p><p>テナント レベルでユーザー管理者の役割を割り当てる は誤りです。「テナントのユーザー管理者」ロールを割り当てることも、User1 に Microsoft Entra テナント全体にわたる広範なアクセス許可を与えることになるため、正しくありません。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/admin-units-assign-roles\">https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/admin-units-assign-roles</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#helpdesk-administrator\">https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#helpdesk-administrator</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#user-administrator\">https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#user-administrator</a></p></li></ul>",
+      "explanationText": "正解はMarketingAU を範囲とするヘルプデスク管理者ロールを割り当てますです。User2 が MarketingAU 管理単位でユーザー パスワードをリセットできるようにするには、MarketingAU のヘルプデスク管理者ロールを割り当てることが正しい選択です。\nテナント レベルでヘルプデスク管理者の役割を割り当てる は誤りです。テナント レベルの MarketingAU のヘルプデスク管理者ロールでは、管理者以外のパスワードのリセット、更新トークンの無効化、Azure および Microsoft 365 サービスに対する Microsoft へのサポート リクエストの作成と管理、サービスの正常性の監視など、いくつかの管理操作が可能ですが、この管理者は Microsoft Entra テナント内のすべてのユーザーのパスワードをリセットできる (この管理者は MarketingAU 以外のすべての組織のパスワードをリセットできる) ため、最小の原則と一致しないことに注意することが重要です。\nMarketingAU を対象としたユーザー管理者ロールの割り当て は誤りです。「MarketingAU のユーザー管理者」ロールの割り当ては、User1 に必要以上の権限を付与するため、正しくありません。\nテナント レベルでユーザー管理者の役割を割り当てる は誤りです。「テナントのユーザー管理者」ロールを割り当てることも、User1 に Microsoft Entra テナント全体にわたる広範なアクセス許可を与えることになるため、正しくありません。\n参考:\n・https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/admin-units-assign-roles\n\n・https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#helpdesk-administrator\n\n・https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#user-administrator",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-linked-002",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-022",
+      "sourceQuestionNumber": 22,
+      "promptHtml": "<p>オンプレミス環境には、<strong>約 50 GB</strong> のサイズの単一データベースを含む <strong>Microsoft SQL Server 2008</strong> インスタンスが含まれています。</p><p>データベースは<strong>Azure SQL マネージド インスタンス</strong>に移行する必要があります。 <strong>サービスの中断を最小限に抑える</strong>ために、移行アプローチを選択する必要があります。</p><p>移行の実行にはどのツールを使用する必要がありますか。</p>",
+      "promptText": "オンプレミス環境には、約 50 GB のサイズの単一データベースを含む Microsoft SQL Server 2008 インスタンスが含まれています。\nデータベースはAzure SQL マネージド インスタンスに移行する必要があります。 サービスの中断を最小限に抑えるために、移行アプローチを選択する必要があります。\n移行の実行にはどのツールを使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-022-c1",
+          "label": null,
+          "text": "Azure Migrate",
+          "html": "Azure Migrate"
+        },
+        {
+          "choiceId": "en1-q-022-c2",
+          "label": null,
+          "text": "Azure Data Studio",
+          "html": "Azure Data Studio"
+        },
+        {
+          "choiceId": "en1-q-022-c3",
+          "label": null,
+          "text": "WANdisco LiveData Platform for Azure",
+          "html": "WANdisco LiveData Platform for Azure"
+        },
+        {
+          "choiceId": "en1-q-022-c4",
+          "label": null,
+          "text": "SQL Server Management Studio (SSMS)",
+          "html": "SQL Server Management Studio (SSMS)"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-022-c2"
+      ],
+      "explanationHtml": "<p>Azure Data Studio が正解です。ダウンタイムを最小限に抑えながら、50 GB のデータベースをオンプレミスの SQL Server 2008 から Azure SQL マネージド インスタンスに移動したい場合、最も適切なオプションは Azure Data Studio です。</p><p>Azure Migrate は、それは不正解です。Azure Migrate は、Azure Migrate: Discovery and Assessment および Migration and Modernization などのツールを提供し、サーバー、データベース、Web アプリケーションの評価と移行における柔軟性を提供します。</p><p>WANdisco LiveData Platform for Azure は誤りです。Azure 向け WANdisco LiveData プラットフォームは、継続的なデータ転送、ダウンタイムの排除、帯域幅消費の完全な制御などの機能を提供しますが、ダウンタイムを最小限に抑えることを目的として、オンプレミスの Microsoft SQL Server 2008 インスタンスから Azure SQL マネージド インスタンスに 50 GB データベースを移動するなど、小規模な移行には最適なソリューションではない可能性があります。</p><p>SQL Server Management Studio (SSMS) は誤りです。SSMS は、SQL インフラストラクチャを管理するための統合環境であり、SQL サーバー、Azure SQL データベース、Azure SQL マネージド インスタンス、Azure VM 上の SQL サーバー、Azure Synapse Analytics などのさまざまなコンポーネントへのアクセス、構成、管理、開発機能を提供します。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure-data-studio/what-is-azure-data-studio\">https://learn.microsoft.com/en-us/azure-data-studio/what-is-azure-data-studio</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/dms/tutorial-sql-server-managed-instance-online-ads\">https://learn.microsoft.com/en-us/azure/dms/tutorial-sql-server-managed-instance-online-ads</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/migrate-gen2-wandisco-live-data-platform#key-benefits-of-wandisco-livedata-platform-for-azure\">https://learn.microsoft.com/en-us/azure/storage/blobs/migrate-gen2-wandisco-live-data-platform#key-benefits-of-wandisco-livedata-platform-for-azure</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms?view=sql-server-ver16\">https://learn.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms?view=sql-server-ver16</a></p></li></ul>",
+      "explanationText": "正解はAzure Data Studio です。ダウンタイムを最小限に抑えながら、50 GB のデータベースをオンプレミスの SQL Server 2008 から Azure SQL マネージド インスタンスに移動したい場合、最も適切なオプションは Azure Data Studio です。\nAzure Migrate は、は誤りです。Azure Migrate は、Azure Migrate: Discovery and Assessment および Migration and Modernization などのツールを提供し、サーバー、データベース、Web アプリケーションの評価と移行における柔軟性を提供します。\nWANdisco LiveData Platform for Azure は誤りです。Azure 向け WANdisco LiveData プラットフォームは、継続的なデータ転送、ダウンタイムの排除、帯域幅消費の完全な制御などの機能を提供しますが、ダウンタイムを最小限に抑えることを目的として、オンプレミスの Microsoft SQL Server 2008 インスタンスから Azure SQL マネージド インスタンスに 50 GB データベースを移動するなど、小規模な移行には最適なソリューションではない可能性があります。\nSQL Server Management Studio (SSMS) は誤りです。SSMS は、SQL インフラストラクチャを管理するための統合環境であり、SQL サーバー、Azure SQL データベース、Azure SQL マネージド インスタンス、Azure VM 上の SQL サーバー、Azure Synapse Analytics などのさまざまなコンポーネントへのアクセス、構成、管理、開発機能を提供します。\n参考:\n・https://learn.microsoft.com/en-us/azure-data-studio/what-is-azure-data-studio\n\n・https://learn.microsoft.com/en-us/azure/dms/tutorial-sql-server-managed-instance-online-ads\n\n・https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/migrate-gen2-wandisco-live-data-platform#key-benefits-of-wandisco-livedata-platform-for-azure\n\n・https://learn.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms?view=sql-server-ver16",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en1-q-023",
+      "sourceQuestionNumber": 23,
+      "promptHtml": "<p>Azure サブスクリプションには次のリソースが含まれます:</p><ul><li><p><strong>apexcore.com</strong>、Azure プライベート DNS ゾーン</p></li><li><p><strong>VNet1</strong>、仮想ネットワーク:</p><ul><li><p>リンクされています。 <strong>apexcore.com</strong></p></li><li><p>次の仮想ネットワークである <strong>VNet2</strong></p></li></ul></li><li><p><strong>VNet2</strong> とピアリングされています:</p><ul><li><p> <strong>apexcore.com</strong></p></li><li><p>次の仮想ネットワークである <strong>VNet1</strong></p></li></ul></li><li><p><strong>VNet3</strong> とピアリングされています:</p><ul><li><p> <strong>apexcore.com</strong></p></li><li><p>3 つのすべての仮想マシンから収集されたログを保存する Log Analytics ワークスペースである <strong>VNet1</strong> または <strong>VNet2</strong></p></li></ul></li><li><p><strong>Workspace1</strong> に接続できません。ネットワーク</p></li></ul><p><strong>VNet1</strong>、<strong>VNet2</strong>、および <strong>VNet3</strong> のそれぞれは、複数の仮想マシンをホストします。すべての仮想マシンは、名前解決のために <strong>Azure DNS サービス</strong>に依存しています。</p><p>次の要件を満たす<strong>Azure Monitor ログ ルーティング</strong>アプローチを設計する必要があります。</p><ul><li><p>仮想マシンから収集され、<strong>Workspace1</strong>に取り込まれたログ データは、<strong>Microsoft バックボーン経由でのみ送信される必要があります。 </p></li><li><p>ソリューションには<strong>最小限の管理労力</strong>が必要です。</p></li></ul><p><strong>Azure Monitor Private Link Scope (AMPLS) リソースの最小数</strong>として推奨するものは何ですか。</p>",
+      "promptText": "Azure サブスクリプションには次のリソースが含まれます:\n・apexcore.com、Azure プライベート DNS ゾーン\n\n・VNet1、仮想ネットワーク:\n・リンクされています。 apexcore.com\n\n・次の仮想ネットワークである VNet2\n\n・VNet2 とピアリングされています:\n・ apexcore.com\n\n・次の仮想ネットワークである VNet1\n\n・VNet3 とピアリングされています:\n・ apexcore.com\n\n・3 つのすべての仮想マシンから収集されたログを保存する Log Analytics ワークスペースである VNet1 または VNet2\n\n・Workspace1 に接続できません。ネットワーク\n\nVNet1、VNet2、および VNet3 のそれぞれは、複数の仮想マシンをホストします。すべての仮想マシンは、名前解決のために Azure DNS サービスに依存しています。\n次の要件を満たすAzure Monitor ログ ルーティングアプローチを設計する必要があります。\n・仮想マシンから収集され、Workspace1に取り込まれたログ データは、Microsoft バックボーン経由でのみ送信される必要があります。\n\n・ソリューションには最小限の管理労力が必要です。\n\nAzure Monitor Private Link Scope (AMPLS) リソースの最小数として推奨するものは何ですか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-023-c1",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "en1-q-023-c2",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "en1-q-023-c3",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-023-c1"
+      ],
+      "explanationHtml": "<p>1 は正解です。仮想ネットワークがピアリングされているか、相互にアクセスできる限り、単一の Azure Monitor プライベート リンク スコープ (AMPLS) を複数の仮想ネットワークに関連付けることができます。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-design\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-design</a></p></li></ul>",
+      "explanationText": "1 は正解です。仮想ネットワークがピアリングされているか、相互にアクセスできる限り、単一の Azure Monitor プライベート リンク スコープ (AMPLS) を複数の仮想ネットワークに関連付けることができます。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-design",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-linked-003",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-024",
+      "sourceQuestionNumber": 24,
+      "promptHtml": "<p>Azure サブスクリプションには次のリソースが含まれます:</p><ul><li><p><strong>apexcore.com</strong>、Azure プライベート DNS ゾーン</p></li><li><p><strong>VNet1</strong>、仮想ネットワーク:</p><ul><li><p>リンクされています。 <strong>apexcore.com</strong></p></li><li><p>次の仮想ネットワークである <strong>VNet2</strong></p></li></ul></li><li><p><strong>VNet2</strong> とピアリングされています:</p><ul><li><p> <strong>apexcore.com</strong></p></li><li><p>次の仮想ネットワークである <strong>VNet1</strong></p></li></ul></li><li><p><strong>VNet3</strong> とピアリングされています:</p><ul><li><p> <strong>apexcore.com</strong></p></li><li><p>3 つのすべての仮想マシンから収集されたログを保存する Log Analytics ワークスペースである <strong>VNet1</strong> または <strong>VNet2</strong></p></li></ul></li><li><p><strong>Workspace1</strong> に接続できません。ネットワーク</p></li></ul><p><strong>VNet1</strong>、<strong>VNet2</strong>、および <strong>VNet3</strong> のそれぞれは、複数の仮想マシンをホストします。すべての仮想マシンは、名前解決のために <strong>Azure DNS サービス</strong>に依存しています。</p><p>次の要件を満たす<strong>Azure Monitor ログ ルーティング</strong>アプローチを設計する必要があります。</p><ul><li><p>仮想マシンから収集され、<strong>Workspace1</strong>に取り込まれたログ データは、<strong>Microsoft バックボーン経由でのみ送信される必要があります。 </p></li><li><p>ソリューションには<strong>最小限の管理労力</strong>が必要です。</p></li></ul><p><strong>プライベート エンドポイントの最小数</strong>として推奨するものは何ですか。</p>",
+      "promptText": "Azure サブスクリプションには次のリソースが含まれます:\n・apexcore.com、Azure プライベート DNS ゾーン\n\n・VNet1、仮想ネットワーク:\n・リンクされています。 apexcore.com\n\n・次の仮想ネットワークである VNet2\n\n・VNet2 とピアリングされています:\n・ apexcore.com\n\n・次の仮想ネットワークである VNet1\n\n・VNet3 とピアリングされています:\n・ apexcore.com\n\n・3 つのすべての仮想マシンから収集されたログを保存する Log Analytics ワークスペースである VNet1 または VNet2\n\n・Workspace1 に接続できません。ネットワーク\n\nVNet1、VNet2、および VNet3 のそれぞれは、複数の仮想マシンをホストします。すべての仮想マシンは、名前解決のために Azure DNS サービスに依存しています。\n次の要件を満たすAzure Monitor ログ ルーティングアプローチを設計する必要があります。\n・仮想マシンから収集され、Workspace1に取り込まれたログ データは、Microsoft バックボーン経由でのみ送信される必要があります。\n\n・ソリューションには最小限の管理労力が必要です。\n\nプライベート エンドポイントの最小数として推奨するものは何ですか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-024-c1",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "en1-q-024-c2",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "en1-q-024-c3",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-024-c2"
+      ],
+      "explanationHtml": "<p>2 が正しいです。VNet1 と VNet2 はピアリングされており、これらの仮想ネットワークのいずれかにある単一のプライベート エンドポイントは、Microsoft バックボーン ネットワーク経由で Azure Monitor ワークスペースにログをルーティングするために両方の役割を果たします。</p><p>この設定は、Microsoft バックボーン上での安全なログ ルーティングの確保と管理労力の最小限化という両方の要件を満たしています。</p><p>1 は、単一のプライベート エンドポイントが複数にまたがることができないため不正解です。孤立したネットワーク。</p><p>3 は誤りです。3 つのプライベート エンドポイント (VNet ごとに 1 つ) を作成すると、不要な管理オーバーヘッドが発生するためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-design#isolated-networks\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-design#isolated-networks</a></p></li></ul>",
+      "explanationText": "2 が正しいです。VNet1 と VNet2 はピアリングされており、これらの仮想ネットワークのいずれかにある単一のプライベート エンドポイントは、Microsoft バックボーン ネットワーク経由で Azure Monitor ワークスペースにログをルーティングするために両方の役割を果たします。\nこの設定は、Microsoft バックボーン上での安全なログ ルーティングの確保と管理労力の最小限化という両方の要件を満たしています。\n1 は、単一のプライベート エンドポイントが複数にまたがることができないため不正解です。孤立したネットワーク。\n3 は誤りです。3 つのプライベート エンドポイント (VNet ごとに 1 つ) を作成すると、不要な管理オーバーヘッドが発生するためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-design#isolated-networks",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-linked-003",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-025",
+      "sourceQuestionNumber": 25,
+      "promptHtml": "<p>Azure 環境には次のコンポーネントが含まれています。</p><ul><li><p><strong>account1</strong> という名前の <strong>Azure Cosmos DB for NoSQL</strong> アカウント</p></li><li><p><strong>Azure Synapse Analytics</strong> という名前のワークスペース<strong>Workspace1</strong></p></li></ul><p><strong>アカウント 1</strong> 内には、<strong>分析ストア</strong>機能が有効になっている <strong>Contained</strong> という名前のコンテナがあります。</p><p><strong>Contained</strong> に保存されたデータを<strong>ほぼリアルタイム (NRT)</strong>で処理し、処理された結果を書き込むソリューションを設計する必要があります。 <strong>Workspace1</strong> のデータ ウェアハウスに送信します。この処理は、Synapse ワークスペース</strong>内で利用可能な<strong>ランタイム エンジンを使用して実行する必要があり、 設計では<strong>データの移動を最小限に抑える</strong>必要があります。</p><p><strong>Workspace1</strong> のどの<strong>プール タイプ</strong>を使用する必要がありますか。</p>",
+      "promptText": "Azure 環境には次のコンポーネントが含まれています。\n・account1 という名前の Azure Cosmos DB for NoSQL アカウント\n\n・Azure Synapse Analytics という名前のワークスペースWorkspace1\n\nアカウント 1 内には、分析ストア機能が有効になっている Contained という名前のコンテナがあります。\nContained に保存されたデータをほぼリアルタイム (NRT)で処理し、処理された結果を書き込むソリューションを設計する必要があります。 Workspace1 のデータ ウェアハウスに送信します。この処理は、Synapse ワークスペース内で利用可能なランタイム エンジンを使用して実行する必要があり、 設計ではデータの移動を最小限に抑える必要があります。\nWorkspace1 のどのプール タイプを使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-025-c1",
+          "label": null,
+          "text": "Apache Spark",
+          "html": "Apache Spark"
+        },
+        {
+          "choiceId": "en1-q-025-c2",
+          "label": null,
+          "text": "サーバーレス SQL",
+          "html": "サーバーレス SQL"
+        },
+        {
+          "choiceId": "en1-q-025-c3",
+          "label": null,
+          "text": "専用 SQL",
+          "html": "専用 SQL"
+        },
+        {
+          "choiceId": "en1-q-025-c4",
+          "label": null,
+          "text": "データ エクスプローラー",
+          "html": "データ エクスプローラー"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-025-c1"
+      ],
+      "explanationHtml": "<p>Apache Spark はこれは、大規模なデータセットをほぼリアルタイム (NRT) で処理するように設計されており、大規模なデータの移動を必要とせずに Azure Cosmos DB の分析ストアから直接読み取ることができるため、正解です。Azure Synapse Analytics の Apache Spark プールは、データを効率的に処理し、結果を Workspace1 のデータ ウェアハウスに出力できます。</p><p>サーバーレス SQL は、アドホック クエリと軽量のデータ処理により適しているため、不正解です。 Cosmos DB 内のデータをクエリできますが、大規模なデータセットのほぼリアルタイムの処理には最適化されていません。</p><p>専用 SQL は、プロビジョニングされたリソースを使用した高パフォーマンスのデータ ウェアハウス ワークロード向けに設計されているため、不正解です。これは、Apache Spark と比較した場合、ほぼリアルタイムのデータ処理にとって最も効率的なオプションではありません。</p><p>データ エクスプローラー は誤りです。これは、ログとテレメトリのデータ探索用に最適化されており、主に Azure Cosmos DB の分析データのほぼリアルタイムの処理用に設計されていないためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-overview\">https://learn.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-explorer/data-explorer-overview\">https://learn.microsoft.com/en-us/azure/data-explorer/data-explorer-overview</a></p></li></ul>",
+      "explanationText": "Apache Spark はこれは、大規模なデータセットをほぼリアルタイム (NRT) で処理するように設計されており、大規模なデータの移動を必要とせずに Azure Cosmos DB の分析ストアから直接読み取ることができるため、正解です。Azure Synapse Analytics の Apache Spark プールは、データを効率的に処理し、結果を Workspace1 のデータ ウェアハウスに出力できます。\nサーバーレス SQL は、アドホック クエリと軽量のデータ処理により適しているため、不正解です。 Cosmos DB 内のデータをクエリできますが、大規模なデータセットのほぼリアルタイムの処理には最適化されていません。\n専用 SQL は、プロビジョニングされたリソースを使用した高パフォーマンスのデータ ウェアハウス ワークロード向けに設計されているため、不正解です。これは、Apache Spark と比較した場合、ほぼリアルタイムのデータ処理にとって最も効率的なオプションではありません。\nデータ エクスプローラー は誤りです。これは、ログとテレメトリのデータ探索用に最適化されており、主に Azure Cosmos DB の分析データのほぼリアルタイムの処理用に設計されていないためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-overview\n\n・https://learn.microsoft.com/en-us/azure/data-explorer/data-explorer-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en1-q-026",
+      "sourceQuestionNumber": 26,
+      "promptHtml": "<p>オンプレミス環境には、<strong>Cluster1</strong> という <strong>VMware vSphere</strong> クラスタをホストする <strong>Site1</strong> という名前のデータセンターが含まれています。クラスターには約 <strong>100 台の仮想マシン</strong>が含まれており、<strong>VMware vCenter</strong> を通じて管理されます。</p><p><strong>Sub1</strong> という名前の Azure サブスクリプションもあります。</p><p>仮想マシンを <strong>Cluster1</strong> から <strong>Sub1</strong> に移行する計画があります。移行を実行する前に、Azure でのこれらの仮想マシンの実行をサポートするためにどの Azure リソースが必要かを判断する必要があります。 <strong>管理オーバーヘッドを最小限に抑える</strong>アプローチを選択する必要があります。</p><p><code>Sub1</code> でどのアクションを実行する必要がありますか。</p>",
+      "promptText": "オンプレミス環境には、Cluster1 という VMware vSphere クラスタをホストする Site1 という名前のデータセンターが含まれています。クラスターには約 100 台の仮想マシンが含まれており、VMware vCenter を通じて管理されます。\nSub1 という名前の Azure サブスクリプションもあります。\n仮想マシンを Cluster1 から Sub1 に移行する計画があります。移行を実行する前に、Azure でのこれらの仮想マシンの実行をサポートするためにどの Azure リソースが必要かを判断する必要があります。 管理オーバーヘッドを最小限に抑えるアプローチを選択する必要があります。\nSub1 でどのアクションを実行する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-026-c1",
+          "label": null,
+          "text": "Azure Migrate アプライアンスをデプロイします。",
+          "html": "<p>Azure Migrate アプライアンスをデプロイします。</p>"
+        },
+        {
+          "choiceId": "en1-q-026-c2",
+          "label": null,
+          "text": "Azure を作成するプロジェクトを移行します。",
+          "html": "<p>Azure を作成するプロジェクトを移行します。</p>"
+        },
+        {
+          "choiceId": "en1-q-026-c3",
+          "label": null,
+          "text": "Azure VMware Solution プライベート クラウドをプロビジョニングします。",
+          "html": "<p>Azure VMware Solution プライベート クラウドをプロビジョニングします。</p>"
+        },
+        {
+          "choiceId": "en1-q-026-c4",
+          "label": null,
+          "text": "Azure VMware Solution ホストを構成します。",
+          "html": "<p>Azure VMware Solution ホストを構成します。</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-026-c2"
+      ],
+      "explanationHtml": "<p>Azure Migrate プロジェクトの作成は、 VMware 仮想マシンを含むオンプレミスのワークロードを評価して Azure に移行するための一元的なハブを提供するため正解です。 Azure Migrate プロジェクトは、移行プロセスの計画、追跡、管理に役立ち、評価と移行用のツールを提供することで管理労力を最小限に抑えます。</p><p>Azure Migrate アプライアンスのデプロイ は誤りです。これは、オンプレミスのワークロードを検出して評価するために Azure Migrate プロジェクト内で使用されるコンポーネントではありますが、移行された仮想マシンを実行するために Azure でリソースを構成するためのスタンドアロン ソリューションではないためです。</p><p>Azure VMware Solution プライベート クラウドをプロビジョニングする は、VMware ワークロードを実行するための専用の VMware 環境を Azure に提供するため、不正解です。再設計せずに VMware VM を Azure に移行できますが、Azure Migrate を使用して簡単に移行する場合に比べて、より多くの管理作業が必要になります。</p><p>Azure VMware Solution ホストを構成する は誤りです。これは、Azure VMware Solution プライベート クラウドの一部であり、最小限の管理で移行プロセス全体を管理するには単独では不十分であるためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview</a></p></li></ul>",
+      "explanationText": "Azure Migrate プロジェクトの作成は、 VMware 仮想マシンを含むオンプレミスのワークロードを評価して Azure に移行するための一元的なハブを提供するため正解です。 Azure Migrate プロジェクトは、移行プロセスの計画、追跡、管理に役立ち、評価と移行用のツールを提供することで管理労力を最小限に抑えます。\nAzure Migrate アプライアンスのデプロイ は誤りです。これは、オンプレミスのワークロードを検出して評価するために Azure Migrate プロジェクト内で使用されるコンポーネントではありますが、移行された仮想マシンを実行するために Azure でリソースを構成するためのスタンドアロン ソリューションではないためです。\nAzure VMware Solution プライベート クラウドをプロビジョニングする は、VMware ワークロードを実行するための専用の VMware 環境を Azure に提供するため、不正解です。再設計せずに VMware VM を Azure に移行できますが、Azure Migrate を使用して簡単に移行する場合に比べて、より多くの管理作業が必要になります。\nAzure VMware Solution ホストを構成する は誤りです。これは、Azure VMware Solution プライベート クラウドの一部であり、最小限の管理で移行プロセス全体を管理するには単独では不十分であるためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-linked-004",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-027",
+      "sourceQuestionNumber": 27,
+      "promptHtml": "<p>オンプレミス環境には、<strong>Cluster1</strong> という <strong>VMware vSphere</strong> クラスタをホストする <strong>Site1</strong> という名前のデータセンターが含まれています。クラスターには約 <strong>100 台の仮想マシン</strong>が含まれており、<strong>VMware vCenter</strong> を通じて管理されます。</p><p><strong>Sub1</strong> という名前の Azure サブスクリプションもあります。</p><p>仮想マシンを <strong>Cluster1</strong> から <strong>Sub1</strong> に移行する計画があります。移行を実行する前に、Azure でのこれらの仮想マシンの実行をサポートするためにどの Azure リソースが必要かを判断する必要があります。 <strong>管理オーバーヘッドを最小限に抑える</strong>アプローチを選択する必要があります。</p><p><code>Cluster1</code> でどのアクションを実行する必要がありますか。</p>",
+      "promptText": "オンプレミス環境には、Cluster1 という VMware vSphere クラスタをホストする Site1 という名前のデータセンターが含まれています。クラスターには約 100 台の仮想マシンが含まれており、VMware vCenter を通じて管理されます。\nSub1 という名前の Azure サブスクリプションもあります。\n仮想マシンを Cluster1 から Sub1 に移行する計画があります。移行を実行する前に、Azure でのこれらの仮想マシンの実行をサポートするためにどの Azure リソースが必要かを判断する必要があります。 管理オーバーヘッドを最小限に抑えるアプローチを選択する必要があります。\nCluster1 でどのアクションを実行する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-027-c1",
+          "label": null,
+          "text": "Azure Migrate アプライアンスをデプロイします。",
+          "html": "<p>Azure Migrate アプライアンスをデプロイします。</p>"
+        },
+        {
+          "choiceId": "en1-q-027-c2",
+          "label": null,
+          "text": "Azure を作成するプロジェクトを移行します。",
+          "html": "<p>Azure を作成するプロジェクトを移行します。</p>"
+        },
+        {
+          "choiceId": "en1-q-027-c3",
+          "label": null,
+          "text": "Azure VMware Solution プライベート クラウドをプロビジョニングします。",
+          "html": "<p>Azure VMware Solution プライベート クラウドをプロビジョニングします。</p>"
+        },
+        {
+          "choiceId": "en1-q-027-c4",
+          "label": null,
+          "text": "Azure VMware Solution ホストを構成します。",
+          "html": "<p>Azure VMware Solution ホストを構成します。</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-027-c1"
+      ],
+      "explanationHtml": "<p>Azure Migrate アプライアンスのデプロイは、これは、エージェントレスの方法でオンプレミスの仮想マシンを検出して評価するために必要であるため、正解です。Azure Migrate アプライアンスをオンプレミス ホストにデプロイすると、VMware VM の Azure への移行を評価および計画する際の管理作業をシームレスかつ最小限に抑えることができます。</p><p>Azure VMware Solution プライベート クラウドのプロビジョニング は誤りです。これは、Azure に専用の VMware 環境を提供しますが、移行の検出と評価フェーズでの管理労力を軽減するように特別に設計されていないためです。</p><p>Azure Migrate プロジェクトの作成は、 不正解です。移行の整理と管理は必要ですが、アプライアンスは特にオンプレミス VM の検出と評価を行う必要があるためです。</p><p>Azure VMware Solution ホストの構成 は誤りです。これは、プライベート クラウド内の個々のホストを指しており、最小限の管理でオンプレミス VM の検出と評価の要件を満たしていません。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview</a></p></li></ul>",
+      "explanationText": "Azure Migrate アプライアンスのデプロイは、これは、エージェントレスの方法でオンプレミスの仮想マシンを検出して評価するために必要であるため、正解です。Azure Migrate アプライアンスをオンプレミス ホストにデプロイすると、VMware VM の Azure への移行を評価および計画する際の管理作業をシームレスかつ最小限に抑えることができます。\nAzure VMware Solution プライベート クラウドのプロビジョニング は誤りです。これは、Azure に専用の VMware 環境を提供しますが、移行の検出と評価フェーズでの管理労力を軽減するように特別に設計されていないためです。\nAzure Migrate プロジェクトの作成は、 不正解です。移行の整理と管理は必要ですが、アプライアンスは特にオンプレミス VM の検出と評価を行う必要があるためです。\nAzure VMware Solution ホストの構成 は誤りです。これは、プライベート クラウド内の個々のホストを指しており、最小限の管理でオンプレミス VM の検出と評価の要件を満たしていません。\n参考:\n・https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-linked-004",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-028",
+      "sourceQuestionNumber": 28,
+      "promptHtml": "<p>Azure Storage を使用してデータ資産を保存する予定です。</p><p><strong>ディザスター リカバリー戦略</strong>の一環として、<strong>汎用 v2 ストレージ アカウントのフェールオーバー</strong>を実行する方法を決定する必要があります。このアプローチは次の条件を満たす必要があります。</p><ul><li><p>アプリケーションはフェールオーバー後もストレージ アカウントにアクセスし続ける必要があります。</p></li><li><p>元のプライマリ リージョンに<strong>フェールバック</strong>できる必要があります。</p></li><li><p>サービスの中断は<strong>最小限</strong>に抑える必要があります。</p></li></ul><p>どの 3 つのアクションを実行する必要がありますか。シーケンス。</p><p><strong>アクション</strong></p><ol><li><p>フェールオーバーの完了後、地理冗長ストレージ (GRS) レプリケーションを使用するようにストレージ アカウントを構成します。</p></li><li><p>フェールオーバーを開始します。</p></li><li><p>フェールオーバーを開始する前に、<strong>ゾーン冗長ストレージ (ZRS)</strong> を使用するようにストレージ アカウントを構成します。 </p></li><li><p>フェールオーバーを開始する前に、<strong>地理冗長ストレージ (GRS)</strong> レプリケーションを使用するようにストレージ アカウントを構成します。</p></li><li><p>フェールオーバーの完了後、<strong>ゾーン冗長ストレージ (ZRS)</strong> レプリケーションを使用するようにストレージ アカウントを構成します。</p></li></ol>",
+      "promptText": "Azure Storage を使用してデータ資産を保存する予定です。\nディザスター リカバリー戦略の一環として、汎用 v2 ストレージ アカウントのフェールオーバーを実行する方法を決定する必要があります。このアプローチは次の条件を満たす必要があります。\n・アプリケーションはフェールオーバー後もストレージ アカウントにアクセスし続ける必要があります。\n\n・元のプライマリ リージョンにフェールバックできる必要があります。\n\n・サービスの中断は最小限に抑える必要があります。\n\nどの 3 つのアクションを実行する必要がありますか。シーケンス。\nアクション\n・フェールオーバーの完了後、地理冗長ストレージ (GRS) レプリケーションを使用するようにストレージ アカウントを構成します。\n\n・フェールオーバーを開始します。\n\n・フェールオーバーを開始する前に、ゾーン冗長ストレージ (ZRS) を使用するようにストレージ アカウントを構成します。\n\n・フェールオーバーを開始する前に、地理冗長ストレージ (GRS) レプリケーションを使用するようにストレージ アカウントを構成します。\n\n・フェールオーバーの完了後、ゾーン冗長ストレージ (ZRS) レプリケーションを使用するようにストレージ アカウントを構成します。",
+      "choices": [
+        {
+          "choiceId": "en1-q-028-c1",
+          "label": null,
+          "text": "5-2-3",
+          "html": "5-2-3"
+        },
+        {
+          "choiceId": "en1-q-028-c2",
+          "label": null,
+          "text": "4-2-1",
+          "html": "4-2-1"
+        },
+        {
+          "choiceId": "en1-q-028-c3",
+          "label": null,
+          "text": "5-2-1",
+          "html": "5-2-1"
+        },
+        {
+          "choiceId": "en1-q-028-c4",
+          "label": null,
+          "text": "4-2-5",
+          "html": "4-2-5"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-028-c2"
+      ],
+      "explanationHtml": "<p>4-2-1 はアクションの正しいシーケンスです。</p><p>(アクション 4) フェールオーバーを開始する前に、 geo 冗長ストレージ (GRS) レプリケーションを使用するようにストレージ アカウントを構成します: GRS レプリケーションにより、データが確実に保存されます。セカンダリ リージョンに非同期的にレプリケートされ、地域的な災害が発生した場合にバックアップを提供します。</p><p>(アクション 2) フェールオーバーを開始する: このアクションにより、ストレージ アカウントがセカンダリ リージョンに切り替わります。フェールオーバー中、ストレージ アカウントの DNS エントリはセカンダリ リージョンを指すように更新され、アプリケーションが最小限のダウンタイムでストレージ アカウントにアクセスし続けることができるようにします。</p><p>(アクション 1) フェールオーバーの完了後、地理冗長ストレージ (GRS) レプリケーションを使用するようにストレージ アカウントを構成します: フェールオーバーが完了し、ストレージ アカウントがセカンダリ リージョンでアクティブになると、 GRS レプリケーションを再度有効にすることが重要です。これにより、別のセカンダリ リージョンにレプリケートされることでデータが引き続き保護され、高可用性と耐久性が維持されます。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-disaster-recovery-guidance\">https://learn.microsoft.com/en-us/azure/storage/common/storage-disaster-recovery-guidance</a></p></li></ul>",
+      "explanationText": "4-2-1 はアクションの正しいシーケンスです。\n(アクション 4) フェールオーバーを開始する前に、 geo 冗長ストレージ (GRS) レプリケーションを使用するようにストレージ アカウントを構成します: GRS レプリケーションにより、データが確実に保存されます。セカンダリ リージョンに非同期的にレプリケートされ、地域的な災害が発生した場合にバックアップを提供します。\n(アクション 2) フェールオーバーを開始する: このアクションにより、ストレージ アカウントがセカンダリ リージョンに切り替わります。フェールオーバー中、ストレージ アカウントの DNS エントリはセカンダリ リージョンを指すように更新され、アプリケーションが最小限のダウンタイムでストレージ アカウントにアクセスし続けることができるようにします。\n(アクション 1) フェールオーバーの完了後、地理冗長ストレージ (GRS) レプリケーションを使用するようにストレージ アカウントを構成します: フェールオーバーが完了し、ストレージ アカウントがセカンダリ リージョンでアクティブになると、 GRS レプリケーションを再度有効にすることが重要です。これにより、別のセカンダリ リージョンにレプリケートされることでデータが引き続き保護され、高可用性と耐久性が維持されます。\n参考:\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-disaster-recovery-guidance",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en1-q-029",
+      "sourceQuestionNumber": 29,
+      "promptHtml": "<p>オンプレミス環境には、次の構造の<strong>Active Directory ドメイン サービス (AD DS)</strong> フォレストが含まれています。</p><ul><li><p>1 つのルート (トップレベル) ドメイン</p></li><li><p>3 つの子ドメイン</p></li><li><p>という名前のオンプレミス サーバー<strong>Server1</strong></p></li></ul><p><strong>Microsoft Entra ID</strong> テナントが用意されています。 <strong>Server1</strong> は、3 つの子ドメインのすべてのユーザー オブジェクトをテナントに同期する <strong>Microsoft Entra Connect Sync</strong> を実行します。</p><p>現在、新しい<strong>従業員</strong>と<strong>請負業者</strong>は、クラウドベースの人事 (HR) システムである <strong>Workday</strong> を通じて手動でオンボーディングされます。</p><p>あなたは実装を計画しています。 <strong>自動ユーザー プロビジョニング</strong>により、次の両方で新しいユーザーが作成されます:</p><ul><li><p>オンプレミスの子ドメインの 1 つと</p></li><li><p>Microsoft Entra テナント</p></li></ul><p><strong>従業員</strong>のプロビジョニング ルールは、<strong>請負業者</strong>に使用されるプロビジョニング ルールとは異なる必要があります。</p><p>その間、次のことを決定する必要があります。ソリューションの実装をできるだけシンプルにします:</p><ul><li><p><strong>Microsoft Entra テナントに必要なアプリケーション登録の最小数</strong></p></li></ul><p>何を識別する必要がありますか。</p>",
+      "promptText": "オンプレミス環境には、次の構造のActive Directory ドメイン サービス (AD DS) フォレストが含まれています。\n・1 つのルート (トップレベル) ドメイン\n\n・3 つの子ドメイン\n\n・という名前のオンプレミス サーバーServer1\n\nMicrosoft Entra ID テナントが用意されています。 Server1 は、3 つの子ドメインのすべてのユーザー オブジェクトをテナントに同期する Microsoft Entra Connect Sync を実行します。\n現在、新しい従業員と請負業者は、クラウドベースの人事 (HR) システムである Workday を通じて手動でオンボーディングされます。\nあなたは実装を計画しています。 自動ユーザー プロビジョニングにより、次の両方で新しいユーザーが作成されます:\n・オンプレミスの子ドメインの 1 つと\n\n・Microsoft Entra テナント\n\n従業員のプロビジョニング ルールは、請負業者に使用されるプロビジョニング ルールとは異なる必要があります。\nその間、次のことを決定する必要があります。ソリューションの実装をできるだけシンプルにします:\n・Microsoft Entra テナントに必要なアプリケーション登録の最小数\n\n何を識別する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-029-c1",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "en1-q-029-c2",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "en1-q-029-c3",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-029-c1"
+      ],
+      "explanationHtml": "<p>1 は正解です。Microsoft Entra は、Workday などのクラウドベースの HR システムを統合する際に、自動ユーザー プロビジョニングのための単一アプリケーション登録の使用をサポートしているからです。</p><p>Microsoft Entra の Workday から Entra ID へのプロビジョニング機能を使用すると、次のことが可能になります。</p><ul><li><p>ユーザー アカウントの信頼できるソースとして Workday を構成します。</p></li><li><p>スコープ フィルターまたは属性を適用して、ユーザーがプロビジョニングされるかどうかを決定します。</p></li><li><p>すべてのプロビジョニング タスクに 1 つの登録済みアプリを使用し、実装を簡素化します。</p></li></ul><p>2 は誤りです。2 つのアプリを登録すると、利点が追加されずに実装が不必要に複雑になるためです。</p><p>3 は誤りです。従業員と請負業者の両方のプロビジョニングには 3 つの個別のアプリは必要ありません。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/saas-apps/workday-inbound-tutorial\">https://learn.microsoft.com/en-us/entra/identity/saas-apps/workday-inbound-tutorial</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/app-provisioning/plan-auto-user-provisioning\">https://learn.microsoft.com/en-us/entra/identity/app-provisioning/plan-auto-user-provisioning</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/app-provisioning/workday-integration-reference\">https://learn.microsoft.com/en-us/entra/identity/app-provisioning/workday-integration-reference</a></p></li></ul>",
+      "explanationText": "1 は正解です。Microsoft Entra は、Workday などのクラウドベースの HR システムを統合する際に、自動ユーザー プロビジョニングのための単一アプリケーション登録の使用をサポートしているからです。\nMicrosoft Entra の Workday から Entra ID へのプロビジョニング機能を使用すると、次のことが可能になります。\n・ユーザー アカウントの信頼できるソースとして Workday を構成します。\n\n・スコープ フィルターまたは属性を適用して、ユーザーがプロビジョニングされるかどうかを決定します。\n\n・すべてのプロビジョニング タスクに 1 つの登録済みアプリを使用し、実装を簡素化します。\n\n2 は誤りです。2 つのアプリを登録すると、利点が追加されずに実装が不必要に複雑になるためです。\n3 は誤りです。従業員と請負業者の両方のプロビジョニングには 3 つの個別のアプリは必要ありません。\n参考:\n・https://learn.microsoft.com/en-us/entra/identity/saas-apps/workday-inbound-tutorial\n\n・https://learn.microsoft.com/en-us/entra/identity/app-provisioning/plan-auto-user-provisioning\n\n・https://learn.microsoft.com/en-us/entra/identity/app-provisioning/workday-integration-reference",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-linked-005",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-030",
+      "sourceQuestionNumber": 30,
+      "promptHtml": "<p>オンプレミス環境には、次の構造の<strong>Active Directory ドメイン サービス (AD DS)</strong> フォレストが含まれています。</p><ul><li><p>1 つのルート (トップレベル) ドメイン</p></li><li><p>3 つの子ドメイン</p></li><li><p>という名前のオンプレミス サーバー<strong>Server1</strong></p></li></ul><p><strong>Microsoft Entra ID</strong> テナントが用意されています。 <strong>Server1</strong> は、3 つの子ドメインのすべてのユーザー オブジェクトをテナントに同期する <strong>Microsoft Entra Connect Sync</strong> を実行します。</p><p>現在、新しい<strong>従業員</strong>と<strong>請負業者</strong>は、クラウドベースの人事 (HR) システムである <strong>Workday</strong> を通じて手動でオンボーディングされます。</p><p>あなたは実装を計画しています。 <strong>自動ユーザー プロビジョニング</strong>により、次の両方で新しいユーザーが作成されます:</p><ul><li><p>オンプレミスの子ドメインの 1 つと</p></li><li><p>Microsoft Entra テナント</p></li></ul><p><strong>従業員</strong>のプロビジョニング ルールは、<strong>請負業者</strong>に使用されるプロビジョニング ルールとは異なる必要があります。</p><p>その間、次のことを決定する必要があります。ソリューションの実装をできるだけシンプルにします:</p><ul><li><p><strong>展開する Microsoft Entra Connect プロビジョニング エージェントの最小数</strong></p></li></ul><p>何を識別する必要がありますか。</p>",
+      "promptText": "オンプレミス環境には、次の構造のActive Directory ドメイン サービス (AD DS) フォレストが含まれています。\n・1 つのルート (トップレベル) ドメイン\n\n・3 つの子ドメイン\n\n・という名前のオンプレミス サーバーServer1\n\nMicrosoft Entra ID テナントが用意されています。 Server1 は、3 つの子ドメインのすべてのユーザー オブジェクトをテナントに同期する Microsoft Entra Connect Sync を実行します。\n現在、新しい従業員と請負業者は、クラウドベースの人事 (HR) システムである Workday を通じて手動でオンボーディングされます。\nあなたは実装を計画しています。 自動ユーザー プロビジョニングにより、次の両方で新しいユーザーが作成されます:\n・オンプレミスの子ドメインの 1 つと\n\n・Microsoft Entra テナント\n\n従業員のプロビジョニング ルールは、請負業者に使用されるプロビジョニング ルールとは異なる必要があります。\nその間、次のことを決定する必要があります。ソリューションの実装をできるだけシンプルにします:\n・展開する Microsoft Entra Connect プロビジョニング エージェントの最小数\n\n何を識別する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-030-c1",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "en1-q-030-c2",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "en1-q-030-c3",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-030-c1"
+      ],
+      "explanationHtml": "<p>1 は正解です。これは、Microsoft Entra Connect Sync と Microsoft Entra プロビジョニングは、複数のドメインがあり、さまざまなユーザー タイプ (従業員や従業員など) に対して個別のプロビジョニング ロジックが存在する場合でも、単一のプロビジョニング エージェントで効率的に機能するためです。</p><p>このシナリオ:</p><ul><li><p>Microsoft Entra Connect Sync は、3 つの子ドメインから Microsoft Entra テナントにユーザー オブジェクトをすでにレプリケートしています。これにより、既存のドメインの同期ニーズがカバーされます。</p></li><li><p>Workday 統合では、単一のプロビジョニング エージェントを使用してユーザー プロビジョニングを処理できます。従業員と請負業者用の個別のロジックは、範囲指定されたフィルターと属性マッピングを定義することで、単一のプロビジョニング エージェント内で管理できます。</p></li><li><p>Microsoft Entra は適切な構成を使用して単一の展開からすべての子ドメインに接続できるため、必要なプロビジョニング エージェントは 1 つだけであり、実装が簡素化され、労力が最小限に抑えられます。</p></li></ul><p>2 2 つのエージェントを展開すると冗長になるため、不正解です。単一のエージェントは、範囲指定された属性フィルターを使用して従業員と請負業者のプロビジョニング ロジックを処理できます。</p><p>3 は誤りです。複数の子ドメインが存在する場合でも、単一のプロビジョニング エージェントがすべてのドメインにわたる新しいユーザー アカウントに必要なプロビジョニング タスクをすべて処理できるためです。</p><p>読む詳細:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/app-provisioning/workday-integration-reference\">https://learn.microsoft.com/en-us/entra/identity/app-provisioning/workday-integration-reference</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/app-provisioning/plan-cloud-hr-provision\">https://learn.microsoft.com/en-us/entra/identity/app-provisioning/plan-cloud-hr-provision</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/app-provisioning/user-provisioning\">https://learn.microsoft.com/en-us/entra/identity/app-provisioning/user-provisioning</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/saas-apps/workday-tutorial\">https://learn.microsoft.com/en-us/entra/identity/saas-apps/workday-tutorial</a></p></li></ul>",
+      "explanationText": "1 は正解です。これは、Microsoft Entra Connect Sync と Microsoft Entra プロビジョニングは、複数のドメインがあり、さまざまなユーザー タイプ (従業員や従業員など) に対して個別のプロビジョニング ロジックが存在する場合でも、単一のプロビジョニング エージェントで効率的に機能するためです。\nこのシナリオ:\n・Microsoft Entra Connect Sync は、3 つの子ドメインから Microsoft Entra テナントにユーザー オブジェクトをすでにレプリケートしています。これにより、既存のドメインの同期ニーズがカバーされます。\n\n・Workday 統合では、単一のプロビジョニング エージェントを使用してユーザー プロビジョニングを処理できます。従業員と請負業者用の個別のロジックは、範囲指定されたフィルターと属性マッピングを定義することで、単一のプロビジョニング エージェント内で管理できます。\n\n・Microsoft Entra は適切な構成を使用して単一の展開からすべての子ドメインに接続できるため、必要なプロビジョニング エージェントは 1 つだけであり、実装が簡素化され、労力が最小限に抑えられます。\n\n2 2 つのエージェントを展開すると冗長になるため、不正解です。単一のエージェントは、範囲指定された属性フィルターを使用して従業員と請負業者のプロビジョニング ロジックを処理できます。\n3 は誤りです。複数の子ドメインが存在する場合でも、単一のプロビジョニング エージェントがすべてのドメインにわたる新しいユーザー アカウントに必要なプロビジョニング タスクをすべて処理できるためです。\n読む詳細:\n・https://learn.microsoft.com/en-us/entra/identity/app-provisioning/workday-integration-reference\n\n・https://learn.microsoft.com/en-us/entra/identity/app-provisioning/plan-cloud-hr-provision\n\n・https://learn.microsoft.com/en-us/entra/identity/app-provisioning/user-provisioning\n\n・https://learn.microsoft.com/en-us/entra/identity/saas-apps/workday-tutorial",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-linked-005",
+      "tags": [
+        "linked-question"
+      ]
+    }
+  ]
+}

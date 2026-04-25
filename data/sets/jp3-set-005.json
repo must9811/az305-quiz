@@ -48,7 +48,7 @@
       "images": [
         "assets/問題集3_files/2023-01-12_12-27-21-84433dcf01ae985fb8f242b8dc352a1a.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-008",
       "tags": [
@@ -88,7 +88,7 @@
       "images": [
         "assets/問題集3_files/2023-01-12_12-41-51-73dc8c537d90635cd1861ca399aca924.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-008",
       "tags": [
@@ -134,7 +134,7 @@
       "images": [
         "assets/問題集3_files/2023-02-07_12-11-33-ea4dd016dedc32972889e31f8008ce49.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -170,7 +170,7 @@
       "explanationHtml": "<p><code>・ブループリントの定義と割り当ての数を最小限に抑えること</code> </p><p>ブループリント定義の数を最小にするには、より高いレベルでブループリントを作成する必要があります。</p><p>よって、階層構造の頂点にあたる「ルート管理グループ」に定義を作成します。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview\">https://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview</a></p>",
       "explanationText": "・ブループリントの定義と割り当ての数を最小限に抑えること\nブループリント定義の数を最小にするには、より高いレベルでブループリントを作成する必要があります。\nよって、階層構造の頂点にあたる「ルート管理グループ」に定義を作成します。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/governance/blueprints/overview",
       "images": [],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-009",
       "tags": [
@@ -210,7 +210,7 @@
       "images": [
         "assets/問題集3_files/2023-02-04_08-28-47-7d75db1b2793936431240d83ae71c213.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-009",
       "tags": [
@@ -263,7 +263,7 @@
         "assets/問題集3_files/2024-10-04_04-39-55-48934fe9ffcd9d16beb061630783cbad.png",
         "assets/問題集3_files/2023-02-02_07-23-28-d69e72e9535d9eb2f653617b3042a64d.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-009",
       "tags": [
@@ -315,7 +315,7 @@
       "images": [
         "assets/問題集3_files/2024-10-04_04-41-09-5efcede32ea9b9f9ba9ab7add9aefb18.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-009",
       "tags": [
@@ -361,7 +361,7 @@
       "images": [
         "assets/問題集3_files/2023-02-01_06-21-15-69e61207bc6185f9b14eedb6bbe789e8.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -399,10 +399,12 @@
       "images": [
         "assets/問題集3_files/2023-02-07_04-25-49-ecc7fd33983451b0306483c58790069c.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-010",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp3-q-050",
@@ -435,10 +437,12 @@
       "explanationHtml": "<p><code>・可能な限りデータ損失のリスクを低減すること </code></p><p>汎用 v2 アカウントは選択肢の3つの冗長性を全てサポートしています。</p><p>このうち、最もデータ損失の確率が低いのは「geo 冗長ストレージ (GRS)」になります。</p><p><br></p><p>データを損失しない度合いのことを「持続性」と呼びます（耐久性と呼ぶこともあります）</p><p>LRS &lt; ZRS &lt; GRS, GZRS の順に「持続性」が高くなります。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#durability-and-availability-parameters\">https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#durability-and-availability-parameters</a></p>",
       "explanationText": "・可能な限りデータ損失のリスクを低減すること\n汎用 v2 アカウントは選択肢の3つの冗長性を全てサポートしています。\nこのうち、最もデータ損失の確率が低いのは「geo 冗長ストレージ (GRS)」になります。\n\nデータを損失しない度合いのことを「持続性」と呼びます（耐久性と呼ぶこともあります）\nLRS < ZRS < GRS, GZRS の順に「持続性」が高くなります。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#durability-and-availability-parameters",
       "images": [],
-      "domain": null,
+      "domain": "ビジネス継続性ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp3-linked-010",
+      "tags": [
+        "linked-question"
+      ]
     }
   ]
 }

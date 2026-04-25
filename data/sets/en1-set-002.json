@@ -1,0 +1,435 @@
+{
+  "setId": "en1-set-002",
+  "title": "英語問題集1 翻訳版 11-20",
+  "sourceHtml": "assets/英語問題集1.html",
+  "questionIds": [
+    "en1-q-011",
+    "en1-q-012",
+    "en1-q-013",
+    "en1-q-014",
+    "en1-q-015",
+    "en1-q-016",
+    "en1-q-017",
+    "en1-q-018",
+    "en1-q-019",
+    "en1-q-020"
+  ],
+  "questions": [
+    {
+      "questionId": "en1-q-011",
+      "sourceQuestionNumber": 11,
+      "promptHtml": "<p>次のリソースを含む Azure サブスクリプションがあります:</p><ol><li><p><strong>App1</strong>、Azure App Service アプリケーション</p></li><li><p><strong>Workspace1</strong>、従量課金制で構成された Log Analytics ワークスペース層</p></li><li><p><strong>App1Logs</strong>、次の Log Analytics テーブル:</p><ul><li><p><strong>Workspace1</strong></p> でホストされる</li><li><p><strong>Analytics ログ</strong> データを使用します。計画</p></li></ul></li></ol><p><strong>App1</strong> によって生成されたログ データは、<strong>App1Logs</strong> に収集され、1 日あたりの平均取り込み量は約 <strong>120 GB</strong> になります。</p><p>エラー メッセージが検出されたときにトリガーされる <strong>Azure Monitor アラート</strong>を構成しました。 <strong>App1</strong> ログ。</p><p><strong>App1</strong> に関連する<strong>Log Analytics コスト</strong>を削減する必要があります。ソリューションは次の要件を満たす必要があります。</p><ul><li><p><strong>App1</strong> によって生成されたすべてのログ データは、引き続き <strong>App1Logs</strong> に取り込まれる必要があります。</p></li><li><p>既存の<strong>Azure Monitor アラート</strong>への影響は最小限に抑える必要があります。</p></li></ul><p> <strong>変更</strong>を実行する必要がありますか。</p>",
+      "promptText": "次のリソースを含む Azure サブスクリプションがあります:\n・App1、Azure App Service アプリケーション\n\n・Workspace1、従量課金制で構成された Log Analytics ワークスペース層\n\n・App1Logs、次の Log Analytics テーブル:\n・Workspace1\n でホストされる\n・Analytics ログ データ プランを使用します\n\nApp1 によって生成されたログ データは、App1Logs に収集され、1 日あたりの平均取り込み量は約 120 GB になります。\nApp1 のログでエラー メッセージが検出されたときにトリガーされる Azure Monitor アラート を構成しました。\nApp1 に関連する Log Analytics コストを削減する必要があります。ソリューションは次の要件を満たす必要があります。\n・App1 によって生成されたすべてのログ データは、引き続き App1Logs に取り込まれる必要があります。\n\n・既存のAzure Monitor アラートへの影響は最小限に抑える必要があります。\n\n 変更を実行する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-011-c1",
+          "label": null,
+          "text": "ワークスペースをコミットメントベースの価格レベルに切り替えます。",
+          "html": "<p>ワークスペースをコミットメントベースの価格レベルに切り替えます。</p>"
+        },
+        {
+          "choiceId": "en1-q-011-c2",
+          "label": null,
+          "text": "データ プランを基本ログに変更します。",
+          "html": "<p>データ プランを基本ログに変更します。</p>"
+        },
+        {
+          "choiceId": "en1-q-011-c3",
+          "label": null,
+          "text": "毎日の取り込みを構成します。 cap.",
+          "html": "<p>毎日の取り込みを構成します。 cap.</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-011-c1"
+      ],
+      "explanationHtml": "<p>ワークスペースをコミットメントベースの価格レベルに切り替える が正解です。Log Analytics でコミットメント価格レベルを選択すると、コストを最適化し、App1 の効果的な監視を確保するための戦略的アプローチが提供されます。</p><p>データ プランを基本ログに変更する は誤りです。基本ログ データ プランを選択することは、大量の詳細ログの取り込みと保存に関連するコストを削減するように設計された、対象を絞ったソリューションです。</p><p>1 日の取り込み上限を設定する は誤りです。1 日の上限を設定することは Log Analytics でコストを制御する一般的な方法ですが、その適合性は特定のニーズによって異なります。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/cost-logs#commitment-tiers\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/cost-logs#commitment-tiers</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/Basic-logs-configure?tabs=portal-1\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/Basic-logs-configure?tabs=portal-1</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/daily-cap\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/daily-cap</a></p></li></ul>",
+      "explanationText": "正解はワークスペースをコミットメントベースの価格レベルに切り替える です。Log Analytics でコミットメント価格レベルを選択すると、コストを最適化し、App1 の効果的な監視を確保するための戦略的アプローチが提供されます。\nデータ プランを基本ログに変更する は誤りです。基本ログ データ プランを選択することは、大量の詳細ログの取り込みと保存に関連するコストを削減するように設計された、対象を絞ったソリューションです。\n1 日の取り込み上限を設定する は誤りです。1 日の上限を設定することは Log Analytics でコストを制御する一般的な方法ですが、その適合性は特定のニーズによって異なります。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/cost-logs#commitment-tiers\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/Basic-logs-configure?tabs=portal-1\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/daily-cap",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-012",
+      "sourceQuestionNumber": 12,
+      "promptHtml": "<p>あなたは、<strong>3 つの個別のプロジェクト</strong>をサポートする <strong>12 の Azure サブスクリプション</strong>を管理しています。各プロジェクトは、複数のサブスクリプションに分散されたリソースを消費します。</p><p><strong>プロジェクトごと</strong>にコストを追跡および監視するには、<strong>Microsoft Cost Management</strong> を使用する必要があります。ソリューションは<strong>管理労力を最小限に抑える</strong>ように設計する必要があります。</p><p>ソリューションに含めるべき<strong> 2 つのコンポーネント</strong>はどれですか。</p>",
+      "promptText": "あなたは、3 つの個別のプロジェクトをサポートする 12 の Azure サブスクリプションを管理しています。各プロジェクトは、複数のサブスクリプションに分散されたリソースを消費します。\nプロジェクトごとにコストを追跡および監視するには、Microsoft Cost Management を使用する必要があります。ソリューションは管理労力を最小限に抑えるように設計する必要があります。\nソリューションに含めるべき 2 つのコンポーネントはどれですか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-012-c1",
+          "label": null,
+          "text": "予算",
+          "html": "予算"
+        },
+        {
+          "choiceId": "en1-q-012-c2",
+          "label": null,
+          "text": "リソース タグ",
+          "html": "リソース タグ"
+        },
+        {
+          "choiceId": "en1-q-012-c3",
+          "label": null,
+          "text": "カスタム ロールベースのアクセス制御(RBAC) ロール",
+          "html": "カスタム ロールベースのアクセス制御(RBAC) ロール"
+        },
+        {
+          "choiceId": "en1-q-012-c4",
+          "label": null,
+          "text": "管理グループ",
+          "html": "管理グループ"
+        },
+        {
+          "choiceId": "en1-q-012-c5",
+          "label": null,
+          "text": "Azure ボード",
+          "html": "Azure ボード"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-012-c1",
+        "en1-q-012-c2"
+      ],
+      "explanationHtml": "<p>予算 が正解です。Azure Budgets は、プロジェクトのコストを監視するための貴重なツールとして機能します。</p><p>リソース タグ が正解です。Azure リソース タグは、リソースのラベル付けに役立つキーと値のペアであり、ユーザーがプロジェクトなどの属性に基づいてリソースを分類できるようにします。</p><p>*操作ではタグ名の大文字と小文字が区別されません。タグ名を持つタグは、大文字と小文字に関係なく更新または取得されますが、タグ値は大文字と小文字が区別されます。</p><p>カスタム ロールベースのアクセス制御 (RBAC) ロールは正しくありません。12 の Azure サブスクリプションと 3 つのプロジェクトにわたる最小限の管理労力で、プロジェクトごとにコストを監視するという目標を考慮した場合、Azure RBAC は、最小限の管理労力でこの特定の目標を達成するための最も直接的なソリューションではない可能性があります。</p><p>管理グループ は誤りです。Azure の管理グループは、主にガバナンス、ポリシーの適用、コンプライアンス標準に焦点を当てて、サブスクリプションを整理および管理するための構造化されたアプローチを提供します。</p><p>Azure Boards は誤りです。Azure Boards は、主にアジャイル手法、作業追跡、開発プロセス全体にわたる共同ディスカッションに重点を置いた Web ベースのサービスです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources\">https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/devops/boards/get-started/what-is-azure-boards?view=azure-devops\">https://learn.microsoft.com/en-us/azure/devops/boards/get-started/what-is-azure-boards?view=azure-devops</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/role-based-access-control/overview\">https://learn.microsoft.com/en-us/azure/role-based-access-control/overview</a></p></li></ul>",
+      "explanationText": "正解は予算 です。Azure Budgets は、プロジェクトのコストを監視するための貴重なツールとして機能します。\nリソース タグ が正解です。Azure リソース タグは、リソースのラベル付けに役立つキーと値のペアであり、ユーザーがプロジェクトなどの属性に基づいてリソースを分類できるようにします。\n*操作ではタグ名の大文字と小文字が区別されません。タグ名を持つタグは、大文字と小文字に関係なく更新または取得されますが、タグ値は大文字と小文字が区別されます。\nカスタム ロールベースのアクセス制御 (RBAC) ロールは正しくありません。12 の Azure サブスクリプションと 3 つのプロジェクトにわたる最小限の管理労力で、プロジェクトごとにコストを監視するという目標を考慮した場合、Azure RBAC は、最小限の管理労力でこの特定の目標を達成するための最も直接的なソリューションではない可能性があります。\n管理グループ は誤りです。Azure の管理グループは、主にガバナンス、ポリシーの適用、コンプライアンス標準に焦点を当てて、サブスクリプションを整理および管理するための構造化されたアプローチを提供します。\nAzure Boards は誤りです。Azure Boards は、主にアジャイル手法、作業追跡、開発プロセス全体にわたる共同ディスカッションに重点を置いた Web ベースのサービスです。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources\n\n・https://learn.microsoft.com/en-us/azure/devops/boards/get-started/what-is-azure-boards?view=azure-devops\n\n・https://learn.microsoft.com/en-us/azure/role-based-access-control/overview",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "multi",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-013",
+      "sourceQuestionNumber": 13,
+      "promptHtml": "<p><strong>App1</strong> という名前の多層アプリケーションを含む Azure サブスクリプションをお持ちです。このアプリケーションは、<strong>Azure Container Instances</strong> で実行されている複数のコンテナーに分散されます。</p><p><strong>App1</strong> に対しては、<strong>Azure Monitor</strong> ベースの監視ソリューションを実装する必要があります。ソリューションは次の要件を満たす必要があります。</p><ul><li><p><strong>App1</strong> のコンポーネント間のトラフィックとインタラクションを追跡するための<strong>合成トランザクション監視</strong>をサポートします。</p></li><li><p>実装には最小限の開発労力が必要です。</p></li></ul><p>ソリューションには何を含める必要がありますか。</p>",
+      "promptText": "App1 という名前の多層アプリケーションを含む Azure サブスクリプションをお持ちです。このアプリケーションは、Azure Container Instances で実行されている複数のコンテナーに分散されます。\nApp1 に対しては、Azure Monitor ベースの監視ソリューションを実装する必要があります。ソリューションは次の要件を満たす必要があります。\n・App1 のコンポーネント間のトラフィックとインタラクションを追跡するための合成トランザクション監視をサポートします。\n\n・実装には最小限の開発労力が必要です。\n\nソリューションには何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-013-c1",
+          "label": null,
+          "text": "ネットワーク インサイト",
+          "html": "ネットワーク インサイト"
+        },
+        {
+          "choiceId": "en1-q-013-c2",
+          "label": null,
+          "text": "アプリケーション インサイト",
+          "html": "アプリケーション インサイト"
+        },
+        {
+          "choiceId": "en1-q-013-c3",
+          "label": null,
+          "text": "コンテナー インサイト",
+          "html": "コンテナー インサイト"
+        },
+        {
+          "choiceId": "en1-q-013-c4",
+          "label": null,
+          "text": "Log Analytics ワークスペース インサイト",
+          "html": "Log Analytics ワークスペース インサイト"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-013-c2"
+      ],
+      "explanationHtml": "<p>Application Insights が正解です。Azure Container Instances 内の複数のコンテナーに分散されたアプリケーションに Azure Monitor 監視ソリューションが必要であるという特定の質問では、Application Insights を選択するのが最適です。</p><p>ネットワーク インサイトは、それは不正解です。Azure Monitor の Network Insights は主に、ネットワーク パフォーマンス、接続、さまざまなリソース間のトラフィック フローの監視に重点を置いています。</p><p>コンテナ インサイト は誤りです。Azure Monitor のコンテナーに関する分析情報は、特にコンテナー インフラストラクチャに焦点を当てた、コンテナーの正常性、パフォーマンス、リソースの使用状況に関する重要な情報を提供します。</p><p>Log Analytics Workspace Insights は誤りです。Log Analytics Workspace Insights は、ワークスペースの使用状況、パフォーマンス、正常性、エージェント、クエリ、および変更ログの統合ビューを通じて、ワークスペースの包括的な監視を提供します。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview\">https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/network-watcher/network-insights-overview\">https://learn.microsoft.com/en-us/azure/network-watcher/network-insights-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview\">https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-workspace-insights-overview\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-workspace-insights-overview</a></p></li></ul>",
+      "explanationText": "正解はApplication Insights です。Azure Container Instances 内の複数のコンテナーに分散されたアプリケーションに Azure Monitor 監視ソリューションが必要であるという特定の質問では、Application Insights を選択するのが最適です。\nネットワーク インサイトは、は誤りです。Azure Monitor の Network Insights は主に、ネットワーク パフォーマンス、接続、さまざまなリソース間のトラフィック フローの監視に重点を置いています。\nコンテナ インサイト は誤りです。Azure Monitor のコンテナーに関する分析情報は、特にコンテナー インフラストラクチャに焦点を当てた、コンテナーの正常性、パフォーマンス、リソースの使用状況に関する重要な情報を提供します。\nLog Analytics Workspace Insights は誤りです。Log Analytics Workspace Insights は、ワークスペースの使用状況、パフォーマンス、正常性、エージェント、クエリ、および変更ログの統合ビューを通じて、ワークスペースの包括的な監視を提供します。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview\n\n・https://learn.microsoft.com/en-us/azure/network-watcher/network-insights-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-workspace-insights-overview",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-014",
+      "sourceQuestionNumber": 14,
+      "promptHtml": "<p>あなたは Azure サブスクリプションを持っており、次のサービスを含む集中監視ソリューションを展開する予定です。</p><ul><li><p><strong>Azure Monitor Network Insights</strong></p></li><li><p><strong>Application Insights</strong></p></li><li><p><strong>Microsoft Sentinel</strong></p></li><li><p><strong>VM の分析情報</strong></p></li></ul><p>監視ソリューション全体は<strong>単一のチーム</strong>によって運用および保守されます。</p><p>必要な<strong>Azure Monitor ワークスペースの最小数</strong>はどれくらいですか。</p>",
+      "promptText": "あなたは Azure サブスクリプションを持っており、次のサービスを含む集中監視ソリューションを展開する予定です。\n・Azure Monitor Network Insights\n\n・Application Insights\n\n・Microsoft Sentinel\n\n・VM の分析情報\n\n監視ソリューション全体は単一のチームによって運用および保守されます。\n必要なAzure Monitor ワークスペースの最小数はどれくらいですか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-014-c1",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "en1-q-014-c2",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "en1-q-014-c3",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        },
+        {
+          "choiceId": "en1-q-014-c4",
+          "label": null,
+          "text": "4",
+          "html": "4"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-014-c1"
+      ],
+      "explanationHtml": "<p>1 が正しいです。単一のチームが監視ソリューションを管理しているため、1 つのワークスペースでも Azure Monitor Network Insights、Application Insights、Microsoft Sentinel、VM の分析情報を処理できます。</p><p>2、3、および 4 は誤りです。単一の Azure Monitor ワークスペースで多くのシナリオのニーズを満たすことができますが、組織によっては複数のワークスペースの使用を選択することもあります。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/azure-monitor-workspace-overview\">https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/azure-monitor-workspace-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/workspace-design\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/workspace-design</a></p></li></ul>",
+      "explanationText": "1 が正しいです。単一のチームが監視ソリューションを管理しているため、1 つのワークスペースでも Azure Monitor Network Insights、Application Insights、Microsoft Sentinel、VM の分析情報を処理できます。\n2、3、および 4 は誤りです。単一の Azure Monitor ワークスペースで多くのシナリオのニーズを満たすことができますが、組織によっては複数のワークスペースの使用を選択することもあります。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/azure-monitor-workspace-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/workspace-design",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-015",
+      "sourceQuestionNumber": 15,
+      "promptHtml": "<p><strong>Microsoft Entra ID</strong> に、<strong>App1</strong> と <strong>App2</strong> という名前の 2 つのアプリケーション登録があります。 <strong>App1</strong> はロールベースのアクセス制御 (RBAC) をサポートしており、<strong>ライター</strong>という名前のアプリケーション ロールが含まれています。</p><p><strong>App1</strong> へのアクセスを <strong>App2</strong> が認証するときに、<strong>Microsoft Entra ID</strong> によって発行されたアクセス トークンに次のものが含まれていることを確認する必要があります。 <strong>ライター</strong> ロール要求。</p><p><code>App1</code> アプリケーションの登録を変更するにはどのブレードを使用する必要がありますか。</p>",
+      "promptText": "Microsoft Entra ID に、App1 と App2 という名前の 2 つのアプリケーション登録があります。 App1 はロールベースのアクセス制御 (RBAC) をサポートしており、ライターという名前のアプリケーション ロールが含まれています。\nApp1 へのアクセスを App2 が認証するときに、Microsoft Entra ID によって発行されたアクセス トークンに次のものが含まれていることを確認する必要があります。 ライター ロール要求。\nApp1 アプリケーションの登録を変更するにはどのブレードを使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-015-c1",
+          "label": null,
+          "text": "API 権限",
+          "html": "API 権限"
+        },
+        {
+          "choiceId": "en1-q-015-c2",
+          "label": null,
+          "text": "アプリ ロール",
+          "html": "アプリ ロール"
+        },
+        {
+          "choiceId": "en1-q-015-c3",
+          "label": null,
+          "text": "トークン構成",
+          "html": "トークン構成"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-015-c2"
+      ],
+      "explanationHtml": "<p>アプリの役割 が正解です。Microsoft Entra のアプリ ロール ブレードは、特定のアクセス許可に関連付けられたカスタム ロールを定義することによって、アプリケーションへのアクセスを管理するためのツールです。</p><p>API 権限 が正しくありません。App1 にアクセスするための App2 認証中にトークンに Writer ロール要求が確実に含まれるようにすることに重点を置いた質問では、Microsoft Entra の API アクセス許可ブレードは適切なオプションではありません。</p><p>トークン構成が正しくありません。質問のコンテキストでの目標は、App2 が App1 へのアクセスを認証するときに、Microsoft Entra によって発行されたトークンに Writer ロール要求が含まれていることを確認することです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity-platform/howto-add-app-roles-in-apps#declare-roles-for-an-application\">https://learn.microsoft.com/en-us/entra/identity-platform/howto-add-app-roles-in-apps#declare-roles-for-an-application</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity-platform/optional-claims\">https://learn.microsoft.com/en-us/entra/identity-platform/optional-claims</a></p></li></ul>",
+      "explanationText": "正解はアプリの役割 です。Microsoft Entra のアプリ ロール ブレードは、特定のアクセス許可に関連付けられたカスタム ロールを定義することによって、アプリケーションへのアクセスを管理するためのツールです。\nAPI 権限 が正しくありません。App1 にアクセスするための App2 認証中にトークンに Writer ロール要求が確実に含まれるようにすることに重点を置いた質問では、Microsoft Entra の API アクセス許可ブレードは適切なオプションではありません。\nトークン構成が正しくありません。質問のコンテキストでの目標は、App2 が App1 へのアクセスを認証するときに、Microsoft Entra によって発行されたトークンに Writer ロール要求が含まれていることを確認することです。\n参考:\n・https://learn.microsoft.com/en-us/entra/identity-platform/howto-add-app-roles-in-apps#declare-roles-for-an-application\n\n・https://learn.microsoft.com/en-us/entra/identity-platform/optional-claims",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "case-study",
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-016",
+      "sourceQuestionNumber": 16,
+      "promptHtml": "<p><strong>Microsoft Entra ID</strong> に、<strong>App1</strong> と <strong>App2</strong> という名前の 2 つのアプリケーション登録があります。 <strong>App1</strong> はロールベースのアクセス制御 (RBAC) をサポートしており、<strong>ライター</strong>という名前のアプリケーション ロールが含まれています。</p><p><strong>App2</strong> が <strong>App1</strong> へのアクセスを認証するときに、<strong>Microsoft Entra ID</strong> によって発行されたアクセス トークンに次のものが含まれていることを確認する必要があります。 <strong>ライター</strong> ロール要求。</p><p><code>App2</code> アプリケーションの登録を変更するにはどのブレードを使用する必要がありますか。</p>",
+      "promptText": "Microsoft Entra ID に、App1 と App2 という名前の 2 つのアプリケーション登録があります。 App1 はロールベースのアクセス制御 (RBAC) をサポートしており、ライターという名前のアプリケーション ロールが含まれています。\nApp2 が App1 へのアクセスを認証するときに、Microsoft Entra ID によって発行されたアクセス トークンに次のものが含まれていることを確認する必要があります。 ライター ロール要求。\nApp2 アプリケーションの登録を変更するにはどのブレードを使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-016-c1",
+          "label": null,
+          "text": "API 権限",
+          "html": "API 権限"
+        },
+        {
+          "choiceId": "en1-q-016-c2",
+          "label": null,
+          "text": "アプリ ロール",
+          "html": "アプリ ロール"
+        },
+        {
+          "choiceId": "en1-q-016-c3",
+          "label": null,
+          "text": "トークン構成",
+          "html": "トークン構成"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-016-c1"
+      ],
+      "explanationHtml": "<p>API 権限 が正解です。Microsoft Entra では、1 つのアプリケーション (この場合、App2) が別のアプリケーション (App1) にアクセスして、トークン内の「ライター」などのロール要求を受け取る必要がある場合、App1 の API にアクセスするための適切なアクセス許可を持つようにApp2 の登録を構成する必要があります。</p><p>アプリのロールは、このコンテキストでは不正確です。アプリのロールは、クライアント アプリケーションではなくリソース アプリケーション (App1) で定義されているためです。</p><p>トークン構成は、オプションのクレームのカスタマイズに使用されるため、正しくありません。Microsoft Entra ID がアプリケーションのトークンに含めるグループ クレーム、またはディレクトリ スキーマ属性。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-add-app-roles-in-apps#assign-app-roles-to-applications\">https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-add-app-roles-in-apps#assign-app-roles-to-applications</a></p></li></ul>",
+      "explanationText": "正解はAPI 権限 です。Microsoft Entra では、1 つのアプリケーション (この場合、App2) が別のアプリケーション (App1) にアクセスして、トークン内の「ライター」などのロール要求を受け取る必要がある場合、App1 の API にアクセスするための適切なアクセス許可を持つようにApp2 の登録を構成する必要があります。\nアプリのロールは、このコンテキストでは不正確です。アプリのロールは、クライアント アプリケーションではなくリソース アプリケーション (App1) で定義されているためです。\nトークン構成は、オプションのクレームのカスタマイズに使用されるため、正しくありません。Microsoft Entra ID がアプリケーションのトークンに含めるグループ クレーム、またはディレクトリ スキーマ属性。\n参考:\n・https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-add-app-roles-in-apps#assign-app-roles-to-applications",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-001",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-017",
+      "sourceQuestionNumber": 17,
+      "promptHtml": "<p>あなたは、<strong>Ubuntu</strong> を実行する<strong>Azure 仮想マシン</strong>上で実行されるアプリケーションを設計しています。 </p><p>アプリケーションは<strong>サードパーティの電子メール サービス</strong>を使用してユーザーに電子メール通知を送信します。これには、<strong>API キー</strong>による認証が必要です。</p><p>API キーを安全に保存してアクセスするには、<strong>Azure Key Vault</strong> ベースのアプローチを推奨する必要があります。ソリューションは<strong>管理オーバーヘッドを最小限に抑える</strong>ように設計する必要があります。</p><p><strong>アクセス キーの保存</strong>には何を推奨しますか。</p>",
+      "promptText": "あなたは、Ubuntu を実行するAzure 仮想マシン上で実行されるアプリケーションを設計しています。\nアプリケーションはサードパーティの電子メール サービスを使用してユーザーに電子メール通知を送信します。これには、API キーによる認証が必要です。\nAPI キーを安全に保存してアクセスするには、Azure Key Vault ベースのアプローチを推奨する必要があります。ソリューションは管理オーバーヘッドを最小限に抑えるように設計する必要があります。\nアクセス キーの保存には何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-017-c1",
+          "label": null,
+          "text": "証明書",
+          "html": "証明書"
+        },
+        {
+          "choiceId": "en1-q-017-c2",
+          "label": null,
+          "text": "キー",
+          "html": "キー"
+        },
+        {
+          "choiceId": "en1-q-017-c3",
+          "label": null,
+          "text": "シークレット",
+          "html": "シークレット"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-017-c3"
+      ],
+      "explanationHtml": "<p>シークレット が正解です。最小限の管理労力で Azure Key Vault の API キーを安全に保管し、アクセスするには、Azure Key Vault のシークレットを利用するのが最善の選択です。</p><p>キー が間違っています。Azure Key Vault のキーは、暗号化やデジタル署名などの暗号化操作を伴うシナリオ向けに設計されています。</p><p>証明書 は誤りです。証明書は、Key Vault 証明書の発行者名、プロバイダー、資格情報、およびその他の管理詳細のソースに関する情報を提供するために使用されます。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/key-vault/general/Basic-concepts\">https://learn.microsoft.com/en-us/azure/key-vault/general/Basic-concepts</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/key-vault/secrets/about-secrets\">https://learn.microsoft.com/en-us/azure/key-vault/secrets/about-secrets</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/key-vault/certificates/certificate-scenarios\">https://learn.microsoft.com/en-us/azure/key-vault/certificates/certificate-scenarios</a></p></li></ul>",
+      "explanationText": "正解はシークレット です。最小限の管理労力で Azure Key Vault の API キーを安全に保管し、アクセスするには、Azure Key Vault のシークレットを利用するのが最善の選択です。\nキー が間違っています。Azure Key Vault のキーは、暗号化やデジタル署名などの暗号化操作を伴うシナリオ向けに設計されています。\n証明書 は誤りです。証明書は、Key Vault 証明書の発行者名、プロバイダー、資格情報、およびその他の管理詳細のソースに関する情報を提供するために使用されます。\n参考:\n・https://learn.microsoft.com/en-us/azure/key-vault/general/Basic-concepts\n\n・https://learn.microsoft.com/en-us/azure/key-vault/secrets/about-secrets\n\n・https://learn.microsoft.com/en-us/azure/key-vault/certificates/certificate-scenarios",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-linked-001",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-018",
+      "sourceQuestionNumber": 18,
+      "promptHtml": "<p>あなたは、<strong>Ubuntu</strong> を実行する<strong>Azure 仮想マシン</strong>上で実行されるアプリケーションを設計しています。 </p><p>アプリケーションは<strong>サードパーティの電子メール サービス</strong>を使用してユーザーに電子メール通知を送信します。これには、<strong>API キー</strong>による認証が必要です。</p><p>API キーを安全に保存してアクセスするには、<strong>Azure Key Vault</strong> ベースのアプローチを推奨する必要があります。ソリューションは<strong>管理オーバーヘッドを最小限に抑える</strong>ように設計する必要があります。</p><p><strong>キーにアクセス</strong>するには何を推奨しますか。</p>",
+      "promptText": "あなたは、Ubuntu を実行するAzure 仮想マシン上で実行されるアプリケーションを設計しています。\nアプリケーションはサードパーティの電子メール サービスを使用してユーザーに電子メール通知を送信します。これには、API キーによる認証が必要です。\nAPI キーを安全に保存してアクセスするには、Azure Key Vault ベースのアプローチを推奨する必要があります。ソリューションは管理オーバーヘッドを最小限に抑えるように設計する必要があります。\nキーにアクセスするには何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-018-c1",
+          "label": null,
+          "text": "API トークン",
+          "html": "API トークン"
+        },
+        {
+          "choiceId": "en1-q-018-c2",
+          "label": null,
+          "text": "マネージド サービス ID (MSI)",
+          "html": "マネージド サービス ID (MSI)"
+        },
+        {
+          "choiceId": "en1-q-018-c3",
+          "label": null,
+          "text": "サービスプリンシパル",
+          "html": "サービスプリンシパル"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-018-c2"
+      ],
+      "explanationHtml": "<p>マネージド サービス ID (MSI) が正解です。マネージド サービス ID (MSI) を使用すると、VM への Azure Key Vault へのアクセスの許可が簡素化されます。</p><p>API トークン は正しくありませんです。API トークンは一般的な認証方法ですが、通常はアプリケーション内で手動で処理および管理されます。</p><p>サービス プリンシパル は誤りです。Azure のサービス プリンシパルは、アプリケーションや自動ツールがリソースにアクセスするために不可欠ですが、その管理には、Microsoft Entra の登録、資格情報の作成、アクセス許可の設定などの手動構成が必要です。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview\">https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity-platform/access-tokens\">https://learn.microsoft.com/en-us/entra/identity-platform/access-tokens</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/powershell/azure/create-azure-service-principal-azureps?view=azps-10.4.1#create-a-service-principal\">https://learn.microsoft.com/en-us/powershell/azure/create-azure-service-principal-azureps?view=azps-10.4.1#create-a-service-principal</a></p></li></ul>",
+      "explanationText": "正解はマネージド サービス ID (MSI) です。マネージド サービス ID (MSI) を使用すると、VM への Azure Key Vault へのアクセスの許可が簡素化されます。\nAPI トークン は正しくありませんです。API トークンは一般的な認証方法ですが、通常はアプリケーション内で手動で処理および管理されます。\nサービス プリンシパル は誤りです。Azure のサービス プリンシパルは、アプリケーションや自動ツールがリソースにアクセスするために不可欠ですが、その管理には、Microsoft Entra の登録、資格情報の作成、アクセス許可の設定などの手動構成が必要です。\n参考:\n・https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview\n\n・https://learn.microsoft.com/en-us/entra/identity-platform/access-tokens\n\n・https://learn.microsoft.com/en-us/powershell/azure/create-azure-service-principal-azureps?view=azps-10.4.1#create-a-service-principal",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-linked-001",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-019",
+      "sourceQuestionNumber": 19,
+      "promptHtml": "<p><strong>SQL1</strong> という名前のオンプレミスの SQL サーバー インスタンスは、約 <strong>50 のデータベース</strong>をホストしています。<br>環境は<strong>Azure SQL マネージド インスタンス</strong>に移行されており、移行が実行されます。 <strong>オフライン</strong>。</p><p>選択したアプローチでは<strong>最小限の管理オーバーヘッド</strong>が必要です。</p><p>ソリューションには何を含めるべきですか。</p>",
+      "promptText": "SQL1 という名前のオンプレミスの SQL サーバー インスタンスは、約 50 のデータベースをホストしています。\n環境はAzure SQL マネージド インスタンスに移行されており、移行が実行されます。 オフライン。\n選択したアプローチでは最小限の管理オーバーヘッドが必要です。\nソリューションには何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-019-c1",
+          "label": null,
+          "text": "Azure Migrate",
+          "html": "Azure Migrate"
+        },
+        {
+          "choiceId": "en1-q-019-c2",
+          "label": null,
+          "text": "Azure Database Migrate Service",
+          "html": "Azure Database Migrate Service"
+        },
+        {
+          "choiceId": "en1-q-019-c3",
+          "label": null,
+          "text": "SQL Server Migration Assistant (SSMA)",
+          "html": "SQL Server Migration Assistant (SSMA)"
+        },
+        {
+          "choiceId": "en1-q-019-c4",
+          "label": null,
+          "text": "Data Migration Assistant (DMA)",
+          "html": "Data Migration Assistant (DMA)"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-019-c2"
+      ],
+      "explanationHtml": "<p>Azure Database Migration Service が正解です。Azure Database Migration Service (DMS) は、複数のデータベース ソースから Azure データ プラットフォームへのスムーズな移行を実現するフルマネージド ソリューションで、オンラインとオフラインの両方のシナリオに適しています。</p><p>Azure Migrate は誤りです。Azure Migrate は、Azure Migrate: Discovery and Assessment および Migration and Modernization などのツールを提供し、サーバー、データベース、Web アプリケーションの評価と移行における柔軟性を提供します。</p><p>SQL Server Migration Assistant (SSMA) は誤りです。SSMA は、Microsoft Access、DB2、MySQL、Oracle、SAP ASE などのさまざまなプラットフォームから SQL サーバーへのデータベースの移行を自動化するために設計された Microsoft ツールです。</p><p>Data Migration Assistant は誤りです。Data Migration Assistant (DMA) は、新しい SQL サーバー バージョンへのアップグレードまたは Azure SQL データベースへの移行中に、データベースの機能に影響を与える可能性がある互換性の問題を検出することで、最新のデータ プラットフォームへのアップグレードを支援するツールです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/sql/sql-server/migrate/dma-azure-migrate-compare-migration-tools?view=sql-server-ver16#azure-database-migration-service-dms\">https://learn.microsoft.com/en-us/sql/sql-server/migrate/dma-azure-migrate-compare-migration-tools?view=sql-server-ver16#azure-database-migration-service-dms</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/dms/dms-overview\">https://learn.microsoft.com/en-us/azure/dms/dms-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/sql/ssma/sql-server-migration-assistant?view=sql-server-ver16#migration-sources\">https://learn.microsoft.com/en-us/sql/ssma/sql-server-migration-assistant?view=sql-server-ver16#migration-sources</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-ver16\">https://learn.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-ver16</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview\">https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview</a></p></li></ul>",
+      "explanationText": "正解はAzure Database Migration Service です。Azure Database Migration Service (DMS) は、複数のデータベース ソースから Azure データ プラットフォームへのスムーズな移行を実現するフルマネージド ソリューションで、オンラインとオフラインの両方のシナリオに適しています。\nAzure Migrate は誤りです。Azure Migrate は、Azure Migrate: Discovery and Assessment および Migration and Modernization などのツールを提供し、サーバー、データベース、Web アプリケーションの評価と移行における柔軟性を提供します。\nSQL Server Migration Assistant (SSMA) は誤りです。SSMA は、Microsoft Access、DB2、MySQL、Oracle、SAP ASE などのさまざまなプラットフォームから SQL サーバーへのデータベースの移行を自動化するために設計された Microsoft ツールです。\nData Migration Assistant は誤りです。Data Migration Assistant (DMA) は、新しい SQL サーバー バージョンへのアップグレードまたは Azure SQL データベースへの移行中に、データベースの機能に影響を与える可能性がある互換性の問題を検出することで、最新のデータ プラットフォームへのアップグレードを支援するツールです。\n参考:\n・https://learn.microsoft.com/en-us/sql/sql-server/migrate/dma-azure-migrate-compare-migration-tools?view=sql-server-ver16#azure-database-migration-service-dms\n\n・https://learn.microsoft.com/en-us/azure/dms/dms-overview\n\n・https://learn.microsoft.com/en-us/sql/ssma/sql-server-migration-assistant?view=sql-server-ver16#migration-sources\n\n・https://learn.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-ver16\n\n・https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview",
+      "images": [],
+      "domain": null,
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en1-q-020",
+      "sourceQuestionNumber": 20,
+      "promptHtml": "<p><strong>Microsoft Entra ID テナント</strong>には、<strong>MarketingAU</strong> という名前の管理単位が含まれており、これには約 <strong>100 のユーザー アカウント</strong>が含まれています。</p><p>2 人の新しいユーザー <strong>User1</strong> と <strong>User2</strong> がテナントに作成されます。</p><p>次の手順を実行する必要があります。 <strong>MarketingAU 内</strong>で次の要件が満たされるように権限を設定します。</p><ul><li><p><strong>User1</strong> は新しいユーザー アカウントを作成できる必要があります。</p></li><li><p><strong>User2</strong> は既存のユーザーのパスワードをリセットできる必要があります。</p></li></ul><p> <code>User1</code>。</p>",
+      "promptText": "Microsoft Entra ID テナントには、MarketingAU という名前の管理単位が含まれており、これには約 100 のユーザー アカウントが含まれています。\n2 人の新しいユーザー User1 と User2 がテナントに作成されます。\n次の手順を実行する必要があります。 MarketingAU 内で次の要件が満たされるように権限を設定します。\n・User1 は新しいユーザー アカウントを作成できる必要があります。\n\n・User2 は既存のユーザーのパスワードをリセットできる必要があります。\n\n User1。",
+      "choices": [
+        {
+          "choiceId": "en1-q-020-c1",
+          "label": null,
+          "text": "MarketingAU をスコープとするヘルプデスク管理者ロールを割り当てます。",
+          "html": "<p>MarketingAU をスコープとするヘルプデスク管理者ロールを割り当てます。</p>"
+        },
+        {
+          "choiceId": "en1-q-020-c2",
+          "label": null,
+          "text": "テナント レベルでヘルプデスク管理者ロールを割り当てます。",
+          "html": "<p>テナント レベルでヘルプデスク管理者ロールを割り当てます。</p>"
+        },
+        {
+          "choiceId": "en1-q-020-c3",
+          "label": null,
+          "text": "MarketingAU を範囲とするユーザー管理者ロールを割り当てます。",
+          "html": "<p>MarketingAU を範囲とするユーザー管理者ロールを割り当てます。</p>"
+        },
+        {
+          "choiceId": "en1-q-020-c4",
+          "label": null,
+          "text": "テナント レベルでユーザー管理者ロールを割り当てます。",
+          "html": "<p>テナント レベルでユーザー管理者ロールを割り当てます。</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-020-c3"
+      ],
+      "explanationHtml": "<p>MarketingAU を範囲とするユーザー管理者ロールを割り当てますそれは正解です。MarketingAU ロールのユーザー管理者を割り当てることは、特に MarketingAU 管理単位内でユーザー アカウントを作成および管理するために必要な権限を提供するため、User1 にとって最も適切な選択です。</p><p>テナント レベルでユーザー管理者ロールを割り当てる は誤りです。テナント ロールにユーザー管理者を割り当てると、User1 に Microsoft Entra テナント全体にわたる広範な権限が付与されます。</p><p>MarketingAU を範囲とするヘルプデスク管理者ロールを割り当てるのは正しくです。 MarketingAU のヘルプデスク管理者ロールでは、管理者以外のパスワードのリセット、更新トークンの無効化、Azure および Microsoft 365 サービスに対する Microsoft へのサポート リクエストの作成と管理、割り当てられたユニット (MarketingAU) でのサービス正常性の監視などのいくつかの管理操作が許可されていますが、ユーザー アカウントの作成に必要な特定の権限がまだ不足しています。</p><p>テナント レベルでヘルプデスク管理者ロールを割り当てるそれは不正解です。MarketingAU のヘルプデスク管理者ロールでは一部の管理アクションが可能ですが、テナント レベルで動作し、Microsoft Entra テナント レベルのすべてのユーザーに影響を与える可能性があります。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/admin-units-assign-roles\">https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/admin-units-assign-roles</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#helpdesk-administrator\">https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#helpdesk-administrator</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#user-administrator\">https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#user-administrator</a></p></li></ul>",
+      "explanationText": "正解はMarketingAU を範囲とするユーザー管理者ロールを割り当てますです。MarketingAU ロールのユーザー管理者を割り当てることは、特に MarketingAU 管理単位内でユーザー アカウントを作成および管理するために必要な権限を提供するため、User1 にとって最も適切な選択です。\nテナント レベルでユーザー管理者ロールを割り当てる は誤りです。テナント ロールにユーザー管理者を割り当てると、User1 に Microsoft Entra テナント全体にわたる広範な権限が付与されます。\nMarketingAU を範囲とするヘルプデスク管理者ロールを割り当てるのは正しくです。 MarketingAU のヘルプデスク管理者ロールでは、管理者以外のパスワードのリセット、更新トークンの無効化、Azure および Microsoft 365 サービスに対する Microsoft へのサポート リクエストの作成と管理、割り当てられたユニット (MarketingAU) でのサービス正常性の監視などのいくつかの管理操作が許可されていますが、ユーザー アカウントの作成に必要な特定の権限がまだ不足しています。\nテナント レベルでヘルプデスク管理者ロールを割り当てるは誤りです。MarketingAU のヘルプデスク管理者ロールでは一部の管理アクションが可能ですが、テナント レベルで動作し、Microsoft Entra テナント レベルのすべてのユーザーに影響を与える可能性があります。\n参考:\n・https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/admin-units-assign-roles\n\n・https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#helpdesk-administrator\n\n・https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#user-administrator",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-linked-002",
+      "tags": [
+        "linked-question"
+      ]
+    }
+  ]
+}

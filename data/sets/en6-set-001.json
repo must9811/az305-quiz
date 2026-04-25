@@ -1,0 +1,454 @@
+{
+  "setId": "en6-set-001",
+  "title": "英語問題集6 翻訳版 01-10",
+  "sourceHtml": "assets/英語問題集6.html",
+  "questionIds": [
+    "en6-q-001",
+    "en6-q-002",
+    "en6-q-003",
+    "en6-q-004",
+    "en6-q-005",
+    "en6-q-006",
+    "en6-q-007",
+    "en6-q-008",
+    "en6-q-009",
+    "en6-q-010"
+  ],
+  "questions": [
+    {
+      "questionId": "en6-q-001",
+      "sourceQuestionNumber": 1,
+      "promptHtml": "<p>オンプレミスの Active Directory 環境と同期された Microsoft Entra テナントがあります。</p><p>WebApp1 という名前の内部 Web アプリケーションはオンプレミスでホストされており、ユーザーのサインインに統合 Windows 認証 (IWA) を使用します。</p><p>一部のユーザーはリモートで作業しており、オンプレミス ネットワークへの VPN 接続を持っていません。これらのユーザーは、引き続きシングル サインオン (SSO) を使用して WebApp1 にアクセスできる必要があります。</p><p>この要件を満たすためにソリューションに含めるべき<strong> 2 つの</strong> Microsoft Entra 機能はどれですか。</p>",
+      "promptText": "オンプレミスの Active Directory 環境と同期された Microsoft Entra テナントがあります。\nWebApp1 という名前の内部 Web アプリケーションはオンプレミスでホストされており、ユーザーのサインインに統合 Windows 認証 (IWA) を使用します。\n一部のユーザーはリモートで作業しており、オンプレミス ネットワークへの VPN 接続を持っていません。これらのユーザーは、引き続きシングル サインオン (SSO) を使用して WebApp1 にアクセスできる必要があります。\nこの要件を満たすためにソリューションに含めるべき 2 つの Microsoft Entra 機能はどれですか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-001-c1",
+          "label": null,
+          "text": "Microsoft Entra Identity Management (PIM)",
+          "html": "<p>Microsoft Entra Identity Management (PIM)</p>"
+        },
+        {
+          "choiceId": "en6-q-001-c2",
+          "label": null,
+          "text": "Microsoft Entra エンタープライズ アプリケーション",
+          "html": "<p>Microsoft Entra エンタープライズ アプリケーション</p>"
+        },
+        {
+          "choiceId": "en6-q-001-c3",
+          "label": null,
+          "text": "条件付きアクセス ポリシー",
+          "html": "条件付きアクセス ポリシー"
+        },
+        {
+          "choiceId": "en6-q-001-c4",
+          "label": null,
+          "text": "Microsoft Entra アプリケーション プロキシ",
+          "html": "<p>Microsoft Entra アプリケーション プロキシ</p>"
+        },
+        {
+          "choiceId": "en6-q-001-c5",
+          "label": null,
+          "text": "Azure Application Gateway",
+          "html": "Azure Application Gateway"
+        },
+        {
+          "choiceId": "en6-q-001-c6",
+          "label": null,
+          "text": "Azure Arc",
+          "html": "Azure Arc"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-001-c2",
+        "en6-q-001-c4"
+      ],
+      "explanationHtml": "<p>Microsoft Entra エンタープライズ アプリケーション は正解です。これは、Microsoft Entra ID のエンタープライズ アプリケーションは、シングル サインオン (SSO)、ユーザー割り当て、および条件付きアクセス用にオンプレミスまたはクラウドベースのアプリを構成して公開するために使用されるためです。</p><p>Microsoft Entra アプリケーション プロキシ は、VPN を必要とせずにオンプレミス アプリケーションへの安全なリモート アクセスを可能にするため、正解です。これは、Microsoft Entra ID と通信する軽量コネクタをオンプレミス ネットワークにインストールすることで機能し、リモート ユーザーがネットワーク外でも SSO を使用して WebApp1 などの内部アプリにアクセスできるようにします。</p><p>Microsoft Entra Identity Management (PIM) は間違っていますので、 Privileged Identity Management (PIM) は、ジャストインタイムの特権アクセスを提供することにより、重要なリソースへのアクセスを管理、制御、監視するために使用されます。これは、SSO の有効化やリモート ユーザーへのオンプレミス アプリケーションの公開とは関係がありません。</p><p>条件付きアクセス ポリシー は誤りです。条件付きアクセスではアクセス制御 (MFA やデバイス コンプライアンスなど) を強制できますが、アプリケーションの公開や SSO 機能は有効ではないためです。</p><p>参考リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/app-proxy/overview-what-is-app-proxy\">https://learn.microsoft.com/en-us/entra/identity/app-proxy/overview-what-is-app-proxy</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/app-proxy/application-proxy-add-on-premises-application\">https://learn.microsoft.com/en-us/entra/identity/app-proxy/application-proxy-add-on-premises-application</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-application-management\">https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-application-management</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure\">https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview\">https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview</a></p></li></ul>",
+      "explanationText": "Microsoft Entra エンタープライズ アプリケーション は正解です。これは、Microsoft Entra ID のエンタープライズ アプリケーションは、シングル サインオン (SSO)、ユーザー割り当て、および条件付きアクセス用にオンプレミスまたはクラウドベースのアプリを構成して公開するために使用されるためです。\nMicrosoft Entra アプリケーション プロキシ は、VPN を必要とせずにオンプレミス アプリケーションへの安全なリモート アクセスを可能にするため、正解です。これは、Microsoft Entra ID と通信する軽量コネクタをオンプレミス ネットワークにインストールすることで機能し、リモート ユーザーがネットワーク外でも SSO を使用して WebApp1 などの内部アプリにアクセスできるようにします。\nMicrosoft Entra Identity Management (PIM) は間違っていますので、 Privileged Identity Management (PIM) は、ジャストインタイムの特権アクセスを提供することにより、重要なリソースへのアクセスを管理、制御、監視するために使用されます。これは、SSO の有効化やリモート ユーザーへのオンプレミス アプリケーションの公開とは関係がありません。\n条件付きアクセス ポリシー は誤りです。条件付きアクセスではアクセス制御 (MFA やデバイス コンプライアンスなど) を強制できますが、アプリケーションの公開や SSO 機能は有効ではないためです。\n参考リンク:\n・https://learn.microsoft.com/en-us/entra/identity/app-proxy/overview-what-is-app-proxy\n\n・https://learn.microsoft.com/en-us/entra/identity/app-proxy/application-proxy-add-on-premises-application\n\n・https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-application-management\n\n・https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure\n\n・https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "multi",
+      "contextGroupId": "en6-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en6-q-002",
+      "sourceQuestionNumber": 2,
+      "promptHtml": "<p>1 つ以上の Azure サブスクリプションにわたるリソースのデプロイを自動化することを計画しています。</p><p>デプロイ戦略の一環として Azure Blueprints と Azure Resource Manager (ARM) テンプレートのどちらを使用するかを評価しています。</p><p>Azure Blueprints と ARM テンプレートの主な違いを正確に説明しているのはどれですか。</p>",
+      "promptText": "1 つ以上の Azure サブスクリプションにわたるリソースのデプロイを自動化することを計画しています。\nデプロイ戦略の一環として Azure Blueprints と Azure Resource Manager (ARM) テンプレートのどちらを使用するかを評価しています。\nAzure Blueprints と ARM テンプレートの主な違いを正確に説明しているのはどれですか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-002-c1",
+          "label": null,
+          "text": "Azure Blueprint は次のとおりです。 Azure Policy 定義の定義をサポートする唯一のオプションです。",
+          "html": "<p>Azure Blueprint は次のとおりです。 Azure Policy 定義の定義をサポートする唯一のオプションです。</p>"
+        },
+        {
+          "choiceId": "en6-q-002-c2",
+          "label": null,
+          "text": "ブループリントは、デプロイされたリソースに接続されたままになります。",
+          "html": "ブループリントは、デプロイされたリソースに接続されたままになります。"
+        },
+        {
+          "choiceId": "en6-q-002-c3",
+          "label": null,
+          "text": "Azure ブループリントは、デプロイされたリソースとの継続的な関連付けを維持します。",
+          "html": "<p>Azure ブループリントは、デプロイされたリソースとの継続的な関連付けを維持します。</p>"
+        },
+        {
+          "choiceId": "en6-q-002-c4",
+          "label": null,
+          "text": "Azure Policy 定義は、ARM を使用する場合にのみ含めることができます。",
+          "html": "<p>Azure Policy 定義は、ARM を使用する場合にのみ含めることができます。 </p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-002-c2"
+      ],
+      "explanationHtml": "<p>ブループリントはデプロイされたリソースに接続されたまま は正解です。これは、Azure Blueprints が複数のサブスクリプションにわたるリソース構成、ポリシー、およびロールの割り当てのセットを定義して割り当てる方法を提供しているためです。</p><p>Azure Blueprints は、Azure Policy 定義の定義をサポートする唯一のオプションです は、Azure Blueprints と ARM テンプレートの両方にポリシー定義を含めることができるため、不正解です。 ARM テンプレートには Azure Policy の割り当てを含めることができ、ブループリントは既存のポリシー定義を参照してガバナンスを適用できます。</p><p>Azure ブループリントはデプロイしたリソースとの継続的な関連付けを維持します は誤りです。これは、ARM テンプレートはコードとしてインフラストラクチャをデプロイするために使用されますが、デプロイが完了すると、テンプレートとデプロイされたリソースの間に直接の接続がなくなります。</p><p>Azure ポリシー定義は、ARM テンプレートを使用する場合にのみ含めることができます は、ブループリントにもポリシー定義が含まれる可能性があるため、不正確です。ブループリントには、複数のサブスクリプションにわたるガバナンスを維持するためのロール割り当て、ポリシー割り当て、およびリソース グループを含めることができます。</p><p>参照リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/blueprints/overview\">https://learn.microsoft.com/en-us/azure/governance/blueprints/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/blueprints/overview#how-its-different-from-azure-policy\">https://learn.microsoft.com/en-us/azure/governance/blueprints/overview#how-its-different-from-azure-policy</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/overview\">https://learn.microsoft.com/en-us/azure/governance/policy/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview\">https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview</a></p></li></ul>",
+      "explanationText": "ブループリントはデプロイされたリソースに接続されたまま は正解です。これは、Azure Blueprints が複数のサブスクリプションにわたるリソース構成、ポリシー、およびロールの割り当てのセットを定義して割り当てる方法を提供しているためです。\nAzure Blueprints は、Azure Policy 定義の定義をサポートする唯一のオプションです は、Azure Blueprints と ARM テンプレートの両方にポリシー定義を含めることができるため、不正解です。 ARM テンプレートには Azure Policy の割り当てを含めることができ、ブループリントは既存のポリシー定義を参照してガバナンスを適用できます。\nAzure ブループリントはデプロイしたリソースとの継続的な関連付けを維持します は誤りです。これは、ARM テンプレートはコードとしてインフラストラクチャをデプロイするために使用されますが、デプロイが完了すると、テンプレートとデプロイされたリソースの間に直接の接続がなくなります。\nAzure ポリシー定義は、ARM テンプレートを使用する場合にのみ含めることができます は、ブループリントにもポリシー定義が含まれる可能性があるため、不正確です。ブループリントには、複数のサブスクリプションにわたるガバナンスを維持するためのロール割り当て、ポリシー割り当て、およびリソース グループを含めることができます。\n参照リンク:\n・https://learn.microsoft.com/en-us/azure/governance/blueprints/overview\n\n・https://learn.microsoft.com/en-us/azure/governance/blueprints/overview#how-its-different-from-azure-policy\n\n・https://learn.microsoft.com/en-us/azure/governance/policy/overview\n\n・https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en6-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en6-q-003",
+      "sourceQuestionNumber": 3,
+      "promptHtml": "<p><strong>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。</strong></p><p><br>あなたは、すべて<strong>米国東部</strong>リージョンにデプロイされた次のリソースを含む Azure サブスクリプションを管理します。</p><ul><li><p><strong>StoreAcctA</strong> -> Azure ストレージ アカウント (汎用 v1)</p></li><li><p><strong>StoreAcctB</strong> -> Azure ストレージ アカウント(汎用 v2)</p></li><li><p><strong>LogWS-A</strong> -> Azure Log Analytics ワークスペース</p></li><li><p><strong>LogWS-B</strong> -> Azure Log Analytics ワークスペース</p></li><li><p><strong>EventHub-A</strong> -> Azure Event Hub</p></li></ul><p>Azure をデプロイします。 SQL 米国東部の<strong> SalesDB</strong> という名前のデータベース。</p><p><br><strong>SalesDB</strong> の場合は、<strong>DiagConfig1</strong> という名前の診断設定を次の動作で構成します。</p><ul><li><p>SQLInsights ログは<strong>次の場所にアーカイブされます。 StoreAcctA</strong></p></li><li><p>SQLInsights ログは LogWS-A に<strong>送信されます</strong><br></p></li></ul><p><strong>正誤:</strong></p><p><code>「</strong>SQLInsights ログを送信する SalesDB の追加の診断設定を作成できます。 EventHub-A<strong>.”</code> </p>",
+      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。\n\nあなたは、すべて米国東部リージョンにデプロイされた次のリソースを含む Azure サブスクリプションを管理します。\n・StoreAcctA -> Azure ストレージ アカウント (汎用 v1)\n\n・StoreAcctB -> Azure ストレージ アカウント(汎用 v2)\n\n・LogWS-A -> Azure Log Analytics ワークスペース\n\n・LogWS-B -> Azure Log Analytics ワークスペース\n\n・EventHub-A -> Azure Event Hub\n\nAzure をデプロイします。 SQL 米国東部の SalesDB という名前のデータベース。\n\nSalesDB の場合は、DiagConfig1 という名前の診断設定を次の動作で構成します。\n・SQLInsights ログは次の場所にアーカイブされます。 StoreAcctA\n\n・SQLInsights ログは LogWS-A に送信されます\n\n正誤:\n「SQLInsights ログを送信する SalesDB の追加の診断設定を作成できます。 EventHub-A.”",
+      "choices": [
+        {
+          "choiceId": "en6-q-003-c1",
+          "label": null,
+          "text": "True",
+          "html": "<p>True</p>"
+        },
+        {
+          "choiceId": "en6-q-003-c2",
+          "label": null,
+          "text": "False",
+          "html": "<p>False</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-003-c1"
+      ],
+      "explanationHtml": "<p>True は正しいです。Azure の診断設定では、ストレージ アカウント、Log Analytics ワークスペース、イベント ハブなど、ログとメトリックの異なる宛先を最大 5 つ許可するためです。</p><p>参照リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/diagnostic-settings\">https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/diagnostic-settings</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/diagnostic-settings?tabs=CMD#destination-limitations\">https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/diagnostic-settings?tabs=CMD#destination-limitations</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-diagnostic-logs\">https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-diagnostic-logs</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-platform-logs\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-platform-logs</a></p></li></ul>",
+      "explanationText": "正解はTrueです。Azure の診断設定では、ストレージ アカウント、Log Analytics ワークスペース、イベント ハブなど、ログとメトリックの異なる宛先を最大 5 つ許可するためです。\n参照リンク:\n・https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/diagnostic-settings\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/diagnostic-settings?tabs=CMD#destination-limitations\n\n・https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-diagnostic-logs\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-platform-logs",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en6-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en6-q-004",
+      "sourceQuestionNumber": 4,
+      "promptHtml": "<p>ビジネス クリティカルなオンプレミス アプリケーションを Azure に移行することを計画しています。アプリケーションは Microsoft SQL サーバー バックエンドに依存しており、移行後はデータベース エンジンが Azure 仮想マシンでホストされます。</p><p>次の制約を満たす、可用性の高い SQL サーバー アーキテクチャを設計する必要があります。</p><ul><li><p>運用コストは可能な限り低く抑える必要があります。</p></li><li><p>個人の場合SQL サーバー インスタンスが使用できなくなりました。フェールオーバーは最小限の遅延で発生する必要があります。</p></li></ul><p>ターゲット アーキテクチャの一部として推奨するオプションはどれですか。</p>",
+      "promptText": "ビジネス クリティカルなオンプレミス アプリケーションを Azure に移行することを計画しています。アプリケーションは Microsoft SQL サーバー バックエンドに依存しており、移行後はデータベース エンジンが Azure 仮想マシンでホストされます。\n次の制約を満たす、可用性の高い SQL サーバー アーキテクチャを設計する必要があります。\n・運用コストは可能な限り低く抑える必要があります。\n\n・個人の場合SQL サーバー インスタンスが使用できなくなりました。フェールオーバーは最小限の遅延で発生する必要があります。\n\nターゲット アーキテクチャの一部として推奨するオプションはどれですか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-004-c1",
+          "label": null,
+          "text": "仮想ネットワーク名 (VNN)を使用し、 クラスターのプレミアム Azure ファイル共有に依存する Always On フェールオーバー クラスター インスタンスをデプロイします。",
+          "html": "<p><strong>仮想ネットワーク名 (VNN)</strong>を使用し、 クラスターの<strong>プレミアム Azure ファイル共有</strong>に依存する Always On フェールオーバー クラスター インスタンスをデプロイします。 </p>"
+        },
+        {
+          "choiceId": "en6-q-004-c2",
+          "label": null,
+          "text": "プレミアム マネージド ディスクを使用し、分散ネットワーク名 (DNN) で構成された Always On 可用性グループをデプロイします。",
+          "html": "<p><strong>プレミアム マネージド ディスク</strong>を使用し、<strong>分散ネットワーク名 (DNN)</strong> で構成された Always On 可用性グループをデプロイします。</p>"
+        },
+        {
+          "choiceId": "en6-q-004-c3",
+          "label": null,
+          "text": "仮想ネットワーク名 (VNN) を使用する Always On フェールオーバー クラスター インスタンスをデプロイします。および共有ストレージ用の標準 Azure ファイル共有。",
+          "html": "<p><strong>仮想ネットワーク名 (VNN)</strong> を使用する Always On フェールオーバー クラスター インスタンスをデプロイします。および共有ストレージ用の<strong>標準 Azure ファイル共有</strong>。</p>"
+        },
+        {
+          "choiceId": "en6-q-004-c4",
+          "label": null,
+          "text": "プレミアム マネージド ディスクを使用し、仮想ネットワーク名 (VNN)を通じてアクセスされる Always On 可用性グループをデプロイします。",
+          "html": "<p><strong>プレミアム マネージド ディスク</strong>を使用し、<strong>仮想ネットワーク名 (VNN)</strong>を通じてアクセスされる Always On 可用性グループをデプロイします。</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-004-c2"
+      ],
+      "explanationHtml": "<p>デプロイプレミアム マネージド ディスクを使用し、分散ネットワーク名 (DNN) で構成されている Always On 可用性グループ は正解です。分散ネットワーク名 (DNN) で Always On 可用性グループ (AG) を使用すると、Azure ロード バランサーへの依存関係がなくなり、フェールオーバー時間が短縮されます。</p><p>仮想ネットワーク名 (VNN) を使用し、 クラスターのプレミアム Azure ファイル共有に依存する Always On フェールオーバー クラスター インスタンスをデプロイします。storage は 不正確です。</p><p>仮想ネットワーク名 (VNN) と共有ストレージ用の標準 Azure ファイル共有を使用する Always On フェールオーバー クラスター インスタンスをデプロイする は不正確です。これは、プレミアム ファイル共有と比較してコストが削減されますが、VNN には依然として負荷が必要となるためです。</p><p>プレミアム マネージド ディスクを使用し、仮想ネットワーク名 (VNN)を介してアクセスされる Always On 可用性グループを展開するのは誤りです。プレミアム ストレージを備えた Always On AG は高いパフォーマンスを提供しますが、VNN ではロード バランサー要件によるフェイルオーバー遅延が依然として発生するためです。</p><p>参考リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/hadr-windows-server-failover-cluster-overview?view=azuresql#virtual-network-name-vnn\">https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/hadr-windows-server-failover-cluster-overview?view=azuresql#virtual-network-name-vnn</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/hadr-windows-server-failover-cluster-overview?view=azuresql#distributed-network-name-dnn\">https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/hadr-windows-server-failover-cluster-overview?view=azuresql#distributed-network-name-dnn</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/availability-group-overview?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/availability-group-overview?view=azuresql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-overview?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-overview?view=azuresql</a></p></li></ul>",
+      "explanationText": "デプロイプレミアム マネージド ディスクを使用し、分散ネットワーク名 (DNN) で構成されている Always On 可用性グループ は正解です。分散ネットワーク名 (DNN) で Always On 可用性グループ (AG) を使用すると、Azure ロード バランサーへの依存関係がなくなり、フェールオーバー時間が短縮されます。\n仮想ネットワーク名 (VNN) を使用し、 クラスターのプレミアム Azure ファイル共有に依存する Always On フェールオーバー クラスター インスタンスをデプロイします。storage は 不正確です。\n仮想ネットワーク名 (VNN) と共有ストレージ用の標準 Azure ファイル共有を使用する Always On フェールオーバー クラスター インスタンスをデプロイする は誤りです。これは、プレミアム ファイル共有と比較してコストが削減されますが、VNN には依然として負荷が必要となるためです。\nプレミアム マネージド ディスクを使用し、仮想ネットワーク名 (VNN)を介してアクセスされる Always On 可用性グループを展開するのは誤りです。プレミアム ストレージを備えた Always On AG は高いパフォーマンスを提供しますが、VNN ではロード バランサー要件によるフェイルオーバー遅延が依然として発生するためです。\n参考リンク:\n・https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/hadr-windows-server-failover-cluster-overview?view=azuresql#virtual-network-name-vnn\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/hadr-windows-server-failover-cluster-overview?view=azuresql#distributed-network-name-dnn\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/availability-group-overview?view=azuresql\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-overview?view=azuresql",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en6-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en6-q-005",
+      "sourceQuestionNumber": 5,
+      "promptHtml": "<p><strong>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問では、指定された要件を満たす場合と満たさない場合がある異なる解決策が提案されます。<br></strong></p><p>Microsoft SQL サーバー データベースをオンプレミス環境から Azure に移動することを計画しています。</p><p>次の要件を満たす <code>導入ソリューション</code>を決定する必要があります。</p><ul><li><p>ユーザーによる開始を許可するバックアップ</p></li><li><p>異なる Azure リージョンにわたる複数のインスタンスへの自動レプリケーションを提供します</p></li><li><p>ビジネス継続性機能の構成と管理に必要な運用オーバーヘッドを削減します</p></li></ul><p>ソリューションとして何を推奨しますか。</p>",
+      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問では、指定された要件を満たす場合と満たさない場合がある異なる解決策が提案されます。\n\nMicrosoft SQL サーバー データベースをオンプレミス環境から Azure に移動することを計画しています。\n次の要件を満たす 導入ソリューションを決定する必要があります。\n・ユーザーによる開始を許可するバックアップ\n\n・異なる Azure リージョンにわたる複数のインスタンスへの自動レプリケーションを提供します\n\n・ビジネス継続性機能の構成と管理に必要な運用オーバーヘッドを削減します\n\nソリューションとして何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-005-c1",
+          "label": null,
+          "text": "Azure SQL マネージドインスタンス",
+          "html": "Azure SQL マネージドインスタンス"
+        },
+        {
+          "choiceId": "en6-q-005-c2",
+          "label": null,
+          "text": "SQL Azure 仮想マシン上のサーバー",
+          "html": "SQL Azure 仮想マシン上のサーバー"
+        },
+        {
+          "choiceId": "en6-q-005-c3",
+          "label": null,
+          "text": "Azure SQL データベース単一データベース",
+          "html": "Azure SQL データベース単一データベース"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-005-c1"
+      ],
+      "explanationHtml": "<p>Azure SQL マネージド インスタンスこれは、Azure SQL データベースではサポートされていないユーザー開始のバックアップをサポートしているため、正しい選択です。最小限の管理労力でリージョン間の復元性を実現するために、マネージド インスタンスは自動フェールオーバー グループを使用します。</p><p>Azure Virtual Machines 上の SQL サーバー は誤りです。これは、ユーザーが開始したバックアップを許可し、高可用性構成をサポートしている一方で、構成に多大な管理労力が必要であるためです。</p><p>Azure SQL Database の単一データベースは、geo レプリケーションによる自動レプリケーションをサポートし、管理労力を最小限に抑えますが、ユーザーが開始するバックアップをサポートしていないため、不正確です。 Azure SQL データベースは Azure によって管理される自動バックアップを使用しますが、ユーザーはバックアップ スケジュールを手動でトリガーまたはカスタマイズすることはできません。</p><p>参照リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview\">https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/automated-backups-overview\">https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/automated-backups-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview\">https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview</a></p></li></ul>",
+      "explanationText": "Azure SQL マネージド インスタンスこれは、Azure SQL データベースではサポートされていないユーザー開始のバックアップをサポートしているため、正しい選択です。最小限の管理労力でリージョン間の復元性を実現するために、マネージド インスタンスは自動フェールオーバー グループを使用します。\nAzure Virtual Machines 上の SQL サーバー は誤りです。これは、ユーザーが開始したバックアップを許可し、高可用性構成をサポートしている一方で、構成に多大な管理労力が必要であるためです。\nAzure SQL Database の単一データベースは、geo レプリケーションによる自動レプリケーションをサポートし、管理労力を最小限に抑えますが、ユーザーが開始するバックアップをサポートしていないため、不正確です。 Azure SQL データベースは Azure によって管理される自動バックアップを使用しますが、ユーザーはバックアップ スケジュールを手動でトリガーまたはカスタマイズすることはできません。\n参照リンク:\n・https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/automated-backups-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en6-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en6-q-006",
+      "sourceQuestionNumber": 6,
+      "promptHtml": "<p><strong>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問では、指定された要件を満たす場合と満たさない場合がある、異なるソリューションが提案されます。<br></strong></p><p>あなたは、Microsoft SQL サーバー データベースをオンプレミス環境から Azure に移行することを計画しています。</p><p>次の要件を満たす <code>復元ソリューション</code>を決定する必要があります。</p><ul><li><p>ユーザーによる開始を許可するバックアップ</p></li><li><p>異なる Azure リージョンにわたる複数のインスタンスへの自動レプリケーションを提供します</p></li><li><p>ビジネス継続性機能の構成と管理に必要な運用オーバーヘッドを削減します</p></li></ul><p>ソリューションとして何を推奨しますか。</p>",
+      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問では、指定された要件を満たす場合と満たさない場合がある、異なるソリューションが提案されます。\n\nあなたは、Microsoft SQL サーバー データベースをオンプレミス環境から Azure に移行することを計画しています。\n次の要件を満たす 復元ソリューションを決定する必要があります。\n・ユーザーによる開始を許可するバックアップ\n\n・異なる Azure リージョンにわたる複数のインスタンスへの自動レプリケーションを提供します\n\n・ビジネス継続性機能の構成と管理に必要な運用オーバーヘッドを削減します\n\nソリューションとして何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-006-c1",
+          "label": null,
+          "text": "自動フェールオーバー グループ",
+          "html": "自動フェールオーバー グループ"
+        },
+        {
+          "choiceId": "en6-q-006-c2",
+          "label": null,
+          "text": "アクティブ geo レプリケーション",
+          "html": "アクティブ geo レプリケーション"
+        },
+        {
+          "choiceId": "en6-q-006-c3",
+          "label": null,
+          "text": "ゾーン冗長展開",
+          "html": "ゾーン冗長展開"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-006-c1"
+      ],
+      "explanationHtml": "<p>自動フェールオーバー グループ は、ユーザーが開始したバックアップをサポートし、Azure リージョン全体での自動レプリケーションを提供し、管理労力を最小限に抑えるため正しいです。自動フェイルオーバー グループにより、複数のデータベースの自動フェイルオーバーが可能になり、ビジネス継続性にとって理想的なソリューションとなります。</p><p>アクティブ geo レプリケーション は、Azure リージョン間で自動的にレプリケートされる複数のインスタンスをサポートしていますが、手動フェールオーバーが必要であるため、不正解です。これにより、フェールオーバーを手動で開始する必要があるため、管理オーバーヘッドが増加し、労力を最小限に抑えるには適しません。</p><p>ゾーン冗長デプロイは、可用性ゾーン全体にレプリカを分散することで単一の Azure リージョン内で高可用性を提供するため、不正確です。ただし、複数のリージョンにわたるレプリケーションはサポートされていないため、リージョン間のビジネス継続性の要件は満たされません。</p><p>参照リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/auto-failover-group-overview\">https://learn.microsoft.com/en-us/azure/azure-sql/database/auto-failover-group-overview</a></p></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/failover-group-sql-mi?view=azuresql&amp;tabs=azure-powershell#terminology-and-capabilities\">https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/failover-group-sql-mi?view=azuresql&amp;tabs=azure-powershell#terminology-and-capabilities</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview\">https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla\">https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla</a></p></li></ul>",
+      "explanationText": "自動フェールオーバー グループ は、ユーザーが開始したバックアップをサポートし、Azure リージョン全体での自動レプリケーションを提供し、管理労力を最小限に抑えるため正しいです。自動フェイルオーバー グループにより、複数のデータベースの自動フェイルオーバーが可能になり、ビジネス継続性にとって理想的なソリューションとなります。\nアクティブ geo レプリケーション は、Azure リージョン間で自動的にレプリケートされる複数のインスタンスをサポートしていますが、手動フェールオーバーが必要であるため、不正解です。これにより、フェールオーバーを手動で開始する必要があるため、管理オーバーヘッドが増加し、労力を最小限に抑えるには適しません。\nゾーン冗長デプロイは、可用性ゾーン全体にレプリカを分散することで単一の Azure リージョン内で高可用性を提供するため、不正確です。ただし、複数のリージョンにわたるレプリケーションはサポートされていないため、リージョン間のビジネス継続性の要件は満たされません。\n参照リンク:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/auto-failover-group-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/failover-group-sql-mi?view=azuresql&tabs=azure-powershell#terminology-and-capabilities\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en6-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en6-q-007",
+      "sourceQuestionNumber": 7,
+      "promptHtml": "<p><strong>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。</strong></p><p><br>あなたは、<strong>ワークロード A</strong> と <strong>ワークロード B</strong> という 2 つのワークロードに対する <strong>Azure ストレージ アカウント戦略</strong>を設計しています。各ワークロードには異なるパフォーマンスとコストの要件があり、<strong>単一の Azure データセンターが利用できなくなった</strong>場合でも、両方のアクセスを維持する必要があります。</p><p>ストレージ設計は次の条件を満たす必要があります。</p><ul><li><p><strong>ワークロード A</strong> によって使用されるストレージは、<strong>達成可能な最低のスループットで<strong>可能な限り最高のスループット</strong>を提供する必要があります。レイテンシ</strong>。</p></li><li><p><strong>ワークロード B</strong> で使用されるストレージは、<strong>ギガバイトあたりのコストが最小になるように最適化する必要があります</strong>。</p></li><li><p><strong>両方のワークロード</strong>のデータは、<strong>データセンターの停止</strong>中も利用可能な状態にしておく必要があります。</p></li><li><p>両方のワークロードのストレージ アクセスは、 <strong>頻繁なアップロードおよびダウンロード操作</strong>。</p></li></ul><p><code>WorkloadA</code> にはどのストレージ構成を推奨しますか。</p>",
+      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。\n\nあなたは、ワークロード A と ワークロード B という 2 つのワークロードに対する Azure ストレージ アカウント戦略を設計しています。各ワークロードには異なるパフォーマンスとコストの要件があり、単一の Azure データセンターが利用できなくなった場合でも、両方のアクセスを維持する必要があります。\nストレージ設計は次の条件を満たす必要があります。\n・ワークロード A によって使用されるストレージは、達成可能な最低のスループットで可能な限り最高のスループットを提供する必要があります。レイテンシ。\n\n・ワークロード B で使用されるストレージは、ギガバイトあたりのコストが最小になるように最適化する必要があります。\n\n・両方のワークロードのデータは、データセンターの停止中も利用可能な状態にしておく必要があります。\n\n・両方のワークロードのストレージ アクセスは、 頻繁なアップロードおよびダウンロード操作。\n\nWorkloadA にはどのストレージ構成を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-007-c1",
+          "label": null,
+          "text": "標準パフォーマンス、ホット アクセス層、および読み取りアクセス地理冗長ストレージを使用する BLOB ストレージ アカウント(RA-GRS) レプリケーション。",
+          "html": "<p><strong>標準パフォーマンス</strong>、<strong>ホット アクセス層</strong>、および<strong>読み取りアクセス地理冗長ストレージを使用する BLOB ストレージ アカウント(RA-GRS)</strong> レプリケーション。</p>"
+        },
+        {
+          "choiceId": "en6-q-007-c2",
+          "label": null,
+          "text": "ゾーン冗長ストレージ (ZRS) レプリケーションでプレミアム パフォーマンスを使用するブロック Blob ストレージ アカウント。",
+          "html": "<p><strong>ゾーン冗長ストレージ (ZRS)</strong> レプリケーションで<strong>プレミアム パフォーマンス</strong>を使用するブロック Blob ストレージ アカウント。</p>"
+        },
+        {
+          "choiceId": "en6-q-007-c3",
+          "label": null,
+          "text": "プレミアム パフォーマンスを使用する汎用 v1 ストレージ アカウント。 ローカル冗長ストレージ (LRS) レプリケーション。",
+          "html": "<p><strong>プレミアム パフォーマンス</strong>を使用する汎用 v1 ストレージ アカウント。 <strong>ローカル冗長ストレージ (LRS)</strong> レプリケーション。</p>"
+        },
+        {
+          "choiceId": "en6-q-007-c4",
+          "label": null,
+          "text": "標準パフォーマンス、ホット アクセス層、およびローカル冗長ストレージ (LRS) レプリケーションを使用する汎用 v2 ストレージ アカウント。",
+          "html": "<p><strong>標準パフォーマンス</strong>、<strong>ホット アクセス層</strong>、および<strong>ローカル冗長ストレージ (LRS)</strong> レプリケーションを使用する汎用 v2 ストレージ アカウント。</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-007-c2"
+      ],
+      "explanationHtml": "<p>ゾーン冗長ストレージ (ZRS) レプリケーションでプレミアム パフォーマンスを使用する Block Blob Storage アカウントは正解です。これは、BlockBlobStorage アカウントは高いトランザクション レートと低い待機時間向けに最適化されており、可能な限り最速のパフォーマンスを必要とするワークロードに最適であるためです。</p><p>標準パフォーマンス、ホット アクセス層、読み取りアクセス地理冗長ストレージ (RA-GRS) レプリケーションを使用する Blob Storage アカウントは、標準パフォーマンスでは可能な限り最低のパフォーマンスが提供されないため不正確です。待ち時間。</p><p>プレミアム パフォーマンスとローカル冗長ストレージ (LRS) のレプリケーションを使用する汎用 v1 ストレージ アカウントは不正解です。汎用 v1 ストレージ アカウントはレガシーであり、最適化されていないためです。</p><p>標準パフォーマンス、ホット アクセス層、およびローカル冗長ストレージ (LRS) のレプリケーションを使用する汎用 v2 ストレージ アカウントは不正確です。費用対効果の高いオプションではありますが、最高のトランザクション レートと最低のレイテンシは提供されません。</p><p>参考リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-block-blob-premium\">https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-block-blob-premium</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy\">https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview</a></p></li></ul>",
+      "explanationText": "ゾーン冗長ストレージ (ZRS) レプリケーションでプレミアム パフォーマンスを使用する Block Blob Storage アカウントは正解です。これは、BlockBlobStorage アカウントは高いトランザクション レートと低い待機時間向けに最適化されており、可能な限り最速のパフォーマンスを必要とするワークロードに最適であるためです。\n標準パフォーマンス、ホット アクセス層、読み取りアクセス地理冗長ストレージ (RA-GRS) レプリケーションを使用する Blob Storage アカウントは、標準パフォーマンスでは可能な限り最低のパフォーマンスが提供されないため不正確です。待ち時間。\nプレミアム パフォーマンスとローカル冗長ストレージ (LRS) のレプリケーションを使用する汎用 v1 ストレージ アカウントは不正解です。汎用 v1 ストレージ アカウントはレガシーであり、最適化されていないためです。\n標準パフォーマンス、ホット アクセス層、およびローカル冗長ストレージ (LRS) のレプリケーションを使用する汎用 v2 ストレージ アカウントは不正確です。費用対効果の高いオプションではありますが、最高のトランザクション レートと最低のレイテンシは提供されません。\n参考リンク:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-block-blob-premium\n\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en6-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en6-q-008",
+      "sourceQuestionNumber": 8,
+      "promptHtml": "<p><strong>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。</strong></p><p><br>あなたは、<strong>ワークロード A</strong> と <strong>ワークロード B</strong> という 2 つのワークロードに対する <strong>Azure ストレージ アカウント戦略</strong>を設計しています。各ワークロードには異なるパフォーマンスとコストの要件があり、<strong>単一の Azure データセンターが利用できなくなった</strong>場合でも、両方のアクセスを維持する必要があります。</p><p>ストレージ設計は次の条件を満たす必要があります。</p><ul><li><p><strong>ワークロード A</strong> によって使用されるストレージは、<strong>達成可能な最低のスループットで<strong>可能な限り最高のスループット</strong>を提供する必要があります。レイテンシ</strong>。</p></li><li><p><strong>ワークロード B</strong> で使用されるストレージは、<strong>ギガバイトあたりのコストが最小になるように最適化する必要があります</strong>。</p></li><li><p><strong>両方のワークロード</strong>のデータは、<strong>データセンターの停止</strong>中も利用可能な状態にしておく必要があります。</p></li><li><p>両方のワークロードのストレージ アクセスは、 <strong>頻繁なアップロードおよびダウンロード操作</strong>。</p></li></ul><p><code>WorkloadB</code> にはどのストレージ構成を推奨しますか。</p>",
+      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。\n\nあなたは、ワークロード A と ワークロード B という 2 つのワークロードに対する Azure ストレージ アカウント戦略を設計しています。各ワークロードには異なるパフォーマンスとコストの要件があり、単一の Azure データセンターが利用できなくなった場合でも、両方のアクセスを維持する必要があります。\nストレージ設計は次の条件を満たす必要があります。\n・ワークロード A によって使用されるストレージは、達成可能な最低のスループットで可能な限り最高のスループットを提供する必要があります。レイテンシ。\n\n・ワークロード B で使用されるストレージは、ギガバイトあたりのコストが最小になるように最適化する必要があります。\n\n・両方のワークロードのデータは、データセンターの停止中も利用可能な状態にしておく必要があります。\n\n・両方のワークロードのストレージ アクセスは、 頻繁なアップロードおよびダウンロード操作。\n\nWorkloadB にはどのストレージ構成を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-008-c1",
+          "label": null,
+          "text": "標準パフォーマンス、クール アクセス層、地理冗長 (GRS) レプリケーションを使用する BlobStorage。",
+          "html": "<p>標準パフォーマンス、クール アクセス層、地理冗長 (GRS) レプリケーションを使用する BlobStorage。</p>"
+        },
+        {
+          "choiceId": "en6-q-008-c2",
+          "label": null,
+          "text": "プレミアム パフォーマンスとゾーン冗長ストレージ (ZRS) レプリケーションを使用する BlockBlobStorage。",
+          "html": "<p>プレミアム パフォーマンスとゾーン冗長ストレージ (ZRS) レプリケーションを使用する BlockBlobStorage。</p>"
+        },
+        {
+          "choiceId": "en6-q-008-c3",
+          "label": null,
+          "text": "標準パフォーマンスと読み取りアクセス geo 冗長ストレージ (RA-GRS) レプリケーションを使用する汎用 v1。",
+          "html": "<p>標準パフォーマンスと読み取りアクセス geo 冗長ストレージ (RA-GRS) レプリケーションを使用する汎用 v1。</p>"
+        },
+        {
+          "choiceId": "en6-q-008-c4",
+          "label": null,
+          "text": "標準パフォーマンスを使用する汎用 v2。クール アクセス層、および読み取りアクセス geo 冗長ストレージ (RA-GRS) レプリケーション。",
+          "html": "<p>標準パフォーマンスを使用する汎用 v2。クール アクセス層、および読み取りアクセス geo 冗長ストレージ (RA-GRS) レプリケーション。</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-008-c4"
+      ],
+      "explanationHtml": "<p>標準パフォーマンス、クール アクセス層、および読み取りアクセス geo 冗長ストレージ (RA-GRS) レプリケーションを使用する汎用 v2 が正解です。これは、汎用 v2 アカウントが提供するものであるためです。</p><p>標準パフォーマンス、クール アクセス層、地理冗長 (GRS) レプリケーションを使用する BlobStorage は誤りです。BlobStorage アカウントは汎用ほど柔軟ではないためです。</p><p>プレミアム パフォーマンスとゾーン冗長ストレージ (ZRS) レプリケーションを使用した BlockBlobStorage は誤りです。プレミアム パフォーマンスはコストを大幅に増加させ、ストレージ費用を最小限に抑えるという要件に矛盾します。</p><p>標準パフォーマンスおよび読み取りアクセス地理冗長ストレージ (RA-GRS) レプリケーションを使用する汎用 v1 は誤りです。これは、汎用 v1 がレガシー アカウント タイプであり、汎用 v2 にあるコスト最適化機能が欠けているためです。</p><p>参考リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy\">https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers\">https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers</a></p></li></ul>",
+      "explanationText": "正解は標準パフォーマンス、クール アクセス層、および読み取りアクセス geo 冗長ストレージ (RA-GRS) レプリケーションを使用する汎用 v2 です。これは、汎用 v2 アカウントが提供するものであるためです。\n標準パフォーマンス、クール アクセス層、地理冗長 (GRS) レプリケーションを使用する BlobStorage は誤りです。BlobStorage アカウントは汎用ほど柔軟ではないためです。\nプレミアム パフォーマンスとゾーン冗長ストレージ (ZRS) レプリケーションを使用した BlockBlobStorage は誤りです。プレミアム パフォーマンスはコストを大幅に増加させ、ストレージ費用を最小限に抑えるという要件に矛盾します。\n標準パフォーマンスおよび読み取りアクセス地理冗長ストレージ (RA-GRS) レプリケーションを使用する汎用 v1 は誤りです。これは、汎用 v1 がレガシー アカウント タイプであり、汎用 v2 にあるコスト最適化機能が欠けているためです。\n参考リンク:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en6-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en6-q-009",
+      "sourceQuestionNumber": 9,
+      "promptHtml": "<p>CoreWan01 という名前の基本層の Azure Virtual WAN を含む Azure 環境を管理しています。</p><p>Virtual WAN は次の仮想ハブに関連付けられています。</p><ul><li><p>米国東部の Azure リージョンにデプロイされた EastHubA</p></li><li><p>米国西部の Azure にデプロイされた WestHubBリージョン</p></li></ul><p>ExpressRoute 回線は米国東部リージョンにすでに存在します。この ExpressRoute 回線を CoreWan01 に関連付ける予定です。</p><p>ExpressRoute 回線を Virtual WAN に接続する前に、どのアクションを最初に実行する必要がありますか。</p>",
+      "promptText": "CoreWan01 という名前の基本層の Azure Virtual WAN を含む Azure 環境を管理しています。\nVirtual WAN は次の仮想ハブに関連付けられています。\n・米国東部の Azure リージョンにデプロイされた EastHubA\n\n・米国西部の Azure にデプロイされた WestHubBリージョン\n\nExpressRoute 回線は米国東部リージョンにすでに存在します。この ExpressRoute 回線を CoreWan01 に関連付ける予定です。\nExpressRoute 回線を Virtual WAN に接続する前に、どのアクションを最初に実行する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-009-c1",
+          "label": null,
+          "text": "CoreWan01 を Basic レベルから Standard レベルにアップグレードします。",
+          "html": "<p>CoreWan01 を Basic レベルから Standard レベルにアップグレードします。</p>"
+        },
+        {
+          "choiceId": "en6-q-009-c2",
+          "label": null,
+          "text": "ExpressRoute ゲートウェイを EastHubA にデプロイします。",
+          "html": "<p>ExpressRoute ゲートウェイを EastHubA にデプロイします。</p>"
+        },
+        {
+          "choiceId": "en6-q-009-c3",
+          "label": null,
+          "text": "米国東部リージョンにハブ仮想ネットワークを作成します。",
+          "html": "<p>米国東部リージョンにハブ仮想ネットワークを作成します。</p>"
+        },
+        {
+          "choiceId": "en6-q-009-c4",
+          "label": null,
+          "text": "ExpressRoute 回線の ExpressRoute プレミアム アドオンを有効にします。",
+          "html": "<p>ExpressRoute 回線の ExpressRoute プレミアム アドオンを有効にします。</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-009-c1"
+      ],
+      "explanationHtml": "<p>Basic レベルから Standard レベルへの CoreWan01 のアップグレードは、ExpressRoute が Basic Virtual WAN でサポートされていないため、正しいです。ExpressRoute 回線を VirtualWan1 に関連付けるには、Virtual WAN を Standard にアップグレードする必要があります。</p><p>EastHubA に ExpressRoute ゲートウェイをデプロイする は誤りです。これは、ゲートウェイを作成する前に、ExpressRoute をサポートするために Virtual WAN を Standard にアップグレードする必要があるためです。</p><p>米国東部リージョンにハブ仮想ネットワークを作成する は、ハブが既に存在しているため (Hub1 は米国東部にあるため不正確です)。新しいハブを作成するのではなく、既存の Virtual WAN が ExpressRoute をサポートできるようにすることに重点を置く必要があります。</p><p>ExpressRoute 回線の ExpressRoute プレミアム アドオンを有効にする は誤りです。これは、ExpressRoute プレミアム アドオンは 10 を超える VNet 接続またはグローバル リーチ シナリオの接続にのみ必要であるためです。</p><p>参考リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about\">https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-expressroute-portal\">https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-expressroute-portal</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-faq\">https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-faq</a></p></li></ul>",
+      "explanationText": "Basic レベルから Standard レベルへの CoreWan01 のアップグレードは、ExpressRoute が Basic Virtual WAN でサポートされていないため、正しいです。ExpressRoute 回線を VirtualWan1 に関連付けるには、Virtual WAN を Standard にアップグレードする必要があります。\nEastHubA に ExpressRoute ゲートウェイをデプロイする は誤りです。これは、ゲートウェイを作成する前に、ExpressRoute をサポートするために Virtual WAN を Standard にアップグレードする必要があるためです。\n米国東部リージョンにハブ仮想ネットワークを作成する は、ハブが既に存在しているため (Hub1 は米国東部にあるため不正確です)。新しいハブを作成するのではなく、既存の Virtual WAN が ExpressRoute をサポートできるようにすることに重点を置く必要があります。\nExpressRoute 回線の ExpressRoute プレミアム アドオンを有効にする は誤りです。これは、ExpressRoute プレミアム アドオンは 10 を超える VNet 接続またはグローバル リーチ シナリオの接続にのみ必要であるためです。\n参考リンク:\n・https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about\n\n・https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-expressroute-portal\n\n・https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-faq",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en6-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en6-q-010",
+      "sourceQuestionNumber": 10,
+      "promptHtml": "<p>あなたは、Azure Event Grid を通じてイベントが配信されるたびにカスタム C# コードを実行する必要があるイベント ドリブン ソリューションを Azure で設計しています。</p><p>ソリューションは次の要件を満たす必要があります。</p><ul><li><p>コード実行環境は、Azure 仮想マシン上でホストされている Microsoft SQL サーバー インスタンスに、プライベート IP アドレスを使用して接続できる必要があります。 VM。</p></li><li><p>ソリューションでは、全体的な運用コストとコンピューティング コストを最小限に抑える必要があります。</p></li></ul><p>どの Azure サービスとホスティング オプションを使用する必要がありますか。</p>",
+      "promptText": "あなたは、Azure Event Grid を通じてイベントが配信されるたびにカスタム C# コードを実行する必要があるイベント ドリブン ソリューションを Azure で設計しています。\nソリューションは次の要件を満たす必要があります。\n・コード実行環境は、Azure 仮想マシン上でホストされている Microsoft SQL サーバー インスタンスに、プライベート IP アドレスを使用して接続できる必要があります。 VM。\n\n・ソリューションでは、全体的な運用コストとコンピューティング コストを最小限に抑える必要があります。\n\nどの Azure サービスとホスティング オプションを使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en6-q-010-c1",
+          "label": null,
+          "text": "従量課金プランの Azure Functions",
+          "html": "従量課金プランの Azure Functions"
+        },
+        {
+          "choiceId": "en6-q-010-c2",
+          "label": null,
+          "text": "Premium プランの Azure Functions",
+          "html": "Premium プランの Azure Functions"
+        },
+        {
+          "choiceId": "en6-q-010-c3",
+          "label": null,
+          "text": "統合サービス環境の Azure Logic Apps",
+          "html": "統合サービス環境の Azure Logic Apps"
+        },
+        {
+          "choiceId": "en6-q-010-c4",
+          "label": null,
+          "text": "専用プランおよび基本 Azure App Service プランの Azure Functions",
+          "html": "専用プランおよび基本 Azure App Service プランの Azure Functions"
+        },
+        {
+          "choiceId": "en6-q-010-c5",
+          "label": null,
+          "text": "従量課金プランの Azure Logic Apps",
+          "html": "従量課金プランの Azure Logic Apps"
+        }
+      ],
+      "correctChoiceIds": [
+        "en6-q-010-c2"
+      ],
+      "explanationHtml": "<p>Azure Functionsプレミアム プラン の「」 は正解です。プレミアム プランでは仮想ネットワーク (VNet) 統合がサポートされており、関数が仮想マシン上で実行されている Azure SQL サーバー インスタンスなど、プライベート IP アドレス上のリソースにアクセスできるようになります。</p><p>従量課金プランの Azure Functions は誤りです。従量課金プランでは VNet 統合がサポートされていないため、プライベート IP アドレスにアクセスできません。</p><p>統合サービス環境の Azure Logic Apps は誤りです。統合サービス環境 (ISE) ではプライベート ネットワークへのアクセスが可能ですが、Premium プランの Azure Functions に比べてかなり高価であるためです。</p><p>専用プランと基本的な Azure App Service プランの Azure Functions は誤りです。専用プランでは VNet 統合が可能ですが、基本的な App Service プランと組み合わせると費用対効果が低いためです。</p><p>従量課金プランの Azure Logic Apps は誤りです。これは、Logic Apps 従量課金制は VNet 統合をサポートしておらず、プライベート IP アドレスにアクセスできないためです。</p><p>参考リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-functions/functions-premium-plan\">https://learn.microsoft.com/en-us/azure/azure-functions/functions-premium-plan</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-functions/functions-networking-options\">https://learn.microsoft.com/en-us/azure/azure-functions/functions-networking-options</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-vnet\">https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-vnet</a></p></li></ul>",
+      "explanationText": "Azure Functionsプレミアム プラン の「」 は正解です。プレミアム プランでは仮想ネットワーク (VNet) 統合がサポートされており、関数が仮想マシン上で実行されている Azure SQL サーバー インスタンスなど、プライベート IP アドレス上のリソースにアクセスできるようになります。\n従量課金プランの Azure Functions は誤りです。従量課金プランでは VNet 統合がサポートされていないため、プライベート IP アドレスにアクセスできません。\n統合サービス環境の Azure Logic Apps は誤りです。統合サービス環境 (ISE) ではプライベート ネットワークへのアクセスが可能ですが、Premium プランの Azure Functions に比べてかなり高価であるためです。\n専用プランと基本的な Azure App Service プランの Azure Functions は誤りです。専用プランでは VNet 統合が可能ですが、基本的な App Service プランと組み合わせると費用対効果が低いためです。\n従量課金プランの Azure Logic Apps は誤りです。これは、Logic Apps 従量課金制は VNet 統合をサポートしておらず、プライベート IP アドレスにアクセスできないためです。\n参考リンク:\n・https://learn.microsoft.com/en-us/azure/azure-functions/functions-premium-plan\n\n・https://learn.microsoft.com/en-us/azure/azure-functions/functions-networking-options\n\n・https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-vnet",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en6-case-001",
+      "tags": [
+        "case-study"
+      ]
+    }
+  ]
+}

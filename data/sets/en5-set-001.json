@@ -1,0 +1,424 @@
+{
+  "setId": "en5-set-001",
+  "title": "英語問題集5 翻訳版 01-10",
+  "sourceHtml": "assets/英語問題集5.html",
+  "questionIds": [
+    "en5-q-001",
+    "en5-q-002",
+    "en5-q-003",
+    "en5-q-004",
+    "en5-q-005",
+    "en5-q-006",
+    "en5-q-007",
+    "en5-q-008",
+    "en5-q-009",
+    "en5-q-010"
+  ],
+  "questions": [
+    {
+      "questionId": "en5-q-001",
+      "sourceQuestionNumber": 1,
+      "promptHtml": "<p>あなたは、Azure 仮想マシンでホストされる App1 という名前の多層アプリを開発しています。 App1 の使用率のピーク時間帯は、平日の午前 8 時から午前 9 時と午後 4 時から午後 5 時です。</p><p>App1 のインフラストラクチャをデプロイする必要があります。ソリューションは次の要件を満たす必要があります。</p><ul><li><p>2 つの Azure リージョンにわたる 4 つの可用性ゾーンにデプロイされた仮想マシンをサポートする</p></li><li><p>使用率が低い期間に CPU クレジットを蓄積することでコストを最小限に抑える</p></li></ul><p>デプロイする必要がある<code>仮想ネットワークの最小数</code>は何ですか。</p>",
+      "promptText": "あなたは、Azure 仮想マシンでホストされる App1 という名前の多層アプリを開発しています。 App1 の使用率のピーク時間帯は、平日の午前 8 時から午前 9 時と午後 4 時から午後 5 時です。\nApp1 のインフラストラクチャをデプロイする必要があります。ソリューションは次の要件を満たす必要があります。\n・2 つの Azure リージョンにわたる 4 つの可用性ゾーンにデプロイされた仮想マシンをサポートする\n\n・使用率が低い期間に CPU クレジットを蓄積することでコストを最小限に抑える\n\nデプロイする必要がある仮想ネットワークの最小数は何ですか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-001-c1",
+          "label": null,
+          "text": "1",
+          "html": "<p>1</p>"
+        },
+        {
+          "choiceId": "en5-q-001-c2",
+          "label": null,
+          "text": "2",
+          "html": "<p>2</p>"
+        },
+        {
+          "choiceId": "en5-q-001-c3",
+          "label": null,
+          "text": "3",
+          "html": "<p>3</p>"
+        },
+        {
+          "choiceId": "en5-q-001-c4",
+          "label": null,
+          "text": "4",
+          "html": "<p>4</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-001-c2"
+      ],
+      "explanationHtml": "<p>2 は正解です。なぜなら、各 Azure リージョンには独自の仮想ネットワークが必要だからです。</p><p>参考:</p><ul><li><p><a href=\"https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview\">https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview</a></p></li><li><p><a href=\"https://docs.microsoft.com/en-us/azure/availability-zones/az-overview\">https://docs.microsoft.com/en-us/azure/availability-zones/az-overview</a></p></li></ul>",
+      "explanationText": "2 は正解です。なぜなら、各 Azure リージョンには独自の仮想ネットワークが必要だからです。\n参考:\n・https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview\n\n・https://docs.microsoft.com/en-us/azure/availability-zones/az-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-002",
+      "sourceQuestionNumber": 2,
+      "promptHtml": "<p>あなたは、Azure 仮想マシン上で実行される <strong>App1</strong> という名前の多層アプリケーションを設計しています。アプリケーションの使用量は、平日の <strong>午前 9 時から午前 10 時</strong>と<strong>午後 5 時から午後 6 時</strong>にピークになります。</p><p>次の条件を満たしながら、<strong>App1</strong> に必要な Azure インフラストラクチャをデプロイする必要があります。</p><ul><li><p>仮想マシンは、2 つの Azure にまたがる 4 つの可用性ゾーンに分散する必要があります。 </p></li><li><p>使用率が低下している期間中に仮想マシンが CPU クレジットを蓄積できるようにすることで、コストを最適化する必要があります。</p></li></ul><p>どの <code>仮想マシン サイズ</code> を使用する必要がありますか。</p>",
+      "promptText": "あなたは、Azure 仮想マシン上で実行される App1 という名前の多層アプリケーションを設計しています。アプリケーションの使用量は、平日の 午前 9 時から午前 10 時と午後 5 時から午後 6 時にピークになります。\n次の条件を満たしながら、App1 に必要な Azure インフラストラクチャをデプロイする必要があります。\n・仮想マシンは、2 つの Azure にまたがる 4 つの可用性ゾーンに分散する必要があります。\n\n・使用率が低下している期間中に仮想マシンが CPU クレジットを蓄積できるようにすることで、コストを最適化する必要があります。\n\nどの 仮想マシン サイズ を使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-002-c1",
+          "label": null,
+          "text": "シリーズ",
+          "html": "A シリーズ"
+        },
+        {
+          "choiceId": "en5-q-002-c2",
+          "label": null,
+          "text": "B シリーズ",
+          "html": "B シリーズ"
+        },
+        {
+          "choiceId": "en5-q-002-c3",
+          "label": null,
+          "text": "D シリーズ",
+          "html": "D シリーズ"
+        },
+        {
+          "choiceId": "en5-q-002-c4",
+          "label": null,
+          "text": "M シリーズ",
+          "html": "M シリーズ"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-002-c2"
+      ],
+      "explanationHtml": "<p>B シリーズ は正解です。B シリーズ仮想マシンはバースト可能な VM であり、次の機能を提供します。</p><p>A シリーズ は誤りです。A シリーズ VM は開発およびテスト用のエントリーレベル VM であるためです。</p><p>D シリーズ は誤りです。D シリーズ VM は、より高い計算能力と一時的なディスク パフォーマンスを必要とするワークロード向けに設計されているためです。</p><p>M シリーズ は誤りです。M シリーズ VM は大規模なメモリ内ワークロード向けに設計されており、使用率が低いときに CPU クレジットを蓄積する機能を提供していないためです。</p><p>読み取り詳細:</p><ul><li><p><a href=\"https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable\">https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable</a></p></li><li><p><a href=\"https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-general\">https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-general</a></p></li><li><p><a href=\"https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-memory\">https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-memory</a></p></li></ul>",
+      "explanationText": "B シリーズ は正解です。B シリーズ仮想マシンはバースト可能な VM であり、次の機能を提供します。\nA シリーズ は誤りです。A シリーズ VM は開発およびテスト用のエントリーレベル VM であるためです。\nD シリーズ は誤りです。D シリーズ VM は、より高い計算能力と一時的なディスク パフォーマンスを必要とするワークロード向けに設計されているためです。\nM シリーズ は誤りです。M シリーズ VM は大規模なメモリ内ワークロード向けに設計されており、使用率が低いときに CPU クレジットを蓄積する機能を提供していないためです。\n読み取り詳細:\n・https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable\n\n・https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-general\n\n・https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-memory",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-003",
+      "sourceQuestionNumber": 3,
+      "promptHtml": "<p><strong>SQL1</strong> という名前のオンプレミス Microsoft SQL サーバー データベースがあり、これを Microsoft Azure に移行する予定です。</p><p><strong>SQL1</strong> には、次の条件を満たす Azure ベースのホスティング オプションを推奨する必要があります。要件:</p><ul><li><p>読み取り専用として構成された複数のセカンダリ レプリカの使用を許可します。</p></li><li><p>プライマリ データベースとそのセカンダリ レプリカ間の自動データ レプリケーションを提供します。</p></li><li><p>15 分以内の目標復旧時間 (RTO) でプライマリからセカンダリ レプリカへのフェイルオーバーをサポートします。</p></li></ul><p> <code>Azure サービスまたはサービス レベル</code> を推奨事項に含める必要がありますか。</p>",
+      "promptText": "SQL1 という名前のオンプレミス Microsoft SQL サーバー データベースがあり、これを Microsoft Azure に移行する予定です。\nSQL1 には、次の条件を満たす Azure ベースのホスティング オプションを推奨する必要があります。要件:\n・読み取り専用として構成された複数のセカンダリ レプリカの使用を許可します。\n\n・プライマリ データベースとそのセカンダリ レプリカ間の自動データ レプリケーションを提供します。\n\n・15 分以内の目標復旧時間 (RTO) でプライマリからセカンダリ レプリカへのフェイルオーバーをサポートします。\n\n Azure サービスまたはサービス レベル を推奨事項に含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-003-c1",
+          "label": null,
+          "text": "Azure SQL データベース",
+          "html": "Azure SQL データベース"
+        },
+        {
+          "choiceId": "en5-q-003-c2",
+          "label": null,
+          "text": "Azure SQL マネージド インスタンス",
+          "html": "Azure SQL マネージド インスタンス"
+        },
+        {
+          "choiceId": "en5-q-003-c3",
+          "label": null,
+          "text": "ハイパースケール サービス レベル",
+          "html": "ハイパースケール サービス レベル"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-003-c1"
+      ],
+      "explanationHtml": "<p>Azure SQL データベース が正解です。Azure SQL データベースのビジネス クリティカル層を使用して、複数のセカンダリ レプリカとプライマリ コピーとセカンダリ コピー間の自動レプリケーションの要件を満たすことができます。</p><p>Azure SQL マネージド インスタンス は誤りです。SQL MI がサポートするセカンダリ レプリカは 1 つだけですが、複数の読み取り専用セカンダリ レプリカが必要です。</p><p>ハイパースケール サービス レベル は誤りです。これは、要件を満たすのに役立つオプションの中に下位レベルがすでに存在するため、これを選択するとコストが増加するだけです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-Hyperscale-frequently-asked-questions-faq?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-Hyperscale-frequently-asked-questions-faq?view=azuresql</a></p></li></ul>",
+      "explanationText": "正解はAzure SQL データベース です。Azure SQL データベースのビジネス クリティカル層を使用して、複数のセカンダリ レプリカとプライマリ コピーとセカンダリ コピー間の自動レプリケーションの要件を満たすことができます。\nAzure SQL マネージド インスタンス は誤りです。SQL MI がサポートするセカンダリ レプリカは 1 つだけですが、複数の読み取り専用セカンダリ レプリカが必要です。\nハイパースケール サービス レベル は誤りです。これは、要件を満たすのに役立つオプションの中に下位レベルがすでに存在するため、これを選択するとコストが増加するだけです。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-Hyperscale-frequently-asked-questions-faq?view=azuresql",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-001",
+      "tags": [
+        "linked-question",
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-004",
+      "sourceQuestionNumber": 4,
+      "promptHtml": "<p><strong>SQL1</strong> という名前のオンプレミス Microsoft SQL サーバー データベースがあり、これを Microsoft Azure に移行する予定です。</p><p><strong>SQL1</strong> には、次の条件を満たす Azure ベースのホスティング オプションを推奨する必要があります。要件:</p><ul><li><p>読み取り専用として構成された複数のセカンダリ レプリカの使用を許可します。</p></li><li><p>プライマリ データベースとそのセカンダリ レプリカ間の自動データ レプリケーションを提供します。</p></li><li><p>15 分以内の目標復旧時間 (RTO) でプライマリからセカンダリ レプリカへのフェイルオーバーをサポートします。</p></li></ul><p> <code>レプリケーション メカニズム</code> を推奨事項に含めるべきですか。</p>",
+      "promptText": "SQL1 という名前のオンプレミス Microsoft SQL サーバー データベースがあり、これを Microsoft Azure に移行する予定です。\nSQL1 には、次の条件を満たす Azure ベースのホスティング オプションを推奨する必要があります。要件:\n・読み取り専用として構成された複数のセカンダリ レプリカの使用を許可します。\n\n・プライマリ データベースとそのセカンダリ レプリカ間の自動データ レプリケーションを提供します。\n\n・15 分以内の目標復旧時間 (RTO) でプライマリからセカンダリ レプリカへのフェイルオーバーをサポートします。\n\n レプリケーション メカニズム を推奨事項に含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-004-c1",
+          "label": null,
+          "text": "アクティブ geo レプリケーション",
+          "html": "アクティブ geo レプリケーション"
+        },
+        {
+          "choiceId": "en5-q-004-c2",
+          "label": null,
+          "text": "自動フェールオーバー グループ",
+          "html": "自動フェールオーバー グループ"
+        },
+        {
+          "choiceId": "en5-q-004-c3",
+          "label": null,
+          "text": "標準 geo レプリケーション",
+          "html": "標準 geo レプリケーション"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-004-c1"
+      ],
+      "explanationHtml": "<p>アクティブ Geo レプリケーション は、複数のレプリカ間の自動レプリケーションを処理できるため正解です。アクティブ geo レプリケーションの目標復旧時間 (RTO) は 30 秒未満で、15 分の RTO の要件を満たしています。</p><p>自動フェイルオーバー グループ は誤りです。自動フェイルオーバー グループは複数のレプリカをサポートしていないためです。</p><p>標準 geo レプリケーション は誤りです。これは、単に 1 つのレプリカのみをサポートするため、このシナリオには適していません。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview?view=azuresql&amp;tabs=tsql\">https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview?view=azuresql&amp;tabs=tsql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-configure-portal?view=azuresql&amp;tabs=portal\">https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-configure-portal?view=azuresql&amp;tabs=portal</a></p></li><li><p><a href=\"https://youtu.be/oJCwbllnrwY。t=23\">https://youtu.be/oJCwbllnrwY。t=23</a></p></li></ul>",
+      "explanationText": "アクティブ Geo レプリケーション は、複数のレプリカ間の自動レプリケーションを処理できるため正解です。アクティブ geo レプリケーションの目標復旧時間 (RTO) は 30 秒未満で、15 分の RTO の要件を満たしています。\n自動フェイルオーバー グループ は誤りです。自動フェイルオーバー グループは複数のレプリカをサポートしていないためです。\n標準 geo レプリケーション は誤りです。これは、単に 1 つのレプリカのみをサポートするため、このシナリオには適していません。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview?view=azuresql&tabs=tsql\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-configure-portal?view=azuresql&tabs=portal\n\n・https://youtu.be/oJCwbllnrwY。t=23",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-005",
+      "sourceQuestionNumber": 5,
+      "promptHtml": "<p>あなたは、ペタバイト規模の構造化、半構造化、および非構造化テキストベースのデータを取り込み、保存し、処理するストレージおよび分析ソリューションを設計しています。処理された結果は、長期保存のために後で <strong>Azure Data Lake Storage Gen2</strong> にアーカイブされます。</p><p>次の要件を満たすストレージおよび分析ソリューションを推奨する必要があります。</p><ul><li><p>処理されたデータを保存します。</p></li><li><p>対話型の分析クエリを有効にします。</p></li><li><p>手動スケーリングをサポートします。 </p></li></ul><p>「<code>ストレージと対話型分析</code>」の推奨事項には何を含める必要がありますか。</p>",
+      "promptText": "あなたは、ペタバイト規模の構造化、半構造化、および非構造化テキストベースのデータを取り込み、保存し、処理するストレージおよび分析ソリューションを設計しています。処理された結果は、長期保存のために後で Azure Data Lake Storage Gen2 にアーカイブされます。\n次の要件を満たすストレージおよび分析ソリューションを推奨する必要があります。\n・処理されたデータを保存します。\n\n・対話型の分析クエリを有効にします。\n\n・手動スケーリングをサポートします。\n\n「ストレージと対話型分析」の推奨事項には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-005-c1",
+          "label": null,
+          "text": "Azure Data Explorer",
+          "html": "Azure Data Explorer"
+        },
+        {
+          "choiceId": "en5-q-005-c2",
+          "label": null,
+          "text": "Azure Data Lake Analytics",
+          "html": "Azure Data Lake Analytics"
+        },
+        {
+          "choiceId": "en5-q-005-c3",
+          "label": null,
+          "text": "Log Analytics",
+          "html": "Log Analytics"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-005-c1"
+      ],
+      "explanationHtml": "<p>Azure Data Explorer は、大量のデータを迅速かつ対話的に分析するために最適化された強力な分析サービスであるため、正解です。構造化データおよび半構造化データの保存とクエリをサポートします。</p><p>Azure Data Lake Analytics は主に U-SQL を介したビッグ データの分散処理に使用されるため、不正確です。これは、私たちが探している対話型分析ではなく ETL (抽出、変換、読み込み) タスクに適しています。</p><p>Log Analytics は誤りです。Log Analytics は、ログやテレメトリ データなど、機械によって生成されたデータを分析するために設計されています。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-GB/azure/data-explorer/data-explorer-overview\">https://learn.microsoft.com/en-GB/azure/data-explorer/data-explorer-overview</a></p></li><li><p><a href=\"https://azure.microsoft.com/en-us/products/data-lake-analytics\">https://azure.microsoft.com/en-us/products/data-lake-analytics</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview</a></p></li></ul>",
+      "explanationText": "Azure Data Explorer は、大量のデータを迅速かつ対話的に分析するために最適化された強力な分析サービスであるため、正解です。構造化データおよび半構造化データの保存とクエリをサポートします。\nAzure Data Lake Analytics は主に U-SQL を介したビッグ データの分散処理に使用されるため、不正確です。これは、私たちが探している対話型分析ではなく ETL (抽出、変換、読み込み) タスクに適しています。\nLog Analytics は誤りです。Log Analytics は、ログやテレメトリ データなど、機械によって生成されたデータを分析するために設計されています。\n参考:\n・https://learn.microsoft.com/en-GB/azure/data-explorer/data-explorer-overview\n\n・https://azure.microsoft.com/en-us/products/data-lake-analytics\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-006",
+      "sourceQuestionNumber": 6,
+      "promptHtml": "<p>あなたは、ペタバイト規模の構造化、半構造化、および非構造化テキストベースのデータを取り込み、保存し、処理するストレージおよび分析ソリューションを設計しています。処理された結果は、長期保存のために後で <strong>Azure Data Lake Storage Gen2</strong> にアーカイブされます。</p><p>次の要件を満たすストレージおよび分析ソリューションを推奨する必要があります。</p><ul><li><p>処理されたデータを保存します。</p></li><li><p>対話型の分析クエリを有効にします。</p></li><li><p>手動スケーリングをサポートします。組み込みの自動スケーリング機能とカスタム自動スケーリング機能。</p></li></ul><p>「<code>クエリ言語</code>」の推奨事項には何を含める必要がありますか。</p>",
+      "promptText": "あなたは、ペタバイト規模の構造化、半構造化、および非構造化テキストベースのデータを取り込み、保存し、処理するストレージおよび分析ソリューションを設計しています。処理された結果は、長期保存のために後で Azure Data Lake Storage Gen2 にアーカイブされます。\n次の要件を満たすストレージおよび分析ソリューションを推奨する必要があります。\n・処理されたデータを保存します。\n\n・対話型の分析クエリを有効にします。\n\n・手動スケーリングをサポートします。組み込みの自動スケーリング機能とカスタム自動スケーリング機能。\n\n「クエリ言語」の推奨事項には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-006-c1",
+          "label": null,
+          "text": "KQL",
+          "html": "KQL"
+        },
+        {
+          "choiceId": "en5-q-006-c2",
+          "label": null,
+          "text": "Transact-SQL",
+          "html": "Transact-SQL"
+        },
+        {
+          "choiceId": "en5-q-006-c3",
+          "label": null,
+          "text": "U-SQL",
+          "html": "U-SQL"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-006-c1"
+      ],
+      "explanationHtml": "<p>KQL は、Azure Data Explorer でサポートされており、保存されたデータをクエリする唯一の方法であるため正しいです。</p><p>Transact-SQL と U-SQL は、これらのクエリ言語が Azure Data Explorer でサポートされていないため、間違ったオプションです。 U-SQL は Azure DataLake Analytics で使用されます。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query\">https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/sql/t-sql/language-reference?view=sql-server-ver16\">https://learn.microsoft.com/en-us/sql/t-sql/language-reference?view=sql-server-ver16</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-lake-analytics/data-lake-analytics-u-sql-get-started\">https://learn.microsoft.com/en-us/azure/data-lake-analytics/data-lake-analytics-u-sql-get-started</a></p></li></ul>",
+      "explanationText": "KQL は、Azure Data Explorer でサポートされており、保存されたデータをクエリする唯一の方法であるため正しいです。\nTransact-SQL と U-SQL は、これらのクエリ言語が Azure Data Explorer でサポートされていないため、間違ったオプションです。 U-SQL は Azure DataLake Analytics で使用されます。\n参考:\n・https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query\n\n・https://learn.microsoft.com/en-us/sql/t-sql/language-reference?view=sql-server-ver16\n\n・https://learn.microsoft.com/en-us/azure/data-lake-analytics/data-lake-analytics-u-sql-get-started",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-007",
+      "sourceQuestionNumber": 7,
+      "promptHtml": "<p>あなたは、頻繁にアクセスされる大量のデータを保存するアプリケーション用のストレージ ソリューションを設計しています。</p><p>ストレージ プラットフォームは、次の要件を満たす必要があります。</p><ul><li><p>可能な限り最高のデータ スループットを提供する。</p></li><li><p>保存されたデータは 1 年間変更できないようにしてください。</p></li><li><p>必要な情報を提供します。低遅延の読み取りおよび書き込みアクセス。</p></li></ul><p>どの <code>Azure Storage アカウント タイプ</code> をお勧めしますか。</p>",
+      "promptText": "あなたは、頻繁にアクセスされる大量のデータを保存するアプリケーション用のストレージ ソリューションを設計しています。\nストレージ プラットフォームは、次の要件を満たす必要があります。\n・可能な限り最高のデータ スループットを提供する。\n\n・保存されたデータは 1 年間変更できないようにしてください。\n\n・必要な情報を提供します。低遅延の読み取りおよび書き込みアクセス。\n\nどの Azure Storage アカウント タイプ をお勧めしますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-007-c1",
+          "label": null,
+          "text": "BlobStorage",
+          "html": "BlobStorage"
+        },
+        {
+          "choiceId": "en5-q-007-c2",
+          "label": null,
+          "text": "BlockBlobStorage",
+          "html": "BlockBlobStorage"
+        },
+        {
+          "choiceId": "en5-q-007-c3",
+          "label": null,
+          "text": "FileStorage",
+          "html": "FileStorage"
+        },
+        {
+          "choiceId": "en5-q-007-c4",
+          "label": null,
+          "text": "StorageV2 プレミアム パフォーマンス",
+          "html": "StorageV2 プレミアム パフォーマンス"
+        },
+        {
+          "choiceId": "en5-q-007-c5",
+          "label": null,
+          "text": "StorageV2 スタンダード パフォーマンス",
+          "html": "StorageV2 スタンダード パフォーマンス"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-007-c2"
+      ],
+      "explanationHtml": "<p>BlockBlobStorageこれはブロック BLOB と追加 BLOB 用の Premium Storage アカウント タイプであるため正解です。トランザクション レートが高いシナリオ、または小さなオブジェクトを使用するシナリオ、または一貫して低いストレージ遅延を必要とするシナリオに推奨します。</p><p>BlobStorage と FileStorage は、最大のデータ スループットが必要なため不正解です。これらの階層よりも優れたスループットを提供する他の利用可能なオプションがあるため、それらは選択しません。</p><p>StorageV2 スタンダード パフォーマンス と StorageV2 プレミアム パフォーマンスは、技術的には正しくないため、間違ったオプションです。Azure で使用できる正しい種類のストレージ アカウント。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-gb/azure/storage/files/storage-files-introduction\">https://learn.microsoft.com/en-gb/azure/storage/files/storage-files-introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview</a></p></li></ul>",
+      "explanationText": "BlockBlobStorageこれはブロック BLOB と追加 BLOB 用の Premium Storage アカウント タイプであるため正解です。トランザクション レートが高いシナリオ、または小さなオブジェクトを使用するシナリオ、または一貫して低いストレージ遅延を必要とするシナリオに推奨します。\nBlobStorage と FileStorage は、最大のデータ スループットが必要なため不正解です。これらの階層よりも優れたスループットを提供する他の利用可能なオプションがあるため、それらは選択しません。\nStorageV2 スタンダード パフォーマンス と StorageV2 プレミアム パフォーマンスは、技術的には正しくないため、間違ったオプションです。Azure で使用できる正しい種類のストレージ アカウント。\n参考:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview\n\n・https://learn.microsoft.com/en-gb/azure/storage/files/storage-files-introduction\n\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-008",
+      "sourceQuestionNumber": 8,
+      "promptHtml": "<p>あなたは、頻繁にアクセスされる大量のデータを保存するアプリケーション用のストレージ ソリューションを設計しています。</p><p>ストレージ プラットフォームは、次の要件を満たす必要があります。</p><ul><li><p>可能な限り最高のデータ スループットを提供する。</p></li><li><p>保存されたデータは 1 年間変更できないようにしてください。</p></li><li><p>必要な情報を提供します。低遅延の読み取りおよび書き込みアクセス。</p></li></ul><p>どの<code>ストレージ サービス</code>をお勧めしますか。</p>",
+      "promptText": "あなたは、頻繁にアクセスされる大量のデータを保存するアプリケーション用のストレージ ソリューションを設計しています。\nストレージ プラットフォームは、次の要件を満たす必要があります。\n・可能な限り最高のデータ スループットを提供する。\n\n・保存されたデータは 1 年間変更できないようにしてください。\n\n・必要な情報を提供します。低遅延の読み取りおよび書き込みアクセス。\n\nどのストレージ サービスをお勧めしますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-008-c1",
+          "label": null,
+          "text": "ブロブ",
+          "html": "ブロブ"
+        },
+        {
+          "choiceId": "en5-q-008-c2",
+          "label": null,
+          "text": "ファイル",
+          "html": "ファイル"
+        },
+        {
+          "choiceId": "en5-q-008-c3",
+          "label": null,
+          "text": "テーブル",
+          "html": "テーブル"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-008-c1"
+      ],
+      "explanationHtml": "<p>Blob は正解です。最大のスループットと最小の遅延でデータを読み書きできるようにアプリケーションをサポートする必要があるからです。</p><p>ファイル は誤りです。これは、ストレージ アカウントのファイル共有サービスでは不変機能がサポートされていないためです。</p><p>テーブル は、アプリケーションが使用するデータがテーブルで使用できる構造になっているかどうかわからないため、不正確です。また、Azure ストレージ アカウントのテーブル サービスに不変ポリシーを適用することもできません。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-gb/azure/storage/files/storage-files-introduction\">https://learn.microsoft.com/en-gb/azure/storage/files/storage-files-introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview\">https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview</a></p></li></ul>",
+      "explanationText": "Blob は正解です。最大のスループットと最小の遅延でデータを読み書きできるようにアプリケーションをサポートする必要があるからです。\nファイル は誤りです。これは、ストレージ アカウントのファイル共有サービスでは不変機能がサポートされていないためです。\nテーブル は、アプリケーションが使用するデータがテーブルで使用できる構造になっているかどうかわからないため、不正確です。また、Azure ストレージ アカウントのテーブル サービスに不変ポリシーを適用することもできません。\n参考:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview\n\n・https://learn.microsoft.com/en-gb/azure/storage/files/storage-files-introduction\n\n・https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-009",
+      "sourceQuestionNumber": 9,
+      "promptHtml": "<p>Windows Server 2022 を実行する 100 台の仮想マシンを含む Azure サブスクリプションがあります。Azure Monitor エージェントはすべての仮想マシンにインストールされています。</p><p>次の要件を満たすソリューションを推奨する必要があります。</p><ul><li><p>JSON 形式のログ データを仮想マシンから Log Analytics ワークスペースに転送します。</p></li><li><p>受信ログを収集し、処理されたデータを Log Analytics ワークスペース内のテーブルに保存します。</p></li></ul><p>推奨事項「<code>ログを転送する</code>」には何を含める必要がありますか。</p>",
+      "promptText": "Windows Server 2022 を実行する 100 台の仮想マシンを含む Azure サブスクリプションがあります。Azure Monitor エージェントはすべての仮想マシンにインストールされています。\n次の要件を満たすソリューションを推奨する必要があります。\n・JSON 形式のログ データを仮想マシンから Log Analytics ワークスペースに転送します。\n\n・受信ログを収集し、処理されたデータを Log Analytics ワークスペース内のテーブルに保存します。\n\n推奨事項「ログを転送する」には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-009-c1",
+          "label": null,
+          "text": "Log Analytics ワークスペースのリンクされたストレージ アカウント",
+          "html": "Log Analytics ワークスペースのリンクされたストレージ アカウント"
+        },
+        {
+          "choiceId": "en5-q-009-c2",
+          "label": null,
+          "text": "Azure Monitor データ収集エンドポイント",
+          "html": "Azure Monitor データ収集エンドポイント"
+        },
+        {
+          "choiceId": "en5-q-009-c3",
+          "label": null,
+          "text": "サービス エンドポイント",
+          "html": "サービス エンドポイント"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-009-c2"
+      ],
+      "explanationHtml": "<p>Azure Monitor データ収集エンドポイントは、ログの送信先のエンドポイントのセットアップに役立つため正解です。これらのログについては、収集するカウンターの形式とタイプを構成できます。</p><p>ログ分析ワークスペースのリンクされたストレージ アカウントは、ストレージ アカウントが仮想マシン内からのログの転送に役立つことができないため、不正確です。すでにログを Log Analytics ワークスペースに保存しているため、単純にストレージ サービスとして機能する可能性がありますが、これは過剰です。</p><p>サービス エンドポイント は誤りです。このサービスは、Azure サービスへのアクセスを制限するために使用され、仮想ネットワークからのトラフィックのみを許可するためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/agents/data-collection-text-log?tabs=portal\">https://learn.microsoft.com/en-us/azure/azure-monitor/agents/data-collection-text-log?tabs=portal</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview?tabs=portal\">https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview?tabs=portal</a></p></li></ul>",
+      "explanationText": "Azure Monitor データ収集エンドポイントは、ログの送信先のエンドポイントのセットアップに役立つため正解です。これらのログについては、収集するカウンターの形式とタイプを構成できます。\nログ分析ワークスペースのリンクされたストレージ アカウントは、ストレージ アカウントが仮想マシン内からのログの転送に役立つことができないため、不正確です。すでにログを Log Analytics ワークスペースに保存しているため、単純にストレージ サービスとして機能する可能性がありますが、これは過剰です。\nサービス エンドポイント は誤りです。このサービスは、Azure サービスへのアクセスを制限するために使用され、仮想ネットワークからのトラフィックのみを許可するためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-monitor/agents/data-collection-text-log?tabs=portal\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview?tabs=portal",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-010",
+      "sourceQuestionNumber": 10,
+      "promptHtml": "<p>Windows Server 2022 を実行する 100 台の仮想マシンを含む Azure サブスクリプションがあります。Azure Monitor エージェントはすべての仮想マシンにインストールされています。</p><p>次の要件を満たすソリューションを推奨する必要があります。</p><ul><li><p>JSON 形式のログ データを仮想マシンから Log Analytics ワークスペースに転送します。</p></li><li></li></ul><p>推奨事項「<code>ログを変換してデータを保存する</code>」には何を含める必要がありますか。</p>",
+      "promptText": "Windows Server 2022 を実行する 100 台の仮想マシンを含む Azure サブスクリプションがあります。Azure Monitor エージェントはすべての仮想マシンにインストールされています。\n次の要件を満たすソリューションを推奨する必要があります。\n・JSON 形式のログ データを仮想マシンから Log Analytics ワークスペースに転送します。\n\n・\n\n推奨事項「ログを変換してデータを保存する」には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-010-c1",
+          "label": null,
+          "text": "KQL クエリ",
+          "html": "KQL クエリ"
+        },
+        {
+          "choiceId": "en5-q-010-c2",
+          "label": null,
+          "text": "WQL クエリ",
+          "html": "WQL クエリ"
+        },
+        {
+          "choiceId": "en5-q-010-c3",
+          "label": null,
+          "text": "XPath クエリ",
+          "html": "XPath クエリ"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-010-c1"
+      ],
+      "explanationHtml": "<p>KQL クエリは正解です。ログ分析ワークスペースに保存されているログをクエリ、変換、操作するには、データを探索してパターンを発見し、異常を特定するための強力なツールである KQL クエリを作成する必要があるからです。</p><p>WQL クエリ は誤りです。WQL は Windows Management Instrumentation (WMI) クエリ言語であり、WMI から情報を取得するために使用される言語です。</p><p>XPath クエリは、XPath クエリが XML 形式のデータに対して使用されているため、正しくありません。ただし、ここではログは JSON 形式でログ分析テーブルに保存されています。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_wql?view=powershell-5.1\">https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_wql?view=powershell-5.1</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/\">https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/sql/relational-databases/sqlxml-annotated-xsd-schemas-xpath-queries/introduction-to-using-xpath-queries-sqlxml-4-0?view=sql-server-ver16\">https://learn.microsoft.com/en-us/sql/relational-databases/sqlxml-annotated-xsd-schemas-xpath-queries/introduction-to-using-xpath-queries-sqlxml-4-0?view=sql-server-ver16</a></p></li></ul>",
+      "explanationText": "KQL クエリは正解です。ログ分析ワークスペースに保存されているログをクエリ、変換、操作するには、データを探索してパターンを発見し、異常を特定するための強力なツールである KQL クエリを作成する必要があるからです。\nWQL クエリ は誤りです。WQL は Windows Management Instrumentation (WMI) クエリ言語であり、WMI から情報を取得するために使用される言語です。\nXPath クエリは、XPath クエリが XML 形式のデータに対して使用されているため、正しくありません。ただし、ここではログは JSON 形式でログ分析テーブルに保存されています。\n参考:\n・https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_wql?view=powershell-5.1\n\n・https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/\n\n・https://learn.microsoft.com/en-us/sql/relational-databases/sqlxml-annotated-xsd-schemas-xpath-queries/introduction-to-using-xpath-queries-sqlxml-4-0?view=sql-server-ver16",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-001",
+      "tags": [
+        "case-study"
+      ]
+    }
+  ]
+}

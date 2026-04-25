@@ -1,0 +1,445 @@
+{
+  "setId": "en1-set-005",
+  "title": "英語問題集1 翻訳版 41-50",
+  "sourceHtml": "assets/英語問題集1.html",
+  "questionIds": [
+    "en1-q-041",
+    "en1-q-042",
+    "en1-q-043",
+    "en1-q-044",
+    "en1-q-045",
+    "en1-q-046",
+    "en1-q-047",
+    "en1-q-048",
+    "en1-q-049",
+    "en1-q-050"
+  ],
+  "questions": [
+    {
+      "questionId": "en1-q-041",
+      "sourceQuestionNumber": 41,
+      "promptHtml": "<p><strong>以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><strong><em>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing</em></strong></p><p><br></p><p>BlueRock, Inc. のクラウド最新化イニシアチブの一環として、App1 はオンプレミス環境から Azure に正常に移行されました。</p><p>ベースケーススタディで概説されている BlueRock の<strong>セキュリティ、ガバナンス、およびコンプライアンスの要件</strong>を考慮すると、App1 のストレージ レイヤーに対する<strong>データ変更操作</strong>が厳密に制御され、移行後に一元的に適用されることを確認する必要があります。</p><p>これらのデータ変更制御要件を満たすにはどのアクションを実行する必要がありますか。</p>",
+      "promptText": "以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing\n\nBlueRock, Inc. のクラウド最新化イニシアチブの一環として、App1 はオンプレミス環境から Azure に正常に移行されました。\nベースケーススタディで概説されている BlueRock のセキュリティ、ガバナンス、およびコンプライアンスの要件を考慮すると、App1 のストレージ レイヤーに対するデータ変更操作が厳密に制御され、移行後に一元的に適用されることを確認する必要があります。\nこれらのデータ変更制御要件を満たすにはどのアクションを実行する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-041-c1",
+          "label": null,
+          "text": "Azure を作成するRBAC の割り当て。",
+          "html": "<p>Azure を作成するRBAC の割り当て。</p>"
+        },
+        {
+          "choiceId": "en1-q-041-c2",
+          "label": null,
+          "text": "BLOB サービスのアクセス レベルを変更します。",
+          "html": "<p>BLOB サービスのアクセス レベルを変更します。</p>"
+        },
+        {
+          "choiceId": "en1-q-041-c3",
+          "label": null,
+          "text": "Azure リソース ロックを実装します。",
+          "html": "<p>Azure リソース ロックを実装します。</p>"
+        },
+        {
+          "choiceId": "en1-q-041-c4",
+          "label": null,
+          "text": "BLOB のアクセス ポリシーを作成します。",
+          "html": "<p>BLOB のアクセス ポリシーを作成します。 </p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-041-c4"
+      ],
+      "explanationHtml": "<p>BLOB サービスのアクセス ポリシーを作成する は正解です。保存されたアクセス ポリシーは BLOB ストレージに関連付けることができ、これにより、指定された期間データが変更または削除されないようにする保持期間を定義できます。</p><p>Azure RBAC の割り当ての作成は、RBAC が操作を実行するためのアクセス権を持つユーザーを制御するが、保持や不変性は強制しないため、不正確です。さらに、ストレージ アカウントのパブリック エンドポイントへのアクセスのブロックには役立ちません。</p><p>BLOB サービスのアクセス レベルを変更する は誤りです。BLOB コンテナーのアクセス レベルをプライベートまたはパブリック コントロールの可視性に変更することは、データの変更ではないためです。</p><p>Azure リソース ロックの実装 は誤りです。リソース ロックにより、ストレージ アカウント自体の削除や変更などのリソース構成の変更が妨げられるためです。</p><p>参照リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/access-policy-manage\">https://learn.microsoft.com/en-us/azure/storage/blobs/access-policy-manage</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/role-based-access-control/overview\">https://learn.microsoft.com/en-us/azure/role-based-access-control/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources\">https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources</a></p></li></ul>",
+      "explanationText": "BLOB サービスのアクセス ポリシーを作成する は正解です。保存されたアクセス ポリシーは BLOB ストレージに関連付けることができ、これにより、指定された期間データが変更または削除されないようにする保持期間を定義できます。\nAzure RBAC の割り当ての作成は、RBAC が操作を実行するためのアクセス権を持つユーザーを制御するが、保持や不変性は強制しないため、不正確です。さらに、ストレージ アカウントのパブリック エンドポイントへのアクセスのブロックには役立ちません。\nBLOB サービスのアクセス レベルを変更する は誤りです。BLOB コンテナーのアクセス レベルをプライベートまたはパブリック コントロールの可視性に変更することは、データの変更ではないためです。\nAzure リソース ロックの実装 は誤りです。リソース ロックにより、ストレージ アカウント自体の削除や変更などのリソース構成の変更が妨げられるためです。\n参照リンク:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/access-policy-manage\n\n・https://learn.microsoft.com/en-us/azure/role-based-access-control/overview\n\n・https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-042",
+      "sourceQuestionNumber": 42,
+      "promptHtml": "<p><strong>以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><strong><em>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing</em></strong></p><p><br></p><p><strong>BlueRock, Inc. の移行戦略</strong>の一環として、同社は<strong>App1</strong> をオンプレミス環境から<strong>アズール</strong>です。 App1 は、移行後にアプリケーション データを<strong>Azure ストレージ アカウント</strong>に保存します。</p><p>ケース スタディで定義された<strong>BlueRock のセキュリティおよび規制遵守要件</strong>に合わせて、データ アクセスが制限され、パブリック インターネットを通過しないようにするストレージ アカウントの<strong>ネットワーク接続ソリューション</strong>を推奨する必要があります。</p><p>推奨事項。</p>",
+      "promptText": "以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing\n\nBlueRock, Inc. の移行戦略の一環として、同社はApp1 をオンプレミス環境からアズールです。 App1 は、移行後にアプリケーション データをAzure ストレージ アカウントに保存します。\nケース スタディで定義されたBlueRock のセキュリティおよび規制遵守要件に合わせて、データ アクセスが制限され、パブリック インターネットを通過しないようにするストレージ アカウントのネットワーク接続ソリューションを推奨する必要があります。\n推奨事項。",
+      "choices": [
+        {
+          "choiceId": "en1-q-042-c1",
+          "label": null,
+          "text": "関連するサービス エンドポイント ポリシーを使用して Azure サービス エンドポイントを構成します。",
+          "html": "<p>関連するサービス エンドポイント ポリシーを使用して Azure サービス エンドポイントを構成します。</p>"
+        },
+        {
+          "choiceId": "en1-q-042-c2",
+          "label": null,
+          "text": "ExpressRoute 回線で Azure パブリック ピアリングを使用します。",
+          "html": "<p>ExpressRoute 回線で Azure パブリック ピアリングを使用します。</p>"
+        },
+        {
+          "choiceId": "en1-q-042-c3",
+          "label": null,
+          "text": "Azure Storage のプライベート エンドポイント接続を実装します。",
+          "html": "<p>Azure Storage のプライベート エンドポイント接続を実装します。 </p>"
+        },
+        {
+          "choiceId": "en1-q-042-c4",
+          "label": null,
+          "text": "ExpressRoute 回線で Microsoft ピアリングを使用します。",
+          "html": "<p>ExpressRoute 回線で Microsoft ピアリングを使用します。</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-042-c3"
+      ],
+      "explanationHtml": "<p>Azure Storage アカウントのプライベート エンドポイント接続を実装する は、仮想環境内のプライベート IP アドレスを介して Azure Storage アカウントへのプライベートで安全な接続を有効にするため、正解です。ネットワーク。</p><p>関連するサービス エンドポイント ポリシーを使用して Azure サービス エンドポイントを構成する は誤りです。これは、サービス エンドポイントではトラフィックが Azure バックボーン ネットワーク内に留まることが許可されていますが、ストレージ アカウントはパブリック 経由でアクセス可能なままであるためです。</p><p>ExpressRoute 回線で Azure パブリック ピアリングを使用する は誤りです。パブリック ピアリングは廃止されており、利用可能だったときでもパブリック IP 経由でサービスを公開しており、パブリック エンドポイント アクセスをブロックする要件を満たしていません。</p><p>Microsoft ピアリングを使用するExpressRoute 回線 は誤りです。Microsoft ピアリングでは、ExpressRoute 回線を介した Azure サービスへのアクセスが許可されていますが、依然としてパブリック IP アドレスを介してサービスが公開されており、これもパブリック エンドポイントへのアクセスを制限する要件を満たしていません。</p><p>参考リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview\">https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/expressroute/expressroute-connectivity-models\">https://learn.microsoft.com/en-us/azure/expressroute/expressroute-connectivity-models</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview\">https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-security-overview\">https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-security-overview</a></p></li></ul>",
+      "explanationText": "Azure Storage アカウントのプライベート エンドポイント接続を実装する は、仮想環境内のプライベート IP アドレスを介して Azure Storage アカウントへのプライベートで安全な接続を有効にするため、正解です。ネットワーク。\n関連するサービス エンドポイント ポリシーを使用して Azure サービス エンドポイントを構成する は誤りです。これは、サービス エンドポイントではトラフィックが Azure バックボーン ネットワーク内に留まることが許可されていますが、ストレージ アカウントはパブリック 経由でアクセス可能なままであるためです。\nExpressRoute 回線で Azure パブリック ピアリングを使用する は誤りです。パブリック ピアリングは廃止されており、利用可能だったときでもパブリック IP 経由でサービスを公開しており、パブリック エンドポイント アクセスをブロックする要件を満たしていません。\nMicrosoft ピアリングを使用するExpressRoute 回線 は誤りです。Microsoft ピアリングでは、ExpressRoute 回線を介した Azure サービスへのアクセスが許可されていますが、依然としてパブリック IP アドレスを介してサービスが公開されており、これもパブリック エンドポイントへのアクセスを制限する要件を満たしていません。\n参考リンク:\n・https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview\n\n・https://learn.microsoft.com/en-us/azure/expressroute/expressroute-connectivity-models\n\n・https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview\n\n・https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-security-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-043",
+      "sourceQuestionNumber": 43,
+      "promptHtml": "<p><strong>以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><strong><em>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing</em></strong></p><p><br></p><p><strong>BlueRock, Inc. のケーススタディ</strong>に基づいて、組織が使用する Azure 環境全体でアクセス制御を構成する責任があります。</p><p>BlueRock では<strong>ネットワークが必要です。共同作成者</strong>の Azure RBAC ロールは、 会社の<strong>認証および承認要件</strong>を満たすと同時に、Azure リソース全体で<strong>最小特権</strong>の原則を遵守する方法で割り当てられる必要があります。</p><p>これらの要件を満たすために最も効率的な割り当て戦略を決定する必要があります。</p><p>Azure の<strong>最小数はどれくらいですか。これを達成するために作成する必要がある RBAC ロール割り当て</strong>はどれですか。</p>",
+      "promptText": "以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing\n\nBlueRock, Inc. のケーススタディに基づいて、組織が使用する Azure 環境全体でアクセス制御を構成する責任があります。\nBlueRock ではネットワークが必要です。共同作成者の Azure RBAC ロールは、 会社の認証および承認要件を満たすと同時に、Azure リソース全体で最小特権の原則を遵守する方法で割り当てられる必要があります。\nこれらの要件を満たすために最も効率的な割り当て戦略を決定する必要があります。\nAzure の最小数はどれくらいですか。これを達成するために作成する必要がある RBAC ロール割り当てはどれですか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-043-c1",
+          "label": null,
+          "text": "1",
+          "html": "<p>1</p>"
+        },
+        {
+          "choiceId": "en1-q-043-c2",
+          "label": null,
+          "text": "2",
+          "html": "<p>2</p>"
+        },
+        {
+          "choiceId": "en1-q-043-c3",
+          "label": null,
+          "text": "5",
+          "html": "<p>5</p>"
+        },
+        {
+          "choiceId": "en1-q-043-c4",
+          "label": null,
+          "text": "10",
+          "html": "<p>10</p>"
+        },
+        {
+          "choiceId": "en1-q-043-c5",
+          "label": null,
+          "text": "15",
+          "html": "<p>15</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-043-c2"
+      ],
+      "explanationHtml": "<p>2 は正解です。ケーススタディでは、BlueRock には 2 つの Microsoft Entra があることが明確に記載されているためです。</p><ul><li><p>bluerock.com (10 サブスクリプション</p></li><li><p>dev.bluerock.com、5 サブスクリプション</p></li></ul><p>RBAC) の割り当て (管理グループ レベルのものも含む) は、単一の Microsoft Entra テナントにスコープされます。各テナントには独自の個別の管理グループ階層があるため、すべての仮想ネットワークにわたってネットワーク管理者にネットワーク共同作成者ロールを付与するという要件を満たすために、テナントごとに少なくとも 1 つの RBAC ロール割り当てを作成する必要があります。</p><p><img src=\"assets/英語問題集1_files/2025-03-21_14-17-13-19916dcac3e2bc9d7a479e6cf71b8b88.png\" alt=\"\"loading=\"eager\"></p><p>したがって、管理グループ レベルでのみ RBAC を適用しながら要件を満たすには、2 つのロール割り当て (それぞれに 1 つ) が必要です。テナントのルート管理グループ - は必須です。</p><p>参照リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/management-groups/overview\">https://learn.microsoft.com/en-us/azure/governance/management-groups/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments\">https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/role-based-access-control/overview\">https://learn.microsoft.com/en-us/azure/role-based-access-control/overview</a></p></li></ul>",
+      "explanationText": "2 は正解です。ケーススタディでは、BlueRock には 2 つの Microsoft Entra があることが明確に記載されているためです。\n・bluerock.com (10 サブスクリプション\n\n・dev.bluerock.com、5 サブスクリプション\n\nRBAC) の割り当て (管理グループ レベルのものも含む) は、単一の Microsoft Entra テナントにスコープされます。各テナントには独自の個別の管理グループ階層があるため、すべての仮想ネットワークにわたってネットワーク管理者にネットワーク共同作成者ロールを付与するという要件を満たすために、テナントごとに少なくとも 1 つの RBAC ロール割り当てを作成する必要があります。\n\nしたがって、管理グループ レベルでのみ RBAC を適用しながら要件を満たすには、2 つのロール割り当て (それぞれに 1 つ) が必要です。テナントのルート管理グループ - は必須です。\n参照リンク:\n・https://learn.microsoft.com/en-us/azure/governance/management-groups/overview\n\n・https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments\n\n・https://learn.microsoft.com/en-us/azure/role-based-access-control/overview",
+      "images": [
+        "assets/英語問題集1_files/2025-03-21_14-17-13-19916dcac3e2bc9d7a479e6cf71b8b88.png"
+      ],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-044",
+      "sourceQuestionNumber": 44,
+      "promptHtml": "<p><strong>以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><strong><em>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing</em></strong></p><p><br></p><p><strong>BlueRock Inc. の Azure ガバナンスおよびコンプライアンスの取り組み</strong>の一環として、組織内にデプロイされているすべての Azure SQL データベースが義務に準拠していることを確認する責任があります。 <strong>データ保護標準</strong>。</p><p>BlueRock のセキュリティおよびコンプライアンスの要件では、既存のデータベースと今後作成されるデータベースの両方を含む<strong>すべての Azure SQL データベース</strong>で<strong>透過的データ暗号化 (TDE)</strong>を有効にする必要があると指定しています。ソリューションでは、今後コンプライアンスを強制するだけでなく、<strong>非準拠リソースを自動的に修復</strong>する必要もあります。</p><p><strong>Azure Policy</strong> を使用して、BlueRock Azure 環境全体でこの要件を実装および強制することにしました。</p><p>TDE が規定に従って強制および修復されるようにするには、どの<strong> 3 つのアクション</strong> を実行する必要があり、 どの<strong>正しい順序</strong>で実行する必要があります。 BlueRock のセキュリティとコンプライアンスの要件は。<br></p><p><strong>アクション</strong></p><ol><li><p>Azure ポリシーの割り当てを作成します。</p></li><li><p>ユーザーに電子割り当てされたマネージド ID を作成します。</p></li><li><p>変更効果を使用する Azure ポリシー定義を作成します。</p></li><li><p>修復を呼び出します。タスク。</p></li><li><p>deployIfNotExists 効果を使用する Azure ポリシー定義を作成する</p></li></ol>",
+      "promptText": "以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing\n\nBlueRock Inc. の Azure ガバナンスおよびコンプライアンスの取り組みの一環として、組織内にデプロイされているすべての Azure SQL データベースが義務に準拠していることを確認する責任があります。 データ保護標準。\nBlueRock のセキュリティおよびコンプライアンスの要件では、既存のデータベースと今後作成されるデータベースの両方を含むすべての Azure SQL データベースで透過的データ暗号化 (TDE)を有効にする必要があると指定しています。ソリューションでは、今後コンプライアンスを強制するだけでなく、非準拠リソースを自動的に修復する必要もあります。\nAzure Policy を使用して、BlueRock Azure 環境全体でこの要件を実装および強制することにしました。\nTDE が規定に従って強制および修復されるようにするには、どの 3 つのアクション を実行する必要があり、 どの正しい順序で実行する必要があります。 BlueRock のセキュリティとコンプライアンスの要件は。\n\nアクション\n・Azure ポリシーの割り当てを作成します。\n\n・ユーザーに電子割り当てされたマネージド ID を作成します。\n\n・変更効果を使用する Azure ポリシー定義を作成します。\n\n・修復を呼び出します。タスク。\n\n・deployIfNotExists 効果を使用する Azure ポリシー定義を作成する",
+      "choices": [
+        {
+          "choiceId": "en1-q-044-c1",
+          "label": null,
+          "text": "1-4-2",
+          "html": "<p>1-4-2</p>"
+        },
+        {
+          "choiceId": "en1-q-044-c2",
+          "label": null,
+          "text": "4-3-1",
+          "html": "<p>4-3-1</p>"
+        },
+        {
+          "choiceId": "en1-q-044-c3",
+          "label": null,
+          "text": "5-1-4",
+          "html": "<p>5-1-4</p>"
+        },
+        {
+          "choiceId": "en1-q-044-c4",
+          "label": null,
+          "text": "3-1-5",
+          "html": "<p>3-1-5</p>"
+        },
+        {
+          "choiceId": "en1-q-044-c5",
+          "label": null,
+          "text": "1-4-5",
+          "html": "<p>1-4-5</p>"
+        },
+        {
+          "choiceId": "en1-q-044-c6",
+          "label": null,
+          "text": "2-3-1",
+          "html": "<p>2-3-1</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-044-c3"
+      ],
+      "explanationHtml": "<p>5-1-4 は、 一連のアクションの正しいです。</p><p>アクション 5:deployIfNotExists 効果を使用する Azure ポリシー定義を作成する は、ポリシーが透過的データを保証する必要があるため正しいです。暗号化 (TDE) は、すべての Azure SQL データベースで有効になっています。</p><p>アクション 1: Azure ポリシーの割り当てを作成する は正しいです。これは、ポリシーを定義した後、サブスクリプションやリソース グループなどのスコープに割り当てる必要があるためです。</p><p>アクション 4: 修復タスクを呼び出す は正解です。ポリシーに準拠していない既存の Azure SQL データベースは修復する必要があるためです。</p><p>アクション 2: ユーザー割り当てのマネージド ID を作成する は誤りです。これは、Azure portal を通じてポリシー割り当てを作成するときに、Azure がそのリソースに対してシステム割り当てのマネージド ID を自動的に作成するためです。</p><p>アクション 3: 変更エフェクトを使用する Azure ポリシー定義を作成する は誤りです。modify エフェクトは、TDE などの特定の機能を有効にするためではなく、プロパティやタグを更新するために使用されるためです。</p><p>参照リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effects#deployifnotexists\">https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effects#deployifnotexists</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/concepts/assignment-structure\">https://learn.microsoft.com/en-us/azure/governance/policy/concepts/assignment-structure</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources\">https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources</a></p></li></ul>",
+      "explanationText": "5-1-4 は、 一連のアクションの正しいです。\nアクション 5:deployIfNotExists 効果を使用する Azure ポリシー定義を作成する は、ポリシーが透過的データを保証する必要があるため正しいです。暗号化 (TDE) は、すべての Azure SQL データベースで有効になっています。\n正解はアクション 1: Azure ポリシーの割り当てを作成するです。これは、ポリシーを定義した後、サブスクリプションやリソース グループなどのスコープに割り当てる必要があるためです。\nアクション 4: 修復タスクを呼び出す は正解です。ポリシーに準拠していない既存の Azure SQL データベースは修復する必要があるためです。\nアクション 2: ユーザー割り当てのマネージド ID を作成する は誤りです。これは、Azure portal を通じてポリシー割り当てを作成するときに、Azure がそのリソースに対してシステム割り当てのマネージド ID を自動的に作成するためです。\nアクション 3: 変更エフェクトを使用する Azure ポリシー定義を作成する は誤りです。modify エフェクトは、TDE などの特定の機能を有効にするためではなく、プロパティやタグを更新するために使用されるためです。\n参照リンク:\n・https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effects#deployifnotexists\n\n・https://learn.microsoft.com/en-us/azure/governance/policy/concepts/assignment-structure\n\n・https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-045",
+      "sourceQuestionNumber": 45,
+      "promptHtml": "<p><strong>以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><strong><em>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing</em></strong></p><p><br></p><p><strong>BlueRock Inc. のクラウド最新化プログラム</strong>の一環として、2 つの重要なデータベース <strong>DB1</strong> と 2 つの重要なデータベースを移行する準備をしています。 <strong>DB2</strong>、オンプレミス環境から Azure へ。</p><p>BlueRock Inc. のケーススタディによると、これらのデータベースはビジネス クリティカルなワークロードをサポートし、Azure でホストされた後は組織の<strong>回復力、可用性、 ビジネス継続性の要件</strong>に準拠する必要があります。これには、稼働時間の期待を満たし、業務運営に影響を与えることなく障害に対処できる Azure データベース構成とサービス レベルの選択が含まれます。</p><p>移行中および移行後に BlueRock の復元力とビジネス要件に合わせるには、<code>Azure データベース</code><strong> </strong> にどのような構成を適用する必要がありますか。</p>",
+      "promptText": "以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing\n\nBlueRock Inc. のクラウド最新化プログラムの一環として、2 つの重要なデータベース DB1 と 2 つの重要なデータベースを移行する準備をしています。 DB2、オンプレミス環境から Azure へ。\nBlueRock Inc. のケーススタディによると、これらのデータベースはビジネス クリティカルなワークロードをサポートし、Azure でホストされた後は組織の回復力、可用性、 ビジネス継続性の要件に準拠する必要があります。これには、稼働時間の期待を満たし、業務運営に影響を与えることなく障害に対処できる Azure データベース構成とサービス レベルの選択が含まれます。\n移行中および移行後に BlueRock の復元力とビジネス要件に合わせるには、Azure データベース  にどのような構成を適用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-045-c1",
+          "label": null,
+          "text": "単一の Azure SQL データベース",
+          "html": "<p>単一の Azure SQL データベース</p>"
+        },
+        {
+          "choiceId": "en1-q-045-c2",
+          "label": null,
+          "text": "Azure SQL マネージド インスタンス",
+          "html": "<p>Azure SQL マネージド インスタンス</p>"
+        },
+        {
+          "choiceId": "en1-q-045-c3",
+          "label": null,
+          "text": "Azure SQL データベース エラスティック プール",
+          "html": "<p>Azure SQL データベース エラスティック プール</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-045-c2"
+      ],
+      "explanationHtml": "<p>Azure SQL マネージド インスタンス は正解です。これにより、既存の SQL サーバー機能との高い互換性を維持しながら、最小限の管理労力でオンプレミスの SQL サーバー データベースを Azure に移行できるようになります。</p><p>単一の Azure SQL データベースは、スタンドアロンまたはそれほど複雑でないデータベースに最適であり、すべてをサポートしていない可能性があるため、不正確です。SQL サーバーの機能。</p><p>Azure SQL データベース エラスティック プール は、設計されているため不正確です。さまざまな使用パターンを持つ複数のデータベースをコスト効率の高い方法で管理します。</p><p>参考リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla\">https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql</a></p></li></ul>",
+      "explanationText": "Azure SQL マネージド インスタンス は正解です。これにより、既存の SQL サーバー機能との高い互換性を維持しながら、最小限の管理労力でオンプレミスの SQL サーバー データベースを Azure に移行できるようになります。\n単一の Azure SQL データベースは、スタンドアロンまたはそれほど複雑でないデータベースに最適であり、すべてをサポートしていない可能性があるため、不正確です。SQL サーバーの機能。\nAzure SQL データベース エラスティック プール は、設計されているため不正確です。さまざまな使用パターンを持つ複数のデータベースをコスト効率の高い方法で管理します。\n参考リンク:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-002",
+      "tags": [
+        "case-study",
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-046",
+      "sourceQuestionNumber": 46,
+      "promptHtml": "<p><strong>以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><strong><em>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing</em></strong></p><p><br></p><p><strong>BlueRock Inc. のクラウド最新化プログラム</strong>の一環として、2 つの重要なデータベース <strong>DB1</strong> と 2 つの重要なデータベースを移行する準備をしています。 <strong>DB2</strong>、オンプレミス環境から Azure へ。</p><p>BlueRock Inc. のケーススタディによると、これらのデータベースはビジネス クリティカルなワークロードをサポートし、Azure でホストされた後は組織の<strong>回復力、可用性、 ビジネス継続性の要件</strong>に準拠する必要があります。これには、稼働時間の期待を満たし、ビジネス運営に影響を与えることなく障害に対処できる Azure データベース構成とサービス レベルの選択が含まれます。</p><p>移行中および移行後に BlueRock の復元力とビジネス要件に合わせるには、<code>サービス レベル</code><strong> </strong>レベルでどのような構成を適用する必要がありますか。</p>",
+      "promptText": "以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing\n\nBlueRock Inc. のクラウド最新化プログラムの一環として、2 つの重要なデータベース DB1 と 2 つの重要なデータベースを移行する準備をしています。 DB2、オンプレミス環境から Azure へ。\nBlueRock Inc. のケーススタディによると、これらのデータベースはビジネス クリティカルなワークロードをサポートし、Azure でホストされた後は組織の回復力、可用性、 ビジネス継続性の要件に準拠する必要があります。これには、稼働時間の期待を満たし、ビジネス運営に影響を与えることなく障害に対処できる Azure データベース構成とサービス レベルの選択が含まれます。\n移行中および移行後に BlueRock の復元力とビジネス要件に合わせるには、サービス レベル レベルでどのような構成を適用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-046-c1",
+          "label": null,
+          "text": "ハイパースケール",
+          "html": "<p>ハイパースケール</p>"
+        },
+        {
+          "choiceId": "en1-q-046-c2",
+          "label": null,
+          "text": "ビジネス クリティカル",
+          "html": "<p>ビジネス クリティカル</p>"
+        },
+        {
+          "choiceId": "en1-q-046-c3",
+          "label": null,
+          "text": "汎用",
+          "html": "<p>汎用</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-046-c2"
+      ],
+      "explanationHtml": "<p>ビジネス クリティカルは、これは、ケース スタディで指定されている 3 つの復元要件 ((1) 2 つの可用性ゾーンに障害が発生した場合でも可用性を維持する、(2) 自動的にフェイルオーバーする、(3) I/O 遅延を最小限に抑える) をすべて満たす唯一の層であるため、正解です。Business Critical 層は、高パフォーマンスのトランザクション ワークロード向けに構築されており、可用性ゾーン間の同期レプリケーションを通じてゾーン冗長構成を提供します。</p><p>汎用 は誤りです。これは、ゾーン冗長性を提供しますが、リモート ストレージに依存しているため、I/O レイテンシが高く、スループットが低下します。</p><p>ハイパースケールは、高可用性トランザクション システムではなく、非常に大規模なデータベースとスケールアウト読み取りシナリオ向けに設計されているため、不正解です。重要なのは、ハイパースケールは現在ゾーンの冗長性をサポートしていないため、2 つの可用性ゾーンに障害が発生した場合に可用性を維持するという要件を満たすことができないため、このシナリオには不適切な選択となります。</p><p>参考リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql#when-to-choose-this-service-tier-1\">https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql#when-to-choose-this-service-tier-1 </a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla\">https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla</a></p></li></ul>",
+      "explanationText": "ビジネス クリティカルは、これは、ケース スタディで指定されている 3 つの復元要件 ((1) 2 つの可用性ゾーンに障害が発生した場合でも可用性を維持する、(2) 自動的にフェイルオーバーする、(3) I/O 遅延を最小限に抑える) をすべて満たす唯一の層であるため、正解です。Business Critical 層は、高パフォーマンスのトランザクション ワークロード向けに構築されており、可用性ゾーン間の同期レプリケーションを通じてゾーン冗長構成を提供します。\n汎用 は誤りです。これは、ゾーン冗長性を提供しますが、リモート ストレージに依存しているため、I/O レイテンシが高く、スループットが低下します。\nハイパースケールは、高可用性トランザクション システムではなく、非常に大規模なデータベースとスケールアウト読み取りシナリオ向けに設計されているため、不正解です。重要なのは、ハイパースケールは現在ゾーンの冗長性をサポートしていないため、2 つの可用性ゾーンに障害が発生した場合に可用性を維持するという要件を満たすことができないため、このシナリオには不適切な選択となります。\n参考リンク:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql#when-to-choose-this-service-tier-1\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-002",
+      "tags": [
+        "case-study",
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-047",
+      "sourceQuestionNumber": 47,
+      "promptHtml": "<p><strong>以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><strong><em>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing</em></strong></p><p><br></p><p><strong>BlueRock Inc. の実稼働セキュリティ モデル</strong>の一部として、Azure 環境へのアクセスは厳格な認証および認可要件を満たすために厳密に制御されています。</p><p><strong>実稼働 Azure を管理する管理者リソース</strong>は<strong>Azure Multi-Factor Authentication (MFA)</strong>に明示的に登録する必要があり、<strong>Azure portal</strong>にサインインするたびにMFAを使用する必要があります。この要件は、特権アクセスに関する BlueRock のセキュリティおよびコンプライアンス標準によって決まります。</p><p>これらの運用管理者が Azure MFA に適切に登録され、MFA を使用した認証が強制されるようにするには、<strong>ユーザーを Azure MFA に登録するために何を使用する必要があります</strong>か。</p>",
+      "promptText": "以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing\n\nBlueRock Inc. の実稼働セキュリティ モデルの一部として、Azure 環境へのアクセスは厳格な認証および認可要件を満たすために厳密に制御されています。\n実稼働 Azure を管理する管理者リソースはAzure Multi-Factor Authentication (MFA)に明示的に登録する必要があり、Azure portalにサインインするたびにMFAを使用する必要があります。この要件は、特権アクセスに関する BlueRock のセキュリティおよびコンプライアンス標準によって決まります。\nこれらの運用管理者が Azure MFA に適切に登録され、MFA を使用した認証が強制されるようにするには、ユーザーを Azure MFA に登録するために何を使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-047-c1",
+          "label": null,
+          "text": "Microsoft Entra ID Protection",
+          "html": "<p>Microsoft Entra ID Protection</p>"
+        },
+        {
+          "choiceId": "en1-q-047-c2",
+          "label": null,
+          "text": "Microsoft Entra ID のセキュリティのデフォルト",
+          "html": "<p>Microsoft Entra ID のセキュリティのデフォルト</p>"
+        },
+        {
+          "choiceId": "en1-q-047-c3",
+          "label": null,
+          "text": "Microsoft Entra ID 認証方法ポリシー",
+          "html": "<p>Microsoft Entra ID 認証方法ポリシー</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-047-c1"
+      ],
+      "explanationHtml": "<p>Microsoft Entra ID Protection は、シナリオにユーザーが運用環境を管理することが含まれるため正しいです。このケース スタディでは、ハイブリッド Microsoft Entra ID 参加デバイスを必要とする条件付きアクセス ポリシー (Capolicy1) がすでに導入されていることが明示されています。</p><p>Microsoft Entra ID のセキュリティのデフォルトは、MFA をテナント全体に適用し、既存の条件付きアクセス ポリシーと競合するため、不正確です。このケース スタディでは、条件付きアクセスがすでに使用されているため、セキュリティの既定値を有効にすることは適切ではないことが示されています。</p><p>Microsoft Entra ID 認証方法ポリシーは、使用可能な MFA メソッドを制御するものであるため不正確ですが、MFA の登録や条件付きの使用は強制されません。条件付きアクセスを補完しますが、単独でポリシーを適用することはできません。</p><p>参考リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-mfa-policy\">https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-mfa-policy</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/conditional-access/howto-conditional-access-policy-all-users-mfa\">https://learn.microsoft.com/en-us/entra/identity/conditional-access/howto-conditional-access-policy-all-users-mfa</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-methods\">https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-methods</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/fundamentals/security-defaults\">https://learn.microsoft.com/en-us/entra/fundamentals/security-defaults</a></p></li></ul>",
+      "explanationText": "Microsoft Entra ID Protection は、シナリオにユーザーが運用環境を管理することが含まれるため正しいです。このケース スタディでは、ハイブリッド Microsoft Entra ID 参加デバイスを必要とする条件付きアクセス ポリシー (Capolicy1) がすでに導入されていることが明示されています。\nMicrosoft Entra ID のセキュリティのデフォルトは、MFA をテナント全体に適用し、既存の条件付きアクセス ポリシーと競合するため、不正確です。このケース スタディでは、条件付きアクセスがすでに使用されているため、セキュリティの既定値を有効にすることは適切ではないことが示されています。\nMicrosoft Entra ID 認証方法ポリシーは、使用可能な MFA メソッドを制御するものであるため不正確ですが、MFA の登録や条件付きの使用は強制されません。条件付きアクセスを補完しますが、単独でポリシーを適用することはできません。\n参考リンク:\n・https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-mfa-policy\n\n・https://learn.microsoft.com/en-us/entra/identity/conditional-access/howto-conditional-access-policy-all-users-mfa\n\n・https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-methods\n\n・https://learn.microsoft.com/en-us/entra/fundamentals/security-defaults",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-048",
+      "sourceQuestionNumber": 48,
+      "promptHtml": "<p><strong>以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><strong><em>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing</em></strong></p><p><br></p><p><strong>BlueRock Inc. の実稼働セキュリティ モデル</strong>の一部として、Azure 環境へのアクセスは厳格な認証および認可要件を満たすために厳密に制御されています。</p><p><strong>実稼働 Azure を管理する管理者リソース</strong>は<strong>Azure Multi-Factor Authentication (MFA)</strong>に明示的に登録する必要があり、<strong>Azure portal</strong>にサインインするたびにMFAを使用する必要があります。この要件は、特権アクセスに関する BlueRock のセキュリティおよびコンプライアンス標準によって決まります。</p><p>これらの運用管理者が Azure MFA に適切に登録され、MFA を使用した認証が強制されるようにするには、<strong>Azure MFA 認証を強制するために何を構成する必要があります</strong>か。</p>",
+      "promptText": "以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing\n\nBlueRock Inc. の実稼働セキュリティ モデルの一部として、Azure 環境へのアクセスは厳格な認証および認可要件を満たすために厳密に制御されています。\n実稼働 Azure を管理する管理者リソースはAzure Multi-Factor Authentication (MFA)に明示的に登録する必要があり、Azure portalにサインインするたびにMFAを使用する必要があります。この要件は、特権アクセスに関する BlueRock のセキュリティおよびコンプライアンス標準によって決まります。\nこれらの運用管理者が Azure MFA に適切に登録され、MFA を使用した認証が強制されるようにするには、Azure MFA 認証を強制するために何を構成する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-048-c1",
+          "label": null,
+          "text": "Capolicy1 での制御の許可",
+          "html": "<p>Capolicy1 での制御の許可</p>"
+        },
+        {
+          "choiceId": "en1-q-048-c2",
+          "label": null,
+          "text": "Capolicy1 のセッション制御",
+          "html": "<p>Capolicy1 のセッション制御</p>"
+        },
+        {
+          "choiceId": "en1-q-048-c3",
+          "label": null,
+          "text": "Bluerock.com テナントの Microsoft Entra ID Protection で確認するサインイン リスク ポリシー",
+          "html": "<p>Bluerock.com テナントの Microsoft Entra ID Protection で確認するサインイン リスク ポリシー</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-048-c1"
+      ],
+      "explanationHtml": "<p>許可制御Capolicy1 は正解です。条件付きアクセス ポリシーの許可制御セクション (Capolicy1 など) は、多要素認証の要求などのアクセス要件を定義するために使用されます。</p><p>Capolicy1 のセッション コントロールは不正確です。セッション コントロールは、アクセスが許可された後のユーザー セッション (サインイン頻度、永続的なブラウザ セッションなど) を管理するために使用され、アクセス中に初期 MFA 要件を強制するために使用されるものではないためです。</p><p>Bluerock.com テナントの Microsoft Entra ID Protection で表示されるサインイン リスク ポリシーは、サインイン リスク ポリシーがリスクベースであり、検出されたユーザー リスク レベルに応じて条件付きで適用されるため、正しくありません。ここでの要件は、リスクに基づいてではなく、本番環境の管理のために MFA を無条件に適用することです。</p><p>参考リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-policies\">https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-policies</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/conditional-access/howto-conditional-access-policy-all-users-mfa\">https://learn.microsoft.com/en-us/entra/identity/conditional-access/howto-conditional-access-policy-all-users-mfa</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-policies\">https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-policies</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-session\">https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-session</a></p></li></ul>",
+      "explanationText": "許可制御Capolicy1 は正解です。条件付きアクセス ポリシーの許可制御セクション (Capolicy1 など) は、多要素認証の要求などのアクセス要件を定義するために使用されます。\nCapolicy1 のセッション コントロールは不正確です。セッション コントロールは、アクセスが許可された後のユーザー セッション (サインイン頻度、永続的なブラウザ セッションなど) を管理するために使用され、アクセス中に初期 MFA 要件を強制するために使用されるものではないためです。\nBluerock.com テナントの Microsoft Entra ID Protection で表示されるサインイン リスク ポリシーは、サインイン リスク ポリシーがリスクベースであり、検出されたユーザー リスク レベルに応じて条件付きで適用されるため、正しくありません。ここでの要件は、リスクに基づいてではなく、本番環境の管理のために MFA を無条件に適用することです。\n参考リンク:\n・https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-policies\n\n・https://learn.microsoft.com/en-us/entra/identity/conditional-access/howto-conditional-access-policy-all-users-mfa\n\n・https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-policies\n\n・https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-session",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-049",
+      "sourceQuestionNumber": 49,
+      "promptHtml": "<p><strong>以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><strong><em>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing</em></strong></p><p><br></p><p><strong>BlueRock Inc. のクラウド移行イニシアチブ</strong>の一環として、App1 はオンプレミス環境から Azure に移行されます。アプリケーションは運用データとビジネス データを Azure Storage に保存します。また、ストレージ プラットフォームは、 ケース スタディで説明されている<strong>BlueRock のセキュリティ、コンプライアンス、 ガバナンスの標準</strong>に準拠している必要があります。</p><p>ストレージ ソリューションは、最新の Azure セキュリティ機能をサポートし、プライベート エンドポイントなどのネットワーク レベルの制御と統合し、不必要なコストや複雑さを導入することなく企業のコンプライアンス要件を満たす必要があります。</p><p>ホスティングにはどの<strong>種類の Azure ストレージ アカウント</strong>を推奨する必要がありますか。 App1 のデータはありますか。</p>",
+      "promptText": "以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing\n\nBlueRock Inc. のクラウド移行イニシアチブの一環として、App1 はオンプレミス環境から Azure に移行されます。アプリケーションは運用データとビジネス データを Azure Storage に保存します。また、ストレージ プラットフォームは、 ケース スタディで説明されているBlueRock のセキュリティ、コンプライアンス、 ガバナンスの標準に準拠している必要があります。\nストレージ ソリューションは、最新の Azure セキュリティ機能をサポートし、プライベート エンドポイントなどのネットワーク レベルの制御と統合し、不必要なコストや複雑さを導入することなく企業のコンプライアンス要件を満たす必要があります。\nホスティングにはどの種類の Azure ストレージ アカウントを推奨する必要がありますか。 App1 のデータはありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-049-c1",
+          "label": null,
+          "text": "プレミアム ページ BLOB",
+          "html": "<p>プレミアム ページ BLOB</p>"
+        },
+        {
+          "choiceId": "en1-q-049-c2",
+          "label": null,
+          "text": "プレミアム ファイル共有",
+          "html": "<p>プレミアム ファイル共有</p>"
+        },
+        {
+          "choiceId": "en1-q-049-c3",
+          "label": null,
+          "text": "標準汎用 v2",
+          "html": "<p>標準汎用 v2</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-049-c3"
+      ],
+      "explanationHtml": "<p>標準汎用 v2 はブロック BLOB をサポートし、階層名前空間のサポートや POSIX のような ACL などの Azure Data Lake Storage Gen2 機能を有効にするため正解です。これらの機能は、きめ細かいアクセス制御、不変 BLOB ポリシー、プライベート エンドポイントやカスタマー マネージド キーとの統合など、App1 のセキュリティとコンプライアンスの要件を満たすために不可欠です。</p><p>プレミアム ページ BLOB は誤りです。これは、ページ BLOB はランダムな読み取り/書き込み操作用に最適化されており、主に使用されるためです。</p><p>プレミアム ファイル共有 は誤りです。これは、Azure Files はリフト アンド シフト ファイル ベースのワークロードを対象としており、BLOB ベースの階層名前空間や Data Lake Gen2 機能をサポートしていないためです。</p><p>参照リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview\">https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-network-security\">https://learn.microsoft.com/en-us/azure/storage/common/storage-network-security</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview\">https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview</a></p></li></ul>",
+      "explanationText": "標準汎用 v2 はブロック BLOB をサポートし、階層名前空間のサポートや POSIX のような ACL などの Azure Data Lake Storage Gen2 機能を有効にするため正解です。これらの機能は、きめ細かいアクセス制御、不変 BLOB ポリシー、プライベート エンドポイントやカスタマー マネージド キーとの統合など、App1 のセキュリティとコンプライアンスの要件を満たすために不可欠です。\nプレミアム ページ BLOB は誤りです。これは、ページ BLOB はランダムな読み取り/書き込み操作用に最適化されており、主に使用されるためです。\nプレミアム ファイル共有 は誤りです。これは、Azure Files はリフト アンド シフト ファイル ベースのワークロードを対象としており、BLOB ベースの階層名前空間や Data Lake Gen2 機能をサポートしていないためです。\n参照リンク:\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-network-security\n\n・https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-050",
+      "sourceQuestionNumber": 50,
+      "promptHtml": "<p><strong>以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><strong><em>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing</em></strong></p><p><br></p><p><strong>BlueRock Inc. のクラウド移行イニシアチブ</strong>の一環として、App1 はオンプレミス環境から Azure に移行されます。アプリケーションは運用データとビジネス データを Azure Storage に保存します。ストレージ プラットフォームは、ケース スタディで説明されている<strong>BlueRock のセキュリティ、コンプライアンス、 ガバナンス標準</strong>に準拠している必要があります。</p><p>ストレージ ソリューションは、最新の Azure セキュリティ機能をサポートし、プライベート エンドポイントなどのネットワーク レベルの制御と統合し、不必要なコストや複雑さを導入することなく企業のコンプライアンス要件を満たす必要があります。</p><p>どの<strong>構成</strong>を推奨しますか。ストレージ。</p>",
+      "promptText": "以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing\n\nBlueRock Inc. のクラウド移行イニシアチブの一環として、App1 はオンプレミス環境から Azure に移行されます。アプリケーションは運用データとビジネス データを Azure Storage に保存します。ストレージ プラットフォームは、ケース スタディで説明されているBlueRock のセキュリティ、コンプライアンス、 ガバナンス標準に準拠している必要があります。\nストレージ ソリューションは、最新の Azure セキュリティ機能をサポートし、プライベート エンドポイントなどのネットワーク レベルの制御と統合し、不必要なコストや複雑さを導入することなく企業のコンプライアンス要件を満たす必要があります。\nどの構成を推奨しますか。ストレージ。",
+      "choices": [
+        {
+          "choiceId": "en1-q-050-c1",
+          "label": null,
+          "text": "NFSv3",
+          "html": "<p>NFSv3</p>"
+        },
+        {
+          "choiceId": "en1-q-050-c2",
+          "label": null,
+          "text": "大規模なファイル共有",
+          "html": "<p>大規模なファイル共有</p>"
+        },
+        {
+          "choiceId": "en1-q-050-c3",
+          "label": null,
+          "text": "階層型名前空間",
+          "html": "<p>階層型名前空間</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-050-c3"
+      ],
+      "explanationHtml": "<p>階層型名前空間 が正解です。ケーススタディでは、App1 は特定の期間データ変更を防止し、きめ細かいアクセス制御をサポートする機能など、厳格なセキュリティとコンプライアンスの要件を満たす必要があると指定されています。</p><p>NFSv3 は誤りです。これは、Linux ベースのファイル共有を有効にしますが、階層名前空間や不変 BLOB ポリシーなどの高度なコンプライアンス機能をサポートしていないためです。</p><p>大規模なファイル共有 は誤りです。これは、このオプションは Azure Files に関連しており、SMB ベースの共有で非常に大量のファイル データをサポートすることを目的としているためです。</p><p>参照リンク:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-namespace\">https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-namespace</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control\">https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/files/storage-files-scale-targets\">https://learn.microsoft.com/en-us/azure/storage/files/storage-files-scale-targets</a></p></li></ul>",
+      "explanationText": "正解は階層型名前空間 です。ケーススタディでは、App1 は特定の期間データ変更を防止し、きめ細かいアクセス制御をサポートする機能など、厳格なセキュリティとコンプライアンスの要件を満たす必要があると指定されています。\nNFSv3 は誤りです。これは、Linux ベースのファイル共有を有効にしますが、階層名前空間や不変 BLOB ポリシーなどの高度なコンプライアンス機能をサポートしていないためです。\n大規模なファイル共有 は誤りです。これは、このオプションは Azure Files に関連しており、SMB ベースの共有で非常に大量のファイル データをサポートすることを目的としているためです。\n参照リンク:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-namespace\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control\n\n・https://learn.microsoft.com/en-us/azure/storage/files/storage-files-scale-targets",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-002",
+      "tags": [
+        "case-study"
+      ]
+    }
+  ]
+}

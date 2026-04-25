@@ -40,11 +40,12 @@
       "explanationHtml": "<p>Azure Advisorは、Azureを利用する上でのベストプラクティス（最善策）を利用者に対して提案・推奨するサービスです。ネットワークトラフィックの分析はできません。</p><p><br></p><p>代わりにNetwork WatcherのIPフロー検証を使用します。</p><p>Network Watcher IP フロー検証では、5 つの組の情報に基づき、仮想マシンでパケットが許可されたか拒否されたかを確認することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/advisor/advisor-overview\">https://learn.microsoft.com/ja-jp/azure/advisor/advisor-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/network-watcher/network-watcher-ip-flow-verify-overview\">https://learn.microsoft.com/ja-jp/azure/network-watcher/network-watcher-ip-flow-verify-overview</a></p>",
       "explanationText": "Azure Advisorは、Azureを利用する上でのベストプラクティス（最善策）を利用者に対して提案・推奨するサービスです。ネットワークトラフィックの分析はできません。\n\n代わりにNetwork WatcherのIPフロー検証を使用します。\nNetwork Watcher IP フロー検証では、5 つの組の情報に基づき、仮想マシンでパケットが許可されたか拒否されたかを確認することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/advisor/advisor-overview\nhttps://learn.microsoft.com/ja-jp/azure/network-watcher/network-watcher-ip-flow-verify-overview",
       "images": [],
-      "domain": null,
-      "questionType": "single",
-      "contextGroupId": "jp1-linked-004",
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "jp1-linked-005",
       "tags": [
-        "linked-question"
+        "linked-question",
+        "boolean"
       ]
     },
     {
@@ -86,7 +87,7 @@
       "images": [
         "assets/問題集1_files/2023-01-24_01-17-58-60f043dd1dbc9edee8d20e8a6d958d0e.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -130,9 +131,9 @@
       "images": [
         "assets/問題集1_files/2023-01-23_01-27-17-284ae9abd80714072d6caef1db3705e4.png"
       ],
-      "domain": null,
+      "domain": "ビジネス継続性ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": "jp1-linked-005",
+      "contextGroupId": "jp1-linked-006",
       "tags": [
         "linked-question"
       ]
@@ -183,9 +184,9 @@
         "assets/問題集1_files/2023-01-23_01-30-54-ef7423e0aaea4c85c339f0f6cefe8705.png",
         "assets/問題集1_files/2023-01-23_01-45-14-6b8b741fd67ed853070c48db6bed6c48.png"
       ],
-      "domain": null,
+      "domain": "ビジネス継続性ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": "jp1-linked-005",
+      "contextGroupId": "jp1-linked-006",
       "tags": [
         "linked-question"
       ]
@@ -237,7 +238,7 @@
         "assets/問題集1_files/2023-02-01_02-09-14-c5ae6a105aaa21298cbf9753d1cce672.png",
         "assets/問題集1_files/2023-02-01_02-34-53-0e77ff617574ac273432d293f809e97a.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "multi",
       "contextGroupId": null,
       "tags": []
@@ -279,7 +280,7 @@
       "explanationHtml": "<p>複数のアプリケーションを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがよくあります。</p><p>アプリとアプリを直接つなぐのではなく、間にメッセージングサービスを挟むことで、送信側は受信側の処理を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。</p><p><br></p><p>Azure には大きく次の2つのメッセージベースのソリューションが用意されています。</p><p>・Azure Queue Storage</p><p>・Azure Service Bus</p><p><br></p><p>よって、選択肢3の「Azure Queue Storage」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/queues/storage-queues-introduction\">https://learn.microsoft.com/ja-jp/azure/storage/queues/storage-queues-introduction</a></p>",
       "explanationText": "複数のアプリケーションを相互につなぎたい場合、それらの結合度合いを弱める（疎結合にする）ためにメッセージングサービスを使用することがよくあります。\nアプリとアプリを直接つなぐのではなく、間にメッセージングサービスを挟むことで、送信側は受信側の処理を待たずに済んだり（非同期処理）、スケールが容易になったりして、パフォーマンスや拡張性が向上します。\n\nAzure には大きく次の2つのメッセージベースのソリューションが用意されています。\n・Azure Queue Storage\n・Azure Service Bus\n\nよって、選択肢3の「Azure Queue Storage」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/queues/storage-queues-introduction",
       "images": [],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -322,7 +323,7 @@
       "explanationHtml": "<p>IoTのような大量の連続的な時系列データを保存・分析できるサービスは選択肢のうち次の2つです。</p><p>・Azure Cosmos DB SQL API</p><p>・Azure Time Series Insights</p><p><br></p><p>Azure Table Storageはデータの保存はできますが、それ単体で簡単にクエリできるような機能はありません。</p><p>Azure Event Gridはパブリッシュ/サブスクライブ型のイベントルーティング サービスです。イベントを使ってアプリケーションを統合するために使用するサービスで、データの保存やクエリはできません。</p><p><br></p><p>Azure Time Series Insightsは、時系列データ向けのフルマネージドサービスです。</p><p>IoT Hubまたは、Event Hubからストリーミングデータを受け取り、ほぼリアルタイムでデータを処理、保存、クエリ、視覚化することができます。</p><p>また、待機時間の短い読み取り/書き込みが可能なCosmos DBもIoTソリューションに適しています。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/time-series-insights/overview-what-is-tsi\">https://learn.microsoft.com/ja-jp/azure/time-series-insights/overview-what-is-tsi</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/architecture/solution-ideas/articles/iot-using-cosmos-db\">https://learn.microsoft.com/ja-jp/azure/architecture/solution-ideas/articles/iot-using-cosmos-db</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/use-cases#iot-and-telematics\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/use-cases#iot-and-telematics </a></p>",
       "explanationText": "IoTのような大量の連続的な時系列データを保存・分析できるサービスは選択肢のうち次の2つです。\n・Azure Cosmos DB SQL API\n・Azure Time Series Insights\n\nAzure Table Storageはデータの保存はできますが、それ単体で簡単にクエリできるような機能はありません。\nAzure Event Gridはパブリッシュ/サブスクライブ型のイベントルーティング サービスです。イベントを使ってアプリケーションを統合するために使用するサービスで、データの保存やクエリはできません。\n\nAzure Time Series Insightsは、時系列データ向けのフルマネージドサービスです。\nIoT Hubまたは、Event Hubからストリーミングデータを受け取り、ほぼリアルタイムでデータを処理、保存、クエリ、視覚化することができます。\nまた、待機時間の短い読み取り/書き込みが可能なCosmos DBもIoTソリューションに適しています。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/time-series-insights/overview-what-is-tsi\nhttps://learn.microsoft.com/ja-jp/azure/architecture/solution-ideas/articles/iot-using-cosmos-db\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/use-cases#iot-and-telematics",
       "images": [],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "multi",
       "contextGroupId": null,
       "tags": []
@@ -366,7 +367,7 @@
       "images": [
         "assets/問題集1_files/2023-02-01_05-26-42-cb2aa70a7b522b03a38184cee4c43201.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -423,7 +424,7 @@
       "images": [
         "assets/問題集1_files/2024-10-04_06-54-06-a8aa7541e3581d7508babafb82a96eb4.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "multi",
       "contextGroupId": null,
       "tags": []
@@ -479,9 +480,9 @@
       "images": [
         "assets/問題集1_files/2023-01-10_07-16-41-5573e4973fe10c202f0b9465c58cb176.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": "jp1-linked-006",
+      "contextGroupId": "jp1-linked-007",
       "tags": [
         "linked-question"
       ]

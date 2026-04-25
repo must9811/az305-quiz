@@ -1,0 +1,403 @@
+{
+  "setId": "en3-set-002",
+  "title": "英語問題集3 翻訳版 11-20",
+  "sourceHtml": "assets/英語問題集3.html",
+  "questionIds": [
+    "en3-q-011",
+    "en3-q-012",
+    "en3-q-013",
+    "en3-q-014",
+    "en3-q-015",
+    "en3-q-016",
+    "en3-q-017",
+    "en3-q-018",
+    "en3-q-019",
+    "en3-q-020"
+  ],
+  "questions": [
+    {
+      "questionId": "en3-q-011",
+      "sourceQuestionNumber": 11,
+      "promptHtml": "<p><strong>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。</strong></p><p><br></p><p>あなたは、<strong>複数の Azure リージョン</strong>にまたがって Azure Web アプリの<strong>複数のインスタンス</strong>をデプロイすることを計画しています。</p><p>次のレプリケーションと可用性の要件を満たすアプリケーションの<strong>アクセス ソリューション</strong>を設計する必要があります。</p><ul><li><p>ソリューションは次のとおりです。 <strong>サポートレート制限</strong>。</p></li><li><p>リクエストは<strong>デプロイされたすべてのインスタンスに分散</strong>する必要があります。</p></li><li><p>ユーザーは<strong>地域的な停止が発生した場合でもアプリケーションにアクセスできる</strong>必要があります。</p></li></ul><p><strong>提案された解決策: </strong>Azure Load Balancerを使用して、 app.</p><p>このソリューションは要件を満たしていますか。</p>",
+      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。\n\nあなたは、複数の Azure リージョンにまたがって Azure Web アプリの複数のインスタンスをデプロイすることを計画しています。\n次のレプリケーションと可用性の要件を満たすアプリケーションのアクセス ソリューションを設計する必要があります。\n・ソリューションは次のとおりです。 サポートレート制限。\n\n・リクエストはデプロイされたすべてのインスタンスに分散する必要があります。\n\n・ユーザーは地域的な停止が発生した場合でもアプリケーションにアクセスできる必要があります。\n\n提案された解決策: Azure Load Balancerを使用して、 app.\nこのソリューションは要件を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-011-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "en3-q-011-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-011-c2"
+      ],
+      "explanationHtml": "<p>いいえは、Azure Load Balancer がレイヤー 4 で動作するため正解です。(TCP/UDP) であり、リージョン内または内部/外部 VM レベルの負荷分散用に設計されています。</p><p>目標を達成するには、次のことができるため、Azure Front Door や Azure Application Gateway と Azure Traffic Manager のようなサービスがより適切です。</p><ul><li><p>リージョン間でリクエストのバランスをとる (グローバル負荷分散)。</p></li><li><p>リージョンが停止した場合にフェールオーバーを提供する</p></li><li><p>レート制限、キャッシュ、アプリケーション層のトラフィック管理をサポートします。</p></li></ul><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview\">https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview\">https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\">https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview</a></p></li></ul>",
+      "explanationText": "いいえは、Azure Load Balancer がレイヤー 4 で動作するため正解です。(TCP/UDP) であり、リージョン内または内部/外部 VM レベルの負荷分散用に設計されています。\n目標を達成するには、次のことができるため、Azure Front Door や Azure Application Gateway と Azure Traffic Manager のようなサービスがより適切です。\n・リージョン間でリクエストのバランスをとる (グローバル負荷分散)。\n\n・リージョンが停止した場合にフェールオーバーを提供する\n\n・レート制限、キャッシュ、アプリケーション層のトラフィック管理をサポートします。\n\n参照:\n・https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview\n\n・https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview\n\n・https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview",
+      "images": [],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "en3-linked-002",
+      "tags": [
+        "boolean",
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-012",
+      "sourceQuestionNumber": 12,
+      "promptHtml": "<p><strong>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。</strong></p><p><br></p><p>あなたは、<strong>複数の Azure リージョン</strong>にまたがって Azure Web アプリの<strong>複数のインスタンス</strong>をデプロイすることを計画しています。</p><p>次のレプリケーションと可用性の要件を満たすアプリケーションの<strong>アクセス ソリューション</strong>を設計する必要があります。</p><ul><li><p>ソリューションは次のとおりです。 <strong>サポートレート制限</strong>。</p></li><li><p>リクエストは<strong>デプロイされたすべてのインスタンスに分散</strong>する必要があります。</p></li><li><p>ユーザーは<strong>地域的な停止が発生した場合</strong>にアプリケーションにアクセスできる必要があります。</p></li></ul><p><strong>提案された解決策: </strong>Azure Traffic Managerを使用して、 </p><p>このソリューションは要件を満たしていますか。</p>",
+      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。\n\nあなたは、複数の Azure リージョンにまたがって Azure Web アプリの複数のインスタンスをデプロイすることを計画しています。\n次のレプリケーションと可用性の要件を満たすアプリケーションのアクセス ソリューションを設計する必要があります。\n・ソリューションは次のとおりです。 サポートレート制限。\n\n・リクエストはデプロイされたすべてのインスタンスに分散する必要があります。\n\n・ユーザーは地域的な停止が発生した場合にアプリケーションにアクセスできる必要があります。\n\n提案された解決策: Azure Traffic Managerを使用して、\nこのソリューションは要件を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-012-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "en3-q-012-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-012-c2"
+      ],
+      "explanationHtml": "<p>いいえは、Azure Traffic Manager が正解です。DNS ベースのグローバル トラフィック分散サービス。</p><p>Traffic Manager は DNS 応答 (レイテンシー、優先度など) に基づいてルーティングを決定し、クライアントが DNS エントリを解決すると、トラフィックをバイパスしてエンドポイントに直接接続します。マネージャー。</p><p>記載されている要件をすべて満たすには、Azure Front Door のようなサービスがより適切です。以下を提供します。</p><ul><li><p>レート制限</p></li><li><p>グローバル負荷分散</p></li><li><p>リージョン間の自動フェイルオーバー</p></li></ul><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\">https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview\">https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview</a></p></li></ul>",
+      "explanationText": "正解はいいえは、Azure Traffic Manager です。DNS ベースのグローバル トラフィック分散サービス。\nTraffic Manager は DNS 応答 (レイテンシー、優先度など) に基づいてルーティングを決定し、クライアントが DNS エントリを解決すると、トラフィックをバイパスしてエンドポイントに直接接続します。マネージャー。\n記載されている要件をすべて満たすには、Azure Front Door のようなサービスがより適切です。以下を提供します。\n・レート制限\n\n・グローバル負荷分散\n\n・リージョン間の自動フェイルオーバー\n\n参照:\n・https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\n\n・https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview",
+      "images": [],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "en3-linked-002",
+      "tags": [
+        "boolean",
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-013",
+      "sourceQuestionNumber": 13,
+      "promptHtml": "<p><strong>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。</strong></p><p><br></p><p>あなたは、<strong>複数の Azure リージョン</strong>にまたがって Azure Web アプリの<strong>複数のインスタンス</strong>をデプロイすることを計画しています。</p><p>次のレプリケーションと可用性の要件を満たすアプリケーションの<strong>アクセス ソリューション</strong>を設計する必要があります。</p><ul><li><p>ソリューションは次のとおりです。 <strong>サポートレート制限</strong>。</p></li><li><p>リクエストは<strong>デプロイされたすべてのインスタンスに分散</strong>する必要があります。</p></li><li><p>ユーザーは<strong>地域的な停止が発生した場合</strong>にアプリケーションにアクセスできる必要があります。</p></li></ul><p><strong>提案された解決策: </strong>アプリへのアクセスを提供するには、Azure Front Door を使用します。 </p><p>このソリューションは要件を満たしていますか。</p>",
+      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。\n\nあなたは、複数の Azure リージョンにまたがって Azure Web アプリの複数のインスタンスをデプロイすることを計画しています。\n次のレプリケーションと可用性の要件を満たすアプリケーションのアクセス ソリューションを設計する必要があります。\n・ソリューションは次のとおりです。 サポートレート制限。\n\n・リクエストはデプロイされたすべてのインスタンスに分散する必要があります。\n\n・ユーザーは地域的な停止が発生した場合にアプリケーションにアクセスできる必要があります。\n\n提案された解決策: アプリへのアクセスを提供するには、Azure Front Door を使用します。\nこのソリューションは要件を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-013-c1",
+          "label": null,
+          "text": "はい",
+          "html": "はい"
+        },
+        {
+          "choiceId": "en3-q-013-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "いいえ"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-013-c1"
+      ],
+      "explanationHtml": "<p>はいは、Azure Front Door がグローバルに分散されたレイヤー 7 であるため正解です。リストされた要件を完全にサポートする (HTTP/HTTPS) ロード バランサ:</p><ul><li><p>Web アプリケーション ファイアウォール (WAF) カスタム ルールによるレート制限を提供し、クライアントからのリクエスト数を制御できるようにします。</p></li><li><p>アプリの複数のリージョン インスタンスにトラフィックを分散することで、グローバルなロード バランシングをサポートします。</p></li><li><p>リージョンでの停止が発生した場合、高可用性と自動フェイルオーバーを確保し、トラフィックをリダイレクトします。他のリージョンの正常なアプリ インスタンスに転送します。</p></li></ul>\n<img src=\"assets/英語問題集3_files/2025-03-25_12-21-44-3b2d58a3c849f760a3c98563cdbbb18a.png\" alt=\"\"loading=\"eager\"><p>Azure Front Door は Microsoft のグローバル ネットワークのエッジで動作し、低遅延アクセス、インテリジェントなトラフィック ルーティング、および次のような組み込み機能を提供します。 SSL 終了、パスベースのルーティング、およびセッション アフィニティ。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview\">https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview</a></p></li></ul>",
+      "explanationText": "はいは、Azure Front Door がグローバルに分散されたレイヤー 7 であるため正解です。リストされた要件を完全にサポートする (HTTP/HTTPS) ロード バランサ:\n・Web アプリケーション ファイアウォール (WAF) カスタム ルールによるレート制限を提供し、クライアントからのリクエスト数を制御できるようにします。\n\n・アプリの複数のリージョン インスタンスにトラフィックを分散することで、グローバルなロード バランシングをサポートします。\n\n・リージョンでの停止が発生した場合、高可用性と自動フェイルオーバーを確保し、トラフィックをリダイレクトします。他のリージョンの正常なアプリ インスタンスに転送します。\n\nAzure Front Door は Microsoft のグローバル ネットワークのエッジで動作し、低遅延アクセス、インテリジェントなトラフィック ルーティング、および次のような組み込み機能を提供します。 SSL 終了、パスベースのルーティング、およびセッション アフィニティ。\n参照:\n・https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview\n\n・https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview",
+      "images": [
+        "assets/英語問題集3_files/2025-03-25_12-21-44-3b2d58a3c849f760a3c98563cdbbb18a.png"
+      ],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "en3-linked-002",
+      "tags": [
+        "boolean",
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-014",
+      "sourceQuestionNumber": 14,
+      "promptHtml": "<p><strong>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。</strong></p><p><br></p><p>あなたは、<strong>複数の Azure リージョン</strong>にまたがって Azure Web アプリの<strong>複数のインスタンス</strong>をデプロイすることを計画しています。</p><p>次のレプリケーションと可用性の要件を満たすアプリケーションの<strong>アクセス ソリューション</strong>を設計する必要があります。</p><ul><li><p>ソリューションは次のとおりです。 <strong>サポートレート制限</strong>。</p></li><li><p>リクエストは<strong>デプロイされたすべてのインスタンスに分散</strong>する必要があります。</p></li><li><p>ユーザーは<strong>地域的な停止が発生した場合</strong>にアプリケーションにアクセスできる必要があります。</p></li></ul><p><strong>提案された解決策: </strong>Azure Application Gatewayを使用して、 app.</p><p>このソリューションは要件を満たしていますか。</p>",
+      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なるソリューションを提案します。\n\nあなたは、複数の Azure リージョンにまたがって Azure Web アプリの複数のインスタンスをデプロイすることを計画しています。\n次のレプリケーションと可用性の要件を満たすアプリケーションのアクセス ソリューションを設計する必要があります。\n・ソリューションは次のとおりです。 サポートレート制限。\n\n・リクエストはデプロイされたすべてのインスタンスに分散する必要があります。\n\n・ユーザーは地域的な停止が発生した場合にアプリケーションにアクセスできる必要があります。\n\n提案された解決策: Azure Application Gatewayを使用して、 app.\nこのソリューションは要件を満たしていますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-014-c1",
+          "label": null,
+          "text": "はい",
+          "html": "<p>はい</p>"
+        },
+        {
+          "choiceId": "en3-q-014-c2",
+          "label": null,
+          "text": "いいえ",
+          "html": "<p>いいえ</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-014-c2"
+      ],
+      "explanationHtml": "<p>いいえは、Azure アプリケーションのため正しいです。ゲートウェイはネイティブのレート制限をサポートしていません。</p><p>適切なサービスは Azure Front Door です。</p><ul><li><p>不正な IP からのリクエストを制限するためのWAF レート制限ルールをサポートします。</p></li><li><p>複数の Azure リージョンにわたるグローバル HTTP 負荷分散</p></li><li><p>リージョンの停止が発生した場合の自動フェールオーバーを提供します</p></li></ul><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/application-gateway/overview\">https://learn.microsoft.com/en-us/azure/application-gateway/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/web-application-firewall/afds/afds-overview\">https://learn.microsoft.com/en-us/azure/web-application-firewall/afds/afds-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview\">https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview</a></p></li></ul>",
+      "explanationText": "いいえは、Azure アプリケーションのため正しいです。ゲートウェイはネイティブのレート制限をサポートしていません。\n適切なサービスは Azure Front Door です。\n・不正な IP からのリクエストを制限するためのWAF レート制限ルールをサポートします。\n\n・複数の Azure リージョンにわたるグローバル HTTP 負荷分散\n\n・リージョンの停止が発生した場合の自動フェールオーバーを提供します\n\n参照:\n・https://learn.microsoft.com/en-us/azure/application-gateway/overview\n\n・https://learn.microsoft.com/en-us/azure/web-application-firewall/afds/afds-overview\n\n・https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "en3-linked-002",
+      "tags": [
+        "boolean",
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-015",
+      "sourceQuestionNumber": 15,
+      "promptHtml": "<p>あなたは、<strong>Linux コンピューティング ノード</strong>で<strong>2 つの異なるジョブ タイプ</strong>を実行する<strong>コストが最適化された Azure Batch ソリューション</strong>を設計しています。</p><ul><li><p><strong>最初のジョブ タイプ</strong>は、<strong>開発で使用される<strong>短時間実行タスク</strong>で構成されます。環境</strong>。</p></li><li><p><strong>2 番目のジョブ タイプ</strong>は、<strong>タイムリーなジョブ完了</strong>を必要とする<strong>本番環境</strong>で使用される<strong>長時間実行されるメッセージ パッシング インターフェイス (MPI) ワークロード</strong>で構成されます。</p></li></ul><p>ジョブごとに適切な<strong>Azure Batch プール タイプ</strong>と<strong>ノード タイプ</strong>を推奨する必要があります。タイプ。提案されたソリューションは次のことを行う必要があります。</p><ul><li><p><strong>コンピューティング コストを最小限に抑える</strong></p></li><li><p><strong>該当する場合は Azure ハイブリッド特典</strong>を使用する</p></li></ul><p>これらの要件に基づいて、<code>最初のジョブ</code>には何を推奨しますか。</p>",
+      "promptText": "あなたは、Linux コンピューティング ノードで2 つの異なるジョブ タイプを実行するコストが最適化された Azure Batch ソリューションを設計しています。\n・最初のジョブ タイプは、開発で使用される短時間実行タスクで構成されます。環境。\n\n・2 番目のジョブ タイプは、タイムリーなジョブ完了を必要とする本番環境で使用される長時間実行されるメッセージ パッシング インターフェイス (MPI) ワークロードで構成されます。\n\nジョブごとに適切なAzure Batch プール タイプとノード タイプを推奨する必要があります。タイプ。提案されたソリューションは次のことを行う必要があります。\n・コンピューティング コストを最小限に抑える\n\n・該当する場合は Azure ハイブリッド特典を使用する\n\nこれらの要件に基づいて、最初のジョブには何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-015-c1",
+          "label": null,
+          "text": "バッチサービスと専用仮想マシン",
+          "html": "バッチサービスと専用仮想マシン"
+        },
+        {
+          "choiceId": "en3-q-015-c2",
+          "label": null,
+          "text": "ユーザー サブスクリプションと専用仮想マシン",
+          "html": "ユーザー サブスクリプションと専用仮想マシン"
+        },
+        {
+          "choiceId": "en3-q-015-c3",
+          "label": null,
+          "text": "ユーザー サブスクリプションと優先順位の低い仮想マシン",
+          "html": "ユーザー サブスクリプションと優先順位の低い仮想マシン"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-015-c3"
+      ],
+      "explanationHtml": "<p>ユーザー サブスクリプションと優先順位の低い仮想マシンは、最初は正しいです。ジョブ。</p><ul><li><p>優先度の低い VM は、未使用の Azure 容量を使用することでコストの最適化に役立ちます。</p></li><li><p>ユーザー サブスクリプション モードにより、ハイブリッド特典を含むコスト管理と柔軟性が向上します。</p></li></ul><p>バッチ サービスと専用仮想マシン は誤りです。これは、Azure の共有 Batch サービス サブスクリプションで VM を使用することが関係しているためです。</p><p>ユーザー サブスクリプションと専用仮想マシン は誤りです。ハイブリッド特典はサポートされていますが、専用 VM はより高価であり、実行時間が短く、重要ではないジョブを含む開発ワークロードには不要です。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/batch/batch-spot-vms\">https://learn.microsoft.com/en-us/azure/batch/batch-spot-vms</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/batch/batch-account-create-portal#choose-account-mode\">https://learn.microsoft.com/en-us/azure/batch/batch-account-create-portal#choose-account-mode</a></p></li></ul>",
+      "explanationText": "ユーザー サブスクリプションと優先順位の低い仮想マシンは、最初は正しいです。ジョブ。\n・優先度の低い VM は、未使用の Azure 容量を使用することでコストの最適化に役立ちます。\n\n・ユーザー サブスクリプション モードにより、ハイブリッド特典を含むコスト管理と柔軟性が向上します。\n\nバッチ サービスと専用仮想マシン は誤りです。これは、Azure の共有 Batch サービス サブスクリプションで VM を使用することが関係しているためです。\nユーザー サブスクリプションと専用仮想マシン は誤りです。ハイブリッド特典はサポートされていますが、専用 VM はより高価であり、実行時間が短く、重要ではないジョブを含む開発ワークロードには不要です。\n参照:\n・https://learn.microsoft.com/en-us/azure/batch/batch-spot-vms\n\n・https://learn.microsoft.com/en-us/azure/batch/batch-account-create-portal#choose-account-mode",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-linked-003",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-016",
+      "sourceQuestionNumber": 16,
+      "promptHtml": "<p>あなたは、<strong>Linux コンピューティング ノード</strong>で<strong>2 つの異なるジョブ タイプ</strong>を実行する<strong>コストが最適化された Azure Batch ソリューション</strong>を設計しています。</p><ul><li><p><strong>最初のジョブ タイプ</strong>は、<strong>開発で使用される<strong>短時間実行タスク</strong>で構成されます。環境</strong>。</p></li><li><p><strong>2 番目のジョブ タイプ</strong>は、<strong>タイムリーなジョブ完了</strong>を必要とする<strong>本番環境</strong>で使用される<strong>長時間実行されるメッセージ パッシング インターフェイス (MPI) ワークロード</strong>で構成されます。</p></li></ul><p>ジョブごとに適切な<strong>Azure Batch プール タイプ</strong>と<strong>ノード タイプ</strong>を推奨する必要があります。タイプ。提案されたソリューションでは次のことを行う必要があります:</p><ul><li><p><strong>コンピューティング コストを最小限に抑える</strong></p></li><li><p><strong>該当する場合は Azure ハイブリッド特典を使用する</strong></p></li></ul><p>これらの要件に基づいて、<code>2 番目のジョブ</code> には何を推奨しますか。</p>",
+      "promptText": "あなたは、Linux コンピューティング ノードで2 つの異なるジョブ タイプを実行するコストが最適化された Azure Batch ソリューションを設計しています。\n・最初のジョブ タイプは、開発で使用される短時間実行タスクで構成されます。環境。\n\n・2 番目のジョブ タイプは、タイムリーなジョブ完了を必要とする本番環境で使用される長時間実行されるメッセージ パッシング インターフェイス (MPI) ワークロードで構成されます。\n\nジョブごとに適切なAzure Batch プール タイプとノード タイプを推奨する必要があります。タイプ。提案されたソリューションでは次のことを行う必要があります:\n・コンピューティング コストを最小限に抑える\n\n・該当する場合は Azure ハイブリッド特典を使用する\n\nこれらの要件に基づいて、2 番目のジョブ には何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-016-c1",
+          "label": null,
+          "text": "バッチ サービスと専用仮想マシン",
+          "html": "バッチ サービスと専用仮想マシン"
+        },
+        {
+          "choiceId": "en3-q-016-c2",
+          "label": null,
+          "text": "ユーザー サブスクリプションと専用仮想マシン",
+          "html": "ユーザー サブスクリプションと専用仮想マシン"
+        },
+        {
+          "choiceId": "en3-q-016-c3",
+          "label": null,
+          "text": "ユーザー サブスクリプションと優先度の低い仮想マシン",
+          "html": "ユーザー サブスクリプションと優先度の低い仮想マシン"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-016-c1"
+      ],
+      "explanationHtml": "<p>バッチ サービスと専用仮想マシンは、 2 番目のジョブには、タイムリーで中断のない実行が必要な、長時間実行される運用グレードの MPI ワークロードが含まれるため、正解です。この場合、専用の仮想マシンにより、コンピューティング リソースが保証され、エビクションの影響を受けないことが保証されます。</p><p>ユーザー サブスクリプション モードではカスタム VNet 統合と Azure ハイブリッド特典が可能ですが、特殊なネットワーク構成やコスト最適化のニーズにより適しています。この場合、信頼性と運用の安定性に重点が置かれているため、Batch サービス モードが適切であり、ネットワークに対する追加の制御を必要とせずに展開が簡素化されます。</p><p>ユーザー サブスクリプションと専用仮想マシン は誤りです。これは、専用の容量が提供され、Azure ハイブリッド特典の使用が可能になりますが、Microsoft では、特別なカスタム ニーズがない限り、運用シナリオには Batch サービス モードを推奨しています。</p><p>ユーザー サブスクリプションと優先順位の低い仮想マシン は誤りです。優先順位の低い (スポット) VM は運用ワークロードにとって信頼性が低く、予告なくプリエンプトされる可能性があり、長時間実行される密結合された MPI には適していません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/batch/batch-account-create-portal#choose-account-mode\">https://learn.microsoft.com/en-us/azure/batch/batch-account-create-portal#choose-account-mode</a></p></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/batch/batch-spot-vms\">https://learn.microsoft.com/en-us/azure/batch/batch-spot-vms</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/machine-learning/how-to-use-low-priority-batch\">https://learn.microsoft.com/en-us/azure/machine-learning/how-to-use-low-priority-batch</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/batch/batch-technical-overview\">https://learn.microsoft.com/en-us/azure/batch/batch-technical-overview</a></p></li></ul>",
+      "explanationText": "バッチ サービスと専用仮想マシンは、 2 番目のジョブには、タイムリーで中断のない実行が必要な、長時間実行される運用グレードの MPI ワークロードが含まれるため、正解です。この場合、専用の仮想マシンにより、コンピューティング リソースが保証され、エビクションの影響を受けないことが保証されます。\nユーザー サブスクリプション モードではカスタム VNet 統合と Azure ハイブリッド特典が可能ですが、特殊なネットワーク構成やコスト最適化のニーズにより適しています。この場合、信頼性と運用の安定性に重点が置かれているため、Batch サービス モードが適切であり、ネットワークに対する追加の制御を必要とせずに展開が簡素化されます。\nユーザー サブスクリプションと専用仮想マシン は誤りです。これは、専用の容量が提供され、Azure ハイブリッド特典の使用が可能になりますが、Microsoft では、特別なカスタム ニーズがない限り、運用シナリオには Batch サービス モードを推奨しています。\nユーザー サブスクリプションと優先順位の低い仮想マシン は誤りです。優先順位の低い (スポット) VM は運用ワークロードにとって信頼性が低く、予告なくプリエンプトされる可能性があり、長時間実行される密結合された MPI には適していません。\n参照:\n・https://learn.microsoft.com/en-us/azure/batch/batch-account-create-portal#choose-account-mode\n\n・https://learn.microsoft.com/en-us/azure/batch/batch-spot-vms\n\n・https://learn.microsoft.com/en-us/azure/machine-learning/how-to-use-low-priority-batch\n\n・https://learn.microsoft.com/en-us/azure/batch/batch-technical-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-linked-003",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-017",
+      "sourceQuestionNumber": 17,
+      "promptHtml": "<p>あなたの組織である <strong>ApexCore Ltd.</strong> は、<strong>HTTP トリガー</strong>を使用する複数の<strong>Azure Logic Apps</strong>を運用しています。これらのロジック アプリは、<strong>ApexCore</strong> がホストする<strong>オンプレミス Web サービス</strong>へのアクセスを提供します。</p><p><strong>ApexCore</strong> は <strong>Ironclad, Inc.</strong> とパートナーシップを締結しました。Ironclad には既存の<strong>Microsoft Entra テナント</strong>がなく、 代わりに<strong>サードパーティの OAuth 2.0 ID プロバイダー</strong>を使用して認証を行っています。 </p><p>Ironclad の開発者は、<strong>既存のロジック アプリのサブセット</strong>を利用して、ApexCore のオンプレミス Web サービスと統合するアプリケーションを構築することを計画しています。</p><p>次の要件を満たしながら、Ironclad 開発者がロジック アプリにアクセスできるソリューションを設計する必要があります。</p><ul><li><p>Ironclad 開発者から発信されたリクエストは<strong>低いしきい値でレート制限</strong>する必要があります。 </p></li><li><p>Ironclad 開発者は、<strong>既存の OAuth 2.0 プロバイダー</strong>を使用して認証できる必要があります。</p></li><li><p>ソリューションは<strong>既存のロジック アプリへの変更を必要としない</strong>必要があります。</p></li><li><p>ソリューションは Microsoft Entra ゲストを<strong>使用してはなりません</p></li></ul><p>これらの制約に基づいて、ソリューションには何を含める必要がありますか。</p>",
+      "promptText": "あなたの組織である ApexCore Ltd. は、HTTP トリガーを使用する複数のAzure Logic Appsを運用しています。これらのロジック アプリは、ApexCore がホストするオンプレミス Web サービスへのアクセスを提供します。\nApexCore は Ironclad, Inc. とパートナーシップを締結しました。Ironclad には既存のMicrosoft Entra テナントがなく、 代わりにサードパーティの OAuth 2.0 ID プロバイダーを使用して認証を行っています。\nIronclad の開発者は、既存のロジック アプリのサブセットを利用して、ApexCore のオンプレミス Web サービスと統合するアプリケーションを構築することを計画しています。\n次の要件を満たしながら、Ironclad 開発者がロジック アプリにアクセスできるソリューションを設計する必要があります。\n・Ironclad 開発者から発信されたリクエストは低いしきい値でレート制限する必要があります。\n\n・Ironclad 開発者は、既存の OAuth 2.0 プロバイダーを使用して認証できる必要があります。\n\n・ソリューションは既存のロジック アプリへの変更を必要としない必要があります。\n\n・ソリューションは Microsoft Entra ゲストを使用してはなりません\n\nこれらの制約に基づいて、ソリューションには何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-017-c1",
+          "label": null,
+          "text": "Microsoft Entra Application Proxy",
+          "html": "Microsoft Entra Application Proxy"
+        },
+        {
+          "choiceId": "en3-q-017-c2",
+          "label": null,
+          "text": "Azure API 管理",
+          "html": "Azure API 管理"
+        },
+        {
+          "choiceId": "en3-q-017-c3",
+          "label": null,
+          "text": "Azure Front Door",
+          "html": "Azure Front Door"
+        },
+        {
+          "choiceId": "en3-q-017-c4",
+          "label": null,
+          "text": "Microsoft Entra business-to-business (B2B)",
+          "html": "Microsoft Entra business-to-business (B2B)"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-017-c2"
+      ],
+      "explanationHtml": "<p>Azure API 管理 は、ロジック アプリを Ironclad の開発者などの外部開発者に公開できるため、正しいです。異なるコンシューマーに異なるレート制限を適用するためのスロットル ポリシー。</p><p>Microsoft Entra Application Proxy は、安全なリモート アクセスのためにオンプレミス アプリを公開するように設計されており、ロジック アプリなどの Azure でホストされているサービスへのアクセスを制御するように設計されていないため、不正解です。</p><p>Azure Front Door は誤りです。グローバル負荷分散機能と Web アプリケーション ファイアウォール機能を提供しますが、サードパーティ ID プロバイダーとの OAuth 2.0 統合やユーザー グループごとのカスタム レート制限をネイティブにサポートしていないためです。</p><p>Microsoft Entra business-to-business (B2B) は誤りです。これを使用すると、Microsoft Entra ID でゲスト アカウントを作成する必要があり、Microsoft Entra ゲスト アカウントを使用しないという要件に明らかに違反します。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts\">https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/api-management/api-management-authentication-policies\">https://learn.microsoft.com/en-us/azure/api-management/api-management-authentication-policies</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-oauth2\">https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-oauth2</a></p></li></ul>",
+      "explanationText": "Azure API 管理 は、ロジック アプリを Ironclad の開発者などの外部開発者に公開できるため、正しいです。異なるコンシューマーに異なるレート制限を適用するためのスロットル ポリシー。\nMicrosoft Entra Application Proxy は、安全なリモート アクセスのためにオンプレミス アプリを公開するように設計されており、ロジック アプリなどの Azure でホストされているサービスへのアクセスを制御するように設計されていないため、不正解です。\nAzure Front Door は誤りです。グローバル負荷分散機能と Web アプリケーション ファイアウォール機能を提供しますが、サードパーティ ID プロバイダーとの OAuth 2.0 統合やユーザー グループごとのカスタム レート制限をネイティブにサポートしていないためです。\nMicrosoft Entra business-to-business (B2B) は誤りです。これを使用すると、Microsoft Entra ID でゲスト アカウントを作成する必要があり、Microsoft Entra ゲスト アカウントを使用しないという要件に明らかに違反します。\n参照:\n・https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts\n\n・https://learn.microsoft.com/en-us/azure/api-management/api-management-authentication-policies\n\n・https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-oauth2",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en3-q-018",
+      "sourceQuestionNumber": 18,
+      "promptHtml": "<p>組織は次の部門で構成されています。</p><p><strong>東部門</strong></p><ul><li><p>Azure サブスクリプション: <strong>Sub1</strong>、<strong>Sub2</strong></p></li><li><p>Microsoft Entra テナント: <strong>East.apexcore.com</strong></p></li></ul><p><strong>西部門</strong></p><ul><li><p>Azure サブスクリプション: <strong>Sub3</strong>、<strong>Sub4</strong></p></li><li><p>Microsoft Entra テナント: <strong>West.apexcore.com</strong></p></li></ul><p><strong>カスタム アプリケーション</strong>を<strong>各 Azure サブスクリプション</strong>にデプロイする予定です。アプリケーションのデプロイには次のコンポーネントが含まれます。</p><ul><li><p><strong>リソース グループ</strong></p></li><li><p><strong>Azure Web アプリ</strong></p></li><li><p><strong>カスタム ロールの割り当て</strong></p></li><li><p><strong>Azure Cosmos DB アカウント</strong></p></li></ul><p>必須<strong>Azure Blueprints</strong> を使用して、すべてのサブスクリプションにわたって一貫してアプリケーションをデプロイするには。</p><p>アプリケーションをデプロイするために必要な<strong> </strong><code>管理グループ</code>の最小数はいくつですか。</p>",
+      "promptText": "組織は次の部門で構成されています。\n東部門\n・Azure サブスクリプション: Sub1、Sub2\n\n・Microsoft Entra テナント: East.apexcore.com\n\n西部門\n・Azure サブスクリプション: Sub3、Sub4\n\n・Microsoft Entra テナント: West.apexcore.com\n\nカスタム アプリケーションを各 Azure サブスクリプションにデプロイする予定です。アプリケーションのデプロイには次のコンポーネントが含まれます。\n・リソース グループ\n\n・Azure Web アプリ\n\n・カスタム ロールの割り当て\n\n・Azure Cosmos DB アカウント\n\n必須Azure Blueprints を使用して、すべてのサブスクリプションにわたって一貫してアプリケーションをデプロイするには。\nアプリケーションをデプロイするために必要な 管理グループの最小数はいくつですか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-018-c1",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "en3-q-018-c2",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "en3-q-018-c3",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        },
+        {
+          "choiceId": "en3-q-018-c4",
+          "label": null,
+          "text": "4",
+          "html": "4"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-018-c2"
+      ],
+      "explanationHtml": "<p>2 は正解です。組織では 2 つの別個の Microsoft Entra テナント、East.apexcore.com と West.apexcore.com を使用しているためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/management-groups/overview\">https://learn.microsoft.com/en-us/azure/governance/management-groups/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/blueprints/overview\">https://learn.microsoft.com/en-us/azure/governance/blueprints/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/role-based-access-control/overview\">https://learn.microsoft.com/en-us/azure/role-based-access-control/overview</a></p></li></ul>",
+      "explanationText": "2 は正解です。組織では 2 つの別個の Microsoft Entra テナント、East.apexcore.com と West.apexcore.com を使用しているためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/governance/management-groups/overview\n\n・https://learn.microsoft.com/en-us/azure/governance/blueprints/overview\n\n・https://learn.microsoft.com/en-us/azure/role-based-access-control/overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-linked-004",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-019",
+      "sourceQuestionNumber": 19,
+      "promptHtml": "<p>組織は次の部門で構成されています:</p><p><strong>東部門</strong></p><ul><li><p>Azure サブスクリプション: <strong>Sub1</strong>、<strong>Sub2</strong></p></li><li><p>Microsoft Entra テナント: <strong>East.apexcore.com</strong></p></li></ul><p><strong>西部門</strong></p><ul><li><p>Azure サブスクリプション: <strong>Sub3</strong>、<strong>Sub4</strong></p></li><li><p>Microsoft Entra テナント: <strong>West.apexcore.com</strong></p></li></ul><p><strong>カスタム アプリケーション</strong>を<strong>各 Azure サブスクリプション</strong>にデプロイする予定です。アプリケーションのデプロイには次のコンポーネントが含まれます。</p><ul><li><p><strong>リソース グループ</strong></p></li><li><p><strong>Azure Web アプリ</strong></p></li><li><p><strong>カスタム ロールの割り当て</strong></p></li><li><p><strong>Azure Cosmos DB アカウント</strong></p></li></ul><p>必須<strong>Azure ブループリント</strong>を使用して、すべてのサブスクリプションにわたって一貫してアプリケーションをデプロイするには。</p><p>アプリケーションをデプロイするために必要な<strong> </strong><code>ブループリント定義</code>の最小数はいくつですか。</p>",
+      "promptText": "組織は次の部門で構成されています:\n東部門\n・Azure サブスクリプション: Sub1、Sub2\n\n・Microsoft Entra テナント: East.apexcore.com\n\n西部門\n・Azure サブスクリプション: Sub3、Sub4\n\n・Microsoft Entra テナント: West.apexcore.com\n\nカスタム アプリケーションを各 Azure サブスクリプションにデプロイする予定です。アプリケーションのデプロイには次のコンポーネントが含まれます。\n・リソース グループ\n\n・Azure Web アプリ\n\n・カスタム ロールの割り当て\n\n・Azure Cosmos DB アカウント\n\n必須Azure ブループリントを使用して、すべてのサブスクリプションにわたって一貫してアプリケーションをデプロイするには。\nアプリケーションをデプロイするために必要な ブループリント定義の最小数はいくつですか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-019-c1",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "en3-q-019-c2",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "en3-q-019-c3",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        },
+        {
+          "choiceId": "en3-q-019-c4",
+          "label": null,
+          "text": "4",
+          "html": "4"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-019-c2"
+      ],
+      "explanationHtml": "<p>2 は正解です。これは、Azure Blueprint 定義はテナント スコープであるため、定義は各 Microsoft Entra テナント内で個別に作成して保存する必要があることを意味します。</p><p>ブループリント定義はテナントをまたがることができないため、両方のテナントで同じブループリント定義を作成する必要があります。1 つは East.apexcore.com の管理グループに、もう 1 つは West.apexcore.com の管理グループにあります。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/blueprints/overview\">https://learn.microsoft.com/en-us/azure/governance/blueprints/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/management-groups/overview\">https://learn.microsoft.com/en-us/azure/governance/management-groups/overview</a></p></li></ul>",
+      "explanationText": "2 は正解です。これは、Azure Blueprint 定義はテナント スコープであるため、定義は各 Microsoft Entra テナント内で個別に作成して保存する必要があることを意味します。\nブループリント定義はテナントをまたがることができないため、両方のテナントで同じブループリント定義を作成する必要があります。1 つは East.apexcore.com の管理グループに、もう 1 つは West.apexcore.com の管理グループにあります。\n参照:\n・https://learn.microsoft.com/en-us/azure/governance/blueprints/overview\n\n・https://learn.microsoft.com/en-us/azure/governance/management-groups/overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-linked-004",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en3-q-020",
+      "sourceQuestionNumber": 20,
+      "promptHtml": "<p>組織は次の部門で構成されています:</p><p><strong>東部門</strong></p><ul><li><p>Azure サブスクリプション: <strong>Sub1</strong>、<strong>Sub2</strong></p></li><li><p>Microsoft Entra テナント: <strong>East.apexcore.com</strong></p></li></ul><p><strong>西部門</strong></p><ul><li><p>Azure サブスクリプション: <strong>Sub3</strong>、<strong>Sub4</strong></p></li><li><p>Microsoft Entra テナント: <strong>West.apexcore.com</strong></p></li></ul><p><strong>カスタム アプリケーション</strong>を<strong>各 Azure サブスクリプション</strong>にデプロイする予定です。アプリケーションのデプロイには次のコンポーネントが含まれます。</p><ul><li><p><strong>リソース グループ</strong></p></li><li><p><strong>Azure Web アプリ</strong></p></li><li><p><strong>カスタム ロールの割り当て</strong></p></li><li><p><strong>Azure Cosmos DB アカウント</strong></p></li></ul><p>必須<strong>Azure ブループリント</strong>を使用して、すべてのサブスクリプションにわたって一貫してアプリケーションをデプロイするには。</p><p>アプリケーションをデプロイするために必要な<strong> </strong><code>ブループリント割り当て</code>の最小数はいくつですか。</p>",
+      "promptText": "組織は次の部門で構成されています:\n東部門\n・Azure サブスクリプション: Sub1、Sub2\n\n・Microsoft Entra テナント: East.apexcore.com\n\n西部門\n・Azure サブスクリプション: Sub3、Sub4\n\n・Microsoft Entra テナント: West.apexcore.com\n\nカスタム アプリケーションを各 Azure サブスクリプションにデプロイする予定です。アプリケーションのデプロイには次のコンポーネントが含まれます。\n・リソース グループ\n\n・Azure Web アプリ\n\n・カスタム ロールの割り当て\n\n・Azure Cosmos DB アカウント\n\n必須Azure ブループリントを使用して、すべてのサブスクリプションにわたって一貫してアプリケーションをデプロイするには。\nアプリケーションをデプロイするために必要な ブループリント割り当ての最小数はいくつですか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-020-c1",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "en3-q-020-c2",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "en3-q-020-c3",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        },
+        {
+          "choiceId": "en3-q-020-c4",
+          "label": null,
+          "text": "4",
+          "html": "4"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-020-c4"
+      ],
+      "explanationHtml": "<p>4 は正解です。指定されたシナリオでは、アプリケーションを 4 つの個別のサブスクリプション Sub1、Sub2、Sub3、および Sub4 にデプロイする必要があります。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/blueprints/overview\">https://learn.microsoft.com/en-us/azure/governance/blueprints/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/management-groups/overview\">https://learn.microsoft.com/en-us/azure/governance/management-groups/overview</a></p></li></ul>",
+      "explanationText": "4 は正解です。指定されたシナリオでは、アプリケーションを 4 つの個別のサブスクリプション Sub1、Sub2、Sub3、および Sub4 にデプロイする必要があります。\n参照:\n・https://learn.microsoft.com/en-us/azure/governance/blueprints/overview\n\n・https://learn.microsoft.com/en-us/azure/governance/management-groups/overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-linked-004",
+      "tags": [
+        "linked-question"
+      ]
+    }
+  ]
+}

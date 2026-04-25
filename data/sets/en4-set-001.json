@@ -1,0 +1,442 @@
+{
+  "setId": "en4-set-001",
+  "title": "英語問題集4 翻訳版 01-10",
+  "sourceHtml": "assets/英語問題集4.html",
+  "questionIds": [
+    "en4-q-001",
+    "en4-q-002",
+    "en4-q-003",
+    "en4-q-004",
+    "en4-q-005",
+    "en4-q-006",
+    "en4-q-007",
+    "en4-q-008",
+    "en4-q-009",
+    "en4-q-010"
+  ],
+  "questions": [
+    {
+      "questionId": "en4-q-001",
+      "sourceQuestionNumber": 1,
+      "promptHtml": "<p>あなたは<strong>Web アクセス ログ データ</strong>を<strong>Azure Blob Storage</strong>に保存します。</p><p>このアクセス ログ データに基づいて<strong>月次レポート</strong>を作成する予定です。</p><p>データを<strong>Azure Blob Storage</strong>から<strong>Azure に転送する<strong>自動ソリューション</strong>を推奨する必要があります。 SQL データベース</strong>を<strong>月次スケジュール</strong>で実行します。</p><p>推奨事項には何を含める必要がありますか。</p>",
+      "promptText": "あなたはWeb アクセス ログ データをAzure Blob Storageに保存します。\nこのアクセス ログ データに基づいて月次レポートを作成する予定です。\nデータをAzure Blob StorageからAzure に転送する自動ソリューションを推奨する必要があります。 SQL データベースを月次スケジュールで実行します。\n推奨事項には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-001-c1",
+          "label": null,
+          "text": "AzCopy",
+          "html": "AzCopy"
+        },
+        {
+          "choiceId": "en4-q-001-c2",
+          "label": null,
+          "text": "データ移行アシスタント",
+          "html": "データ移行アシスタント"
+        },
+        {
+          "choiceId": "en4-q-001-c3",
+          "label": null,
+          "text": "Microsoft SQL サーバー移行アシスタント(SSMA)",
+          "html": "Microsoft SQL サーバー移行アシスタント(SSMA)"
+        },
+        {
+          "choiceId": "en4-q-001-c4",
+          "label": null,
+          "text": "Azure Data Factory",
+          "html": "Azure Data Factory"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-001-c4"
+      ],
+      "explanationHtml": "<p>Azure Data Factory は、データの移動と変換を調整および自動化するように設計されたフルマネージド データ統合サービスであるため正解です。組み込みコネクタを使用して、Azure Blob Storage から Azure [[KEEP_10 データベースへのデータのコピーをサポートし、パイプラインを定期的な間隔 (このシナリオで必要な月ごとなど) で実行するようにスケジュールできます。</p><p>Azure Data Factory を使用すると、次のことができます。</p><ul><li><p>Blob Storage から Web アクセス ログを読み取る。</p></li><li><p>必要に応じてデータを変換またはクリーンアップする必要です。</p></li><li><p>Azure SQL データベースにデータを読み込みます。</p></li><li><p>トリガーを使用してプロセス全体をスケジュールします。</p></li></ul><p>AzCopy は、Azure Storage との間でデータをコピーするために使用されるコマンドライン ツールであるため不正確ですが、直接サポートされていません。 Azure SQL データベースへの取り込みや、複雑なデータ ワークフローのスケジュール設定を可能にします。</p><p>Data Migration Assistant は誤りです。これは、オンプレミス SQL データベースを評価して Azure SQL に移行するために使用されており、定期的またはスケジュールされたものではないためです。</p><p>Microsoft SQL Server Migration Assistant (SSMA) は、SQL 以外のソース (Oracle、MySQL など) から SQL サーバーまたは Azure SQL データベースにデータを移行するように設計されているため、誤りです。BLOB ストレージを処理するためのものではありません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-factory/introduction\">https://learn.microsoft.com/en-us/azure/data-factory/introduction</a></p></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10?tabs=dnf\">https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10?tabs=dnf</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-ver16\">https://learn.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-ver16</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/sql/ssma/sql-server-migration-assistant?view=sql-server-ver15\">https://learn.microsoft.com/en-us/sql/ssma/sql-server-migration-assistant?view=sql-server-ver15</a></p></li></ul>",
+      "explanationText": "Azure Data Factory は、データの移動と変換を調整および自動化するように設計されたフルマネージド データ統合サービスであるため正解です。組み込みコネクタを使用して、Azure Blob Storage から Azure [[KEEP_10 データベースへのデータのコピーをサポートし、パイプラインを定期的な間隔 (このシナリオで必要な月ごとなど) で実行するようにスケジュールできます。\nAzure Data Factory を使用すると、次のことができます。\n・Blob Storage から Web アクセス ログを読み取る。\n\n・必要に応じてデータを変換またはクリーンアップする必要です。\n\n・Azure SQL データベースにデータを読み込みます。\n\n・トリガーを使用してプロセス全体をスケジュールします。\n\nAzCopy は、Azure Storage との間でデータをコピーするために使用されるコマンドライン ツールであるため不正確ですが、直接サポートされていません。 Azure SQL データベースへの取り込みや、複雑なデータ ワークフローのスケジュール設定を可能にします。\nData Migration Assistant は誤りです。これは、オンプレミス SQL データベースを評価して Azure SQL に移行するために使用されており、定期的またはスケジュールされたものではないためです。\nMicrosoft SQL Server Migration Assistant (SSMA) は、SQL 以外のソース (Oracle、MySQL など) から SQL サーバーまたは Azure SQL データベースにデータを移行するように設計されているため、誤りです。BLOB ストレージを処理するためのものではありません。\n参照:\n・https://learn.microsoft.com/en-us/azure/data-factory/introduction\n\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10?tabs=dnf\n\n・https://learn.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-ver16\n\n・https://learn.microsoft.com/en-us/sql/ssma/sql-server-migration-assistant?view=sql-server-ver15",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en4-q-002",
+      "sourceQuestionNumber": 2,
+      "promptHtml": "<p>あなたは、<strong>レポート ワークロード</strong>をサポートする<strong>データ ストレージ ソリューション</strong>を設計しています。</p><p>このソリューションは、<strong>Azure Event Hubs</strong> を使用して<strong>大量の JSON 形式のデータ</strong>を取り込みます。イベントを受信すると、Event Hubs はデータをストレージ サービスに永続化します。</p><p>ソリューションは次の要件を満たす必要があります。</p><ul><li><p>受信データを<strong>日付と時刻で整理されたディレクトリ構造</strong>に保存します。</p></li><li><p>保存されたデータを<strong>直接クエリ</strong>し、<strong>集計テーブルまたは要約テーブルに変換</strong>して<strong>ロードできるようにします。 </p></li><li><p><strong>約 50 TB のリレーショナル データ</strong>を保存し、<strong>200 ～ 300 の同時読み取り操作</strong>を処理できるダウンストリームの<strong>データ ウェアハウス</strong>をサポートします。</p></li></ul><p>次のコンポーネントに適切なサービスを推奨する必要があります。</p><p><code>取り込まれたデータ ストアデータ</code></p><p>何を推奨しますか。</p>",
+      "promptText": "あなたは、レポート ワークロードをサポートするデータ ストレージ ソリューションを設計しています。\nこのソリューションは、Azure Event Hubs を使用して大量の JSON 形式のデータを取り込みます。イベントを受信すると、Event Hubs はデータをストレージ サービスに永続化します。\nソリューションは次の要件を満たす必要があります。\n・受信データを日付と時刻で整理されたディレクトリ構造に保存します。\n\n・保存されたデータを直接クエリし、集計テーブルまたは要約テーブルに変換してロードできるようにします。\n\n・約 50 TB のリレーショナル データを保存し、200 ～ 300 の同時読み取り操作を処理できるダウンストリームのデータ ウェアハウスをサポートします。\n\n次のコンポーネントに適切なサービスを推奨する必要があります。\n取り込まれたデータ ストアデータ\n何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-002-c1",
+          "label": null,
+          "text": "Azure Blob Storage",
+          "html": "Azure Blob Storage"
+        },
+        {
+          "choiceId": "en4-q-002-c2",
+          "label": null,
+          "text": "Azure Data Lake Storage Gen2",
+          "html": "Azure Data Lake Storage Gen2"
+        },
+        {
+          "choiceId": "en4-q-002-c3",
+          "label": null,
+          "text": "Azure Files",
+          "html": "Azure Files"
+        },
+        {
+          "choiceId": "en4-q-002-c4",
+          "label": null,
+          "text": "Azure NetAppファイル",
+          "html": "Azure NetAppファイル"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-002-c2"
+      ],
+      "explanationHtml": "<p>Azure Data Lake Storage Gen2 は、特にビッグ データ分析用に最適化されており、Azure Event Hubs などのサービスからの JSON データの高スループット取り込みをサポートしているため、正解です。階層型の名前空間を提供し、日付と時刻に基づいたディレクトリ構造を可能にし、取り込み時間ごとにデータを整理するという要件を満たします。</p><p>さらに、Azure Data Lake Storage Gen2 は、Azure Synapse Analytics および Azure Data Factory とシームレスに統合され、データを直接クエリして変換し、データ ウェアハウスに保存できます。また、大規模な分析パイプラインの構築に不可欠な並列アクセスもサポートしています。</p><p>Azure Blob Storage は誤りです。大量の非構造化データを保存でき、Event Hubs キャプチャと互換性がありますが、階層型名前空間のサポートがないため、日付/時刻ディレクトリ構造でのデータの整理や、以下を含むダウンストリーム分析の効率が低下します。</p><p>Azure Files は誤りです。これは、大容量の分析データの保存やクエリを目的とするものではなく、ファイル共有シナリオを目的としているためです。</p><p>Azure NetApp Files は誤りです。これは、高パフォーマンスのファイル ワークロード (エンタープライズ アプリケーションやデータベースなど) に使用されており、分析データ レイクやイベント ハブに対して最適化されておらず、コスト効率も低いためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-dedicated-overview\">https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-dedicated-overview</a></p></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-capture-overview\">https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-capture-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-capture-enable-through-portal\">https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-capture-enable-through-portal</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction\">https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-best-practices\">https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-best-practices</a></p></li></ul>",
+      "explanationText": "Azure Data Lake Storage Gen2 は、特にビッグ データ分析用に最適化されており、Azure Event Hubs などのサービスからの JSON データの高スループット取り込みをサポートしているため、正解です。階層型の名前空間を提供し、日付と時刻に基づいたディレクトリ構造を可能にし、取り込み時間ごとにデータを整理するという要件を満たします。\nさらに、Azure Data Lake Storage Gen2 は、Azure Synapse Analytics および Azure Data Factory とシームレスに統合され、データを直接クエリして変換し、データ ウェアハウスに保存できます。また、大規模な分析パイプラインの構築に不可欠な並列アクセスもサポートしています。\nAzure Blob Storage は誤りです。大量の非構造化データを保存でき、Event Hubs キャプチャと互換性がありますが、階層型名前空間のサポートがないため、日付/時刻ディレクトリ構造でのデータの整理や、以下を含むダウンストリーム分析の効率が低下します。\nAzure Files は誤りです。これは、大容量の分析データの保存やクエリを目的とするものではなく、ファイル共有シナリオを目的としているためです。\nAzure NetApp Files は誤りです。これは、高パフォーマンスのファイル ワークロード (エンタープライズ アプリケーションやデータベースなど) に使用されており、分析データ レイクやイベント ハブに対して最適化されておらず、コスト効率も低いためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-dedicated-overview\n\n・https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-capture-overview\n\n・https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-capture-enable-through-portal\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-best-practices",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en4-q-003",
+      "sourceQuestionNumber": 3,
+      "promptHtml": "<p>あなたは、<strong>レポート ワークロード</strong>をサポートする<strong>データ ストレージ ソリューション</strong>を設計しています。</p><p>このソリューションは、<strong>Azure Event Hubs</strong> を使用して<strong>大量の JSON 形式のデータ</strong>を取り込みます。イベントを受信すると、Event Hubs はデータをストレージ サービスに永続化します。</p><p>ソリューションは次の要件を満たす必要があります。</p><ul><li><p>受信データを<strong>日付と時刻で整理されたディレクトリ構造</strong>に保存します。</p></li><li><p>保存されたデータを<strong>直接クエリ</strong>し、<strong>集計テーブルまたは要約テーブルに変換</strong>して<strong>ロードできるようにします。 </p></li><li><p><strong>約 50 TB のリレーショナル データ</strong>を保存し、<strong>200 ～ 300 の同時読み取り操作</strong>を処理できるダウンストリームの<strong>データ ウェアハウス</strong>をサポートします。</p></li></ul><p>次のコンポーネントに適切なサービスを推奨する必要があります。</p><p><code>データのデータ ストアウェアハウス</code></p><p>何を推奨しますか。</p>",
+      "promptText": "あなたは、レポート ワークロードをサポートするデータ ストレージ ソリューションを設計しています。\nこのソリューションは、Azure Event Hubs を使用して大量の JSON 形式のデータを取り込みます。イベントを受信すると、Event Hubs はデータをストレージ サービスに永続化します。\nソリューションは次の要件を満たす必要があります。\n・受信データを日付と時刻で整理されたディレクトリ構造に保存します。\n\n・保存されたデータを直接クエリし、集計テーブルまたは要約テーブルに変換してロードできるようにします。\n\n・約 50 TB のリレーショナル データを保存し、200 ～ 300 の同時読み取り操作を処理できるダウンストリームのデータ ウェアハウスをサポートします。\n\n次のコンポーネントに適切なサービスを推奨する必要があります。\nデータのデータ ストアウェアハウス\n何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-003-c1",
+          "label": null,
+          "text": "Azure Cosmos DB Cassandra API",
+          "html": "Azure Cosmos DB Cassandra API"
+        },
+        {
+          "choiceId": "en4-q-003-c2",
+          "label": null,
+          "text": "Azure Cosmos DB SQL API",
+          "html": "Azure Cosmos DB SQL API"
+        },
+        {
+          "choiceId": "en4-q-003-c3",
+          "label": null,
+          "text": "Azure SQL データベース ハイパースケール",
+          "html": "Azure SQL データベース ハイパースケール"
+        },
+        {
+          "choiceId": "en4-q-003-c4",
+          "label": null,
+          "text": "Azure Synapse Analytics 専用の SQL プール",
+          "html": "Azure Synapse Analytics 専用の SQL プール"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-003-c3"
+      ],
+      "explanationHtml": "<p>Azure SQL データベースハイパースケール は正解です。なぜなら、それは大規模なリレーショナル データセットを処理するように特別に設計されており、最大 100 TB のストレージをサポートし、独立したコンピューティングとストレージのスケーリングを提供するため、柔軟性とコスト効率が向上します。</p><p>Azure Cosmos DB Cassandra API は NoSQL を対象としているため不正解です。列ファミリーのワークロードであり、大量のリレーショナル構造化データの保存やクエリを行うように設計されていません。</p><p>Azure Cosmos DB SQL API は誤りです。柔軟なスキーマを備えた JSON ベースのドキュメント ストレージをサポートしていますが、リレーショナル データベースではないためです。</p><p>Azure Synapse Analytics 専用の SQL プールは、この文脈では不正確です。これは、大規模な分析処理用に設計されているものの、操作する場合にはより適しているためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-Hyperscale?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-Hyperscale?view=azuresql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/resource-limits?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/resource-limits?view=azuresql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/introduction\">https://learn.microsoft.com/en-us/azure/cosmos-db/introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-compute-overview\">https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-compute-overview</a></p></li></ul>",
+      "explanationText": "Azure SQL データベースハイパースケール は正解です。なぜなら、それは大規模なリレーショナル データセットを処理するように特別に設計されており、最大 100 TB のストレージをサポートし、独立したコンピューティングとストレージのスケーリングを提供するため、柔軟性とコスト効率が向上します。\nAzure Cosmos DB Cassandra API は NoSQL を対象としているため不正解です。列ファミリーのワークロードであり、大量のリレーショナル構造化データの保存やクエリを行うように設計されていません。\nAzure Cosmos DB SQL API は誤りです。柔軟なスキーマを備えた JSON ベースのドキュメント ストレージをサポートしていますが、リレーショナル データベースではないためです。\nAzure Synapse Analytics 専用の SQL プールは、この文脈では不正確です。これは、大規模な分析処理用に設計されているものの、操作する場合にはより適しているためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-Hyperscale?view=azuresql\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/resource-limits?view=azuresql\n\n・https://learn.microsoft.com/en-us/azure/cosmos-db/introduction\n\n・https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-compute-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en4-q-004",
+      "sourceQuestionNumber": 4,
+      "promptHtml": "<p>あなたは、ApexCore, Ltd. という名前の Microsoft ボリューム ライセンス顧客のデータベース環境を管理しています。ApexCore はソフトウェア アシュアランスによるライセンス モビリティを使用しています。</p><p>50 のデータベースを展開する必要があります。ソリューションは次の要件を満たす必要があります。</p><ul><li><p>自動スケーリングのサポート</p></li><li><p>Microsoft SQL サーバー ライセンス コストを最小限に抑える。</p></li></ul><p>推奨事項に含める必要がある<code>購入モデル</code><strong> </strong>のタイプはどれですか。</p>",
+      "promptText": "あなたは、ApexCore, Ltd. という名前の Microsoft ボリューム ライセンス顧客のデータベース環境を管理しています。ApexCore はソフトウェア アシュアランスによるライセンス モビリティを使用しています。\n50 のデータベースを展開する必要があります。ソリューションは次の要件を満たす必要があります。\n・自動スケーリングのサポート\n\n・Microsoft SQL サーバー ライセンス コストを最小限に抑える。\n\n推奨事項に含める必要がある購入モデル のタイプはどれですか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-004-c1",
+          "label": null,
+          "text": "DTU",
+          "html": "DTU"
+        },
+        {
+          "choiceId": "en4-q-004-c2",
+          "label": null,
+          "text": "vCore",
+          "html": "vCore"
+        },
+        {
+          "choiceId": "en4-q-004-c3",
+          "label": null,
+          "text": "Azure 予約仮想マシン インスタンス",
+          "html": "Azure 予約仮想マシン インスタンス"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-004-c2"
+      ],
+      "explanationHtml": "<p>vCore は、Azure の vCore (仮想コア) 購入モデルであるため正しいです。SQL データベースは、ソフトウェア アシュアランスによるライセンス モビリティを使用する機能など、パフォーマンスのスケーリングとライセンス オプションの点で優れた柔軟性を提供します。</p><p>さらに、vCore モデルは自動スケーリング (特にサーバーレス層) をサポートし、コンピューティング、メモリ、IO に対する透過的な制御を提供します。多数のデータベースを効率的に展開して管理するのに最適です。</p><p>DTU は誤りです。DTU (データベース トランザクション ユニット) モデルは、柔軟性に劣るバンドルされたコンピューティング モデルであるためです。</p><p>Azure 予約仮想マシン インスタンス は誤りです。これは、Azure VM 上の [[KEEP_10 サーバーのコスト削減には役立ちますが、PaaS ベースの Azure ではなく、IaaS ベースのデプロイに適用されるためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/purchasing-models?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/database/purchasing-models?view=azuresql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/reserved-capacity-overview\">https://learn.microsoft.com/en-us/azure/azure-sql/database/reserved-capacity-overview</a></p></li></ul>",
+      "explanationText": "vCore は、Azure の vCore (仮想コア) 購入モデルであるため正しいです。SQL データベースは、ソフトウェア アシュアランスによるライセンス モビリティを使用する機能など、パフォーマンスのスケーリングとライセンス オプションの点で優れた柔軟性を提供します。\nさらに、vCore モデルは自動スケーリング (特にサーバーレス層) をサポートし、コンピューティング、メモリ、IO に対する透過的な制御を提供します。多数のデータベースを効率的に展開して管理するのに最適です。\nDTU は誤りです。DTU (データベース トランザクション ユニット) モデルは、柔軟性に劣るバンドルされたコンピューティング モデルであるためです。\nAzure 予約仮想マシン インスタンス は誤りです。これは、Azure VM 上の [[KEEP_10 サーバーのコスト削減には役立ちますが、PaaS ベースの Azure ではなく、IaaS ベースのデプロイに適用されるためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/purchasing-models?view=azuresql\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/reserved-capacity-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en4-q-005",
+      "sourceQuestionNumber": 5,
+      "promptHtml": "<p>あなたは、ApexCore, Ltd. という名前の Microsoft ボリューム ライセンス顧客のデータベース環境を管理しています。ApexCore はソフトウェア アシュアランスによるライセンス モビリティを使用しています。</p><p>50 のデータベースを展開する必要があります。ソリューションは次の要件を満たす必要があります。</p><ul><li><p>自動スケーリングのサポート</p></li><li><p>Microsoft SQL サーバーのライセンス コストを最小限に抑える。</p></li></ul><p>推奨事項に含める必要がある <code>導入オプション</code>のタイプはどれですか。</p>",
+      "promptText": "あなたは、ApexCore, Ltd. という名前の Microsoft ボリューム ライセンス顧客のデータベース環境を管理しています。ApexCore はソフトウェア アシュアランスによるライセンス モビリティを使用しています。\n50 のデータベースを展開する必要があります。ソリューションは次の要件を満たす必要があります。\n・自動スケーリングのサポート\n\n・Microsoft SQL サーバーのライセンス コストを最小限に抑える。\n\n推奨事項に含める必要がある 導入オプションのタイプはどれですか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-005-c1",
+          "label": null,
+          "text": "Azure SQL マネージド インスタンス",
+          "html": "Azure SQL マネージド インスタンス"
+        },
+        {
+          "choiceId": "en4-q-005-c2",
+          "label": null,
+          "text": "Azure SQL データベース エラスティック プール",
+          "html": "Azure SQL データベース エラスティック プール"
+        },
+        {
+          "choiceId": "en4-q-005-c3",
+          "label": null,
+          "text": "SQL サーバー Always On 可用性グループ",
+          "html": "SQL サーバー Always On 可用性グループ"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-005-c2"
+      ],
+      "explanationHtml": "<p>Azure SQL データベース エラスティック プール は正解です。これにより、同じコンピューティング リソースとストレージ リソースを共有する複数のデータベース (この場合は 50 個など) をデプロイおよび管理できるため、個々のデータベースの使用パターンに基づいたコスト効率と自動スケーリングが可能になります。</p><p>ApexCore はソフトウェア アシュアランスによるライセンス モビリティを使用しているため、エラスティック プール内の仮想コア ベース モデルで Azure ハイブリッド特典を利用でき、SQL サーバー ライセンスをさらに削減できます。</p><p>Azure SQL マネージド インスタンス は誤りです。ライセンス モビリティをサポートしており、オンプレミスの SQL サーバー インスタンスの移行には適していますが、多数の小規模データベースや可変負荷データベースの管理には最適化されていません。</p><p>SQL サーバー Always On 可用性グループは、Azure VM 上で実行されている IaaS ベースの SQL サーバー デプロイに適用されるため、不正確です。ライセンスコスト、手動スケーリング、管理オーバーヘッドの増加。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview\">https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/availability-group-overview?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/availability-group-overview?view=azuresql</a></p></li></ul>",
+      "explanationText": "Azure SQL データベース エラスティック プール は正解です。これにより、同じコンピューティング リソースとストレージ リソースを共有する複数のデータベース (この場合は 50 個など) をデプロイおよび管理できるため、個々のデータベースの使用パターンに基づいたコスト効率と自動スケーリングが可能になります。\nApexCore はソフトウェア アシュアランスによるライセンス モビリティを使用しているため、エラスティック プール内の仮想コア ベース モデルで Azure ハイブリッド特典を利用でき、SQL サーバー ライセンスをさらに削減できます。\nAzure SQL マネージド インスタンス は誤りです。ライセンス モビリティをサポートしており、オンプレミスの SQL サーバー インスタンスの移行には適していますが、多数の小規模データベースや可変負荷データベースの管理には最適化されていません。\nSQL サーバー Always On 可用性グループは、Azure VM 上で実行されている IaaS ベースの SQL サーバー デプロイに適用されるため、不正確です。ライセンスコスト、手動スケーリング、管理オーバーヘッドの増加。\n参照:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/availability-group-overview?view=azuresql",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en4-q-006",
+      "sourceQuestionNumber": 6,
+      "promptHtml": "<p>あなたは Microsoft Entra テナントを管理しています。</p><p>あなたは、SQL API を使用するように構成された Azure Cosmos DB データベースをデプロイする予定です。</p><p>指定された Microsoft Entra ID ユーザー アカウントに Cosmos DB データベースへの読み取り専用アクセスを付与するアプローチを推奨する必要があります。</p><p>推奨事項。</p>",
+      "promptText": "あなたは Microsoft Entra テナントを管理しています。\nあなたは、SQL API を使用するように構成された Azure Cosmos DB データベースをデプロイする予定です。\n指定された Microsoft Entra ID ユーザー アカウントに Cosmos DB データベースへの読み取り専用アクセスを付与するアプローチを推奨する必要があります。\n推奨事項。",
+      "choices": [
+        {
+          "choiceId": "en4-q-006-c1",
+          "label": null,
+          "text": "条件付きアクセス ポリシーと組み合わせた共有アクセス署名 (SAS)",
+          "html": "<p>条件付きアクセス ポリシーと組み合わせた共有アクセス署名 (SAS)</p>"
+        },
+        {
+          "choiceId": "en4-q-006-c2",
+          "label": null,
+          "text": "Azure Key Vault に保存および管理される証明書の使用",
+          "html": "<p>Azure Key Vault に保存および管理される証明書の使用</p>"
+        },
+        {
+          "choiceId": "en4-q-006-c3",
+          "label": null,
+          "text": "Azure アクセス コントロール (IAM) ロールと一緒に使用されるリソース トークン割り当て",
+          "html": "<p>Azure アクセス コントロール (IAM) ロールと一緒に使用されるリソース トークン割り当て</p>"
+        },
+        {
+          "choiceId": "en4-q-006-c4",
+          "label": null,
+          "text": "Azure Information Protection ポリシーと組み合わせた Cosmos DB アカウント マスター キー",
+          "html": "<p>Azure Information Protection ポリシーと組み合わせた Cosmos DB アカウント マスター キー</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-006-c3"
+      ],
+      "explanationHtml": "<p>Azure アクセス制御 (IAM) ロール割り当てと一緒に使用されるリソース トークン は、Azure Cosmos DB が Azure ロールベースのアクセス制御をサポートしているため正しいです。(RBAC) Microsoft Entra ID を使用したデータ プレーン操作用。</p><p>共有アクセス署名 (SAS) と条件付きアクセス ポリシーの組み合わせ は誤りです。SAS トークンは Cosmos DB SQL API では使用されないためです。</p><p>Azure Key Vault に保存および管理されている証明書の使用は、Cosmos への読み取りアクセスを許可するために証明書が使用されていないため、不正確です。 DB と Key Vault は主にシークレットの保存と管理を目的としており、ユーザーにデータ アクセスを割り当てるものではありません。</p><p>Cosmos DB アカウントのマスター キーと Azure Information Protection ポリシーの組み合わせ は、マスター キーが Cosmos DB リソースへの完全なアクセスを提供し、特定のユーザーに関連付けられていないため、不正確です。 Azure Information Protection は、Cosmos DB データへのアクセスの管理には使用されません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/security/how-to-grant-control-plane-role-based-access?tabs=built-in-definition%2Ccsharp&amp;pivots=azure-interface-cli\">https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/security/how-to-grant-control-plane-role-based-access?tabs=built-in-definition%2Ccsharp&amp;pivots=azure-interface-cli</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/security?tabs=using-primary-key\">https://learn.microsoft.com/en-us/azure/cosmos-db/security?tabs=using-primary-key</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#cosmos-db-data-reader\">https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#cosmos-db-data-reader</a></p></li></ul>",
+      "explanationText": "Azure アクセス制御 (IAM) ロール割り当てと一緒に使用されるリソース トークン は、Azure Cosmos DB が Azure ロールベースのアクセス制御をサポートしているため正しいです。(RBAC) Microsoft Entra ID を使用したデータ プレーン操作用。\n共有アクセス署名 (SAS) と条件付きアクセス ポリシーの組み合わせ は誤りです。SAS トークンは Cosmos DB SQL API では使用されないためです。\nAzure Key Vault に保存および管理されている証明書の使用は、Cosmos への読み取りアクセスを許可するために証明書が使用されていないため、不正確です。 DB と Key Vault は主にシークレットの保存と管理を目的としており、ユーザーにデータ アクセスを割り当てるものではありません。\nCosmos DB アカウントのマスター キーと Azure Information Protection ポリシーの組み合わせ は、マスター キーが Cosmos DB リソースへの完全なアクセスを提供し、特定のユーザーに関連付けられていないため、不正確です。 Azure Information Protection は、Cosmos DB データへのアクセスの管理には使用されません。\n参照:\n・https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/security/how-to-grant-control-plane-role-based-access?tabs=built-in-definition%2Ccsharp&pivots=azure-interface-cli\n\n・https://learn.microsoft.com/en-us/azure/cosmos-db/security?tabs=using-primary-key\n\n・https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#cosmos-db-data-reader",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en4-q-007",
+      "sourceQuestionNumber": 7,
+      "promptHtml": "<p>App1 という名前の Azure Functions ベースのマイクロサービスがあり、現在従量課金プランで実行され、Azure Queue Storage によってトリガーされます。</p><p>App1 を Azure Kubernetes Service (AKS) クラスターに移動する予定です。</p><p>サポートするには、AKS 環境を準備する必要があります。 App1 次の要件を満たしながら:</p><ul><li><p>既存のデプロイメントと同じスケーリング動作を使用します。</p></li><li><p>kubenet および Azure Container Networking Interface (CNI) ネットワーキングをサポートします。</p></li></ul><p><strong>2 つ</strong>のどのアクションを実行する必要がありますか。</p>",
+      "promptText": "App1 という名前の Azure Functions ベースのマイクロサービスがあり、現在従量課金プランで実行され、Azure Queue Storage によってトリガーされます。\nApp1 を Azure Kubernetes Service (AKS) クラスターに移動する予定です。\nサポートするには、AKS 環境を準備する必要があります。 App1 次の要件を満たしながら:\n・既存のデプロイメントと同じスケーリング動作を使用します。\n\n・kubenet および Azure Container Networking Interface (CNI) ネットワーキングをサポートします。\n\n2 つのどのアクションを実行する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-007-c1",
+          "label": null,
+          "text": "水平ポッド オートスケーラー (HPA) を設定します。",
+          "html": "<p>水平ポッド オートスケーラー (HPA) を設定します。</p>"
+        },
+        {
+          "choiceId": "en4-q-007-c2",
+          "label": null,
+          "text": "Virtual Kubelet をインストールします。",
+          "html": "Virtual Kubelet をインストールします。"
+        },
+        {
+          "choiceId": "en4-q-007-c3",
+          "label": null,
+          "text": "AKS クラスター レベルで自動スケーリングを有効にします。",
+          "html": "<p>AKS クラスター レベルで自動スケーリングを有効にします。</p>"
+        },
+        {
+          "choiceId": "en4-q-007-c4",
+          "label": null,
+          "text": "仮想ノードを有効にして構成しますアドオン。",
+          "html": "<p>仮想ノードを有効にして構成しますアドオン。</p>"
+        },
+        {
+          "choiceId": "en4-q-007-c5",
+          "label": null,
+          "text": "Kubernetes ベースのイベント駆動型自動スケーリング (KEDA) をインストールします。",
+          "html": "Kubernetes ベースのイベント駆動型自動スケーリング (KEDA) をインストールします。"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-007-c1",
+        "en4-q-007-c5"
+      ],
+      "explanationHtml": "<p>水平ポッド オートスケーラー (HPA) をセットアップする が正解です。これは、水平ポッド オートスケーラー (HPA) がコア コンポーネントであるためです。</p><p>Kubernetes ベースのイベント駆動型自動スケーリング (KEDA) をインストールする は正解です。なぜなら、KEDA は、サーバーレスを複製するゼロからスケールする機能など、イベント駆動型のスケーリングを可能にするからです。</p><p>仮想ノード アドオンを有効にして構成する は、AKS が容量を追加するために Azure Container Instances (ACI) にバーストできる一方で、イベント ドリブンの自動スケーリングをサポートしていないため、不正確です。これはコンピューティング スケーリング機能であり、イベント ベースのトリガー メカニズムではありません。</p><p>Virtual Kubelet のインストール は誤りです。これは、仮想ノード アドオンで使用される基盤となるオープンソース コンポーネントであるためですが、AKS での直接使用はお勧めできません。</p><p>AKS クラスター レベルで自動スケーリングを有効にする は、Azure キュー内のメッセージなどの外部イベントに基づいてではなく、ポッド スケジュールのニーズに基づいてノード数を調整するため、不正確です。 Azure Functions の消費動作を模倣するために必要な、イベント駆動型のスケーリングやゼロへのスケーリング、またはゼロからのスケーリングは行いません。</p><p>参照:</p><ul><li><p><a href=\"https://keda.sh/docs/2.0/concepts\">https://keda.sh/docs/2.0/concepts</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/aks/keda-about\">https://learn.microsoft.com/en-us/azure/aks/keda-about</a></p></li><li><p><a href=\"https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale\">https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/aks/cluster-autoscaler\">https://learn.microsoft.com/en-us/azure/aks/cluster-autoscaler</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/aks/virtual-nodes-portal\">https://learn.microsoft.com/en-us/azure/aks/virtual-nodes-portal</a></p></li></ul>",
+      "explanationText": "正解は水平ポッド オートスケーラー (HPA) をセットアップする です。これは、水平ポッド オートスケーラー (HPA) がコア コンポーネントであるためです。\nKubernetes ベースのイベント駆動型自動スケーリング (KEDA) をインストールする は正解です。なぜなら、KEDA は、サーバーレスを複製するゼロからスケールする機能など、イベント駆動型のスケーリングを可能にするからです。\n仮想ノード アドオンを有効にして構成する は、AKS が容量を追加するために Azure Container Instances (ACI) にバーストできる一方で、イベント ドリブンの自動スケーリングをサポートしていないため、不正確です。これはコンピューティング スケーリング機能であり、イベント ベースのトリガー メカニズムではありません。\nVirtual Kubelet のインストール は誤りです。これは、仮想ノード アドオンで使用される基盤となるオープンソース コンポーネントであるためですが、AKS での直接使用はお勧めできません。\nAKS クラスター レベルで自動スケーリングを有効にする は、Azure キュー内のメッセージなどの外部イベントに基づいてではなく、ポッド スケジュールのニーズに基づいてノード数を調整するため、不正確です。 Azure Functions の消費動作を模倣するために必要な、イベント駆動型のスケーリングやゼロへのスケーリング、またはゼロからのスケーリングは行いません。\n参照:\n・https://keda.sh/docs/2.0/concepts\n\n・https://learn.microsoft.com/en-us/azure/aks/keda-about\n\n・https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale\n\n・https://learn.microsoft.com/en-us/azure/aks/cluster-autoscaler\n\n・https://learn.microsoft.com/en-us/azure/aks/virtual-nodes-portal",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "multi",
+      "contextGroupId": "en4-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en4-q-008",
+      "sourceQuestionNumber": 8,
+      "promptHtml": "<p>あなたは、Azure Functions を使用して Azure Event Hubs からのイベントを処理するアプリケーションを構築しています。各リクエストの実行時間は 5 ～ 20 分の範囲であると予想されます。</p><p>次の要件を満たすホスティング オプションを推奨する必要があります。</p><ul><li><p>予想されるリクエストの実行時間に基づいた構成が可能</p></li><li><p>アプリケーションにイベント ドリブンの自動スケーリング機能を提供する</p></li></ul><p>どのホスティング プランを選択する必要がありますか推奨しますか。</p>",
+      "promptText": "あなたは、Azure Functions を使用して Azure Event Hubs からのイベントを処理するアプリケーションを構築しています。各リクエストの実行時間は 5 ～ 20 分の範囲であると予想されます。\n次の要件を満たすホスティング オプションを推奨する必要があります。\n・予想されるリクエストの実行時間に基づいた構成が可能\n\n・アプリケーションにイベント ドリブンの自動スケーリング機能を提供する\n\nどのホスティング プランを選択する必要がありますか推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-008-c1",
+          "label": null,
+          "text": "専用ホスティング プラン",
+          "html": "<p>専用ホスティング プラン</p>"
+        },
+        {
+          "choiceId": "en4-q-008-c2",
+          "label": null,
+          "text": "従量制ホスティング プラン",
+          "html": "<p>従量制ホスティング プラン</p>"
+        },
+        {
+          "choiceId": "en4-q-008-c3",
+          "label": null,
+          "text": "App Service ホスティング プラン",
+          "html": "<p>App Service ホスティング プラン</p>"
+        },
+        {
+          "choiceId": "en4-q-008-c4",
+          "label": null,
+          "text": "プレミアム ホスティングplan",
+          "html": "<p>プレミアム ホスティングplan</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-008-c4"
+      ],
+      "explanationHtml": "<p>Premium ホスティング プラン が正解です。これは、Azure Functions の Premium プランではイベント ドリブンの自動スケーリングがサポートされており、完了までに最大 60 分かかる関数などの長時間実行が可能であるためです。</p><p>さらに、プレミアム プラン:</p><ul><li><p>VNET 統合</p></li><li><p>コールドの回避開始</p></li><li><p>イベント ハブ トリガー</p></li><li><p>弾力的なスケーリングを備えた専用コンピューティング インスタンス</p></li></ul><p>専用ホスティング プラン は誤りです。これは、より長い実行時間をサポートしていますが、ネイティブではサポートされていないためです。</p><p>従量課金制のホスティング プラン は誤りです。イベント ドリブンの自動スケーリングはサポートされていますが、5 分 (デフォルト) または 30 分 (タイムアウト延長あり) を超える長時間実行の機能には適していないためです。</p><p>App Service ホスティング プラン は、イベント ドリブンの自動スケーリングや Event Hubs などのネイティブ トリガー サポートを備えた Azure Functions ではなく、Web アプリ、API、Web ジョブの実行用に設計されているため、不正確です。関数のスケーリング シナリオに対する直接の最適化されたサポートが欠けています。</p><p>リファレンス:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-functions/functions-premium-plan\">https://learn.microsoft.com/en-us/azure/azure-functions/functions-premium-plan</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-functions/functions-scale\">https://learn.microsoft.com/en-us/azure/azure-functions/functions-scale</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-functions/functions-scale\">https://learn.microsoft.com/en-us/azure/azure-functions/functions-scale</a></p></li></ul>",
+      "explanationText": "正解はPremium ホスティング プラン です。これは、Azure Functions の Premium プランではイベント ドリブンの自動スケーリングがサポートされており、完了までに最大 60 分かかる関数などの長時間実行が可能であるためです。\nさらに、プレミアム プラン:\n・VNET 統合\n\n・コールドの回避開始\n\n・イベント ハブ トリガー\n\n・弾力的なスケーリングを備えた専用コンピューティング インスタンス\n\n専用ホスティング プラン は誤りです。これは、より長い実行時間をサポートしていますが、ネイティブではサポートされていないためです。\n従量課金制のホスティング プラン は誤りです。イベント ドリブンの自動スケーリングはサポートされていますが、5 分 (デフォルト) または 30 分 (タイムアウト延長あり) を超える長時間実行の機能には適していないためです。\nApp Service ホスティング プラン は、イベント ドリブンの自動スケーリングや Event Hubs などのネイティブ トリガー サポートを備えた Azure Functions ではなく、Web アプリ、API、Web ジョブの実行用に設計されているため、不正確です。関数のスケーリング シナリオに対する直接の最適化されたサポートが欠けています。\nリファレンス:\n・https://learn.microsoft.com/en-us/azure/azure-functions/functions-premium-plan\n\n・https://learn.microsoft.com/en-us/azure/azure-functions/functions-scale\n\n・https://learn.microsoft.com/en-us/azure/azure-functions/functions-scale",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en4-q-009",
+      "sourceQuestionNumber": 9,
+      "promptHtml": "<p>SQL サーバーを Azure Virtual Machines にデプロイする必要があります。提案されたソリューションは次の基準を満たす必要があります。</p><ul><li><p>最大 15,000 のディスク IOPS のサポートを提供する</p></li><li><p>シングル ルート I/O 仮想化 (SR-IOV) をサポートする</p></li><li><p>全体のコストを可能な限り低く抑える</p></li></ul><p>次のオプションを選択する必要があります。コンポーネント。</p><p>「<code>仮想マシン シリーズ</code>」</p>",
+      "promptText": "SQL サーバーを Azure Virtual Machines にデプロイする必要があります。提案されたソリューションは次の基準を満たす必要があります。\n・最大 15,000 のディスク IOPS のサポートを提供する\n\n・シングル ルート I/O 仮想化 (SR-IOV) をサポートする\n\n・全体のコストを可能な限り低く抑える\n\n次のオプションを選択する必要があります。コンポーネント。\n「仮想マシン シリーズ」",
+      "choices": [
+        {
+          "choiceId": "en4-q-009-c1",
+          "label": null,
+          "text": "DS シリーズ仮想マシン",
+          "html": "<p>DS シリーズ仮想マシン</p>"
+        },
+        {
+          "choiceId": "en4-q-009-c2",
+          "label": null,
+          "text": "NC シリーズ仮想マシン",
+          "html": "<p>NC シリーズ仮想マシン</p>"
+        },
+        {
+          "choiceId": "en4-q-009-c3",
+          "label": null,
+          "text": "NV シリーズ仮想マシン",
+          "html": "<p>NV シリーズ仮想マシン</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-009-c1"
+      ],
+      "explanationHtml": "<p>DS シリーズ仮想マシン は正解です。なぜなら、DS シリーズ仮想マシンはディスク集中型のワークロード向けに最適化されており、ディスクと VM のサイズに応じて 15,000 ディスク IOPS をはるかに超える高 IOPS を実現できる Premium SSD をサポートしているからです。</p><p>NC シリーズ仮想マシン は誤りです。NC シリーズ VM は機械学習や AI モデル トレーニングなど、GPU を集中的に使用するコンピューティング ワークロード向けに設計されているためです。</p><p>NV シリーズ仮想マシン は誤りです。これは、NV シリーズ VM が GPU アクセラレーションを使用してグラフィックスを多用するアプリケーション (リモート ビジュアライゼーションなど) に最適化されているためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series\">https://learn.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-machines/sizes\">https://learn.microsoft.com/en-us/azure/virtual-machines/sizes</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nc-series?tabs=sizeBasic\">https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nc-series?tabs=sizeBasic</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nv-series?tabs=sizeBasic\">https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nv-series?tabs=sizeBasic</a></p></li></ul>",
+      "explanationText": "DS シリーズ仮想マシン は正解です。なぜなら、DS シリーズ仮想マシンはディスク集中型のワークロード向けに最適化されており、ディスクと VM のサイズに応じて 15,000 ディスク IOPS をはるかに超える高 IOPS を実現できる Premium SSD をサポートしているからです。\nNC シリーズ仮想マシン は誤りです。NC シリーズ VM は機械学習や AI モデル トレーニングなど、GPU を集中的に使用するコンピューティング ワークロード向けに設計されているためです。\nNV シリーズ仮想マシン は誤りです。これは、NV シリーズ VM が GPU アクセラレーションを使用してグラフィックスを多用するアプリケーション (リモート ビジュアライゼーションなど) に最適化されているためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series\n\n・https://learn.microsoft.com/en-us/azure/virtual-machines/sizes\n\n・https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nc-series?tabs=sizeBasic\n\n・https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nv-series?tabs=sizeBasic",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en4-q-010",
+      "sourceQuestionNumber": 10,
+      "promptHtml": "<p>SQL サーバーを Azure Virtual Machines にデプロイする必要があります。提案されたソリューションは次の基準を満たす必要があります。</p><ul><li><p>最大 15,000 のディスク IOPS のサポートを提供する</p></li><li><p>シングル ルート I/O 仮想化 (SR-IOV) をサポートする</p></li><li><p>全体のコストを可能な限り低く抑える</p></li></ul><p>次のオプションを選択する必要があります。コンポーネント。</p><p>「<code>ディスク タイプ</code>」</p>",
+      "promptText": "SQL サーバーを Azure Virtual Machines にデプロイする必要があります。提案されたソリューションは次の基準を満たす必要があります。\n・最大 15,000 のディスク IOPS のサポートを提供する\n\n・シングル ルート I/O 仮想化 (SR-IOV) をサポートする\n\n・全体のコストを可能な限り低く抑える\n\n次のオプションを選択する必要があります。コンポーネント。\n「ディスク タイプ」",
+      "choices": [
+        {
+          "choiceId": "en4-q-010-c1",
+          "label": null,
+          "text": "標準 SSD",
+          "html": "標準 SSD"
+        },
+        {
+          "choiceId": "en4-q-010-c2",
+          "label": null,
+          "text": "プレミアム SSD",
+          "html": "プレミアム SSD"
+        },
+        {
+          "choiceId": "en4-q-010-c3",
+          "label": null,
+          "text": "Ultra ディスク",
+          "html": "Ultra ディスク"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-010-c2"
+      ],
+      "explanationHtml": "<p>プレミアム SSD は正解です。パフォーマンスと価格のコスト効率の高いバランスを提供し、ディスクあたり最大 20,000 IOPS をサポートし (ディスク サイズに応じて)、Azure Virtual Machines 上の SQL サーバーと完全に互換性があります。</p><p>標準 SSD は誤りです。これは、低 IOPS ワークロード (ディスクあたり最高で最大約 6,000 IOPS) 向けに設計されているためです。</p><p>Ultra Disk は誤りです。これは、非常に高い IOPS (最大 160,000) と非常に低い遅延をサポートしているものの、Premium SSD よりもかなり高価であるためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-machines/disks-types\">https://learn.microsoft.com/en-us/azure/virtual-machines/disks-types</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-machines/disks-performance\">https://learn.microsoft.com/en-us/azure/virtual-machines/disks-performance</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-machines/premium-storage-performance\">https://learn.microsoft.com/en-us/azure/virtual-machines/premium-storage-performance</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-machines/disks-enable-ultra-ssd?tabs=azure-portal\">https://learn.microsoft.com/en-us/azure/virtual-machines/disks-enable-ultra-ssd?tabs=azure-portal</a></p></li></ul>",
+      "explanationText": "プレミアム SSD は正解です。パフォーマンスと価格のコスト効率の高いバランスを提供し、ディスクあたり最大 20,000 IOPS をサポートし (ディスク サイズに応じて)、Azure Virtual Machines 上の SQL サーバーと完全に互換性があります。\n標準 SSD は誤りです。これは、低 IOPS ワークロード (ディスクあたり最高で最大約 6,000 IOPS) 向けに設計されているためです。\nUltra Disk は誤りです。これは、非常に高い IOPS (最大 160,000) と非常に低い遅延をサポートしているものの、Premium SSD よりもかなり高価であるためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/virtual-machines/disks-types\n\n・https://learn.microsoft.com/en-us/azure/virtual-machines/disks-performance\n\n・https://learn.microsoft.com/en-us/azure/virtual-machines/premium-storage-performance\n\n・https://learn.microsoft.com/en-us/azure/virtual-machines/disks-enable-ultra-ssd?tabs=azure-portal",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-case-001",
+      "tags": [
+        "case-study"
+      ]
+    }
+  ]
+}

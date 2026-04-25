@@ -1,0 +1,93 @@
+{
+  "setId": "en3-set-006",
+  "title": "英語問題集3 翻訳版 51-52",
+  "sourceHtml": "assets/英語問題集3.html",
+  "questionIds": [
+    "en3-q-051",
+    "en3-q-052"
+  ],
+  "questions": [
+    {
+      "questionId": "en3-q-051",
+      "sourceQuestionNumber": 51,
+      "promptHtml": "<p><strong>以下のリンクにある ApexCore Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><em>https://docs.google.com/document/d/1qD29F6-8DOjIFF8AybRayDZgL7h_lVGKDsL73lyqkQc/edit。usp=sharing</em></p><p><br></p><p><strong>ApexCore Ltd. のケーススタディ</strong>に基づいて、<strong>App1</strong> は各 Azure リージョンの複数の<strong>可用性ゾーン</strong>にデプロイされ、固有のローカリティとインスタンス間の可視性に関連する<strong>データ要件</strong>。</p><p>次のような App1 の要件を満たすデータ ソリューションを推奨する必要があります。</p><ul><li><p>データは、App1 インスタンスと<strong>同じアベイラビリティ ゾーン</strong>内でローカルに書き込まれます。</p></li><li><p>任意のユーザーによって書き込まれたデータApp1 インスタンスは<strong>他のすべての App1 インスタンス</strong>から参照可能です。</p></li></ul><p>これらのデータ要件を満たすために、<code>App1</code> のインスタンスをホストする各アベイラビリティ ゾーンに何をデプロイする必要がありますか。</p>",
+      "promptText": "以下のリンクにある ApexCore Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/1qD29F6-8DOjIFF8AybRayDZgL7h_lVGKDsL73lyqkQc/edit。usp=sharing\n\nApexCore Ltd. のケーススタディに基づいて、App1 は各 Azure リージョンの複数の可用性ゾーンにデプロイされ、固有のローカリティとインスタンス間の可視性に関連するデータ要件。\n次のような App1 の要件を満たすデータ ソリューションを推奨する必要があります。\n・データは、App1 インスタンスと同じアベイラビリティ ゾーン内でローカルに書き込まれます。\n\n・任意のユーザーによって書き込まれたデータApp1 インスタンスは他のすべての App1 インスタンスから参照可能です。\n\nこれらのデータ要件を満たすために、App1 のインスタンスをホストする各アベイラビリティ ゾーンに何をデプロイする必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-051-c1",
+          "label": null,
+          "text": "使用する Azure ストレージ アカウントgeo ゾーン冗長ストレージ (GZRS)",
+          "html": "使用する Azure ストレージ アカウントgeo ゾーン冗長ストレージ (GZRS)"
+        },
+        {
+          "choiceId": "en3-q-051-c2",
+          "label": null,
+          "text": "マルチリージョン書き込みを使用する Azure Cosmos DB",
+          "html": "マルチリージョン書き込みを使用する Azure Cosmos DB"
+        },
+        {
+          "choiceId": "en3-q-051-c3",
+          "label": null,
+          "text": "geo ゾーン冗長ストレージ (GZRS) を使用する Azure Data Lake ストア",
+          "html": "geo ゾーン冗長ストレージ (GZRS) を使用する Azure Data Lake ストア"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-051-c2"
+      ],
+      "explanationHtml": "<p>Azureマルチリージョン書き込みを使用する Cosmos DB は正しいです。ケーススタディでは App1 の次のデータ要件が指定されています:</p><ul><li><p>「各インスタンスは、インスタンスと同じアベイラビリティ ゾーンにあるデータ ストアにデータを書き込みます。」</p></li><li><p>「任意の App1 インスタンスによって書き込まれたデータは、次のユーザーに表示される必要があります。」</p></li></ul><p>これには、低レイテンシーのローカル書き込みとグローバル一貫性をサポートする、グローバルに分散されたマルチリージョンの高可用性データ ストアが必要です。マルチリージョン書き込みを備えた Azure Cosmos DB は、これらの要件を正確に満たしています。</p><p>地理ゾーン冗長ストレージ (GZRS) を使用する Azure ストレージ アカウント は誤りです。GZRS は可用性ゾーンとリージョン全体で冗長性を提供しますが、そうではないからです。</p><p>地理ゾーン冗長ストレージ (GZRS) を使用する Azure Data Lake ストア は誤りです。これは、Azure Data Lake Storage は Azure Blob Storage 上に構築されており、同様の制限を継承しているためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/high-availability\">https://learn.microsoft.com/en-us/azure/cosmos-db/high-availability</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/how-to-multi-master?tabs=api-async\">https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/how-to-multi-master?tabs=api-async</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally\">https://learn.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy\">https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy</a></p></li></ul>",
+      "explanationText": "正解はAzureマルチリージョン書き込みを使用する Cosmos DBです。ケーススタディでは App1 の次のデータ要件が指定されています:\n・「各インスタンスは、インスタンスと同じアベイラビリティ ゾーンにあるデータ ストアにデータを書き込みます。」\n\n・「任意の App1 インスタンスによって書き込まれたデータは、次のユーザーに表示される必要があります。」\n\nこれには、低レイテンシーのローカル書き込みとグローバル一貫性をサポートする、グローバルに分散されたマルチリージョンの高可用性データ ストアが必要です。マルチリージョン書き込みを備えた Azure Cosmos DB は、これらの要件を正確に満たしています。\n地理ゾーン冗長ストレージ (GZRS) を使用する Azure ストレージ アカウント は誤りです。GZRS は可用性ゾーンとリージョン全体で冗長性を提供しますが、そうではないからです。\n地理ゾーン冗長ストレージ (GZRS) を使用する Azure Data Lake ストア は誤りです。これは、Azure Data Lake Storage は Azure Blob Storage 上に構築されており、同様の制限を継承しているためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/cosmos-db/high-availability\n\n・https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/how-to-multi-master?tabs=api-async\n\n・https://learn.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally\n\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en3-q-052",
+      "sourceQuestionNumber": 52,
+      "promptHtml": "<p><strong>以下のリンクにある ApexCore Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><em>https://docs.google.com/document/d/1qD29F6-8DOjIFF8AybRayDZgL7h_lVGKDsL73lyqkQc/edit。usp=sharing</em></p><p><br></p><p><strong>ApexCore Ltd. の事例</strong>に基づくと、<strong>App2</strong> は<strong>監視が定義された<strong>Azure App Service アプリケーション</strong>です。アプリケーションのトランザクション期間の分析に関連する要件</strong>。監視ソリューションは、<strong>App2 アプリケーション コード</strong>を変更することなく機能する必要があります。</p><p>App2 のこれらの<strong>監視要件</strong>を満たすソリューションを推奨する必要があります。</p><p>監視要件を満たすために推奨事項に含める必要があるものは何ですか。 <code>App2</code>。</p>",
+      "promptText": "以下のリンクにある ApexCore Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/1qD29F6-8DOjIFF8AybRayDZgL7h_lVGKDsL73lyqkQc/edit。usp=sharing\n\nApexCore Ltd. の事例に基づくと、App2 は監視が定義されたAzure App Service アプリケーションです。アプリケーションのトランザクション期間の分析に関連する要件。監視ソリューションは、App2 アプリケーション コードを変更することなく機能する必要があります。\nApp2 のこれらの監視要件を満たすソリューションを推奨する必要があります。\n監視要件を満たすために推奨事項に含める必要があるものは何ですか。 App2。",
+      "choices": [
+        {
+          "choiceId": "en3-q-052-c1",
+          "label": null,
+          "text": "Container Insights",
+          "html": "Container Insights"
+        },
+        {
+          "choiceId": "en3-q-052-c2",
+          "label": null,
+          "text": "Azure Application Insights",
+          "html": "Azure Application Insights"
+        },
+        {
+          "choiceId": "en3-q-052-c3",
+          "label": null,
+          "text": "Microsoft Sentinel",
+          "html": "Microsoft Sentinel"
+        },
+        {
+          "choiceId": "en3-q-052-c4",
+          "label": null,
+          "text": "VM の分析情報",
+          "html": "VM の分析情報"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-052-c2"
+      ],
+      "explanationHtml": "<p>Azure Application Insights はケース スタディに次のように記載されているため正しいです。</p><ul><li><p>「アプリケーション内でさまざまなトランザクションの実行にかかる時間を分析するには、App2 を監視する必要があります。ソリューションでは、アプリケーション コードの変更が必要であってはなりません。</p></li></ul><p>Azure アプリケーションInsights は、ライブ アプリケーションを監視するように設計されており、トランザクション期間、応答時間、依存関係の追跡などの詳細なパフォーマンス テレメトリを提供します。また、エージェント ベースの監視 (Application Insights Profiler または Snapshot Debugger 経由) もサポートしています。</p><p>Container Insights は、コンテナー化されたアプリケーション (AKS や Docker 環境など) の監視に使用されるため不正確です。 App2 は、コンテナーではなく App Service で実行されます。</p><p>Microsoft Sentinel は誤りです。これは、アプリケーションのパフォーマンスの監視ではなく、セキュリティ分析と脅威の検出を目的として設計された SIEM (セキュリティ情報およびイベント管理) ツールであるためです。</p><p>VM の分析情報は、 App2 は仮想マシンではなく App Service (PaaS) で実行されるため、不正解です。 VM の分析情報は、VM のインフラストラクチャ メトリクスのモニタリングにのみ適用されます。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview\">https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/insights/code-optimizations-profiler-overview\">https://learn.microsoft.com/en-us/azure/azure-monitor/insights/code-optimizations-profiler-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-overview\">https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview\">https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/sentinel/overview\">https://learn.microsoft.com/en-us/azure/sentinel/overview</a></p></li></ul>",
+      "explanationText": "Azure Application Insights はケース スタディに次のように記載されているため正しいです。\n・「アプリケーション内でさまざまなトランザクションの実行にかかる時間を分析するには、App2 を監視する必要があります。ソリューションでは、アプリケーション コードの変更が必要であってはなりません。\n\nAzure アプリケーションInsights は、ライブ アプリケーションを監視するように設計されており、トランザクション期間、応答時間、依存関係の追跡などの詳細なパフォーマンス テレメトリを提供します。また、エージェント ベースの監視 (Application Insights Profiler または Snapshot Debugger 経由) もサポートしています。\nContainer Insights は、コンテナー化されたアプリケーション (AKS や Docker 環境など) の監視に使用されるため不正確です。 App2 は、コンテナーではなく App Service で実行されます。\nMicrosoft Sentinel は誤りです。これは、アプリケーションのパフォーマンスの監視ではなく、セキュリティ分析と脅威の検出を目的として設計された SIEM (セキュリティ情報およびイベント管理) ツールであるためです。\nVM の分析情報は、 App2 は仮想マシンではなく App Service (PaaS) で実行されるため、不正解です。 VM の分析情報は、VM のインフラストラクチャ メトリクスのモニタリングにのみ適用されます。\n参照:\n・https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/insights/code-optimizations-profiler-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview\n\n・https://learn.microsoft.com/en-us/azure/sentinel/overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-case-002",
+      "tags": [
+        "case-study"
+      ]
+    }
+  ]
+}

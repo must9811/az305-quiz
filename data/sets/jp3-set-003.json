@@ -42,10 +42,12 @@
       "images": [
         "assets/問題集3_files/2023-01-12_07-58-33-1ea9d533eae034ac17244f4db9a13c23.png"
       ],
-      "domain": null,
-      "questionType": "single",
+      "domain": "データストレージソリューションを設計する",
+      "questionType": "boolean",
       "contextGroupId": null,
-      "tags": []
+      "tags": [
+        "boolean"
+      ]
     },
     {
       "questionId": "jp3-q-022",
@@ -86,7 +88,7 @@
       "images": [
         "assets/問題集3_files/2023-01-18_04-18-13-1fbbbee22d8ee1d60f14b18d08d03472.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-004",
       "tags": [
@@ -132,7 +134,7 @@
       "images": [
         "assets/問題集3_files/2023-01-18_04-37-49-1812be70e76c66ad6360478f5ae82234.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-004",
       "tags": [
@@ -178,7 +180,7 @@
       "images": [
         "assets/問題集3_files/2023-02-05_06-43-46-0185e42266f34e022f3165f820a1bf6c.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-004",
       "tags": [
@@ -225,7 +227,7 @@
         "assets/問題集3_files/2023-02-05_07-33-04-bf5607e568196e6df9c09732c107884b.png",
         "assets/問題集3_files/2023-02-05_07-33-04-ca8b249b599ab36873a5319309701390.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-004",
       "tags": [
@@ -271,7 +273,7 @@
       "images": [
         "assets/問題集3_files/2023-02-05_08-28-17-70c81ac116ab8b9825e643c105a5465f.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -315,7 +317,7 @@
       "images": [
         "assets/問題集3_files/2023-01-25_01-56-16-149b80f17566bf50a109459d8265bc57.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-005",
       "tags": [
@@ -362,7 +364,7 @@
         "assets/問題集3_files/2023-01-25_02-03-55-c3029c62f8e70c409e14cb0bb61b9618.png",
         "assets/問題集3_files/2023-01-25_02-03-56-f616e71e97f8ab89512f6c3fab061753.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-005",
       "tags": [
@@ -406,7 +408,7 @@
       "explanationHtml": "<p><code>・データストアへの低レイテンシーなアクセスを提供すること</code></p><p>Azure Cosmos DB は、フルマネージドの NoSQL とリレーショナルデータベースです。</p><p>数ミリ秒 (1 桁台)の応答時間、グローバル分散、マルチマスター（複数リージョンに書き込み可能）などの特徴があり、スループット、レイテンシー（待機時間）、月間稼働時間などに対してSLAが提供されています。</p><p><br></p><p><code>・JSONベースのアイテムを保存すること</code></p><p><code>・データストア上でSQLのようなクエリを使用できること</code></p><p>Azure Cosmos DB には、次のように複数のAPIが用意されています。</p><p>・Azure Cosmos DB for NoSQL</p><p>・Azure Cosmos DB for MongoDB</p><p>・Azure Cosmos DB for Apache Cassandra</p><p>・Azure Cosmos DB for Table</p><p>・Azure Cosmos DB for Apache Gremlin</p><p>・Azure Cosmos DB for PostgreSQL</p><p><br></p><p>このうち、Azure Cosmos DB for NoSQLでは、データは JSON として保存され、SQL構文を使用したクエリがサポートされています。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/introduction\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/introduction</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/choose-api#coresql-api\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/choose-api#coresql-api</a></p>",
       "explanationText": "・データストアへの低レイテンシーなアクセスを提供すること\nAzure Cosmos DB は、フルマネージドの NoSQL とリレーショナルデータベースです。\n数ミリ秒 (1 桁台)の応答時間、グローバル分散、マルチマスター（複数リージョンに書き込み可能）などの特徴があり、スループット、レイテンシー（待機時間）、月間稼働時間などに対してSLAが提供されています。\n\n・JSONベースのアイテムを保存すること\n・データストア上でSQLのようなクエリを使用できること\nAzure Cosmos DB には、次のように複数のAPIが用意されています。\n・Azure Cosmos DB for NoSQL\n・Azure Cosmos DB for MongoDB\n・Azure Cosmos DB for Apache Cassandra\n・Azure Cosmos DB for Table\n・Azure Cosmos DB for Apache Gremlin\n・Azure Cosmos DB for PostgreSQL\n\nこのうち、Azure Cosmos DB for NoSQLでは、データは JSON として保存され、SQL構文を使用したクエリがサポートされています。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/introduction\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/choose-api#coresql-api",
       "images": [],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -448,7 +450,7 @@
       "explanationHtml": "<p><code>ユーザーはアプリケーションにアクセスするためにユーザー名とパスワードを入力する必要があります</code></p><p>この要件を満たすためには、パスワードベースのシングルサインオンオプションを選択します。</p><p>パスワード ベースの SSO では、アプリケーションによって提供される既存の認証プロセスが使用されます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/manage-apps/plan-sso-deployment#single-sign-on-options\">https://learn.microsoft.com/ja-jp/azure/active-directory/manage-apps/plan-sso-deployment#single-sign-on-options</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory/manage-apps/configure-password-single-sign-on-non-gallery-applications\">https://learn.microsoft.com/ja-jp/azure/active-directory/manage-apps/configure-password-single-sign-on-non-gallery-applications</a></p>",
       "explanationText": "ユーザーはアプリケーションにアクセスするためにユーザー名とパスワードを入力する必要があります\nこの要件を満たすためには、パスワードベースのシングルサインオンオプションを選択します。\nパスワード ベースの SSO では、アプリケーションによって提供される既存の認証プロセスが使用されます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/manage-apps/plan-sso-deployment#single-sign-on-options\nhttps://learn.microsoft.com/ja-jp/azure/active-directory/manage-apps/configure-password-single-sign-on-non-gallery-applications",
       "images": [],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []

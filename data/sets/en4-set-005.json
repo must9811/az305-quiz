@@ -1,0 +1,447 @@
+{
+  "setId": "en4-set-005",
+  "title": "英語問題集4 翻訳版 41-50",
+  "sourceHtml": "assets/英語問題集4.html",
+  "questionIds": [
+    "en4-q-041",
+    "en4-q-042",
+    "en4-q-043",
+    "en4-q-044",
+    "en4-q-045",
+    "en4-q-046",
+    "en4-q-047",
+    "en4-q-048",
+    "en4-q-049",
+    "en4-q-050"
+  ],
+  "questions": [
+    {
+      "questionId": "en4-q-041",
+      "sourceQuestionNumber": 41,
+      "promptHtml": "<p>Windows Server 2019 を実行し、約 700 GB のデータ ファイルを保存する VM1 という名前の Azure 仮想マシンがあります。</p><p>あなたは、Azure Data Factory を使用してこれらのデータ ファイルを処理および変換し、変換されたデータを Azure Data Lake Storage に読み込むソリューションを設計しています。</p><p>これをサポートするには、VM1 にどのコンポーネントをデプロイする必要がありますか。設計。</p>",
+      "promptText": "Windows Server 2019 を実行し、約 700 GB のデータ ファイルを保存する VM1 という名前の Azure 仮想マシンがあります。\nあなたは、Azure Data Factory を使用してこれらのデータ ファイルを処理および変換し、変換されたデータを Azure Data Lake Storage に読み込むソリューションを設計しています。\nこれをサポートするには、VM1 にどのコンポーネントをデプロイする必要がありますか。設計。",
+      "choices": [
+        {
+          "choiceId": "en4-q-041-c1",
+          "label": null,
+          "text": "オンプレミス データ ゲートウェイ",
+          "html": "オンプレミス データ ゲートウェイ"
+        },
+        {
+          "choiceId": "en4-q-041-c2",
+          "label": null,
+          "text": "Azure Pipelines エージェント",
+          "html": "Azure Pipelines エージェント"
+        },
+        {
+          "choiceId": "en4-q-041-c3",
+          "label": null,
+          "text": "セルフホステッド統合ランタイム",
+          "html": "セルフホステッド統合ランタイム"
+        },
+        {
+          "choiceId": "en4-q-041-c4",
+          "label": null,
+          "text": "Azure File Sync エージェント",
+          "html": "Azure File Sync エージェント"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-041-c3"
+      ],
+      "explanationHtml": "<p>セルフホステッド統合ランタイム は正解です。これは、Azure Data Factory では、オンプレミス環境またはセルフマネージド VM から Azure Data Lake Storage などの Azure サービスにデータを安全に移動するためにセルフホステッド統合ランタイム (IR) が必要であるためです。</p><p>セルフホステッド IR は、Azure Data Factory が仮想マシン、オンプレミス サーバー、プライベート サーバーなど、Azure の外部の環境に存在するデータのコピーと変換アクティビティを実行できるようにする安全なブリッジとして機能します。</p><p>オンプレミス データ ゲートウェイ は誤りです。これは、データの移動や変換のために Azure Data Factory ではなく、主に Power BI、Power Apps、Logic Apps によって使用されるためです。</p><p>Azure Pipelines エージェント は誤りです。Azure DevOps では、Azure Data Factory でのデータの移動や変換ではなく、CI/CD パイプラインの実行に使用されているためです。</p><p>Azure File Sync エージェントは、オンプレミスのファイル サーバーと Azure File 共有の間でファイルを同期するように設計されており、Azure でのデータの変換や読み込みを目的として設計されていないため、不正解です。 Data Factory。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime#self-hosted-integration-runtime\">https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime#self-hosted-integration-runtime</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem\">https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&amp;tabs=yaml%2Cbrowser\">https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&amp;tabs=yaml%2Cbrowser</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-introduction\">https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-introduction</a></p></li></ul>",
+      "explanationText": "セルフホステッド統合ランタイム は正解です。これは、Azure Data Factory では、オンプレミス環境またはセルフマネージド VM から Azure Data Lake Storage などの Azure サービスにデータを安全に移動するためにセルフホステッド統合ランタイム (IR) が必要であるためです。\nセルフホステッド IR は、Azure Data Factory が仮想マシン、オンプレミス サーバー、プライベート サーバーなど、Azure の外部の環境に存在するデータのコピーと変換アクティビティを実行できるようにする安全なブリッジとして機能します。\nオンプレミス データ ゲートウェイ は誤りです。これは、データの移動や変換のために Azure Data Factory ではなく、主に Power BI、Power Apps、Logic Apps によって使用されるためです。\nAzure Pipelines エージェント は誤りです。Azure DevOps では、Azure Data Factory でのデータの移動や変換ではなく、CI/CD パイプラインの実行に使用されているためです。\nAzure File Sync エージェントは、オンプレミスのファイル サーバーと Azure File 共有の間でファイルを同期するように設計されており、Azure でのデータの変換や読み込みを目的として設計されていないため、不正解です。 Data Factory。\n参照:\n・https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime#self-hosted-integration-runtime\n\n・https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem\n\n・https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=yaml%2Cbrowser\n\n・https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-introduction",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en4-q-042",
+      "sourceQuestionNumber": 42,
+      "promptHtml": "<p>次の表に示す Azure リソースがあります。</p><ul><li><p><strong>VNET1</strong>: ExpressRoute を使用してオンプレミス ネットワークに接続されている仮想ネットワーク</p></li><li><p><strong>VM1</strong>: として機能するように構成された仮想マシンDNS サーバー</p></li><li><p><strong>PE1</strong>: SQLDB1</p></li><li><p><strong>apexcore.com (プライベート DNS ゾーン)</strong>: VNET1 にリンクされており、 PE1</p></li><li><p><strong>apexcore.com (パブリック DNS ゾーン)</strong>: SQLDB1 の CNAME レコードが含まれます</p></li></ul><p>オンプレミス ネットワークから SQLDB1 への接続を可能にするソリューションを設計する必要があります。 PE1 を使用します。</p><p>解決策の一環として、名前解決を構成する必要があります。</p><p>どの <code>Azure</code> 構成を選択する必要がありますか。</p>",
+      "promptText": "次の表に示す Azure リソースがあります。\n・VNET1: ExpressRoute を使用してオンプレミス ネットワークに接続されている仮想ネットワーク\n\n・VM1: として機能するように構成された仮想マシンDNS サーバー\n\n・PE1: SQLDB1\n\n・apexcore.com (プライベート DNS ゾーン): VNET1 にリンクされており、 PE1\n\n・apexcore.com (パブリック DNS ゾーン): SQLDB1 の CNAME レコードが含まれます\n\nオンプレミス ネットワークから SQLDB1 への接続を可能にするソリューションを設計する必要があります。 PE1 を使用します。\n解決策の一環として、名前解決を構成する必要があります。\nどの Azure 構成を選択する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-042-c1",
+          "label": null,
+          "text": "apexcore.com をパブリック DNS に転送するように VM1 を構成します。ゾーン",
+          "html": "<p>apexcore.com をパブリック DNS に転送するように VM1 を構成します。ゾーン</p>"
+        },
+        {
+          "choiceId": "en4-q-042-c2",
+          "label": null,
+          "text": "168.63.129.16 の Azure 提供の DNS に apexcore.com を転送するように VM1 を構成します。",
+          "html": "<p>168.63.129.16 の Azure 提供の DNS に apexcore.com を転送するように VM1 を構成します。</p>"
+        },
+        {
+          "choiceId": "en4-q-042-c3",
+          "label": null,
+          "text": "VNet1 で、カスタム ゾーンを構成します。 DNS サーバーを Azure 提供の DNS 168.63.129.16 に設定",
+          "html": "VNet1 で、カスタム ゾーンを構成します。 DNS サーバーを Azure 提供の DNS 168.63.129.16 に設定"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-042-c2"
+      ],
+      "explanationHtml": "<p>VM1 を Azure 提供のサーバーに転送するように VM1 を構成しますDNS 168.63.129.16 が正解です。この設定では、VM1 はオンプレミス ネットワークのカスタム DNS サーバーとして機能しており、Azure プライベート サーバーでホストされているプライベート エンドポイント名 (PE1) を解決する必要があるからです。</p><p>Configure apexcore.com をパブリック DNS ゾーンに転送する VM1 は不正確です。apexcore.com のパブリック DNS ゾーンには SQLDB1 の CNAME レコードが含まれており、これはプライベート エンドポイントではなくパブリック エンドポイントに解決され、安全のためにプライベート エンドポイントを使用する目的に反するためです。</p><p>VNet1 で、カスタム DNS サーバーを Azure 提供の DNS 168.63.129.16 に設定する は正しくありませんので、 168.63.129.16 は、カスタム DNS サーバーとして直接設定することを目的としていません。これは、カスタム DNS が定義されていない場合に Azure VM によって自動的に使用され、明示的に構成すると解決の問題が発生する可能性があります。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns\">https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/dns/private-dns-overview\">https://learn.microsoft.com/en-us/azure/dns/private-dns-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-network/what-is-ip-address-168-63-129-16\">https://learn.microsoft.com/en-us/azure/virtual-network/what-is-ip-address-168-63-129-16</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances?tabs=redhat\">https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances?tabs=redhat</a></p></li></ul>",
+      "explanationText": "正解はVM1 を Azure 提供のサーバーに転送するように VM1 を構成しますDNS 168.63.129.16 です。この設定では、VM1 はオンプレミス ネットワークのカスタム DNS サーバーとして機能しており、Azure プライベート サーバーでホストされているプライベート エンドポイント名 (PE1) を解決する必要があるからです。\nConfigure apexcore.com をパブリック DNS ゾーンに転送する VM1 は誤りです。apexcore.com のパブリック DNS ゾーンには SQLDB1 の CNAME レコードが含まれており、これはプライベート エンドポイントではなくパブリック エンドポイントに解決され、安全のためにプライベート エンドポイントを使用する目的に反するためです。\nVNet1 で、カスタム DNS サーバーを Azure 提供の DNS 168.63.129.16 に設定する は正しくありませんので、 168.63.129.16 は、カスタム DNS サーバーとして直接設定することを目的としていません。これは、カスタム DNS が定義されていない場合に Azure VM によって自動的に使用され、明示的に構成すると解決の問題が発生する可能性があります。\n参照:\n・https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns\n\n・https://learn.microsoft.com/en-us/azure/dns/private-dns-overview\n\n・https://learn.microsoft.com/en-us/azure/virtual-network/what-is-ip-address-168-63-129-16\n\n・https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances?tabs=redhat",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-linked-007",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en4-q-043",
+      "sourceQuestionNumber": 43,
+      "promptHtml": "<p>次の表に示す Azure リソースがあります。</p><ul><li><p><strong>VNET1</strong>: ExpressRoute を使用してオンプレミス ネットワークに接続されている仮想ネットワーク</p></li><li><p><strong>VM1</strong>: として機能するように構成された仮想マシンDNS サーバー</p></li><li><p><strong>PE1</strong>: SQLDB1</p></li><li><p><strong>apexcore.com (プライベート DNS ゾーン)</strong>: VNET1 にリンクされており、 PE1</p></li><li><p><strong>apexcore.com (パブリック DNS ゾーン)</strong>: SQLDB1 の CNAME レコードが含まれます</p></li></ul><p>オンプレミス ネットワークから SQLDB1 への接続を可能にするソリューションを設計する必要があります。 PE1 を使用します。</p><p>解決策の一部として、名前解決を構成する必要があります。</p><p>どの<strong> </strong><code>オンプレミス構成</code>を選択する必要がありますか。</p>",
+      "promptText": "次の表に示す Azure リソースがあります。\n・VNET1: ExpressRoute を使用してオンプレミス ネットワークに接続されている仮想ネットワーク\n\n・VM1: として機能するように構成された仮想マシンDNS サーバー\n\n・PE1: SQLDB1\n\n・apexcore.com (プライベート DNS ゾーン): VNET1 にリンクされており、 PE1\n\n・apexcore.com (パブリック DNS ゾーン): SQLDB1 の CNAME レコードが含まれます\n\nオンプレミス ネットワークから SQLDB1 への接続を可能にするソリューションを設計する必要があります。 PE1 を使用します。\n解決策の一部として、名前解決を構成する必要があります。\nどの オンプレミス構成を選択する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-043-c1",
+          "label": null,
+          "text": "apexcore.com を次の宛先に転送します。 VM1",
+          "html": "<p>apexcore.com を次の宛先に転送します。 VM1</p>"
+        },
+        {
+          "choiceId": "en4-q-043-c2",
+          "label": null,
+          "text": "apexcore.com をパブリック DNS ゾーンに転送します",
+          "html": "<p>apexcore.com をパブリック DNS ゾーンに転送します</p>"
+        },
+        {
+          "choiceId": "en4-q-043-c3",
+          "label": null,
+          "text": "apexcore.com を Azure でプロビジョニングされた DNS に転送します168.63.129.16",
+          "html": "<p>apexcore.com を Azure でプロビジョニングされた DNS に転送します168.63.129.16</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-043-c1"
+      ],
+      "explanationHtml": "<p>VM1 への apexcore.com の転送は正しいです。これは、VM1 が DNS サーバーとして構成されているためです。</p><p>パブリック [[KEEP_38 ゾーンに apexcore.com を転送する は誤りです。DNS ゾーンには、SQLDB1 のパブリック エンドポイントを指す CNAME レコードが含まれています。</p><p>apexcore.com を Azure でプロビジョニングされたサーバーに転送します。168.63.129.16 の DNS は不正確です。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns\">https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/dns/private-dns-overview\">https://learn.microsoft.com/en-us/azure/dns/private-dns-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-network/what-is-ip-address-168-63-129-16\">https://learn.microsoft.com/en-us/azure/virtual-network/what-is-ip-address-168-63-129-16</a></p></li></ul>",
+      "explanationText": "VM1 への apexcore.com の転送は正しいです。これは、VM1 が DNS サーバーとして構成されているためです。\nパブリック [[KEEP_38 ゾーンに apexcore.com を転送する は誤りです。DNS ゾーンには、SQLDB1 のパブリック エンドポイントを指す CNAME レコードが含まれています。\napexcore.com を Azure でプロビジョニングされたサーバーに転送します。168.63.129.16 の DNS は誤りです。\n参照:\n・https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns\n\n・https://learn.microsoft.com/en-us/azure/dns/private-dns-overview\n\n・https://learn.microsoft.com/en-us/azure/virtual-network/what-is-ip-address-168-63-129-16",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-linked-007",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en4-q-044",
+      "sourceQuestionNumber": 44,
+      "promptHtml": "<p>ハイブリッド Microsoft Entra テナントに関連付けられている <strong>Sub1</strong> という名前の Azure サブスクリプションがあります。</p><p><strong>Sub1</strong> への VPN 接続を持たないオンプレミス データセンターがあります。データセンター内では、<strong>Server1</strong> という名前のサーバーが Microsoft SQL Server 2016 を実行しています。このサーバーはインターネットへのアクセスが制限されています。</p><p><strong>LogicApp1</strong> という名前の Azure ロジック アプリには、<strong>Server1</strong> でホストされているデータベースへの書き込みアクセスが必要です。</p><p> <strong>LogicApp1</strong> が <strong>Server1</strong> にアクセスできるようにするソリューションを推奨します。</p><p><code>オンプレミス</code> の展開には何を推奨しますか。</p>",
+      "promptText": "ハイブリッド Microsoft Entra テナントに関連付けられている Sub1 という名前の Azure サブスクリプションがあります。\nSub1 への VPN 接続を持たないオンプレミス データセンターがあります。データセンター内では、Server1 という名前のサーバーが Microsoft SQL Server 2016 を実行しています。このサーバーはインターネットへのアクセスが制限されています。\nLogicApp1 という名前の Azure ロジック アプリには、Server1 でホストされているデータベースへの書き込みアクセスが必要です。\n LogicApp1 が Server1 にアクセスできるようにするソリューションを推奨します。\nオンプレミス の展開には何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-044-c1",
+          "label": null,
+          "text": "Windows Server 用の Web アプリケーション プロキシ",
+          "html": "Windows Server 用の Web アプリケーション プロキシ"
+        },
+        {
+          "choiceId": "en4-q-044-c2",
+          "label": null,
+          "text": "Microsoft Entra アプリケーションプロキシ コネクタ",
+          "html": "<p>Microsoft Entra アプリケーションプロキシ コネクタ</p>"
+        },
+        {
+          "choiceId": "en4-q-044-c3",
+          "label": null,
+          "text": "オンプレミス データ ゲートウェイ",
+          "html": "オンプレミス データ ゲートウェイ"
+        },
+        {
+          "choiceId": "en4-q-044-c4",
+          "label": null,
+          "text": "ハイブリッド接続マネージャー",
+          "html": "ハイブリッド接続マネージャー"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-044-c3"
+      ],
+      "explanationHtml": "<p>オンプレミス データ ゲートウェイ は、安全で暗号化された通信を可能にするため正解です。Azure Logic Apps などの Azure サービスと SQL サーバーなどのオンプレミス データ ソースの間で、VPN を必要としたり、オンプレミス サーバーをパブリック インターネットに公開したりする必要はありません。</p><p>Windows Server 用の Web アプリケーション プロキシ は、オンプレミスの Web アプリケーションを外部アクセスのためにインターネットに公開するために使用され、Logic Apps などの Azure サービスとの対話を可能にするために使用されるため、間違っています。</p><p>Microsoft Entra ID アプリケーション プロキシ コネクタ は誤りです。これは、通常は認証と SSO のために、Microsoft Entra 経由で内部 Web アプリを外部ユーザーに公開する目的を果たしているためです。</p><p>ハイブリッド接続マネージャーは、Logic Apps ではなく Azure Relay および App Services で使用されるため、不正確です。 Logic Apps は、オンプレミス SQL サーバーへの接続にハイブリッド接続を使用しません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem\">https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-gateway-connection\">https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-gateway-connection</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview\">https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview</a></p></li></ul>",
+      "explanationText": "オンプレミス データ ゲートウェイ は、安全で暗号化された通信を可能にするため正解です。Azure Logic Apps などの Azure サービスと SQL サーバーなどのオンプレミス データ ソースの間で、VPN を必要としたり、オンプレミス サーバーをパブリック インターネットに公開したりする必要はありません。\nWindows Server 用の Web アプリケーション プロキシ は、オンプレミスの Web アプリケーションを外部アクセスのためにインターネットに公開するために使用され、Logic Apps などの Azure サービスとの対話を可能にするために使用されるため、間違っています。\nMicrosoft Entra ID アプリケーション プロキシ コネクタ は誤りです。これは、通常は認証と SSO のために、Microsoft Entra 経由で内部 Web アプリを外部ユーザーに公開する目的を果たしているためです。\nハイブリッド接続マネージャーは、Logic Apps ではなく Azure Relay および App Services で使用されるため、不正確です。 Logic Apps は、オンプレミス SQL サーバーへの接続にハイブリッド接続を使用しません。\n参照:\n・https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem\n\n・https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-gateway-connection\n\n・https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-linked-008",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en4-q-045",
+      "sourceQuestionNumber": 45,
+      "promptHtml": "<p>ハイブリッド Microsoft Entra テナントに関連付けられている <strong>Sub1</strong> という名前の Azure サブスクリプションがあります。</p><p><strong>Sub1</strong> への VPN 接続を持たないオンプレミス データセンターがあります。データセンター内では、<strong>Server1</strong> という名前のサーバーが Microsoft SQL Server 2016 を実行しています。このサーバーはインターネットへのアクセスが制限されています。</p><p><strong>LogicApp1</strong> という名前の Azure ロジック アプリには、<strong>Server1</strong> でホストされているデータベースへの書き込みアクセスが必要です。</p><p> <strong>LogicApp1</strong> が <strong>Server1</strong> にアクセスできるようにするソリューションを推奨します。</p><p><code>Azure</code> へのデプロイには何を推奨しますか。</p>",
+      "promptText": "ハイブリッド Microsoft Entra テナントに関連付けられている Sub1 という名前の Azure サブスクリプションがあります。\nSub1 への VPN 接続を持たないオンプレミス データセンターがあります。データセンター内では、Server1 という名前のサーバーが Microsoft SQL Server 2016 を実行しています。このサーバーはインターネットへのアクセスが制限されています。\nLogicApp1 という名前の Azure ロジック アプリには、Server1 でホストされているデータベースへの書き込みアクセスが必要です。\n LogicApp1 が Server1 にアクセスできるようにするソリューションを推奨します。\nAzure へのデプロイには何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-045-c1",
+          "label": null,
+          "text": "接続ゲートウェイ リソース",
+          "html": "接続ゲートウェイ リソース"
+        },
+        {
+          "choiceId": "en4-q-045-c2",
+          "label": null,
+          "text": "Azure アプリケーションゲートウェイ",
+          "html": "Azure アプリケーションゲートウェイ"
+        },
+        {
+          "choiceId": "en4-q-045-c3",
+          "label": null,
+          "text": "Azure Event Grid ドメイン",
+          "html": "Azure Event Grid ドメイン"
+        },
+        {
+          "choiceId": "en4-q-045-c4",
+          "label": null,
+          "text": "エンタープライズ アプリケーション",
+          "html": "エンタープライズ アプリケーション"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-045-c1"
+      ],
+      "explanationHtml": "<p>接続ゲートウェイ リソース は、必要なオンプレミス データ ゲートウェイのクラウド側構成を表すため正しいです。Azure Logic Apps が SQL サーバーなどのオンプレミス データ ソースに接続できるようにします。</p><p>Azure Application Gateway は、Web アプリケーションのレイヤー 7 負荷分散に使用されるため、不正確です。 Logic Apps がオンプレミスの SQL サーバー データベースにアクセスできるようにすることはできません。</p><p>Azure Event Grid ドメイン は誤りです。これは、Event Grid はオンプレミスへの直接接続やオンプレミスとの通信ではなく、イベント ベースのメッセージングと通知に使用されるためです。</p><p>エンタープライズ アプリケーションは主に SaaS アプリケーションの統合、または Microsoft Entra ID での SSO および ID 関連サービスの構成に使用されるため、不正確です。オンプレミス システムへの直接のデータ接続は容易になりません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-gateway-connection\">https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-gateway-connection</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem\">https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem</a></p></li></ul>",
+      "explanationText": "接続ゲートウェイ リソース は、必要なオンプレミス データ ゲートウェイのクラウド側構成を表すため正しいです。Azure Logic Apps が SQL サーバーなどのオンプレミス データ ソースに接続できるようにします。\nAzure Application Gateway は、Web アプリケーションのレイヤー 7 負荷分散に使用されるため、不正確です。 Logic Apps がオンプレミスの SQL サーバー データベースにアクセスできるようにすることはできません。\nAzure Event Grid ドメイン は誤りです。これは、Event Grid はオンプレミスへの直接接続やオンプレミスとの通信ではなく、イベント ベースのメッセージングと通知に使用されるためです。\nエンタープライズ アプリケーションは主に SaaS アプリケーションの統合、または Microsoft Entra ID での SSO および ID 関連サービスの構成に使用されるため、不正確です。オンプレミス システムへの直接のデータ接続は容易になりません。\n参照:\n・https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-gateway-connection\n\n・https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-linked-008",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en4-q-046",
+      "sourceQuestionNumber": 46,
+      "promptHtml": "<p>次の表に示す Azure リソースがあります。</p><ul><li><p><strong>VM1</strong>: 現在リソース グループ <strong>RG1</strong></p> に存在する Azure 仮想マシン</li><li><p><strong>VM2</strong>: Azure リソース グループに関連付けられていないオンプレミスの仮想マシン</p></li></ul><p>Azure に <strong>RG2</strong> という名前の新しいリソース グループを作成します。</p><p>仮想マシンを <strong>RG2</strong> に移動する必要があります。</p><p>移動には何を使用する必要がありますか。 <code>VM1</code>。</p>",
+      "promptText": "次の表に示す Azure リソースがあります。\n・VM1: 現在リソース グループ RG1\n に存在する Azure 仮想マシン\n・VM2: Azure リソース グループに関連付けられていないオンプレミスの仮想マシン\n\nAzure に RG2 という名前の新しいリソース グループを作成します。\n仮想マシンを RG2 に移動する必要があります。\n移動には何を使用する必要がありますか。 VM1。",
+      "choices": [
+        {
+          "choiceId": "en4-q-046-c1",
+          "label": null,
+          "text": "Azure Arc",
+          "html": "Azure Arc"
+        },
+        {
+          "choiceId": "en4-q-046-c2",
+          "label": null,
+          "text": "Azure Lighthouse",
+          "html": "Azure Lighthouse"
+        },
+        {
+          "choiceId": "en4-q-046-c3",
+          "label": null,
+          "text": "Azure Migrate",
+          "html": "Azure Migrate"
+        },
+        {
+          "choiceId": "en4-q-046-c4",
+          "label": null,
+          "text": "Azure Resource Mover",
+          "html": "Azure Resource Mover"
+        },
+        {
+          "choiceId": "en4-q-046-c5",
+          "label": null,
+          "text": "データ移行アシスタント (DMA)",
+          "html": "データ移行アシスタント (DMA)"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-046-c4"
+      ],
+      "explanationHtml": "<p>Azure Resource Mover は、仮想マシンを含む Azure リソースをリソース グループ、リージョン、サブスクリプション間で移動するように特別に設計されたネイティブ Azure サービスであるため、正解です。 VM1 は現在 RG1 にある Azure 仮想マシンであるため、Azure Resource Mover を使用すると、ダウンタイムなしで仮想ネットワークやディスクなどの依存関係を維持しながら、新しく作成されたリソース グループ RG2 に仮想マシンを再配置できます。</p><p>Azure Arc は誤りです。Azure 内からオンプレミスまたはマルチクラウドのリソース (VM2 など) を管理するために使用されます。</p><p>Azure Lighthouse は、サービス プロバイダーが顧客のテナントを管理できるようにし、サブスクリプション内でのリソースの移動をサポートしていないため、不正解です。</p><p>Azure Migrate は、 不正解です。これは、すでに Azure に存在するリソースを移動するためではなく、オンプレミスのワークロードを評価して Azure に移行するために設計されているためです。</p><p>データ移行アシスタント (DMA) は、Azure VM やインフラストラクチャではなく、データベース ワークロードの分析と移行に使用されるため、不正解です。リソース。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/resource-mover/overview\">https://learn.microsoft.com/en-us/azure/resource-mover/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-arc/overview\">https://learn.microsoft.com/en-us/azure/azure-arc/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/move-resource-group-and-subscription\">https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/move-resource-group-and-subscription</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/lighthouse/overview\">https://learn.microsoft.com/en-us/azure/lighthouse/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/migrate/migrate-overview\">https://learn.microsoft.com/en-us/azure/migrate/migrate-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/sql/dma/dma-overview\">https://learn.microsoft.com/en-us/sql/dma/dma-overview</a></p></li></ul>",
+      "explanationText": "Azure Resource Mover は、仮想マシンを含む Azure リソースをリソース グループ、リージョン、サブスクリプション間で移動するように特別に設計されたネイティブ Azure サービスであるため、正解です。 VM1 は現在 RG1 にある Azure 仮想マシンであるため、Azure Resource Mover を使用すると、ダウンタイムなしで仮想ネットワークやディスクなどの依存関係を維持しながら、新しく作成されたリソース グループ RG2 に仮想マシンを再配置できます。\nAzure Arc は誤りです。Azure 内からオンプレミスまたはマルチクラウドのリソース (VM2 など) を管理するために使用されます。\nAzure Lighthouse は、サービス プロバイダーが顧客のテナントを管理できるようにし、サブスクリプション内でのリソースの移動をサポートしていないため、不正解です。\nAzure Migrate は、 不正解です。これは、すでに Azure に存在するリソースを移動するためではなく、オンプレミスのワークロードを評価して Azure に移行するために設計されているためです。\nデータ移行アシスタント (DMA) は、Azure VM やインフラストラクチャではなく、データベース ワークロードの分析と移行に使用されるため、不正解です。リソース。\n参照:\n・https://learn.microsoft.com/en-us/azure/resource-mover/overview\n\n・https://learn.microsoft.com/en-us/azure/azure-arc/overview\n\n・https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/move-resource-group-and-subscription\n\n・https://learn.microsoft.com/en-us/azure/lighthouse/overview\n\n・https://learn.microsoft.com/en-us/azure/migrate/migrate-overview\n\n・https://learn.microsoft.com/en-us/sql/dma/dma-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-linked-009",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en4-q-047",
+      "sourceQuestionNumber": 47,
+      "promptHtml": "<p>次の表に示す Azure リソースがあります:</p><ul><li><p><strong>VM1</strong>: 現在リソース グループ <strong>RG1</strong></p> に存在する Azure 仮想マシン</li><li><p><strong>VM2</strong>: Azure リソース グループに関連付けられていないオンプレミスの仮想マシン</p></li></ul><p>Azure に <strong>RG2</strong> という名前の新しいリソース グループを作成します。</p><p>仮想マシンを <strong>RG2</strong> に移動する必要があります。</p><p>移動には何を使用する必要がありますか。 <code>VM2</code>。</p>",
+      "promptText": "次の表に示す Azure リソースがあります:\n・VM1: 現在リソース グループ RG1\n に存在する Azure 仮想マシン\n・VM2: Azure リソース グループに関連付けられていないオンプレミスの仮想マシン\n\nAzure に RG2 という名前の新しいリソース グループを作成します。\n仮想マシンを RG2 に移動する必要があります。\n移動には何を使用する必要がありますか。 VM2。",
+      "choices": [
+        {
+          "choiceId": "en4-q-047-c1",
+          "label": null,
+          "text": "Azure Arc",
+          "html": "Azure Arc"
+        },
+        {
+          "choiceId": "en4-q-047-c2",
+          "label": null,
+          "text": "Azure Lighthouse",
+          "html": "Azure Lighthouse"
+        },
+        {
+          "choiceId": "en4-q-047-c3",
+          "label": null,
+          "text": "Azure Migrate",
+          "html": "Azure Migrate"
+        },
+        {
+          "choiceId": "en4-q-047-c4",
+          "label": null,
+          "text": "Azure Resource Mover",
+          "html": "Azure Resource Mover"
+        },
+        {
+          "choiceId": "en4-q-047-c5",
+          "label": null,
+          "text": "データ移行アシスタント (DMA)",
+          "html": "データ移行アシスタント (DMA)"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-047-c3"
+      ],
+      "explanationHtml": "<p>Azure Migrate が正解です。VM2 はオンプレミスの仮想マシンであり、次のようなリソース グループに配置する前に、まず Azure に移行する必要があるためです。</p><p>Azure Arc は誤りです。これは、ガバナンスとポリシーの適用のために Azure でオンプレミス VM を投影および管理できる一方で、 VM の Azure への移行やリソース グループへの移動は実行されません。</p><p>Azure Lighthouse は誤りです。これは、リソースの移行やオンプレミス マシンの Azure への移動ではなく、テナント間管理と委任された管理を目的としているためです。</p><p>Azure リソースムーバー は、仮想マシンなどの既存の Azure リソースを Azure リージョンまたはリソース グループ間で移動するために使用されるため、不正確です。オンプレミス VM を移動または移行することはできません。</p><p>データ移行アシスタント (DMA) は、仮想データベースではなく SQL サーバー データベースの移行などのデータベース移行タスクに使用されるため、不正確です。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/migrate/migrate-overview\">https://learn.microsoft.com/en-us/azure/migrate/migrate-overview</a></p></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-arc/servers/overview\">https://learn.microsoft.com/en-us/azure/azure-arc/servers/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/lighthouse/overview\">https://learn.microsoft.com/en-us/azure/lighthouse/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/resource-mover/overview\">https://learn.microsoft.com/en-us/azure/resource-mover/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/sql/dma/dma-overview\">https://learn.microsoft.com/en-us/sql/dma/dma-overview</a></p></li></ul>",
+      "explanationText": "正解はAzure Migrate です。VM2 はオンプレミスの仮想マシンであり、次のようなリソース グループに配置する前に、まず Azure に移行する必要があるためです。\nAzure Arc は誤りです。これは、ガバナンスとポリシーの適用のために Azure でオンプレミス VM を投影および管理できる一方で、 VM の Azure への移行やリソース グループへの移動は実行されません。\nAzure Lighthouse は誤りです。これは、リソースの移行やオンプレミス マシンの Azure への移動ではなく、テナント間管理と委任された管理を目的としているためです。\nAzure リソースムーバー は、仮想マシンなどの既存の Azure リソースを Azure リージョンまたはリソース グループ間で移動するために使用されるため、不正確です。オンプレミス VM を移動または移行することはできません。\nデータ移行アシスタント (DMA) は、仮想データベースではなく SQL サーバー データベースの移行などのデータベース移行タスクに使用されるため、不正確です。\n参照:\n・https://learn.microsoft.com/en-us/azure/migrate/migrate-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-arc/servers/overview\n\n・https://learn.microsoft.com/en-us/azure/lighthouse/overview\n\n・https://learn.microsoft.com/en-us/azure/resource-mover/overview\n\n・https://learn.microsoft.com/en-us/sql/dma/dma-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-linked-009",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en4-q-048",
+      "sourceQuestionNumber": 48,
+      "promptHtml": "<p>ApexCore, Ltd. は、Microsoft 365 と統合された Microsoft Entra テナントとアクティブな Azure サブスクリプションを含む Azure 環境を運用しています。</p><p>ApexCore は、Active Directory Domain Services (AD DS) および Microsoft Entra Connect を実行するサーバーで構成されるオンプレミス ID プラットフォームを維持しています。</p><p>ApexCore は、IronClad, Inc. とのパートナーシップを確立しています。IronClad は独自の Active Directory フォレストとMicrosoft 365 テナントであり、そのオンプレミス ID アーキテクチャは ApexCore と同等です。</p><p>IronClad の 10 人の開発者が、ApexCore の Azure サブスクリプション内にデプロイされる Azure ベースのソリューションの構築に参加します。これらの開発者には、ApexCore サブスクリプションのリソース グループ スコープで共同作成者ロールが付与されている必要があります。</p><p>開発者が既存の認証情報を使用してサインインし続けることを保証しながら、ApexCore が IronClad 開発者にこのロールを割り当てることができるソリューションを推奨する必要があります。</p><p>何を推奨しますか。</p>",
+      "promptText": "ApexCore, Ltd. は、Microsoft 365 と統合された Microsoft Entra テナントとアクティブな Azure サブスクリプションを含む Azure 環境を運用しています。\nApexCore は、Active Directory Domain Services (AD DS) および Microsoft Entra Connect を実行するサーバーで構成されるオンプレミス ID プラットフォームを維持しています。\nApexCore は、IronClad, Inc. とのパートナーシップを確立しています。IronClad は独自の Active Directory フォレストとMicrosoft 365 テナントであり、そのオンプレミス ID アーキテクチャは ApexCore と同等です。\nIronClad の 10 人の開発者が、ApexCore の Azure サブスクリプション内にデプロイされる Azure ベースのソリューションの構築に参加します。これらの開発者には、ApexCore サブスクリプションのリソース グループ スコープで共同作成者ロールが付与されている必要があります。\n開発者が既存の認証情報を使用してサインインし続けることを保証しながら、ApexCore が IronClad 開発者にこのロールを割り当てることができるソリューションを推奨する必要があります。\n何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-048-c1",
+          "label": null,
+          "text": "Microsoft Entra テナント内ApexCore、IronClad 開発者用のクラウド専用ユーザー アカウントを作成します。",
+          "html": "<p>Microsoft Entra テナント内ApexCore、IronClad 開発者用のクラウド専用ユーザー アカウントを作成します。</p>"
+        },
+        {
+          "choiceId": "en4-q-048-c2",
+          "label": null,
+          "text": "ApexCore と IronClad のオンプレミス Active Directory フォレスト間のフォレスト信頼を構成します。",
+          "html": "<p>ApexCore と IronClad のオンプレミス Active Directory フォレスト間のフォレスト信頼を構成します。</p>"
+        },
+        {
+          "choiceId": "en4-q-048-c3",
+          "label": null,
+          "text": "IronClad の Microsoft 365 テナントと、IronClad の Microsoft 365 テナント間の組織関係を構成します。 ApexCore。",
+          "html": "<p>IronClad の Microsoft 365 テナントと、IronClad の Microsoft 365 テナント間の組織関係を構成します。 ApexCore。</p>"
+        },
+        {
+          "choiceId": "en4-q-048-c4",
+          "label": null,
+          "text": "ApexCore の Microsoft Entra テナントで、IronClad 開発者用のゲスト アカウントを作成します。",
+          "html": "<p>ApexCore の Microsoft Entra テナントで、IronClad 開発者用のゲスト アカウントを作成します。</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-048-c4"
+      ],
+      "explanationHtml": "<p>ApexCore の Microsoft Entra テナントで、IronClad 開発者用のゲスト アカウントを作成しますこれは正解です。外部ユーザー (IronClad 開発者など) に ApexCore の Azure サブスクリプション内の Azure リソースへのアクセスを提供する適切な方法は、外部ユーザーを Microsoft Entra B2B (企業間) ゲスト ユーザーとして招待することです。</p><p>ApexCore の Microsoft Entra テナントで、IronClad 開発者用のクラウド専用ユーザー アカウントを作成する は誤りです。これにより、ApexCore のディレクトリに新しい ID が作成され、開発者が既存の資格情報を使用できるようにすると、要件に違反します。</p><p>ApexCore と IronClad のオンプレミス Active Directory フォレスト間のフォレスト信頼を構成する は、Azure ロールベースのアクセス制御 (RBAC) と Microsoft Entra ID がクラウドで動作するため、不正確です。フォレストの信頼は、オンプレミスのドメイン認証にのみ適用され、Azure リソースへのアクセスには適用されません。</p><p>IronClad と ApexCore の Microsoft 365 テナント間の組織関係を構成する は誤りです。組織関係は、Microsoft 365 の予定表の空き状況やその他のコラボレーション機能の共有に使用され、割り当てには使用されないためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/active-directory/external-identities/what-is-b2b\">https://learn.microsoft.com/en-us/azure/active-directory/external-identities/what-is-b2b</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-external-users\">https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-external-users</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b\">https://learn.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b</a></p></li></ul>",
+      "explanationText": "ApexCore の Microsoft Entra テナントで、IronClad 開発者用のゲスト アカウントを作成しますこれは正解です。外部ユーザー (IronClad 開発者など) に ApexCore の Azure サブスクリプション内の Azure リソースへのアクセスを提供する適切な方法は、外部ユーザーを Microsoft Entra B2B (企業間) ゲスト ユーザーとして招待することです。\nApexCore の Microsoft Entra テナントで、IronClad 開発者用のクラウド専用ユーザー アカウントを作成する は誤りです。これにより、ApexCore のディレクトリに新しい ID が作成され、開発者が既存の資格情報を使用できるようにすると、要件に違反します。\nApexCore と IronClad のオンプレミス Active Directory フォレスト間のフォレスト信頼を構成する は、Azure ロールベースのアクセス制御 (RBAC) と Microsoft Entra ID がクラウドで動作するため、不正確です。フォレストの信頼は、オンプレミスのドメイン認証にのみ適用され、Azure リソースへのアクセスには適用されません。\nIronClad と ApexCore の Microsoft 365 テナント間の組織関係を構成する は誤りです。組織関係は、Microsoft 365 の予定表の空き状況やその他のコラボレーション機能の共有に使用され、割り当てには使用されないためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/active-directory/external-identities/what-is-b2b\n\n・https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-external-users\n\n・https://learn.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en4-q-049",
+      "sourceQuestionNumber": 49,
+      "promptHtml": "<p>あなたは Azure ガバナンス戦略を作成しています。</p><p>すべての Azure リソースは、環境、所有者、部門、コスト センターの運用メタデータを使用して明確に識別できる必要があります。</p><p>また、Azure リソース全体にわたるレポートを生成するときに、この運用メタデータが使用できることを確認する必要もあります。</p><p>ソリューションの一部として何を含めるべきですか。</p>",
+      "promptText": "あなたは Azure ガバナンス戦略を作成しています。\nすべての Azure リソースは、環境、所有者、部門、コスト センターの運用メタデータを使用して明確に識別できる必要があります。\nまた、Azure リソース全体にわたるレポートを生成するときに、この運用メタデータが使用できることを確認する必要もあります。\nソリューションの一部として何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-049-c1",
+          "label": null,
+          "text": "Azure REST を使用してデータを消費する Azure データ カタログ API",
+          "html": "<p>Azure REST を使用してデータを消費する Azure データ カタログ API</p>"
+        },
+        {
+          "choiceId": "en4-q-049-c2",
+          "label": null,
+          "text": "親グループを使用して階層を定義する Azure 管理グループ構造",
+          "html": "<p>親グループを使用して階層を定義する Azure 管理グループ構造</p>"
+        },
+        {
+          "choiceId": "en4-q-049-c3",
+          "label": null,
+          "text": "必要なリソース タグの使用を強制する Azure Policy 定義",
+          "html": "<p>必要なリソース タグの使用を強制する Azure Policy 定義</p>"
+        },
+        {
+          "choiceId": "en4-q-049-c4",
+          "label": null,
+          "text": "Microsoft Entra 管理単位",
+          "html": "<p>Microsoft Entra 管理単位</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-049-c3"
+      ],
+      "explanationHtml": "<p>必要なリソース タグの使用を強制する Azure Policy 定義 が正解です。これは、Azure Policy ではリソースのタグ付けを強制できるためです。</p><p>Azure REST API を使用してデータを消費する Azure データ カタログは不正確です。これは、Azure Data Catalog は、インフラストラクチャのガバナンスやタグ付けではなく、データ ソースのデータ検出とメタデータ管理に使用されるためです。</p><p>親グループを使用して階層を定義する Azure 管理グループ構造 は誤りです。管理グループはガバナンス制御の範囲設定やサブスクリプションの整理に使用されますが、タグなどのリソース レベルのメタデータの強制や管理は行わないためです。</p><p>Microsoft Entra 管理単位 は誤りです。管理単位は、Microsoft Entra ID のユーザーまたはグループのサブセットにロールベースの管理アクセスを委任するために使用され、Azure インフラストラクチャ リソースのタグ付けやレポートとは関係がないためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure\">https://learn.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-support\">https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-support</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/overview\">https://learn.microsoft.com/en-us/azure/governance/policy/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources\">https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources</a></p></li></ul>",
+      "explanationText": "正解は必要なリソース タグの使用を強制する Azure Policy 定義 です。これは、Azure Policy ではリソースのタグ付けを強制できるためです。\nAzure REST API を使用してデータを消費する Azure データ カタログは不正確です。これは、Azure Data Catalog は、インフラストラクチャのガバナンスやタグ付けではなく、データ ソースのデータ検出とメタデータ管理に使用されるためです。\n親グループを使用して階層を定義する Azure 管理グループ構造 は誤りです。管理グループはガバナンス制御の範囲設定やサブスクリプションの整理に使用されますが、タグなどのリソース レベルのメタデータの強制や管理は行わないためです。\nMicrosoft Entra 管理単位 は誤りです。管理単位は、Microsoft Entra ID のユーザーまたはグループのサブセットにロールベースの管理アクセスを委任するために使用され、Azure インフラストラクチャ リソースのタグ付けやレポートとは関係がないためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure\n\n・https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-support\n\n・https://learn.microsoft.com/en-us/azure/governance/policy/overview\n\n・https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en4-q-050",
+      "sourceQuestionNumber": 50,
+      "promptHtml": "<p>あなたの組織は、ニューヨークとロサンゼルスにある 2 つのオンプレミス データセンターと、米国東部と米国西部の Azure リージョンにデプロイされた Azure 仮想ネットワークを運用しています。</p><p>各オンプレミスの場所は、ExpressRoute Global Reach 回線を使用して両方の Azure リージョンに接続されています。</p><p>次の条件を満たすソリューションを推奨する必要があります。</p><ul><li><p>送信トラフィック仮想ネットワーク上でホストされているワークロードからのインターネットは、最も近い利用可能なオンプレミス サイトを経由してルーティングされる必要があります。</p></li><li><p>1 つのオンプレミス サイトが利用できなくなった場合、Azure ワークロードからの送信インターネット トラフィックは残りのオンプレミス サイトに自動的にフェールオーバーする必要があります。</p></li></ul><p><br></p><p>次の項目を正しく完了するオプションを選択してください。 </p><p><code>仮想ネットワークからオンプレミスの場所へのルーティングは、__________ を使用して構成する必要があります。</code> </p>",
+      "promptText": "あなたの組織は、ニューヨークとロサンゼルスにある 2 つのオンプレミス データセンターと、米国東部と米国西部の Azure リージョンにデプロイされた Azure 仮想ネットワークを運用しています。\n各オンプレミスの場所は、ExpressRoute Global Reach 回線を使用して両方の Azure リージョンに接続されています。\n次の条件を満たすソリューションを推奨する必要があります。\n・送信トラフィック仮想ネットワーク上でホストされているワークロードからのインターネットは、最も近い利用可能なオンプレミス サイトを経由してルーティングされる必要があります。\n\n・1 つのオンプレミス サイトが利用できなくなった場合、Azure ワークロードからの送信インターネット トラフィックは残りのオンプレミス サイトに自動的にフェールオーバーする必要があります。\n\n次の項目を正しく完了するオプションを選択してください。\n仮想ネットワークからオンプレミスの場所へのルーティングは、__________ を使用して構成する必要があります。",
+      "choices": [
+        {
+          "choiceId": "en4-q-050-c1",
+          "label": null,
+          "text": "Azure のデフォルト ルート",
+          "html": "Azure のデフォルト ルート"
+        },
+        {
+          "choiceId": "en4-q-050-c2",
+          "label": null,
+          "text": "ボーダー ゲートウェイ プロトコル (BGP)",
+          "html": "ボーダー ゲートウェイ プロトコル (BGP)"
+        },
+        {
+          "choiceId": "en4-q-050-c3",
+          "label": null,
+          "text": "ユーザー定義ルート",
+          "html": "ユーザー定義ルート"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-050-c2"
+      ],
+      "explanationHtml": "<p>ボーダー ゲートウェイ プロトコル (BGP) が正解です。このシナリオでは、ExpressRoute Global Reach を使用してオンプレミス ネットワークを複数のリージョンの Azure 仮想ネットワークと相互接続しているからです。</p><p>BGP はパスの先頭に追加する機能とルートの重み付けもサポートしており、これを使用して 1 つのパスを別のパスよりも優先することができ、最も近いサイトを通るアウトバウンド フローを最適化し、そのサイトが障害になったときに自動フェイルオーバーを有効にすることができます。利用できません。</p><p>Azure のデフォルト ルート は、カスタム ルートが定義されておらず、インテリジェントなフェールオーバーやパス設定をサポートしていない場合に Azure によって使用されるため、不正確です。</p><p>ユーザー定義ルートは静的であるため、不正確です。障害時の自動再ルーティングはサポートされていません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/windows-server/remote/remote-access/bgp/border-gateway-protocol-bgp\">https://learn.microsoft.com/en-us/windows-server/remote/remote-access/bgp/border-gateway-protocol-bgp</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/expressroute/expressroute-global-reach\">https://learn.microsoft.com/en-us/azure/expressroute/expressroute-global-reach</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/expressroute/expressroute-routing\">https://learn.microsoft.com/en-us/azure/expressroute/expressroute-routing</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview\">https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview</a></p></li></ul>",
+      "explanationText": "正解はボーダー ゲートウェイ プロトコル (BGP) です。このシナリオでは、ExpressRoute Global Reach を使用してオンプレミス ネットワークを複数のリージョンの Azure 仮想ネットワークと相互接続しているからです。\nBGP はパスの先頭に追加する機能とルートの重み付けもサポートしており、これを使用して 1 つのパスを別のパスよりも優先することができ、最も近いサイトを通るアウトバウンド フローを最適化し、そのサイトが障害になったときに自動フェイルオーバーを有効にすることができます。利用できません。\nAzure のデフォルト ルート は、カスタム ルートが定義されておらず、インテリジェントなフェールオーバーやパス設定をサポートしていない場合に Azure によって使用されるため、不正確です。\nユーザー定義ルートは静的であるため、不正確です。障害時の自動再ルーティングはサポートされていません。\n参照:\n・https://learn.microsoft.com/en-us/windows-server/remote/remote-access/bgp/border-gateway-protocol-bgp\n\n・https://learn.microsoft.com/en-us/azure/expressroute/expressroute-global-reach\n\n・https://learn.microsoft.com/en-us/azure/expressroute/expressroute-routing\n\n・https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-linked-010",
+      "tags": [
+        "linked-question"
+      ]
+    }
+  ]
+}

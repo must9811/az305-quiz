@@ -1,0 +1,431 @@
+{
+  "setId": "en3-set-001",
+  "title": "英語問題集3 翻訳版 01-10",
+  "sourceHtml": "assets/英語問題集3.html",
+  "questionIds": [
+    "en3-q-001",
+    "en3-q-002",
+    "en3-q-003",
+    "en3-q-004",
+    "en3-q-005",
+    "en3-q-006",
+    "en3-q-007",
+    "en3-q-008",
+    "en3-q-009",
+    "en3-q-010"
+  ],
+  "questions": [
+    {
+      "questionId": "en3-q-001",
+      "sourceQuestionNumber": 1,
+      "promptHtml": "<p><strong>ユーザーの作成</strong>と<strong>ロールの割り当て</strong>を捉える<strong>アーキテクチャ</strong>を設計する必要があります。取得した情報は <strong>Azure Cosmos DB</strong> に保存する必要があります。</p><p>提案された設計は次の順序に従います。</p><ul><li><p><strong>Microsoft Entra ID 監査ログ</strong>はイベントを生成します。</p></li><li><p>イベントは<strong>Azure サービス 1</strong> に送信されます。</p></li><li><p>Azure サービス 1 からの出力は に転送されます。 <strong>Azure サービス 2</strong>。</p></li><li><p>Azure サービス 2 は、処理されたデータを <strong>Azure Cosmos DB</strong> に保存します。</p></li></ul><p>設計の各段階で含める適切な Azure サービスを選択する必要があります。</p><p><code>Azure サービスにはどの Azure サービスを選択する必要がありますか1</code>。</p>",
+      "promptText": "ユーザーの作成とロールの割り当てを捉えるアーキテクチャを設計する必要があります。取得した情報は Azure Cosmos DB に保存する必要があります。\n提案された設計は次の順序に従います。\n・Microsoft Entra ID 監査ログはイベントを生成します。\n\n・イベントはAzure サービス 1 に送信されます。\n\n・Azure サービス 1 からの出力は に転送されます。 Azure サービス 2。\n\n・Azure サービス 2 は、処理されたデータを Azure Cosmos DB に保存します。\n\n設計の各段階で含める適切な Azure サービスを選択する必要があります。\nAzure サービスにはどの Azure サービスを選択する必要がありますか1。",
+      "choices": [
+        {
+          "choiceId": "en3-q-001-c1",
+          "label": null,
+          "text": "Azure Event Grid",
+          "html": "Azure Event Grid"
+        },
+        {
+          "choiceId": "en3-q-001-c2",
+          "label": null,
+          "text": "Azure Event Hubs",
+          "html": "Azure Event Hubs"
+        },
+        {
+          "choiceId": "en3-q-001-c3",
+          "label": null,
+          "text": "Azure 関数",
+          "html": "Azure 関数"
+        },
+        {
+          "choiceId": "en3-q-001-c4",
+          "label": null,
+          "text": "Azure Monitor ログ",
+          "html": "Azure Monitor ログ"
+        },
+        {
+          "choiceId": "en3-q-001-c5",
+          "label": null,
+          "text": "Azure 通知Hubs",
+          "html": "Azure 通知Hubs"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-001-c2"
+      ],
+      "explanationHtml": "<p>Azure Event Hubs は正解です。これは、Microsoft Entra ID 監査ログをキャプチャできるスケーラビリティの高いデータ ストリーミング プラットフォームおよびイベント取り込みサービスであるためです。</p><p>Azure Event Grid は、個別のイベント配信 (BLOB の作成、リソースの更新など) 用に最適化されており、Microsoft からの監査イベントなどのログの高スループット ストリーミング用には最適化されていないため、不正解です。 Entra.</p><p>Azure Functions は、イベントの処理や軽量タスクの実行に使用されるコンピューティング サービスであるため、不正確です。 Event Hubs と Cosmos DB の間でデータを処理することはできますが (つまり、Azure サービス 2 として機能します)、Microsoft Entra からのログの取り込みには使用されません。</p><p>Azure Monitor ログ は、ログの収集と Cosmos DB へのルーティングではなく、ログの分析とクエリに使用されるため、不正確です。イベント取り込みサービスとして機能しません。</p><p>Azure Notice Hubs は、ストリーミングやログ データの処理ではなく、モバイル デバイスにプッシュ通知を送信するように設計されているため、不正確です。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-overview\">https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about\">https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/event-grid/overview\">https://learn.microsoft.com/en-us/azure/event-grid/overview</a></p></li></ul>",
+      "explanationText": "Azure Event Hubs は正解です。これは、Microsoft Entra ID 監査ログをキャプチャできるスケーラビリティの高いデータ ストリーミング プラットフォームおよびイベント取り込みサービスであるためです。\nAzure Event Grid は、個別のイベント配信 (BLOB の作成、リソースの更新など) 用に最適化されており、Microsoft からの監査イベントなどのログの高スループット ストリーミング用には最適化されていないため、不正解です。 Entra.\nAzure Functions は、イベントの処理や軽量タスクの実行に使用されるコンピューティング サービスであるため、不正確です。 Event Hubs と Cosmos DB の間でデータを処理することはできますが (つまり、Azure サービス 2 として機能します)、Microsoft Entra からのログの取り込みには使用されません。\nAzure Monitor ログ は、ログの収集と Cosmos DB へのルーティングではなく、ログの分析とクエリに使用されるため、不正確です。イベント取り込みサービスとして機能しません。\nAzure Notice Hubs は、ストリーミングやログ データの処理ではなく、モバイル デバイスにプッシュ通知を送信するように設計されているため、不正確です。\n参照:\n・https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-overview\n\n・https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about\n\n・https://learn.microsoft.com/en-us/azure/event-grid/overview",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-case-001",
+      "tags": [
+        "linked-question",
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en3-q-002",
+      "sourceQuestionNumber": 2,
+      "promptHtml": "<p><strong>ユーザーの作成</strong>と<strong>ロールの割り当て</strong>を捉える<strong>アーキテクチャ</strong>を設計する必要があります。取得した情報は <strong>Azure Cosmos DB</strong> に保存する必要があります。</p><p>提案された設計は次の順序に従います。</p><ul><li><p><strong>Microsoft Entra ID 監査ログ</strong>はイベントを生成します。</p></li><li><p>イベントは<strong>Azure サービス 1</strong> に送信されます。</p></li><li><p>Azure サービス 1 からの出力は に転送されます。 <strong>Azure サービス 2</strong>。</p></li><li><p>Azure サービス 2 は、処理されたデータを <strong>Azure Cosmos DB</strong> に保存します。</p></li></ul><p>設計の各段階で含める適切な Azure サービスを選択する必要があります。</p><p><code>Azure サービスにはどの Azure サービスを選択する必要がありますか2</code>。</p>",
+      "promptText": "ユーザーの作成とロールの割り当てを捉えるアーキテクチャを設計する必要があります。取得した情報は Azure Cosmos DB に保存する必要があります。\n提案された設計は次の順序に従います。\n・Microsoft Entra ID 監査ログはイベントを生成します。\n\n・イベントはAzure サービス 1 に送信されます。\n\n・Azure サービス 1 からの出力は に転送されます。 Azure サービス 2。\n\n・Azure サービス 2 は、処理されたデータを Azure Cosmos DB に保存します。\n\n設計の各段階で含める適切な Azure サービスを選択する必要があります。\nAzure サービスにはどの Azure サービスを選択する必要がありますか2。",
+      "choices": [
+        {
+          "choiceId": "en3-q-002-c1",
+          "label": null,
+          "text": "Azure Event Grid",
+          "html": "Azure Event Grid"
+        },
+        {
+          "choiceId": "en3-q-002-c2",
+          "label": null,
+          "text": "Azure Event Hubs",
+          "html": "Azure Event Hubs"
+        },
+        {
+          "choiceId": "en3-q-002-c3",
+          "label": null,
+          "text": "Azure 関数",
+          "html": "Azure 関数"
+        },
+        {
+          "choiceId": "en3-q-002-c4",
+          "label": null,
+          "text": "Azure Monitor ログ",
+          "html": "Azure Monitor ログ"
+        },
+        {
+          "choiceId": "en3-q-002-c5",
+          "label": null,
+          "text": "Azure 通知Hubs",
+          "html": "Azure 通知Hubs"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-002-c3"
+      ],
+      "explanationHtml": "<p>Azure Functions は、Azure Event Hubs から受信したストリーミング イベント データ (Microsoft Entra 監査ログなど) の処理に最適なサーバーレス コンピューティング環境を提供するため正解です。このアーキテクチャでは、Azure Functions がイベント プロセッサとして機能し、監査ログ データを変換またはフィルター処理して、出力を Azure Cosmos DB に直接書き込むことができます。</p><p>Azure Event Grid は誤りです。これは、個別のイベントをハンドラーにルーティングするのには便利ですが、通常、ログの連続ストリームを処理して保存するためには使用されないためです。</p><p>Azure Event Hubs は誤りです。これは、データの処理や変換ではなく、取り込みポイント (つまり、Azure サービス 1) として機能するためです。</p><p>Azure Monitor ログ は、カスタム ロジックや Cosmos DB との統合ではなく、ログ データのクエリと分析に使用されるため、不正確です。</p><p>Azure Notice Hubs は誤りです。データ ストリームの処理や変換ではなく、モバイル デバイスにプッシュ通知を送信するためのものです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview\">https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-functions/functions-event-hub-cosmos-db?tabs=bash\">https://learn.microsoft.com/en-us/azure/azure-functions/functions-event-hub-cosmos-db?tabs=bash</a></p></li></ul>",
+      "explanationText": "Azure Functions は、Azure Event Hubs から受信したストリーミング イベント データ (Microsoft Entra 監査ログなど) の処理に最適なサーバーレス コンピューティング環境を提供するため正解です。このアーキテクチャでは、Azure Functions がイベント プロセッサとして機能し、監査ログ データを変換またはフィルター処理して、出力を Azure Cosmos DB に直接書き込むことができます。\nAzure Event Grid は誤りです。これは、個別のイベントをハンドラーにルーティングするのには便利ですが、通常、ログの連続ストリームを処理して保存するためには使用されないためです。\nAzure Event Hubs は誤りです。これは、データの処理や変換ではなく、取り込みポイント (つまり、Azure サービス 1) として機能するためです。\nAzure Monitor ログ は、カスタム ロジックや Cosmos DB との統合ではなく、ログ データのクエリと分析に使用されるため、不正確です。\nAzure Notice Hubs は誤りです。データ ストリームの処理や変換ではなく、モバイル デバイスにプッシュ通知を送信するためのものです。\n参照:\n・https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-functions/functions-event-hub-cosmos-db?tabs=bash",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-case-001",
+      "tags": [
+        "linked-question",
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en3-q-003",
+      "sourceQuestionNumber": 3,
+      "promptHtml": "<p>あなたは<strong>機密データ</strong>用の<strong>Azure ストレージ ソリューション</strong>を設計しています。データは<strong>毎日</strong>アクセスされ、 総データ量は<strong>10 GB 未満</strong>になります。</p><p>ストレージ ソリューションは次の要件を満たす必要があります。</p><ul><li><p>ストレージに書き込まれるすべてのデータは<strong>最低 5 年間保持される</strong>必要があります。</p></li><li><p>データの書き込み後は<strong>読み取り専用</strong>にする必要があります。保持期間中は<strong>変更または削除を許可してはなりません</strong>。</p></li><li><p>5 年間の保持期間が経過したら、データは<strong>削除の対象</strong>となる必要がありますが、<strong>決して変更しない</strong>必要があります。</p></li><li><p><strong>データ アクセス コスト</strong>は最小限に抑える必要があります。 </p></li></ul><p>次の項目に対して適切なオプションを推奨する必要があります:</p><p><code>ストレージ アカウントの種類</code></p><p><br></p><p>何を推奨しますか。</p>",
+      "promptText": "あなたは機密データ用のAzure ストレージ ソリューションを設計しています。データは毎日アクセスされ、 総データ量は10 GB 未満になります。\nストレージ ソリューションは次の要件を満たす必要があります。\n・ストレージに書き込まれるすべてのデータは最低 5 年間保持される必要があります。\n\n・データの書き込み後は読み取り専用にする必要があります。保持期間中は変更または削除を許可してはなりません。\n\n・5 年間の保持期間が経過したら、データは削除の対象となる必要がありますが、決して変更しない必要があります。\n\n・データ アクセス コストは最小限に抑える必要があります。\n\n次の項目に対して適切なオプションを推奨する必要があります:\nストレージ アカウントの種類\n\n何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-003-c1",
+          "label": null,
+          "text": "BLOB のアーカイブ アクセス層を備えた汎用 v2",
+          "html": "BLOB のアーカイブ アクセス層を備えた汎用 v2"
+        },
+        {
+          "choiceId": "en3-q-003-c2",
+          "label": null,
+          "text": "BLOB のクール アクセス層を備えた汎用 v2",
+          "html": "BLOB のクール アクセス層を備えた汎用 v2"
+        },
+        {
+          "choiceId": "en3-q-003-c3",
+          "label": null,
+          "text": "BLOB のホット アクセス層を備えた汎用 v2",
+          "html": "BLOB のホット アクセス層を備えた汎用 v2"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-003-c3"
+      ],
+      "explanationHtml": "<p>BLOB のホット アクセス層を備えた汎用 v2 が正解です。毎日アクセスされる機密データに対する所定の要件をすべて満たしています。</p><p>BLOB のアーカイブ アクセス層を備えた汎用 v2 は、アーカイブ層がほとんどアクセスされないデータ用に最適化されているため不正確です。この層からデータにアクセスすると、レイテンシと取得コストが増加し、毎日のアクセスの要件と矛盾します。</p><p>BLOB 用のクール アクセス層を備えた汎用 v2 は誤りです。これは、ホット層よりもストレージ コストが低い一方で、アクセス料金が高く、アクセスされるデータには適していないためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview</a></p></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview</a></p></li></ul>",
+      "explanationText": "正解はBLOB のホット アクセス層を備えた汎用 v2 です。毎日アクセスされる機密データに対する所定の要件をすべて満たしています。\nBLOB のアーカイブ アクセス層を備えた汎用 v2 は、アーカイブ層がほとんどアクセスされないデータ用に最適化されているため不正確です。この層からデータにアクセスすると、レイテンシと取得コストが増加し、毎日のアクセスの要件と矛盾します。\nBLOB 用のクール アクセス層を備えた汎用 v2 は誤りです。これは、ホット層よりもストレージ コストが低い一方で、アクセス料金が高く、アクセスされるデータには適していないためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en3-q-004",
+      "sourceQuestionNumber": 4,
+      "promptHtml": "<p>あなたは<strong>機密データ</strong>用の<strong>Azure ストレージ ソリューション</strong>を設計しています。データは<strong>毎日</strong>アクセスされ、 総データ量は<strong>10 GB 未満</strong>になります。</p><p>ストレージ ソリューションは次の要件を満たす必要があります。</p><ul><li><p>ストレージに書き込まれるすべてのデータは<strong>最低 5 年間保持される</strong>必要があります。</p></li><li><p>データの書き込み後は<strong>読み取り専用</strong>にする必要があります。保持期間中は<strong>変更または削除を許可してはなりません</strong>。</p></li><li><p>5 年間の保持期間が経過したら、データは<strong>削除の対象</strong>となる必要がありますが、<strong>決して変更しない</strong>必要があります。</p></li><li><p><strong>データ アクセス コスト</strong>は最小限に抑える必要があります。 </p></li></ul><p>次の項目に対して適切なオプションを推奨する必要があります:</p><p><code>変更と削除を防ぐための構成</code><br></p><p>何を推奨しますか。</p>",
+      "promptText": "あなたは機密データ用のAzure ストレージ ソリューションを設計しています。データは毎日アクセスされ、 総データ量は10 GB 未満になります。\nストレージ ソリューションは次の要件を満たす必要があります。\n・ストレージに書き込まれるすべてのデータは最低 5 年間保持される必要があります。\n\n・データの書き込み後は読み取り専用にする必要があります。保持期間中は変更または削除を許可してはなりません。\n\n・5 年間の保持期間が経過したら、データは削除の対象となる必要がありますが、決して変更しない必要があります。\n\n・データ アクセス コストは最小限に抑える必要があります。\n\n次の項目に対して適切なオプションを推奨する必要があります:\n変更と削除を防ぐための構成\n\n何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-004-c1",
+          "label": null,
+          "text": "コンテナ アクセス レベル",
+          "html": "コンテナ アクセス レベル"
+        },
+        {
+          "choiceId": "en3-q-004-c2",
+          "label": null,
+          "text": "コンテナ アクセスポリシー",
+          "html": "コンテナ アクセスポリシー"
+        },
+        {
+          "choiceId": "en3-q-004-c3",
+          "label": null,
+          "text": "ストレージ アカウント リソース ロック",
+          "html": "ストレージ アカウント リソース ロック"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-004-c2"
+      ],
+      "explanationHtml": "<p>コンテナー アクセス ポリシー が正解です。これにより、コンテナー レベルで時間ベースの保持や訴訟ホールドなどの不変ポリシーを構成できるようになります。</p><p>コンテナ アクセス レベルは、不変性や保持ポリシーではなく、コンテナへの匿名アクセス許可 (パブリック、プライベートなど) を制御するため、不正確です。</p><p>ストレージ アカウント リソースlock は誤りです。これは、ストレージ アカウント全体の削除は防止しますが、個々の BLOB に対する操作を制限したり、コンテナー内のデータの不変性や保持ポリシーを強制したりするものではないためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview</a></p></li></ul>",
+      "explanationText": "正解はコンテナー アクセス ポリシー です。これにより、コンテナー レベルで時間ベースの保持や訴訟ホールドなどの不変ポリシーを構成できるようになります。\nコンテナ アクセス レベルは、不変性や保持ポリシーではなく、コンテナへの匿名アクセス許可 (パブリック、プライベートなど) を制御するため、不正確です。\nストレージ アカウント リソースlock は誤りです。これは、ストレージ アカウント全体の削除は防止しますが、個々の BLOB に対する操作を制限したり、コンテナー内のデータの不変性や保持ポリシーを強制したりするものではないためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en3-q-005",
+      "sourceQuestionNumber": 5,
+      "promptHtml": "<p>オンプレミス環境には、<strong>500 GB のデータ</strong>を含む <strong>Server1</strong> という名前のファイル サーバーが含まれています。</p><p><strong>Server1</strong> から <strong>Azure Storage</strong> にデータをコピーするには、<strong>Azure Data Factory</strong> を使用する必要があります。</p><p> <strong>新しいデータ ファクトリ</strong>を作成します。</p><p>次に何をする必要がありますか。</p><p><code>\"From Server1 ___________________________________________.\"</code> </p>",
+      "promptText": "オンプレミス環境には、500 GB のデータを含む Server1 という名前のファイル サーバーが含まれています。\nServer1 から Azure Storage にデータをコピーするには、Azure Data Factory を使用する必要があります。\n 新しいデータ ファクトリを作成します。\n次に何をする必要がありますか。\n\"From Server1 ___________________________________________.\"",
+      "choices": [
+        {
+          "choiceId": "en3-q-005-c1",
+          "label": null,
+          "text": "Azure File Sync エージェントをインストールします。",
+          "html": "Azure File Sync エージェントをインストールします。"
+        },
+        {
+          "choiceId": "en3-q-005-c2",
+          "label": null,
+          "text": "セルフホステッド統合をインストールします。",
+          "html": "セルフホステッド統合をインストールします。"
+        },
+        {
+          "choiceId": "en3-q-005-c3",
+          "label": null,
+          "text": "ファイル サーバー リソース マネージャーの役割サービスをインストールします。",
+          "html": "ファイル サーバー リソース マネージャーの役割サービスをインストールします。"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-005-c2"
+      ],
+      "explanationHtml": "<p>セルフホステッド統合ランタイムをインストールする が正解です。これは、Azure Data Factory を使用してオンプレミス ソースからデータを移動する場合 (例: Server1)) を Azure ストレージに接続するには、オンプレミスのマシンにセルフホステッド統合ランタイム (IR) がインストールされている必要があります。</p><p>Azure File Sync エージェントをインストールする は、同期に Azure File Sync が使用されているため不正解です。 Azure File 共有を使用したオンプレミスのファイル サーバーであり、Azure Data Factory とのデータ移動の調整用ではありません。</p><p>ファイル サーバー リソース マネージャーの役割サービスをインストールする は誤りです。これは、Windows Server でクォータとファイル管理機能を提供しますが、Azure へのデータ移動やデータとの統合には役立ちません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory\">https://learn.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory</a></p></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-factory/introduction\">https://learn.microsoft.com/en-us/azure/data-factory/introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-factory/copy-data-tool\">https://learn.microsoft.com/en-us/azure/data-factory/copy-data-tool</a></p></li></ul>",
+      "explanationText": "正解はセルフホステッド統合ランタイムをインストールする です。これは、Azure Data Factory を使用してオンプレミス ソースからデータを移動する場合 (例: Server1)) を Azure ストレージに接続するには、オンプレミスのマシンにセルフホステッド統合ランタイム (IR) がインストールされている必要があります。\nAzure File Sync エージェントをインストールする は、同期に Azure File Sync が使用されているため不正解です。 Azure File 共有を使用したオンプレミスのファイル サーバーであり、Azure Data Factory とのデータ移動の調整用ではありません。\nファイル サーバー リソース マネージャーの役割サービスをインストールする は誤りです。これは、Windows Server でクォータとファイル管理機能を提供しますが、Azure へのデータ移動やデータとの統合には役立ちません。\n参照:\n・https://learn.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory\n\n・https://learn.microsoft.com/en-us/azure/data-factory/introduction\n\n・https://learn.microsoft.com/en-us/azure/data-factory/copy-data-tool",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en3-q-006",
+      "sourceQuestionNumber": 6,
+      "promptHtml": "<p>オンプレミス環境には、<strong>500 GB のデータ</strong>を含む <strong>Server1</strong> という名前のファイル サーバーが含まれています。</p><p><strong>Server1</strong> から <strong>Azure Storage</strong> にデータをコピーするには、<strong>Azure Data Factory</strong> を使用する必要があります。</p><p> <strong>新しいデータ ファクトリ</strong>を作成します。</p><p>次に何をする必要がありますか。</p><p><code>「データ ファクトリから___________________________________________。」</code> </p>",
+      "promptText": "オンプレミス環境には、500 GB のデータを含む Server1 という名前のファイル サーバーが含まれています。\nServer1 から Azure Storage にデータをコピーするには、Azure Data Factory を使用する必要があります。\n 新しいデータ ファクトリを作成します。\n次に何をする必要がありますか。\n「データ ファクトリから___________________________________________。」",
+      "choices": [
+        {
+          "choiceId": "en3-q-006-c1",
+          "label": null,
+          "text": "パイプラインを作成します。",
+          "html": "パイプラインを作成します。"
+        },
+        {
+          "choiceId": "en3-q-006-c2",
+          "label": null,
+          "text": "インポート/エクスポート ジョブを作成します。",
+          "html": "インポート/エクスポート ジョブを作成します。"
+        },
+        {
+          "choiceId": "en3-q-006-c3",
+          "label": null,
+          "text": "Azure-SQL Server Integration Services (SSIS) 統合ランタイムをプロビジョニングします。",
+          "html": "Azure-SQL Server Integration Services (SSIS) 統合ランタイムをプロビジョニングします。"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-006-c1"
+      ],
+      "explanationHtml": "<p>パイプラインを作成する は正解です。新しい Azure Data Factory を追加した後の次のステップは、オンプレミスのファイル サーバーからデータをコピーするためです。</p><p>インポート/エクスポート ジョブの作成 は誤りです。これは、インポート/エクスポート ジョブが Azure Import/Export サービスで使用され、物理的な発送が必要となるためです。</p><p>Azure-SQL Server Integration Services (SSIS) 統合ランタイムのプロビジョニング は誤りです。SSIS 統合ランタイムは、Azure で SSIS パッケージを移行または実行する場合にのみ必要となるためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities?tabs=data-factory\">https://learn.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities?tabs=data-factory</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime\">https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime\">https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime</a></p></li></ul>",
+      "explanationText": "パイプラインを作成する は正解です。新しい Azure Data Factory を追加した後の次のステップは、オンプレミスのファイル サーバーからデータをコピーするためです。\nインポート/エクスポート ジョブの作成 は誤りです。これは、インポート/エクスポート ジョブが Azure Import/Export サービスで使用され、物理的な発送が必要となるためです。\nAzure-SQL Server Integration Services (SSIS) 統合ランタイムのプロビジョニング は誤りです。SSIS 統合ランタイムは、Azure で SSIS パッケージを移行または実行する場合にのみ必要となるためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities?tabs=data-factory\n\n・https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime\n\n・https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en3-q-007",
+      "sourceQuestionNumber": 7,
+      "promptHtml": "<p>組織は、オンプレミス データ センターで<strong>販売</strong>、<strong>財務</strong>、<strong>レポート</strong>アプリケーションをホストする仮想マシンに対して次の<strong>事業継続性と災害復旧 (BCDR)</strong>要件を定義しています。</p><ul><li><p><strong>販売アプリケーション</strong>はセカンダリへの<strong>フェールオーバーをサポートする必要があります。 </p></li><li><p><strong>レポート アプリケーション</strong>は、<strong>日単位</strong>の<strong>ポイントインタイム データ リカバリ</strong>をサポートする必要があり、<strong>目標復旧時間 (RTO)</strong>は<strong>8 時間</strong>です。</p></li><li><p><strong>財務アプリケーション</strong>は、次の期間データを保持する必要があります。 <strong>7 年</strong>です。災害が発生した場合、 アプリケーションは<strong>Azure から</strong>実行できる必要があり、<strong>RTO</strong>は<strong>10 分</strong>です。</p></li></ul><p>これらのビジネス継続性と災害復旧要件を満たしながら<strong>コスト</strong>を最小限に抑える適切な<strong>Azure サービス</strong>を推奨する必要があります。</p><p>どの<strong>Azure サービス</strong>を推奨する必要がありますか。 <code>セールス</code><strong>アプリケーション</strong>。</p>",
+      "promptText": "組織は、オンプレミス データ センターで販売、財務、レポートアプリケーションをホストする仮想マシンに対して次の事業継続性と災害復旧 (BCDR)要件を定義しています。\n・販売アプリケーションはセカンダリへのフェールオーバーをサポートする必要があります。\n\n・レポート アプリケーションは、日単位のポイントインタイム データ リカバリをサポートする必要があり、目標復旧時間 (RTO)は8 時間です。\n\n・財務アプリケーションは、次の期間データを保持する必要があります。 7 年です。災害が発生した場合、 アプリケーションはAzure から実行できる必要があり、RTOは10 分です。\n\nこれらのビジネス継続性と災害復旧要件を満たしながらコストを最小限に抑える適切なAzure サービスを推奨する必要があります。\nどのAzure サービスを推奨する必要がありますか。 セールスアプリケーション。",
+      "choices": [
+        {
+          "choiceId": "en3-q-007-c1",
+          "label": null,
+          "text": "Azure Backup のみ",
+          "html": "Azure Backup のみ"
+        },
+        {
+          "choiceId": "en3-q-007-c2",
+          "label": null,
+          "text": "Azure Site Recovery のみ",
+          "html": "Azure Site Recovery のみ"
+        },
+        {
+          "choiceId": "en3-q-007-c3",
+          "label": null,
+          "text": "Azure Site Recovery と Azure Backup",
+          "html": "Azure Site Recovery と Azure Backup"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-007-c2"
+      ],
+      "explanationHtml": "<p>Azure Site Recovery のみ は正解です。販売アプリケーションでは 2 番目のオンプレミス データ センターへのフェールオーバーが必要です。</p><p>Azure Backup のみ は誤りです。これは、Azure Backup はデータ保護と長期保持を提供しますが、アプリケーション レベルのフェールオーバーや継続性はサポートしていないためです。</p><p>Azure Site Recovery と Azure Backup は誤りです。両方を使用するとコストが不必要に増加するためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview\">https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/site-recovery/azure-to-azure-tutorial-dr-drill\">https://learn.microsoft.com/en-us/azure/site-recovery/azure-to-azure-tutorial-dr-drill</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-overview\">https://learn.microsoft.com/en-us/azure/backup/backup-overview</a></p></li></ul>",
+      "explanationText": "Azure Site Recovery のみ は正解です。販売アプリケーションでは 2 番目のオンプレミス データ センターへのフェールオーバーが必要です。\nAzure Backup のみ は誤りです。これは、Azure Backup はデータ保護と長期保持を提供しますが、アプリケーション レベルのフェールオーバーや継続性はサポートしていないためです。\nAzure Site Recovery と Azure Backup は誤りです。両方を使用するとコストが不必要に増加するためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview\n\n・https://learn.microsoft.com/en-us/azure/site-recovery/azure-to-azure-tutorial-dr-drill\n\n・https://learn.microsoft.com/en-us/azure/backup/backup-overview",
+      "images": [],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en3-q-008",
+      "sourceQuestionNumber": 8,
+      "promptHtml": "<p>組織は、オンプレミス データ センターで<strong>販売</strong>、<strong>財務</strong>、<strong>レポート</strong>アプリケーションをホストする仮想マシンに対して次の<strong>事業継続性と災害復旧 (BCDR)</strong>要件を定義しています。</p><ul><li><p><strong>販売アプリケーション</strong>はセカンダリへの<strong>フェールオーバーをサポートする必要があります。 </p></li><li><p><strong>レポート アプリケーション</strong>は、<strong>日単位</strong>の<strong>ポイントインタイム データ リカバリ</strong>をサポートする必要があり、<strong>目標復旧時間 (RTO)</strong>は<strong>8 時間</strong>です。</p></li><li><p><strong>財務アプリケーション</strong>は、次の期間データを保持する必要があります。 <strong>7 年</strong>です。災害が発生した場合、 アプリケーションは<strong>Azure から</strong>実行できる必要があり、<strong>RTO</strong>は<strong>10 分</strong>です。</p></li></ul><p>これらのビジネス継続性と災害復旧要件を満たしながら<strong>コスト</strong>を最小限に抑える適切な<strong>Azure サービス</strong>を推奨する必要があります。</p><p>どの<strong>Azure サービス</strong>を推奨する必要がありますか。 <code>金融</code><strong>アプリケーション</strong>ですか。</p>",
+      "promptText": "組織は、オンプレミス データ センターで販売、財務、レポートアプリケーションをホストする仮想マシンに対して次の事業継続性と災害復旧 (BCDR)要件を定義しています。\n・販売アプリケーションはセカンダリへのフェールオーバーをサポートする必要があります。\n\n・レポート アプリケーションは、日単位のポイントインタイム データ リカバリをサポートする必要があり、目標復旧時間 (RTO)は8 時間です。\n\n・財務アプリケーションは、次の期間データを保持する必要があります。 7 年です。災害が発生した場合、 アプリケーションはAzure から実行できる必要があり、RTOは10 分です。\n\nこれらのビジネス継続性と災害復旧要件を満たしながらコストを最小限に抑える適切なAzure サービスを推奨する必要があります。\nどのAzure サービスを推奨する必要がありますか。 金融アプリケーションですか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-008-c1",
+          "label": null,
+          "text": "Azure Backup のみ",
+          "html": "Azure Backup のみ"
+        },
+        {
+          "choiceId": "en3-q-008-c2",
+          "label": null,
+          "text": "Azure Site Recovery のみ",
+          "html": "Azure Site Recovery のみ"
+        },
+        {
+          "choiceId": "en3-q-008-c3",
+          "label": null,
+          "text": "Azure Site Recovery と Azure Backup",
+          "html": "Azure Site Recovery と Azure Backup"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-008-c3"
+      ],
+      "explanationHtml": "<p>Azure Site Recovery と Azure Backup は、財務アプリケーションには 2 つの異なる要件があるため正解です。</p><ol><li><p>災害発生時に RTO 10 分で Azure から実行する - これには、レプリケーション、自動フェールオーバー、Azure へのワークロードの迅速なリカバリを提供する Azure Site Recovery (ASR) が必要です。</p></li><li><p>データは 7 年間保持する必要があります。これには、長期保持ポリシーをサポートし、コンプライアンスとアーカイブのニーズに合わせてバックアップを保存するために最適化された Azure Backup が必要です。</p></li></ol><p>したがって、ASR (高可用性と低 RTO フェールオーバーのため) と Azure Backup (長期保持のため) を組み合わせることが、両方の要件をコスト効率よく満たすために必要です。</p><p>Azure Backup のみ は誤りです。長期のデータ保持はサポートされていますが、フェールオーバーや迅速な回復が有効ではないため、10 分の RTO でのディザスター リカバリーには不十分です。</p><p>Azure Site Recovery のみ は誤りです。これは、Azure へのフェールオーバーの RTO 要件を満たしていますが、7 年間のデータ保持要件を遵守するために重要な長期バックアップ保持ポリシーをサポートしていないためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview\">https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-overview\">https://learn.microsoft.com/en-us/azure/backup/backup-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-introduction\">https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-introduction</a></p></li></ul>",
+      "explanationText": "Azure Site Recovery と Azure Backup は、財務アプリケーションには 2 つの異なる要件があるため正解です。\n・災害発生時に RTO 10 分で Azure から実行する - これには、レプリケーション、自動フェールオーバー、Azure へのワークロードの迅速なリカバリを提供する Azure Site Recovery (ASR) が必要です。\n\n・データは 7 年間保持する必要があります。これには、長期保持ポリシーをサポートし、コンプライアンスとアーカイブのニーズに合わせてバックアップを保存するために最適化された Azure Backup が必要です。\n\nしたがって、ASR (高可用性と低 RTO フェールオーバーのため) と Azure Backup (長期保持のため) を組み合わせることが、両方の要件をコスト効率よく満たすために必要です。\nAzure Backup のみ は誤りです。長期のデータ保持はサポートされていますが、フェールオーバーや迅速な回復が有効ではないため、10 分の RTO でのディザスター リカバリーには不十分です。\nAzure Site Recovery のみ は誤りです。これは、Azure へのフェールオーバーの RTO 要件を満たしていますが、7 年間のデータ保持要件を遵守するために重要な長期バックアップ保持ポリシーをサポートしていないためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview\n\n・https://learn.microsoft.com/en-us/azure/backup/backup-overview\n\n・https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-introduction",
+      "images": [],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en3-q-009",
+      "sourceQuestionNumber": 9,
+      "promptHtml": "<p>組織は、オンプレミス データ センターで<strong>販売</strong>、<strong>財務</strong>、<strong>レポート</strong>アプリケーションをホストする仮想マシンに対して次の<strong>事業継続性と災害復旧 (BCDR)</strong>要件を定義しています。</p><ul><li><p><strong>販売アプリケーション</strong>はセカンダリへの<strong>フェールオーバーをサポートする必要があります。 </p></li><li><p><strong>レポート アプリケーション</strong>は、<strong>日単位</strong>の<strong>ポイントインタイム データ リカバリ</strong>をサポートする必要があり、<strong>目標復旧時間 (RTO)</strong>は<strong>8 時間</strong>です。</p></li><li><p><strong>財務アプリケーション</strong>は、次の期間データを保持する必要があります。 <strong>7 年</strong>です。災害が発生した場合、 アプリケーションは<strong>Azure から</strong>実行できる必要があり、<strong>RTO</strong>は<strong>10 分</strong>です。</p></li></ul><p>これらのビジネス継続性と災害復旧要件を満たしながら<strong>コスト</strong>を最小限に抑える適切な<strong>Azure サービス</strong>を推奨する必要があります。</p><p>どの<strong>Azure サービス</strong>を推奨する必要がありますか。 <code>レポート</code><strong>アプリケーション</strong>。</p>",
+      "promptText": "組織は、オンプレミス データ センターで販売、財務、レポートアプリケーションをホストする仮想マシンに対して次の事業継続性と災害復旧 (BCDR)要件を定義しています。\n・販売アプリケーションはセカンダリへのフェールオーバーをサポートする必要があります。\n\n・レポート アプリケーションは、日単位のポイントインタイム データ リカバリをサポートする必要があり、目標復旧時間 (RTO)は8 時間です。\n\n・財務アプリケーションは、次の期間データを保持する必要があります。 7 年です。災害が発生した場合、 アプリケーションはAzure から実行できる必要があり、RTOは10 分です。\n\nこれらのビジネス継続性と災害復旧要件を満たしながらコストを最小限に抑える適切なAzure サービスを推奨する必要があります。\nどのAzure サービスを推奨する必要がありますか。 レポートアプリケーション。",
+      "choices": [
+        {
+          "choiceId": "en3-q-009-c1",
+          "label": null,
+          "text": "Azure Backup のみ",
+          "html": "Azure Backup のみ"
+        },
+        {
+          "choiceId": "en3-q-009-c2",
+          "label": null,
+          "text": "Azure Site Recovery のみ",
+          "html": "Azure Site Recovery のみ"
+        },
+        {
+          "choiceId": "en3-q-009-c3",
+          "label": null,
+          "text": "Azure Site Recovery と Azure Backup",
+          "html": "Azure Site Recovery と Azure Backup"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-009-c1"
+      ],
+      "explanationHtml": "<p>Azure Backup のみ は正解です。レポート アプリケーションには、8 時間の目標復旧時間 (RTO) で、ポイントインタイム データを日次粒度で回復する機能が必要だからです。</p><p>Azure Site Recovery のみ は誤りです。これは、レプリケーションとフェールオーバーを提供しますが、ポイントインタイム バックアップや毎日の詳細な復元機能を提供するように設計されていないためです。</p><p>Azure Site Recovery と Azure Backup は誤りです。両方のサービスを使用すると、コストが不必要に増加することになります。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-overview\">https://learn.microsoft.com/en-us/azure/backup/backup-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-first-look-arm\">https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-first-look-arm</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview\">https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview</a></p></li></ul>",
+      "explanationText": "Azure Backup のみ は正解です。レポート アプリケーションには、8 時間の目標復旧時間 (RTO) で、ポイントインタイム データを日次粒度で回復する機能が必要だからです。\nAzure Site Recovery のみ は誤りです。これは、レプリケーションとフェールオーバーを提供しますが、ポイントインタイム バックアップや毎日の詳細な復元機能を提供するように設計されていないためです。\nAzure Site Recovery と Azure Backup は誤りです。両方のサービスを使用すると、コストが不必要に増加することになります。\n参照:\n・https://learn.microsoft.com/en-us/azure/backup/backup-overview\n\n・https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-first-look-arm\n\n・https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview",
+      "images": [],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en3-q-010",
+      "sourceQuestionNumber": 10,
+      "promptHtml": "<p>あなたは、<strong>Azure Kubernetes Service (AKS)</strong> クラスターでホストされる<strong>マイクロサービス ベースのアーキテクチャ</strong>を設計しています。これらのマイクロサービスを使用するアプリケーションは<strong>Azure 仮想マシン</strong>上で実行されます。仮想マシンと AKS クラスターは両方とも<strong>同じ仮想ネットワーク</strong>内にデプロイされます。</p><p>次の要件を満たしながら、コンシューマ アプリケーションにマイクロサービスを公開するソリューションを設計する必要があります。</p><ul><li><p><strong>マイクロサービスへの上りアクセス</strong>は<strong>単一のプライベート IP アドレス</strong>に制限し、<strong>相互 TLS (mTLS) を使用して保護する必要があります。 </p></li><li><p>ソリューションでは、マイクロサービスへの受信リクエストに<strong>レート制限を適用</strong>する必要があります。</p></li><li><p><strong>コストを最小限に抑える</strong>必要があります。</p></li></ul><p>これらの要件に基づいて、ソリューションには何を含める必要がありますか。</p>",
+      "promptText": "あなたは、Azure Kubernetes Service (AKS) クラスターでホストされるマイクロサービス ベースのアーキテクチャを設計しています。これらのマイクロサービスを使用するアプリケーションはAzure 仮想マシン上で実行されます。仮想マシンと AKS クラスターは両方とも同じ仮想ネットワーク内にデプロイされます。\n次の要件を満たしながら、コンシューマ アプリケーションにマイクロサービスを公開するソリューションを設計する必要があります。\n・マイクロサービスへの上りアクセスは単一のプライベート IP アドレスに制限し、相互 TLS (mTLS) を使用して保護する必要があります。\n\n・ソリューションでは、マイクロサービスへの受信リクエストにレート制限を適用する必要があります。\n\n・コストを最小限に抑える必要があります。\n\nこれらの要件に基づいて、ソリューションには何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en3-q-010-c1",
+          "label": null,
+          "text": "Azure仮想ネットワーク接続を備えた API Management Premium レベル",
+          "html": "Azure仮想ネットワーク接続を備えた API Management Premium レベル"
+        },
+        {
+          "choiceId": "en3-q-010-c2",
+          "label": null,
+          "text": "Azure Web アプリケーション ファイアウォール (WAF) を備えた Azure Front Door",
+          "html": "Azure Web アプリケーション ファイアウォール (WAF) を備えた Azure Front Door"
+        },
+        {
+          "choiceId": "en3-q-010-c3",
+          "label": null,
+          "text": "サービス エンドポイントを備えた Azure API Management Standard レベル",
+          "html": "サービス エンドポイントを備えた Azure API Management Standard レベル"
+        },
+        {
+          "choiceId": "en3-q-010-c4",
+          "label": null,
+          "text": "Azure Web Application Firewall を備えた Azure App Gateway (WAF)",
+          "html": "Azure Web Application Firewall を備えた Azure App Gateway (WAF)"
+        }
+      ],
+      "correctChoiceIds": [
+        "en3-q-010-c1"
+      ],
+      "explanationHtml": "<p>仮想ネットワーク接続を備えた Azure API Management Premium レベルは、VNet 統合を完全にサポートし、プライベート IP アドレスで API を公開できるため、正解です。これにより、単一のプライベート IP へのイングレス アクセスを制限する要件が満たされます。</p><p>Azure Web アプリケーション ファイアウォール (WAF) を備えた Azure Front Door は誤りです。Front Door はパブリックにアクセスできるグローバル サービスであり、プライベート IP アドレスをサポートしていないためです。</p><p>Azure Web アプリケーション ファイアウォール (WAF) を備えた Azure App Gateway は誤りです。プライベート IP と相互 TLS はサポートされていますが、レート制限などの API 管理機能はネイティブでサポートされていないためです。</p><p>サービス エンドポイントを備えた Azure API Management Standard ティアは、Standard ティアが仮想ネットワーク統合をサポートしていないため不正確です。したがって、このシナリオでは必須の要件であるプライベート IP 経由で API を公開することはできません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/api-management/api-management-kubernetes\">https://learn.microsoft.com/en-us/azure/api-management/api-management-kubernetes</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/api-management/api-management-policies#authentication-policies\">https://learn.microsoft.com/en-us/azure/api-management/api-management-policies#authentication-policies</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/application-gateway/overview\">https://learn.microsoft.com/en-us/azure/application-gateway/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview\">https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview</a></p></li></ul>",
+      "explanationText": "仮想ネットワーク接続を備えた Azure API Management Premium レベルは、VNet 統合を完全にサポートし、プライベート IP アドレスで API を公開できるため、正解です。これにより、単一のプライベート IP へのイングレス アクセスを制限する要件が満たされます。\nAzure Web アプリケーション ファイアウォール (WAF) を備えた Azure Front Door は誤りです。Front Door はパブリックにアクセスできるグローバル サービスであり、プライベート IP アドレスをサポートしていないためです。\nAzure Web アプリケーション ファイアウォール (WAF) を備えた Azure App Gateway は誤りです。プライベート IP と相互 TLS はサポートされていますが、レート制限などの API 管理機能はネイティブでサポートされていないためです。\nサービス エンドポイントを備えた Azure API Management Standard ティアは、Standard ティアが仮想ネットワーク統合をサポートしていないため不正確です。したがって、このシナリオでは必須の要件であるプライベート IP 経由で API を公開することはできません。\n参照:\n・https://learn.microsoft.com/en-us/azure/api-management/api-management-kubernetes\n\n・https://learn.microsoft.com/en-us/azure/api-management/api-management-policies#authentication-policies\n\n・https://learn.microsoft.com/en-us/azure/application-gateway/overview\n\n・https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en3-case-001",
+      "tags": [
+        "case-study"
+      ]
+    }
+  ]
+}

@@ -50,9 +50,9 @@
         "jp1-q-001-c4"
       ],
       "explanationHtml": "<p>Azure File Syncは、Azureファイル共有（Azure StorageのFile）に保存しているデータをオンプレミスなどのWindows Serverにキャッシュして利用できるサービスです（Azureファイル共有は、Azure File Sync をデプロイするのと同じリージョンに必要）</p><p><br></p><p>Azure File Syncには次のような用途・メリットがあります。</p><p><br></p><ul><li><p>オンプレミスのファイルサーバをクラウドに拡張できる</p></li><li><p>クラウドで一元管理して複数拠点で共有できる</p></li><li><p>バックアップや災害対策</p></li></ul><p><br></p><p>なお、Azure Backupで取得するバックアップから復元する方法もありますが、復旧までに時間がかかるソリューションになるため不正解です。</p><p><br></p><p> 【参考】</p><p> <a href=\"https://learn.microsoft.com/ja-jp/azure/storage/file-sync/file-sync-introduction\">https://learn.microsoft.com/ja-jp/azure/storage/file-sync/file-sync-introduction</a></p>",
-      "explanationText": "Azure File Syncは、Azureファイル共有（Azure StorageのFile）に保存しているデータをオンプレミスなどのWindows Serverにキャッシュして利用できるサービスです（Azureファイル共有は、Azure File Sync をデプロイするのと同じリージョンに必要）\n\nAzure File Syncには次のような用途・メリットがあります。\n\nオンプレミスのファイルサーバをクラウドに拡張できる\nクラウドで一元管理して複数拠点で共有できる\nバックアップや災害対策\n\nなお、Azure Backupで取得するバックアップから復元する方法もありますが、復旧までに時間がかかるソリューションになるため不正解です。\n\n 【参考】\n https://learn.microsoft.com/ja-jp/azure/storage/file-sync/file-sync-introduction",
+      "explanationText": "Azure File Syncは、Azureファイル共有（Azure StorageのFile）に保存しているデータをオンプレミスなどのWindows Serverにキャッシュして利用できるサービスです（Azureファイル共有は、Azure File Sync をデプロイするのと同じリージョンに必要）\n\nAzure File Syncには次のような用途・メリットがあります。\n\n・オンプレミスのファイルサーバをクラウドに拡張できる\n\n・クラウドで一元管理して複数拠点で共有できる\n\n・バックアップや災害対策\n\nなお、Azure Backupで取得するバックアップから復元する方法もありますが、復旧までに時間がかかるソリューションになるため不正解です。\n\n 【参考】\n https://learn.microsoft.com/ja-jp/azure/storage/file-sync/file-sync-introduction",
       "images": [],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -96,7 +96,7 @@
       "images": [
         "assets/問題集1_files/2023-02-07_01-16-22-7424d1d1523051c35eb8b4e356312396.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-linked-001",
       "tags": [
@@ -140,7 +140,7 @@
       "explanationHtml": "<p>オンプレミスとサイト間VPNで接続する場合、Azure側には「GatewaySubnet」という名前のサブネットを作成し、そこにVPNゲートウェイを作成します。</p><p><br></p><p>また、前の問題で解説したとおり、Azure側の仮想ネットワークのアドレス範囲は、オンプレミスのネットワークアドレスと重複させることはできず、172.16.0.0/16のアドレス範囲に含まれる選択肢1、2は誤りです。</p><p><br></p><p>192.168.0.0/24のアドレス範囲は仮想マシン向けに使用する必要がありますので、ゲートウェイサブネットのネットワークアドレスは192.168.1.0/27が正解となります。</p><p><br></p><p>なお、ゲートウェイサブネットは/29以下であれば作成できますが、構成の要件（ExpressRoute/VPN Gatewayの共存など）によってはIPアドレスが不足する場合があるため、/27 以上 (/27、/26 など) で作成することが推奨されています。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/vpn-gateway/tutorial-site-to-site-portal\">https://learn.microsoft.com/ja-jp/azure/vpn-gateway/tutorial-site-to-site-portal</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings\">https://learn.microsoft.com/ja-jp/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings</a></p>",
       "explanationText": "オンプレミスとサイト間VPNで接続する場合、Azure側には「GatewaySubnet」という名前のサブネットを作成し、そこにVPNゲートウェイを作成します。\n\nまた、前の問題で解説したとおり、Azure側の仮想ネットワークのアドレス範囲は、オンプレミスのネットワークアドレスと重複させることはできず、172.16.0.0/16のアドレス範囲に含まれる選択肢1、2は誤りです。\n\n192.168.0.0/24のアドレス範囲は仮想マシン向けに使用する必要がありますので、ゲートウェイサブネットのネットワークアドレスは192.168.1.0/27が正解となります。\n\nなお、ゲートウェイサブネットは/29以下であれば作成できますが、構成の要件（ExpressRoute/VPN Gatewayの共存など）によってはIPアドレスが不足する場合があるため、/27 以上 (/27、/26 など) で作成することが推奨されています。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/vpn-gateway/tutorial-site-to-site-portal\nhttps://learn.microsoft.com/ja-jp/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings",
       "images": [],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-linked-001",
       "tags": [
@@ -186,7 +186,7 @@
       "images": [
         "assets/問題集1_files/2023-02-07_02-57-31-c43eced332a445da82f2c40456dfe82b.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -231,7 +231,7 @@
         "assets/問題集1_files/2023-02-07_03-14-31-b1f22a48f72b4968bd8dbab46fba65bb.png",
         "assets/問題集1_files/2024-10-04_06-42-24-3629fe680dab0b80309041bb12cde418.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -275,7 +275,7 @@
       "images": [
         "assets/問題集1_files/2023-02-07_04-22-38-baf4dcd9b00559ce1ec52425eec8074f.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-linked-002",
       "tags": [
@@ -315,7 +315,7 @@
       "images": [
         "assets/問題集1_files/2023-02-07_04-28-48-c6ce3d859072a1aee50577c39900e218.png"
       ],
-      "domain": null,
+      "domain": "ビジネス継続性ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-linked-002",
       "tags": [
@@ -349,10 +349,12 @@
       "images": [
         "assets/問題集1_files/2023-01-10_07-30-32-c07de89c57ea8f875495478ef66efa35.png"
       ],
-      "domain": null,
-      "questionType": "single",
+      "domain": "インフラストラクチャソリューションを設計する",
+      "questionType": "boolean",
       "contextGroupId": null,
-      "tags": []
+      "tags": [
+        "boolean"
+      ]
     },
     {
       "questionId": "jp1-q-009",
@@ -391,7 +393,7 @@
       "explanationHtml": "<p><code>・ストレージはディレクトリの階層構造をサポートすること</code></p><p><code>・ストレージはアクセス制御リスト(ACL)をサポートすること</code></p><p>この2つの特徴はBLOBストレージの「階層型名前空間」の特徴を表しています。</p><p><br></p><p>本来のオブジェクトストレージ（BLOB）とは、パソコンのローカルディスクのようにディレクトリ構造（パス）で保存場所を管理せず、オブジェクトIDと呼ばれる識別子で管理するフラットな構造のストレージを指しますが、ディレクトリ階層を模倣するためにパスの区切りを示すスラッシュ (/) をオブジェクト名に埋め込むという方法で実現しています。</p><p><br></p><p>階層型名前空間を有効にすると、一般的なファイルシステムと同じようにディレクトリの階層構造で整理することができ、ディレクトリの移動、名前変更、削除などの操作を最適化することができます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-namespace\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-namespace</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-access-control\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-access-control</a></p><p><br></p><p>階層型名前空間は汎用v2、PremiumブロックBLOBで構成することができます。（ページBLOB、ファイル共有では使えません）</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts</a></p><p><br></p><p>選択肢1、2が候補となりますが、「階層型名前空間が有効になっている」と明示されており、コストもPremiumブロックBLOBより安価な選択肢2が正解となります。</p><p><br></p><p><code>・ストレージの最大容量は1PiB以上をサポートすること</code></p><p>ほとんどのシナリオではストレージアカウントの最大容量の既定値は5PiBになっています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#storage-limits\">https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#storage-limits</a></p>",
       "explanationText": "・ストレージはディレクトリの階層構造をサポートすること\n・ストレージはアクセス制御リスト(ACL)をサポートすること\nこの2つの特徴はBLOBストレージの「階層型名前空間」の特徴を表しています。\n\n本来のオブジェクトストレージ（BLOB）とは、パソコンのローカルディスクのようにディレクトリ構造（パス）で保存場所を管理せず、オブジェクトIDと呼ばれる識別子で管理するフラットな構造のストレージを指しますが、ディレクトリ階層を模倣するためにパスの区切りを示すスラッシュ (/) をオブジェクト名に埋め込むという方法で実現しています。\n\n階層型名前空間を有効にすると、一般的なファイルシステムと同じようにディレクトリの階層構造で整理することができ、ディレクトリの移動、名前変更、削除などの操作を最適化することができます。\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-namespace\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-access-control\n\n階層型名前空間は汎用v2、PremiumブロックBLOBで構成することができます。（ページBLOB、ファイル共有では使えません）\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts\n\n選択肢1、2が候補となりますが、「階層型名前空間が有効になっている」と明示されており、コストもPremiumブロックBLOBより安価な選択肢2が正解となります。\n\n・ストレージの最大容量は1PiB以上をサポートすること\nほとんどのシナリオではストレージアカウントの最大容量の既定値は5PiBになっています。\nhttps://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#storage-limits",
       "images": [],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -441,7 +443,7 @@
       "images": [
         "assets/問題集1_files/2023-01-14_04-28-09-5c72218ed664860cc657aab114336317.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []

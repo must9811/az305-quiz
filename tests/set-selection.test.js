@@ -2,7 +2,7 @@ const { describe, test } = require("node:test");
 
 describe("set selection", () => {
   describe("initial rendering", () => {
-    test.todo("セット選択画面で 6 件の 10 問セット一覧を表示できる");
+    test.todo("セット選択画面で可変件数のセット一覧を表示できる");
     test.todo("各セットに問題数と出題範囲を表示できる");
     test.todo("各セットに画像有無と複数選択有無を表示できる");
     test.todo("各セットで 通常 マークのみ 直近誤答のみ の開始導線を表示できる");

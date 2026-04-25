@@ -1,0 +1,413 @@
+{
+  "setId": "en5-set-003",
+  "title": "英語問題集5 翻訳版 21-30",
+  "sourceHtml": "assets/英語問題集5.html",
+  "questionIds": [
+    "en5-q-021",
+    "en5-q-022",
+    "en5-q-023",
+    "en5-q-024",
+    "en5-q-025",
+    "en5-q-026",
+    "en5-q-027",
+    "en5-q-028",
+    "en5-q-029",
+    "en5-q-030"
+  ],
+  "questions": [
+    {
+      "questionId": "en5-q-021",
+      "sourceQuestionNumber": 21,
+      "promptHtml": "<p>あなたは、ビジネス クリティカルなデータを Azure に保存する新しいアプリケーションを設計しています。</p><p>データ プラットフォームでは、新しく書き込まれたデータが 1 年間変更されないように不変性を強制する必要があります。さらに、ソリューションは、低遅延の読み取りアクセスを提供しながら、可能な限り最高レベルのデータ耐久性を提供する必要があります。</p><p>どの<code>ストレージ アカウントの種類</code>を選択する必要がありますか。</p>",
+      "promptText": "あなたは、ビジネス クリティカルなデータを Azure に保存する新しいアプリケーションを設計しています。\nデータ プラットフォームでは、新しく書き込まれたデータが 1 年間変更されないように不変性を強制する必要があります。さらに、ソリューションは、低遅延の読み取りアクセスを提供しながら、可能な限り最高レベルのデータ耐久性を提供する必要があります。\nどのストレージ アカウントの種類を選択する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-021-c1",
+          "label": null,
+          "text": "標準汎用 v1",
+          "html": "標準汎用 v1"
+        },
+        {
+          "choiceId": "en5-q-021-c2",
+          "label": null,
+          "text": "標準汎用 v2",
+          "html": "標準汎用 v2"
+        },
+        {
+          "choiceId": "en5-q-021-c3",
+          "label": null,
+          "text": "プレミアム ブロック BLOB",
+          "html": "プレミアム ブロック BLOB"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-021-c3"
+      ],
+      "explanationHtml": "<p>プレミアム ブロック BLOB は、低遅延と高スループットを実現する SSD を使用するため正解であり、読み取り遅延の最小化が優先されるシナリオに最適です。さらに、Azure Blob Storage の不変ポリシーはプレミアム レベルでサポートされており、指定した期間データを不変に設定でき、新しいデータが 1 年間変更されないようにする要件を満たすことができます。</p><p>標準汎用 v1 は誤りです。これは、v1 アカウントは古い Azure ストレージ実装に基づいており、v2 アカウントで利用できるすべての機能やパフォーマンスの向上が提供されていないためです。</p><p>標準汎用 v2 は、v2 アカウントがさまざまな機能と冗長性オプションを提供しているにもかかわらず、読み取りレイテンシーの点でプレミアム ブロック BLOB と同じレベルのパフォーマンスを提供しません。</p><p>読み取り詳細:</p><ul><li><p><a href=\"https://docs.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview#supported-account-configurations\">https://docs.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview#supported-account-configurations</a></p></li></ul>",
+      "explanationText": "プレミアム ブロック BLOB は、低遅延と高スループットを実現する SSD を使用するため正解であり、読み取り遅延の最小化が優先されるシナリオに最適です。さらに、Azure Blob Storage の不変ポリシーはプレミアム レベルでサポートされており、指定した期間データを不変に設定でき、新しいデータが 1 年間変更されないようにする要件を満たすことができます。\n標準汎用 v1 は誤りです。これは、v1 アカウントは古い Azure ストレージ実装に基づいており、v2 アカウントで利用できるすべての機能やパフォーマンスの向上が提供されていないためです。\n標準汎用 v2 は、v2 アカウントがさまざまな機能と冗長性オプションを提供しているにもかかわらず、読み取りレイテンシーの点でプレミアム ブロック BLOB と同じレベルのパフォーマンスを提供しません。\n読み取り詳細:\n・https://docs.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview#supported-account-configurations",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-004",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-022",
+      "sourceQuestionNumber": 22,
+      "promptHtml": "<p>現在、2 つのオンプレミス Microsoft SQL サーバー データベース DB1 と DB2 を使用している App1 という名前のアプリケーションがあります。</p><p>両方のデータベースを Azure に移動する予定であり、適切なホスティング ソリューションを選択する必要があります。</p><p>選択したソリューションでは、両方にまたがるトランザクション操作を許可する必要があります。 </p><p>何を推奨しますか。</p>",
+      "promptText": "現在、2 つのオンプレミス Microsoft SQL サーバー データベース DB1 と DB2 を使用している App1 という名前のアプリケーションがあります。\n両方のデータベースを Azure に移動する予定であり、適切なホスティング ソリューションを選択する必要があります。\n選択したソリューションでは、両方にまたがるトランザクション操作を許可する必要があります。\n何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-022-c1",
+          "label": null,
+          "text": "エラスティック プール内の 2 つの Azure SQL データベース",
+          "html": "エラスティック プール内の 2 つの Azure SQL データベース"
+        },
+        {
+          "choiceId": "en5-q-022-c2",
+          "label": null,
+          "text": "異なる Azure SQL データベース サーバー上の 2 つの Azure SQL データベース",
+          "html": "異なる Azure SQL データベース サーバー上の 2 つの Azure SQL データベース"
+        },
+        {
+          "choiceId": "en5-q-022-c3",
+          "label": null,
+          "text": "Azure 仮想マシン上の同じ SQL サーバー インスタンス上の 2 つのデータベース",
+          "html": "Azure 仮想マシン上の同じ SQL サーバー インスタンス上の 2 つのデータベース"
+        },
+        {
+          "choiceId": "en5-q-022-c4",
+          "label": null,
+          "text": "同じ Azure 上の 2 つのデータベース SQL マネージド インスタンス",
+          "html": "同じ Azure 上の 2 つのデータベース SQL マネージド インスタンス"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-022-c4"
+      ],
+      "explanationHtml": "<p>同じ Azure 上の 2 つのデータベースSQL マネージド インスタンス は正解です。Azure SQL マネージド インスタンスは、DB1 と DB2 にわたるサーバー側トランザクションに不可欠なクロスデータベース クエリやトランザクションなどの機能を含め、オンプレミスの SQL サーバーとのほぼ完全な互換性を提供します。</p><p>エラスティック プール内の 2 つの Azure SQL データベース は誤りです。エラスティック プールではコスト削減とリソース共有が可能ですが、マネージド インスタンスや単一のインスタンスと同じようにクロスデータベース トランザクションはサポートされないためです。</p><p>異なる Azure SQL データベース サーバー上にある 2 つの Azure SQL データベースは、異なる Azure SQL データベース上のデータベース間でクロスデータベース トランザクションがサポートされていないため、不正確です。</p><p>Azure 仮想マシン上の同じ SQL サーバー インスタンス上に 2 つのデータベースがある は誤りです。これは、データベース間のトランザクションはサポートされますが、管理労力は最小限に抑えられないためです。</p><p>参考:</p><ul><li><p><a href=\"https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview\">https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview</a></p></li><li><p><a href=\"https://docs.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview\">https://docs.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview</a></p></li><li><p><a href=\"https://docs.microsoft.com/en-us/azure/azure-sql/database/elastic-transactions-overview?view=azuresql\">https://docs.microsoft.com/en-us/azure/azure-sql/database/elastic-transactions-overview?view=azuresql </a></p></li></ul>",
+      "explanationText": "同じ Azure 上の 2 つのデータベースSQL マネージド インスタンス は正解です。Azure SQL マネージド インスタンスは、DB1 と DB2 にわたるサーバー側トランザクションに不可欠なクロスデータベース クエリやトランザクションなどの機能を含め、オンプレミスの SQL サーバーとのほぼ完全な互換性を提供します。\nエラスティック プール内の 2 つの Azure SQL データベース は誤りです。エラスティック プールではコスト削減とリソース共有が可能ですが、マネージド インスタンスや単一のインスタンスと同じようにクロスデータベース トランザクションはサポートされないためです。\n異なる Azure SQL データベース サーバー上にある 2 つの Azure SQL データベースは、異なる Azure SQL データベース上のデータベース間でクロスデータベース トランザクションがサポートされていないため、不正確です。\nAzure 仮想マシン上の同じ SQL サーバー インスタンス上に 2 つのデータベースがある は誤りです。これは、データベース間のトランザクションはサポートされますが、管理労力は最小限に抑えられないためです。\n参考:\n・https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview\n\n・https://docs.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview\n\n・https://docs.microsoft.com/en-us/azure/azure-sql/database/elastic-transactions-overview?view=azuresql",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en5-q-023",
+      "sourceQuestionNumber": 23,
+      "promptHtml": "<p>あなたは、コンテナー ベースのアプリケーションをホストするために Azure でプラットフォームを設計しています。</p><p>プラットフォームは次の目標を満たす必要があります。</p><ul><li><p>需要が増加したときに追加のインスタンスをインスタンス化することでアプリケーションを自動的にスケールする。</p></li><li><p>基盤となるノードとクラスター インフラストラクチャを管理する必要性をできる限り排除する。</p></li><li><p>高可用性を維持する</p></li><li><p>コンテナ イメージのストレージとライフサイクル管理を一元化します。</p></li></ul><p>この設計の一部として、<strong>コンテナ化されたアプリケーションを実行する</strong>ためにどの Azure サービスを含める必要がありますか。</p>",
+      "promptText": "あなたは、コンテナー ベースのアプリケーションをホストするために Azure でプラットフォームを設計しています。\nプラットフォームは次の目標を満たす必要があります。\n・需要が増加したときに追加のインスタンスをインスタンス化することでアプリケーションを自動的にスケールする。\n\n・基盤となるノードとクラスター インフラストラクチャを管理する必要性をできる限り排除する。\n\n・高可用性を維持する\n\n・コンテナ イメージのストレージとライフサイクル管理を一元化します。\n\nこの設計の一部として、コンテナ化されたアプリケーションを実行するためにどの Azure サービスを含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-023-c1",
+          "label": null,
+          "text": "Azure Container Apps",
+          "html": "Azure Container Apps"
+        },
+        {
+          "choiceId": "en5-q-023-c2",
+          "label": null,
+          "text": "Azure Container Instances",
+          "html": "Azure Container Instances"
+        },
+        {
+          "choiceId": "en5-q-023-c3",
+          "label": null,
+          "text": "Azure Container Registry",
+          "html": "Azure Container Registry"
+        },
+        {
+          "choiceId": "en5-q-023-c4",
+          "label": null,
+          "text": "Azure Kubernetes サービス (AKS)",
+          "html": "Azure Kubernetes サービス (AKS)"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-023-c1"
+      ],
+      "explanationHtml": "<p>Azure Container Apps は、 正解です。Microsoft は、Kubernetes 固有の API を必要とせずにコンテナ化されたアプリケーションを実行したい場合は、セキュリティ、監視、スケーラビリティなどのすべての機能を提供するコンテナ アプリを何も考えずに使用することを推奨しているためです。</p><p>Azure Container Instances は誤りです。Azure Container Instances (ACI) は単一の機能を提供するためです。</p><p>Azure Container Registry は、コンテナ アプリで使用されるコンテナ イメージの保存に ACR が使用されるため、不正確です。これはイメージ リポジトリであり、ノードを独自に実行することはできません。</p><p>Azure Kubernetes サービス は誤りです。AKS は、質問で言及されているすべての機能/サービスを提供しますが、管理が少し複雑であるためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/container-apps/compare-options\">https://learn.microsoft.com/en-us/azure/container-apps/compare-options</a></p></li></ul>",
+      "explanationText": "Azure Container Apps は、 正解です。Microsoft は、Kubernetes 固有の API を必要とせずにコンテナ化されたアプリケーションを実行したい場合は、セキュリティ、監視、スケーラビリティなどのすべての機能を提供するコンテナ アプリを何も考えずに使用することを推奨しているためです。\nAzure Container Instances は誤りです。Azure Container Instances (ACI) は単一の機能を提供するためです。\nAzure Container Registry は、コンテナ アプリで使用されるコンテナ イメージの保存に ACR が使用されるため、不正確です。これはイメージ リポジトリであり、ノードを独自に実行することはできません。\nAzure Kubernetes サービス は誤りです。AKS は、質問で言及されているすべての機能/サービスを提供しますが、管理が少し複雑であるためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/container-apps/compare-options",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-005",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-024",
+      "sourceQuestionNumber": 24,
+      "promptHtml": "<p>あなたは、コンテナー ベースのアプリケーションをホストするために Azure でプラットフォームを設計しています。</p><p>プラットフォームは次の目標を満たす必要があります。</p><ul><li><p>需要が増加したときに追加のインスタンスをインスタンス化することでアプリケーションを自動的にスケールする。</p></li><li><p>基盤となるノードとクラスター インフラストラクチャを管理する必要性をできる限り排除する。</p></li><li><p>高可用性を維持する</p></li><li><p>コンテナ イメージのストレージとライフサイクル管理を一元化します。</p></li></ul><p>この設計の一環として、<strong>コンテナ イメージのライフサイクル管理とストレージ</strong>のためにどの Azure サービスを含める必要がありますか。</p>",
+      "promptText": "あなたは、コンテナー ベースのアプリケーションをホストするために Azure でプラットフォームを設計しています。\nプラットフォームは次の目標を満たす必要があります。\n・需要が増加したときに追加のインスタンスをインスタンス化することでアプリケーションを自動的にスケールする。\n\n・基盤となるノードとクラスター インフラストラクチャを管理する必要性をできる限り排除する。\n\n・高可用性を維持する\n\n・コンテナ イメージのストレージとライフサイクル管理を一元化します。\n\nこの設計の一環として、コンテナ イメージのライフサイクル管理とストレージのためにどの Azure サービスを含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-024-c1",
+          "label": null,
+          "text": "Azure Container Apps",
+          "html": "Azure Container Apps"
+        },
+        {
+          "choiceId": "en5-q-024-c2",
+          "label": null,
+          "text": "Azure Container Instances",
+          "html": "Azure Container Instances"
+        },
+        {
+          "choiceId": "en5-q-024-c3",
+          "label": null,
+          "text": "Azure Container Registry",
+          "html": "Azure Container Registry"
+        },
+        {
+          "choiceId": "en5-q-024-c4",
+          "label": null,
+          "text": "Azure Kubernetes サービス (AKS)",
+          "html": "<p>Azure Kubernetes サービス (AKS)</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-024-c3"
+      ],
+      "explanationHtml": "<p>Azure コンテナACR はすべてのコンテナ イメージの中央リポジトリとして使用されることを目的としているため、 レジストリ が正解です。また、有効期間とアクセスを管理するための複数の機能も提供します。</p><p>Azure Container Apps は誤りです。Microsoft は、Kubernetes 固有の API を必要とせずにコンテナ化されたアプリケーションを実行したい場合は、セキュリティ、監視、スケーラビリティなどのすべての機能を備えたコンテナ アプリを何も考えずに使用することを推奨しているからです。</p><p>Azure Container Instances は誤りです。これは、Azure Container Instances (ACI) が Hyper-V 分離コンテナの単一ポッドをオンデマンドで提供するためです。</p><p>Azure Kubernetes Service(AKS) は誤りです。これは、Azure 内のノードおよびプールでアプリケーションのコンテナー化されたイメージを実行するために AKS が再び使用されるためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/container-registry/container-registry-intro\">https://learn.microsoft.com/en-us/azure/container-registry/container-registry-intro</a></p></li></ul>",
+      "explanationText": "正解はAzure コンテナACR はすべてのコンテナ イメージの中央リポジトリとして使用されることを目的としているため、 レジストリ です。また、有効期間とアクセスを管理するための複数の機能も提供します。\nAzure Container Apps は誤りです。Microsoft は、Kubernetes 固有の API を必要とせずにコンテナ化されたアプリケーションを実行したい場合は、セキュリティ、監視、スケーラビリティなどのすべての機能を備えたコンテナ アプリを何も考えずに使用することを推奨しているからです。\nAzure Container Instances は誤りです。これは、Azure Container Instances (ACI) が Hyper-V 分離コンテナの単一ポッドをオンデマンドで提供するためです。\nAzure Kubernetes Service(AKS) は誤りです。これは、Azure 内のノードおよびプールでアプリケーションのコンテナー化されたイメージを実行するために AKS が再び使用されるためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/container-registry/container-registry-intro",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-005",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-025",
+      "sourceQuestionNumber": 25,
+      "promptHtml": "<p>現在、Microsoft SQL Server 2017 を実行している 2 台のオンプレミス サーバーを運用しています。これらのサーバーは、DB1 という単一のデータベースを含む AG1 という名前の Always On 可用性グループに参加しています。</p><p>Azure には、VM1 という名前の仮想マシンを含むサブスクリプションがあります。 VM1 は Linux を実行し、SQL Server 2019 のインスタンスをホストします。</p><p>DB1 をオンプレミス環境から VM1 に移動する予定です。移行アプローチは、データベースのダウンタイムをできるだけ短く抑えるように設計する必要があります。</p><p>移行の<code>準備</code>はどのように行うべきですか。</p>",
+      "promptText": "現在、Microsoft SQL Server 2017 を実行している 2 台のオンプレミス サーバーを運用しています。これらのサーバーは、DB1 という単一のデータベースを含む AG1 という名前の Always On 可用性グループに参加しています。\nAzure には、VM1 という名前の仮想マシンを含むサブスクリプションがあります。 VM1 は Linux を実行し、SQL Server 2019 のインスタンスをホストします。\nDB1 をオンプレミス環境から VM1 に移動する予定です。移行アプローチは、データベースのダウンタイムをできるだけ短く抑えるように設計する必要があります。\n移行の準備はどのように行うべきですか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-025-c1",
+          "label": null,
+          "text": "既存の AG1 可用性グループに追加のセカンダリ レプリカを追加します。",
+          "html": "<p>既存の AG1 可用性グループに追加のセカンダリ レプリカを追加します。</p>"
+        },
+        {
+          "choiceId": "en5-q-025-c2",
+          "label": null,
+          "text": "新しい Always On 可用性グループを作成します。 VM1",
+          "html": "<p>新しい Always On 可用性グループを作成します。 VM1</p>"
+        },
+        {
+          "choiceId": "en5-q-025-c3",
+          "label": null,
+          "text": "移行前にオンプレミス SQL サーバー インスタンスをアップグレードする",
+          "html": "<p>移行前にオンプレミス SQL サーバー インスタンスをアップグレードする</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-025-c1"
+      ],
+      "explanationHtml": "<p>既存の AG1 可用性グループに追加のセカンダリ レプリカを追加するは、 正解です。これは、SQL Server Always On 可用性グループを使用すると、オンプレミスの SQL Server 2017 から Azure の Linux で実行されている SQL Server 2019 までを含む環境全体に非同期セカンダリ レプリカを追加できるためです。</p><p>VM1 で新しい Always On 可用性グループを作成するのは不正解です。VM1 は新しい可用性グループをホストすべきではないためです。</p><p>移行前にオンプレミス SQL サーバー インスタンスをアップグレードするは、質問からはオンプレミスで実行しているバージョンや VM が実行しているバージョンがわからないため、不正確です。したがって、このオプションは選択できません。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/migration-guides/virtual-machines/sql-server-distributed-availability-group-migrate-ag?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/migration-guides/virtual-machines/sql-server-distributed-availability-group-migrate-ag?view=azuresql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-availability-group-cross-platform?view=sql-server-ver16\">https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-availability-group-cross-platform?view=sql-server-ver16</a></p></li></ul>",
+      "explanationText": "既存の AG1 可用性グループに追加のセカンダリ レプリカを追加するは、 正解です。これは、SQL Server Always On 可用性グループを使用すると、オンプレミスの SQL Server 2017 から Azure の Linux で実行されている SQL Server 2019 までを含む環境全体に非同期セカンダリ レプリカを追加できるためです。\nVM1 で新しい Always On 可用性グループを作成するのは不正解です。VM1 は新しい可用性グループをホストすべきではないためです。\n移行前にオンプレミス SQL サーバー インスタンスをアップグレードするは、質問からはオンプレミスで実行しているバージョンや VM が実行しているバージョンがわからないため、不正確です。したがって、このオプションは選択できません。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-sql/migration-guides/virtual-machines/sql-server-distributed-availability-group-migrate-ag?view=azuresql\n\n・https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-availability-group-cross-platform?view=sql-server-ver16",
+      "images": [],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en5-q-026",
+      "sourceQuestionNumber": 26,
+      "promptHtml": "<p>現在、Microsoft SQL Server 2017 を実行している 2 台のオンプレミス サーバーを運用しています。これらのサーバーは、DB1 という名前の単一データベースを含む AG1 という名前の Always On 可用性グループに参加しています。</p><p>Azure には、VM1 という名前の仮想マシンを含むサブスクリプションがあります。 VM1 は Linux を実行し、SQL Server 2019 のインスタンスをホストします。</p><p>DB1 をオンプレミス環境から VM1 に移動する予定です。移行アプローチは、データベースのダウンタイムを最小限に抑えるように設計する必要があります。</p><p>移行をどのように<code>実行</code>しますか。</p>",
+      "promptText": "現在、Microsoft SQL Server 2017 を実行している 2 台のオンプレミス サーバーを運用しています。これらのサーバーは、DB1 という名前の単一データベースを含む AG1 という名前の Always On 可用性グループに参加しています。\nAzure には、VM1 という名前の仮想マシンを含むサブスクリプションがあります。 VM1 は Linux を実行し、SQL Server 2019 のインスタンスをホストします。\nDB1 をオンプレミス環境から VM1 に移動する予定です。移行アプローチは、データベースのダウンタイムを最小限に抑えるように設計する必要があります。\n移行をどのように実行しますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-026-c1",
+          "label": null,
+          "text": "分散可用性グループを使用する",
+          "html": "分散可用性グループを使用する"
+        },
+        {
+          "choiceId": "en5-q-026-c2",
+          "label": null,
+          "text": "Azure Migrate を使用する",
+          "html": "Azure Migrate を使用する"
+        },
+        {
+          "choiceId": "en5-q-026-c3",
+          "label": null,
+          "text": "ログ配布を使用する",
+          "html": "ログ配布を使用する"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-026-c1"
+      ],
+      "explanationHtml": "<p>分散型可用性グループを使用する は正解です。ダウンタイムを最小限に抑えて移行を実行するには、分散型可用性グループを使用できます。</p><p>Azure を使用する場合移行 は誤りです。Azure Migrate を使用すると移行プロセスを簡素化できますが、必ずしもダウンタイムを最小限に抑えることができるとは限りません。</p><p>ログ配布を使用する は誤りです。分散型可用性グループを使用した移行は、このケースよりも高速で、ダウンタイムも少なくて済むためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/data-migration/sql-server/virtual-machines/overview\">https://learn.microsoft.com/en-us/data-migration/sql-server/virtual-machines/overview </a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/migration-guides/virtual-machines/sql-server-distributed-availability-group-migrate-ag?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/migration-guides/virtual-machines/sql-server-distributed-availability-group-migrate-ag?view=azuresql</a></p></li></ul>",
+      "explanationText": "分散型可用性グループを使用する は正解です。ダウンタイムを最小限に抑えて移行を実行するには、分散型可用性グループを使用できます。\nAzure を使用する場合移行 は誤りです。Azure Migrate を使用すると移行プロセスを簡素化できますが、必ずしもダウンタイムを最小限に抑えることができるとは限りません。\nログ配布を使用する は誤りです。分散型可用性グループを使用した移行は、このケースよりも高速で、ダウンタイムも少なくて済むためです。\n参考:\n・https://learn.microsoft.com/en-us/data-migration/sql-server/virtual-machines/overview\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/migration-guides/virtual-machines/sql-server-distributed-availability-group-migrate-ag?view=azuresql",
+      "images": [],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en5-q-027",
+      "sourceQuestionNumber": 27,
+      "promptHtml": "<p>あなたは、コンテナー化された Web アプリケーションを 5 つの Azure Kubernetes Service (AKS) クラスターにまたがってデプロイする準備をしています。各クラスターは異なる Azure リージョンで実行されています。</p><p>アプリケーションにはパブリック インターネットからアクセスできる必要があり、アクセス ソリューションは次の条件を満たす必要があります。</p><ul><li><p>受信 HTTPS 要求は、ネットワーク待機時間が最も短い AKS クラスターに送信される必要があります。 </p></li><li><p>その後、HTTPS トラフィックは、イングレス コントローラーを使用して各クラスター内で個々のポッドにルーティングされる必要があります。</p></li><li><p>1 つの AKS クラスターが使用できなくなった場合、最小限の遅延で別のクラスターへのトラフィック リダイレクトが行われる必要があります。</p></li></ul><p>このための<code>グローバル負荷分散</code>を提供するには、どのソリューションを選択する必要がありますかアーキテクチャ。</p>",
+      "promptText": "あなたは、コンテナー化された Web アプリケーションを 5 つの Azure Kubernetes Service (AKS) クラスターにまたがってデプロイする準備をしています。各クラスターは異なる Azure リージョンで実行されています。\nアプリケーションにはパブリック インターネットからアクセスできる必要があり、アクセス ソリューションは次の条件を満たす必要があります。\n・受信 HTTPS 要求は、ネットワーク待機時間が最も短い AKS クラスターに送信される必要があります。\n\n・その後、HTTPS トラフィックは、イングレス コントローラーを使用して各クラスター内で個々のポッドにルーティングされる必要があります。\n\n・1 つの AKS クラスターが使用できなくなった場合、最小限の遅延で別のクラスターへのトラフィック リダイレクトが行われる必要があります。\n\nこのためのグローバル負荷分散を提供するには、このアーキテクチャに対してどのソリューションを選択する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-027-c1",
+          "label": null,
+          "text": "Azure Front Door",
+          "html": "Azure Front Door"
+        },
+        {
+          "choiceId": "en5-q-027-c2",
+          "label": null,
+          "text": "Azure Traffic Manager",
+          "html": "Azure Traffic Manager"
+        },
+        {
+          "choiceId": "en5-q-027-c3",
+          "label": null,
+          "text": "Azure のクロスリージョン負荷分散",
+          "html": "Azure のクロスリージョン負荷分散"
+        },
+        {
+          "choiceId": "en5-q-027-c4",
+          "label": null,
+          "text": "標準ロード バランサー",
+          "html": "標準ロード バランサー"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-027-c1"
+      ],
+      "explanationHtml": "<p>Azure Front Door は正解です。低遅延フェールオーバーを使用して、異なるリージョンのワークロードに安全なグローバル ルーティングを提供することで、高可用性または信頼性を必要とする HTTP または HTTPS ワークロードのゲートウェイとして機能します。</p><p>Azure Traffic Manager は、DNS ベースのグローバル ルーティングを行うつもりはなく、トランスポート層セキュリティ (TLS) プロトコル終了 (「SSL オフロード」)、HTTP/HTTPS リクエストごと、またはアプリケーション層の要件がある可能性があるため、不正確です。処理。</p><p>Azure のクロスリージョン負荷分散 と 標準ロード バランサーは、TCP/UDP トラフィックのみを処理するレイヤー 4 ネットワーキング ソリューションがあるため、間違ったオプションです。したがって、ここではこれらを使用できません。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview\">https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/architecture/pattern-implementations/network-secure-ingress\">https://learn.microsoft.com/en-us/azure/architecture/pattern-implementations/network-secure-ingress</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview\">https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview</a></p></li><li><p><a href=\"https://www.youtube.com/watch。v=3awUwUIv950\">https://www.youtube.com/watch。v=3awUwUIv950</a></p></li></ul>",
+      "explanationText": "Azure Front Door は正解です。低遅延フェールオーバーを使用して、異なるリージョンのワークロードに安全なグローバル ルーティングを提供することで、高可用性または信頼性を必要とする HTTP または HTTPS ワークロードのゲートウェイとして機能します。\nAzure Traffic Manager は、DNS ベースのグローバル ルーティングを行うつもりはなく、トランスポート層セキュリティ (TLS) プロトコル終了 (「SSL オフロード」)、HTTP/HTTPS リクエストごと、またはアプリケーション層の要件がある可能性があるため、不正確です。処理。\nAzure のクロスリージョン負荷分散 と 標準ロード バランサーは、TCP/UDP トラフィックのみを処理するレイヤー 4 ネットワーキング ソリューションがあるため、間違ったオプションです。したがって、ここではこれらを使用できません。\n参考:\n・https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview\n\n・https://learn.microsoft.com/en-us/azure/architecture/pattern-implementations/network-secure-ingress\n\n・https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview\n\n・https://www.youtube.com/watch。v=3awUwUIv950",
+      "images": [],
+      "domain": "事業継続ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-006",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-028",
+      "sourceQuestionNumber": 28,
+      "promptHtml": "<p>あなたは、コンテナー化された Web アプリケーションを 5 つの Azure Kubernetes Service (AKS) クラスターにまたがってデプロイする準備をしています。各クラスターは異なる Azure リージョンで実行されています。</p><p>アプリケーションにはパブリック インターネットからアクセスできる必要があり、アクセス ソリューションは次の条件を満たす必要があります。</p><ul><li><p>受信 HTTPS 要求は、ネットワーク待機時間が最も短い AKS クラスターに送信される必要があります。 </p></li><li><p>その後、HTTPS トラフィックは、イングレス コントローラーを使用して各クラスター内で個々のポッドにルーティングされる必要があります。</p></li><li><p>1 つの AKS クラスターが使用できなくなった場合、最小限の遅延で別のクラスターへのトラフィック リダイレクトが行われる必要があります。</p></li></ul><p><code>イングレス コントローラー</code> としてどのオプションを選択する必要がありますか。</p>",
+      "promptText": "あなたは、コンテナー化された Web アプリケーションを 5 つの Azure Kubernetes Service (AKS) クラスターにまたがってデプロイする準備をしています。各クラスターは異なる Azure リージョンで実行されています。\nアプリケーションにはパブリック インターネットからアクセスできる必要があり、アクセス ソリューションは次の条件を満たす必要があります。\n・受信 HTTPS 要求は、ネットワーク待機時間が最も短い AKS クラスターに送信される必要があります。\n\n・その後、HTTPS トラフィックは、イングレス コントローラーを使用して各クラスター内で個々のポッドにルーティングされる必要があります。\n\n・1 つの AKS クラスターが使用できなくなった場合、最小限の遅延で別のクラスターへのトラフィック リダイレクトが行われる必要があります。\n\nイングレス コントローラー としてどのオプションを選択する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-028-c1",
+          "label": null,
+          "text": "Azure Application Gateway",
+          "html": "Azure Application Gateway"
+        },
+        {
+          "choiceId": "en5-q-028-c2",
+          "label": null,
+          "text": "Azure Standard Load Balancer",
+          "html": "Azure Standard Load Balancer"
+        },
+        {
+          "choiceId": "en5-q-028-c3",
+          "label": null,
+          "text": "Basic Azure Load Balancer",
+          "html": "Basic Azure Load Balancer"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-028-c1"
+      ],
+      "explanationHtml": "<p>Azure Application Gateway は、次のように機能できるため正解です。HTTPS トラフィックを個々のポッドにルーティングするためのイングレス コントローラー。</p><p>Azure Standard Load Balancer と Basic Azure Load Balancer は間違ったオプションです。これは、Azure Load Balancer (Standard と Basic の両方) がレイヤー 4 (TCP/UDP) ロード バランサーであり、 OSIモデルのトランスポート層。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/application-gateway/overview\">https://learn.microsoft.com/en-us/azure/application-gateway/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview\">https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview</a></p></li></ul>",
+      "explanationText": "Azure Application Gateway は、次のように機能できるため正解です。HTTPS トラフィックを個々のポッドにルーティングするためのイングレス コントローラー。\nAzure Standard Load Balancer と Basic Azure Load Balancer は間違ったオプションです。これは、Azure Load Balancer (Standard と Basic の両方) がレイヤー 4 (TCP/UDP) ロード バランサーであり、 OSIモデルのトランスポート層。\n参考:\n・https://learn.microsoft.com/en-us/azure/application-gateway/overview\n\n・https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-006",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-029",
+      "sourceQuestionNumber": 29,
+      "promptHtml": "<p>あなたは、DB1 という名前の Azure SQL データベースと通信する WebApp1 という名前の Azure App Service Web アプリケーションを管理しています。どちらのリソースも米国東部の Azure リージョンにデプロイされています。</p><p>WebApp1 と DB1 間のすべての通信がプライベート接続経由で行われることを確認する必要があります。</p><p>この要件に基づいて、次のステートメントを正しく完成させる回答選択肢を選択してください。<br></p><p><code>「少なくとも ___________________ を含む仮想ネットワークを作成します。」</code> </p>",
+      "promptText": "あなたは、DB1 という名前の Azure SQL データベースと通信する WebApp1 という名前の Azure App Service Web アプリケーションを管理しています。どちらのリソースも米国東部の Azure リージョンにデプロイされています。\nWebApp1 と DB1 間のすべての通信がプライベート接続経由で行われることを確認する必要があります。\nこの要件に基づいて、次のステートメントを正しく完成させる回答選択肢を選択してください。\n\n「少なくとも ___________________ を含む仮想ネットワークを作成します。」",
+      "choices": [
+        {
+          "choiceId": "en5-q-029-c1",
+          "label": null,
+          "text": "1 つのサブネット",
+          "html": "1 つのサブネット"
+        },
+        {
+          "choiceId": "en5-q-029-c2",
+          "label": null,
+          "text": "2 つのサブネット",
+          "html": "2 つのサブネット"
+        },
+        {
+          "choiceId": "en5-q-029-c3",
+          "label": null,
+          "text": "3 つのサブネット",
+          "html": "3 つのサブネット"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-029-c2"
+      ],
+      "explanationHtml": "<p>2 つのサブネット が正解です。Webapp1 と DB1 間のすべてのトラフィックがプライベート接続経由で送信されるようにするには、少なくとも 2 つのサブネットを持つ仮想ネットワーク (VNet) をセットアップする必要があります。</p><p>サービス エンドポイントとプライベート リンクを使用すると、通信が Azure バックボーン内に留まり、パブリック インターネットを経由しないようにできます。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview#limitations\">https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview#limitations</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview\">https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview</a></p></li></ul>",
+      "explanationText": "正解は2 つのサブネット です。Webapp1 と DB1 間のすべてのトラフィックがプライベート接続経由で送信されるようにするには、少なくとも 2 つのサブネットを持つ仮想ネットワーク (VNet) をセットアップする必要があります。\nサービス エンドポイントとプライベート リンクを使用すると、通信が Azure バックボーン内に留まり、パブリック インターネットを経由しないようにできます。\n参考:\n・https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview#limitations\n\n・https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en5-q-030",
+      "sourceQuestionNumber": 30,
+      "promptHtml": "<p>あなたは、DB1 という名前の Azure SQL データベースと通信する WebApp1 という名前の Azure App Service Web アプリケーションを管理しています。どちらのリソースも米国東部 Azure リージョンにデプロイされています。</p><p>WebApp1 と DB1 の間のすべての通信がプライベート接続経由で行われることを確認する必要があります。</p><p>この要件に基づいて、次のステートメントを正しく完成させる回答選択肢を選択してください。</p><p><code>「仮想ネットワークから、____________________________ を使用するように名前解決を構成します。」</code> </p>",
+      "promptText": "あなたは、DB1 という名前の Azure SQL データベースと通信する WebApp1 という名前の Azure App Service Web アプリケーションを管理しています。どちらのリソースも米国東部 Azure リージョンにデプロイされています。\nWebApp1 と DB1 の間のすべての通信がプライベート接続経由で行われることを確認する必要があります。\nこの要件に基づいて、次のステートメントを正しく完成させる回答選択肢を選択してください。\n「仮想ネットワークから、____________________________ を使用するように名前解決を構成します。」",
+      "choices": [
+        {
+          "choiceId": "en5-q-030-c1",
+          "label": null,
+          "text": "プライベート DNS ゾーン",
+          "html": "プライベート DNS ゾーン"
+        },
+        {
+          "choiceId": "en5-q-030-c2",
+          "label": null,
+          "text": "パブリック DNS ゾーン",
+          "html": "パブリック DNS ゾーン"
+        },
+        {
+          "choiceId": "en5-q-030-c3",
+          "label": null,
+          "text": "Azure DNS プライベート リゾルバー",
+          "html": "Azure DNS プライベート リゾルバー"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-030-c1"
+      ],
+      "explanationHtml": "<p>プライベート DNS ゾーンは、Azure プライベート DNS を使用して名前解決を構成できるため、正しいです。これにより、VNet 内の通信にこれらのリソースの DNS 名を使用できるようになり、トラフィックのプライベートと安全性が確保されます。</p><p>パブリック DNS ゾーン は誤りです。これを使用するとトラフィックがパブリック インターネットに公開され、無効になる可能性があります。</p><p>Azure DNS プライベート リゾルバー は誤りです。このサービス Azure DNS プライベート リゾルバーは、オンプレミス環境から Azure DNS プライベート ゾーンをクエリしたり、その逆を実行したりできる新しいサービスであるためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/dns/dns-private-resolver-overview\">https://learn.microsoft.com/en-us/azure/dns/dns-private-resolver-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/dns/private-dns-overview\">https://learn.microsoft.com/en-us/azure/dns/private-dns-overview</a></p></li></ul>",
+      "explanationText": "プライベート DNS ゾーンは、Azure プライベート DNS を使用して名前解決を構成できるため、正しいです。これにより、VNet 内の通信にこれらのリソースの DNS 名を使用できるようになり、トラフィックのプライベートと安全性が確保されます。\nパブリック DNS ゾーン は誤りです。これを使用するとトラフィックがパブリック インターネットに公開され、無効になる可能性があります。\nAzure DNS プライベート リゾルバー は誤りです。このサービス Azure DNS プライベート リゾルバーは、オンプレミス環境から Azure DNS プライベート ゾーンをクエリしたり、その逆を実行したりできる新しいサービスであるためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/dns/dns-private-resolver-overview\n\n・https://learn.microsoft.com/en-us/azure/dns/private-dns-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

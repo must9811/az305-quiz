@@ -1,0 +1,422 @@
+{
+  "setId": "en5-set-005",
+  "title": "英語問題集5 翻訳版 41-50",
+  "sourceHtml": "assets/英語問題集5.html",
+  "questionIds": [
+    "en5-q-041",
+    "en5-q-042",
+    "en5-q-043",
+    "en5-q-044",
+    "en5-q-045",
+    "en5-q-046",
+    "en5-q-047",
+    "en5-q-048",
+    "en5-q-049",
+    "en5-q-050"
+  ],
+  "questions": [
+    {
+      "questionId": "en5-q-041",
+      "sourceQuestionNumber": 41,
+      "promptHtml": "<p>ドキュメントの保存に使用される Azure ストレージ アカウントを構成しています。</p><p>設計の一環として、ストレージ構成は次のガバナンスとセキュリティ目標を満たす必要があります。</p><ul><li><p>保持ポリシーは、Azure サブスクリプション全体に一貫して適用される必要があります。</p></li><li><p>データが不正なユーザーにコピーまたは移動された場合、データへのアクセスを無効化または削除できる必要があります。 </p></li></ul><p>これらの要件を満たすには、どの<strong> 2 つのストレージ関連の設定</strong> を有効にする必要があるかを決定する必要があります。</p><p>どの<strong> 2 つの</strong> 設定を有効にする必要がありますか。</p>",
+      "promptText": "ドキュメントの保存に使用される Azure ストレージ アカウントを構成しています。\n設計の一環として、ストレージ構成は次のガバナンスとセキュリティ目標を満たす必要があります。\n・保持ポリシーは、Azure サブスクリプション全体に一貫して適用される必要があります。\n\n・データが不正なユーザーにコピーまたは移動された場合、データへのアクセスを無効化または削除できる必要があります。\n\nこれらの要件を満たすには、どの 2 つのストレージ関連の設定 を有効にする必要があるかを決定する必要があります。\nどの 2 つの 設定を有効にする必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-041-c1",
+          "label": null,
+          "text": "Azure Backup で運用バックアップを有効にする",
+          "html": "Azure Backup で運用バックアップを有効にする"
+        },
+        {
+          "choiceId": "en5-q-041-c2",
+          "label": null,
+          "text": "ポイントインタイム復元を有効にするコンテナー",
+          "html": "ポイントインタイム復元を有効にするコンテナー"
+        },
+        {
+          "choiceId": "en5-q-041-c3",
+          "label": null,
+          "text": "BLOB の論理的な削除を有効にする",
+          "html": "BLOB の論理的な削除を有効にする"
+        },
+        {
+          "choiceId": "en5-q-041-c4",
+          "label": null,
+          "text": "コンテナーの論理的な削除を有効にする",
+          "html": "コンテナーの論理的な削除を有効にする"
+        },
+        {
+          "choiceId": "en5-q-041-c5",
+          "label": null,
+          "text": "論理的に削除されたアイテムの完全な削除を有効にする",
+          "html": "<p>論理的に削除されたアイテムの完全な削除を有効にする</p>"
+        },
+        {
+          "choiceId": "en5-q-041-c6",
+          "label": null,
+          "text": "BLOB のバージョン管理を有効にする",
+          "html": "<p>BLOB のバージョン管理を有効にする</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-041-c1",
+        "en5-q-041-c5"
+      ],
+      "explanationHtml": "<p>Azure Backup で運用バックアップを有効にする は正解です。この機能により、バックアップ ポリシーを使用して複数のストレージ アカウントにわたる一元的なバックアップ管理が可能になります。</p><p>論理的に削除されたアイテムの完全な削除を有効にする は正しいです。これは、論理的な削除後に確実にデータを削除するためです。</p><p>BLOB の論理的な削除を有効にする は不正解です。論理的な削除は、データを一時的に保持することによって誤って削除されることを防ぐだけであるためです。</p><p>コンテナの論理的な削除を有効にするは、上記と同様の理由で正しくありません。コンテナ レベルの削除の保護には役立ちますが、やはり保持ポリシーやパージ ポリシーの標準化には適していません。</p><p>バージョン管理を有効にするblob は誤りです。以前のバージョンの復元は可能ですが、一元的な保持管理やパージ ルールの強制は提供されません。</p><p>コンテナのポイントインタイム復元を有効にする は誤りです。これは、これは回復機能であり、ガバナンスやポリシー ツールではないためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/data-protection-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/data-protection-overview</a></p></li></ul>",
+      "explanationText": "Azure Backup で運用バックアップを有効にする は正解です。この機能により、バックアップ ポリシーを使用して複数のストレージ アカウントにわたる一元的なバックアップ管理が可能になります。\n正解は論理的に削除されたアイテムの完全な削除を有効にするです。これは、論理的な削除後に確実にデータを削除するためです。\nBLOB の論理的な削除を有効にする は誤りです。論理的な削除は、データを一時的に保持することによって誤って削除されることを防ぐだけであるためです。\nコンテナの論理的な削除を有効にするは、上記と同様の理由で正しくありません。コンテナ レベルの削除の保護には役立ちますが、やはり保持ポリシーやパージ ポリシーの標準化には適していません。\nバージョン管理を有効にするblob は誤りです。以前のバージョンの復元は可能ですが、一元的な保持管理やパージ ルールの強制は提供されません。\nコンテナのポイントインタイム復元を有効にする は誤りです。これは、これは回復機能であり、ガバナンスやポリシー ツールではないためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/data-protection-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "multi",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en5-q-042",
+      "sourceQuestionNumber": 42,
+      "promptHtml": "<p><strong>Azure Cosmos DB</strong> と <strong>Azure Synapse Analytics</strong> の統合を計画しています。</p><p>統合は、次の制約を満たすように設計する必要があります。</p><ul><li><p>Azure Synapse ワークスペースから Azure Cosmos DB アカウントへのすべてのトラフィックは、<strong>Microsoft バックボーンに残る必要があります。ネットワーク</strong>。</p></li><li><p>Azure Synapse と Azure Cosmos DB の間のネットワーク通信は<strong>パブリック インターネットを経由してはなりません</strong>。</p></li><li><p>全体的な構成とデプロイの労力はできるだけ低く抑える必要があります。</p></li></ul><p>Azure Synapse ワークスペースをプロビジョニングするとき、推奨事項には何を含める必要がありますか。</p>",
+      "promptText": "Azure Cosmos DB と Azure Synapse Analytics の統合を計画しています。\n統合は、次の制約を満たすように設計する必要があります。\n・Azure Synapse ワークスペースから Azure Cosmos DB アカウントへのすべてのトラフィックは、Microsoft バックボーンに残る必要があります。ネットワーク。\n\n・Azure Synapse と Azure Cosmos DB の間のネットワーク通信はパブリック インターネットを経由してはなりません。\n\n・全体的な構成とデプロイの労力はできるだけ低く抑える必要があります。\n\nAzure Synapse ワークスペースをプロビジョニングするとき、推奨事項には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-042-c1",
+          "label": null,
+          "text": "Azure Synapse ワークスペース用の専用のマネージド仮想ネットワークを設定する",
+          "html": "<p>Azure Synapse ワークスペース用の専用のマネージド仮想ネットワークを設定する</p>"
+        },
+        {
+          "choiceId": "en5-q-042-c2",
+          "label": null,
+          "text": "ワークスペース エンドポイントのパブリック ネットワーク アクセスをオフにする",
+          "html": "<p>ワークスペース エンドポイントのパブリック ネットワーク アクセスをオフにする</p>"
+        },
+        {
+          "choiceId": "en5-q-042-c3",
+          "label": null,
+          "text": "Microsoft Entra ID を使用した認証を有効にする",
+          "html": "<p>Microsoft Entra ID を使用した認証を有効にする</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-042-c1"
+      ],
+      "explanationHtml": "<p>Azure Synapse ワークスペースに専用のマネージド仮想ネットワークを設定する は正解です。理由は次のとおりです:</p><ul><li><p>このオプションを使用すると、Azure Synapse ワークスペースに専用の Azure 仮想ネットワーク (VNet) を作成できます。</p></li><li><p>Azure Cosmos DB および Azure Synapse ワークスペースサービス エンドポイントを使用して、同じ仮想ネットワーク内に統合できます。</p></li><li><p>両方のサービスを同じ仮想ネットワーク内に統合することで、サービス間のトラフィックを Microsoft バックボーン ネットワーク経由でルーティングでき、パブリック インターネットを経由せずにプライベートで最適化された接続を確保できます。</p></li><li><p>この設定は、トラフィックを Microsoft バックボーン ネットワーク経由で送信し、ネットワーク経由では送信しないという要件に適合します。</p></li></ul><p>ワークスペース エンドポイントのパブリック ネットワーク アクセスをオフにする は誤りです。このオプションは、Azure Synapse ワークスペース エンドポイントへの直接のパブリック インターネット アクセスを制限しますが、Microsoft バックボーン ネットワークを介したルーティング トラフィックには対応していません。</p><p>Microsoft Entra ID を使用した認証を有効にする は、 不正解です。このオプションは Microsoft Entra を使用した認証を有効にしますが、ネットワーク ルーティング要件には特に対応していません。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/synapse-link#security\">https://learn.microsoft.com/en-us/azure/cosmos-db/synapse-link#security</a></p></li></ul>",
+      "explanationText": "Azure Synapse ワークスペースに専用のマネージド仮想ネットワークを設定する は正解です。理由は次のとおりです:\n・このオプションを使用すると、Azure Synapse ワークスペースに専用の Azure 仮想ネットワーク (VNet) を作成できます。\n\n・Azure Cosmos DB および Azure Synapse ワークスペースサービス エンドポイントを使用して、同じ仮想ネットワーク内に統合できます。\n\n・両方のサービスを同じ仮想ネットワーク内に統合することで、サービス間のトラフィックを Microsoft バックボーン ネットワーク経由でルーティングでき、パブリック インターネットを経由せずにプライベートで最適化された接続を確保できます。\n\n・この設定は、トラフィックを Microsoft バックボーン ネットワーク経由で送信し、ネットワーク経由では送信しないという要件に適合します。\n\nワークスペース エンドポイントのパブリック ネットワーク アクセスをオフにする は誤りです。このオプションは、Azure Synapse ワークスペース エンドポイントへの直接のパブリック インターネット アクセスを制限しますが、Microsoft バックボーン ネットワークを介したルーティング トラフィックには対応していません。\nMicrosoft Entra ID を使用した認証を有効にする は、 不正解です。このオプションは Microsoft Entra を使用した認証を有効にしますが、ネットワーク ルーティング要件には特に対応していません。\n参考:\n・https://learn.microsoft.com/en-us/azure/cosmos-db/synapse-link#security",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-009",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-043",
+      "sourceQuestionNumber": 43,
+      "promptHtml": "<p><strong>Azure Cosmos DB</strong> と <strong>Azure Synapse Analytics</strong> の統合を計画しています。</p><p>統合は、次の制約を満たすように設計する必要があります。</p><ul><li><p>Azure Synapse ワークスペースから Azure Cosmos DB アカウントへのすべてのトラフィックは、<strong>Microsoft バックボーンに残る必要があります。ネットワーク</strong>。</p></li><li><p>Azure Synapse と Azure Cosmos DB の間のネットワーク通信は<strong>パブリック インターネットを経由してはなりません</strong>。</p></li><li><p>全体的な構成とデプロイの労力は可能な限り低く抑える必要があります。</p></li></ul><p>Azure Cosmos DB アカウントを構成する場合、これらを満たすためにどの機能または設定を有効にする必要がありますか要件。</p>",
+      "promptText": "Azure Cosmos DB と Azure Synapse Analytics の統合を計画しています。\n統合は、次の制約を満たすように設計する必要があります。\n・Azure Synapse ワークスペースから Azure Cosmos DB アカウントへのすべてのトラフィックは、Microsoft バックボーンに残る必要があります。ネットワーク。\n\n・Azure Synapse と Azure Cosmos DB の間のネットワーク通信はパブリック インターネットを経由してはなりません。\n\n・全体的な構成とデプロイの労力は可能な限り低く抑える必要があります。\n\nAzure Cosmos DB アカウントを構成する場合、これらを満たすためにどの機能または設定を有効にする必要がありますか要件。",
+      "choices": [
+        {
+          "choiceId": "en5-q-043-c1",
+          "label": null,
+          "text": "マネージド プライベート エンドポイント",
+          "html": "マネージド プライベート エンドポイント"
+        },
+        {
+          "choiceId": "en5-q-043-c2",
+          "label": null,
+          "text": "サーバー レベルのファイアウォール ルール",
+          "html": "サーバー レベルのファイアウォール ルール"
+        },
+        {
+          "choiceId": "en5-q-043-c3",
+          "label": null,
+          "text": "サービス エンドポイント ポリシー",
+          "html": "サービス エンドポイント ポリシー"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-043-c1"
+      ],
+      "explanationHtml": "<p>マネージド プライベート エンドポイントはここは正解です。これにより、Microsoft バックボーン ネットワークを介して Azure Synapse ワークスペースから Azure Cosmos DB にアクセスできるようになります。</p><p>サーバーレベルのファイアウォール ルールは、IP アドレスまたは IP 範囲に基づいて Azure Cosmos DB アカウントへのアクセスを制御するために使用されるため、間違っています。これらは一定レベルのセキュリティを提供しますが、Microsoft バックボーン ネットワーク経由でトラフィックをルーティングしたり、インターネット ルーティングを防止したりする要件には本質的に対応しません。</p><p>サービス エンドポイント ポリシーは、Azure サービスのルーティング設定を定義するために使用されるため、不正確です。ただし、これらは、Azure Synapse ワークスペースから発信されるトラフィックではなく、Azure サービスが Cosmos DB アカウントにアクセスする必要があるシナリオ向けに設計されています。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-configure-private-endpoints\">https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-configure-private-endpoints</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-configure-vnet-service-endpoint\">https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-configure-vnet-service-endpoint</a></p></li></ul>",
+      "explanationText": "マネージド プライベート エンドポイントはここは正解です。これにより、Microsoft バックボーン ネットワークを介して Azure Synapse ワークスペースから Azure Cosmos DB にアクセスできるようになります。\nサーバーレベルのファイアウォール ルールは、IP アドレスまたは IP 範囲に基づいて Azure Cosmos DB アカウントへのアクセスを制御するために使用されるため、間違っています。これらは一定レベルのセキュリティを提供しますが、Microsoft バックボーン ネットワーク経由でトラフィックをルーティングしたり、インターネット ルーティングを防止したりする要件には本質的に対応しません。\nサービス エンドポイント ポリシーは、Azure サービスのルーティング設定を定義するために使用されるため、不正確です。ただし、これらは、Azure Synapse ワークスペースから発信されるトラフィックではなく、Azure サービスが Cosmos DB アカウントにアクセスする必要があるシナリオ向けに設計されています。\n参考:\n・https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-configure-private-endpoints\n\n・https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-configure-vnet-service-endpoint",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-009",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-044",
+      "sourceQuestionNumber": 44,
+      "promptHtml": "<p>あなたは、複数の Azure サブスクリプションにわたってコンプライアンスを強制する責任があります。</p><p>あなたは、手動介入なしで新しくデプロイされたリソースがコンプライアンスに適合するように、自動修復と Azure Policy 定義を併用することを計画しています。このアプローチでは、運用および管理の労力を最小限に抑える必要があります。</p><p>修復を有効にするには、どの<strong>Azure Policy 効果</strong>を使用する必要がありますか。</p>",
+      "promptText": "あなたは、複数の Azure サブスクリプションにわたってコンプライアンスを強制する責任があります。\nあなたは、手動介入なしで新しくデプロイされたリソースがコンプライアンスに適合するように、自動修復と Azure Policy 定義を併用することを計画しています。このアプローチでは、運用および管理の労力を最小限に抑える必要があります。\n修復を有効にするには、どのAzure Policy 効果を使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-044-c1",
+          "label": null,
+          "text": "追加",
+          "html": "追加"
+        },
+        {
+          "choiceId": "en5-q-044-c2",
+          "label": null,
+          "text": "DeployIfNotExists",
+          "html": "DeployIfNotExists"
+        },
+        {
+          "choiceId": "en5-q-044-c3",
+          "label": null,
+          "text": "変更",
+          "html": "変更"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-044-c2"
+      ],
+      "explanationHtml": "<p>DeployIfNotExists が正解です。このポリシーの効果により、リソースがコンプライアンス要件を満たしていない場合、作成後にリソースをデプロイまたは変更することで自動修復が可能になります。</p><p>追加 は誤りです。Append 効果は、デプロイ中に追加のプロパティをリソースに追加するだけで、既存のリソースの修復はトリガーされません。</p><p>Mutate は正しくありません。変更は有効な Azure Policy 効果ではありません。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-Basics\">https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-Basics</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\">https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal</a></p></li></ul>",
+      "explanationText": "正解はDeployIfNotExists です。このポリシーの効果により、リソースがコンプライアンス要件を満たしていない場合、作成後にリソースをデプロイまたは変更することで自動修復が可能になります。\n追加 は誤りです。Append 効果は、デプロイ中に追加のプロパティをリソースに追加するだけで、既存のリソースの修復はトリガーされません。\nMutate は正しくありません。変更は有効な Azure Policy 効果ではありません。\n参考:\n・https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-Basics\n\n・https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-010",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-045",
+      "sourceQuestionNumber": 45,
+      "promptHtml": "<p>あなたは、複数の Azure サブスクリプションにわたってコンプライアンスを強制する責任があります。</p><p>あなたは、手動介入なしで新しくデプロイされたリソースがコンプライアンスに適合するように、自動修復と Azure Policy 定義を併用することを計画しています。このアプローチでは、運用と管理の労力を最小限に抑える必要があります。</p><p>修復を実行するにはどの<strong>Azure リソース</strong>を使用する必要がありますか。</p>",
+      "promptText": "あなたは、複数の Azure サブスクリプションにわたってコンプライアンスを強制する責任があります。\nあなたは、手動介入なしで新しくデプロイされたリソースがコンプライアンスに適合するように、自動修復と Azure Policy 定義を併用することを計画しています。このアプローチでは、運用と管理の労力を最小限に抑える必要があります。\n修復を実行するにはどのAzure リソースを使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-045-c1",
+          "label": null,
+          "text": "マネージド ID",
+          "html": "マネージド ID"
+        },
+        {
+          "choiceId": "en5-q-045-c2",
+          "label": null,
+          "text": "Azure Automation Runbook",
+          "html": "Azure Automation Runbook"
+        },
+        {
+          "choiceId": "en5-q-045-c3",
+          "label": null,
+          "text": "Azure ロジック アプリ",
+          "html": "Azure ロジック アプリ"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-045-c1"
+      ],
+      "explanationHtml": "<p>マネージド ID が正解です。DeployIfNotExists 効果を伴う Azure Policy を使用する場合、修復アクションを実行するにはマネージド ID が必要です。</p><p>Azure Automation Runbook は誤りです。Runbook は修復タスクを実行できますが、追加の構成、スケジュール、スクリプトが必要です。</p><p>Azure ロジック アプリ は誤りです。ロジック アプリは通常、アラートのトリガーや外部サービスとの統合などのワークフローの自動化に使用されますが、Azure Policy 修復の標準メカニズムではありません。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\">https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/managed-identities-faq\">https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/managed-identities-faq</a></p></li></ul>",
+      "explanationText": "正解はマネージド ID です。DeployIfNotExists 効果を伴う Azure Policy を使用する場合、修復アクションを実行するにはマネージド ID が必要です。\nAzure Automation Runbook は誤りです。Runbook は修復タスクを実行できますが、追加の構成、スケジュール、スクリプトが必要です。\nAzure ロジック アプリ は誤りです。ロジック アプリは通常、アラートのトリガーや外部サービスとの統合などのワークフローの自動化に使用されますが、Azure Policy 修復の標準メカニズムではありません。\n参考:\n・https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal\n\n・https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/managed-identities-faq",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-linked-010",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en5-q-046",
+      "sourceQuestionNumber": 46,
+      "promptHtml": "<p><strong>以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><em>https://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing</em></p><p><br></p><p>IronClad, Ltd の <strong>WebApp1</strong> を Azure に移行する計画の一環として、お客様には、<strong><strong>データ ストレージ戦略</strong>を定義する責任があります。 </p><p>推奨事項は、パフォーマンスの最適化、移行中の最小限の中断、コンプライアンスのための長期データ保持、Azure での運用効率など、IronClad が定めた目標と制約に沿ったものである必要があります。</p><p>IronClad, Ltd. のケーススタディで概説されている要件に基づいて、<strong>WebApp1</strong> のデータ ストレージの推奨事項には何を含めるべきですか。</p>",
+      "promptText": "以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing\n\nIronClad, Ltd の WebApp1 を Azure に移行する計画の一環として、お客様には、データ ストレージ戦略を定義する責任があります。\n推奨事項は、パフォーマンスの最適化、移行中の最小限の中断、コンプライアンスのための長期データ保持、Azure での運用効率など、IronClad が定めた目標と制約に沿ったものである必要があります。\nIronClad, Ltd. のケーススタディで概説されている要件に基づいて、WebApp1 のデータ ストレージの推奨事項には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-046-c1",
+          "label": null,
+          "text": "固定サイズの DTU Azure SQL データベース",
+          "html": "固定サイズの DTU Azure SQL データベース"
+        },
+        {
+          "choiceId": "en5-q-046-c2",
+          "label": null,
+          "text": "Azure SQL データベース エラスティック プール",
+          "html": "Azure SQL データベース エラスティック プール"
+        },
+        {
+          "choiceId": "en5-q-046-c3",
+          "label": null,
+          "text": "仮想コアベースの Azure SQL データベース",
+          "html": "仮想コアベースの Azure SQL データベース"
+        },
+        {
+          "choiceId": "en5-q-046-c4",
+          "label": null,
+          "text": "実行される Azure 仮想マシンSQL サーバー",
+          "html": "実行される Azure 仮想マシンSQL サーバー"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-046-c3"
+      ],
+      "explanationHtml": "<p>vCore ベースの Azure SQL データベースは、Azure ハイブリッド特典を利用できるため正解です。これは、コストを削減するために既存のオンプレミス ライセンスを使用する要件と一致しています。</p><p>固定サイズの DTU Azure SQL データベースは、パフォーマンス チューニングに必要な柔軟性が提供されないため不正確です。</p><p>Azure SQL データベース エラスティック プール は誤りです。容量を共有できる複数のデータベースがある場合にエラスティック プールが意味をなすためです。</p><p>SQL サーバーを実行する Azure 仮想マシン は誤りです。これは、既存のライセンスを使用できる可能性がありますが、Azure と同じシームレスな方法で長期バックアップ保持 (LTR) をサポートしていないためです。</p><p>参考:</p><ul><li><p><a href=\"https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-vcore\">https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-vcore</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview?view=azuresql</a></p></li><li><p><a href=\"https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu\">https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu</a></p></li></ul>",
+      "explanationText": "vCore ベースの Azure SQL データベースは、Azure ハイブリッド特典を利用できるため正解です。これは、コストを削減するために既存のオンプレミス ライセンスを使用する要件と一致しています。\n固定サイズの DTU Azure SQL データベースは、パフォーマンス チューニングに必要な柔軟性が提供されないため不正確です。\nAzure SQL データベース エラスティック プール は誤りです。容量を共有できる複数のデータベースがある場合にエラスティック プールが意味をなすためです。\nSQL サーバーを実行する Azure 仮想マシン は誤りです。これは、既存のライセンスを使用できる可能性がありますが、Azure と同じシームレスな方法で長期バックアップ保持 (LTR) をサポートしていないためです。\n参考:\n・https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-vcore\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview?view=azuresql\n\n・https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-047",
+      "sourceQuestionNumber": 47,
+      "promptHtml": "<p><strong>以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><em>https://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing</em></p><p><br></p><p><strong>WebApp1</strong> の Azure for IronClad, Ltd. への移行の一環として、組織の<strong>データベース バックアップの保持に対処するソリューションを設計する必要があります。 </p><p>推奨されるアプローチでは、ケース スタディで定義された広範な Azure ベースのアーキテクチャに適合しながら、コンプライアンス義務を満たすために長期保存を保証する必要があります。</p><p>IronClad, Ltd. に指定された要件に基づいて、データベース バックアップの保存要件を満たすために何を推奨しますか。</p>",
+      "promptText": "以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing\n\nWebApp1 の Azure for IronClad, Ltd. への移行の一環として、組織のデータベース バックアップの保持に対処するソリューションを設計する必要があります。\n推奨されるアプローチでは、ケース スタディで定義された広範な Azure ベースのアーキテクチャに適合しながら、コンプライアンス義務を満たすために長期保存を保証する必要があります。\nIronClad, Ltd. に指定された要件に基づいて、データベース バックアップの保存要件を満たすために何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-047-c1",
+          "label": null,
+          "text": "自動 Azure SQL データベース バックアップを使用します。",
+          "html": "自動 Azure SQL データベース バックアップを使用します。"
+        },
+        {
+          "choiceId": "en5-q-047-c2",
+          "label": null,
+          "text": "Azure Site Recovery を構成します。",
+          "html": "Azure Site Recovery を構成します。"
+        },
+        {
+          "choiceId": "en5-q-047-c3",
+          "label": null,
+          "text": "データベースの geo レプリケーションを構成します。",
+          "html": "データベースの geo レプリケーションを構成します。"
+        },
+        {
+          "choiceId": "en5-q-047-c4",
+          "label": null,
+          "text": "データベースの長期保持ポリシーを構成します。",
+          "html": "データベースの長期保持ポリシーを構成します。"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-047-c4"
+      ],
+      "explanationHtml": "<p>提供されたケース スタディに基づく:</p><p>データベースコンプライアンス要件を満たすには、バックアップは最低 7 年間保持する必要があります。</p><p>データベースの長期保持ポリシーを構成する は、Azure SQL データベースが自動バックアップの長期保持 (LTR) を提供しているため、正しいです。これにより、Azure Blob Storage にバックアップを最大 10 年間保持できるようになり、データベース バックアップを最低 7 年間保持するという要件と一致します。</p><p>Azure SQL データベースの自動バックアップを使用する は誤りです。これは、Azure SQL データベースでは自動バックアップが提供されますが、これらのバックアップのデフォルトの保持期間が理由です。</p><p>Azure Site Recovery の構成 は誤りです。これは、Azure Site Recovery は主にディザスター リカバリーを目的としており、長期のバックアップ保持を目的としていないためです。</p><p>データベースの geo レプリケーションを構成する は誤りです。geo レプリケーションは高可用性と災害復旧に使用されるためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/long-term-retention-overview?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/database/long-term-retention-overview?view=azuresql</a></p></li></ul>",
+      "explanationText": "提供されたケース スタディに基づく:\nデータベースコンプライアンス要件を満たすには、バックアップは最低 7 年間保持する必要があります。\nデータベースの長期保持ポリシーを構成する は、Azure SQL データベースが自動バックアップの長期保持 (LTR) を提供しているため、正しいです。これにより、Azure Blob Storage にバックアップを最大 10 年間保持できるようになり、データベース バックアップを最低 7 年間保持するという要件と一致します。\nAzure SQL データベースの自動バックアップを使用する は誤りです。これは、Azure SQL データベースでは自動バックアップが提供されますが、これらのバックアップのデフォルトの保持期間が理由です。\nAzure Site Recovery の構成 は誤りです。これは、Azure Site Recovery は主にディザスター リカバリーを目的としており、長期のバックアップ保持を目的としていないためです。\nデータベースの geo レプリケーションを構成する は誤りです。geo レプリケーションは高可用性と災害復旧に使用されるためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/long-term-retention-overview?view=azuresql",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-048",
+      "sourceQuestionNumber": 48,
+      "promptHtml": "<p><strong>以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザーで開いたままにしてください。</strong></p><p><em>https://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing</em></p><p><br></p><p>IronClad, Ltd. は運用ワークロードの Azure への移行を開始し、Microsoft 365 および Azure でホストされるサービスをサポートするハイブリッド ID モデルの準備を進めているため、適切な<strong>ID 管理を定義する必要があります。戦略</strong>。</p><p>ソリューションは、次のケース スタディの制約に従う必要があります。</p><ul><li><p>内部ユーザーは、<strong>corp.ironclad.com</strong> の ID を使用して認証を続行する必要があります。</p></li><li><p>オンプレミス ネットワークへの接続が中断された場合でも、Azure でホストされているリソースへのアクセスは維持する必要があります。</p></li><li><p>調査と開発 (R&D) 運用は分離されたままであり、オンプレミスのリソースのみを使用し続ける必要があります。</p></li></ul><p>IronClad, Ltd. のケース スタディで説明されている計画された変更に基づいて、アイデンティティ管理戦略に何を含めるべきですか。</p>",
+      "promptText": "以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザーで開いたままにしてください。\nhttps://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing\n\nIronClad, Ltd. は運用ワークロードの Azure への移行を開始し、Microsoft 365 および Azure でホストされるサービスをサポートするハイブリッド ID モデルの準備を進めているため、適切なID 管理を定義する必要があります。戦略。\nソリューションは、次のケース スタディの制約に従う必要があります。\n・内部ユーザーは、corp.ironclad.com の ID を使用して認証を続行する必要があります。\n\n・オンプレミス ネットワークへの接続が中断された場合でも、Azure でホストされているリソースへのアクセスは維持する必要があります。\n\n・調査と開発 (R&D) 運用は分離されたままであり、オンプレミスのリソースのみを使用し続ける必要があります。\n\nIronClad, Ltd. のケース スタディで説明されている計画された変更に基づいて、アイデンティティ管理戦略に何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en5-q-048-c1",
+          "label": null,
+          "text": "新しい研究開発イニシアチブを認証するために新しい Microsoft Entra テナントを作成します。",
+          "html": "<p>新しい研究開発イニシアチブを認証するために新しい Microsoft Entra テナントを作成します。</p>"
+        },
+        {
+          "choiceId": "en5-q-048-c2",
+          "label": null,
+          "text": "すべてのドメイン コントローラーを corp.ironclad.com フォレストから Azure 仮想ネットワークに移動します。",
+          "html": "<p>すべてのドメイン コントローラーを corp.ironclad.com フォレストから Azure 仮想ネットワークに移動します。</p>"
+        },
+        {
+          "choiceId": "en5-q-048-c3",
+          "label": null,
+          "text": "rd.ironclad.com フォレストのドメイン コントローラーを Azure の仮想ネットワークにデプロイします。",
+          "html": "<p>rd.ironclad.com フォレストのドメイン コントローラーを Azure の仮想ネットワークにデプロイします。</p>"
+        },
+        {
+          "choiceId": "en5-q-048-c4",
+          "label": null,
+          "text": "次のドメイン コントローラーをデプロイします。 corp.ironclad.com を Azure の仮想ネットワークに展開します。",
+          "html": "<p>次のドメイン コントローラーをデプロイします。 corp.ironclad.com を Azure の仮想ネットワークに展開します。</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-048-c4"
+      ],
+      "explanationHtml": "<p>corp.ironclad.com のドメイン コントローラーを Azure の仮想ネットワークに展開する は正解です。これは、要件に従って、ユーザーが Crop.ironclad.com UPN を使用してサインインできるようにする必要があるためです。</p><p>新しい研究開発イニシアチブを認証するために新しい Microsoft Entra テナントを作成する は誤りです。研究開発用に新しいテナントを作成しているため、ユーザーが corp.ironclad.com 資格情報を使用して認証したい場合に役に立ちませんが、そのユーザー アカウントが Azure に同期されていないためです。</p><p>corp.ironclad.com フォレストからすべてのドメイン コントローラーを Azure 仮想ネットワークに移動する は誤りです。オンプレミス ネットワーク内からの内部ユーザーのサインイン要求も解決する必要があるためです。</p><p>rd.ironclad.com フォレストのドメイン コントローラーを Azure の仮想ネットワークにデプロイする は誤りです。要件に従って、ユーザーが VM または他の Azure リソースにサインインするには corp.ironclad.com UPN が必要であることがわかっているためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/architecture/sync-directory\">https://learn.microsoft.com/en-us/entra/architecture/sync-directory</a></p></li></ul>",
+      "explanationText": "corp.ironclad.com のドメイン コントローラーを Azure の仮想ネットワークに展開する は正解です。これは、要件に従って、ユーザーが Crop.ironclad.com UPN を使用してサインインできるようにする必要があるためです。\n新しい研究開発イニシアチブを認証するために新しい Microsoft Entra テナントを作成する は誤りです。研究開発用に新しいテナントを作成しているため、ユーザーが corp.ironclad.com 資格情報を使用して認証したい場合に役に立ちませんが、そのユーザー アカウントが Azure に同期されていないためです。\ncorp.ironclad.com フォレストからすべてのドメイン コントローラーを Azure 仮想ネットワークに移動する は誤りです。オンプレミス ネットワーク内からの内部ユーザーのサインイン要求も解決する必要があるためです。\nrd.ironclad.com フォレストのドメイン コントローラーを Azure の仮想ネットワークにデプロイする は誤りです。要件に従って、ユーザーが VM または他の Azure リソースにサインインするには corp.ironclad.com UPN が必要であることがわかっているためです。\n参考:\n・https://learn.microsoft.com/en-us/entra/architecture/sync-directory",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-049",
+      "sourceQuestionNumber": 49,
+      "promptHtml": "<p><strong>以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><em>https://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing</em></p><p><br></p><p>IronClad, Ltd. の WebApp1 の Azure への移行の一環として、計画されている機能をサポートするためにどの Azure コンポーネントをプロビジョニングする必要があるかを検討しています。アーキテクチャ。</p><p><br></p><p><strong>正誤:</strong></p><p><code><strong>\"</strong>WebApp1 のデータベース メトリック監視をサポートするには、Azure Storage アカウントを特にプロビジョニングする必要があります。<strong>\"</strong> </code> </p>",
+      "promptText": "以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing\n\nIronClad, Ltd. の WebApp1 の Azure への移行の一環として、計画されている機能をサポートするためにどの Azure コンポーネントをプロビジョニングする必要があるかを検討しています。アーキテクチャ。\n\n正誤:\n\"WebApp1 のデータベース メトリック監視をサポートするには、Azure Storage アカウントを特にプロビジョニングする必要があります。\"",
+      "choices": [
+        {
+          "choiceId": "en5-q-049-c1",
+          "label": null,
+          "text": "True",
+          "html": "<p>True</p>"
+        },
+        {
+          "choiceId": "en5-q-049-c2",
+          "label": null,
+          "text": "False",
+          "html": "<p>False</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-049-c2"
+      ],
+      "explanationHtml": "<p>False は正解です。メトリック ログはログ分析ワークスペースに保存でき、管理者は最大 180 件のログを操作できます。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/monitor-tune-overview?view=azuresql#azure-storage\">https://learn.microsoft.com/en-us/azure/azure-sql/database/monitor-tune-overview?view=azuresql#azure-storage</a></p></li></ul>",
+      "explanationText": "False は正解です。メトリック ログはログ分析ワークスペースに保存でき、管理者は最大 180 件のログを操作できます。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/monitor-tune-overview?view=azuresql#azure-storage",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en5-q-050",
+      "sourceQuestionNumber": 50,
+      "promptHtml": "<p><strong>以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><em>https://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing</em></p><p><br></p><p>IronClad, Ltd. の WebApp1 の Azure への移行の一環として、計画されている機能をサポートするためにどの Azure コンポーネントをプロビジョニングする必要があるかを検討しています。 </p><p><br></p><p><strong>正誤:</strong></p><p><code>「SQL サーバー データベースの移行には、Azure Storage アカウントをプロビジョニングする必要があります。」</code> </p>",
+      "promptText": "以下のリンクにある IronClad Ltd. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/1d6MpnWn9mkFjmBe0INaRwmgG7Fqpcy6euVJO9s7XS4M/edit。usp=sharing\n\nIronClad, Ltd. の WebApp1 の Azure への移行の一環として、計画されている機能をサポートするためにどの Azure コンポーネントをプロビジョニングする必要があるかを検討しています。\n\n正誤:\n「SQL サーバー データベースの移行には、Azure Storage アカウントをプロビジョニングする必要があります。」",
+      "choices": [
+        {
+          "choiceId": "en5-q-050-c1",
+          "label": null,
+          "text": "真",
+          "html": "<p>真</p>"
+        },
+        {
+          "choiceId": "en5-q-050-c2",
+          "label": null,
+          "text": "False",
+          "html": "<p>False</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en5-q-050-c1"
+      ],
+      "explanationHtml": "<p>True は正解です。移行中のダウンタイムを最小限に抑えるために、オンライン データベース移行も使用するため、ストレージ アカウントが使用されます。</p><p>参考:</p><ul><li><p><a href=\"https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/migrate-to-vm-from-sql-server#choose-a-migration-method\">https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/migrate-to-vm-from-sql-server#choose-a-migration-method </a></p></li><li><p><a href=\"https://docs.microsoft.com/en-us/azure/dms/tutorial-sql-server-managed-instance-online#configure-migration-settings\">https://docs.microsoft.com/en-us/azure/dms/tutorial-sql-server-managed-instance-online#configure-migration-settings</a></p></li></ul>",
+      "explanationText": "True は正解です。移行中のダウンタイムを最小限に抑えるために、オンライン データベース移行も使用するため、ストレージ アカウントが使用されます。\n参考:\n・https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/migrate-to-vm-from-sql-server#choose-a-migration-method\n\n・https://docs.microsoft.com/en-us/azure/dms/tutorial-sql-server-managed-instance-online#configure-migration-settings",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en5-case-002",
+      "tags": [
+        "case-study"
+      ]
+    }
+  ]
+}

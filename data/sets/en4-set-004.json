@@ -1,0 +1,443 @@
+{
+  "setId": "en4-set-004",
+  "title": "英語問題集4 翻訳版 31-40",
+  "sourceHtml": "assets/英語問題集4.html",
+  "questionIds": [
+    "en4-q-031",
+    "en4-q-032",
+    "en4-q-033",
+    "en4-q-034",
+    "en4-q-035",
+    "en4-q-036",
+    "en4-q-037",
+    "en4-q-038",
+    "en4-q-039",
+    "en4-q-040"
+  ],
+  "questions": [
+    {
+      "questionId": "en4-q-031",
+      "sourceQuestionNumber": 31,
+      "promptHtml": "<p><strong>Sub1</strong> という名前の Azure サブスクリプションは、<strong>apexcore.com</strong> という名前の Microsoft Entra テナントに関連付けられています。</p><p>2 つの ASP.NET Core アプリケーション、<strong>App1</strong> と <strong>App2</strong> を 100 台の仮想マシンにデプロイすることを計画しています。 Sub1で。ユーザーは、apexcore.com ID を使用して両方のアプリケーションに対して認証します。</p><p>アプリケーションには次のアクセス要件があります。</p><ul><li><p><strong>App1</strong> は、サインインしているユーザーのカレンダーへの読み取り専用アクセス権を持っている必要があります。</p></li><li><p><strong>App2</strong> は、サインインしているユーザーのカレンダーへの書き込みアクセス権を持っている必要があります。ユーザーのカレンダー</p></li></ul><p>次の要件を満たすアプリケーションの認証と認可のアプローチを推奨する必要があります。</p><ul><li><p>最小特権の原則を適用する</p></li><li><p>継続的な管理オーバーヘッドを削減する</p></li></ul><p>どの<code>認証ソリューション</code>を使用する必要がありますか推奨しますか。</p>",
+      "promptText": "Sub1 という名前の Azure サブスクリプションは、apexcore.com という名前の Microsoft Entra テナントに関連付けられています。\n2 つの ASP.NET Core アプリケーション、App1 と App2 を 100 台の仮想マシンにデプロイすることを計画しています。 Sub1で。ユーザーは、apexcore.com ID を使用して両方のアプリケーションに対して認証します。\nアプリケーションには次のアクセス要件があります。\n・App1 は、サインインしているユーザーのカレンダーへの読み取り専用アクセス権を持っている必要があります。\n\n・App2 は、サインインしているユーザーのカレンダーへの書き込みアクセス権を持っている必要があります。ユーザーのカレンダー\n\n次の要件を満たすアプリケーションの認証と認可のアプローチを推奨する必要があります。\n・最小特権の原則を適用する\n\n・継続的な管理オーバーヘッドを削減する\n\nどの認証ソリューションを使用する必要がありますか推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-031-c1",
+          "label": null,
+          "text": "Microsoft Entra ID にアプリケーションを登録する",
+          "html": "<p>Microsoft Entra ID にアプリケーションを登録する</p>"
+        },
+        {
+          "choiceId": "en4-q-031-c2",
+          "label": null,
+          "text": "システム割り当てのマネージド ID を使用する",
+          "html": "<p>システム割り当てのマネージド ID を使用する</p>"
+        },
+        {
+          "choiceId": "en4-q-031-c3",
+          "label": null,
+          "text": "ユーザー割り当てのマネージド ID を使用する",
+          "html": "<p>ユーザー割り当てのマネージド ID を使用する</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-031-c1"
+      ],
+      "explanationHtml": "<p>Microsoft Entra ID にアプリケーションを登録する が正解です。App1 と App2 は両方とも、委任されたアクセス許可 (サインインしているユーザーのカレンダーへの読み取りおよび書き込みアクセス) を必要とするユーザー向け Web アプリケーションであるためです。</p><p>これアプローチ:</p><ul><li><p>Microsoft ID プラットフォーム エンドポイントを使用してOAuth 2.0 認証フローを有効にします</p></li><li><p>アプリごとに権限をスコープすることで最低特権を強制します (App1 は読み取りのみを取得します)。 App2 は書き込みを取得します)</p></li><li><p>サインイン時にユーザーの同意または管理者の同意を付与でき、アプリは Microsoft Identity プラットフォーム経由でトークンの取得を安全に処理するため、管理労力を最小限に抑えます</p></li></ul><p>システム割り当てのマネージド ID を使用する です。不正解です。</p><p>ユーザー割り当てのマネージド ID を使用する も、同じ理由で不正解です。マネージド ID は、ユーザーごとのカレンダー アクセスに必要な、委任されたアクセス許可やユーザーの同意フローをサポートしていません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app?tabs=certificate%2Cexpose-a-web-api\">https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app?tabs=certificate%2Cexpose-a-web-api</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity-platform/scenario-web-app-sign-user-app-registration?tabs=aspnetcore\">https://learn.microsoft.com/en-us/entra/identity-platform/scenario-web-app-sign-user-app-registration?tabs=aspnetcore</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview\">https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/graph/permissions-reference\">https://learn.microsoft.com/en-us/graph/permissions-reference</a></p></li></ul>",
+      "explanationText": "正解はMicrosoft Entra ID にアプリケーションを登録する です。App1 と App2 は両方とも、委任されたアクセス許可 (サインインしているユーザーのカレンダーへの読み取りおよび書き込みアクセス) を必要とするユーザー向け Web アプリケーションであるためです。\nこれアプローチ:\n・Microsoft ID プラットフォーム エンドポイントを使用してOAuth 2.0 認証フローを有効にします\n\n・アプリごとに権限をスコープすることで最低特権を強制します (App1 は読み取りのみを取得します)。 App2 は書き込みを取得します)\n\n・サインイン時にユーザーの同意または管理者の同意を付与でき、アプリは Microsoft Identity プラットフォーム経由でトークンの取得を安全に処理するため、管理労力を最小限に抑えます\n\nシステム割り当てのマネージド ID を使用する です。不正解です。\nユーザー割り当てのマネージド ID を使用する も、同じ理由で不正解です。マネージド ID は、ユーザーごとのカレンダー アクセスに必要な、委任されたアクセス許可やユーザーの同意フローをサポートしていません。\n参照:\n・https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app?tabs=certificate%2Cexpose-a-web-api\n\n・https://learn.microsoft.com/en-us/entra/identity-platform/scenario-web-app-sign-user-app-registration?tabs=aspnetcore\n\n・https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview\n\n・https://learn.microsoft.com/en-us/graph/permissions-reference",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-linked-005",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en4-q-032",
+      "sourceQuestionNumber": 32,
+      "promptHtml": "<p><strong>Sub1</strong> という名前の Azure サブスクリプションは、<strong>apexcore.com</strong> という名前の Microsoft Entra テナントに関連付けられています。</p><p>2 つの ASP.NET Core アプリケーション、<strong>App1</strong> と <strong>App2</strong> を 100 台の仮想マシンにデプロイすることを計画しています。 Sub1。ユーザーは、apexcore.com ID を使用して両方のアプリケーションに対して認証します。</p><p>アプリケーションには次のアクセス要件があります。</p><ul><li><p><strong>App1</strong> は、サインインしているユーザーのカレンダーへの読み取り専用アクセス権を持っている必要があります。</p></li><li><p><strong>App2</strong> は、サインインしているユーザーのカレンダーへの書き込みアクセス権を持っている必要があります。ユーザーのカレンダー</p></li></ul><p>次の要件を満たすアプリケーションの認証と認可のアプローチを推奨する必要があります。</p><ul><li><p>最小特権の原則を適用する</p></li><li><p>継続的な管理オーバーヘッドを削減する</p></li></ul><p>どの<code>認可ソリューション</code>を推奨しますか。</p>",
+      "promptText": "Sub1 という名前の Azure サブスクリプションは、apexcore.com という名前の Microsoft Entra テナントに関連付けられています。\n2 つの ASP.NET Core アプリケーション、App1 と App2 を 100 台の仮想マシンにデプロイすることを計画しています。 Sub1。ユーザーは、apexcore.com ID を使用して両方のアプリケーションに対して認証します。\nアプリケーションには次のアクセス要件があります。\n・App1 は、サインインしているユーザーのカレンダーへの読み取り専用アクセス権を持っている必要があります。\n\n・App2 は、サインインしているユーザーのカレンダーへの書き込みアクセス権を持っている必要があります。ユーザーのカレンダー\n\n次の要件を満たすアプリケーションの認証と認可のアプローチを推奨する必要があります。\n・最小特権の原則を適用する\n\n・継続的な管理オーバーヘッドを削減する\n\nどの認可ソリューションを推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-032-c1",
+          "label": null,
+          "text": "アプリケーションのアクセス許可",
+          "html": "アプリケーションのアクセス許可"
+        },
+        {
+          "choiceId": "en4-q-032-c2",
+          "label": null,
+          "text": "Azure ロールベースのアクセス制御 (Azure RBAC)",
+          "html": "Azure ロールベースのアクセス制御 (Azure RBAC)"
+        },
+        {
+          "choiceId": "en4-q-032-c3",
+          "label": null,
+          "text": "委任されたアクセス許可",
+          "html": "委任されたアクセス許可"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-032-c3"
+      ],
+      "explanationHtml": "<p>委任されたアクセス許可は次のとおりです。正解です。</p><ul><li><p>App1 は Calendars.Read の委任されたアクセス許可を要求し、</p></li><li><p>App2 はCalendars.ReadWrite の委任されたアクセス許可をリクエストします。</p></li></ul><p>各アプリは必要な最小限のアクセス レベルのみを要求するため、これは最小特権の原則をサポートします。さらに、アプリ固有のロールやより広範な権限を管理する必要がなく、ユーザーの同意フロー、または管理者の同意を 1 回だけ許可することで、管理労力が最小限に抑えられます。</p><p>アプリケーションの権限 は誤りです。これは、組織内のすべてのユーザーのカレンダーへの無人のアプリのみのアクセスをアプリに付与するためであり、最小特権の原則に違反します。</p><p>Azure ロールベースのアクセス制御 (Azure RBAC) は、ストレージ アカウントや仮想マシンなどの Azure リソースに対するアクセス制御に使用されるため、誤りです。これは、Microsoft 365 サービス内の Microsoft Graph のアクセス許可やカレンダー アクセスには適用されません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity-platform/permissions-consent-overview\">https://learn.microsoft.com/en-us/entra/identity-platform/permissions-consent-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/graph/permissions-reference\">https://learn.microsoft.com/en-us/graph/permissions-reference</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/role-based-access-control/overview\">https://learn.microsoft.com/en-us/azure/role-based-access-control/overview</a></p></li></ul>",
+      "explanationText": "委任されたアクセス許可は次のとおりです。正解です。\n・App1 は Calendars.Read の委任されたアクセス許可を要求し、\n\n・App2 はCalendars.ReadWrite の委任されたアクセス許可をリクエストします。\n\n各アプリは必要な最小限のアクセス レベルのみを要求するため、これは最小特権の原則をサポートします。さらに、アプリ固有のロールやより広範な権限を管理する必要がなく、ユーザーの同意フロー、または管理者の同意を 1 回だけ許可することで、管理労力が最小限に抑えられます。\nアプリケーションの権限 は誤りです。これは、組織内のすべてのユーザーのカレンダーへの無人のアプリのみのアクセスをアプリに付与するためであり、最小特権の原則に違反します。\nAzure ロールベースのアクセス制御 (Azure RBAC) は、ストレージ アカウントや仮想マシンなどの Azure リソースに対するアクセス制御に使用されるため、誤りです。これは、Microsoft 365 サービス内の Microsoft Graph のアクセス許可やカレンダー アクセスには適用されません。\n参照:\n・https://learn.microsoft.com/en-us/entra/identity-platform/permissions-consent-overview\n\n・https://learn.microsoft.com/en-us/graph/permissions-reference\n\n・https://learn.microsoft.com/en-us/azure/role-based-access-control/overview",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-linked-005",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en4-q-033",
+      "sourceQuestionNumber": 33,
+      "promptHtml": "<p>App1 という名前のオンプレミス アプリケーションを Azure に移行することを計画しています。このアプリケーションを使用すると、顧客はデジタル イメージを保存および管理できます。</p><p>App1 には Azure ベースのデータ ストレージ ソリューションを推奨する必要があります。提案されたソリューションは、次の<strong>イメージ ストレージ要件</strong>を満たす必要があります。</p><ul><li><p>保存中にイメージが暗号化されていることを確認する</p></li><li><p>最大 50 MB のサイズの個別ファイルをサポートする</p></li><li><p>Azure Front Door 経由で Azure Web Application Firewall (WAF) を使用して、保存されたイメージへのアクセスを制御する</p></li></ul><p>さらに、ソリューションは次の要件を満たす必要があります。次の<strong>顧客アカウント要件</strong>:</p><ul><li><p>需要の増加に応じてストレージ容量を自動的に拡張する</p></li><li><p>単一のデータセンターが利用できなくなった場合でもアプリケーションの可用性を維持する</p></li><li><p>複数の Azure リージョンからの読み取りおよび書き込み操作をサポートする</p></li></ul><p><code>image の推奨事項にどの Azure サービスを含めるべきかstorage</code>。</p>",
+      "promptText": "App1 という名前のオンプレミス アプリケーションを Azure に移行することを計画しています。このアプリケーションを使用すると、顧客はデジタル イメージを保存および管理できます。\nApp1 には Azure ベースのデータ ストレージ ソリューションを推奨する必要があります。提案されたソリューションは、次のイメージ ストレージ要件を満たす必要があります。\n・保存中にイメージが暗号化されていることを確認する\n\n・最大 50 MB のサイズの個別ファイルをサポートする\n\n・Azure Front Door 経由で Azure Web Application Firewall (WAF) を使用して、保存されたイメージへのアクセスを制御する\n\nさらに、ソリューションは次の要件を満たす必要があります。次の顧客アカウント要件:\n・需要の増加に応じてストレージ容量を自動的に拡張する\n\n・単一のデータセンターが利用できなくなった場合でもアプリケーションの可用性を維持する\n\n・複数の Azure リージョンからの読み取りおよび書き込み操作をサポートする\n\nimage の推奨事項にどの Azure サービスを含めるべきかstorage。",
+      "choices": [
+        {
+          "choiceId": "en4-q-033-c1",
+          "label": null,
+          "text": "Azure Blob Storage",
+          "html": "Azure Blob Storage"
+        },
+        {
+          "choiceId": "en4-q-033-c2",
+          "label": null,
+          "text": "Azure Cosmos DB",
+          "html": "Azure Cosmos DB"
+        },
+        {
+          "choiceId": "en4-q-033-c3",
+          "label": null,
+          "text": "Azure SQL データベース",
+          "html": "Azure SQL データベース"
+        },
+        {
+          "choiceId": "en4-q-033-c4",
+          "label": null,
+          "text": "Azure Table storage",
+          "html": "Azure Table storage"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-033-c1"
+      ],
+      "explanationHtml": "<p>Azure Blob Storage は、デジタル画像などの非構造化データを保存するために特別に設計されており、保存時の暗号化をデフォルトでサポートしているため、正解です。最大 50 MB 以上のファイルを簡単に収容できるため、App1 の画像ストレージのニーズに自然に適合します。</p><p>Azure Cosmos DB は誤りです。これは、グローバルに分散された NoSQL データを対象としており、イメージなどのバイナリ ラージ オブジェクト ストレージ用に最適化されていないためです。</p><p>Azure SQL データベース は、構造化リレーショナル データ用に構築されているため不正確です。技術的にはバイナリ データ型を使用した画像の保存をサポートしていますが、このアプローチは大規模な画像ストレージに対してスケーラビリティやコスト効率が低く、メディア配信のための Azure Front Door などのサービスとの直接統合が不足しています。</p><p>Azure Table storage は、構造化された軽量データ ストレージ用に設計された NoSQL キー/値ストアであるため、不正解です。大きなバイナリ ファイルはサポートされておらず、メディア コンテンツへのアクセスを保護するためのコンテンツ配信ネットワークやファイアウォールとの統合も提供されていません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\">https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy\">https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/introduction\">https://learn.microsoft.com/en-us/azure/cosmos-db/introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/object-replication-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/object-replication-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview\">https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview</a></p></li></ul>",
+      "explanationText": "Azure Blob Storage は、デジタル画像などの非構造化データを保存するために特別に設計されており、保存時の暗号化をデフォルトでサポートしているため、正解です。最大 50 MB 以上のファイルを簡単に収容できるため、App1 の画像ストレージのニーズに自然に適合します。\nAzure Cosmos DB は誤りです。これは、グローバルに分散された NoSQL データを対象としており、イメージなどのバイナリ ラージ オブジェクト ストレージ用に最適化されていないためです。\nAzure SQL データベース は、構造化リレーショナル データ用に構築されているため不正確です。技術的にはバイナリ データ型を使用した画像の保存をサポートしていますが、このアプローチは大規模な画像ストレージに対してスケーラビリティやコスト効率が低く、メディア配信のための Azure Front Door などのサービスとの直接統合が不足しています。\nAzure Table storage は、構造化された軽量データ ストレージ用に設計された NoSQL キー/値ストアであるため、不正解です。大きなバイナリ ファイルはサポートされておらず、メディア コンテンツへのアクセスを保護するためのコンテンツ配信ネットワークやファイアウォールとの統合も提供されていません。\n参照:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\n\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy\n\n・https://learn.microsoft.com/en-us/azure/cosmos-db/introduction\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/object-replication-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-linked-006",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en4-q-034",
+      "sourceQuestionNumber": 34,
+      "promptHtml": "<p>App1 という名前のオンプレミス アプリケーションを Azure に移行することを計画しています。このアプリケーションを使用すると、顧客はデジタル画像を保存および管理できます。</p><p>App1 には Azure ベースのデータ ストレージ ソリューションを推奨する必要があります。提案されたソリューションは、次の<strong>イメージ ストレージ要件</strong>を満たす必要があります。</p><ul><li><p>保存中にイメージが暗号化されていることを確認する</p></li><li><p>最大 50 MB のサイズの個別ファイルをサポートする</p></li><li><p>Azure Front Door 経由で Azure Web Application Firewall (WAF) を使用して、保存されたイメージへのアクセスを制御する</p></li></ul><p>さらに、ソリューションは次の要件を満たす必要があります。次の<strong>顧客アカウント要件</strong>:</p><ul><li><p>需要の増加に応じてストレージ容量を自動的に拡張する</p></li><li><p>単一のデータセンターが利用できなくなった場合でもアプリケーションの可用性を維持する</p></li><li><p>複数の Azure リージョンからの読み取りおよび書き込み操作をサポートする</p></li></ul><p><code>顧客の推奨事項にどのサービスを含める必要がありますかアカウント</code>。</p>",
+      "promptText": "App1 という名前のオンプレミス アプリケーションを Azure に移行することを計画しています。このアプリケーションを使用すると、顧客はデジタル画像を保存および管理できます。\nApp1 には Azure ベースのデータ ストレージ ソリューションを推奨する必要があります。提案されたソリューションは、次のイメージ ストレージ要件を満たす必要があります。\n・保存中にイメージが暗号化されていることを確認する\n\n・最大 50 MB のサイズの個別ファイルをサポートする\n\n・Azure Front Door 経由で Azure Web Application Firewall (WAF) を使用して、保存されたイメージへのアクセスを制御する\n\nさらに、ソリューションは次の要件を満たす必要があります。次の顧客アカウント要件:\n・需要の増加に応じてストレージ容量を自動的に拡張する\n\n・単一のデータセンターが利用できなくなった場合でもアプリケーションの可用性を維持する\n\n・複数の Azure リージョンからの読み取りおよび書き込み操作をサポートする\n\n顧客の推奨事項にどのサービスを含める必要がありますかアカウント。",
+      "choices": [
+        {
+          "choiceId": "en4-q-034-c1",
+          "label": null,
+          "text": "Azure Blob Storage",
+          "html": "Azure Blob Storage"
+        },
+        {
+          "choiceId": "en4-q-034-c2",
+          "label": null,
+          "text": "Azure Cosmos DB",
+          "html": "Azure Cosmos DB"
+        },
+        {
+          "choiceId": "en4-q-034-c3",
+          "label": null,
+          "text": "Azure SQL データベース",
+          "html": "Azure SQL データベース"
+        },
+        {
+          "choiceId": "en4-q-034-c4",
+          "label": null,
+          "text": "Azure Table storage",
+          "html": "Azure Table storage"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-034-c2"
+      ],
+      "explanationHtml": "<p>Azure Cosmos DB は、高可用性、自動スケーリング、マルチリージョンの読み取り/書き込み機能を必要とするグローバルに分散されたアプリケーション向けに設計されているため、正解です。顧客アカウント データの場合、Cosmos DB は、複数の Azure リージョン間でシームレスにスケールできる低待機時間の NoSQL データ ストアを提供します。</p><p>Azure Blob Storage は、画像などの非構造化データの保存には優れていますが、構造化された顧客アカウント データの処理には理想的ではないため、この文脈では不正確です。アカウント レコードを効率的に管理するために必要なインデックス作成、クエリ、トランザクション更新などの機能が欠けています。</p><p>Azure SQL Database は誤りです。構造化データをサポートし、地理的レプリケーションが可能ですが、Cosmos DB と同じレベルのグローバル分散と書き込みスケーラビリティを提供していないからです。</p><p>Azure Table storage は、Cosmos DB と比較して機能が制限された基本的な NoSQL キー/値ストアであるため、不正解です。複数のリージョンでの書き込み機能を備えた自動グローバル分散はサポートされていません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/introduction\">https://learn.microsoft.com/en-us/azure/cosmos-db/introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\">https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview\">https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview</a></p></li></ul>",
+      "explanationText": "Azure Cosmos DB は、高可用性、自動スケーリング、マルチリージョンの読み取り/書き込み機能を必要とするグローバルに分散されたアプリケーション向けに設計されているため、正解です。顧客アカウント データの場合、Cosmos DB は、複数の Azure リージョン間でシームレスにスケールできる低待機時間の NoSQL データ ストアを提供します。\nAzure Blob Storage は、画像などの非構造化データの保存には優れていますが、構造化された顧客アカウント データの処理には理想的ではないため、この文脈では不正確です。アカウント レコードを効率的に管理するために必要なインデックス作成、クエリ、トランザクション更新などの機能が欠けています。\nAzure SQL Database は誤りです。構造化データをサポートし、地理的レプリケーションが可能ですが、Cosmos DB と同じレベルのグローバル分散と書き込みスケーラビリティを提供していないからです。\nAzure Table storage は、Cosmos DB と比較して機能が制限された基本的な NoSQL キー/値ストアであるため、不正解です。複数のリージョンでの書き込み機能を備えた自動グローバル分散はサポートされていません。\n参照:\n・https://learn.microsoft.com/en-us/azure/cosmos-db/introduction\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql\n\n・https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en4-linked-006",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en4-q-035",
+      "sourceQuestionNumber": 35,
+      "promptHtml": "<p>あなたは、Azure Functions を使用して Azure サブスクリプションからアクティビティ ログを読み取るアプリケーションを構築しています。</p><p>Azure Functions アプリの認証メカニズムを推奨する必要があります。このソリューションでは、資格情報とアクセスを管理するための管理オーバーヘッドを最小限に抑える必要があります。</p><p>推奨事項には何を含めるべきですか。</p>",
+      "promptText": "あなたは、Azure Functions を使用して Azure サブスクリプションからアクティビティ ログを読み取るアプリケーションを構築しています。\nAzure Functions アプリの認証メカニズムを推奨する必要があります。このソリューションでは、資格情報とアクセスを管理するための管理オーバーヘッドを最小限に抑える必要があります。\n推奨事項には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-035-c1",
+          "label": null,
+          "text": "Microsoft Entra のエンタープライズ アプリケーション",
+          "html": "<p>Microsoft Entra のエンタープライズ アプリケーション</p>"
+        },
+        {
+          "choiceId": "en4-q-035-c2",
+          "label": null,
+          "text": "システム割り当てマネージド ID",
+          "html": "システム割り当てマネージド ID"
+        },
+        {
+          "choiceId": "en4-q-035-c3",
+          "label": null,
+          "text": "共有アクセス署名(SAS)",
+          "html": "共有アクセス署名(SAS)"
+        },
+        {
+          "choiceId": "en4-q-035-c4",
+          "label": null,
+          "text": "Microsoft Entra でのアプリケーション登録",
+          "html": "<p>Microsoft Entra でのアプリケーション登録</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-035-c2"
+      ],
+      "explanationHtml": "<p>システム割り当てマネージド ID は、読み取りアクティビティなど、Azure リソースにアクセスするときに Azure Functions に最もシンプルで安全な認証方法を提供するため、正しいです。ログ。</p><p>Microsoft Entra のエンタープライズ アプリケーションは、エンタープライズ アプリケーションがすでに登録されているアプリのサービス プリンシパルを表すため、不正確です。これらはサードパーティの統合に多く使用されており、追加の構成なしで Azure Functions が認証するための簡素化された方法を単独で提供するわけではありません。</p><p>共有アクセス署名 (SAS) は、SAS トークンが Azure Storage リソースへのアクセスを委任するために使用されるため不正確です。これらは、アクティビティ ログなどのサブスクリプション レベルのサービスへのアクセスには適用できず、トークンの生成とセキュリティの点でより多くのオーバーヘッドが発生します。</p><p>Microsoft Entra でのアプリケーション登録 は誤りです。これは、アプリレベルの認証が有効になる一方で、クライアント シークレットや証明書の管理など、より多くの手動手順が必要となるためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview\">https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview</a></p></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on\">https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on</a></p></li><li><p><a href=\"https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview\">https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app?tabs=certificate%2Cexpose-a-web-api\">https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app?tabs=certificate%2Cexpose-a-web-api</a></p></li></ul>",
+      "explanationText": "システム割り当てマネージド ID は、読み取りアクティビティなど、Azure リソースにアクセスするときに Azure Functions に最もシンプルで安全な認証方法を提供するため、正しいです。ログ。\nMicrosoft Entra のエンタープライズ アプリケーションは、エンタープライズ アプリケーションがすでに登録されているアプリのサービス プリンシパルを表すため、不正確です。これらはサードパーティの統合に多く使用されており、追加の構成なしで Azure Functions が認証するための簡素化された方法を単独で提供するわけではありません。\n共有アクセス署名 (SAS) は、SAS トークンが Azure Storage リソースへのアクセスを委任するために使用されるため不正確です。これらは、アクティビティ ログなどのサブスクリプション レベルのサービスへのアクセスには適用できず、トークンの生成とセキュリティの点でより多くのオーバーヘッドが発生します。\nMicrosoft Entra でのアプリケーション登録 は誤りです。これは、アプリレベルの認証が有効になる一方で、クライアント シークレットや証明書の管理など、より多くの手動手順が必要となるためです。\n参照:\n・https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview\n\n・https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on\n\n・https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview\n\n・https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app?tabs=certificate%2Cexpose-a-web-api",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en4-q-036",
+      "sourceQuestionNumber": 36,
+      "promptHtml": "<p>現在、ストレージ システムがオンプレミスにデプロイされています。</p><p>このストレージ ソリューションを Microsoft Azure に移行する予定です。</p><p>移行されたソリューションは、Hadoop 分散ファイル システム (HDFS) と互換性があり、サポートしている必要があります。</p><p>どの Azure サービスを選択する必要がありますか。</p>",
+      "promptText": "現在、ストレージ システムがオンプレミスにデプロイされています。\nこのストレージ ソリューションを Microsoft Azure に移行する予定です。\n移行されたソリューションは、Hadoop 分散ファイル システム (HDFS) と互換性があり、サポートしている必要があります。\nどの Azure サービスを選択する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-036-c1",
+          "label": null,
+          "text": "Azure Data Lake Storage Gen2",
+          "html": "Azure Data Lake Storage Gen2"
+        },
+        {
+          "choiceId": "en4-q-036-c2",
+          "label": null,
+          "text": "Azure NetApp Files",
+          "html": "Azure NetApp Files"
+        },
+        {
+          "choiceId": "en4-q-036-c3",
+          "label": null,
+          "text": "Azure Data Share",
+          "html": "Azure Data Share"
+        },
+        {
+          "choiceId": "en4-q-036-c4",
+          "label": null,
+          "text": "Azure Table storage",
+          "html": "Azure Table storage"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-036-c1"
+      ],
+      "explanationHtml": "<p>Azure Data Lake Storage Gen2 は、特にビッグ データ分析ワークロードをサポートするように設計されており、Hadoop 分散ファイル システム (HDFS) と完全な互換性があるため、 正解です。これは Azure Blob Storage 上に構築されており、HDFS 互換のアクセスとファイル管理を可能にする階層型名前空間を提供します。</p><p>Azure NetApp Files は、高性能で低遅延のファイル ストレージを提供し、NFS と SMB をサポートしているにもかかわらず、不正解です。</p><p>Azure Data Share は誤りです。これは、HDFS との互換性を備えたデータの保存や移行ではなく、Azure テナントまたは組織間でのデータ共有に使用されるためです。</p><p>Azure Table storage は誤りです。これは、構造化データ用の NoSQL キー/値ストアであり、ファイル システム インターフェイスや HDFS 統合をサポートしていないためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction\">https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-data-lake-storage/2-azure-data-lake-gen2\">https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-data-lake-storage/2-azure-data-lake-gen2</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-introduction\">https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-share/overview\">https://learn.microsoft.com/en-us/azure/data-share/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview\">https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview</a></p></li></ul>",
+      "explanationText": "Azure Data Lake Storage Gen2 は、特にビッグ データ分析ワークロードをサポートするように設計されており、Hadoop 分散ファイル システム (HDFS) と完全な互換性があるため、 正解です。これは Azure Blob Storage 上に構築されており、HDFS 互換のアクセスとファイル管理を可能にする階層型名前空間を提供します。\nAzure NetApp Files は、高性能で低遅延のファイル ストレージを提供し、NFS と SMB をサポートしているにもかかわらず、不正解です。\nAzure Data Share は誤りです。これは、HDFS との互換性を備えたデータの保存や移行ではなく、Azure テナントまたは組織間でのデータ共有に使用されるためです。\nAzure Table storage は誤りです。これは、構造化データ用の NoSQL キー/値ストアであり、ファイル システム インターフェイスや HDFS 統合をサポートしていないためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction\n\n・https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-data-lake-storage/2-azure-data-lake-gen2\n\n・https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-introduction\n\n・https://learn.microsoft.com/en-us/azure/data-share/overview\n\n・https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en4-q-037",
+      "sourceQuestionNumber": 37,
+      "promptHtml": "<p>あなたは、Web アプリケーションをホストするためのマイクロサービス ベースのアーキテクチャを計画しています。</p><p>提案されたソリューションは次の条件を満たす必要があります。</p><ul><li><p>アプリケーションはオンプレミスと Microsoft Azure の両方にデプロイ可能である必要があります。</p></li><li><p>アーキテクチャは、低遅延通信とハイパースケール ワークロードをサポートする必要があります。</p></li><li><p>それぞれマイクロサービスは、他に影響を与えることなく独立してアップグレード可能である必要があります。</p></li><li><p>プラットフォームでは、問題を自動的に検出し、マイクロサービスの自己修復アクションを実行するポリシーを定義できる必要があります。</p></li></ul><p>適切なテクノロジを推奨する必要があります。</p><p>どのオプションを推奨しますか。</p>",
+      "promptText": "あなたは、Web アプリケーションをホストするためのマイクロサービス ベースのアーキテクチャを計画しています。\n提案されたソリューションは次の条件を満たす必要があります。\n・アプリケーションはオンプレミスと Microsoft Azure の両方にデプロイ可能である必要があります。\n\n・アーキテクチャは、低遅延通信とハイパースケール ワークロードをサポートする必要があります。\n\n・それぞれマイクロサービスは、他に影響を与えることなく独立してアップグレード可能である必要があります。\n\n・プラットフォームでは、問題を自動的に検出し、マイクロサービスの自己修復アクションを実行するポリシーを定義できる必要があります。\n\n適切なテクノロジを推奨する必要があります。\nどのオプションを推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-037-c1",
+          "label": null,
+          "text": "Azure Containerインスタンス",
+          "html": "Azure Containerインスタンス"
+        },
+        {
+          "choiceId": "en4-q-037-c2",
+          "label": null,
+          "text": "Azure Logic App",
+          "html": "Azure Logic App"
+        },
+        {
+          "choiceId": "en4-q-037-c3",
+          "label": null,
+          "text": "Azure Service Fabric",
+          "html": "Azure Service Fabric"
+        },
+        {
+          "choiceId": "en4-q-037-c4",
+          "label": null,
+          "text": "Azure 仮想マシン スケール セット",
+          "html": "Azure 仮想マシン スケール セット"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-037-c3"
+      ],
+      "explanationHtml": "<p>Azure Service Fabric は次のとおりです。これは、スケーラブルで信頼性の高いマイクロサービス ベースのアプリケーションを構築および管理するために特別に設計された分散システム プラットフォームであるため、正解です。</p><p>Azure Container Instance は、基盤となるインフラストラクチャを管理せずにコンテナを実行するように設計されているため不正確ですが、自動修復、ローリング アップグレード、ステートフルなどの複雑なオーケストレーション機能はサポートされていません。サービスサポート。</p><p>Azure Logic App は主にサーバーレス モデルを使用した自動化されたワークフローと統合の構築に使用されるため、不正解です。これは、マイクロサービスを実行したり、スケーラブルで低遅延のアプリケーション コンポーネントをサポートしたりするように設計されていません。</p><p>Azure 仮想マシン スケール セット は誤りです。これは、仮想マシンのスケーリングをサポートし、コンテナー化されたワークロードを実行できますが、ネイティブのマイクロサービス フレームワークを提供していないためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-overview\">https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-application-upgrade\">https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-application-upgrade</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/container-instances/container-instances-overview\">https://learn.microsoft.com/en-us/azure/container-instances/container-instances-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview\">https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview\">https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview</a></p></li></ul>",
+      "explanationText": "Azure Service Fabric は次のとおりです。これは、スケーラブルで信頼性の高いマイクロサービス ベースのアプリケーションを構築および管理するために特別に設計された分散システム プラットフォームであるため、正解です。\nAzure Container Instance は、基盤となるインフラストラクチャを管理せずにコンテナを実行するように設計されているため不正確ですが、自動修復、ローリング アップグレード、ステートフルなどの複雑なオーケストレーション機能はサポートされていません。サービスサポート。\nAzure Logic App は主にサーバーレス モデルを使用した自動化されたワークフローと統合の構築に使用されるため、不正解です。これは、マイクロサービスを実行したり、スケーラブルで低遅延のアプリケーション コンポーネントをサポートしたりするように設計されていません。\nAzure 仮想マシン スケール セット は誤りです。これは、仮想マシンのスケーリングをサポートし、コンテナー化されたワークロードを実行できますが、ネイティブのマイクロサービス フレームワークを提供していないためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-overview\n\n・https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-application-upgrade\n\n・https://learn.microsoft.com/en-us/azure/container-instances/container-instances-overview\n\n・https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview\n\n・https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en4-q-038",
+      "sourceQuestionNumber": 38,
+      "promptHtml": "<p>複数のデータベースからデータを取得するオンプレミス アプリケーションがあります。<br>アプリケーション コード内では、サーバー名、データベース名、テーブル名を含む完全修飾名を使用してデータベース オブジェクトが参照されます。</p><p>アプリケーション データを Microsoft Azure に移行することを計画しています。</p><p>これを満たすためにアプリケーション データを移動できるのは、<strong>2 つ</strong>の Azure サービスのうちどれですか。要件。</p>",
+      "promptText": "複数のデータベースからデータを取得するオンプレミス アプリケーションがあります。\nアプリケーション コード内では、サーバー名、データベース名、テーブル名を含む完全修飾名を使用してデータベース オブジェクトが参照されます。\nアプリケーション データを Microsoft Azure に移行することを計画しています。\nこれを満たすためにアプリケーション データを移動できるのは、2 つの Azure サービスのうちどれですか。要件。",
+      "choices": [
+        {
+          "choiceId": "en4-q-038-c1",
+          "label": null,
+          "text": "SQL サーバー ストレッチ データベース",
+          "html": "SQL サーバー ストレッチ データベース"
+        },
+        {
+          "choiceId": "en4-q-038-c2",
+          "label": null,
+          "text": "SQL Azure 仮想マシン上のサーバー",
+          "html": "SQL Azure 仮想マシン上のサーバー"
+        },
+        {
+          "choiceId": "en4-q-038-c3",
+          "label": null,
+          "text": "Azure SQL データベース",
+          "html": "Azure SQL データベース"
+        },
+        {
+          "choiceId": "en4-q-038-c4",
+          "label": null,
+          "text": "Azure SQL マネージド インスタンス",
+          "html": "Azure SQL マネージド インスタンス"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-038-c2",
+        "en4-q-038-c4"
+      ],
+      "explanationHtml": "<p>SQL Azure 仮想マシン上のサーバー は、SQL サーバー インスタンスを完全に制御でき、同じサーバー、データベース、テーブルの名前を保持できるため正しいです。オンプレミス アプリケーションで使用される規則。</p><p>Azure SQL マネージド インスタンス は、ほぼ完全な SQL サーバー エンジンの互換性とサポートを提供するため正解です。3 つの部分からなる名前付け (server.database.schema.object) とデータベース間のクエリ。</p><p>SQL サーバー ストレッチ データベース は誤りです。これは、オンプレミスのテーブルを Azure に拡張することはできますが、データベース全体の移行や Azure でのデータベース レイヤー全体の置き換えはサポートしていないためです。</p><p>Azure SQL データベースは、特別な回避策を使用してすべてのデータベースが同じエラスティック プールに含まれていない限り、3 部構成の名前を使用したデータベース間のクエリをサポートしていないため、不正確です。これは単一データベース モデルであり、アプリがサーバーおよびデータベース参照を含む完全修飾オブジェクト名に依存している場合は通常、コードの変更が必要です。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview?view=azuresql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/previous-versions/sql/sql-server/stretch-database/stretch-database?view=sql-server-ver16&amp;viewFallbackFrom=sql-server-ver15\">https://learn.microsoft.com/en-us/previous-versions/sql/sql-server/stretch-database/stretch-database?view=sql-server-ver16&amp;viewFallbackFrom=sql-server-ver15</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview\">https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview</a></p></li></ul>",
+      "explanationText": "SQL Azure 仮想マシン上のサーバー は、SQL サーバー インスタンスを完全に制御でき、同じサーバー、データベース、テーブルの名前を保持できるため正しいです。オンプレミス アプリケーションで使用される規則。\nAzure SQL マネージド インスタンス は、ほぼ完全な SQL サーバー エンジンの互換性とサポートを提供するため正解です。3 つの部分からなる名前付け (server.database.schema.object) とデータベース間のクエリ。\nSQL サーバー ストレッチ データベース は誤りです。これは、オンプレミスのテーブルを Azure に拡張することはできますが、データベース全体の移行や Azure でのデータベース レイヤー全体の置き換えはサポートしていないためです。\nAzure SQL データベースは、特別な回避策を使用してすべてのデータベースが同じエラスティック プールに含まれていない限り、3 部構成の名前を使用したデータベース間のクエリをサポートしていないため、不正確です。これは単一データベース モデルであり、アプリがサーバーおよびデータベース参照を含む完全修飾オブジェクト名に依存している場合は通常、コードの変更が必要です。\n参照:\n・https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview?view=azuresql\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql\n\n・https://learn.microsoft.com/en-us/previous-versions/sql/sql-server/stretch-database/stretch-database?view=sql-server-ver16&viewFallbackFrom=sql-server-ver15\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "multi",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en4-q-039",
+      "sourceQuestionNumber": 39,
+      "promptHtml": "<p>あなたは、高さマップ データから 3 次元ジオメトリを導出するソリューションを設計しています。<br>次の要件を満たすアプローチを推奨する必要があります。</p><ul><li><p>すべての計算は Microsoft Azure 内で実行される必要があります。</p></li><li><p>すべての計算ノードは、他のすべてのノードとデータを交換できる必要があります。</p></li><li><p>複数のシーンを最短時間で処理するには、ソリューションは可能な限り多くのノードにスケールアウトする必要があります。</p></li><li><p>全体的な実装作業は最小限に抑える必要があります。</p></li></ul><p>推奨事項に含めるべき<strong> 2 つの</strong> アクションはどれですか。</p>",
+      "promptText": "あなたは、高さマップ データから 3 次元ジオメトリを導出するソリューションを設計しています。\n次の要件を満たすアプローチを推奨する必要があります。\n・すべての計算は Microsoft Azure 内で実行される必要があります。\n\n・すべての計算ノードは、他のすべてのノードとデータを交換できる必要があります。\n\n・複数のシーンを最短時間で処理するには、ソリューションは可能な限り多くのノードにスケールアウトする必要があります。\n\n・全体的な実装作業は最小限に抑える必要があります。\n\n推奨事項に含めるべき 2 つの アクションはどれですか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-039-c1",
+          "label": null,
+          "text": "Azure で並列ファイル システムを有効にします。",
+          "html": "Azure で並列ファイル システムを有効にします。"
+        },
+        {
+          "choiceId": "en4-q-039-c2",
+          "label": null,
+          "text": "仮想マシンを使用するレンダー ファームを作成します。",
+          "html": "仮想マシンを使用するレンダー ファームを作成します。"
+        },
+        {
+          "choiceId": "en4-q-039-c3",
+          "label": null,
+          "text": "仮想マシン スケール セットを使用するレンダー ファームを作成します。",
+          "html": "仮想マシン スケール セットを使用するレンダー ファームを作成します。"
+        },
+        {
+          "choiceId": "en4-q-039-c4",
+          "label": null,
+          "text": "Azure Batch を使用するレンダー ファームを作成します。",
+          "html": "Azure Batch を使用するレンダー ファームを作成します。"
+        },
+        {
+          "choiceId": "en4-q-039-c5",
+          "label": null,
+          "text": "コンピューティング ノードでの並列タスクの実行を有効にします。",
+          "html": "コンピューティング ノードでの並列タスクの実行を有効にします。"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-039-c4",
+        "en4-q-039-c5"
+      ],
+      "explanationHtml": "<p>Azure Batch を使用するレンダー ファームを作成する は正解です。これは、Azure Batch が Azure で大規模な並列およびハイ パフォーマンス コンピューティング (HPC) ワークロードを実行するために特別に設計されているためです。</p><p>コンピューティング ノードでの並列タスク実行を有効にする は正解です。これは、並列タスクの実行を有効にすると、各コンピューティング ノードが複数のシーンまたは計算を同時に処理できるようになり、利用可能なリソースの使用率が最大化され、全体的なスループットが向上します。</p><p>Azure で並列ファイル システムを有効にする は誤りです。これは、高性能ファイル システムは I/O 集中型のワークロードに役立ちますが、このシナリオでノード間通信やタスクの並列実行を有効にするためには必要ないためです。</p><p>仮想マシンを使用するレンダー ファームを作成する は誤りです。手動のプロビジョニング、スケーリング、ジョブの分散が必要となり、実装の労力が増加します。</p><p>仮想マシン スケール セットを使用するレンダー ファームを作成する は誤りです。VMSS はステートレス アプリケーションの自動スケーリングと負荷分散を提供しますが、Azure Batch が提供する組み込みの HPC ジョブ オーケストレーションとノード通信機能が欠けているためです。</p><p>リファレンス:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/batch/batch-technical-overview\">https://learn.microsoft.com/en-us/azure/batch/batch-technical-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/batch/batch-parallel-node-tasks\">https://learn.microsoft.com/en-us/azure/batch/batch-parallel-node-tasks</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/batch/batch-rendering-service\">https://learn.microsoft.com/en-us/azure/batch/batch-rendering-service</a></p></li></ul>",
+      "explanationText": "Azure Batch を使用するレンダー ファームを作成する は正解です。これは、Azure Batch が Azure で大規模な並列およびハイ パフォーマンス コンピューティング (HPC) ワークロードを実行するために特別に設計されているためです。\nコンピューティング ノードでの並列タスク実行を有効にする は正解です。これは、並列タスクの実行を有効にすると、各コンピューティング ノードが複数のシーンまたは計算を同時に処理できるようになり、利用可能なリソースの使用率が最大化され、全体的なスループットが向上します。\nAzure で並列ファイル システムを有効にする は誤りです。これは、高性能ファイル システムは I/O 集中型のワークロードに役立ちますが、このシナリオでノード間通信やタスクの並列実行を有効にするためには必要ないためです。\n仮想マシンを使用するレンダー ファームを作成する は誤りです。手動のプロビジョニング、スケーリング、ジョブの分散が必要となり、実装の労力が増加します。\n仮想マシン スケール セットを使用するレンダー ファームを作成する は誤りです。VMSS はステートレス アプリケーションの自動スケーリングと負荷分散を提供しますが、Azure Batch が提供する組み込みの HPC ジョブ オーケストレーションとノード通信機能が欠けているためです。\nリファレンス:\n・https://learn.microsoft.com/en-us/azure/batch/batch-technical-overview\n\n・https://learn.microsoft.com/en-us/azure/batch/batch-parallel-node-tasks\n\n・https://learn.microsoft.com/en-us/azure/batch/batch-rendering-service",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "multi",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en4-q-040",
+      "sourceQuestionNumber": 40,
+      "promptHtml": "<p>操作記録を維持するミッションクリティカルなアプリケーション用のストレージ ソリューションを推奨する必要があります。</p><p>提案されたストレージ プラットフォームは、書き込み操作のレイテンシと全体的なスループットの両方についてサービス レベル アグリーメント (SLA) を保証する必要があります。</p><p>推奨事項には何を含めるべきですか。</p>",
+      "promptText": "操作記録を維持するミッションクリティカルなアプリケーション用のストレージ ソリューションを推奨する必要があります。\n提案されたストレージ プラットフォームは、書き込み操作のレイテンシと全体的なスループットの両方についてサービス レベル アグリーメント (SLA) を保証する必要があります。\n推奨事項には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en4-q-040-c1",
+          "label": null,
+          "text": "Azure Data Lake Storage Gen2",
+          "html": "Azure Data Lake Storage Gen2"
+        },
+        {
+          "choiceId": "en4-q-040-c2",
+          "label": null,
+          "text": "Azure Blob Storage",
+          "html": "Azure Blob Storage"
+        },
+        {
+          "choiceId": "en4-q-040-c3",
+          "label": null,
+          "text": "Azure SQL",
+          "html": "Azure SQL"
+        },
+        {
+          "choiceId": "en4-q-040-c4",
+          "label": null,
+          "text": "Azure Cosmos DB",
+          "html": "Azure Cosmos DB"
+        }
+      ],
+      "correctChoiceIds": [
+        "en4-q-040-c4"
+      ],
+      "explanationHtml": "<p>Azure Cosmos DB は正解です。これは、可用性だけでなく、書き込み待機時間、読み取り待機時間、スループット、一貫性についてもサービス レベル アグリーメント (SLA) を提供する選択肢の中で唯一のオプションであるためです。</p><p>Azure Data Lake Storage Gen2 は誤りです。これは、拡張性が高く、ビッグ データ分析用に最適化されている一方で、SLA が提供されていないためです。</p><p>Azure Blob Storage は誤りです。これは、特定の操作のレイテンシやスループットではなく、可用性と耐久性のみを目的とした SLA を提供しているためです。</p><p>Azure SQL は誤りです。なぜなら、Azure は高可用性とパフォーマンス層を提供しますが、書き込みレイテンシーやスループットの SLA を同じレベルで提供していないからです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/introduction\">https://learn.microsoft.com/en-us/azure/cosmos-db/introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-data-lake-storage/2-azure-data-lake-gen2\">https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-data-lake-storage/2-azure-data-lake-gen2</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\">https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql\">https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql</a></p></li></ul>",
+      "explanationText": "Azure Cosmos DB は正解です。これは、可用性だけでなく、書き込み待機時間、読み取り待機時間、スループット、一貫性についてもサービス レベル アグリーメント (SLA) を提供する選択肢の中で唯一のオプションであるためです。\nAzure Data Lake Storage Gen2 は誤りです。これは、拡張性が高く、ビッグ データ分析用に最適化されている一方で、SLA が提供されていないためです。\nAzure Blob Storage は誤りです。これは、特定の操作のレイテンシやスループットではなく、可用性と耐久性のみを目的とした SLA を提供しているためです。\nAzure SQL は誤りです。なぜなら、Azure は高可用性とパフォーマンス層を提供しますが、書き込みレイテンシーやスループットの SLA を同じレベルで提供していないからです。\n参照:\n・https://learn.microsoft.com/en-us/azure/cosmos-db/introduction\n\n・https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-data-lake-storage/2-azure-data-lake-gen2\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

@@ -48,7 +48,7 @@
       "images": [
         "assets/問題集2_files/2023-01-11_08-03-49-2a046917889e77d4c1bf640e2b8651b8.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -81,10 +81,13 @@
         "assets/問題集2_files/2025-05-19_02-51-06-5073e4ae751096a579b848f048533f4c.png",
         "assets/問題集2_files/2023-02-02_02-47-03-bd38db69f3b9b64185db378a97da06d4.png"
       ],
-      "domain": null,
-      "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "domain": "インフラストラクチャソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "jp2-linked-002",
+      "tags": [
+        "linked-question",
+        "boolean"
+      ]
     },
     {
       "questionId": "jp2-q-013",
@@ -114,10 +117,13 @@
         "assets/問題集2_files/2025-05-19_02-51-41-35f1d3c92de7a6188bee52914c5a2855.png",
         "assets/問題集2_files/2023-02-02_02-47-03-bd38db69f3b9b64185db378a97da06d4.png"
       ],
-      "domain": null,
-      "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "domain": "インフラストラクチャソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "jp2-linked-002",
+      "tags": [
+        "linked-question",
+        "boolean"
+      ]
     },
     {
       "questionId": "jp2-q-014",
@@ -147,10 +153,13 @@
         "assets/問題集2_files/2025-05-19_02-52-07-c2022ec7f67993c83deb331aa06068da.png",
         "assets/問題集2_files/2023-02-02_02-47-03-bd38db69f3b9b64185db378a97da06d4.png"
       ],
-      "domain": null,
-      "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "domain": "インフラストラクチャソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "jp2-linked-002",
+      "tags": [
+        "linked-question",
+        "boolean"
+      ]
     },
     {
       "questionId": "jp2-q-015",
@@ -191,7 +200,7 @@
       "images": [
         "assets/問題集2_files/2023-01-24_03-29-18-d5f41fa854794e0603dc4922f7b360ce.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-linked-002",
       "tags": [
@@ -237,7 +246,7 @@
       "images": [
         "assets/問題集2_files/2023-01-24_05-28-47-82515d7ea0f0cf14bef97a0bee13705f.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp2-linked-002",
       "tags": [
@@ -281,7 +290,7 @@
       "explanationHtml": "<p>Kubernetesのクラスタ内のサービスに対する外部アクセス、負荷分散を実装するには、一般的には <a href=\"https://kubernetes.io/docs/concepts/services-networking/ingress/\">Ingress</a> と呼ばれるリソースを作成します。（これはAzure固有の話ではなくKubernetesの仕組みの話です）</p><p><br></p><p>Azure Kubernetes Service（AKS）上にKubernetesをデプロイする場合、Azureのサービスと連携して負荷分散オプションを実装できるようになっており、「Application Gateway イングレス コントローラ（AGIC)」を利用することで、WAF、SSL/TLSオフロード、セッションアフィニティ、URLルーティングなどのApplication Gatewayの機能を使うことができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/application-gateway/ingress-controller-overview\">https://learn.microsoft.com/ja-jp/azure/application-gateway/ingress-controller-overview</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/application-gateway/tutorial-ingress-controller-add-on-existing?toc=https%3A%2F%2Flearn.microsoft.com%2Fja-jp%2Fazure%2Faks%2Ftoc.json&amp;bc=https%3A%2F%2Flearn.microsoft.com%2Fja-jp%2Fazure%2Fbread%2Ftoc.json\">https://learn.microsoft.com/ja-jp/azure/application-gateway/tutorial-ingress-controller-add-on-existing?toc=https%3A%2F%2Flearn.microsoft.com%2Fja-jp%2Fazure%2Faks%2Ftoc.json&amp;bc=https%3A%2F%2Flearn.microsoft.com%2Fja-jp%2Fazure%2Fbread%2Ftoc.json</a></p>",
       "explanationText": "Kubernetesのクラスタ内のサービスに対する外部アクセス、負荷分散を実装するには、一般的には Ingress と呼ばれるリソースを作成します。（これはAzure固有の話ではなくKubernetesの仕組みの話です）\n\nAzure Kubernetes Service（AKS）上にKubernetesをデプロイする場合、Azureのサービスと連携して負荷分散オプションを実装できるようになっており、「Application Gateway イングレス コントローラ（AGIC)」を利用することで、WAF、SSL/TLSオフロード、セッションアフィニティ、URLルーティングなどのApplication Gatewayの機能を使うことができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/application-gateway/ingress-controller-overview\nhttps://learn.microsoft.com/ja-jp/azure/application-gateway/tutorial-ingress-controller-add-on-existing?toc=https%3A%2F%2Flearn.microsoft.com%2Fja-jp%2Fazure%2Faks%2Ftoc.json&bc=https%3A%2F%2Flearn.microsoft.com%2Fja-jp%2Fazure%2Fbread%2Ftoc.json",
       "images": [],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -319,10 +328,12 @@
       "images": [
         "assets/問題集2_files/2023-01-23_05-37-37-755fabad1042308814dc068cf43066f3.png"
       ],
-      "domain": null,
+      "domain": "ビジネス継続性ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-003",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-019",
@@ -357,10 +368,12 @@
       "images": [
         "assets/問題集2_files/2023-01-23_06-18-58-fbd91f42bd8cdcb048fac1ed87064732.png"
       ],
-      "domain": null,
+      "domain": "ビジネス継続性ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-003",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-020",
@@ -396,10 +409,12 @@
         "assets/問題集2_files/2023-01-23_06-39-29-7367e21d04cfb65c497506ced002c171.png",
         "assets/問題集2_files/2023-01-23_06-39-30-6d0f725fa17de1b6cd844ed3a85bec63.png"
       ],
-      "domain": null,
+      "domain": "ビジネス継続性ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-003",
+      "tags": [
+        "linked-question"
+      ]
     }
   ]
 }

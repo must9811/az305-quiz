@@ -1,0 +1,232 @@
+{
+  "setId": "en2-set-006",
+  "title": "英語問題集2 翻訳版 51-55",
+  "sourceHtml": "assets/英語問題集2.html",
+  "questionIds": [
+    "en2-q-051",
+    "en2-q-052",
+    "en2-q-053",
+    "en2-q-054",
+    "en2-q-055"
+  ],
+  "questions": [
+    {
+      "questionId": "en2-q-051",
+      "sourceQuestionNumber": 51,
+      "promptHtml": "<p><strong>Azure Key Vault</strong> を使用して<strong>データ暗号化キー</strong>を保存する複数の<strong>Azure App Service Web アプリ</strong>があります。</p><p>さまざまな部門が、これらの Web アプリのサポートに関連する特定のリクエストを提出しました。</p>\n<img src=\"assets/英語問題集2_files/2026-02-11_12-46-20-742630702498b70442a45faae61ba33f.png\" alt=\"\"loading=\"eager\"><p>各部門の要求に対処するために<strong>最も適切な Azure サービス</strong>を推奨する必要があります。</p><p> <code>品質保証</code> 部門には <strong>Azure サービス</strong>をお勧めしますか。</p>",
+      "promptText": "Azure Key Vault を使用してデータ暗号化キーを保存する複数のAzure App Service Web アプリがあります。\nさまざまな部門が、これらの Web アプリのサポートに関連する特定のリクエストを提出しました。\n\n各部門の要求に対処するために最も適切な Azure サービスを推奨する必要があります。\n 品質保証 部門には Azure サービスをお勧めしますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-051-c1",
+          "label": null,
+          "text": "Microsoft Entra Privileged Identity Management",
+          "html": "<p>Microsoft Entra Privileged Identity Management</p>"
+        },
+        {
+          "choiceId": "en2-q-051-c2",
+          "label": null,
+          "text": "Azure マネージド ID",
+          "html": "Azure マネージド ID"
+        },
+        {
+          "choiceId": "en2-q-051-c3",
+          "label": null,
+          "text": "Microsoft Entra接続",
+          "html": "<p>Microsoft Entra接続</p>"
+        },
+        {
+          "choiceId": "en2-q-051-c4",
+          "label": null,
+          "text": "Microsoft Entra ID Protection",
+          "html": "<p>Microsoft Entra ID Protection</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-051-c1"
+      ],
+      "explanationHtml": "<p>Microsoft Entra Privileged Identity Management (PIM) は、ジャストインタイム (JIT) を有効にするため正解です。Azure リソースへの特権アクセス。</p><p>Azure マネージド ID は、Web アプリや関数などの Azure リソースに資格情報なしで他のサービス (Key Vault など) にアクセスする機能を付与するために使用されるため、不正確です。人間の管理者に、Azure リソースを管理するための一時的なアクセス権は付与されません。</p><p>Microsoft Entra Connect は、オンプレミスの Active Directory ID を Microsoft Entra ID と同期するために使用されるため、不正確です。特権アクセスや期限付きのロールの割り当ては促進されません。</p><p>Microsoft Entra ID Protection は、管理者の付与や管理ではなく、ID ベースのリスク (サインイン リスク、ユーザー リスクなど) の検出と対応に重点を置いているため、不正確です。アクセス。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure\">https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-how-to-activate-role\">https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-how-to-activate-role</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure#what-does-it-do\">https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure#what-does-it-do</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection\">https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection</a></p></li></ul>",
+      "explanationText": "Microsoft Entra Privileged Identity Management (PIM) は、ジャストインタイム (JIT) を有効にするため正解です。Azure リソースへの特権アクセス。\nAzure マネージド ID は、Web アプリや関数などの Azure リソースに資格情報なしで他のサービス (Key Vault など) にアクセスする機能を付与するために使用されるため、不正確です。人間の管理者に、Azure リソースを管理するための一時的なアクセス権は付与されません。\nMicrosoft Entra Connect は、オンプレミスの Active Directory ID を Microsoft Entra ID と同期するために使用されるため、不正確です。特権アクセスや期限付きのロールの割り当ては促進されません。\nMicrosoft Entra ID Protection は、管理者の付与や管理ではなく、ID ベースのリスク (サインイン リスク、ユーザー リスクなど) の検出と対応に重点を置いているため、不正確です。アクセス。\n参照:\n・https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure\n\n・https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-how-to-activate-role\n\n・https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure#what-does-it-do\n\n・https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection",
+      "images": [
+        "assets/英語問題集2_files/2026-02-11_12-46-20-742630702498b70442a45faae61ba33f.png"
+      ],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en2-linked-009",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en2-q-052",
+      "sourceQuestionNumber": 52,
+      "promptHtml": "<p>次の動作を提供する <strong>Azure ポリシー</strong>を設計する必要があります。</p><ul><li><p><strong>新しく作成されたリソース</strong>の場合は、リソースがデプロイされている<strong>リソース グループ</strong>で定義されているものと一致する<strong>タグとタグ値</strong>を自動的に適用します。</p></li><li><p><strong>既存のリソース</strong>の場合は、評価します。 <strong>タグとタグ値</strong>が<strong>含まれるリソース グループ</strong>に割り当てられたタグと値と一致しているかどうか。</p></li><li><p>リソースが<strong>非準拠</strong>であることが判明した場合は、<strong>不足しているタグと値</strong>を追加する<strong>修復タスク</strong>を自動的に開始します。</p></li></ul><p>ポリシーの実装は<strong>最小の原則に従う必要があります。 </p><p>これらの要件に基づいて、どの<strong>Azure Policy 効果</strong>を使用する必要がありますか。</p>",
+      "promptText": "次の動作を提供する Azure ポリシーを設計する必要があります。\n・新しく作成されたリソースの場合は、リソースがデプロイされているリソース グループで定義されているものと一致するタグとタグ値を自動的に適用します。\n\n・既存のリソースの場合は、評価します。 タグとタグ値が含まれるリソース グループに割り当てられたタグと値と一致しているかどうか。\n\n・リソースが非準拠であることが判明した場合は、不足しているタグと値を追加する修復タスクを自動的に開始します。\n\nポリシーの実装は最小の原則に従う必要があります。\nこれらの要件に基づいて、どのAzure Policy 効果を使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-052-c1",
+          "label": null,
+          "text": "追加",
+          "html": "追加"
+        },
+        {
+          "choiceId": "en2-q-052-c2",
+          "label": null,
+          "text": "EnforceOPAConstraint",
+          "html": "EnforceOPAConstraint"
+        },
+        {
+          "choiceId": "en2-q-052-c3",
+          "label": null,
+          "text": "EnforceRegoPolicy",
+          "html": "EnforceRegoPolicy"
+        },
+        {
+          "choiceId": "en2-q-052-c4",
+          "label": null,
+          "text": "変更",
+          "html": "変更"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-052-c4"
+      ],
+      "explanationHtml": "<p>変更 は正解です。これは、Azure Policy がデプロイ プロセス中に要求またはリソースを変更できるようにするためです。</p><p>追加は、リソースの作成中に追加の設定 (タグなど) を追加するだけであり、既存の設定やリソースを変更しないため、不正解です。また、デプロイ後に非準拠のリソースを修復することもできません。</p><p>EnforceOPAConstraint は、Open Policy Agent (OPA) を使用する Azure Kubernetes Service (AKS) および Gatekeeper ポリシーに関連しているため、不正確です。これは、Azure Policy の一般的なリソースのタグ付けには使用されません。</p><p>EnforceRegoPolicy は、上記と同じ理由で不正確です。これは、一般的な Azure リソースのタグ付けや外部でのポリシーの適用ではなく、AKS 環境内の Rego ベースのポリシーに関係しています。</p><p>リファレンス:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effects\">https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effects</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources\">https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources</a></p></li></ul>",
+      "explanationText": "変更 は正解です。これは、Azure Policy がデプロイ プロセス中に要求またはリソースを変更できるようにするためです。\n追加は、リソースの作成中に追加の設定 (タグなど) を追加するだけであり、既存の設定やリソースを変更しないため、不正解です。また、デプロイ後に非準拠のリソースを修復することもできません。\nEnforceOPAConstraint は、Open Policy Agent (OPA) を使用する Azure Kubernetes Service (AKS) および Gatekeeper ポリシーに関連しているため、不正確です。これは、Azure Policy の一般的なリソースのタグ付けには使用されません。\nEnforceRegoPolicy は、上記と同じ理由で不正確です。これは、一般的な Azure リソースのタグ付けや外部でのポリシーの適用ではなく、AKS 環境内の Rego ベースのポリシーに関係しています。\nリファレンス:\n・https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effects\n\n・https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en2-linked-010",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en2-q-053",
+      "sourceQuestionNumber": 53,
+      "promptHtml": "<p>次の動作を提供する <strong>Azure ポリシー</strong>を設計する必要があります。</p><ul><li><p><strong>新しく作成されたリソース</strong>の場合は、リソースがデプロイされている<strong>リソース グループ</strong>で定義されているものと一致する<strong>タグとタグ値</strong>を自動的に適用します。</p></li><li><p><strong>既存のリソース</strong>の場合は、評価します。 <strong>タグとタグ値</strong>が<strong>含まれるリソース グループ</strong>に割り当てられたタグと値と一致しているかどうか。</p></li><li><p>リソースが<strong>非準拠</strong>であることが判明した場合は、<strong>不足しているタグと値</strong>を追加する<strong>修復タスク</strong>を自動的に開始します。</p></li></ul><p>ポリシーの実装は<strong>最小の原則に従う必要があります。 </p><p>これらの要件に基づいて、修復タスクにはどの<strong> Microsoft Entra オブジェクトとロールベースのアクセス制御 RBAC ロールを使用する必要がありますか。</strong></p>",
+      "promptText": "次の動作を提供する Azure ポリシーを設計する必要があります。\n・新しく作成されたリソースの場合は、リソースがデプロイされているリソース グループで定義されているものと一致するタグとタグ値を自動的に適用します。\n\n・既存のリソースの場合は、評価します。 タグとタグ値が含まれるリソース グループに割り当てられたタグと値と一致しているかどうか。\n\n・リソースが非準拠であることが判明した場合は、不足しているタグと値を追加する修復タスクを自動的に開始します。\n\nポリシーの実装は最小の原則に従う必要があります。\nこれらの要件に基づいて、修復タスクにはどの Microsoft Entra オブジェクトとロールベースのアクセス制御 RBAC ロールを使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-053-c1",
+          "label": null,
+          "text": "共同作成者ロールを持つマネージド ID",
+          "html": "共同作成者ロールを持つマネージド ID"
+        },
+        {
+          "choiceId": "en2-q-053-c2",
+          "label": null,
+          "text": "ユーザー アクセス管理者ロールを持つマネージド ID",
+          "html": "ユーザー アクセス管理者ロールを持つマネージド ID"
+        },
+        {
+          "choiceId": "en2-q-053-c3",
+          "label": null,
+          "text": "共同作成者ロールを持つサービス プリンシパル",
+          "html": "共同作成者ロールを持つサービス プリンシパル"
+        },
+        {
+          "choiceId": "en2-q-053-c4",
+          "label": null,
+          "text": "ユーザー アクセス管理者ロールを持つサービス プリンシパル",
+          "html": "ユーザー アクセス管理者ロールを持つサービス プリンシパル"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-053-c1"
+      ],
+      "explanationHtml": "<p>共同作成者ロールを持つマネージド ID が正解です。これは、Azure Policy 修復タスクにはリソースを変更するためのアクセス許可が必要であるためです。</p><p>ユーザー アクセス管理者ロールを持つマネージド ID は誤りです。これは、ユーザー アクセス管理者ロールは、リソース プロパティを変更するためではなく、ロールの割り当てを管理するために使用されるためです。</p><p>共同作成者ロールを持つサービス プリンシパル は誤りです。これは、サービス プリンシパルには十分なアクセス許可がありますが、手動でのシークレットまたは証明書の管理が必要なため、マネージド ID よりも安全性が低く、管理が難しくなります。</p><p>ユーザー アクセス管理者ロールを持つサービス プリンシパルは、同じ理由で不正確です。つまり、マネージド ID に比べて権限が過剰で、安全に管理するのがより複雑です。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources\">https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/concepts/assignment-structure\">https://learn.microsoft.com/en-us/azure/governance/policy/concepts/assignment-structure</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview\">https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview</a></p></li></ul>",
+      "explanationText": "正解は共同作成者ロールを持つマネージド ID です。これは、Azure Policy 修復タスクにはリソースを変更するためのアクセス許可が必要であるためです。\nユーザー アクセス管理者ロールを持つマネージド ID は誤りです。これは、ユーザー アクセス管理者ロールは、リソース プロパティを変更するためではなく、ロールの割り当てを管理するために使用されるためです。\n共同作成者ロールを持つサービス プリンシパル は誤りです。これは、サービス プリンシパルには十分なアクセス許可がありますが、手動でのシークレットまたは証明書の管理が必要なため、マネージド ID よりも安全性が低く、管理が難しくなります。\nユーザー アクセス管理者ロールを持つサービス プリンシパルは、同じ理由で不正確です。つまり、マネージド ID に比べて権限が過剰で、安全に管理するのがより複雑です。\n参照:\n・https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources\n\n・https://learn.microsoft.com/en-us/azure/governance/policy/concepts/assignment-structure\n\n・https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en2-linked-010",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en2-q-054",
+      "sourceQuestionNumber": 54,
+      "promptHtml": "<p>あなたは、<strong>Azure Kubernetes Service (AKS)</strong> クラスター上の<strong>コンテナー</strong>で実行される <strong>App1</strong> という名前のアプリケーションをデプロイすることを計画しています。 AKS クラスターは<strong>4 つの Azure リージョン</strong>にデプロイされます。</p><p>AKS クラスターをホストする<strong>すべての Azure リージョン</strong>に<strong>更新されたコンテナー イメージが自動的にレプリケート</strong>されるようにする<strong>ストレージ ソリューション</strong>を推奨する必要があります。</p><p>この要件を満たすにはどの<strong>ストレージ ソリューション</strong>を推奨しますか。</p>",
+      "promptText": "あなたは、Azure Kubernetes Service (AKS) クラスター上のコンテナーで実行される App1 という名前のアプリケーションをデプロイすることを計画しています。 AKS クラスターは4 つの Azure リージョンにデプロイされます。\nAKS クラスターをホストするすべての Azure リージョンに更新されたコンテナー イメージが自動的にレプリケートされるようにするストレージ ソリューションを推奨する必要があります。\nこの要件を満たすにはどのストレージ ソリューションを推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-054-c1",
+          "label": null,
+          "text": "Premium SKU Azure Container Registry",
+          "html": "Premium SKU Azure Container Registry"
+        },
+        {
+          "choiceId": "en2-q-054-c2",
+          "label": null,
+          "text": "Azure Cache for Redis",
+          "html": "Azure Cache for Redis"
+        },
+        {
+          "choiceId": "en2-q-054-c3",
+          "label": null,
+          "text": "地理冗長ストレージ (GRS) アカウント",
+          "html": "地理冗長ストレージ (GRS) アカウント"
+        },
+        {
+          "choiceId": "en2-q-054-c4",
+          "label": null,
+          "text": "Azure Content Delivery Network (CDN)",
+          "html": "Azure Content Delivery Network (CDN)"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-054-c1"
+      ],
+      "explanationHtml": "<p>Premium SKU Azure Container Registry (ACR) は、geo レプリケーションをサポートしているため正解です。これにより、コンテナー イメージを複数の Azure リージョン間で自動的にレプリケートできます。</p><p>Azure Cache for Redis は、アプリケーション データのキャッシュに使用されるメモリ内データ ストアであるため不正解です。コンテナ イメージの保存やレプリケーションは行わず、コンテナのデプロイとは無関係です。</p><p>地理冗長ストレージ (GRS) アカウント は誤りです。GRS は災害復旧の目的で BLOB とファイルのデータをリージョン間でレプリケートするためです。</p><p>Azure Content Delivery Network (CDN) は、静的コンテンツ (画像、スクリプト、ビデオなど) を HTTP/HTTPS 経由でエンド ユーザーに配信するように設計されているため、不正確です。これは、コンテナー イメージを AKS クラスターに配布またはレプリケートするためには使用されません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/container-registry/container-registry-geo-replication\">https://learn.microsoft.com/en-us/azure/container-registry/container-registry-geo-replication</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/container-registry/container-registry-skus\">https://learn.microsoft.com/en-us/azure/container-registry/container-registry-skus</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/aks/cluster-container-registry-integration\">https://learn.microsoft.com/en-us/azure/aks/cluster-container-registry-integration</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-overview\">https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-overview</a></p></li></ul>",
+      "explanationText": "Premium SKU Azure Container Registry (ACR) は、geo レプリケーションをサポートしているため正解です。これにより、コンテナー イメージを複数の Azure リージョン間で自動的にレプリケートできます。\nAzure Cache for Redis は、アプリケーション データのキャッシュに使用されるメモリ内データ ストアであるため不正解です。コンテナ イメージの保存やレプリケーションは行わず、コンテナのデプロイとは無関係です。\n地理冗長ストレージ (GRS) アカウント は誤りです。GRS は災害復旧の目的で BLOB とファイルのデータをリージョン間でレプリケートするためです。\nAzure Content Delivery Network (CDN) は、静的コンテンツ (画像、スクリプト、ビデオなど) を HTTP/HTTPS 経由でエンド ユーザーに配信するように設計されているため、不正確です。これは、コンテナー イメージを AKS クラスターに配布またはレプリケートするためには使用されません。\n参照:\n・https://learn.microsoft.com/en-us/azure/container-registry/container-registry-geo-replication\n\n・https://learn.microsoft.com/en-us/azure/container-registry/container-registry-skus\n\n・https://learn.microsoft.com/en-us/azure/aks/cluster-container-registry-integration\n\n・https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en2-q-055",
+      "sourceQuestionNumber": 55,
+      "promptHtml": "<p>あなたは、<strong>1,000 台の仮想マシン</strong>と<strong>Workspace1</strong> という名前の<strong>Log Analytics ワークスペース</strong>を含む<strong>Azure サブスクリプション</strong>を持っています。</p><p>仮想マシンから<strong>カスタム JSON ログ データ</strong>を収集し、このデータを内部の<strong>カスタム テーブル</strong>に保存する予定です。 Workspace1.</p><p><strong>ログ取り込み API</strong> を使用してログ データが取り込まれていることを確認する必要があります。さらに、ソリューションではインターネットから Workspace1 へのアクセスを防ぐ必要があります。</p><p>これらの要件を満たすためにソリューションには何を含める必要がありますか。</p>",
+      "promptText": "あなたは、1,000 台の仮想マシンとWorkspace1 という名前のLog Analytics ワークスペースを含むAzure サブスクリプションを持っています。\n仮想マシンからカスタム JSON ログ データを収集し、このデータを内部のカスタム テーブルに保存する予定です。 Workspace1.\nログ取り込み API を使用してログ データが取り込まれていることを確認する必要があります。さらに、ソリューションではインターネットから Workspace1 へのアクセスを防ぐ必要があります。\nこれらの要件を満たすためにソリューションには何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-055-c1",
+          "label": null,
+          "text": "Workspace1 のリンクされたストレージ アカウント",
+          "html": "Workspace1 のリンクされたストレージ アカウント"
+        },
+        {
+          "choiceId": "en2-q-055-c2",
+          "label": null,
+          "text": "Azure Peering Service 接続",
+          "html": "Azure Peering Service 接続"
+        },
+        {
+          "choiceId": "en2-q-055-c3",
+          "label": null,
+          "text": "サービスコネクタ",
+          "html": "サービスコネクタ"
+        },
+        {
+          "choiceId": "en2-q-055-c4",
+          "label": null,
+          "text": "Azure Monitor プライベート リンク スコープ (AMPLS)",
+          "html": "Azure Monitor プライベート リンク スコープ (AMPLS)"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-055-c4"
+      ],
+      "explanationHtml": "<p>Azure Monitor プライベート リンク スコープ (AMPLS) は、Azure Monitor (および Log Analytics へのプライベートで安全なログの取り込みを可能にするため) が正解です。Workspace1 などのワークスペースをプライベート リンク経由でアクセスできるため、インターネット アクセスの必要がなくなります。</p><p>リンクされたストレージ アカウント Workspace1 は、大規模なログ データ (診断設定など) の保存に使用されるため不正確ですが、実際にはそうではありません。ワークスペースへの取り込みやアクセス制限を制御しません。</p><p>Azure Peering Service 接続は、Microsoft サービスと ISP 経由のオンプレミス ネットワーク間の接続を最適化することを目的としているため、不正確です。 Azure Monitor または Log Analytics ワークスペースへのプライベート アクセスは提供されません。</p><p>サービス コネクタ は誤りです。これは、サービス間接続 (アプリとデータベース間など) を簡素化するために使用されており、ログの取り込みを保護したり、Log Analytics ワークスペースをサーバーから分離したりするために使用されるわけではありません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security</a></p></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-ingestion-api-overview\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-ingestion-api-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security\">https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security</a></p></li></ul>",
+      "explanationText": "正解はAzure Monitor プライベート リンク スコープ (AMPLS) は、Azure Monitor (および Log Analytics へのプライベートで安全なログの取り込みを可能にするため) です。Workspace1 などのワークスペースをプライベート リンク経由でアクセスできるため、インターネット アクセスの必要がなくなります。\nリンクされたストレージ アカウント Workspace1 は、大規模なログ データ (診断設定など) の保存に使用されるため不正確ですが、実際にはそうではありません。ワークスペースへの取り込みやアクセス制限を制御しません。\nAzure Peering Service 接続は、Microsoft サービスと ISP 経由のオンプレミス ネットワーク間の接続を最適化することを目的としているため、不正確です。 Azure Monitor または Log Analytics ワークスペースへのプライベート アクセスは提供されません。\nサービス コネクタ は誤りです。これは、サービス間接続 (アプリとデータベース間など) を簡素化するために使用されており、ログの取り込みを保護したり、Log Analytics ワークスペースをサーバーから分離したりするために使用されるわけではありません。\n参照:\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-ingestion-api-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

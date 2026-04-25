@@ -1,0 +1,234 @@
+{
+  "setId": "en1-set-006",
+  "title": "英語問題集1 翻訳版 51-55",
+  "sourceHtml": "assets/英語問題集1.html",
+  "questionIds": [
+    "en1-q-051",
+    "en1-q-052",
+    "en1-q-053",
+    "en1-q-054",
+    "en1-q-055"
+  ],
+  "questions": [
+    {
+      "questionId": "en1-q-051",
+      "sourceQuestionNumber": 51,
+      "promptHtml": "<p><strong>以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザーで開いたままにしてください。</strong></p><p><strong><em>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing</em></strong></p><p><br></p><p><strong>BlueRock Inc. のアプリケーション最新化戦略</strong>の一環として、App1 はオンプレミス環境から Azure に移行されています。 App1 は、BlueRock Inc. のケース スタディで定義された<strong>復元力と可用性の要件</strong>に従って、インフラストラクチャの障害やメンテナンス イベントの間も利用可能な状態を維持する必要がある<strong>ビジネス クリティカルなワークロード</strong>です。</p><p>これらの要件を満たすために、Azure の設計では、単一障害点を最小限に抑えながら、障害が分離されたインフラストラクチャ コンポーネント全体にワークロードを分散し、スケーラブルなコンピューティング リソースをサポートする必要があります。</p><p>どの構成にする必要がありますか。 App1 の<strong>高可用性</strong>を提供するために Azure 設計に含めますか。</p>",
+      "promptText": "以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザーで開いたままにしてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing\n\nBlueRock Inc. のアプリケーション最新化戦略の一環として、App1 はオンプレミス環境から Azure に移行されています。 App1 は、BlueRock Inc. のケース スタディで定義された復元力と可用性の要件に従って、インフラストラクチャの障害やメンテナンス イベントの間も利用可能な状態を維持する必要があるビジネス クリティカルなワークロードです。\nこれらの要件を満たすために、Azure の設計では、単一障害点を最小限に抑えながら、障害が分離されたインフラストラクチャ コンポーネント全体にワークロードを分散し、スケーラブルなコンピューティング リソースをサポートする必要があります。\nどの構成にする必要がありますか。 App1 の高可用性を提供するために Azure 設計に含めますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-051-c1",
+          "label": null,
+          "text": "ホスト グループの数: 1\n仮想マシン スケール セットの数: 0",
+          "html": "<p><strong>ホスト グループの数</strong>: <code>1</code> </p><p><strong>仮想マシン スケール セットの数</strong>: <code>0</code> </p>"
+        },
+        {
+          "choiceId": "en1-q-051-c2",
+          "label": null,
+          "text": "ホスト グループの数: 2\n仮想マシン スケール セットの数: 1",
+          "html": "<p><strong>ホスト グループの数</strong>: <code>2</code> </p><p><strong>仮想マシン スケール セットの数</strong>: <code>1</code><strong> </strong></p>"
+        },
+        {
+          "choiceId": "en1-q-051-c3",
+          "label": null,
+          "text": "ホスト グループの数: 3\n仮想マシン スケール セットの数: 3",
+          "html": "<p><strong>ホスト グループの数</strong>: <code>3</code> </p><p><strong>仮想マシン スケール セットの数</strong>: <code>3</code> </p>"
+        },
+        {
+          "choiceId": "en1-q-051-c4",
+          "label": null,
+          "text": "ホスト グループの数: 6\n仮想マシン スケール セットの数: 0",
+          "html": "<p><strong>ホスト グループの数</strong>: <code>6</code> </p><p><strong>仮想マシン スケール セットの数</strong>: <code>0</code> </p>"
+        },
+        {
+          "choiceId": "en1-q-051-c5",
+          "label": null,
+          "text": "ホスト グループの数: 6\n仮想マシン スケール セットの数: 0",
+          "html": "<p><strong>ホスト グループの数</strong>: <code>6</code> </p><p><strong>仮想マシン スケール セットの数</strong>: <code>0</code> </p>"
+        },
+        {
+          "choiceId": "en1-q-051-c6",
+          "label": null,
+          "text": "ホスト グループの数: 1\n仮想マシン スケール セットの数: 1",
+          "html": "<p><strong>ホスト グループの数</strong>: <code>1</code> </p><p><strong>仮想マシン スケール セットの数</strong>: <code>1</code> </p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-051-c3"
+      ],
+      "explanationHtml": "<p>ホスト グループの数: 3</p><p>仮想マシン スケール セットの数: 3 は正解です。ケース スタディで説明されているように、App1 の復元要件には次のものが含まれます。</p><ul><li><p>アプリは、可用性ゾーンをサポートする Azure リージョンでホストされる必要があります。</p></li><li><p>アプリは、可用性ゾーンをサポートする Azure リージョンでホストされる必要があります。 2 つの可用性ゾーンに障害が発生した場合</p></li><li><p>自動スケーリングをサポートする Azure 仮想マシンでホストする必要があります</p></li><li><p>Azure 専用ホスト (ホスト グループの下にグループ化されている) にデプロイする必要があります</p></li></ul><p>これらの要件を満たすには:</p><ul><li><p>高可用性とゾーンレベルの障害を確保するには、各可用性ゾーンに 1 つずつ、合計 3 つのホスト グループが必要です。分離</p></li><li><p>ゾーン間の自動スケーリングと復元力を提供するには、3 つの仮想マシン スケール セット (VMSS) が必要で、それぞれが異なるゾーンにデプロイされ、専用のホスト グループにマップされます。</p></li></ul><p>このアーキテクチャにより、App1 は最大 2 つの可用性ゾーンの障害に耐えて利用可能な状態を維持でき、復元力と高可用性の両方を満たします。</p><p>参考リンク:</p><ul><li><p><a href=\"https://docs.microsoft.com/en-us/azure/virtual-machines/dedicated-hosts\">https://docs.microsoft.com/en-us/azure/virtual-machines/dedicated-hosts</a></p></li><li><p><a href=\"https://docs.microsoft.com/en-us/azure/virtual-machines/dedicated-hosts-how-to?tabs=portal%2Cportal2\">https://docs.microsoft.com/en-us/azure/virtual-machines/dedicated-hosts-how-to?tabs=portal%2Cportal2</a></p></li><li><p><a href=\"https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones\">https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones</a></p></li></ul>",
+      "explanationText": "ホスト グループの数: 3\n仮想マシン スケール セットの数: 3 は正解です。ケース スタディで説明されているように、App1 の復元要件には次のものが含まれます。\n・アプリは、可用性ゾーンをサポートする Azure リージョンでホストされる必要があります。\n\n・アプリは、可用性ゾーンをサポートする Azure リージョンでホストされる必要があります。 2 つの可用性ゾーンに障害が発生した場合\n\n・自動スケーリングをサポートする Azure 仮想マシンでホストする必要があります\n\n・Azure 専用ホスト (ホスト グループの下にグループ化されている) にデプロイする必要があります\n\nこれらの要件を満たすには:\n・高可用性とゾーンレベルの障害を確保するには、各可用性ゾーンに 1 つずつ、合計 3 つのホスト グループが必要です。分離\n\n・ゾーン間の自動スケーリングと復元力を提供するには、3 つの仮想マシン スケール セット (VMSS) が必要で、それぞれが異なるゾーンにデプロイされ、専用のホスト グループにマップされます。\n\nこのアーキテクチャにより、App1 は最大 2 つの可用性ゾーンの障害に耐えて利用可能な状態を維持でき、復元力と高可用性の両方を満たします。\n参考リンク:\n・https://docs.microsoft.com/en-us/azure/virtual-machines/dedicated-hosts\n\n・https://docs.microsoft.com/en-us/azure/virtual-machines/dedicated-hosts-how-to?tabs=portal%2Cportal2\n\n・https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-052",
+      "sourceQuestionNumber": 52,
+      "promptHtml": "<p><strong>以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><strong><em>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing</em></strong></p><p><br></p><p><strong>BlueRock Inc. のクラウド移行イニシアチブ</strong>の一環として、App1 はオンプレミス環境から Azure に移行されます。ケース スタディで説明されているターゲット アーキテクチャでは、App1 は Azure コンピューティング リソース上で実行され、コードや構成ファイルに資格情報を保存せずに他の Azure サービスに安全にアクセスする必要があります。</p><p><strong>BlueRock Inc. の認証および認可要件</strong>に準拠するには、ソリューションは<strong>マネージド ID</strong> を使用し、トークン取得に関する Azure のベスト プラクティスに従う必要があります。</p><p>どのタイプのエンドポイントを使用する必要がありますか。 App1 Azure で<strong>アクセス トークン</strong>を安全に取得するには使用しますか。</p>",
+      "promptText": "以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing\n\nBlueRock Inc. のクラウド移行イニシアチブの一環として、App1 はオンプレミス環境から Azure に移行されます。ケース スタディで説明されているターゲット アーキテクチャでは、App1 は Azure コンピューティング リソース上で実行され、コードや構成ファイルに資格情報を保存せずに他の Azure サービスに安全にアクセスする必要があります。\nBlueRock Inc. の認証および認可要件に準拠するには、ソリューションはマネージド ID を使用し、トークン取得に関する Azure のベスト プラクティスに従う必要があります。\nどのタイプのエンドポイントを使用する必要がありますか。 App1 Azure でアクセス トークンを安全に取得するには使用しますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-052-c1",
+          "label": null,
+          "text": "Microsoft Entra",
+          "html": "<p>Microsoft Entra</p>"
+        },
+        {
+          "choiceId": "en1-q-052-c2",
+          "label": null,
+          "text": "Azure Instance Metadata Service (IMDS)",
+          "html": "<p>Azure Instance Metadata Service (IMDS)</p>"
+        },
+        {
+          "choiceId": "en1-q-052-c3",
+          "label": null,
+          "text": "Azure サービス管理",
+          "html": "<p>Azure サービス管理</p>"
+        },
+        {
+          "choiceId": "en1-q-052-c4",
+          "label": null,
+          "text": "Microsoft ID プラットフォーム",
+          "html": "<p>Microsoft ID プラットフォーム</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-052-c2"
+      ],
+      "explanationHtml": "<p>Azure Instance Metadata Service (IMDS) は、IMDS がマネージド ID のアクセス トークンを取得するために Azure 仮想マシンによって使用される実際のエンドポイントであるため正解です。VM がシステム割り当てまたはユーザー割り当てのマネージド ID で構成されている場合、VM 上で実行されているアプリケーションは IMDS エンドポイントを呼び出してアクセス トークンを要求します。</p><p>これはケース スタディの要件と完全に一致しています。</p><ul><li><p>「Azure のリソースにアクセスするには、App1 はアプリをホストする仮想マシンのマネージド ID を使用する必要があります。」</p></li></ul><p>Microsoft Entra は、VM 上のアプリがアクセス トークンを取得するために使用するエンドポイントではなく、ディレクトリ サービスと ID プロバイダーを表すため、不正確です。 Microsoft Entra が ID を検証し、バックグラウンドでトークンを発行している間、実際のリクエストは IMDS に対して行われます。</p><p>Azure Service Management は、クラシック Azure リソースの管理に使用されるレガシー API を参照しているため、不正確です。これは非推奨であり、マネージド ID やトークン リクエストの最新の認証フローには含まれていません。</p><p>Microsoft ID プラットフォーム は、Microsoft エコシステムの OAuth 2.0 および OpenID Connect 認証の背後にある基盤プラットフォームであるにもかかわらず、主にアプリが対話形式で、または Entra ID に対して直接認証するときに (Web アプリやクライアント アプリなどで) 使用されるため、この特定のシナリオでは 不正確です。マネージド ID を使用する VM は、Microsoft ID プラットフォーム エンドポイントを直接呼び出すのではなく、常に IMDS を通じてトークンを取得します。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/how-to-use-vm-token\">https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/how-to-use-vm-token</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-machines/windows/instance-metadata-service\">https://learn.microsoft.com/en-us/azure/virtual-machines/windows/instance-metadata-service</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview\">https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity-platform/msal-authentication-flows#token-request-endpoint\">https://learn.microsoft.com/en-us/entra/identity-platform/msal-authentication-flows#token-request-endpoint</a></p></li></ul>",
+      "explanationText": "Azure Instance Metadata Service (IMDS) は、IMDS がマネージド ID のアクセス トークンを取得するために Azure 仮想マシンによって使用される実際のエンドポイントであるため正解です。VM がシステム割り当てまたはユーザー割り当てのマネージド ID で構成されている場合、VM 上で実行されているアプリケーションは IMDS エンドポイントを呼び出してアクセス トークンを要求します。\nこれはケース スタディの要件と完全に一致しています。\n・「Azure のリソースにアクセスするには、App1 はアプリをホストする仮想マシンのマネージド ID を使用する必要があります。」\n\nMicrosoft Entra は、VM 上のアプリがアクセス トークンを取得するために使用するエンドポイントではなく、ディレクトリ サービスと ID プロバイダーを表すため、不正確です。 Microsoft Entra が ID を検証し、バックグラウンドでトークンを発行している間、実際のリクエストは IMDS に対して行われます。\nAzure Service Management は、クラシック Azure リソースの管理に使用されるレガシー API を参照しているため、不正確です。これは非推奨であり、マネージド ID やトークン リクエストの最新の認証フローには含まれていません。\nMicrosoft ID プラットフォーム は、Microsoft エコシステムの OAuth 2.0 および OpenID Connect 認証の背後にある基盤プラットフォームであるにもかかわらず、主にアプリが対話形式で、または Entra ID に対して直接認証するときに (Web アプリやクライアント アプリなどで) 使用されるため、この特定のシナリオでは 不正確です。マネージド ID を使用する VM は、Microsoft ID プラットフォーム エンドポイントを直接呼び出すのではなく、常に IMDS を通じてトークンを取得します。\n参照:\n・https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/how-to-use-vm-token\n\n・https://learn.microsoft.com/en-us/azure/virtual-machines/windows/instance-metadata-service\n\n・https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview\n\n・https://learn.microsoft.com/en-us/entra/identity-platform/msal-authentication-flows#token-request-endpoint",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-053",
+      "sourceQuestionNumber": 53,
+      "promptHtml": "<p><strong>以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><strong><em>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing</em></strong></p><p><br></p><p><strong>BlueRock Inc. の移行戦略</strong>の一環として、App1 はオンプレミス環境から Azure に移行されます。ケーススタディによると、App1 は機密ビジネス データを処理するため、移行後は BlueRock の<strong>セキュリティと規制コンプライアンスの要件</strong>に準拠する必要があります。</p><p>Azure で App1 が使用するデータ ストレージが BlueRock Inc. の<strong>セキュリティとコンプライアンスの要件</strong>を確実に満たすようにするにはどうすればよいですか。</p>",
+      "promptText": "以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing\n\nBlueRock Inc. の移行戦略の一環として、App1 はオンプレミス環境から Azure に移行されます。ケーススタディによると、App1 は機密ビジネス データを処理するため、移行後は BlueRock のセキュリティと規制コンプライアンスの要件に準拠する必要があります。\nAzure で App1 が使用するデータ ストレージが BlueRock Inc. のセキュリティとコンプライアンスの要件を確実に満たすようにするにはどうすればよいですか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-053-c1",
+          "label": null,
+          "text": "Azure リソース ロックを実装します。",
+          "html": "<p>Azure リソース ロックを実装します。</p>"
+        },
+        {
+          "choiceId": "en1-q-053-c2",
+          "label": null,
+          "text": "BLOB サービスのアクセス レベルを変更します。",
+          "html": "<p>BLOB サービスのアクセス レベルを変更します。</p>"
+        },
+        {
+          "choiceId": "en1-q-053-c3",
+          "label": null,
+          "text": "BLOB サービスのアクセス ポリシーを作成します。",
+          "html": "<p>BLOB サービスのアクセス ポリシーを作成します。</p>"
+        },
+        {
+          "choiceId": "en1-q-053-c4",
+          "label": null,
+          "text": "Azure を作成するRBAC の割り当て。",
+          "html": "<p>Azure を作成するRBAC の割り当て。</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-053-c3"
+      ],
+      "explanationHtml": "<p>BLOB サービスのアクセス ポリシーを作成する が正解です。ケーススタディでは次のセキュリティとコンプライアンスの要件が記載されているためです。</p><p>「App1 を Azure に移行したら、次のことが必要です。新しいデータをアプリに書き込むことができ、新規および既存のデータの変更が 3 年間禁止されることを保証します。</p><p>この要件を満たすには、時間ベースの保持または訴訟ホールドを使用してコンテナー レベルの不変アクセス ポリシーを作成し、不変ストレージを構成する必要があります。これは、WORM (write-once, read-Many) 動作を強制できる不変の BLOB ストレージ ポリシー (アクセス ポリシー) によって行われ、保持期間中はデータの書き込みは可能ですが、変更や削除はできません。</p><p>Azure リソース ロックの実装 は誤りです。リソース ロック (読み取り専用/削除) は、内部のデータ (個人など) ではなく、リソース自体 (ストレージ アカウントやコンテナーなど) の変更や削除を妨げないためです。</p><p>BLOB サービスのアクセス レベルを変更するは、匿名アクセス許可 (プライベート、BLOB、コンテナーなど) を制御しますが、不変性や WORM 準拠を強制しないため不正確です。</p><p>Azure を作成するRBAC の割り当て は誤りです。RBAC はアクセス権を持つユーザーとそのユーザーが実行できるアクションを制御しますが、アクセスが許可された後のデータの保持を強制したり、データの変更を防止したりするものではないためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data-access?tabs=portal\">https://learn.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data-access?tabs=portal</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/role-based-access-control/overview\">https://learn.microsoft.com/en-us/azure/role-based-access-control/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources\">https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources</a></p></li></ul>",
+      "explanationText": "正解はBLOB サービスのアクセス ポリシーを作成する です。ケーススタディでは次のセキュリティとコンプライアンスの要件が記載されているためです。\n「App1 を Azure に移行したら、次のことが必要です。新しいデータをアプリに書き込むことができ、新規および既存のデータの変更が 3 年間禁止されることを保証します。\nこの要件を満たすには、時間ベースの保持または訴訟ホールドを使用してコンテナー レベルの不変アクセス ポリシーを作成し、不変ストレージを構成する必要があります。これは、WORM (write-once, read-Many) 動作を強制できる不変の BLOB ストレージ ポリシー (アクセス ポリシー) によって行われ、保持期間中はデータの書き込みは可能ですが、変更や削除はできません。\nAzure リソース ロックの実装 は誤りです。リソース ロック (読み取り専用/削除) は、内部のデータ (個人など) ではなく、リソース自体 (ストレージ アカウントやコンテナーなど) の変更や削除を妨げないためです。\nBLOB サービスのアクセス レベルを変更するは、匿名アクセス許可 (プライベート、BLOB、コンテナーなど) を制御しますが、不変性や WORM 準拠を強制しないため不正確です。\nAzure を作成するRBAC の割り当て は誤りです。RBAC はアクセス権を持つユーザーとそのユーザーが実行できるアクションを制御しますが、アクセスが許可された後のデータの保持を強制したり、データの変更を防止したりするものではないためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data-access?tabs=portal\n\n・https://learn.microsoft.com/en-us/azure/role-based-access-control/overview\n\n・https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-054",
+      "sourceQuestionNumber": 54,
+      "promptHtml": "<p><strong>以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><strong><em>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing</em></strong></p><p><br></p><p><strong>BlueRock Inc. のクラウド導入イニシアチブ</strong>の一環として、App1 はオンプレミス環境から Azure に移行される予定です。このケース スタディでは、組織の<strong>セキュリティとコンプライアンス要件</strong>を遵守しながら移行を確実に BlueRock の財務管理に合わせるためにはコスト ガバナンスと正確な予算編成が重要であることが強調されています。</p><p>App1 のターゲット Azure アーキテクチャを最終決定する前に、関係者が予算と予算を承認できるように、Azure での App1 の実行に関連する<strong>継続的なコストを見積もる</strong>必要があります。運用経費を計画します。</p><p>Azure</strong> の App1 の<code>コストを見積もる</code><strong>には、どの Azure ツールまたはサービスを使用する必要がありますか。</p>",
+      "promptText": "以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing\n\nBlueRock Inc. のクラウド導入イニシアチブの一環として、App1 はオンプレミス環境から Azure に移行される予定です。このケース スタディでは、組織のセキュリティとコンプライアンス要件を遵守しながら移行を確実に BlueRock の財務管理に合わせるためにはコスト ガバナンスと正確な予算編成が重要であることが強調されています。\nApp1 のターゲット Azure アーキテクチャを最終決定する前に、関係者が予算と予算を承認できるように、Azure での App1 の実行に関連する継続的なコストを見積もる必要があります。運用経費を計画します。\nAzure の App1 のコストを見積もるには、どの Azure ツールまたはサービスを使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-054-c1",
+          "label": null,
+          "text": "Microsoft Entra IDvisor",
+          "html": "<p>Microsoft Entra IDvisor</p>"
+        },
+        {
+          "choiceId": "en1-q-054-c2",
+          "label": null,
+          "text": "Azure Cost Management Power BIアプリ",
+          "html": "<p>Azure Cost Management Power BIアプリ</p>"
+        },
+        {
+          "choiceId": "en1-q-054-c3",
+          "label": null,
+          "text": "Azure 総所有コスト (TCO) 計算ツール",
+          "html": "<p>Azure 総所有コスト (TCO) 計算ツール</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-054-c3"
+      ],
+      "explanationHtml": "<p>Azure 総所有コスト (TCO) 計算ツール は、特にオンプレミスのワークロード (App1 など) を Azure に移行するコストの削減と計算コスト。サーバーの数、CPU コア、RAM、ストレージ、ソフトウェア ライセンスなどの詳細を入力できます。</p><p>Microsoft Entra IDvisor は、コスト、パフォーマンス、高可用性、セキュリティを最適化するためのデプロイ後の推奨事項を提供するため、不正確です。移行前のコスト見積もりは提供されません。</p><p>Azure Cost Management Power BI アプリ は、既にデプロイされている Azure リソースのコストと使用状況データを分析および視覚化するために使用されるため、不正確です。これは、移行前のコストの予測または見積もりを目的としたものではありません。</p><p>参照:</p><ul><li><p><a href=\"https://azure.microsoft.com/en-us/pricing/tco/calculator/\">https://azure.microsoft.com/en-us/pricing/tco/calculator/</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/analyze-cost-data-azure-cost-management-power-bi-template-app\">https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/analyze-cost-data-azure-cost-management-power-bi-template-app</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/advisor/advisor-overview\">https://learn.microsoft.com/en-us/azure/advisor/advisor-overview</a></p></li></ul>",
+      "explanationText": "Azure 総所有コスト (TCO) 計算ツール は、特にオンプレミスのワークロード (App1 など) を Azure に移行するコストの削減と計算コスト。サーバーの数、CPU コア、RAM、ストレージ、ソフトウェア ライセンスなどの詳細を入力できます。\nMicrosoft Entra IDvisor は、コスト、パフォーマンス、高可用性、セキュリティを最適化するためのデプロイ後の推奨事項を提供するため、不正確です。移行前のコスト見積もりは提供されません。\nAzure Cost Management Power BI アプリ は、既にデプロイされている Azure リソースのコストと使用状況データを分析および視覚化するために使用されるため、不正確です。これは、移行前のコストの予測または見積もりを目的としたものではありません。\n参照:\n・https://azure.microsoft.com/en-us/pricing/tco/calculator/\n\n・https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/analyze-cost-data-azure-cost-management-power-bi-template-app\n\n・https://learn.microsoft.com/en-us/azure/advisor/advisor-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-002",
+      "tags": [
+        "case-study"
+      ]
+    },
+    {
+      "questionId": "en1-q-055",
+      "sourceQuestionNumber": 55,
+      "promptHtml": "<p><strong>以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。</strong></p><p><strong><em>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing</em></strong></p><p><br></p><p><strong>BlueRock Inc. のクラウド導入イニシアチブ</strong>の一環として、App1 はオンプレミス環境から Azure に移行される予定です。このケース スタディでは、組織の<strong>セキュリティとコンプライアンス要件</strong>を遵守しながら移行を確実に BlueRock の財務管理に合わせるためにはコスト ガバナンスと正確な予算編成が重要であることが強調されています。</p><p>App1 のターゲット Azure アーキテクチャを最終決定する前に、関係者が予算と予算を承認できるように、Azure での App1 の実行に関連する<strong>継続的なコストを見積もる</strong>必要があります。運用コストを計画します。</p><p>コストを<code>最小限</code>にするには何を実装する必要がありますか。</p>",
+      "promptText": "以下のリンクにある BlueRock Inc. の事例を参照し、次の質問に答えてください。このリンクを新しいタブで開き、このテスト タブをブラウザで開いたままにしてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit。usp=sharing\n\nBlueRock Inc. のクラウド導入イニシアチブの一環として、App1 はオンプレミス環境から Azure に移行される予定です。このケース スタディでは、組織のセキュリティとコンプライアンス要件を遵守しながら移行を確実に BlueRock の財務管理に合わせるためにはコスト ガバナンスと正確な予算編成が重要であることが強調されています。\nApp1 のターゲット Azure アーキテクチャを最終決定する前に、関係者が予算と予算を承認できるように、Azure での App1 の実行に関連する継続的なコストを見積もる必要があります。運用コストを計画します。\nコストを最小限にするには何を実装する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-055-c1",
+          "label": null,
+          "text": "Azure 予約",
+          "html": "<p>Azure 予約</p>"
+        },
+        {
+          "choiceId": "en1-q-055-c2",
+          "label": null,
+          "text": "Azure ハイブリッド特典",
+          "html": "<p>Azure ハイブリッド特典</p>"
+        },
+        {
+          "choiceId": "en1-q-055-c3",
+          "label": null,
+          "text": "Azure スポット仮想マシン価格",
+          "html": "<p>Azure スポット仮想マシン価格</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-055-c1"
+      ],
+      "explanationHtml": "<p>Azure 予約 が正解です。App1 は長期実行の実稼働ワークロードとして Azure に移行されており、Azure リザーブド インスタンス (RI) を使用すると、大幅なコスト削減 - 従量課金制の価格と比較して最大 72%。</p><p>Azure ハイブリッド特典は、ケース スタディに Windows Server またはSQL サーバー ライセンスは再利用されています。App1 は Ubuntu でホストされていますが、Azure ハイブリッド特典は適用されません。</p><p>Azure スポット仮想マシンの価格 は誤りです。これは、大幅な割引が提供されている一方で、設計されているためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-in/azure/cost-management-billing/reservations/save-compute-costs-reservations\">https://learn.microsoft.com/en-in/azure/cost-management-billing/reservations/save-compute-costs-reservations</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-machines/windows/hybrid-use-benefit-licensing\">https://learn.microsoft.com/en-us/azure/virtual-machines/windows/hybrid-use-benefit-licensing</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms\">https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms</a></p></li></ul>",
+      "explanationText": "正解はAzure 予約 です。App1 は長期実行の実稼働ワークロードとして Azure に移行されており、Azure リザーブド インスタンス (RI) を使用すると、大幅なコスト削減 - 従量課金制の価格と比較して最大 72%。\nAzure ハイブリッド特典は、ケース スタディに Windows Server またはSQL サーバー ライセンスは再利用されています。App1 は Ubuntu でホストされていますが、Azure ハイブリッド特典は適用されません。\nAzure スポット仮想マシンの価格 は誤りです。これは、大幅な割引が提供されている一方で、設計されているためです。\n参照:\n・https://learn.microsoft.com/en-in/azure/cost-management-billing/reservations/save-compute-costs-reservations\n\n・https://learn.microsoft.com/en-us/azure/virtual-machines/windows/hybrid-use-benefit-licensing\n\n・https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-case-002",
+      "tags": [
+        "case-study"
+      ]
+    }
+  ]
+}

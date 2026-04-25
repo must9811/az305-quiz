@@ -52,7 +52,7 @@
       "explanationHtml": "<p><code>・最も大きいデータベースのサイズは3TBで、どのデータベースも 4TB以内のサイズです</code></p><p>Azure SQL&nbsp;Database、Azure SQL Managed Instance、仮想マシン（マネージドディスク）とも4TB以内の条件は満たすことができます。</p><p><br></p><p><code>・ストアドプロシージャは共通言語ランタイム (CLR)を使用して実装されています</code></p><p>共通言語ランタイム（CLR: Common Language Runtime）はSQL Server 2005以降で導入された機能で、Visual Basic や C# を含む任意の.NET Framework言語を使用して、ストアド プロシージャ、ユーザー定義関数などを記述できる仕組みです。</p><p>CLRはAzure SQL Database ではサポートされていませんので、選択肢1、3は誤りです。</p><p><a href=\"https://learn.microsoft.com/ja-jp/sql/relational-databases/clr-integration/common-language-runtime-clr-integration-programming-concepts?view=sql-server-ver16\">https://learn.microsoft.com/ja-jp/sql/relational-databases/clr-integration/common-language-runtime-clr-integration-programming-concepts?view=sql-server-ver16</a></p><p><br></p><p><code>・移行したデータベースの管理オーバーヘッドを最小限にすること</code></p><p><code>・ユーザーがActive Directoryの認証情報を使用して認証できること</code></p><p>これはAzure SQL&nbsp;Database、Azure SQL Managed Instanceの特徴です。</p><p>自動バックアップ、パッチ適用、高可用性などPaaSならではの仕組みが備わっています。</p><p>また、Microsoft EntraのIDを使用してデータベースに接続できる <a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/authentication-aad-overview?view=azuresql\">Microsoft Entra認証</a> を構成することもできます。</p><p>これらの機能は「Azure仮想マシン上のMicrosoft SQL Server」には提供されないため選択肢4は誤りです。</p><p><br></p><p><code>・移行するためのデータベースの変更回数を最小限にすること</code></p><p>Azure SQL Managed Instance には、最新の SQL Server (Enterprise Edition) データベース エンジンとの 100% 近い互換性が備わっているため、既存の SQL Server の利用者は最小限のアプリケーションおよびデータベースの変更のみで、オンプレミスのアプリケーションをクラウドに移行することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql</a></p>",
       "explanationText": "・最も大きいデータベースのサイズは3TBで、どのデータベースも 4TB以内のサイズです\nAzure SQL Database、Azure SQL Managed Instance、仮想マシン（マネージドディスク）とも4TB以内の条件は満たすことができます。\n\n・ストアドプロシージャは共通言語ランタイム (CLR)を使用して実装されています\n共通言語ランタイム（CLR: Common Language Runtime）はSQL Server 2005以降で導入された機能で、Visual Basic や C# を含む任意の.NET Framework言語を使用して、ストアド プロシージャ、ユーザー定義関数などを記述できる仕組みです。\nCLRはAzure SQL Database ではサポートされていませんので、選択肢1、3は誤りです。\nhttps://learn.microsoft.com/ja-jp/sql/relational-databases/clr-integration/common-language-runtime-clr-integration-programming-concepts?view=sql-server-ver16\n\n・移行したデータベースの管理オーバーヘッドを最小限にすること\n・ユーザーがActive Directoryの認証情報を使用して認証できること\nこれはAzure SQL Database、Azure SQL Managed Instanceの特徴です。\n自動バックアップ、パッチ適用、高可用性などPaaSならではの仕組みが備わっています。\nまた、Microsoft EntraのIDを使用してデータベースに接続できる Microsoft Entra認証 を構成することもできます。\nこれらの機能は「Azure仮想マシン上のMicrosoft SQL Server」には提供されないため選択肢4は誤りです。\n\n・移行するためのデータベースの変更回数を最小限にすること\nAzure SQL Managed Instance には、最新の SQL Server (Enterprise Edition) データベース エンジンとの 100% 近い互換性が備わっているため、既存の SQL Server の利用者は最小限のアプリケーションおよびデータベースの変更のみで、オンプレミスのアプリケーションをクラウドに移行することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/features-comparison?view=azuresql",
       "images": [],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -100,7 +100,7 @@
       "explanationHtml": "<p>Windowsのイベント ログは「Event」のテーブルに収集されます。</p><p>仮想マシンから収集できる代表的なログには次のようなものがあります。</p><p><br></p><p>・Heartbeat：エージェントの正常性を示すログ</p><p>・Perf：パフォーマンスカウンター</p><p>・Event：Windowsのイベントログ</p><p>・Syslog：Linuxのイベントログ</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-sources-windows-events\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-sources-windows-events</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/event\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/event</a></p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/tables-category#virtual-machines\">https://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/tables-category#virtual-machines</a></p>",
       "explanationText": "Windowsのイベント ログは「Event」のテーブルに収集されます。\n仮想マシンから収集できる代表的なログには次のようなものがあります。\n\n・Heartbeat：エージェントの正常性を示すログ\n・Perf：パフォーマンスカウンター\n・Event：Windowsのイベントログ\n・Syslog：Linuxのイベントログ\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/data-sources-windows-events\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/event\nhttps://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/tables-category#virtual-machines",
       "images": [],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -142,7 +142,7 @@
       "explanationHtml": "<p>カスタマー マネージド キーを使用したTDEを構成する場合、非対称、RSA、または RSA HSM の各キーのみを指定できます。 サポートされているキーの長さは 2048 バイトと 3072 バイトです。</p><p>鍵長が長い方が暗号化強度が高まりますので、選択肢2の「RSA 3072」が正解です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/transparent-data-encryption-byok-overview?view=azuresql#requirements-for-configuring-tde-protector\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/transparent-data-encryption-byok-overview?view=azuresql#requirements-for-configuring-tde-protector</a></p>",
       "explanationText": "カスタマー マネージド キーを使用したTDEを構成する場合、非対称、RSA、または RSA HSM の各キーのみを指定できます。 サポートされているキーの長さは 2048 バイトと 3072 バイトです。\n鍵長が長い方が暗号化強度が高まりますので、選択肢2の「RSA 3072」が正解です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/transparent-data-encryption-byok-overview?view=azuresql#requirements-for-configuring-tde-protector",
       "images": [],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -184,7 +184,7 @@
       "explanationHtml": "<p>Azure Cosmos DB は、フルマネージドの NoSQL とリレーショナルデータベースです。</p><p>数ミリ秒 (1 桁台)の応答時間、グローバル分散、マルチマスター（複数リージョンに書き込み可能）などの特徴があり、スループット、レイテンシー（待機時間）、月間稼働時間などに対してSLAが提供されています。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/cosmos-db/introduction\">https://learn.microsoft.com/ja-jp/azure/cosmos-db/introduction</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/\">https://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/</a></p>",
       "explanationText": "Azure Cosmos DB は、フルマネージドの NoSQL とリレーショナルデータベースです。\n数ミリ秒 (1 桁台)の応答時間、グローバル分散、マルチマスター（複数リージョンに書き込み可能）などの特徴があり、スループット、レイテンシー（待機時間）、月間稼働時間などに対してSLAが提供されています。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/cosmos-db/introduction\nhttps://azure.microsoft.com/ja-jp/support/legal/sla/cosmos-db/v1_5/",
       "images": [],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -229,7 +229,7 @@
         "assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png",
         "assets/問題集1_files/2023-01-12_05-03-46-d963e73393a34d3d6e8e55e1b847fcb5.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-case-001",
       "tags": [
@@ -276,7 +276,7 @@
         "assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png",
         "assets/問題集1_files/2023-01-27_02-10-30-ce0068f9730d5795818d3a5254d83b27.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-case-001",
       "tags": [
@@ -317,7 +317,7 @@
         "assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png",
         "assets/問題集1_files/2023-02-06_08-08-54-a5f1e70527c3bb965cda1d0bb3d226eb.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-case-001",
       "tags": [
@@ -358,7 +358,7 @@
       "images": [
         "assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-case-001",
       "tags": [
@@ -407,7 +407,7 @@
         "assets/問題集1_files/2023-01-27_05-16-16-cf7b5d58222ad15de9ec0893d43d9bc8.png",
         "assets/問題集1_files/2023-01-27_05-28-16-0f3b994ba009639b1d2638244a4135dc.png"
       ],
-      "domain": null,
+      "domain": "ビジネス継続性ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-case-001",
       "tags": [
@@ -457,7 +457,7 @@
         "assets/問題集1_files/2023-02-07_05-36-30-8da7a1b8fcf0169b8fb07ca0ec10f796.png",
         "assets/問題集1_files/2023-02-07_05-36-30-091dfa71abd367781962c63f74c343b0.png"
       ],
-      "domain": null,
+      "domain": "ビジネス継続性ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp1-case-001",
       "tags": [

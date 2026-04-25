@@ -57,9 +57,9 @@
         "assets/問題集2_files/2023-01-17_03-09-21-13ffb941b72e4da9b08cd5eda729e560.png",
         "assets/問題集2_files/2023-01-17_03-09-21-da4372d070ddea4b18ebe4beba469877.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": "jp2-linked-005",
+      "contextGroupId": "jp2-linked-006",
       "tags": [
         "linked-question"
       ]
@@ -101,9 +101,9 @@
       "explanationHtml": "<p><code>・最小特権の原則を使用すること</code></p><p>前の問題の解説の通り、マネージドIDに対して「シークレットの取得（Get）」の権限を付与します。</p><p>シークレットの取得権限があれば参照できますので、選択肢4の「一覧」は不要です。</p>",
       "explanationText": "・最小特権の原則を使用すること\n前の問題の解説の通り、マネージドIDに対して「シークレットの取得（Get）」の権限を付与します。\nシークレットの取得権限があれば参照できますので、選択肢4の「一覧」は不要です。",
       "images": [],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": "jp2-linked-005",
+      "contextGroupId": "jp2-linked-006",
       "tags": [
         "linked-question"
       ]
@@ -145,7 +145,7 @@
       "explanationHtml": "<p><code>オンプレミスにはLDAPクエリを使用してオンプレミスの Active Directory ドメインのユーザー ID を検証する App1 という名前のアプリケーションを実行するサーバがあります。</code></p><p>Microsoft Entra&nbsp;Connectを使ってハイブリッドID環境が構築されていますが、Microsoft Entra IDはLDAPをサポートしていません。LDAPをサポートするにはWindows Server の Active Directoryと同等の機能を提供するサービスが必要で、選択肢1、3が候補となります。</p><p><br></p><p>選択肢3のように仮想マシン上に「Active Directoryドメインサービス」の役割をインストールし、追加のドメインコントローラー (DC) として構成できなくはないですが、これを既存のオンプレミス ドメインの DC として機能させるには、オンプレミスの DC とのレプリケーション（同期）のためにネットワーク接続が必要になります。</p><p>しかし、会社のセキュリティポリシーの要件により、オンプレミスと接続することはできないため誤りです。</p><p>よって、選択肢1の「Microsoft Entra Domain Services」が正解となります。</p><p><br></p><p>Microsoft Entra Domain Servicesは、Azureの仮想ネットワーク上にドメインコントローラーを構築するためのPaaSのサービスです。</p><p>従来の（Windows Serverの） Active Directoryドメインサービス 環境と完全に互換性があり、ドメイン参加やグループ ポリシー、LDAP、Kerberos 認証、NTLM 認証など従来の Active Directory ドメインに要求していた処理を Microsoft Entra Domain Services に対して行うことが可能です。</p><p>また、Microsoft Entra Domain Servicesには、Microsoft Entra ID上のユーザーが自動的に同期されるため、オンプレミス環境と同じようにユーザーを認証することができ、問題の要件を満たすことができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/active-directory-domain-services/overview\">https://learn.microsoft.com/ja-jp/azure/active-directory-domain-services/overview</a></p><p><a href=\"https://jpazureid.github.io/blog/azure-active-directory/azure-ad-ds-scenario/\">https://jpazureid.github.io/blog/azure-active-directory/azure-ad-ds-scenario/</a></p>",
       "explanationText": "オンプレミスにはLDAPクエリを使用してオンプレミスの Active Directory ドメインのユーザー ID を検証する App1 という名前のアプリケーションを実行するサーバがあります。\nMicrosoft Entra Connectを使ってハイブリッドID環境が構築されていますが、Microsoft Entra IDはLDAPをサポートしていません。LDAPをサポートするにはWindows Server の Active Directoryと同等の機能を提供するサービスが必要で、選択肢1、3が候補となります。\n\n選択肢3のように仮想マシン上に「Active Directoryドメインサービス」の役割をインストールし、追加のドメインコントローラー (DC) として構成できなくはないですが、これを既存のオンプレミス ドメインの DC として機能させるには、オンプレミスの DC とのレプリケーション（同期）のためにネットワーク接続が必要になります。\nしかし、会社のセキュリティポリシーの要件により、オンプレミスと接続することはできないため誤りです。\nよって、選択肢1の「Microsoft Entra Domain Services」が正解となります。\n\nMicrosoft Entra Domain Servicesは、Azureの仮想ネットワーク上にドメインコントローラーを構築するためのPaaSのサービスです。\n従来の（Windows Serverの） Active Directoryドメインサービス 環境と完全に互換性があり、ドメイン参加やグループ ポリシー、LDAP、Kerberos 認証、NTLM 認証など従来の Active Directory ドメインに要求していた処理を Microsoft Entra Domain Services に対して行うことが可能です。\nまた、Microsoft Entra Domain Servicesには、Microsoft Entra ID上のユーザーが自動的に同期されるため、オンプレミス環境と同じようにユーザーを認証することができ、問題の要件を満たすことができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/active-directory-domain-services/overview\nhttps://jpazureid.github.io/blog/azure-active-directory/azure-ad-ds-scenario/",
       "images": [],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -191,9 +191,9 @@
         "assets/問題集2_files/2023-02-07_06-08-29-017bcb7ce845f7afdd2aed9ed5189bbb.png",
         "assets/問題集2_files/2023-01-11_06-23-57-6542fde1e07da366400e3dca053b7595.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": "jp2-linked-006",
+      "contextGroupId": "jp2-linked-007",
       "tags": [
         "linked-question"
       ]
@@ -239,9 +239,9 @@
         "assets/問題集2_files/2023-02-07_06-09-01-4dd785123a102ed614b1ef4b11a4181d.png",
         "assets/問題集2_files/2023-01-11_06-32-10-70e43867dc95faf79580aa07949c782f.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": "jp2-linked-006",
+      "contextGroupId": "jp2-linked-007",
       "tags": [
         "linked-question"
       ]
@@ -285,10 +285,12 @@
       "images": [
         "assets/問題集2_files/2023-01-12_01-17-56-95eff2fede88bcecdaa32abe2e1c1637.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-007",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-037",
@@ -329,10 +331,12 @@
       "images": [
         "assets/問題集2_files/2023-01-12_01-38-21-cd5a429bf694d6922b89fd1ebf622990.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-007",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-038",
@@ -374,10 +378,12 @@
         "assets/問題集2_files/2023-01-12_01-54-08-779e6032f58bf43e864259f5dedac1e7.png",
         "assets/問題集2_files/2023-02-07_07-03-04-924ffd4490600b4f238417c38a057198.png"
       ],
-      "domain": null,
+      "domain": "ビジネス継続性ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp2-linked-007",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp2-q-039",
@@ -407,10 +413,13 @@
         "assets/問題集2_files/2023-01-25_01-13-41-5c4ed22a7ed358d2f71b85dc1cc87933.png",
         "assets/問題集2_files/2023-01-25_01-13-42-fb6bd8f352bf6951c2502bd9a6461bfb.png"
       ],
-      "domain": null,
-      "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "jp2-linked-007",
+      "tags": [
+        "linked-question",
+        "boolean"
+      ]
     },
     {
       "questionId": "jp2-q-040",
@@ -439,10 +448,13 @@
       "images": [
         "assets/問題集2_files/2023-01-25_01-18-06-7ffb43a9f65243462e54520a1be81762.png"
       ],
-      "domain": null,
-      "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
+      "questionType": "boolean",
+      "contextGroupId": "jp2-linked-007",
+      "tags": [
+        "linked-question",
+        "boolean"
+      ]
     }
   ]
 }

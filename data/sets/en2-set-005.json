@@ -1,0 +1,438 @@
+{
+  "setId": "en2-set-005",
+  "title": "英語問題集2 翻訳版 41-50",
+  "sourceHtml": "assets/英語問題集2.html",
+  "questionIds": [
+    "en2-q-041",
+    "en2-q-042",
+    "en2-q-043",
+    "en2-q-044",
+    "en2-q-045",
+    "en2-q-046",
+    "en2-q-047",
+    "en2-q-048",
+    "en2-q-049",
+    "en2-q-050"
+  ],
+  "questions": [
+    {
+      "questionId": "en2-q-041",
+      "sourceQuestionNumber": 41,
+      "promptHtml": "<p>あなたの組織は、オンプレミスの<strong>VMware</strong>環境で<strong>300 台の仮想マシン</strong>を運用しています。仮想マシンの<strong>サイズ</strong>は異なり、<strong>さまざまな使用率</strong>を示します。</p><p>既存のすべての仮想マシンを<strong>Azure</strong>に移行する予定です。</p><p>Azure で現在のワークロードをホストするには<strong>必要な Azure 仮想マシンの数</strong>と<strong>どの VM サイズ</strong>を選択する必要があるかを決定する必要があります。提案されたアプローチでは<strong>管理労力を最小限に抑える</strong>必要があります。</p><p>この推奨事項を作成するには何を使用する必要がありますか。</p>",
+      "promptText": "あなたの組織は、オンプレミスのVMware環境で300 台の仮想マシンを運用しています。仮想マシンのサイズは異なり、さまざまな使用率を示します。\n既存のすべての仮想マシンをAzureに移行する予定です。\nAzure で現在のワークロードをホストするには必要な Azure 仮想マシンの数とどの VM サイズを選択する必要があるかを決定する必要があります。提案されたアプローチでは管理労力を最小限に抑える必要があります。\nこの推奨事項を作成するには何を使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-041-c1",
+          "label": null,
+          "text": "Azure Migrate",
+          "html": "Azure Migrate"
+        },
+        {
+          "choiceId": "en2-q-041-c2",
+          "label": null,
+          "text": "Azure 料金計算ツール",
+          "html": "Azure 料金計算ツール"
+        },
+        {
+          "choiceId": "en2-q-041-c3",
+          "label": null,
+          "text": "Azure Cost Management",
+          "html": "Azure Cost Management"
+        },
+        {
+          "choiceId": "en2-q-041-c4",
+          "label": null,
+          "text": "Microsoft Entra IDvisor",
+          "html": "Microsoft Entra IDvisor"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-041-c1"
+      ],
+      "explanationHtml": "<p>Azure Migrate は正解です。これは、VMware 仮想マシンを含むオンプレミスのワークロードを評価し、Azure に移行するために設計された専用ツールだからです。</p><p>Azure 料金計算ツール は誤りです。これは、手動で選択したリソースの種類と構成に基づいてコストを見積もることができますが、実際のワークロードに基づいて VM サイズを分析または推奨するものではないためです。</p><p>Azure Cost Management は、既存の Azure リソースの支出を監視し、最適化するために使用されるため、不正確です。オンプレミスのワークロードの移行に関する評価や推奨事項は提供されません。</p><p>Microsoft Entra IDvisor は、オンプレミス環境ではなく、既存の Azure デプロイメントに対する最適化の推奨事項を提供するため、不正確です。移行中に VMware ワークロードを評価したり、Azure VM のサイジングを推奨したりすることはできません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/migrate/migrate-overview\">https://learn.microsoft.com/en-us/azure/migrate/migrate-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/migrate/migrate-support-matrix-vmware\">https://learn.microsoft.com/en-us/azure/migrate/migrate-support-matrix-vmware</a></p></li><li><p><a href=\"https://azure.microsoft.com/en-us/pricing/calculator/\">https://azure.microsoft.com/en-us/pricing/calculator/</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/migrate/concepts-assessment-calculation\">https://learn.microsoft.com/en-us/azure/migrate/concepts-assessment-calculation</a></p></li><li><p><a href=\"https://azure.microsoft.com/en-us/products/cost-management\">https://azure.microsoft.com/en-us/products/cost-management</a></p></li><li><p><a href=\"https://docs.microsoft.com/en-us/azure/advisor/advisor-overview\">https://docs.microsoft.com/en-us/azure/advisor/advisor-overview</a></p></li></ul>",
+      "explanationText": "Azure Migrate は正解です。これは、VMware 仮想マシンを含むオンプレミスのワークロードを評価し、Azure に移行するために設計された専用ツールだからです。\nAzure 料金計算ツール は誤りです。これは、手動で選択したリソースの種類と構成に基づいてコストを見積もることができますが、実際のワークロードに基づいて VM サイズを分析または推奨するものではないためです。\nAzure Cost Management は、既存の Azure リソースの支出を監視し、最適化するために使用されるため、不正確です。オンプレミスのワークロードの移行に関する評価や推奨事項は提供されません。\nMicrosoft Entra IDvisor は、オンプレミス環境ではなく、既存の Azure デプロイメントに対する最適化の推奨事項を提供するため、不正確です。移行中に VMware ワークロードを評価したり、Azure VM のサイジングを推奨したりすることはできません。\n参照:\n・https://learn.microsoft.com/en-us/azure/migrate/migrate-overview\n\n・https://learn.microsoft.com/en-us/azure/migrate/migrate-support-matrix-vmware\n\n・https://azure.microsoft.com/en-us/pricing/calculator/\n\n・https://learn.microsoft.com/en-us/azure/migrate/concepts-assessment-calculation\n\n・https://azure.microsoft.com/en-us/products/cost-management\n\n・https://docs.microsoft.com/en-us/azure/advisor/advisor-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en2-q-042",
+      "sourceQuestionNumber": 42,
+      "promptHtml": "<p>あなたは、<strong>VNET1</strong> という名前の仮想ネットワークと<strong>10 台の仮想マシン</strong>を含む<strong>Azure サブスクリプション</strong>を持っており、それらはすべて VNET1 に接続されています。</p><p>次の条件を満たしながら<strong>インターネットから仮想マシンへの管理アクセス</strong>を可能にするソリューションを設計する必要があります。要件:</p><ul><li><p>すべての<strong>受信接続</strong>は、ネットワーク アクセスが許可される前に、Azure Multi-Factor Authentication (MFA) を使用して<strong>認証</strong>される必要があります。</p></li><li><p>すべての接続は<strong>TLS</strong>経由で確立され、<strong>TCP ポート 443</strong> を使用する必要があります。</p></li><li><p>ソリューションでは両方を許可する必要があります。 <strong>リモート デスクトップ プロトコル (RDP)</strong> および <strong>セキュア シェル (SSH)</strong> アクセス。</p></li></ul><p>これらの要件に基づいて、最も適切なオプションを指定して次のステートメントを完成させます。</p><p><code>「VNET1 上の仮想マシンへのアクセスを提供するには、____________________________ を使用します。」</code> </p>",
+      "promptText": "あなたは、VNET1 という名前の仮想ネットワークと10 台の仮想マシンを含むAzure サブスクリプションを持っており、それらはすべて VNET1 に接続されています。\n次の条件を満たしながらインターネットから仮想マシンへの管理アクセスを可能にするソリューションを設計する必要があります。要件:\n・すべての受信接続は、ネットワーク アクセスが許可される前に、Azure Multi-Factor Authentication (MFA) を使用して認証される必要があります。\n\n・すべての接続はTLS経由で確立され、TCP ポート 443 を使用する必要があります。\n\n・ソリューションでは両方を許可する必要があります。 リモート デスクトップ プロトコル (RDP) および セキュア シェル (SSH) アクセス。\n\nこれらの要件に基づいて、最も適切なオプションを指定して次のステートメントを完成させます。\n「VNET1 上の仮想マシンへのアクセスを提供するには、____________________________ を使用します。」",
+      "choices": [
+        {
+          "choiceId": "en2-q-042-c1",
+          "label": null,
+          "text": "Azure Bastian",
+          "html": "Azure Bastian"
+        },
+        {
+          "choiceId": "en2-q-042-c2",
+          "label": null,
+          "text": "ジャストインタイム (JIT) VM アクセス",
+          "html": "ジャストインタイム (JIT) VM アクセス"
+        },
+        {
+          "choiceId": "en2-q-042-c3",
+          "label": null,
+          "text": "Azure Front Door の Azure Web アプリケーション ファイアウォール (WAF)",
+          "html": "Azure Front Door の Azure Web アプリケーション ファイアウォール (WAF)"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-042-c1"
+      ],
+      "explanationHtml": "<p>Azure Bastion は、これは、パブリック IP アドレスを公開せずに、Azure portal 経由で TLS (ポート 443) 経由で仮想マシンへの安全かつシームレスな RDP および SSH 接続を直接提供するため、正解です。Microsoft Entra ID (Microsoft Entra ID) および Azure Multi-Factor Authentication (MFA) を含む条件付きアクセス ポリシーとの統合をサポートし、ネットワーク レベルのアクセスを許可する前に安全なユーザー認証を強制します。</p><p>ジャストインタイム (JIT) VM アクセス は誤りです。これは、必要な場合にのみ管理ポートを開くことで攻撃対象領域を減らしますが、それでもパブリック IP アドレスが必要であり、MFA やネイティブの MFA を強制しないためです。</p><p>Azure Front Door の Azure Web Application Firewall (WAF) は誤りです。WAF と Front Door は、Web アプリケーション (HTTP/HTTPS トラフィック) を保護するように設計されており、RDP や仮想マシンへのアクセスを管理または提供するように設計されていないからです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/bastion/bastion-overview\">https://learn.microsoft.com/en-us/azure/bastion/bastion-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/bastion/bastion-connect-vm-rdp-windows\">https://learn.microsoft.com/en-us/azure/bastion/bastion-connect-vm-rdp-windows</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/security-center/security-center-just-in-time\">https://learn.microsoft.com/en-us/azure/security-center/security-center-just-in-time</a></p></li></ul>",
+      "explanationText": "Azure Bastion は、これは、パブリック IP アドレスを公開せずに、Azure portal 経由で TLS (ポート 443) 経由で仮想マシンへの安全かつシームレスな RDP および SSH 接続を直接提供するため、正解です。Microsoft Entra ID (Microsoft Entra ID) および Azure Multi-Factor Authentication (MFA) を含む条件付きアクセス ポリシーとの統合をサポートし、ネットワーク レベルのアクセスを許可する前に安全なユーザー認証を強制します。\nジャストインタイム (JIT) VM アクセス は誤りです。これは、必要な場合にのみ管理ポートを開くことで攻撃対象領域を減らしますが、それでもパブリック IP アドレスが必要であり、MFA やネイティブの MFA を強制しないためです。\nAzure Front Door の Azure Web Application Firewall (WAF) は誤りです。WAF と Front Door は、Web アプリケーション (HTTP/HTTPS トラフィック) を保護するように設計されており、RDP や仮想マシンへのアクセスを管理または提供するように設計されていないからです。\n参照:\n・https://learn.microsoft.com/en-us/azure/bastion/bastion-overview\n\n・https://learn.microsoft.com/en-us/azure/bastion/bastion-connect-vm-rdp-windows\n\n・https://learn.microsoft.com/en-us/azure/security-center/security-center-just-in-time",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en2-linked-007",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en2-q-043",
+      "sourceQuestionNumber": 43,
+      "promptHtml": "<p>あなたは、<strong>VNET1</strong> という名前の仮想ネットワークと<strong>10 台の仮想マシン</strong>を含む<strong>Azure サブスクリプション</strong>を持っており、それらはすべて VNET1 に接続されています。</p><p>次の条件を満たしながら<strong>インターネットから仮想マシンへの管理アクセス</strong>を可能にするソリューションを設計する必要があります。要件:</p><ul><li><p>すべての<strong>受信接続</strong>は、ネットワーク アクセスが許可される前に、Azure Multi-Factor Authentication (MFA) を使用して<strong>認証</strong>される必要があります。</p></li><li><p>すべての接続は<strong>TLS</strong>経由で確立され、<strong>TCP ポート 443</strong> を使用する必要があります。</p></li><li><p>ソリューションでは両方を許可する必要があります。 <strong>リモート デスクトップ プロトコル (RDP)</strong> および <strong>セキュア シェル (SSH)</strong> アクセス。</p></li></ul><p>これらの要件に基づいて、最も適切なオプションを指定して次のステートメントを完成させます。</p><p><code>「Azure MFA を強制するには、____________________________ を使用します。」</code> </p>",
+      "promptText": "あなたは、VNET1 という名前の仮想ネットワークと10 台の仮想マシンを含むAzure サブスクリプションを持っており、それらはすべて VNET1 に接続されています。\n次の条件を満たしながらインターネットから仮想マシンへの管理アクセスを可能にするソリューションを設計する必要があります。要件:\n・すべての受信接続は、ネットワーク アクセスが許可される前に、Azure Multi-Factor Authentication (MFA) を使用して認証される必要があります。\n\n・すべての接続はTLS経由で確立され、TCP ポート 443 を使用する必要があります。\n\n・ソリューションでは両方を許可する必要があります。 リモート デスクトップ プロトコル (RDP) および セキュア シェル (SSH) アクセス。\n\nこれらの要件に基づいて、最も適切なオプションを指定して次のステートメントを完成させます。\n「Azure MFA を強制するには、____________________________ を使用します。」",
+      "choices": [
+        {
+          "choiceId": "en2-q-043-c1",
+          "label": null,
+          "text": "Azure Identity Governance アクセス パッケージ",
+          "html": "Azure Identity Governance アクセス パッケージ"
+        },
+        {
+          "choiceId": "en2-q-043-c2",
+          "label": null,
+          "text": "クラウド アプリの割り当てが Azure Windows VM サインインに設定されている条件付きアクセス ポリシー",
+          "html": "クラウド アプリの割り当てが Azure Windows VM サインインに設定されている条件付きアクセス ポリシー"
+        },
+        {
+          "choiceId": "en2-q-043-c3",
+          "label": null,
+          "text": "クラウド アプリの割り当てが Microsoft Azure Management に設定されている条件付きアクセス ポリシー",
+          "html": "クラウド アプリの割り当てが Microsoft Azure Management に設定されている条件付きアクセス ポリシー"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-043-c2"
+      ],
+      "explanationHtml": "<p>クラウド アプリの割り当てが設定されている条件付きアクセス ポリシーAzure Windows VM サインイン に設定されたアプリ割り当ては正しいです。この設定により、特にユーザーが Azure Bastion を使用して仮想マシンにサインインしようとするときに Azure Multi-Factor Authentication (MFA) を強制できるからです。</p><p>Azure Identity Governance アクセス パッケージ は誤りです。アクセス パッケージは、グループ、アプリケーション、リソースへのユーザー アクセスのガバナンスに使用されるためです。</p><p>クラウド アプリの割り当てが Microsoft Azure 管理に設定されている条件付きアクセス ポリシー は誤りです。これは、Azure portal へのアクセスや PowerShell/CLI を使用したリソースの管理などの管理操作に適用されるためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/devices/howto-vm-sign-in-azure-ad-windows\">https://learn.microsoft.com/en-us/entra/identity/devices/howto-vm-sign-in-azure-ad-windows</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-cloud-apps\">https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-cloud-apps</a></p></li></ul>",
+      "explanationText": "クラウド アプリの割り当てが設定されている条件付きアクセス ポリシーAzure Windows VM サインイン に設定されたアプリ割り当ては正しいです。この設定により、特にユーザーが Azure Bastion を使用して仮想マシンにサインインしようとするときに Azure Multi-Factor Authentication (MFA) を強制できるからです。\nAzure Identity Governance アクセス パッケージ は誤りです。アクセス パッケージは、グループ、アプリケーション、リソースへのユーザー アクセスのガバナンスに使用されるためです。\nクラウド アプリの割り当てが Microsoft Azure 管理に設定されている条件付きアクセス ポリシー は誤りです。これは、Azure portal へのアクセスや PowerShell/CLI を使用したリソースの管理などの管理操作に適用されるためです。\n参照:\n・https://learn.microsoft.com/en-us/entra/identity/devices/howto-vm-sign-in-azure-ad-windows\n\n・https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-cloud-apps",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en2-linked-007",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en2-q-044",
+      "sourceQuestionNumber": 44,
+      "promptHtml": "<p>この展開には、次の要件を満たす<strong>負荷分散サービス</strong>を推奨する必要があります。</p><ul><li><p><strong>Azure リージョンが利用できなくなった場合でも、 アプリケーションの可用性を維持する必要がある</strong>。</p></li><li><p>ソリューションは<strong>Azure Web Application Firewall (WAF) をサポートする</strong>必要があります。 </p></li><li><p><strong>Cookie ベースのセッション アフィニティ</strong>がサポートされている必要があります。</p></li><li><p><strong>URL ベースのルーティング</strong>がサポートされている必要があります。</p></li></ul><p>これらの要件に基づいて、推奨事項には何を含める必要がありますか。</p>",
+      "promptText": "この展開には、次の要件を満たす負荷分散サービスを推奨する必要があります。\n・Azure リージョンが利用できなくなった場合でも、 アプリケーションの可用性を維持する必要がある。\n\n・ソリューションはAzure Web Application Firewall (WAF) をサポートする必要があります。\n\n・Cookie ベースのセッション アフィニティがサポートされている必要があります。\n\n・URL ベースのルーティングがサポートされている必要があります。\n\nこれらの要件に基づいて、推奨事項には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-044-c1",
+          "label": null,
+          "text": "Azure Application Gateway",
+          "html": "Azure Application Gateway"
+        },
+        {
+          "choiceId": "en2-q-044-c2",
+          "label": null,
+          "text": "Azure Load Balancer",
+          "html": "Azure Load Balancer"
+        },
+        {
+          "choiceId": "en2-q-044-c3",
+          "label": null,
+          "text": "Azure Front Door",
+          "html": "Azure Front Door"
+        },
+        {
+          "choiceId": "en2-q-044-c4",
+          "label": null,
+          "text": "Azure Traffic Manager",
+          "html": "Azure Traffic Manager"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-044-c3"
+      ],
+      "explanationHtml": "<p>Azure Front Door はグローバルなレイヤー 7 負荷であるため正しいです。指定された要件をすべて満たすバランサー:</p><ul><li><p>複数の Azure リージョンにわたる高可用性と自動フェールオーバーを提供し、リージョンが停止した場合でも継続的なアクセスを保証します。</p></li><li><p>Web の脆弱性に対する一元的な保護のため、Azure Web Application Firewall (WAF) との統合をサポートします。</p></li><li><p>Cookie ベースのアフィニティ (セッション アフィニティとも呼ばれます) を提供し、同じクライアントからのリクエストを許可します。</p></li><li><p>URL ベースのルーティングをサポートしており、パス パターンやホスト ヘッダーに基づいてトラフィックを分散できます。</p></li></ul><p>Azure Application Gateway は誤りです。これは、WAF、URL ルーティング、およびセッション アフィニティをサポートしていますが、リージョン サービスであり、サポートされていないためです。</p><p>Azure Load Balancer は、レイヤー 4 (TCP/UDP) で動作し、WAF、セッション アフィニティ、または URL ベースのルーティングをサポートしていないため、不正確です。これは、VM レベルでの内部または基本的な負荷分散用に設計されています。</p><p>Azure Traffic Manager は、リージョン間で DNS ベースのトラフィック分散を提供しますが、WAF、セッション アフィニティ、または URL ルーティングをサポートしていないため、不正確です。これは主にフェイルオーバーとレイテンシベースのルーティングに使用されます。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview\">https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview\">https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\">https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/application-gateway/overview\">https://learn.microsoft.com/en-us/azure/application-gateway/overview</a></p></li></ul>",
+      "explanationText": "Azure Front Door はグローバルなレイヤー 7 負荷であるため正しいです。指定された要件をすべて満たすバランサー:\n・複数の Azure リージョンにわたる高可用性と自動フェールオーバーを提供し、リージョンが停止した場合でも継続的なアクセスを保証します。\n\n・Web の脆弱性に対する一元的な保護のため、Azure Web Application Firewall (WAF) との統合をサポートします。\n\n・Cookie ベースのアフィニティ (セッション アフィニティとも呼ばれます) を提供し、同じクライアントからのリクエストを許可します。\n\n・URL ベースのルーティングをサポートしており、パス パターンやホスト ヘッダーに基づいてトラフィックを分散できます。\n\nAzure Application Gateway は誤りです。これは、WAF、URL ルーティング、およびセッション アフィニティをサポートしていますが、リージョン サービスであり、サポートされていないためです。\nAzure Load Balancer は、レイヤー 4 (TCP/UDP) で動作し、WAF、セッション アフィニティ、または URL ベースのルーティングをサポートしていないため、不正確です。これは、VM レベルでの内部または基本的な負荷分散用に設計されています。\nAzure Traffic Manager は、リージョン間で DNS ベースのトラフィック分散を提供しますが、WAF、セッション アフィニティ、または URL ルーティングをサポートしていないため、不正確です。これは主にフェイルオーバーとレイテンシベースのルーティングに使用されます。\n参照:\n・https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview\n\n・https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview\n\n・https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\n\n・https://learn.microsoft.com/en-us/azure/application-gateway/overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en2-q-045",
+      "sourceQuestionNumber": 45,
+      "promptHtml": "<p>オンプレミス環境には、<strong>Server1</strong> という名前のファイル サーバーが含まれています。 Server1 には、<strong>めったにアクセスされない</strong><strong>5 TB の組織ファイル</strong>が保存されています。</p><p>これらのファイルを<strong>Azure Storage</strong>にコピーする予定です。</p><p>次の要件を満たすストレージ ソリューションを実装する必要があります。</p><ul><li><p>ファイルは保存後<strong>24 時間以内</strong>に取得できる必要があります。 </p></li><li><p><strong>ストレージ コストは最小限に抑える必要があります</strong>。</p></li></ul><p>これらの要件を満たす<strong> 2 つのストレージ ソリューション</strong>はどれですか。</p>",
+      "promptText": "オンプレミス環境には、Server1 という名前のファイル サーバーが含まれています。 Server1 には、めったにアクセスされない5 TB の組織ファイルが保存されています。\nこれらのファイルをAzure Storageにコピーする予定です。\n次の要件を満たすストレージ ソリューションを実装する必要があります。\n・ファイルは保存後24 時間以内に取得できる必要があります。\n\n・ストレージ コストは最小限に抑える必要があります。\n\nこれらの要件を満たす 2 つのストレージ ソリューションはどれですか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-045-c1",
+          "label": null,
+          "text": "クールなデフォルト アクセス層用に構成された Azure Blob ストレージ アカウントを作成します。 BLOB コンテナーを作成し、ファイルを BLOB コンテナーにコピーし、各ファイルをアーカイブ アクセス層に設定します。",
+          "html": "クールなデフォルト アクセス層用に構成された Azure Blob ストレージ アカウントを作成します。 BLOB コンテナーを作成し、ファイルを BLOB コンテナーにコピーし、各ファイルをアーカイブ アクセス層に設定します。"
+        },
+        {
+          "choiceId": "en2-q-045-c2",
+          "label": null,
+          "text": "汎用 v1 ストレージ アカウントを作成します。 BLOB コンテナーを作成し、ファイルを BLOB コンテナーにコピーします。",
+          "html": "汎用 v1 ストレージ アカウントを作成します。 BLOB コンテナーを作成し、ファイルを BLOB コンテナーにコピーします。"
+        },
+        {
+          "choiceId": "en2-q-045-c3",
+          "label": null,
+          "text": "汎用 v1 ストレージ アカウントを作成します。ストレージ アカウントにファイル共有を作成し、ファイルをファイル共有にコピーします。",
+          "html": "汎用 v1 ストレージ アカウントを作成します。ストレージ アカウントにファイル共有を作成し、ファイルをファイル共有にコピーします。"
+        },
+        {
+          "choiceId": "en2-q-045-c4",
+          "label": null,
+          "text": "ホット デフォルト アクセス層用に構成された汎用 v2 ストレージ アカウントを作成します。 BLOB コンテナーを作成し、ファイルを BLOB コンテナーにコピーし、各ファイルをアーカイブ アクセス層に設定します。",
+          "html": "ホット デフォルト アクセス層用に構成された汎用 v2 ストレージ アカウントを作成します。 BLOB コンテナーを作成し、ファイルを BLOB コンテナーにコピーし、各ファイルをアーカイブ アクセス層に設定します。"
+        },
+        {
+          "choiceId": "en2-q-045-c5",
+          "label": null,
+          "text": "クールなデフォルト アクセス層用に構成された汎用 v2 ストレージ アカウントを作成します。ストレージ アカウントにファイル共有を作成し、ファイルをファイル共有にコピーします。",
+          "html": "クールなデフォルト アクセス層用に構成された汎用 v2 ストレージ アカウントを作成します。ストレージ アカウントにファイル共有を作成し、ファイルをファイル共有にコピーします。"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-045-c1",
+        "en2-q-045-c4"
+      ],
+      "explanationHtml": "<p>クールなデフォルト アクセス層用に構成された Azure Blob ストレージ アカウントを作成します。BLOB コンテナーを作成し、ファイルを BLOB コンテナーにコピーし、 各ファイルをアーカイブ アクセス層に設定する は正解です。</p><p>ホットのデフォルト アクセス層用に構成された汎用 v2 ストレージ アカウントを作成します。BLOB コンテナーを作成し、ファイルを BLOB コンテナーにコピーし、 各ファイルをアーカイブ アクセス層に設定する も正しいです。</p><p>汎用 v1 ストレージ アカウントを作成します。BLOB コンテナーを作成し、 ファイルを BLOB コンテナーにコピーする は誤りです。</p><p>汎用 v1 ストレージ アカウントを作成します。ストレージ アカウントにファイル共有を作成し、 ファイル共有にファイルをコピーする も、同じ理由で不正確です。</p><p>クールなデフォルト アクセス層用に構成された汎用 v2 ストレージ アカウントを作成します。ストレージ アカウントでファイル共有を作成し、 ファイル共有にファイルをコピーする は誤りです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/archive-rehydrate-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/archive-rehydrate-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction\">https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts\">https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts</a></p></li></ul>",
+      "explanationText": "クールなデフォルト アクセス層用に構成された Azure Blob ストレージ アカウントを作成します。BLOB コンテナーを作成し、ファイルを BLOB コンテナーにコピーし、 各ファイルをアーカイブ アクセス層に設定する は正解です。\nホットのデフォルト アクセス層用に構成された汎用 v2 ストレージ アカウントを作成します。BLOB コンテナーを作成し、ファイルを BLOB コンテナーにコピーし、 各ファイルをアーカイブ アクセス層に設定する も正しいです。\n汎用 v1 ストレージ アカウントを作成します。BLOB コンテナーを作成し、 ファイルを BLOB コンテナーにコピーする は誤りです。\n汎用 v1 ストレージ アカウントを作成します。ストレージ アカウントにファイル共有を作成し、 ファイル共有にファイルをコピーする も、同じ理由で不正確です。\nクールなデフォルト アクセス層用に構成された汎用 v2 ストレージ アカウントを作成します。ストレージ アカウントでファイル共有を作成し、 ファイル共有にファイルをコピーする は誤りです。\n参照:\n・https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/archive-rehydrate-overview\n\n・https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction\n\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "multi",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en2-q-046",
+      "sourceQuestionNumber": 46,
+      "promptHtml": "<p>あなたの組織には、<strong>社内で開発された Web API が 20 個</strong>あります。</p><p>会社は、これらの API を使用する <strong>10 個の Web アプリケーション</strong>も構築しています。 Web アプリケーションと API はどちらも会社の <strong>Microsoft Entra テナント</strong> 内に登録されており、API は<strong>Azure API 管理</strong>を通じて公開されます。</p><p>Web アプリケーションから発信された未承認のリクエストが Web API に到達するのをブロックするソリューションを推奨する必要があります。 </p><p>ソリューションは次の条件を満たす必要があります。</p><ul><li><p>Microsoft の<strong>エントラ生成のクレーム</strong>を使用します。</p></li><li><p><strong>構成および継続的な管理作業</strong>は最小限に抑える必要があります。<br></p></li></ul><p>正しい推奨事項を含めて次のステートメントを完了する必要があります。</p><p><code>「許可」 </code> </p>",
+      "promptText": "あなたの組織には、社内で開発された Web API が 20 個あります。\n会社は、これらの API を使用する 10 個の Web アプリケーションも構築しています。 Web アプリケーションと API はどちらも会社の Microsoft Entra テナント 内に登録されており、API はAzure API 管理を通じて公開されます。\nWeb アプリケーションから発信された未承認のリクエストが Web API に到達するのをブロックするソリューションを推奨する必要があります。\nソリューションは次の条件を満たす必要があります。\n・Microsoft のエントラ生成のクレームを使用します。\n\n・構成および継続的な管理作業は最小限に抑える必要があります。\n\n正しい推奨事項を含めて次のステートメントを完了する必要があります。\n「許可」",
+      "choices": [
+        {
+          "choiceId": "en2-q-046-c1",
+          "label": null,
+          "text": "Microsoft Entra ID",
+          "html": "<p>Microsoft Entra ID</p>"
+        },
+        {
+          "choiceId": "en2-q-046-c2",
+          "label": null,
+          "text": "Azure API 管理",
+          "html": "Azure API 管理"
+        },
+        {
+          "choiceId": "en2-q-046-c3",
+          "label": null,
+          "text": "Web API",
+          "html": "Web API"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-046-c1"
+      ],
+      "explanationHtml": "<p>Microsoft Entra ID が正解です。Web アプリと同じテナントに登録されている API 間の通信を承認する最も安全かつ効率的な方法は、Microsoft Entra ID によって発行された OAuth 2.0 アクセス トークンを使用することです。</p><p>Azure API 管理 は誤りです。ポリシーを強制することはできますが (トークンの検証など)、トークンの発行やアプリのアクセス許可の管理は行わないためです。</p><p>ウェブ API は誤りです。API 自体がトークンを発行するのではなく検証する必要があるためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity-platform/scenario-protected-web-api-app-registration\">https://learn.microsoft.com/en-us/entra/identity-platform/scenario-protected-web-api-app-registration</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad\">https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity-platform/howto-add-app-roles-in-apps\">https://learn.microsoft.com/en-us/entra/identity-platform/howto-add-app-roles-in-apps</a></p></li></ul>",
+      "explanationText": "正解はMicrosoft Entra ID です。Web アプリと同じテナントに登録されている API 間の通信を承認する最も安全かつ効率的な方法は、Microsoft Entra ID によって発行された OAuth 2.0 アクセス トークンを使用することです。\nAzure API 管理 は誤りです。ポリシーを強制することはできますが (トークンの検証など)、トークンの発行やアプリのアクセス許可の管理は行わないためです。\nウェブ API は誤りです。API 自体がトークンを発行するのではなく検証する必要があるためです。\n参照:\n・https://learn.microsoft.com/en-us/entra/identity-platform/scenario-protected-web-api-app-registration\n\n・https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad\n\n・https://learn.microsoft.com/en-us/entra/identity-platform/howto-add-app-roles-in-apps",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en2-linked-008",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en2-q-047",
+      "sourceQuestionNumber": 47,
+      "promptHtml": "<p>あなたの組織には、<strong>社内で開発された Web API が 20 個</strong>あります。</p><p>会社は、これらの API を使用する <strong>10 個の Web アプリケーション</strong>も構築しています。 Web アプリケーションと API はどちらも会社の <strong>Microsoft Entra テナント</strong> 内に登録されており、API は<strong>Azure API 管理</strong>を通じて公開されます。</p><p>Web アプリケーションから発信された未承認のリクエストが Web API に到達するのをブロックするソリューションを推奨する必要があります。 </p><p>ソリューションは次の条件を満たす必要があります。</p><ul><li><p>Microsoft の<strong>エントラ生成のクレーム</strong>を使用します。</p></li><li><p><strong>構成および継続的な管理作業</strong>は最小限に抑える必要があります。<br></p></li></ul><p>次のステートメントを正しい内容で完了する必要があります。 </p><p><code>「______________ を使用して JSON Web Token (JWT) 検証ポリシーを構成します。」</code> </p>",
+      "promptText": "あなたの組織には、社内で開発された Web API が 20 個あります。\n会社は、これらの API を使用する 10 個の Web アプリケーションも構築しています。 Web アプリケーションと API はどちらも会社の Microsoft Entra テナント 内に登録されており、API はAzure API 管理を通じて公開されます。\nWeb アプリケーションから発信された未承認のリクエストが Web API に到達するのをブロックするソリューションを推奨する必要があります。\nソリューションは次の条件を満たす必要があります。\n・Microsoft のエントラ生成のクレームを使用します。\n\n・構成および継続的な管理作業は最小限に抑える必要があります。\n\n次のステートメントを正しい内容で完了する必要があります。\n「______________ を使用して JSON Web Token (JWT) 検証ポリシーを構成します。」",
+      "choices": [
+        {
+          "choiceId": "en2-q-047-c1",
+          "label": null,
+          "text": "Microsoft Entra ID",
+          "html": "<p>Microsoft Entra ID</p>"
+        },
+        {
+          "choiceId": "en2-q-047-c2",
+          "label": null,
+          "text": "Azure API 管理",
+          "html": "Azure API 管理"
+        },
+        {
+          "choiceId": "en2-q-047-c3",
+          "label": null,
+          "text": "Web API",
+          "html": "Web API"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-047-c2"
+      ],
+      "explanationHtml": "<p>Azure API 管理は、Web API へのすべてのリクエストが通過するゲートウェイとして機能するため、正しいです。Azure API 管理内で JWT 検証ポリシーを直接構成して、要求がバックエンド API に転送される前に Microsoft Entra ID によって発行されたアクセス トークンを検証できます。</p><p>Microsoft Entra ID は誤りです。トークンを発行して ID を管理する一方で、ゲートウェイまたは API レベルでトークンの強制や検証を行わないためです。</p><p>Web API は誤りです。各 API は JWT トークンを個別に検証できますが、そうすることで構成と管理の労力が増大し、最小化する要件に矛盾します。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity-platform/access-tokens\">https://learn.microsoft.com/en-us/entra/identity-platform/access-tokens</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad\">https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/api-management/set-edit-policies?tabs=form\">https://learn.microsoft.com/en-us/azure/api-management/set-edit-policies?tabs=form</a></p></li></ul>",
+      "explanationText": "Azure API 管理は、Web API へのすべてのリクエストが通過するゲートウェイとして機能するため、正しいです。Azure API 管理内で JWT 検証ポリシーを直接構成して、要求がバックエンド API に転送される前に Microsoft Entra ID によって発行されたアクセス トークンを検証できます。\nMicrosoft Entra ID は誤りです。トークンを発行して ID を管理する一方で、ゲートウェイまたは API レベルでトークンの強制や検証を行わないためです。\nWeb API は誤りです。各 API は JWT トークンを個別に検証できますが、そうすることで構成と管理の労力が増大し、最小化する要件に矛盾します。\n参照:\n・https://learn.microsoft.com/en-us/entra/identity-platform/access-tokens\n\n・https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad\n\n・https://learn.microsoft.com/en-us/azure/api-management/set-edit-policies?tabs=form",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en2-linked-008",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en2-q-048",
+      "sourceQuestionNumber": 48,
+      "promptHtml": "<p>あなたの組織には次のインフラストラクチャがあります:<br></p><p><code>Azure</code></p><ul><li><p><strong>Subscription1</strong></p>という名前の Azure サブスクリプション</li><li><p><strong>20 Azure webアプリ</strong></p></li></ul><p><code>オンプレミス データ センター</code></p><ul><li><p><strong>Active Directory ドメイン</strong></p></li><li><p><strong>Microsoft Entra Connect</strong></p></li><li><p>という名前の<strong>Linux コンピュータ</strong>を実行しているサーバー<strong>Server1</strong></p></li></ul><p><br>オンプレミスの<strong>Active Directory ドメイン</strong>は<strong>Microsoft Entra ID</strong>と同期されています。</p><p>Server1は<strong>App1</strong>という名前のアプリケーションをホストします。 App1 は<strong>LDAP クエリ</strong>を使用して、オンプレミスの Active Directory ドメインに対してユーザー ID を検証します。</p><p>あなたは <strong>Subscription1</strong> の<strong>仮想マシン</strong>に <strong>Server1</strong> を移行する予定です。</p><p>会社のセキュリティ ポリシーでは、次のことが要求されています。 Subscription1 にデプロイされた<strong>仮想マシンとサービスはオンプレミス ネットワーク</strong>にアクセスできてはなりません。</p><p>セキュリティ ポリシーに準拠しながら<strong>App1 が移行後も機能し続ける</strong>ことを保証するソリューションを推奨する必要があります。</p><p>推奨事項には何を含める必要がありますか。</p>",
+      "promptText": "あなたの組織には次のインフラストラクチャがあります:\n\nAzure\n・Subscription1\nという名前の Azure サブスクリプション\n・20 Azure webアプリ\n\nオンプレミス データ センター\n・Active Directory ドメイン\n\n・Microsoft Entra Connect\n\n・という名前のLinux コンピュータを実行しているサーバーServer1\n\nオンプレミスのActive Directory ドメインはMicrosoft Entra IDと同期されています。\nServer1はApp1という名前のアプリケーションをホストします。 App1 はLDAP クエリを使用して、オンプレミスの Active Directory ドメインに対してユーザー ID を検証します。\nあなたは Subscription1 の仮想マシンに Server1 を移行する予定です。\n会社のセキュリティ ポリシーでは、次のことが要求されています。 Subscription1 にデプロイされた仮想マシンとサービスはオンプレミス ネットワークにアクセスできてはなりません。\nセキュリティ ポリシーに準拠しながらApp1 が移行後も機能し続けることを保証するソリューションを推奨する必要があります。\n推奨事項には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-048-c1",
+          "label": null,
+          "text": "仮想マシン上の Active Directory ドメイン サービス ロール",
+          "html": "仮想マシン上の Active Directory ドメイン サービス ロール"
+        },
+        {
+          "choiceId": "en2-q-048-c2",
+          "label": null,
+          "text": "Microsoft Entra ドメイン サービス",
+          "html": "Microsoft Entra ドメイン サービス"
+        },
+        {
+          "choiceId": "en2-q-048-c3",
+          "label": null,
+          "text": "Microsoft Entra アプリケーション プロキシ",
+          "html": "Microsoft Entra アプリケーション プロキシ"
+        },
+        {
+          "choiceId": "en2-q-048-c4",
+          "label": null,
+          "text": "Azure VPN ゲートウェイ",
+          "html": "Azure VPN ゲートウェイ"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-048-c2"
+      ],
+      "explanationHtml": "<p>Microsoft Entra Domain Services は、オンプレミスの Active Directory ドメインへの直接ネットワーク アクセスを必要とせずに、クラウドで LDAP、Kerberos、および NTLM 認証を提供するため正解です。これは、Microsoft Entra Connect を介してオンプレミス AD から既に同期されている既存の Microsoft Entra ID と連携して動作し、Server1 が Azure に移行された後も、LDAP クエリに依存するレガシー アプリケーション (Server1 の App1 など) が機能し続けることを許可します。</p><p>仮想マシン上の Active Directory ドメイン サービス ロールは、Azure での独自のドメイン コントローラーのデプロイと管理にはカスタム セットアップとメンテナンスが必要であり、オンプレミス AD への接続が何らかの方法で維持されない限りセキュリティ ポリシーに違反することになるため、これは誤りです (ポリシーにより維持できない)。</p><p>Microsoft Entra Application Proxy は、アプリケーションが Azure 内の LDAP にクエリできるようにするのではなく、安全なアクセスを介して外部ユーザーにオンプレミスのアプリケーションを公開するように設計されているため、間違っています。</p><p>Azure VPN ゲートウェイ は、オンプレミスへの安全な接続を確立するため、間違っています。これは、Azure からオンプレミス リソースへのアクセスを許可しないというポリシーに直接違反しています。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/domain-services/overview\">https://learn.microsoft.com/en-us/entra/identity/domain-services/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/app-proxy/overview-what-is-app-proxy\">https://learn.microsoft.com/en-us/entra/identity/app-proxy/overview-what-is-app-proxy</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/domain-services/compare-identity-solutions\">https://learn.microsoft.com/en-us/entra/identity/domain-services/compare-identity-solutions</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/hybrid/whatis-hybrid-identity\">https://learn.microsoft.com/en-us/entra/identity/hybrid/whatis-hybrid-identity</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/domain-services/tutorial-create-management-vm\">https://learn.microsoft.com/en-us/entra/identity/domain-services/tutorial-create-management-vm</a></p></li></ul>",
+      "explanationText": "Microsoft Entra Domain Services は、オンプレミスの Active Directory ドメインへの直接ネットワーク アクセスを必要とせずに、クラウドで LDAP、Kerberos、および NTLM 認証を提供するため正解です。これは、Microsoft Entra Connect を介してオンプレミス AD から既に同期されている既存の Microsoft Entra ID と連携して動作し、Server1 が Azure に移行された後も、LDAP クエリに依存するレガシー アプリケーション (Server1 の App1 など) が機能し続けることを許可します。\n仮想マシン上の Active Directory ドメイン サービス ロールは、Azure での独自のドメイン コントローラーのデプロイと管理にはカスタム セットアップとメンテナンスが必要であり、オンプレミス AD への接続が何らかの方法で維持されない限りセキュリティ ポリシーに違反することになるため、これは誤りです (ポリシーにより維持できない)。\nMicrosoft Entra Application Proxy は、アプリケーションが Azure 内の LDAP にクエリできるようにするのではなく、安全なアクセスを介して外部ユーザーにオンプレミスのアプリケーションを公開するように設計されているため、間違っています。\nAzure VPN ゲートウェイ は、オンプレミスへの安全な接続を確立するため、間違っています。これは、Azure からオンプレミス リソースへのアクセスを許可しないというポリシーに直接違反しています。\n参照:\n・https://learn.microsoft.com/en-us/entra/identity/domain-services/overview\n\n・https://learn.microsoft.com/en-us/entra/identity/app-proxy/overview-what-is-app-proxy\n\n・https://learn.microsoft.com/en-us/entra/identity/domain-services/compare-identity-solutions\n\n・https://learn.microsoft.com/en-us/entra/identity/hybrid/whatis-hybrid-identity\n\n・https://learn.microsoft.com/en-us/entra/identity/domain-services/tutorial-create-management-vm",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en2-q-049",
+      "sourceQuestionNumber": 49,
+      "promptHtml": "<p><strong>Azure Key Vault</strong> を使用して<strong>データ暗号化キー</strong>を保存する複数の<strong>Azure App Service Web アプリ</strong>があります。</p><p>さまざまな部門が、これらの Web アプリのサポートに関連する特定のリクエストを提出しました。</p><p><img src=\"assets/英語問題集2_files/2025-03-25_08-51-48-10c4fa314782c15de1247cd2aed6cff9.png\" alt=\"\"loading=\"eager\"></p><p>各部門の要求に対応するには、<strong>最も適切な Azure サービス</strong>を推奨する必要があります。</p><p>どの <strong>Azure かサービス</strong>を<code>セキュリティ</code>部門に推奨しますか。</p>",
+      "promptText": "Azure Key Vault を使用してデータ暗号化キーを保存する複数のAzure App Service Web アプリがあります。\nさまざまな部門が、これらの Web アプリのサポートに関連する特定のリクエストを提出しました。\n\n各部門の要求に対応するには、最も適切な Azure サービスを推奨する必要があります。\nどの Azure かサービスをセキュリティ部門に推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-049-c1",
+          "label": null,
+          "text": "Microsoft Entra Managed Identity",
+          "html": "<p>Microsoft Entra Managed Identity</p>"
+        },
+        {
+          "choiceId": "en2-q-049-c2",
+          "label": null,
+          "text": "Microsoft Entra Privileged Identity Management",
+          "html": "<p>Microsoft Entra Privileged Identity Management</p>"
+        },
+        {
+          "choiceId": "en2-q-049-c3",
+          "label": null,
+          "text": "Microsoft Entra接続",
+          "html": "<p>Microsoft Entra接続</p>"
+        },
+        {
+          "choiceId": "en2-q-049-c4",
+          "label": null,
+          "text": "Microsoft Entra ID Protection",
+          "html": "<p>Microsoft Entra ID Protection</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-049-c2"
+      ],
+      "explanationHtml": "<p>Microsoft Entra Privileged Identity Management は、Microsoft Entra ID の特権ロールへのアクセスを管理、監視、制御する機能を提供するため正解です。(以前の Microsoft Entra ID)。</p><p>Microsoft Entra マネージド ID は、資格情報を管理せずにアプリケーションが Azure リソースにアクセスするための安全な ID を提供することを目的としているため、不正確です。セキュリティ チームが必要とするロール アクセス レビュー、アラート、または監査履歴機能はサポートされていません。</p><p>Microsoft Entra Connect は、オンプレミスの Active Directory と Microsoft Entra ID の間で ID を同期するために使用されるため、不正確です。クラウドでの特権アクセスを管理または監査する機能は提供されません。</p><p>Microsoft Entra ID Protection は誤りです。これは、ロール レビューや管理アクティビティではなく、侵害されたアカウントやサインイン リスクなどの ID リスクの検出と対応に重点を置いているためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure#what-does-it-do\">https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure#what-does-it-do</a></p></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection\">https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect\">https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview\">https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview</a></p></li></ul>",
+      "explanationText": "Microsoft Entra Privileged Identity Management は、Microsoft Entra ID の特権ロールへのアクセスを管理、監視、制御する機能を提供するため正解です。(以前の Microsoft Entra ID)。\nMicrosoft Entra マネージド ID は、資格情報を管理せずにアプリケーションが Azure リソースにアクセスするための安全な ID を提供することを目的としているため、不正確です。セキュリティ チームが必要とするロール アクセス レビュー、アラート、または監査履歴機能はサポートされていません。\nMicrosoft Entra Connect は、オンプレミスの Active Directory と Microsoft Entra ID の間で ID を同期するために使用されるため、不正確です。クラウドでの特権アクセスを管理または監査する機能は提供されません。\nMicrosoft Entra ID Protection は誤りです。これは、ロール レビューや管理アクティビティではなく、侵害されたアカウントやサインイン リスクなどの ID リスクの検出と対応に重点を置いているためです。\n参照:\n・https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure#what-does-it-do\n\n・https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection\n\n・https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect\n\n・https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview",
+      "images": [
+        "assets/英語問題集2_files/2025-03-25_08-51-48-10c4fa314782c15de1247cd2aed6cff9.png"
+      ],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en2-linked-009",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en2-q-050",
+      "sourceQuestionNumber": 50,
+      "promptHtml": "<p><strong>Azure Key Vault</strong> を使用して<strong>データ暗号化キー</strong>を保存する複数の<strong>Azure App Service Web アプリ</strong>があります。</p><p>さまざまな部門が、これらの Web アプリのサポートに関連する特定のリクエストを提出しました。</p>\n<img src=\"assets/英語問題集2_files/2026-02-11_12-46-09-6539989261272d01941dbec8d64827ce.png\" alt=\"\"loading=\"eager\"><p>各部門の要求に対応するために<strong>最も適切な Azure サービス</strong>を推奨する必要があります。</p><p> <code>開発</code> 部門には <strong>Azure サービス</strong> をお勧めしますか。</p>",
+      "promptText": "Azure Key Vault を使用してデータ暗号化キーを保存する複数のAzure App Service Web アプリがあります。\nさまざまな部門が、これらの Web アプリのサポートに関連する特定のリクエストを提出しました。\n\n各部門の要求に対応するために最も適切な Azure サービスを推奨する必要があります。\n 開発 部門には Azure サービス をお勧めしますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-050-c1",
+          "label": null,
+          "text": "Microsoft Entra Privileged Identity Management",
+          "html": "<p>Microsoft Entra Privileged Identity Management</p>"
+        },
+        {
+          "choiceId": "en2-q-050-c2",
+          "label": null,
+          "text": "Azure マネージド ID",
+          "html": "<p>Azure マネージド ID</p>"
+        },
+        {
+          "choiceId": "en2-q-050-c3",
+          "label": null,
+          "text": "Microsoft Entra接続",
+          "html": "<p>Microsoft Entra接続</p>"
+        },
+        {
+          "choiceId": "en2-q-050-c4",
+          "label": null,
+          "text": "Microsoft Entra ID Protection",
+          "html": "<p>Microsoft Entra ID Protection</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-050-c2"
+      ],
+      "explanationHtml": "<p>Azure マネージド ID は、App Service Web アプリなどの Azure サービスで実行されているアプリケーションが Azure Key などの他の Azure リソースにアクセスするための安全なパスワードなしの認証を可能にするため正解です。保管庫。</p><p>Microsoft Entra Privileged Identity Management は、アプリケーションに Key などの Azure リソースへのアクセスを許可するのではなく、人間のユーザーの昇格されたアクセスを管理するように設計されているため、不正確です。 Vault。</p><p>Microsoft Entra Connect は誤りです。オンプレミスの Active Directory ID を Microsoft Entra ID に同期するために使用され、アプリからリソースへのアクセスを促進しません。</p><p>Microsoft Entra ID Protection は誤りです。アプリケーションと Azure サービス間の ID や認証の管理ではなく、ID ベースのリスクの検出と対応に役立ちます。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview\">https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview</a></p></li></ul>",
+      "explanationText": "Azure マネージド ID は、App Service Web アプリなどの Azure サービスで実行されているアプリケーションが Azure Key などの他の Azure リソースにアクセスするための安全なパスワードなしの認証を可能にするため正解です。保管庫。\nMicrosoft Entra Privileged Identity Management は、アプリケーションに Key などの Azure リソースへのアクセスを許可するのではなく、人間のユーザーの昇格されたアクセスを管理するように設計されているため、不正確です。 Vault。\nMicrosoft Entra Connect は誤りです。オンプレミスの Active Directory ID を Microsoft Entra ID に同期するために使用され、アプリからリソースへのアクセスを促進しません。\nMicrosoft Entra ID Protection は誤りです。アプリケーションと Azure サービス間の ID や認証の管理ではなく、ID ベースのリスクの検出と対応に役立ちます。\n参照:\n・https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview",
+      "images": [
+        "assets/英語問題集2_files/2026-02-11_12-46-09-6539989261272d01941dbec8d64827ce.png"
+      ],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en2-linked-009",
+      "tags": [
+        "linked-question"
+      ]
+    }
+  ]
+}

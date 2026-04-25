@@ -5,7 +5,7 @@ const { loadQuizEnvironment } = require("./test-helpers");
 
 describe("quiz session", () => {
   describe("normal mode", () => {
-    test.todo("通常モードでセット内 10 問を固定順で開始できる");
+    test.todo("通常モードでセット内の問題を固定順で開始できる");
     test.todo("現在問題番号と総問題数を進捗表示できる");
     test.todo("問題文と画像を表示できる");
     test.todo("単一選択問題で 1 つの選択肢を選んで回答確定できる");

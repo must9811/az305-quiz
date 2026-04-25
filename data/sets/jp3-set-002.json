@@ -54,7 +54,7 @@
       "images": [
         "assets/問題集3_files/2023-02-05_05-40-27-b4b99825686027b91ae927756d19532d.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-002",
       "tags": [
@@ -92,7 +92,7 @@
       "explanationHtml": "<p>Azure Databricksの価格レベルには、Standard とPremium がありますが、「Azure Data Lake Storage 資格情報（クレデンシャル）パススルー」を使用するには Premium プランが必要です。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/databricks/data-governance/credential-passthrough/adls-passthrough\">https://learn.microsoft.com/ja-jp/azure/databricks/data-governance/credential-passthrough/adls-passthrough</a></p>",
       "explanationText": "Azure Databricksの価格レベルには、Standard とPremium がありますが、「Azure Data Lake Storage 資格情報（クレデンシャル）パススルー」を使用するには Premium プランが必要です。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/databricks/data-governance/credential-passthrough/adls-passthrough",
       "images": [],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-002",
       "tags": [
@@ -138,7 +138,7 @@
       "images": [
         "assets/問題集3_files/2023-01-16_02-04-08-0a383960c49ead2ced005f372f0120e9.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -182,7 +182,7 @@
       "images": [
         "assets/問題集3_files/2023-01-26_07-58-28-01a55edacbf3d31358f70dc8f90dda3a.png"
       ],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -214,10 +214,12 @@
       "images": [
         "assets/問題集3_files/2023-01-10_13-14-40-f83c8783905f238aa620ec102566d05d.png"
       ],
-      "domain": null,
-      "questionType": "single",
+      "domain": "インフラストラクチャソリューションを設計する",
+      "questionType": "boolean",
       "contextGroupId": null,
-      "tags": []
+      "tags": [
+        "boolean"
+      ]
     },
     {
       "questionId": "jp3-q-016",
@@ -259,7 +261,7 @@
         "assets/問題集3_files/2024-10-04_07-38-19-96f1a75f0924c205a465d1609894799c.png",
         "assets/問題集3_files/2023-01-18_02-26-10-eef84952f7cf50146c59671446766533.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -295,7 +297,7 @@
       "explanationHtml": "<p>まず、BLOBストレージの指定があるので選択肢2の「Premium ファイル共有」は誤りです。</p><p><br></p><p><code>・BLOBのアクセス層をサポートすること</code> </p><p>ホット、クール、アーカイブのアクセス層はStandard 汎用 v2 アカウントでサポートされます。</p><p>「Premium ブロック BLOB」ではサポートされていません。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts\">https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts</a></p>",
       "explanationText": "まず、BLOBストレージの指定があるので選択肢2の「Premium ファイル共有」は誤りです。\n\n・BLOBのアクセス層をサポートすること\nホット、クール、アーカイブのアクセス層はStandard 汎用 v2 アカウントでサポートされます。\n「Premium ブロック BLOB」ではサポートされていません。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-feature-support-in-storage-accounts",
       "images": [],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-003",
       "tags": [
@@ -339,7 +341,7 @@
       "explanationHtml": "<p><code>・単一のAzureデータセンターが故障した場合に利用可能であること</code> </p><p><code>・コストを最小限に抑えること</code> </p><p>データセンター障害から保護するにはゾーン冗長（ZRS）、または、geo 冗長（GRS）で構成する必要があります。</p><p>LRS以外の選択肢のうち、コストが最も低いのは選択肢2の「ゾーン冗長ストレージ (ZRS) 」になります。</p><p>※LRS &lt;&nbsp;ZRS &lt; GRS &lt; GZRS &lt; RA-GRS &lt; RA-GZRS の順にコストが高くなります。</p><p><br></p><p>【参考】</p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/storage/blobs/\">https://azure.microsoft.com/ja-jp/pricing/details/storage/blobs/</a></p>",
       "explanationText": "・単一のAzureデータセンターが故障した場合に利用可能であること\n・コストを最小限に抑えること\nデータセンター障害から保護するにはゾーン冗長（ZRS）、または、geo 冗長（GRS）で構成する必要があります。\nLRS以外の選択肢のうち、コストが最も低いのは選択肢2の「ゾーン冗長ストレージ (ZRS) 」になります。\n※LRS < ZRS < GRS < GZRS < RA-GRS < RA-GZRS の順にコストが高くなります。\n\n【参考】\nhttps://azure.microsoft.com/ja-jp/pricing/details/storage/blobs/",
       "images": [],
-      "domain": null,
+      "domain": "ビジネス継続性ソリューションを設計する",
       "questionType": "single",
       "contextGroupId": "jp3-linked-003",
       "tags": [
@@ -371,10 +373,12 @@
       "explanationHtml": "<p>AzCopyは、コマンドラインでAzure Storageを操作するためのCUIツールで、ストレージアカウントとの間でBlobやファイルをコピーするために使用できます。</p><p>仮想マシンの仮想ディスク（VHD）ファイルをページBLOBとしてコピーし、そのVHDファイルからディスクを作成することもできなくはないですが、仮想マシンに変更が加えられると整合が取れなくなるため適切ではありません。</p><p><br></p><p>代わりに、Azure Site Recoveryを使用できます。</p><p>Azure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。</p><p>レプリケーションの進行中にディスクの変更が発生した場合でも、変更を追跡して整合する仕組みが備わっているため、仮想マシンを利用することができます。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/site-recovery/hyper-v-azure-architecture\">https://learn.microsoft.com/ja-jp/azure/site-recovery/hyper-v-azure-architecture</a></p>",
       "explanationText": "AzCopyは、コマンドラインでAzure Storageを操作するためのCUIツールで、ストレージアカウントとの間でBlobやファイルをコピーするために使用できます。\n仮想マシンの仮想ディスク（VHD）ファイルをページBLOBとしてコピーし、そのVHDファイルからディスクを作成することもできなくはないですが、仮想マシンに変更が加えられると整合が取れなくなるため適切ではありません。\n\n代わりに、Azure Site Recoveryを使用できます。\nAzure Site Recoveryは、オンプレミスやAzure上のサーバを別の場所にレプリケーション（同期）して、自然災害などの大規模障害に備えるためのサービスです。\nレプリケーションの進行中にディスクの変更が発生した場合でも、変更を追跡して整合する仕組みが備わっているため、仮想マシンを利用することができます。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/site-recovery/hyper-v-azure-architecture",
       "images": [],
-      "domain": null,
-      "questionType": "single",
+      "domain": "ビジネス継続性ソリューションを設計する",
+      "questionType": "boolean",
       "contextGroupId": null,
-      "tags": []
+      "tags": [
+        "boolean"
+      ]
     },
     {
       "questionId": "jp3-q-020",
@@ -415,7 +419,7 @@
       "images": [
         "assets/問題集3_files/2023-01-19_07-55-38-f669d88756c0c4dfabe6ce30ec3597cc.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []

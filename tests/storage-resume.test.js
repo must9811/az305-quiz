@@ -13,7 +13,7 @@ describe("storage and resume", () => {
       QuizStorage.updateSetAttemptState("set-001", 0, true);
       QuizStorage.updateSetAttemptState("set-001", 2, true);
 
-      assert.deepEqual(QuizStorage.getSetAttemptState("set-001"), [true, false, true]);
+      assert.deepEqual(Array.from(QuizStorage.getSetAttemptState("set-001")), [true, false, true]);
     });
 
     test("未保存のセットは 3 つとも未チェックで復元する", () => {
@@ -21,7 +21,7 @@ describe("storage and resume", () => {
         localStorage: createLocalStorage(),
       });
 
-      assert.deepEqual(QuizStorage.getSetAttemptState("set-999"), [false, false, false]);
+      assert.deepEqual(Array.from(QuizStorage.getSetAttemptState("set-999")), [false, false, false]);
     });
   });
 

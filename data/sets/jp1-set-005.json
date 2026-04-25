@@ -64,9 +64,9 @@
       "explanationHtml": "<p><code>・アプリケーションがSQLインジェクションから保護されること</code></p><p>SQLインジェクションから保護するにはWeb Application Firewall（WAF）を使用します。</p><p>Web Application Firewall（WAF）は、SQL インジェクションやクロス サイト スクリプティングなど、一般的な既知の脆弱性を悪用した悪意のある攻撃からWebアプリケーションを保護するサービスです。</p><p><br></p><p>【参考】</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/application-gateway/features#web-application-firewall\">https://learn.microsoft.com/ja-jp/azure/application-gateway/features#web-application-firewall</a></p><p><br></p>",
       "explanationText": "・アプリケーションがSQLインジェクションから保護されること\nSQLインジェクションから保護するにはWeb Application Firewall（WAF）を使用します。\nWeb Application Firewall（WAF）は、SQL インジェクションやクロス サイト スクリプティングなど、一般的な既知の脆弱性を悪用した悪意のある攻撃からWebアプリケーションを保護するサービスです。\n\n【参考】\nhttps://learn.microsoft.com/ja-jp/azure/application-gateway/features#web-application-firewall",
       "images": [],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": "jp1-linked-006",
+      "contextGroupId": "jp1-linked-007",
       "tags": [
         "linked-question"
       ]
@@ -110,7 +110,7 @@
       "images": [
         "assets/問題集1_files/2023-02-01_06-12-09-5717b19a75227ff43da8ec83c93af278.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -154,7 +154,7 @@
       "images": [
         "assets/問題集1_files/2023-01-24_07-01-10-488da056dc1e08caad4d3f24285b25b8.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -196,7 +196,7 @@
       "explanationHtml": "<p><code>それぞれ20GBの20個のデータベースを含み、それぞれさまざまな使用パターンを持っています</code></p><p><code>・データベースに割り当てられるコンピューティングリソースは動的に拡張可能であること</code></p><p><code>・コストを最小限に抑えること</code></p><p>エラスティック プールは、個々のデータベースのコンピューティングリソースを選択するのではなく、リソースのプールを作成して複数のデータベースで共有できる仕組みです。データベース単位ではなく、プールしたコンピューティングリソースの時間に応じて課金されます。</p><p>ピーク時間の異なる複数のデータベースがある場合、エラスティックプールを作成して複数のデータベースで共有することでコストを節約することができます。</p><p><br></p><p>プール内の個々のデータベースでは、設定されたパラメーターの範囲内でリソースを柔軟に使用できます。 負荷が大きい場合、データベースはリソースの使用量を増やして需要に対応します。 負荷が小さい場合、データベースはリソースの使用量を減らし、負荷がない場合は、リソースを使用しません。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql</a></p><p><br></p><p><code>・月間稼働率 99.99% のSLAを満たすこと</code></p><p>エラスティックプールの利用有無に限らず、Azure SQL Databaseでは少なくとも99.99%以上の月間稼働率のSLAが定められています。</p><p><a href=\"https://azure.microsoft.com/ja-jp/support/legal/sla/azure-sql-database/v1_8/\">https://azure.microsoft.com/ja-jp/support/legal/sla/azure-sql-database/v1_8/</a></p><p><br></p><p><code>・予約購入できること </code></p><p>1年間、または3年間の予約容量を購入することでコストを節約することもできます。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql\">https://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql</a></p><p><a href=\"https://azure.microsoft.com/ja-jp/pricing/details/azure-sql-database/elastic/\">https://azure.microsoft.com/ja-jp/pricing/details/azure-sql-database/elastic/</a></p>",
       "explanationText": "それぞれ20GBの20個のデータベースを含み、それぞれさまざまな使用パターンを持っています\n・データベースに割り当てられるコンピューティングリソースは動的に拡張可能であること\n・コストを最小限に抑えること\nエラスティック プールは、個々のデータベースのコンピューティングリソースを選択するのではなく、リソースのプールを作成して複数のデータベースで共有できる仕組みです。データベース単位ではなく、プールしたコンピューティングリソースの時間に応じて課金されます。\nピーク時間の異なる複数のデータベースがある場合、エラスティックプールを作成して複数のデータベースで共有することでコストを節約することができます。\n\nプール内の個々のデータベースでは、設定されたパラメーターの範囲内でリソースを柔軟に使用できます。 負荷が大きい場合、データベースはリソースの使用量を増やして需要に対応します。 負荷が小さい場合、データベースはリソースの使用量を減らし、負荷がない場合は、リソースを使用しません。\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/elastic-pool-overview?view=azuresql\n\n・月間稼働率 99.99% のSLAを満たすこと\nエラスティックプールの利用有無に限らず、Azure SQL Databaseでは少なくとも99.99%以上の月間稼働率のSLAが定められています。\nhttps://azure.microsoft.com/ja-jp/support/legal/sla/azure-sql-database/v1_8/\n\n・予約購入できること\n1年間、または3年間の予約容量を購入することでコストを節約することもできます。\nhttps://learn.microsoft.com/ja-jp/azure/azure-sql/database/reserved-capacity-overview?view=azuresql\nhttps://azure.microsoft.com/ja-jp/pricing/details/azure-sql-database/elastic/",
       "images": [],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
       "contextGroupId": null,
       "tags": []
@@ -235,9 +235,9 @@
         "assets/問題集1_files/2023-01-24_07-42-20-ef9fd5b4eb8e1b8d8767618b160e6d89.png",
         "assets/問題集1_files/2023-01-24_07-42-20-4784c23856a4220b5602e97bc0fff52c.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": "jp1-linked-007",
+      "contextGroupId": "jp1-linked-008",
       "tags": [
         "linked-question"
       ]
@@ -276,9 +276,9 @@
         "assets/問題集1_files/2023-01-24_07-44-22-f9348ba2b9a8a55947a9f8bae21c130b.png",
         "assets/問題集1_files/2023-01-24_07-44-22-783f5ea66f9fbf0a146247bfda4b62be.png"
       ],
-      "domain": null,
+      "domain": "データストレージソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": "jp1-linked-007",
+      "contextGroupId": "jp1-linked-008",
       "tags": [
         "linked-question"
       ]
@@ -322,10 +322,12 @@
       "images": [
         "assets/問題集1_files/2023-01-22_04-59-54-83c6f3f2b740447d421951dc0e3c5b0d.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp1-linked-008",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp1-q-048",
@@ -366,10 +368,12 @@
       "images": [
         "assets/問題集1_files/2023-01-22_04-59-54-83c6f3f2b740447d421951dc0e3c5b0d.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp1-linked-008",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp1-q-049",
@@ -410,10 +414,12 @@
       "images": [
         "assets/問題集1_files/2023-01-22_04-59-54-83c6f3f2b740447d421951dc0e3c5b0d.png"
       ],
-      "domain": null,
+      "domain": "ID、ガバナンス、および監視ソリューションを設計する",
       "questionType": "single",
-      "contextGroupId": null,
-      "tags": []
+      "contextGroupId": "jp1-linked-008",
+      "tags": [
+        "linked-question"
+      ]
     },
     {
       "questionId": "jp1-q-050",
@@ -459,7 +465,7 @@
       "explanationHtml": "<p><code>・実装に必要な労力を最小限にすること</code></p><p>コンピューティングリソースとして、仮想マシンや仮想マシンスケールセットを選択することもできますが、PaaSのサービスである「Azure Batch」を使用すると実装の労力を抑えることができます。</p><p>Azure Batchは、大規模な並列コンピューティングやハイパフォーマンス コンピューティング (HPC) のバッチ ジョブを効率的に実行するためのサービスです。</p><p>3D画像のレンダリングや機械学習の処理など、大量のサーバ台数や高い性能を必要とする並列ワークロードに適しています。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/batch/batch-technical-overview\">https://learn.microsoft.com/ja-jp/azure/batch/batch-technical-overview</a></p><p><br></p><p><code>・複数のシーンをできるだけ高速に計算するために、ノード数を最大化できること</code></p><p>Azure Batchでは、「プール」という単位で処理を実行するノード（実態は仮想マシン）をひとまとめにして管理します。プール内のノードの数は、固定の数にしたり、需要に応じて自動スケールするよう構成することもできます。</p><p>また、単一のノードで同時に実行できるタスク（タスクスロット）の数を調整して並列タスク実行を有効にすることで、ジョブ時間を短縮でき、コストを削減できる場合があります。</p><p><a href=\"https://learn.microsoft.com/ja-jp/azure/batch/batch-parallel-node-tasks\">https://learn.microsoft.com/ja-jp/azure/batch/batch-parallel-node-tasks</a></p>",
       "explanationText": "・実装に必要な労力を最小限にすること\nコンピューティングリソースとして、仮想マシンや仮想マシンスケールセットを選択することもできますが、PaaSのサービスである「Azure Batch」を使用すると実装の労力を抑えることができます。\nAzure Batchは、大規模な並列コンピューティングやハイパフォーマンス コンピューティング (HPC) のバッチ ジョブを効率的に実行するためのサービスです。\n3D画像のレンダリングや機械学習の処理など、大量のサーバ台数や高い性能を必要とする並列ワークロードに適しています。\nhttps://learn.microsoft.com/ja-jp/azure/batch/batch-technical-overview\n\n・複数のシーンをできるだけ高速に計算するために、ノード数を最大化できること\nAzure Batchでは、「プール」という単位で処理を実行するノード（実態は仮想マシン）をひとまとめにして管理します。プール内のノードの数は、固定の数にしたり、需要に応じて自動スケールするよう構成することもできます。\nまた、単一のノードで同時に実行できるタスク（タスクスロット）の数を調整して並列タスク実行を有効にすることで、ジョブ時間を短縮でき、コストを削減できる場合があります。\nhttps://learn.microsoft.com/ja-jp/azure/batch/batch-parallel-node-tasks",
       "images": [],
-      "domain": null,
+      "domain": "インフラストラクチャソリューションを設計する",
       "questionType": "multi",
       "contextGroupId": null,
       "tags": []

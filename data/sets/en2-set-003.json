@@ -1,0 +1,476 @@
+{
+  "setId": "en2-set-003",
+  "title": "英語問題集2 翻訳版 21-30",
+  "sourceHtml": "assets/英語問題集2.html",
+  "questionIds": [
+    "en2-q-021",
+    "en2-q-022",
+    "en2-q-023",
+    "en2-q-024",
+    "en2-q-025",
+    "en2-q-026",
+    "en2-q-027",
+    "en2-q-028",
+    "en2-q-029",
+    "en2-q-030"
+  ],
+  "questions": [
+    {
+      "questionId": "en2-q-021",
+      "sourceQuestionNumber": 21,
+      "promptHtml": "<p><strong>オンプレミス環境</strong>から <strong>Azure</strong> にデータを移行することを計画しています。</p><p>データ ソースとその対象となる Azure の移行先は次のとおりです。</p><p><strong>オンプレミスのデータ ソースとターゲット</strong></p><ul><li><p><strong>Microsoft SQL サーバー2014 データベース</strong>は<strong>Azure SQL データベース</strong></p></li><li><p><strong>Microsoft SQL Server 2016 データベースの<strong>テーブル</strong>は<strong>Azure Cosmos DB (NoSQL) アカウント</strong></p></li></ul><p>に移行することを推奨する必要があります。 <strong>SQL Server 2014 データベース</strong>から Azure にデータを移行するための適切なソリューション。</p><p>何を推奨しますか。</p>",
+      "promptText": "オンプレミス環境から Azure にデータを移行することを計画しています。\nデータ ソースとその対象となる Azure の移行先は次のとおりです。\nオンプレミスのデータ ソースとターゲット\n・Microsoft SQL サーバー2014 データベースはAzure SQL データベース\n\n・Microsoft SQL Server 2016 データベースのテーブルはAzure Cosmos DB (NoSQL) アカウント\n\nに移行することを推奨する必要があります。 SQL Server 2014 データベースから Azure にデータを移行するための適切なソリューション。\n何を推奨しますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-021-c1",
+          "label": null,
+          "text": "AzCopy",
+          "html": "AzCopy"
+        },
+        {
+          "choiceId": "en2-q-021-c2",
+          "label": null,
+          "text": "Azure Cosmos DB データ移行ツール",
+          "html": "Azure Cosmos DB データ移行ツール"
+        },
+        {
+          "choiceId": "en2-q-021-c3",
+          "label": null,
+          "text": "データ管理ゲートウェイ",
+          "html": "データ管理ゲートウェイ"
+        },
+        {
+          "choiceId": "en2-q-021-c4",
+          "label": null,
+          "text": "データ移行アシスタント",
+          "html": "データ移行アシスタント"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-021-c4"
+      ],
+      "explanationHtml": "<p>データ移行アシスタントは、オンプレミス SQL サーバー データベース (SQL サーバーを含む) を移行するための推奨ツールであるため正解です。2014) Azure SQL データベースへ。</p><p>AzCopy は、Azure Storage との間でファイルや BLOB を転送するために使用されるコマンド ライン ツールであるため、不正確です。 SQL サーバーが関与するような構造化データベースの移行はサポートされていません。</p><p>Azure Cosmos DB データ移行ツールは、Azure SQL データベースではなく、Azure Cosmos DB にデータをインポートするように設計されているため、不正確です。 JSON、CSV、SQL サーバー ソースなどの形式をサポートしていますが、この特定のソースとターゲットのペアには適用できません。</p><p>データ管理ゲートウェイは、Azure Data Factory パイプラインでオンプレミスのデータ接続を有効にするために使用され、通常は直接的なものではなく、定期的なシナリオまたは統合ベースのシナリオで使用されるため、不正確です。 SQL サーバーから Azure SQL データベースへの移行。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/data-migration/sql-server/database/overview?view=azuresql\">https://learn.microsoft.com/en-us/data-migration/sql-server/database/overview?view=azuresql</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/sql/dma/dma-overview\">https://learn.microsoft.com/en-us/sql/dma/dma-overview</a></p></li></ul>",
+      "explanationText": "データ移行アシスタントは、オンプレミス SQL サーバー データベース (SQL サーバーを含む) を移行するための推奨ツールであるため正解です。2014) Azure SQL データベースへ。\nAzCopy は、Azure Storage との間でファイルや BLOB を転送するために使用されるコマンド ライン ツールであるため、不正確です。 SQL サーバーが関与するような構造化データベースの移行はサポートされていません。\nAzure Cosmos DB データ移行ツールは、Azure SQL データベースではなく、Azure Cosmos DB にデータをインポートするように設計されているため、不正確です。 JSON、CSV、SQL サーバー ソースなどの形式をサポートしていますが、この特定のソースとターゲットのペアには適用できません。\nデータ管理ゲートウェイは、Azure Data Factory パイプラインでオンプレミスのデータ接続を有効にするために使用され、通常は直接的なものではなく、定期的なシナリオまたは統合ベースのシナリオで使用されるため、不正確です。 SQL サーバーから Azure SQL データベースへの移行。\n参照:\n・https://learn.microsoft.com/en-us/data-migration/sql-server/database/overview?view=azuresql\n\n・https://learn.microsoft.com/en-us/sql/dma/dma-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en2-linked-002",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en2-q-022",
+      "sourceQuestionNumber": 22,
+      "promptHtml": "<p><strong>オンプレミス環境</strong>から <strong>Azure</strong> にデータを移行することを計画しています。</p><p>データ ソースとその対象となる Azure の移行先は次のとおりです。</p><p><strong>オンプレミスのデータ ソースとターゲット</strong></p><ul><li><p><strong>Microsoft SQL サーバー<strong>Azure SQL データベース</strong></p></li><li><p><strong>Azure Cosmos DB (NoSQL) アカウント</strong>に移行される Microsoft SQL Server 2016 データベースの<strong>テーブル</strong></p></li></ul><p>どのツールSQL Server 2016 データベースのテーブルから<strong>データを移行する</strong>ことをお勧めしますか。</p>",
+      "promptText": "オンプレミス環境から Azure にデータを移行することを計画しています。\nデータ ソースとその対象となる Azure の移行先は次のとおりです。\nオンプレミスのデータ ソースとターゲット\n・Microsoft SQL サーバーAzure SQL データベース\n\n・Azure Cosmos DB (NoSQL) アカウントに移行される Microsoft SQL Server 2016 データベースのテーブル\n\nどのツールSQL Server 2016 データベースのテーブルからデータを移行することをお勧めしますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-022-c1",
+          "label": null,
+          "text": "AzCopy",
+          "html": "AzCopy"
+        },
+        {
+          "choiceId": "en2-q-022-c2",
+          "label": null,
+          "text": "Azure Cosmos DB データ移行ツール",
+          "html": "Azure Cosmos DB データ移行ツール"
+        },
+        {
+          "choiceId": "en2-q-022-c3",
+          "label": null,
+          "text": "データ管理ゲートウェイ",
+          "html": "データ管理ゲートウェイ"
+        },
+        {
+          "choiceId": "en2-q-022-c4",
+          "label": null,
+          "text": "Data Migration Assistant",
+          "html": "Data Migration Assistant"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-022-c2"
+      ],
+      "explanationHtml": "<p>Azure Cosmos DB データ移行ツールは、SQL サーバーなどのさまざまなソースから Azure Cosmos DB for NoSQL にデータを移行するように設計されているため正しいです。このシナリオでは、ソースは Microsoft SQL Server 2016 データベース内のテーブルであり、ターゲットは Azure Cosmos DB です。</p><p>AzCopy は、Azure Storage 間での構造化データの移行ではなく、Azure Storage との間で BLOB とファイルを転送するために使用されるため、不正確です。 SQL サーバーと Cosmos DB。</p><p>データ管理ゲートウェイは、直接の 1 回限りの移行タスクではなく、Azure Data Factory のオンプレミス データ アクセスを有効にするために使用されるため、不正確です。</p><p>データ移行アシスタント は誤りです。これは、SQL サーバー データベースを評価し、Cosmos ではなく Azure SQL データベースまたは SQL マネージド インスタンスに移行するために使用されます。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/cosmos-db/import-data\">https://learn.microsoft.com/en-us/azure/cosmos-db/import-data</a></p></li></ul>",
+      "explanationText": "Azure Cosmos DB データ移行ツールは、SQL サーバーなどのさまざまなソースから Azure Cosmos DB for NoSQL にデータを移行するように設計されているため正しいです。このシナリオでは、ソースは Microsoft SQL Server 2016 データベース内のテーブルであり、ターゲットは Azure Cosmos DB です。\nAzCopy は、Azure Storage 間での構造化データの移行ではなく、Azure Storage との間で BLOB とファイルを転送するために使用されるため、不正確です。 SQL サーバーと Cosmos DB。\nデータ管理ゲートウェイは、直接の 1 回限りの移行タスクではなく、Azure Data Factory のオンプレミス データ アクセスを有効にするために使用されるため、不正確です。\nデータ移行アシスタント は誤りです。これは、SQL サーバー データベースを評価し、Cosmos ではなく Azure SQL データベースまたは SQL マネージド インスタンスに移行するために使用されます。\n参照:\n・https://learn.microsoft.com/en-us/azure/cosmos-db/import-data",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en2-linked-002",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en2-q-023",
+      "sourceQuestionNumber": 23,
+      "promptHtml": "<p>現在、会社は <strong>Azure 仮想マシン</strong>で Web アプリケーションをホストしています。</p><p>アプリケーションが<strong>SQL インジェクション攻撃</strong>から保護されていること、および<strong>レイヤー 7 負荷分散ソリューション</strong>を使用してトラフィックが分散されていることを確認する必要があります。このソリューションでは、<strong>既存のアプリケーション コードへの最小限の変更</strong>が必要です。</p><p>どの <code>Azure サービス</code> をお勧めしますか。</p>",
+      "promptText": "現在、会社は Azure 仮想マシンで Web アプリケーションをホストしています。\nアプリケーションがSQL インジェクション攻撃から保護されていること、およびレイヤー 7 負荷分散ソリューションを使用してトラフィックが分散されていることを確認する必要があります。このソリューションでは、既存のアプリケーション コードへの最小限の変更が必要です。\nどの Azure サービス をお勧めしますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-023-c1",
+          "label": null,
+          "text": "Web アプリケーション ファイアウォール (WAF)",
+          "html": "Web アプリケーション ファイアウォール (WAF)"
+        },
+        {
+          "choiceId": "en2-q-023-c2",
+          "label": null,
+          "text": "Azure Application Gateway",
+          "html": "Azure Application Gateway"
+        },
+        {
+          "choiceId": "en2-q-023-c3",
+          "label": null,
+          "text": "Azure Load Balancer",
+          "html": "Azure Load Balancer"
+        },
+        {
+          "choiceId": "en2-q-023-c4",
+          "label": null,
+          "text": "Azure Traffic Manager",
+          "html": "Azure Traffic Manager"
+        },
+        {
+          "choiceId": "en2-q-023-c5",
+          "label": null,
+          "text": "SSL オフロード",
+          "html": "SSL オフロード"
+        },
+        {
+          "choiceId": "en2-q-023-c6",
+          "label": null,
+          "text": "URL ベースのコンテンツ ルーティング",
+          "html": "URL ベースのコンテンツ ルーティング"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-023-c2"
+      ],
+      "explanationHtml": "<p>Azure Application Gateway はこれは高度な HTTP ルーティング、Web アプリケーション ファイアウォール (WAF) 統合、SSL オフロード、URL ベースのコンテンツ ルーティングをサポートするレイヤー 7 ロード バランサーであるため正解です。既存のアプリケーション コードを変更することなく、SQL インジェクションなどの脅威から一元的に保護できます。</p><p>Web アプリケーション ファイアウォール (WAF) は、スタンドアロンの Azure サービスではないため不正解です。これは Azure Application Gateway (および Azure Front Door) の機能です。</p><p>Azure Load Balancer は、レイヤー 4 (TCP/UDP) で動作し、WAF、SSL 終了、HTTP ベースのルーティングなどのアプリケーション層機能をサポートしていないため、不正確です。</p><p>Azure Traffic Manager は、DNS ベースのグローバル トラフィック分散サービスであり、真のロード バランサーではないため、不正確です。レイヤー 7 で HTTP トラフィックを検査または管理したり、Web ベースの脅威から保護したりすることはできません。</p><p>SSL オフロード と URL ベースのコンテンツ ルーティング は、Azure サービス自体ではなく、Azure アプリケーションによってサポートされる機能であるため、不正確です。ゲートウェイ。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/application-gateway/overview\">https://learn.microsoft.com/en-us/azure/application-gateway/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/web-application-firewall/overview\">https://learn.microsoft.com/en-us/azure/web-application-firewall/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\">https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview\">https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview</a></p></li></ul>",
+      "explanationText": "Azure Application Gateway はこれは高度な HTTP ルーティング、Web アプリケーション ファイアウォール (WAF) 統合、SSL オフロード、URL ベースのコンテンツ ルーティングをサポートするレイヤー 7 ロード バランサーであるため正解です。既存のアプリケーション コードを変更することなく、SQL インジェクションなどの脅威から一元的に保護できます。\nWeb アプリケーション ファイアウォール (WAF) は、スタンドアロンの Azure サービスではないため不正解です。これは Azure Application Gateway (および Azure Front Door) の機能です。\nAzure Load Balancer は、レイヤー 4 (TCP/UDP) で動作し、WAF、SSL 終了、HTTP ベースのルーティングなどのアプリケーション層機能をサポートしていないため、不正確です。\nAzure Traffic Manager は、DNS ベースのグローバル トラフィック分散サービスであり、真のロード バランサーではないため、不正確です。レイヤー 7 で HTTP トラフィックを検査または管理したり、Web ベースの脅威から保護したりすることはできません。\nSSL オフロード と URL ベースのコンテンツ ルーティング は、Azure サービス自体ではなく、Azure アプリケーションによってサポートされる機能であるため、不正確です。ゲートウェイ。\n参照:\n・https://learn.microsoft.com/en-us/azure/application-gateway/overview\n\n・https://learn.microsoft.com/en-us/azure/web-application-firewall/overview\n\n・https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\n\n・https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en2-linked-003",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en2-q-024",
+      "sourceQuestionNumber": 24,
+      "promptHtml": "<p>現在、会社は <strong>Azure 仮想マシン</strong>で Web アプリケーションをホストしています。</p><p>アプリケーションが<strong>SQL インジェクション攻撃</strong>から保護されていること、および<strong>レイヤー 7 負荷分散ソリューション</strong>を使用してトラフィックが分散されていることを確認する必要があります。このソリューションには、<strong>既存のアプリケーション コードへの最小限の変更</strong>が必要です。</p><p>どの <code>機能</code> をお勧めしますか。</p>",
+      "promptText": "現在、会社は Azure 仮想マシンで Web アプリケーションをホストしています。\nアプリケーションがSQL インジェクション攻撃から保護されていること、およびレイヤー 7 負荷分散ソリューションを使用してトラフィックが分散されていることを確認する必要があります。このソリューションには、既存のアプリケーション コードへの最小限の変更が必要です。\nどの 機能 をお勧めしますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-024-c1",
+          "label": null,
+          "text": "Azure Application Gateway",
+          "html": "Azure Application Gateway"
+        },
+        {
+          "choiceId": "en2-q-024-c2",
+          "label": null,
+          "text": "Web アプリケーション ファイアウォール (WAF)",
+          "html": "Web アプリケーション ファイアウォール (WAF)"
+        },
+        {
+          "choiceId": "en2-q-024-c3",
+          "label": null,
+          "text": "Azure Load Balancer",
+          "html": "Azure Load Balancer"
+        },
+        {
+          "choiceId": "en2-q-024-c4",
+          "label": null,
+          "text": "Azure Traffic Manager",
+          "html": "Azure Traffic Manager"
+        },
+        {
+          "choiceId": "en2-q-024-c5",
+          "label": null,
+          "text": "SSL オフロード",
+          "html": "SSL オフロード"
+        },
+        {
+          "choiceId": "en2-q-024-c6",
+          "label": null,
+          "text": "URL ベースのコンテンツ ルーティング",
+          "html": "URL ベースのコンテンツ ルーティング"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-024-c2"
+      ],
+      "explanationHtml": "<p>Web アプリケーション ファイアウォール (WAF) は、これは SQL インジェクション、クロスサイト スクリプティング、その他の OWASP トップ 10 脆弱性などの一般的な脅威から Web アプリケーションを保護する機能であるため、正解です。Azure では、WAF は Application Gateway と組み合わせて最も一般的に使用され、既存のアプリケーション コードを変更することなくアプリケーション層で一元的な保護を提供します。</p><p>Azure Application Gateway は機能ではなく Azure サービスであるため、不正解です。これはレイヤー 7 のロード バランサーとホスト WAF を提供しますが、SQL インジェクションからの実際の保護は WAF 機能によって行われます。</p><p>Azure Load Balancer は誤りです。これは、レイヤー 4 (TCP/UDP) ロード バランサーであり、WAF や次のようなアプリケーション層機能をサポートしていないためです。</p><p>Azure Traffic Manager は、DNS ベースのルーティングを実行し、HTTP トラフィックの検査やフィルタリングを行わないため、不正確です。 WAF ルールを適用したり、アプリケーション層攻撃に対するセキュリティを提供したりすることはできません。</p><p>SSL オフロード は誤りです。これは、Application Gateway の機能であり、暗号化されたトラフィックがバックエンド サーバーに到達する前に復号化できるためですが、SQL からの保護は提供されません。</p><p>URL ベースのコンテンツ ルーティング は誤りです。これは、脅威から保護するためではなく、URL のパスに基づいてトラフィックをルーティングするために使用される Application Gateway の機能でもあるためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/web-application-firewall/overview\">https://learn.microsoft.com/en-us/azure/web-application-firewall/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/application-gateway/waf-overview\">https://learn.microsoft.com/en-us/azure/application-gateway/waf-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/application-gateway/overview\">https://learn.microsoft.com/en-us/azure/application-gateway/overview</a></p></li></ul>",
+      "explanationText": "Web アプリケーション ファイアウォール (WAF) は、これは SQL インジェクション、クロスサイト スクリプティング、その他の OWASP トップ 10 脆弱性などの一般的な脅威から Web アプリケーションを保護する機能であるため、正解です。Azure では、WAF は Application Gateway と組み合わせて最も一般的に使用され、既存のアプリケーション コードを変更することなくアプリケーション層で一元的な保護を提供します。\nAzure Application Gateway は機能ではなく Azure サービスであるため、不正解です。これはレイヤー 7 のロード バランサーとホスト WAF を提供しますが、SQL インジェクションからの実際の保護は WAF 機能によって行われます。\nAzure Load Balancer は誤りです。これは、レイヤー 4 (TCP/UDP) ロード バランサーであり、WAF や次のようなアプリケーション層機能をサポートしていないためです。\nAzure Traffic Manager は、DNS ベースのルーティングを実行し、HTTP トラフィックの検査やフィルタリングを行わないため、不正確です。 WAF ルールを適用したり、アプリケーション層攻撃に対するセキュリティを提供したりすることはできません。\nSSL オフロード は誤りです。これは、Application Gateway の機能であり、暗号化されたトラフィックがバックエンド サーバーに到達する前に復号化できるためですが、SQL からの保護は提供されません。\nURL ベースのコンテンツ ルーティング は誤りです。これは、脅威から保護するためではなく、URL のパスに基づいてトラフィックをルーティングするために使用される Application Gateway の機能でもあるためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/web-application-firewall/overview\n\n・https://learn.microsoft.com/en-us/azure/application-gateway/waf-overview\n\n・https://learn.microsoft.com/en-us/azure/application-gateway/overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en2-linked-003",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en2-q-025",
+      "sourceQuestionNumber": 25,
+      "promptHtml": "<p>あなたは<strong>複数のデータベース</strong>からデータを取得するアプリケーション インスタンスを管理する責任があります。アプリケーション コード内では、<strong>サーバー名</strong>、<strong>データベース名</strong>、および<strong>テーブル名</strong>を指定してデータベース テーブルを参照します。</p><p>アプリケーションのデータを<strong>Azure</strong>に移行する予定です。</p><p>この要件を満たすためにアプリケーションを移行できる<strong> 2 つの Azure サービス</strong>はどれですか。</p>",
+      "promptText": "あなたは複数のデータベースからデータを取得するアプリケーション インスタンスを管理する責任があります。アプリケーション コード内では、サーバー名、データベース名、およびテーブル名を指定してデータベース テーブルを参照します。\nアプリケーションのデータをAzureに移行する予定です。\nこの要件を満たすためにアプリケーションを移行できる 2 つの Azure サービスはどれですか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-025-c1",
+          "label": null,
+          "text": "SQL サーバー ストレッチ データベース",
+          "html": "SQL サーバー ストレッチ データベース"
+        },
+        {
+          "choiceId": "en2-q-025-c2",
+          "label": null,
+          "text": "SQL Azure 仮想マシンのサーバー",
+          "html": "SQL Azure 仮想マシンのサーバー"
+        },
+        {
+          "choiceId": "en2-q-025-c3",
+          "label": null,
+          "text": "Azure SQL データベース",
+          "html": "Azure SQL データベース"
+        },
+        {
+          "choiceId": "en2-q-025-c4",
+          "label": null,
+          "text": "Azure SQL マネージドインスタンス",
+          "html": "Azure SQL マネージドインスタンス"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-025-c2",
+        "en2-q-025-c4"
+      ],
+      "explanationHtml": "<p>SQL Azure 仮想マシンのサーバーは正解です。これにより、SQL サーバー インスタンスを完全に制御できるため、サーバー、データベース、テーブル名の組み合わせを使用するマルチデータベース参照を含む、既存のデータベース構造を保持できます。</p><p>Azure SQL マネージド インスタンス は、データベース間のクエリと 3 つの部分からなる命名規則 (server.database.schema/table) をサポートしているため正しいです。アプリケーションが複数のデータベースを参照する場合に必要です。</p><p>SQL サーバー ストレッチ データベース は、特定のテーブルのみに許可されているため不正確です。アーカイブ目的で Azure に移行する必要があり、クロスデータベース クエリや複雑なマルチデータベース アプリケーションはサポートされていません。</p><p>Azure SQL Database は、3 部構成の名前を使用したクロスデータベース クエリを単純な方法でサポートしていないため、不正確です。各 SQL データベースは分離されており、データベース間で作業するには、アプリケーションを再設計するか、追加の構成と制限を備えたエラスティック クエリを使用する必要があります。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview?view=azuresql#overview\">https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview?view=azuresql#overview</a></p></li></ul>",
+      "explanationText": "SQL Azure 仮想マシンのサーバーは正解です。これにより、SQL サーバー インスタンスを完全に制御できるため、サーバー、データベース、テーブル名の組み合わせを使用するマルチデータベース参照を含む、既存のデータベース構造を保持できます。\nAzure SQL マネージド インスタンス は、データベース間のクエリと 3 つの部分からなる命名規則 (server.database.schema/table) をサポートしているため正しいです。アプリケーションが複数のデータベースを参照する場合に必要です。\nSQL サーバー ストレッチ データベース は、特定のテーブルのみに許可されているため不正確です。アーカイブ目的で Azure に移行する必要があり、クロスデータベース クエリや複雑なマルチデータベース アプリケーションはサポートされていません。\nAzure SQL Database は、3 部構成の名前を使用したクロスデータベース クエリを単純な方法でサポートしていないため、不正確です。各 SQL データベースは分離されており、データベース間で作業するには、アプリケーションを再設計するか、追加の構成と制限を備えたエラスティック クエリを使用する必要があります。\n参照:\n・https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview?view=azuresql#overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "multi",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en2-q-026",
+      "sourceQuestionNumber": 26,
+      "promptHtml": "<p>ある会社は、Web アプリケーションで使用される<strong>HTTP ベースの API</strong> を構築することを計画しています。この Web アプリケーションを使用すると、顧客は<strong>注文のステータスを表示</strong>できます。</p><p>API は次の条件を満たす必要があります。</p><ul><li><p><strong>Azure 関数</strong></p>を使用して実装されている</li><li><p><strong>パブリックの読み取り専用アクセスを許可</strong></p></li><li><p>変更する操作をブロックするdata</p></li></ul><p>これらの要件を満たすには、どの <code>HTTP メソッド</code>を構成する必要がありますか。</p>",
+      "promptText": "ある会社は、Web アプリケーションで使用されるHTTP ベースの API を構築することを計画しています。この Web アプリケーションを使用すると、顧客は注文のステータスを表示できます。\nAPI は次の条件を満たす必要があります。\n・Azure 関数\nを使用して実装されている\n・パブリックの読み取り専用アクセスを許可\n\n・変更する操作をブロックするdata\n\nこれらの要件を満たすには、どの HTTP メソッドを構成する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-026-c1",
+          "label": null,
+          "text": "API メソッド",
+          "html": "API メソッド"
+        },
+        {
+          "choiceId": "en2-q-026-c2",
+          "label": null,
+          "text": "GET のみ",
+          "html": "GET のみ"
+        },
+        {
+          "choiceId": "en2-q-026-c3",
+          "label": null,
+          "text": "GET と POST のみ",
+          "html": "GET と POST のみ"
+        },
+        {
+          "choiceId": "en2-q-026-c4",
+          "label": null,
+          "text": "GET、POST、および OPTIONS のみ",
+          "html": "GET、POST、および OPTIONS のみ"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-026-c2"
+      ],
+      "explanationHtml": "<p>GET のみ は、要件が書き込み操作を禁止しながらパブリック読み取り専用操作を提供することであるため、正解です。GET HTTP メソッドは、データを変更せずに取得するために使用されます。</p><p>GET と POST のみ は誤りです。これは、POST がリソースの作成または更新に使用されるためであり、書き込み操作のリスクが生じ、防止要件に違反します。</p><p>GET、POST、OPTIONS のみ は誤りです。前のオプションと同様、書き込み操作を許可する POST が含まれているためです。</p><p>API メソッドは曖昧すぎて、どのメソッドが許可されるかを指定していないため、選択肢としては不正確です。読み取り専用パターンを明確に強制するわけではありません。</p><p>参照:</p><ul><li><p><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization\">https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization</a></p></li></ul>",
+      "explanationText": "GET のみ は、要件が書き込み操作を禁止しながらパブリック読み取り専用操作を提供することであるため、正解です。GET HTTP メソッドは、データを変更せずに取得するために使用されます。\nGET と POST のみ は誤りです。これは、POST がリソースの作成または更新に使用されるためであり、書き込み操作のリスクが生じ、防止要件に違反します。\nGET、POST、OPTIONS のみ は誤りです。前のオプションと同様、書き込み操作を許可する POST が含まれているためです。\nAPI メソッドは曖昧すぎて、どのメソッドが許可されるかを指定していないため、選択肢としては不正確です。読み取り専用パターンを明確に強制するわけではありません。\n参照:\n・https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET\n\n・https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en2-linked-004",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en2-q-027",
+      "sourceQuestionNumber": 27,
+      "promptHtml": "<p>ある会社は、Web アプリケーションで使用される<strong>HTTP ベースの API</strong> を構築することを計画しています。 Web アプリケーションを使用すると、顧客は<strong>注文のステータスを表示</strong>できます。</p><p>API は次の条件を満たす必要があります。</p><ul><li><p><strong>Azure 関数</strong></p>を使用して実装されている</li><li><p><strong>パブリックの読み取り専用アクセス</strong></p>を許可する</li><li><p>変更を加える操作をブロックするdata</p></li></ul><p>これらの要件を満たすには、どの <code>承認レベル</code>を構成する必要がありますか。</p>",
+      "promptText": "ある会社は、Web アプリケーションで使用されるHTTP ベースの API を構築することを計画しています。 Web アプリケーションを使用すると、顧客は注文のステータスを表示できます。\nAPI は次の条件を満たす必要があります。\n・Azure 関数\nを使用して実装されている\n・パブリックの読み取り専用アクセス\nを許可する\n・変更を加える操作をブロックするdata\n\nこれらの要件を満たすには、どの 承認レベルを構成する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-027-c1",
+          "label": null,
+          "text": "機能",
+          "html": "機能"
+        },
+        {
+          "choiceId": "en2-q-027-c2",
+          "label": null,
+          "text": "匿名",
+          "html": "匿名"
+        },
+        {
+          "choiceId": "en2-q-027-c3",
+          "label": null,
+          "text": "管理者",
+          "html": "管理者"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-027-c2"
+      ],
+      "explanationHtml": "<p>匿名 は正解です。API はパブリック読み取り専用操作を提供する必要があるためです。</p><p>関数 は、エンドポイントにアクセスするためにファンクション キーが必要なため不正解です。これにより、内部クライアントまたは認証されたクライアントに適したセキュリティ層が追加されますが、パブリック アクセスの必要性と矛盾します。</p><p>Admin は誤りです。これは、管理者レベルのキーが必要であるためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-functions/security-concepts\">https://learn.microsoft.com/en-us/azure/azure-functions/security-concepts</a></p></li></ul>",
+      "explanationText": "匿名 は正解です。API はパブリック読み取り専用操作を提供する必要があるためです。\n関数 は、エンドポイントにアクセスするためにファンクション キーが必要なため不正解です。これにより、内部クライアントまたは認証されたクライアントに適したセキュリティ層が追加されますが、パブリック アクセスの必要性と矛盾します。\nAdmin は誤りです。これは、管理者レベルのキーが必要であるためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/azure-functions/security-concepts",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en2-linked-004",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en2-q-028",
+      "sourceQuestionNumber": 28,
+      "promptHtml": "<p><strong>Azure Blob Storage</strong> に保存されている一連のデータ ファイルがあります。</p><p>これらのファイルを<strong>処理および変換</strong>し、変換されたデータを <strong>Azure Data Lake Storage</strong> に転送する予定です。</p><p>データ変換は<strong>マッピング データ フロー</strong>を使用して実行する必要があります。</p><p>どの <strong>Azureこのタスクを実行するには、 サービス</strong>を使用する必要がありますか。</p>",
+      "promptText": "Azure Blob Storage に保存されている一連のデータ ファイルがあります。\nこれらのファイルを処理および変換し、変換されたデータを Azure Data Lake Storage に転送する予定です。\nデータ変換はマッピング データ フローを使用して実行する必要があります。\nどの Azureこのタスクを実行するには、 サービスを使用する必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-028-c1",
+          "label": null,
+          "text": "Azure Storage Sync",
+          "html": "Azure Storage Sync"
+        },
+        {
+          "choiceId": "en2-q-028-c2",
+          "label": null,
+          "text": "Azure Data Factory",
+          "html": "Azure Data Factory"
+        },
+        {
+          "choiceId": "en2-q-028-c3",
+          "label": null,
+          "text": "Azure Data Box Gateway",
+          "html": "Azure Data Box Gateway"
+        },
+        {
+          "choiceId": "en2-q-028-c4",
+          "label": null,
+          "text": "Azure Databricks",
+          "html": "Azure Databricks"
+        },
+        {
+          "choiceId": "en2-q-028-c5",
+          "label": null,
+          "text": "Azureファイル同期",
+          "html": "Azureファイル同期"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-028-c2"
+      ],
+      "explanationHtml": "<p>Azure Data Factory は正解です。マッピング データ フローをサポートしているため、コード不要のデータ変換を大規模に実行できます。</p><p>Azure Storage Sync は、オンプレミスのファイル サーバーと Azure Files を同期するために使用されるため、不正確です。データ変換や BLOB からデータレイクへのワークフローはサポートされていません。</p><p>Azure Data Box Gateway は誤りです。これは、オンプレミスから Azure に大量のデータを転送するために使用される物理または仮想アプライアンスであり、クラウド内での変換や変換には使用されないためです。</p><p>Azure Databricks は誤りです。これは、強力なビッグ データの処理と変換をサポートしていますが、通常はコードベースの高度な分析シナリオに使用されるためです。</p><p>Azure File Sync は誤りです。これは、オンプレミスの Windows Server と Azure Files の間でファイルをキャッシュして同期するために使用され、BLOB やデータ変換の使用とは無関係であるためです。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-overview\">https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-overview</a></p></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/databox-gateway/data-box-gateway-overview\">https://learn.microsoft.com/en-us/azure/databox-gateway/data-box-gateway-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/databricks/introduction/\">https://learn.microsoft.com/en-us/azure/databricks/introduction/</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-introduction\">https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-introduction</a></p></li></ul>",
+      "explanationText": "Azure Data Factory は正解です。マッピング データ フローをサポートしているため、コード不要のデータ変換を大規模に実行できます。\nAzure Storage Sync は、オンプレミスのファイル サーバーと Azure Files を同期するために使用されるため、不正確です。データ変換や BLOB からデータレイクへのワークフローはサポートされていません。\nAzure Data Box Gateway は誤りです。これは、オンプレミスから Azure に大量のデータを転送するために使用される物理または仮想アプライアンスであり、クラウド内での変換や変換には使用されないためです。\nAzure Databricks は誤りです。これは、強力なビッグ データの処理と変換をサポートしていますが、通常はコードベースの高度な分析シナリオに使用されるためです。\nAzure File Sync は誤りです。これは、オンプレミスの Windows Server と Azure Files の間でファイルをキャッシュして同期するために使用され、BLOB やデータ変換の使用とは無関係であるためです。\n参照:\n・https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-overview\n\n・https://learn.microsoft.com/en-us/azure/databox-gateway/data-box-gateway-overview\n\n・https://learn.microsoft.com/en-us/azure/databricks/introduction/\n\n・https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-introduction",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en2-q-029",
+      "sourceQuestionNumber": 29,
+      "promptHtml": "<p>次の基準を満たす<strong>データ ストレージ ソリューション</strong>を推奨する必要があります。</p><ul><li><p>アプリケーションが<strong>REST ベースのインターフェイス</strong>を介してデータにアクセスできるようにする</p></li><li><p>それぞれサイズとアクセスが異なる<strong>20 の個別のテーブル</strong>をサポートパターン</p></li><li><p><strong>データを別の<strong>Azure リージョン</strong></p></li><li><p><strong>コストを可能な限り低く保ちます</strong></p></li></ul><p>どのオプションをお勧めしますか。</p>",
+      "promptText": "次の基準を満たすデータ ストレージ ソリューションを推奨する必要があります。\n・アプリケーションがREST ベースのインターフェイスを介してデータにアクセスできるようにする\n\n・それぞれサイズとアクセスが異なる20 の個別のテーブルをサポートパターン\n\n・データを別のAzure リージョン\n\n・コストを可能な限り低く保ちます\n\nどのオプションをお勧めしますか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-029-c1",
+          "label": null,
+          "text": "Azure SQL データベース エラスティック データベース プールgeo レプリケーションを使用する",
+          "html": "Azure SQL データベース エラスティック データベース プールgeo レプリケーションを使用する"
+        },
+        {
+          "choiceId": "en2-q-029-c2",
+          "label": null,
+          "text": "読み取りアクセス geo 冗長ストレージ (RA-GRS) を使用する Azure ストレージ アカウント内のテーブル",
+          "html": "読み取りアクセス geo 冗長ストレージ (RA-GRS) を使用する Azure ストレージ アカウント内のテーブル"
+        },
+        {
+          "choiceId": "en2-q-029-c3",
+          "label": null,
+          "text": "geo 冗長ストレージ (GRS) を使用する Azure ストレージ アカウント内のテーブル",
+          "html": "geo 冗長ストレージ (GRS) を使用する Azure ストレージ アカウント内のテーブル"
+        },
+        {
+          "choiceId": "en2-q-029-c4",
+          "label": null,
+          "text": "アクティブを使用する Azure SQL データベースgeo レプリケーション",
+          "html": "アクティブを使用する Azure SQL データベースgeo レプリケーション"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-029-c3"
+      ],
+      "explanationHtml": "<p>地理冗長ストレージ (GRS) を使用する Azure Storage アカウントのテーブルは、Azure Table storage を使用して大量の半構造化データを保存するための低コストで耐久性の高いソリューションを提供するため、正解です。GRS は、ディザスター リカバリーのためにセカンダリ Azure リージョンへのデータの自動レプリケーションを提供し、リージョン冗長性の要件を満たします。</p><p>読み取りアクセス地理冗長ストレージ (RA-GRS) を使用する Azure Storage アカウントのテーブルは、セカンダリ リージョンにレプリケートされたデータへの読み取りアクセスを提供しますが、GRS よりも高いコストが発生するため、不正確です。要件はコストを最小限に抑えることであり、セカンダリ リージョンからの読み取りアクセスを強制するものではないため、RA-GRS は不必要な費用を追加します。</p><p>geo レプリケーションを使用する Azure SQL データベース エラスティック データベース プール は誤りです。これは、複数のデータベースをホストでき、geo レプリケーションをサポートしていますが、より高価であり、機能しないリレーショナル データ ソリューションであるためです。</p><p>アクティブ geo レプリケーションを使用する Azure SQL データベースも、同様の理由で不正確です。これは、高可用性とパフォーマンスが必要なリレーショナル データ向けに設計されており、コストが高く、REST ベースの対話をネイティブにサポートしていません。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy\">https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview\">https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/rest/api/sql/\">https://learn.microsoft.com/en-us/rest/api/sql/</a></p></li></ul>",
+      "explanationText": "地理冗長ストレージ (GRS) を使用する Azure Storage アカウントのテーブルは、Azure Table storage を使用して大量の半構造化データを保存するための低コストで耐久性の高いソリューションを提供するため、正解です。GRS は、ディザスター リカバリーのためにセカンダリ Azure リージョンへのデータの自動レプリケーションを提供し、リージョン冗長性の要件を満たします。\n読み取りアクセス地理冗長ストレージ (RA-GRS) を使用する Azure Storage アカウントのテーブルは、セカンダリ リージョンにレプリケートされたデータへの読み取りアクセスを提供しますが、GRS よりも高いコストが発生するため、不正確です。要件はコストを最小限に抑えることであり、セカンダリ リージョンからの読み取りアクセスを強制するものではないため、RA-GRS は不必要な費用を追加します。\ngeo レプリケーションを使用する Azure SQL データベース エラスティック データベース プール は誤りです。これは、複数のデータベースをホストでき、geo レプリケーションをサポートしていますが、より高価であり、機能しないリレーショナル データ ソリューションであるためです。\nアクティブ geo レプリケーションを使用する Azure SQL データベースも、同様の理由で不正確です。これは、高可用性とパフォーマンスが必要なリレーショナル データ向けに設計されており、コストが高く、REST ベースの対話をネイティブにサポートしていません。\n参照:\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy\n\n・https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview\n\n・https://learn.microsoft.com/en-us/rest/api/sql/",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en2-q-030",
+      "sourceQuestionNumber": 30,
+      "promptHtml": "<p>あなたは、それぞれのサイズが <strong>20 GB</strong> の <strong>20 の個別のデータベース</strong>をホストする <strong>SQL ベースのデータベース ソリューション</strong>を設計しています。データベースには<strong>さまざまな変動する使用パターン</strong>が発生します。</p><p>これらのデータベースをホストするには、適切な<strong>データベース プラットフォーム</strong>を推奨する必要があります。提案されたソリューションは次の条件を満たす必要があります。</p><ul><li><p><strong>99.99% の可用性 SLA</strong></p></li><li><p>データベース全体で<strong>コンピューティング リソースの動的なスケーリング</strong>を許可する</p></li><li><p>ソリューションには予約容量が必要です。</p></li><li><p>維持<strong>コンピューティング関連のコストをできるだけ低くする</strong></p></li></ul><p>推奨事項には何を含めるべきですか。</p>",
+      "promptText": "あなたは、それぞれのサイズが 20 GB の 20 の個別のデータベースをホストする SQL ベースのデータベース ソリューションを設計しています。データベースにはさまざまな変動する使用パターンが発生します。\nこれらのデータベースをホストするには、適切なデータベース プラットフォームを推奨する必要があります。提案されたソリューションは次の条件を満たす必要があります。\n・99.99% の可用性 SLA\n\n・データベース全体でコンピューティング リソースの動的なスケーリングを許可する\n\n・ソリューションには予約容量が必要です。\n\n・維持コンピューティング関連のコストをできるだけ低くする\n\n推奨事項には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en2-q-030-c1",
+          "label": null,
+          "text": "20 個の Azure SQL データベースを含むエラスティック プール",
+          "html": "20 個の Azure SQL データベースを含むエラスティック プール"
+        },
+        {
+          "choiceId": "en2-q-030-c2",
+          "label": null,
+          "text": "Microsoft SQL サーバー上の 20 個のデータベース。可用性セット",
+          "html": "Microsoft SQL サーバー上の 20 個のデータベース。可用性セット"
+        },
+        {
+          "choiceId": "en2-q-030-c3",
+          "label": null,
+          "text": "20 個の Azure インスタンス SQL データベース サーバーレス",
+          "html": "20 個の Azure インスタンス SQL データベース サーバーレス"
+        },
+        {
+          "choiceId": "en2-q-030-c4",
+          "label": null,
+          "text": "Azure 仮想マシン上で実行される Microsoft SQL サーバー上の 20 個のデータベース",
+          "html": "Azure 仮想マシン上で実行される Microsoft SQL サーバー上の 20 個のデータベース"
+        }
+      ],
+      "correctChoiceIds": [
+        "en2-q-030-c1"
+      ],
+      "explanationHtml": "<p>エラスティック プール20 Azure SQL データベース は正解です。複数の Azure SQL データベースがコンピューティング リソースとストレージ リソースのプールを共有できるため、データベース間で使用パターンが異なるシナリオに最適です。</p><p>可用性セット内の Azure 仮想マシン上で実行される Microsoft SQL サーバー上の 20 のデータベース は誤りです。これは、可用性セットによる完全な制御と高可用性が提供されますが、動的なコンピューティング スケーリングはサポートされていないためです。</p><p>Azure の 20 インスタンス SQL データベース サーバーレス は誤りです。サーバーレスはコンピューティングを自動的にスケールし、非アクティブ時に一時停止してコストを節約できますが、予約容量の価格設定をサポートしていないためです。</p><p>Azure 仮想マシン上で実行される Microsoft SQL サーバー上の 20 のデータベースも、同様の理由で不正確です。制御と互換性は提供されますが、動的なスケーリングや予約された PaaS レベルの価格設定のメリットがなく、インフラストラクチャの管理が必要です。</p><p>参照:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview\">https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/reserved-capacity-overview\">https://learn.microsoft.com/en-us/azure/azure-sql/database/reserved-capacity-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview\">https://learn.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview</a></p></li></ul>",
+      "explanationText": "エラスティック プール20 Azure SQL データベース は正解です。複数の Azure SQL データベースがコンピューティング リソースとストレージ リソースのプールを共有できるため、データベース間で使用パターンが異なるシナリオに最適です。\n可用性セット内の Azure 仮想マシン上で実行される Microsoft SQL サーバー上の 20 のデータベース は誤りです。これは、可用性セットによる完全な制御と高可用性が提供されますが、動的なコンピューティング スケーリングはサポートされていないためです。\nAzure の 20 インスタンス SQL データベース サーバーレス は誤りです。サーバーレスはコンピューティングを自動的にスケールし、非アクティブ時に一時停止してコストを節約できますが、予約容量の価格設定をサポートしていないためです。\nAzure 仮想マシン上で実行される Microsoft SQL サーバー上の 20 のデータベースも、同様の理由で不正確です。制御と互換性は提供されますが、動的なスケーリングや予約された PaaS レベルの価格設定のメリットがなく、インフラストラクチャの管理が必要です。\n参照:\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/reserved-capacity-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    }
+  ]
+}

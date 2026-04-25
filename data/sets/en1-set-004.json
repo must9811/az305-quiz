@@ -1,0 +1,389 @@
+{
+  "setId": "en1-set-004",
+  "title": "英語問題集1 翻訳版 31-40",
+  "sourceHtml": "assets/英語問題集1.html",
+  "questionIds": [
+    "en1-q-031",
+    "en1-q-032",
+    "en1-q-033",
+    "en1-q-034",
+    "en1-q-035",
+    "en1-q-036",
+    "en1-q-037",
+    "en1-q-038",
+    "en1-q-039",
+    "en1-q-040"
+  ],
+  "questions": [
+    {
+      "questionId": "en1-q-031",
+      "sourceQuestionNumber": 31,
+      "promptHtml": "<p>あなたは Azure サブスクリプションで作業しており、<strong>コードベースの Web アプリケーション</strong>をホストするために <strong>50 個の Azure App Service インスタンス</strong>をデプロイする予定です。</p><p>次のことを可能にするアプローチを推奨する必要があります。</p><ul><li><p>App Service インスタンスの構成を定義する</p></li><li><p><strong>バージョン管理された履歴</strong>を保持する時間の経過による構成の変更</p></li></ul><p>推奨事項には何を含めるべきですか。</p>",
+      "promptText": "あなたは Azure サブスクリプションで作業しており、コードベースの Web アプリケーションをホストするために 50 個の Azure App Service インスタンスをデプロイする予定です。\n次のことを可能にするアプローチを推奨する必要があります。\n・App Service インスタンスの構成を定義する\n\n・バージョン管理された履歴を保持する時間の経過による構成の変更\n\n推奨事項には何を含めるべきですか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-031-c1",
+          "label": null,
+          "text": "アプリケーション イメージを Azure Container Registry に保存します。",
+          "html": "<p>アプリケーション イメージを Azure Container Registry に保存します。</p>"
+        },
+        {
+          "choiceId": "en1-q-031-c2",
+          "label": null,
+          "text": "Azure Compute Gallery で管理されているイメージを使用します。",
+          "html": "<p>Azure Compute Gallery で管理されているイメージを使用します。</p>"
+        },
+        {
+          "choiceId": "en1-q-031-c3",
+          "label": null,
+          "text": "アプリケーションのデプロイメントを維持します。 Azure Repos の ZIP パッケージ。",
+          "html": "<p>アプリケーションのデプロイメントを維持します。 Azure Repos の ZIP パッケージ。</p>"
+        },
+        {
+          "choiceId": "en1-q-031-c4",
+          "label": null,
+          "text": "Azure Repos に保存されている Bicep ファイルを使用してインフラストラクチャ定義を管理します。",
+          "html": "<p>Azure Repos に保存されている Bicep ファイルを使用してインフラストラクチャ定義を管理します。</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-031-c4"
+      ],
+      "explanationHtml": "<p>Azure Repos に保存されている Bicep ファイルを使用してインフラストラクチャ定義を管理する は、Bicep が宣言型であるため正解です。Azure App Service インスタンスなどの Azure リソースの構成を一貫性のある反復可能な方法で定義できるようにするコードとしてのインフラストラクチャ (IaC) 言語。</p><ul><li><p>Bicep はリソース管理を簡素化します: Bicep ファイルには Azure App Service インスタンスのデプロイ構成が記述され、50 個のインスタンスすべてが一貫してデプロイされることが保証されます。</p></li><li><p>バージョン管理: 保存Azure Repos (Azure DevOps の一部) の Bicep ファイルは、堅牢なバージョン履歴を提供します。変更を追跡し、チームと共同作業し、自動デプロイのための CI/CD パイプラインを実装できます。</p></li><li><p>スケーラビリティ: Bicep は、複数のインスタンスを効率的にデプロイおよび管理するために不可欠なパラメータ化とモジュール性をサポートしています。</p></li></ul><p>アプリケーション イメージを Azure Container Registry に保存する は、Azure Container のため不正確です。レジストリ (ACR) には、コンテナ化されたワークロードに使用されるコンテナ イメージが保存されます。</p><p>Azure Compute Gallery で維持されているイメージを使用する は誤りです。これは、Azure Compute Gallery は、Azure App Service インスタンスの構成ではなく、カスタム仮想マシン (VM) イメージの共有と管理を目的として設計されているためです。</p><p>Azure Repos で ZIP パッケージとしてアプリケーションのデプロイを維持する は誤りです。これは、ZIP パッケージは通常、インフラストラクチャやリソース構成の定義ではなく、コードやコンテンツを Azure App Services にデプロイするために使用されるためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep\">https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/container-registry/container-registry-intro\">https://learn.microsoft.com/en-us/azure/container-registry/container-registry-intro</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/app-service/deploy-zip?tabs=cli\">https://learn.microsoft.com/en-us/azure/app-service/deploy-zip?tabs=cli</a></p></li></ul>",
+      "explanationText": "Azure Repos に保存されている Bicep ファイルを使用してインフラストラクチャ定義を管理する は、Bicep が宣言型であるため正解です。Azure App Service インスタンスなどの Azure リソースの構成を一貫性のある反復可能な方法で定義できるようにするコードとしてのインフラストラクチャ (IaC) 言語。\n・Bicep はリソース管理を簡素化します: Bicep ファイルには Azure App Service インスタンスのデプロイ構成が記述され、50 個のインスタンスすべてが一貫してデプロイされることが保証されます。\n\n・バージョン管理: 保存Azure Repos (Azure DevOps の一部) の Bicep ファイルは、堅牢なバージョン履歴を提供します。変更を追跡し、チームと共同作業し、自動デプロイのための CI/CD パイプラインを実装できます。\n\n・スケーラビリティ: Bicep は、複数のインスタンスを効率的にデプロイおよび管理するために不可欠なパラメータ化とモジュール性をサポートしています。\n\nアプリケーション イメージを Azure Container Registry に保存する は、Azure Container のため不正確です。レジストリ (ACR) には、コンテナ化されたワークロードに使用されるコンテナ イメージが保存されます。\nAzure Compute Gallery で維持されているイメージを使用する は誤りです。これは、Azure Compute Gallery は、Azure App Service インスタンスの構成ではなく、カスタム仮想マシン (VM) イメージの共有と管理を目的として設計されているためです。\nAzure Repos で ZIP パッケージとしてアプリケーションのデプロイを維持する は誤りです。これは、ZIP パッケージは通常、インフラストラクチャやリソース構成の定義ではなく、コードやコンテンツを Azure App Services にデプロイするために使用されるためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep\n\n・https://learn.microsoft.com/en-us/azure/container-registry/container-registry-intro\n\n・https://learn.microsoft.com/en-us/azure/app-service/deploy-zip?tabs=cli",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en1-q-032",
+      "sourceQuestionNumber": 32,
+      "promptHtml": "<p>あなたは、いくつかの<strong>コンテナー化されたマイクロサービス ベースのアプリケーション</strong>を<strong>Azure Kubernetes Service (AKS)</strong>にデプロイする準備をしています。</p><p>ソリューション設計の一環として、次の機能を実装するソリューションを推奨する必要があります。</p><ul><li><p><strong>状態管理</strong></p></li></ul><p>選択したアプローチ<strong>運用および管理のオーバーヘッドは最小限</strong>にする必要があります。</p><p>上記の関数の推奨事項には何を含める必要がありますか。</p>",
+      "promptText": "あなたは、いくつかのコンテナー化されたマイクロサービス ベースのアプリケーションをAzure Kubernetes Service (AKS)にデプロイする準備をしています。\nソリューション設計の一環として、次の機能を実装するソリューションを推奨する必要があります。\n・状態管理\n\n選択したアプローチ運用および管理のオーバーヘッドは最小限にする必要があります。\n上記の関数の推奨事項には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-032-c1",
+          "label": null,
+          "text": "Dapr",
+          "html": "Dapr"
+        },
+        {
+          "choiceId": "en1-q-032-c2",
+          "label": null,
+          "text": "Flux",
+          "html": "Flux"
+        },
+        {
+          "choiceId": "en1-q-032-c3",
+          "label": null,
+          "text": "Istio",
+          "html": "Istio"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-032-c1"
+      ],
+      "explanationHtml": "<p>Dapr (分散アプリケーション ランタイム) は正解です。Dapr は、コンテナ化されたマイクロサービス ベースのアプリケーション向けに特別に設計された、コア構成要素の 1 つとして状態管理を提供するからです。</p><ul><li><p>状態管理: Dapr は、状態のストレージと取得用の API を提供することで、ステートレス マイクロサービス全体で状態の永続性を処理します。</p></li><li><p>簡素化された操作: 基盤となるストレージの複雑さを抽象化することで、管理オーバーヘッドを最小限に抑えます。</p></li><li><p>マイクロサービスのサポート: Dapr は、状態管理、サービス呼び出し、パブリッシュ/サブスクライブ メッセージングなどの再利用可能なコンポーネントを提供することで、Kubernetes 上のマイクロサービス (AKS など) を強化するために特別に構築されています。</p></li></ul><p>Flux は誤りです。これは、Flux が使用されている GitOps ツールであるためです。</p><p>Istio は誤りです。Istio は、マイクロサービスに高度なトラフィック管理、セキュリティ、可観測性を提供するサービス メッシュ ソリューションです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/aks/dapr-overview\">https://learn.microsoft.com/en-us/azure/aks/dapr-overview</a></p></li><li><p><a href=\"https://istio.io/latest/about/service-mesh\">https://istio.io/latest/about/service-mesh</a></p></li></ul>",
+      "explanationText": "Dapr (分散アプリケーション ランタイム) は正解です。Dapr は、コンテナ化されたマイクロサービス ベースのアプリケーション向けに特別に設計された、コア構成要素の 1 つとして状態管理を提供するからです。\n・状態管理: Dapr は、状態のストレージと取得用の API を提供することで、ステートレス マイクロサービス全体で状態の永続性を処理します。\n\n・簡素化された操作: 基盤となるストレージの複雑さを抽象化することで、管理オーバーヘッドを最小限に抑えます。\n\n・マイクロサービスのサポート: Dapr は、状態管理、サービス呼び出し、パブリッシュ/サブスクライブ メッセージングなどの再利用可能なコンポーネントを提供することで、Kubernetes 上のマイクロサービス (AKS など) を強化するために特別に構築されています。\n\nFlux は誤りです。これは、Flux が使用されている GitOps ツールであるためです。\nIstio は誤りです。Istio は、マイクロサービスに高度なトラフィック管理、セキュリティ、可観測性を提供するサービス メッシュ ソリューションです。\n参考:\n・https://learn.microsoft.com/en-us/azure/aks/dapr-overview\n\n・https://istio.io/latest/about/service-mesh",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en1-q-033",
+      "sourceQuestionNumber": 33,
+      "promptHtml": "<p>あなたは、いくつかの<strong>コンテナー化されたマイクロサービス ベースのアプリケーション</strong>を<strong>Azure Kubernetes Service (AKS)</strong>にデプロイする準備をしています。</p><p>ソリューション設計の一環として、次の機能を実装するソリューションを推奨する必要があります。</p><ul><li><p><strong>Pub/sub メッセージング</strong></p></li></ul><p>選択したアプローチでは<strong>最小限の運用管理オーバーヘッド</strong>が必要です。</p><p>上記の機能の推奨事項には何を含める必要がありますか。</p>",
+      "promptText": "あなたは、いくつかのコンテナー化されたマイクロサービス ベースのアプリケーションをAzure Kubernetes Service (AKS)にデプロイする準備をしています。\nソリューション設計の一環として、次の機能を実装するソリューションを推奨する必要があります。\n・Pub/sub メッセージング\n\n選択したアプローチでは最小限の運用管理オーバーヘッドが必要です。\n上記の機能の推奨事項には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-033-c1",
+          "label": null,
+          "text": "Dapr",
+          "html": "Dapr"
+        },
+        {
+          "choiceId": "en1-q-033-c2",
+          "label": null,
+          "text": "Flux",
+          "html": "Flux"
+        },
+        {
+          "choiceId": "en1-q-033-c3",
+          "label": null,
+          "text": "Istio",
+          "html": "Istio"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-033-c1"
+      ],
+      "explanationHtml": "<p>Dapr (分散アプリケーション ランタイム) は、特にマイクロサービス ベースのアプリケーション向けに設計されたコア構成要素の 1 つとして pub/sub メッセージングを提供するため、正しいです。 Dapr は、マイクロサービス間でのメッセージのパブリッシュとサブスクライブを簡素化し、基盤となるメッセージング インフラストラクチャ (Azure Service Bus、Kafka、Redis Streams など) を抽象化します。</p><ul><li><p>組み込みの Pub/Sub API: Dapr は、Pub/Sub メッセージング用の標準化された API を提供し、さまざまなメッセージングを使用したマイクロサービスのシームレスな統合を可能にします。</p></li><li><p>メッセージング インフラストラクチャの抽象化: Dapr は、開発者が複雑な統合コードを記述する必要がなく、複数のパブリッシュ/サブ プロバイダー (例: Azure Service Bus、RabbitMQ、Kafka) をサポートします。</p></li><li><p>最小限の管理労力: Dapr は、パブリッシュ/サブスクライブ メッセージングを構成および管理する簡単な方法を提供することで運用オーバーヘッドを削減します。 microservices.</p></li></ul><p>Flux は誤りです。これは、Flux は Kubernetes アプリケーションの継続的なデプロイを自動化するために設計された GitOps ツールであるためです。</p><p>Istio は誤りです。Istio は、マイクロサービス間のトラフィック、セキュリティ、可観測性の管理に重点を置いたサービス メッシュ ソリューションであるためです。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/aks/dapr-overview\">https://learn.microsoft.com/en-us/azure/aks/dapr-overview</a></p></li></ul>",
+      "explanationText": "Dapr (分散アプリケーション ランタイム) は、特にマイクロサービス ベースのアプリケーション向けに設計されたコア構成要素の 1 つとして pub/sub メッセージングを提供するため、正しいです。 Dapr は、マイクロサービス間でのメッセージのパブリッシュとサブスクライブを簡素化し、基盤となるメッセージング インフラストラクチャ (Azure Service Bus、Kafka、Redis Streams など) を抽象化します。\n・組み込みの Pub/Sub API: Dapr は、Pub/Sub メッセージング用の標準化された API を提供し、さまざまなメッセージングを使用したマイクロサービスのシームレスな統合を可能にします。\n\n・メッセージング インフラストラクチャの抽象化: Dapr は、開発者が複雑な統合コードを記述する必要がなく、複数のパブリッシュ/サブ プロバイダー (例: Azure Service Bus、RabbitMQ、Kafka) をサポートします。\n\n・最小限の管理労力: Dapr は、パブリッシュ/サブスクライブ メッセージングを構成および管理する簡単な方法を提供することで運用オーバーヘッドを削減します。 microservices.\n\nFlux は誤りです。これは、Flux は Kubernetes アプリケーションの継続的なデプロイを自動化するために設計された GitOps ツールであるためです。\nIstio は誤りです。Istio は、マイクロサービス間のトラフィック、セキュリティ、可観測性の管理に重点を置いたサービス メッシュ ソリューションであるためです。\n参考:\n・https://learn.microsoft.com/en-us/azure/aks/dapr-overview",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en1-q-034",
+      "sourceQuestionNumber": 34,
+      "promptHtml": "<p>あなたは、いくつかの<strong>コンテナー化されたマイクロサービス ベースのアプリケーション</strong>を<strong>Azure Kubernetes Service (AKS)</strong>にデプロイする準備をしています。</p><p>ソリューション設計の一環として、次の機能を実装するソリューションを推奨する必要があります。</p><ul><li><p><strong>トラフィック ルーティングと分割</strong></p></li></ul><p>選択したアプローチでは<strong>運用上および管理上のオーバーヘッド</strong>を最小限に抑える必要があります。</p><p>上記の機能の推奨事項には何を含める必要がありますか。</p>",
+      "promptText": "あなたは、いくつかのコンテナー化されたマイクロサービス ベースのアプリケーションをAzure Kubernetes Service (AKS)にデプロイする準備をしています。\nソリューション設計の一環として、次の機能を実装するソリューションを推奨する必要があります。\n・トラフィック ルーティングと分割\n\n選択したアプローチでは運用上および管理上のオーバーヘッドを最小限に抑える必要があります。\n上記の機能の推奨事項には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-034-c1",
+          "label": null,
+          "text": "Dapr",
+          "html": "Dapr"
+        },
+        {
+          "choiceId": "en1-q-034-c2",
+          "label": null,
+          "text": "Flux",
+          "html": "Flux"
+        },
+        {
+          "choiceId": "en1-q-034-c3",
+          "label": null,
+          "text": "Istio",
+          "html": "Istio"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-034-c3"
+      ],
+      "explanationHtml": "<p>Istio は正解です。Istio は、マイクロサービス ベースのアプリケーションのトラフィック ルーティングや分割など、高度なトラフィック管理機能を提供するサービス メッシュ ソリューションです。</p><ul><li><p>トラフィック ルーティング: Istio を使用すると、マイクロサービス間でトラフィックをルーティングする方法をきめ細かく制御できるため、アプリケーションの異なるバージョン (v1 と v1 など) 間でトラフィックを分割できます。 v2)。</p></li><li><p>トラフィック分割: パーセンテージに基づいてトラフィックを分割でき、カナリア リリースのようなシナリオが可能になります (例: v1 に 90%、v2 に 10%)。</p></li><li><p>管理労力の最小化: Istio は、複雑な手動介入を必要とするのではなく、設定を通じてトラフィック管理を自動化します。 Kubernetes と直接統合されているため、シームレスな運用が可能です。</p></li><li><p>可観測性とセキュリティ: Istio は、組み込みの可観測性とセキュリティ機能も提供し、トラフィックの監視とポリシーの適用を強化します。</p></li></ul><p>Dapr は誤りです。Dapr は状態管理、パブリッシュ/サブスクライブなどの機能を提供します。</p><p>Flux は誤りです。これは、Flux は Kubernetes デプロイメントの管理に使用される GitOps ツールであるためです。</p><p>参考:</p><ul><li><p><a href=\"https://istio.io/latest/about/service-mesh/\">https://istio.io/latest/about/service-mesh</a></p></li><li><p><a href=\"https://istio.io/latest/docs/tasks/traffic-management/traffic-shifting\">https://istio.io/latest/docs/tasks/traffic-management/traffic-shifting</a></p></li></ul>",
+      "explanationText": "Istio は正解です。Istio は、マイクロサービス ベースのアプリケーションのトラフィック ルーティングや分割など、高度なトラフィック管理機能を提供するサービス メッシュ ソリューションです。\n・トラフィック ルーティング: Istio を使用すると、マイクロサービス間でトラフィックをルーティングする方法をきめ細かく制御できるため、アプリケーションの異なるバージョン (v1 と v1 など) 間でトラフィックを分割できます。 v2)。\n\n・トラフィック分割: パーセンテージに基づいてトラフィックを分割でき、カナリア リリースのようなシナリオが可能になります (例: v1 に 90%、v2 に 10%)。\n\n・管理労力の最小化: Istio は、複雑な手動介入を必要とするのではなく、設定を通じてトラフィック管理を自動化します。 Kubernetes と直接統合されているため、シームレスな運用が可能です。\n\n・可観測性とセキュリティ: Istio は、組み込みの可観測性とセキュリティ機能も提供し、トラフィックの監視とポリシーの適用を強化します。\n\nDapr は誤りです。Dapr は状態管理、パブリッシュ/サブスクライブなどの機能を提供します。\nFlux は誤りです。これは、Flux は Kubernetes デプロイメントの管理に使用される GitOps ツールであるためです。\n参考:\n・https://istio.io/latest/about/service-mesh\n\n・https://istio.io/latest/docs/tasks/traffic-management/traffic-shifting",
+      "images": [],
+      "domain": "インフラストラクチャ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en1-q-035",
+      "sourceQuestionNumber": 35,
+      "promptHtml": "<p>Azure 環境は、以下で説明するように、管理グループ、サブスクリプション、仮想マシン、リソース グループ、および Azure ポリシーの割り当てを使用して編成されます。<br></p><p><code>管理グループの階層</code></p><ul><li><p><strong>テナント ルート グループ</strong> (階層)</p></li><li><p><strong>MG1</strong> はテナント ルート グループの直接の子です</p></li><li><p><strong>MG2</strong> はテナント ルート グループの直接の子でもあります<br></p></li></ul><p><code>サブスクリプションとその管理グループ割り当て</code></p><ul><li><p><strong>Sub1</strong> は<strong>テナント ルート グループ</strong></p></li><li><p><strong>Sub2</strong> に直接割り当てられます。 <strong>MG1</strong></p></li><li><p><strong>Sub3</strong> は <strong>MG2</strong></p> に割り当てられます。</li><li><p><strong>Sub4</strong> は に割り当てられます<strong>MG1</strong><br></p></li></ul><p><code>仮想マシン</code></p><ul><li><p><strong>VM1</strong> は<strong>米国東部</strong>の <strong>Sub1</strong> にデプロイされています。リージョン</p></li><li><p><strong>VM2</strong> は<strong>米国東部</strong>の<strong>Sub2</strong>にデプロイされています。</p></li><li><p><strong>VM3</strong>は<strong>米国東部の<strong>Sub3</strong>にデプロイされています。米国</strong> リージョン<br></p></li></ul><p><code>リソース グループ</code></p><ul><li><p><strong>RG1</strong> は<strong>米国東部</strong>にある<strong>Sub1</strong>にあり、以下が含まれています<strong>VM1</strong></p></li><li><p><strong>RG2</strong> は<strong>米国西部</strong>の <strong>Sub2</strong> にあり、以下が含まれています<strong>VM2</strong></p></li><li><p><strong>RG3</strong> は<strong>Sub3</strong> にあり、<strong>米国東部</strong>にあります。 <strong>VM3</strong></p></li></ul><p><strong><br></strong><code>Azure Policy の割り当て</code></p><ul><li><p><strong>PA1</strong> は現在<strong>ありません割り当て済み</strong></p></li><li><p><strong>PA2</strong> は <strong>Sub1</strong> スコープで割り当てられます</p></li><li><p><strong>PA3</strong> は<strong>テナント ルート グループ</strong>で割り当てられますスコープ</p></li></ul><p><br></p><p>次に、次の構成変更を実行します。</p><ul><li><p><strong>PA1</strong> を <strong>MG1</strong></p> に割り当てます。</li><li><p>リソース セレクターがターゲットになるように <strong>PA2</strong> を変更します。 <strong>米国東部</strong> リージョンの <strong>Microsoft.Compute/virtualMachines</strong> のみ</p></li><li><p><strong>PA3</strong> を変更して、Sub1 の<strong>除外を追加します</strong><br></p></li></ul><p><strong>True またはFalse:</strong></p><p><code>「PA1 は Sub2 内のリソースのみを評価します。」</code> </p>",
+      "promptText": "Azure 環境は、以下で説明するように、管理グループ、サブスクリプション、仮想マシン、リソース グループ、および Azure ポリシーの割り当てを使用して編成されます。\n\n管理グループの階層\n・テナント ルート グループ (階層)\n\n・MG1 はテナント ルート グループの直接の子です\n\n・MG2 はテナント ルート グループの直接の子でもあります\n\nサブスクリプションとその管理グループ割り当て\n・Sub1 はテナント ルート グループ\n\n・Sub2 に直接割り当てられます。 MG1\n\n・Sub3 は MG2\n に割り当てられます。\n・Sub4 は に割り当てられますMG1\n\n仮想マシン\n・VM1 は米国東部の Sub1 にデプロイされています。リージョン\n\n・VM2 は米国東部のSub2にデプロイされています。\n\n・VM3は米国東部のSub3にデプロイされています。米国 リージョン\n\nリソース グループ\n・RG1 は米国東部にあるSub1にあり、以下が含まれていますVM1\n\n・RG2 は米国西部の Sub2 にあり、以下が含まれていますVM2\n\n・RG3 はSub3 にあり、米国東部にあります。 VM3\n\nAzure Policy の割り当て\n・PA1 は現在ありません割り当て済み\n\n・PA2 は Sub1 スコープで割り当てられます\n\n・PA3 はテナント ルート グループで割り当てられますスコープ\n\n次に、次の構成変更を実行します。\n・PA1 を MG1\n に割り当てます。\n・リソース セレクターがターゲットになるように PA2 を変更します。 米国東部 リージョンの Microsoft.Compute/virtualMachines のみ\n\n・PA3 を変更して、Sub1 の除外を追加します\n\nTrue またはFalse:\n「PA1 は Sub2 内のリソースのみを評価します。」",
+      "choices": [
+        {
+          "choiceId": "en1-q-035-c1",
+          "label": null,
+          "text": "True",
+          "html": "<p>True</p>"
+        },
+        {
+          "choiceId": "en1-q-035-c2",
+          "label": null,
+          "text": "False",
+          "html": "<p>False</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-035-c2"
+      ],
+      "explanationHtml": "<p>偽 は正解です。PA1 は MG1 に割り当てられ、MG1 には Sub2 と Sub4 が含まれます。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/overview\">https://learn.microsoft.com/en-us/azure/governance/policy/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope\">https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope</a></p></li></ul>",
+      "explanationText": "偽 は正解です。PA1 は MG1 に割り当てられ、MG1 には Sub2 と Sub4 が含まれます。\n参考:\n・https://learn.microsoft.com/en-us/azure/governance/policy/overview\n\n・https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-linked-006",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-036",
+      "sourceQuestionNumber": 36,
+      "promptHtml": "<p>Azure 環境は、以下で説明するように、管理グループ、サブスクリプション、仮想マシン、リソース グループ、および Azure ポリシーの割り当てを使用して編成されます。<br></p><p><code>管理グループの階層</code></p><ul><li><p><strong>テナント ルート グループ</strong> (階層)</p></li><li><p><strong>MG1</strong> はテナント ルート グループの直接の子です。</p></li><li><p><strong>MG2</strong> はテナント ルート グループの直接の子でもあります<br></p></li></ul><p><code>サブスクリプションとその管理グループ割り当て</code></p><ul><li><p><strong>Sub1</strong> は<strong>テナント ルート グループ</strong></p></li><li><p><strong>Sub2</strong> に直接割り当てられます。 <strong>MG1</strong></p></li><li><p><strong>Sub3</strong> は <strong>MG2</strong></p> に割り当てられます。</li><li><p><strong>Sub4</strong> は に割り当てられます<strong>MG1</strong><br></p></li></ul><p><code>仮想マシン</code></p><ul><li><p><strong>VM1</strong> は<strong>米国東部</strong>の<strong>Sub1</strong>にデプロイされています。リージョン</p></li><li><p><strong>VM2</strong> は<strong>米国東部</strong>の<strong>Sub2</strong>にデプロイされています。</p></li><li><p><strong>VM3</strong>は<strong>米国東部の<strong>Sub3</strong>にデプロイされています。米国</strong> リージョン<br></p></li></ul><p><code>リソース グループ</code></p><ul><li><p><strong>RG1</strong> は<strong>米国東部</strong>にある<strong>Sub1</strong>にあり、以下が含まれています<strong>VM1</strong></p></li><li><p><strong>RG2</strong> は<strong>米国西部</strong>の <strong>Sub2</strong> にあり、以下が含まれています<strong>VM2</strong></p></li><li><p><strong>RG3</strong> は<strong>Sub3</strong> にあり、<strong>米国東部</strong>にあります。 <strong>VM3</strong></p></li></ul><p><strong><br></strong><code>Azure Policy の割り当て</code></p><ul><li><p><strong>PA1</strong> は現在<strong>ありません割り当て済み</strong></p></li><li><p><strong>PA2</strong> は <strong>Sub1</strong> スコープで割り当てられます</p></li><li><p><strong>PA3</strong> は<strong>テナント ルート グループ</strong>で割り当てられますスコープ</p></li></ul><p><br></p><p>次に、次の構成変更を実行します。</p><ul><li><p><strong>PA1</strong> を <strong>MG1</strong></p> に割り当てます。</li><li><p>リソース セレクターがターゲットになるように <strong>PA2</strong> を変更します。 <strong>米国東部</strong> リージョンの <strong>Microsoft.Compute/virtualMachines</strong> のみ</p></li><li><p><strong>PA3</strong> を変更して、Sub1 の<strong>除外を追加します</strong><br></p></li></ul><p><strong>True またはFalse:</strong></p><p><code>「PA2 は米国東部リージョンにデプロイされたすべての仮想マシンを評価します。」</code> </p>",
+      "promptText": "Azure 環境は、以下で説明するように、管理グループ、サブスクリプション、仮想マシン、リソース グループ、および Azure ポリシーの割り当てを使用して編成されます。\n\n管理グループの階層\n・テナント ルート グループ (階層)\n\n・MG1 はテナント ルート グループの直接の子です。\n\n・MG2 はテナント ルート グループの直接の子でもあります\n\nサブスクリプションとその管理グループ割り当て\n・Sub1 はテナント ルート グループ\n\n・Sub2 に直接割り当てられます。 MG1\n\n・Sub3 は MG2\n に割り当てられます。\n・Sub4 は に割り当てられますMG1\n\n仮想マシン\n・VM1 は米国東部のSub1にデプロイされています。リージョン\n\n・VM2 は米国東部のSub2にデプロイされています。\n\n・VM3は米国東部のSub3にデプロイされています。米国 リージョン\n\nリソース グループ\n・RG1 は米国東部にあるSub1にあり、以下が含まれていますVM1\n\n・RG2 は米国西部の Sub2 にあり、以下が含まれていますVM2\n\n・RG3 はSub3 にあり、米国東部にあります。 VM3\n\nAzure Policy の割り当て\n・PA1 は現在ありません割り当て済み\n\n・PA2 は Sub1 スコープで割り当てられます\n\n・PA3 はテナント ルート グループで割り当てられますスコープ\n\n次に、次の構成変更を実行します。\n・PA1 を MG1\n に割り当てます。\n・リソース セレクターがターゲットになるように PA2 を変更します。 米国東部 リージョンの Microsoft.Compute/virtualMachines のみ\n\n・PA3 を変更して、Sub1 の除外を追加します\n\nTrue またはFalse:\n「PA2 は米国東部リージョンにデプロイされたすべての仮想マシンを評価します。」",
+      "choices": [
+        {
+          "choiceId": "en1-q-036-c1",
+          "label": null,
+          "text": "True",
+          "html": "<p>True</p>"
+        },
+        {
+          "choiceId": "en1-q-036-c2",
+          "label": null,
+          "text": "False",
+          "html": "<p>False</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-036-c2"
+      ],
+      "explanationHtml": "<p>偽 は正解です。 PA2 は Sub1 に割り当てられており、米国東部リージョンの Microsoft.Compute/virtualMachines タイプのリソースにのみ適用されるリソース セレクターを含むように変更されています。</p><p>仮想マシンとそのサブスクリプションを確認します。</p><ul><li><p>VM1 は次のとおりです。 Sub1 は 米国東部 にあります - PA2 が適用されます</p></li><li><p>VM2 は Sub2 にあり、米国東部にあります - PA2 は適用されません (PA2 は Sub1 にのみ割り当てられます)</p></li><li><p>VM3 は Sub3 にあり、米国東部 にあります。 PA2 は適用されません (PA2 は Sub1 にのみ割り当てられます)</p></li></ul><p>PA2 は Sub1 にのみ割り当てられるため、米国東部のすべての仮想マシンは評価されず、Sub1 内の仮想マシンのみが評価されます。 (VM1)。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/overview\">https://learn.microsoft.com/en-us/azure/governance/policy/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope\">https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope</a></p></li></ul>",
+      "explanationText": "偽 は正解です。 PA2 は Sub1 に割り当てられており、米国東部リージョンの Microsoft.Compute/virtualMachines タイプのリソースにのみ適用されるリソース セレクターを含むように変更されています。\n仮想マシンとそのサブスクリプションを確認します。\n・VM1 は次のとおりです。 Sub1 は 米国東部 にあります - PA2 が適用されます\n\n・VM2 は Sub2 にあり、米国東部にあります - PA2 は適用されません (PA2 は Sub1 にのみ割り当てられます)\n\n・VM3 は Sub3 にあり、米国東部 にあります。 PA2 は適用されません (PA2 は Sub1 にのみ割り当てられます)\n\nPA2 は Sub1 にのみ割り当てられるため、米国東部のすべての仮想マシンは評価されず、Sub1 内の仮想マシンのみが評価されます。 (VM1)。\n参考:\n・https://learn.microsoft.com/en-us/azure/governance/policy/overview\n\n・https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-linked-006",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-037",
+      "sourceQuestionNumber": 37,
+      "promptHtml": "<p>Azure 環境は、以下で説明するように、管理グループ、サブスクリプション、仮想マシン、リソース グループ、および Azure ポリシーの割り当てを使用して編成されます。<br></p><p><code>管理グループの階層</code></p><ul><li><p><strong>テナント ルート グループ</strong> (階層)</p></li><li><p><strong>MG1</strong> はテナント ルート グループの直接の子です。</p></li><li><p><strong>MG2</strong> はテナント ルート グループの直接の子でもあります<br></p></li></ul><p><code>サブスクリプションとその管理グループ割り当て</code></p><ul><li><p><strong>Sub1</strong> は<strong>テナント ルート グループ</strong></p></li><li><p><strong>Sub2</strong> に直接割り当てられます。 <strong>MG1</strong></p></li><li><p><strong>Sub3</strong> は <strong>MG2</strong></p> に割り当てられます。</li><li><p><strong>Sub4</strong> は に割り当てられます<strong>MG1</strong><br></p></li></ul><p><code>仮想マシン</code></p><ul><li><p><strong>VM1</strong> は<strong>米国東部</strong>の<strong>Sub1</strong>にデプロイされています。リージョン</p></li><li><p><strong>VM2</strong> は<strong>米国東部</strong>の<strong>Sub2</strong>にデプロイされています。</p></li><li><p><strong>VM3</strong>は<strong>米国東部の<strong>Sub3</strong>にデプロイされています。米国</strong> リージョン<br></p></li></ul><p><code>リソース グループ</code></p><ul><li><p><strong>RG1</strong> は<strong>米国東部</strong>にある<strong>Sub1</strong>にあり、以下が含まれています<strong>VM1</strong></p></li><li><p><strong>RG2</strong> は<strong>米国西部</strong>の <strong>Sub2</strong> にあり、以下が含まれています<strong>VM2</strong></p></li><li><p><strong>RG3</strong> は<strong>Sub3</strong> にあり、<strong>米国東部</strong>にあります。 <strong>VM3</strong></p></li></ul><p><strong><br></strong><code>Azure Policy の割り当て</code></p><ul><li><p><strong>PA1</strong> は現在<strong>ありません割り当て済み</strong></p></li><li><p><strong>PA2</strong> は <strong>Sub1</strong> スコープで割り当てられます</p></li><li><p><strong>PA3</strong> は<strong>テナント ルート グループ</strong>で割り当てられますスコープ</p></li></ul><p><br></p><p>次に、次の構成変更を実行します。</p><ul><li><p><strong>PA1</strong> を <strong>MG1</strong></p> に割り当てます。</li><li><p>リソース セレクターがターゲットになるように <strong>PA2</strong> を変更します。 <strong>米国東部</strong> リージョンの <strong>Microsoft.Compute/virtualMachines</strong> のみ</p></li><li><p><strong>PA3</strong> を変更して、Sub1 の<strong>除外を追加します</strong><br></p></li></ul><p><strong>True またはFalse:</strong></p><p><code>「PA3 は VM3 を評価します。」</code> </p>",
+      "promptText": "Azure 環境は、以下で説明するように、管理グループ、サブスクリプション、仮想マシン、リソース グループ、および Azure ポリシーの割り当てを使用して編成されます。\n\n管理グループの階層\n・テナント ルート グループ (階層)\n\n・MG1 はテナント ルート グループの直接の子です。\n\n・MG2 はテナント ルート グループの直接の子でもあります\n\nサブスクリプションとその管理グループ割り当て\n・Sub1 はテナント ルート グループ\n\n・Sub2 に直接割り当てられます。 MG1\n\n・Sub3 は MG2\n に割り当てられます。\n・Sub4 は に割り当てられますMG1\n\n仮想マシン\n・VM1 は米国東部のSub1にデプロイされています。リージョン\n\n・VM2 は米国東部のSub2にデプロイされています。\n\n・VM3は米国東部のSub3にデプロイされています。米国 リージョン\n\nリソース グループ\n・RG1 は米国東部にあるSub1にあり、以下が含まれていますVM1\n\n・RG2 は米国西部の Sub2 にあり、以下が含まれていますVM2\n\n・RG3 はSub3 にあり、米国東部にあります。 VM3\n\nAzure Policy の割り当て\n・PA1 は現在ありません割り当て済み\n\n・PA2 は Sub1 スコープで割り当てられます\n\n・PA3 はテナント ルート グループで割り当てられますスコープ\n\n次に、次の構成変更を実行します。\n・PA1 を MG1\n に割り当てます。\n・リソース セレクターがターゲットになるように PA2 を変更します。 米国東部 リージョンの Microsoft.Compute/virtualMachines のみ\n\n・PA3 を変更して、Sub1 の除外を追加します\n\nTrue またはFalse:\n「PA3 は VM3 を評価します。」",
+      "choices": [
+        {
+          "choiceId": "en1-q-037-c1",
+          "label": null,
+          "text": "True",
+          "html": "<p>True</p>"
+        },
+        {
+          "choiceId": "en1-q-037-c2",
+          "label": null,
+          "text": "False",
+          "html": "<p>False</p>"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-037-c1"
+      ],
+      "explanationHtml": "<p>真 が正解です。PA3 はテナント ルート グループに割り当てられます。</p><p>仮想マシンとそのサブスクリプションを確認すると:</p><ul><li><p>VM1 は Sub1 にあります (PA3 によって除外されました) - PA3 は適用されません</p></li><li><p>VM2 は Sub2 に含まれます (PA3 は適用されます)</p></li><li><p>VM3 は含まれますSub3 (PA3 が適用されます)</p></li></ul><p>VM3 は Sub3 にあり、PA3 には Sub3 の除外がないため、PA3 は評価されますVM3.</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/overview\">https://learn.microsoft.com/en-us/azure/governance/policy/overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope\">https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope</a></p></li></ul>",
+      "explanationText": "正解は真 です。PA3 はテナント ルート グループに割り当てられます。\n仮想マシンとそのサブスクリプションを確認すると:\n・VM1 は Sub1 にあります (PA3 によって除外されました) - PA3 は適用されません\n\n・VM2 は Sub2 に含まれます (PA3 は適用されます)\n\n・VM3 は含まれますSub3 (PA3 が適用されます)\n\nVM3 は Sub3 にあり、PA3 には Sub3 の除外がないため、PA3 は評価されますVM3.\n参考:\n・https://learn.microsoft.com/en-us/azure/governance/policy/overview\n\n・https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-linked-006",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-038",
+      "sourceQuestionNumber": 38,
+      "promptHtml": "<p>あなたは、約 <strong>1 TB の JSON ファイル</strong>を含むファイル共有をホストする<strong>オンプレミスのネットワーク接続ストレージ (NAS)</strong> システムを持っています。</p><p>また、<strong>storage1</strong> という名前のストレージ アカウントを持つ<strong>Azure サブスクリプション</strong>も持っており、<strong>階層型名前空間が有効</strong>になっています。</p><p> <strong>NAS デバイスから storage1 にファイルを転送する</strong>アプローチを推奨する必要があります。</p><p>推奨事項には何を含める必要がありますか。</p>",
+      "promptText": "あなたは、約 1 TB の JSON ファイルを含むファイル共有をホストするオンプレミスのネットワーク接続ストレージ (NAS) システムを持っています。\nまた、storage1 という名前のストレージ アカウントを持つAzure サブスクリプションも持っており、階層型名前空間が有効になっています。\n NAS デバイスから storage1 にファイルを転送するアプローチを推奨する必要があります。\n推奨事項には何を含める必要がありますか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-038-c1",
+          "label": null,
+          "text": "Azure File Sync",
+          "html": "Azure File Sync"
+        },
+        {
+          "choiceId": "en1-q-038-c2",
+          "label": null,
+          "text": "AzCopy",
+          "html": "AzCopy"
+        },
+        {
+          "choiceId": "en1-q-038-c3",
+          "label": null,
+          "text": "Robocopy",
+          "html": "Robocopy"
+        },
+        {
+          "choiceId": "en1-q-038-c4",
+          "label": null,
+          "text": "Azure Storage Mover",
+          "html": "Azure Storage Mover"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-038-c2"
+      ],
+      "explanationHtml": "<p>AzCopy が正解です。AzCopy は、大量のデータを Azure Blob Storage および Azure Data Lake Storage Gen2 に転送するために特別に設計されたコマンド ライン ツールです。</p><p>Azure File Sync は誤りです。Azure File Sync は、データを Azure Data Lake Storage Gen2 に移行するのではなく、オンプレミスの Windows Server ファイル共有を Azure Files と同期するように設計されています。</p><p>Robocopy は誤りです。Robocopy は、ローカルまたはネットワーク上の Windows 環境間でファイルを移行するために使用される Windows ベースのファイル コピー ツールです。</p><p>Azure Storage Mover は誤りです。Azure Storage Mover はオンプレミスのファイル共有を Azure に移行することを目的としていますが、まだプレビュー段階であり、主に Azure Data Lake Storage ではなく Azure Blob Storage と Azure Files に最適化されています Gen2。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10?tabs=dnf\">https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10?tabs=dnf</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction\">https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-planning\">https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-planning</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/storage-mover/service-overview\">https://learn.microsoft.com/en-us/azure/storage-mover/service-overview</a></p></li></ul>",
+      "explanationText": "正解はAzCopy です。AzCopy は、大量のデータを Azure Blob Storage および Azure Data Lake Storage Gen2 に転送するために特別に設計されたコマンド ライン ツールです。\nAzure File Sync は誤りです。Azure File Sync は、データを Azure Data Lake Storage Gen2 に移行するのではなく、オンプレミスの Windows Server ファイル共有を Azure Files と同期するように設計されています。\nRobocopy は誤りです。Robocopy は、ローカルまたはネットワーク上の Windows 環境間でファイルを移行するために使用される Windows ベースのファイル コピー ツールです。\nAzure Storage Mover は誤りです。Azure Storage Mover はオンプレミスのファイル共有を Azure に移行することを目的としていますが、まだプレビュー段階であり、主に Azure Data Lake Storage ではなく Azure Blob Storage と Azure Files に最適化されています Gen2。\n参考:\n・https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10?tabs=dnf\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction\n\n・https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-planning\n\n・https://learn.microsoft.com/en-us/azure/storage-mover/service-overview",
+      "images": [],
+      "domain": "データ ストレージ ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": null,
+      "tags": []
+    },
+    {
+      "questionId": "en1-q-039",
+      "sourceQuestionNumber": 39,
+      "promptHtml": "<p>あなたは WS1</strong> という名前の<strong>Log Analytics ワークスペースを含む<strong>Azure サブスクリプション</strong>を持っており、<strong>パブリック エンドポイント</strong>経由でアクセスできます。</p><p>サブスクリプションには、リージョンと構成ごとにグループ化された次の<strong>Windows 仮想マシン</strong>が含まれています:</p><ol><li><p><strong>中央米国</strong></p><ul><li><p><strong>20 台の仮想マシン</strong></p></li><li><p>各 VM は<strong>Windows Server (Server Core インストール)</strong></p></li></ul></li><li><p><strong>米国東部</strong></p><ul><li><p><strong>50 台の仮想マシン</strong></p></li><li><p>各 VM VM は、<strong>IIS ベースのインフラストラクチャ サービス</strong>がインストールされた <strong>Windows Server</strong> を実行し、<strong>IIS ベースのインフラストラクチャ サービス</strong>がインストールされています。</p></li></ul></li><li><p><strong>米国西部</strong></p><ul><li><p><strong>50 台の仮想マシン</strong></p></li><li><p>各 VM は、<strong>IIS ベースのアプリケーション サービス</strong>を備えた <strong>Windows Server</strong>を実行します。インストールされている</p></li></ul></li></ol><p><strong>これらの仮想マシンからログを収集</strong>し、<strong>Azure Monitor Agent (AMA)</strong> を使用して<strong>WS1</strong>に送信する必要があります。ログ構成は次の条件を満たす必要があります。</p><ol><li><p><strong>米国東部</strong>からは<strong>Windows イベント ログ</strong>と<strong>IIS ログ</strong>の両方を収集します</strong></p></li><li><p><strong>米国中部</strong>からは<strong>Windows イベント ログのみ</strong></p></li><li><p><strong>米国西部</strong>からは収集します。 <strong>IIS ログのみ</strong></p></li><li><p>全体的な設計では<strong>取り込まれるログ データの量を最小限に抑える必要があります</strong></p></li></ol><p>これらの要件を満たすために必要な<strong>データ収集ルール (DCR) の最小数</strong>はどれくらいですか。</p>",
+      "promptText": "あなたは WS1 という名前のLog Analytics ワークスペースを含むAzure サブスクリプションを持っており、パブリック エンドポイント経由でアクセスできます。\nサブスクリプションには、リージョンと構成ごとにグループ化された次のWindows 仮想マシンが含まれています:\n・中央米国\n・20 台の仮想マシン\n\n・各 VM はWindows Server (Server Core インストール)\n\n・米国東部\n・50 台の仮想マシン\n\n・各 VM VM は、IIS ベースのインフラストラクチャ サービスがインストールされた Windows Server を実行し、IIS ベースのインフラストラクチャ サービスがインストールされています。\n\n・米国西部\n・50 台の仮想マシン\n\n・各 VM は、IIS ベースのアプリケーション サービスを備えた Windows Serverを実行します。インストールされている\n\nこれらの仮想マシンからログを収集し、Azure Monitor Agent (AMA) を使用してWS1に送信する必要があります。ログ構成は次の条件を満たす必要があります。\n・米国東部からはWindows イベント ログとIIS ログの両方を収集します\n\n・米国中部からはWindows イベント ログのみ\n\n・米国西部からは収集します。 IIS ログのみ\n\n・全体的な設計では取り込まれるログ データの量を最小限に抑える必要があります\n\nこれらの要件を満たすために必要なデータ収集ルール (DCR) の最小数はどれくらいですか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-039-c1",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "en1-q-039-c2",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "en1-q-039-c3",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-039-c3"
+      ],
+      "explanationHtml": "<p>3 が正しいです。収集されるデータ量を最小限に抑えながらデータ収集要件を満たすには、収集されるログのタイプと仮想マシンの場所に基づいて個別のデータ収集ルール (DCR) を定義する必要があります。</p><ul><li><p>DCR1: 米国東部 (Windows ログ + IIS ログ) - 東部の仮想マシンから Windows ログと IIS ログを収集します。米国</p></li><li><p>DCR2: 米国中部 (Windows ログのみ) - 米国中部の仮想マシンからWindows ログのみを収集します。</p></li><li><p>DCR3: 米国西部 (IIS ログ)のみ) - 米国西部の仮想マシンからIIS ログのみを収集します。</p></li></ul><p>各 DCR は特定のリージョンに適用され、必要なログ タイプのみが含まれます。この設定により、指定された要件をすべて満たしながら収集されるデータの量を最小限に抑えることができます。</p><p>したがって、必要なデータ収集ルール (DCR) の最小数は 3 です。</p><p>参考:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-rule-overview\">https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-rule-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration\">https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration</a></p></li></ul>",
+      "explanationText": "3 が正しいです。収集されるデータ量を最小限に抑えながらデータ収集要件を満たすには、収集されるログのタイプと仮想マシンの場所に基づいて個別のデータ収集ルール (DCR) を定義する必要があります。\n・DCR1: 米国東部 (Windows ログ + IIS ログ) - 東部の仮想マシンから Windows ログと IIS ログを収集します。米国\n\n・DCR2: 米国中部 (Windows ログのみ) - 米国中部の仮想マシンからWindows ログのみを収集します。\n\n・DCR3: 米国西部 (IIS ログ)のみ) - 米国西部の仮想マシンからIIS ログのみを収集します。\n\n各 DCR は特定のリージョンに適用され、必要なログ タイプのみが含まれます。この設定により、指定された要件をすべて満たしながら収集されるデータの量を最小限に抑えることができます。\nしたがって、必要なデータ収集ルール (DCR) の最小数は 3 です。\n参考:\n・https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-rule-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-linked-007",
+      "tags": [
+        "linked-question"
+      ]
+    },
+    {
+      "questionId": "en1-q-040",
+      "sourceQuestionNumber": 40,
+      "promptHtml": "<p>あなたは、WS1</strong> という名前の<strong>Log Analytics ワークスペースを含む<strong>Azure サブスクリプション</strong>を持っており、<strong>パブリック エンドポイント</strong>経由でアクセスできます。</p><p>サブスクリプションには、リージョンと構成ごとにグループ化された次の<strong>Windows 仮想マシン</strong>が含まれています:</p><ol><li><p><strong>中央米国</strong></p><ul><li><p><strong>20 台の仮想マシン</strong></p></li><li><p>各 VM は<strong>Windows Server (Server Core インストール)</strong></p></li></ul></li><li><p><strong>米国東部</strong></p><ul><li><p><strong>50 台の仮想マシン</strong></p></li><li><p>各 VM VM は、<strong>IIS ベースのインフラストラクチャ サービス</strong>がインストールされた <strong>Windows Server</strong> を実行し、<strong>IIS ベースのインフラストラクチャ サービス</strong>がインストールされています。</p></li></ul></li><li><p><strong>米国西部</strong></p><ul><li><p><strong>50 台の仮想マシン</strong></p></li><li><p>各 VM は、<strong>IIS ベースのアプリケーション サービス</strong>を備えた <strong>Windows Server</strong>を実行します。インストールされている</p></li></ul></li></ol><p><strong>これらの仮想マシンからログを収集</strong>し、<strong>Azure Monitor Agent (AMA)</strong> を使用して<strong>WS1</strong>に送信する必要があります。ログ構成は次の条件を満たす必要があります。</p><ol><li><p><strong>米国東部</strong>からは<strong>Windows イベント ログ</strong>と<strong>IIS ログ</strong>の両方を収集します</strong></p></li><li><p><strong>米国中部</strong>からは<strong>Windows イベント ログのみ</strong></p></li><li><p><strong>米国西部</strong>からは収集します。 <strong>IIS ログのみ</strong></p></li><li><p>全体的な設計では<strong>取り込まれるログ データの量を最小限に抑える必要があります</strong></p></li></ol><p>これらの要件を満たすために</strong>必要な<strong>データ収集エンドポイント (DCE) の最小数はどれくらいですか。</p>",
+      "promptText": "あなたは、WS1 という名前のLog Analytics ワークスペースを含むAzure サブスクリプションを持っており、パブリック エンドポイント経由でアクセスできます。\nサブスクリプションには、リージョンと構成ごとにグループ化された次のWindows 仮想マシンが含まれています:\n・中央米国\n・20 台の仮想マシン\n\n・各 VM はWindows Server (Server Core インストール)\n\n・米国東部\n・50 台の仮想マシン\n\n・各 VM VM は、IIS ベースのインフラストラクチャ サービスがインストールされた Windows Server を実行し、IIS ベースのインフラストラクチャ サービスがインストールされています。\n\n・米国西部\n・50 台の仮想マシン\n\n・各 VM は、IIS ベースのアプリケーション サービスを備えた Windows Serverを実行します。インストールされている\n\nこれらの仮想マシンからログを収集し、Azure Monitor Agent (AMA) を使用してWS1に送信する必要があります。ログ構成は次の条件を満たす必要があります。\n・米国東部からはWindows イベント ログとIIS ログの両方を収集します\n\n・米国中部からはWindows イベント ログのみ\n\n・米国西部からは収集します。 IIS ログのみ\n\n・全体的な設計では取り込まれるログ データの量を最小限に抑える必要があります\n\nこれらの要件を満たすために必要なデータ収集エンドポイント (DCE) の最小数はどれくらいですか。",
+      "choices": [
+        {
+          "choiceId": "en1-q-040-c1",
+          "label": null,
+          "text": "0",
+          "html": "0"
+        },
+        {
+          "choiceId": "en1-q-040-c2",
+          "label": null,
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "choiceId": "en1-q-040-c3",
+          "label": null,
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "choiceId": "en1-q-040-c4",
+          "label": null,
+          "text": "3",
+          "html": "3"
+        }
+      ],
+      "correctChoiceIds": [
+        "en1-q-040-c1"
+      ],
+      "explanationHtml": "<p>0 が正しいです。プライベート ネットワークで Azure Monitor Agent (AMA) を使用する場合は、データ コレクション エンドポイント (DCE) が必要です。</p><ul><li><p>WS1 はパブリック エンドポイント経由でアクセス可能です。つまり、Azure Monitor エージェントは DCE を必要とせずに Log Analytics にデータを直接送信できます。</p></li><li><p>DCE は、データの取り込みにプライベート エンドポイント (Azure Private Link 経由) が使用される場合にのみ必要です。ワークスペースはパブリックにアクセスできるため、DCE は必要ありません。</p></li><li><p>データ収集ルール (DCR) はログ収集を定義しますが、プライベート接続が強制されない限り DCE は必要ありません。</p></li></ul><p>したがって、必要な DCE の最小数は 0 です。</p><p>読み取り詳細:</p><ul><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview?tabs=portal\">https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview?tabs=portal</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-rule-overview\">https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-rule-overview</a></p></li><li><p><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration\">https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration</a></p></li></ul>",
+      "explanationText": "0 が正しいです。プライベート ネットワークで Azure Monitor Agent (AMA) を使用する場合は、データ コレクション エンドポイント (DCE) が必要です。\n・WS1 はパブリック エンドポイント経由でアクセス可能です。つまり、Azure Monitor エージェントは DCE を必要とせずに Log Analytics にデータを直接送信できます。\n\n・DCE は、データの取り込みにプライベート エンドポイント (Azure Private Link 経由) が使用される場合にのみ必要です。ワークスペースはパブリックにアクセスできるため、DCE は必要ありません。\n\n・データ収集ルール (DCR) はログ収集を定義しますが、プライベート接続が強制されない限り DCE は必要ありません。\n\nしたがって、必要な DCE の最小数は 0 です。\n読み取り詳細:\n・https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview?tabs=portal\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-rule-overview\n\n・https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration",
+      "images": [],
+      "domain": "ID、ガバナンス、監視ソリューションを設計する",
+      "questionType": "single",
+      "contextGroupId": "en1-linked-007",
+      "tags": [
+        "linked-question"
+      ]
+    }
+  ]
+}

@@ -3,6 +3,10 @@ const SESSION_KEY = "az305.quiz.session.v1";
 const REPORT_KEY = "az305.quiz.report.v1";
 const SET_ATTEMPT_KEY = "az305.quiz.set-attempts.v1";
 
+const SUPABASE_URL = "https://zjmwxmwepmrkaennmecl.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_bFbaYKShsKarkteth7vljw__QLRGdrr";
+const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
 function loadJson(key, fallbackValue) {
   try {
     const raw = window.localStorage.getItem(key);
@@ -42,6 +46,7 @@ function updateQuestionState(questionId, partialState) {
     ...partialState,
   };
   saveJson(QUESTION_STATE_KEY, states);
+  pushQuestionState(questionId, states[questionId]);
   return states[questionId];
 }
 
@@ -65,6 +70,7 @@ function saveReport(setId, report) {
   const reports = getReports();
   reports[setId] = report;
   saveJson(REPORT_KEY, reports);
+  pushReport(setId, report);
   return reports[setId];
 }
 
@@ -89,6 +95,7 @@ function updateSetAttemptState(setId, attemptIndex, checked) {
   nextState[attemptIndex] = Boolean(checked);
   attempts[setId] = nextState;
   saveJson(SET_ATTEMPT_KEY, attempts);
+  pushSetAttempt(setId, nextState);
   return nextState;
 }
 
@@ -104,4 +111,111 @@ window.QuizStorage = {
   getSetAttempts,
   getSetAttemptState,
   updateSetAttemptState,
+  pullFromSupabase,
 };
+
+// --- Supabase pull (起動時: Supabase → localStorage) ---
+
+async function pullFromSupabase() {
+  try {
+    const [qRes, rRes, aRes] = await Promise.all([
+      sb.from("question_states").select("*"),
+      sb.from("set_reports").select("*"),
+      sb.from("set_attempts").select("*"),
+    ]);
+
+    if (qRes.data) {
+      const map = {};
+      for (const row of qRes.data) {
+        map[row.question_id] = {
+          marked: row.marked,
+          lastAnswerStatus: row.last_answer_status,
+          lastAnsweredChoiceIds: row.last_answered_choice_ids,
+        };
+      }
+      saveJson(QUESTION_STATE_KEY, map);
+    }
+
+    if (rRes.data) {
+      const map = {};
+      for (const row of rRes.data) {
+        map[row.set_id] = {
+          setId: row.set_id,
+          title: row.title,
+          mode: row.mode,
+          modeLabel: row.mode_label,
+          finishedAt: row.finished_at,
+          correctCount: row.correct_count,
+          wrongCount: row.wrong_count,
+          unansweredCount: row.unanswered_count,
+          markedCount: row.marked_count,
+          accuracy: Number(row.accuracy),
+          wrongQuestionIds: row.wrong_question_ids,
+          items: row.items,
+        };
+      }
+      saveJson(REPORT_KEY, map);
+    }
+
+    if (aRes.data) {
+      const map = {};
+      for (const row of aRes.data) {
+        map[row.set_id] = row.attempts;
+      }
+      saveJson(SET_ATTEMPT_KEY, map);
+    }
+
+    console.log("[Supabase] pull 完了");
+  } catch (err) {
+    console.warn("[Supabase] pull 失敗（localStorage フォールバック）", err);
+  }
+}
+
+// --- Supabase push (書き込み時: localStorage → Supabase, fire-and-forget) ---
+
+function pushQuestionState(questionId, state) {
+  sb.from("question_states")
+    .upsert({
+      question_id: questionId,
+      marked: state.marked,
+      last_answer_status: state.lastAnswerStatus,
+      last_answered_choice_ids: state.lastAnsweredChoiceIds,
+      updated_at: new Date().toISOString(),
+    })
+    .then(({ error }) => {
+      if (error) console.warn("[Supabase] push question_states 失敗", error);
+    });
+}
+
+function pushReport(setId, report) {
+  sb.from("set_reports")
+    .upsert({
+      set_id: setId,
+      title: report.title,
+      mode: report.mode,
+      mode_label: report.modeLabel,
+      finished_at: report.finishedAt,
+      correct_count: report.correctCount,
+      wrong_count: report.wrongCount,
+      unanswered_count: report.unansweredCount,
+      marked_count: report.markedCount,
+      accuracy: report.accuracy,
+      wrong_question_ids: report.wrongQuestionIds,
+      items: report.items,
+    })
+    .then(({ error }) => {
+      if (error) console.warn("[Supabase] push set_reports 失敗", error);
+    });
+}
+
+function pushSetAttempt(setId, attempts) {
+  sb.from("set_attempts")
+    .upsert({
+      set_id: setId,
+      attempts: attempts,
+      updated_at: new Date().toISOString(),
+    })
+    .then(({ error }) => {
+      if (error) console.warn("[Supabase] push set_attempts 失敗", error);
+    });
+}

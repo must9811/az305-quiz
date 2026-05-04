@@ -382,6 +382,10 @@ const EN1_NOTES = {
 };
 
 const PROMPT_OVERRIDES = {
+  "en1-q-023":
+    "Azure サブスクリプションには、次のリソースがあります。\n\nリソース:\n・apexcore.com: Azure プライベート DNS ゾーン\n・VNet1: apexcore.com プライベート DNS ゾーンにリンクされている仮想ネットワーク\n・VNet2: VNet1 とピアリングされ、apexcore.com プライベート DNS ゾーンにリンクされている仮想ネットワーク\n・VNet3: apexcore.com プライベート DNS ゾーンにリンクされている仮想ネットワーク。VNet1 または VNet2 とはピアリングされていません。\n・Workspace1: VNet1、VNet2、VNet3 の仮想マシンから収集されたログを保存する Log Analytics ワークスペース\n\nVNet1、VNet2、VNet3 には、それぞれ複数の仮想マシンがあります。すべての仮想マシンは、名前解決に Azure DNS を使用しています。\n\n次の要件を満たす Azure Monitor ログ ルーティングを設計する必要があります。\n・各仮想マシンから収集され、Workspace1 に取り込まれるログ データは、Microsoft バックボーン経由でのみ送信される必要があります。\n・管理作業を最小限に抑える必要があります。\n\nAzure Monitor Private Link Scope (AMPLS) リソースの最小数として、いくつを推奨しますか。",
+  "en1-q-024":
+    "Azure サブスクリプションには、次のリソースがあります。\n\nリソース:\n・apexcore.com: Azure プライベート DNS ゾーン\n・VNet1: apexcore.com プライベート DNS ゾーンにリンクされている仮想ネットワーク\n・VNet2: VNet1 とピアリングされ、apexcore.com プライベート DNS ゾーンにリンクされている仮想ネットワーク\n・VNet3: apexcore.com プライベート DNS ゾーンにリンクされている仮想ネットワーク。VNet1 または VNet2 とはピアリングされていません。\n・Workspace1: VNet1、VNet2、VNet3 の仮想マシンから収集されたログを保存する Log Analytics ワークスペース\n\nVNet1、VNet2、VNet3 には、それぞれ複数の仮想マシンがあります。すべての仮想マシンは、名前解決に Azure DNS を使用しています。\n\n次の要件を満たす Azure Monitor ログ ルーティングを設計する必要があります。\n・各仮想マシンから収集され、Workspace1 に取り込まれるログ データは、Microsoft バックボーン経由でのみ送信される必要があります。\n・管理作業を最小限に抑える必要があります。\n\nプライベート エンドポイントの最小数として、いくつを推奨しますか。",
   "en1-q-007":
     "Azure サブスクリプションには、VMSS1、NVA1、NVA2 などのリソースがあります。VMSS1 への受信トラフィックを NVA1 と NVA2 に分散する負荷分散ソリューションを推奨する必要があります。管理オーバーヘッドは最小限に抑える必要があります。推奨事項には何を含めるべきですか。",
   "en1-q-009":
@@ -583,6 +587,7 @@ function cleanPromptText(text) {
     .replace(/edit[.?。]usp=sharing/g, "edit?usp=sharing")
     .replace(/(edit\?usp=sharing) (BlueRock)/g, "$1\n$2")
     .replace(/(onmicrosoft\.com) (contoso\.onmicrosoft\.com)/g, "$1\n$2")
+    .replace(/VNet1,VNet2,VNet3/g, "VNet1、VNet2、VNet3")
     .replace(/BlueRock, Inc\./g, "BlueRock Inc.")
     .replace(/IrondClad/g, "IronClad")
     .replace(/データベースapexcoresql1/g, "apexcoresql1 という名前の Azure SQL データベース")

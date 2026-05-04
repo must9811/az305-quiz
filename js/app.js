@@ -45,6 +45,7 @@
 
   async function init() {
     state.manifest = loadManifest();
+    await QuizStorage.pullFromSupabase();
     state.session = getSession();
     render();
   }

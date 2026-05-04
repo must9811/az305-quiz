@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { applyEnglishSet1Rewrites } = require("./en1-manual-rewrites");
 
 const ROOT_DIR = path.resolve(__dirname, "..");
 const OUTPUT_DIR = path.join(ROOT_DIR, "data");
@@ -107,6 +108,10 @@ async function main() {
       questions = await localizeEnglishQuestions(questions, translationCache);
     }
 
+    if (source.sourceId === "en1") {
+      questions = applyEnglishSet1Rewrites(questions);
+    }
+
     generatedSets.push(...buildSets(questions, source));
   }
 
@@ -193,7 +198,7 @@ function syncSourceAssets(source) {
 
   const sourceHtmlPath = path.join(source.inputDir, source.fileName);
   const targetHtmlPath = path.join(ASSETS_DIR, source.fileName);
-  if (sourceHtmlPath !== targetHtmlPath && fs.existsSync(sourceHtmlPath)) {
+  if (sourceHtmlPath !== targetHtmlPath && fs.existsSync(sourceHtmlPath) && !fs.existsSync(targetHtmlPath)) {
     fs.copyFileSync(sourceHtmlPath, targetHtmlPath);
   }
 
@@ -205,7 +210,7 @@ function syncSourceAssets(source) {
     ASSETS_DIR,
     `${path.parse(source.fileName).name}_files`,
   );
-  if (fs.existsSync(sourceCompanionDir)) {
+  if (fs.existsSync(sourceCompanionDir) && !fs.existsSync(targetCompanionDir)) {
     fs.cpSync(sourceCompanionDir, targetCompanionDir, {
       recursive: true,
       force: true,
@@ -1185,6 +1190,7 @@ function escapeRegExp(value) {
 }
 
 main().catch((error) => {
-  console.error(error);
+  console.error("extract-quiz-data failed");
+  console.error(error?.stack || error?.message || String(error));
   process.exitCode = 1;
 });

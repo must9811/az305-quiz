@@ -98,8 +98,8 @@
     {
       "questionId": "en2-q-033",
       "sourceQuestionNumber": 33,
-      "promptHtml": "<p>あなたは、Microsoft Entra ID を使用してユーザーを認証する App1 という名前のAzure Web アプリを展開する準備をしています。</p>\n<p>App1 には、組織内の従業員がインターネット経由でアクセスします。すべてのユーザーは、Windows 10 を実行し、Microsoft Entra ID に参加しているデバイスで作業しています。</p>\n<p>次の全体的な目標を満たす認証関連のソリューションを推奨する必要があります。</p>\n<ul><li>ユーザーは、認証を求められることなく App1 にアクセスできる必要があります。</li><li>へのアクセスApp1 は会社所有のデバイスのみに制限する必要があります。</li></ul>\n<p>以下の特定の要件について、何を推奨しますか。</p>\n<p>要件:</p>\n<p>「ユーザーは認証を求められずに App1 に接続できます。」</p>",
-      "promptText": "あなたは、Microsoft Entra ID を使用してユーザーを認証する App1 という名前のAzure Web アプリを展開する準備をしています。\nApp1 には、組織内の従業員がインターネット経由でアクセスします。すべてのユーザーは、Windows 10 を実行し、Microsoft Entra ID に参加しているデバイスで作業しています。\n次の全体的な目標を満たす認証関連のソリューションを推奨する必要があります。\n・ユーザーは、認証を求められることなく App1 にアクセスできる必要があります。\n\n・へのアクセスApp1 は会社所有のデバイスのみに制限する必要があります。\n\n以下の特定の要件について、何を推奨しますか。\n\n要件:\n「ユーザーは認証を求められずに App1 に接続できます。」",
+      "promptHtml": "<p>Microsoft Entra ID を使用してユーザーを認証する App1 という Azure Web アプリをデプロイする予定です。</p>\n<p>App1 は、組織内の従業員がインターネット経由でアクセスします。すべてのユーザーは、Windows 10 を実行し、Microsoft Entra ID に参加済みの会社所有デバイスを使用しています。</p>\n<p>目標:</p>\n<ul><li>ユーザーは追加の認証プロンプトなしで App1 にアクセスできる必要があります。</li><li>App1 へのアクセスは会社所有デバイスのみに制限する必要があります。</li></ul>\n<p>次の要件を満たすために何を推奨しますか。</p>\n<p>「ユーザーは認証を求められずに App1 に接続できます。」</p>",
+      "promptText": "Microsoft Entra ID を使用してユーザーを認証する App1 という Azure Web アプリをデプロイする予定です。\nApp1 は、組織内の従業員がインターネット経由でアクセスします。すべてのユーザーは、Windows 10 を実行し、Microsoft Entra ID に参加済みの会社所有デバイスを使用しています。\n\n目標:\n・ユーザーは追加の認証プロンプトなしで App1 にアクセスできる必要があります。\n・App1 へのアクセスは会社所有デバイスのみに制限する必要があります。\n次の要件を満たすために何を推奨しますか。\n「ユーザーは認証を求められずに App1 に接続できます。」",
       "choices": [
         {
           "choiceId": "en2-q-033-c1",
@@ -136,8 +136,8 @@
     {
       "questionId": "en2-q-034",
       "sourceQuestionNumber": 34,
-      "promptHtml": "<p>あなたは、Microsoft Entra ID を使用してユーザーを認証する App1 という名前のAzure Web アプリを展開する準備をしています。</p>\n<p>App1 には、組織内の従業員がインターネット経由でアクセスします。すべてのユーザーは、Windows 10 を実行し、Microsoft Entra ID に参加しているデバイスで作業しています。</p>\n<p>次の全体的な目標を満たす認証関連のソリューションを推奨する必要があります。</p>\n<ul><li>ユーザーは、認証を求められることなく App1 にアクセスできる必要があります。</li><li>へのアクセスApp1 は会社所有のデバイスのみに制限する必要があります。</li></ul>\n<p>以下の特定の要件について、何を推奨しますか。</p>\n<p>要件:</p>\n<p>「ユーザーは会社所有のコンピュータからのみ App1 にアクセスできます。」</p>",
-      "promptText": "あなたは、Microsoft Entra ID を使用してユーザーを認証する App1 という名前のAzure Web アプリを展開する準備をしています。\nApp1 には、組織内の従業員がインターネット経由でアクセスします。すべてのユーザーは、Windows 10 を実行し、Microsoft Entra ID に参加しているデバイスで作業しています。\n次の全体的な目標を満たす認証関連のソリューションを推奨する必要があります。\n・ユーザーは、認証を求められることなく App1 にアクセスできる必要があります。\n\n・へのアクセスApp1 は会社所有のデバイスのみに制限する必要があります。\n\n以下の特定の要件について、何を推奨しますか。\n\n要件:\n「ユーザーは会社所有のコンピュータからのみ App1 にアクセスできます。」",
+      "promptHtml": "<p>Microsoft Entra ID を使用してユーザーを認証する App1 という Azure Web アプリをデプロイする予定です。</p>\n<p>App1 は、組織内の従業員がインターネット経由でアクセスします。すべてのユーザーは、Windows 10 を実行し、Microsoft Entra ID に参加済みの会社所有デバイスを使用しています。</p>\n<p>目標:</p>\n<ul><li>ユーザーは追加の認証プロンプトなしで App1 にアクセスできる必要があります。</li><li>App1 へのアクセスは会社所有デバイスのみに制限する必要があります。</li></ul>\n<p>次の要件を満たすために何を推奨しますか。</p>\n<p>「ユーザーは会社所有のコンピューターからのみ App1 にアクセスできます。」</p>",
+      "promptText": "Microsoft Entra ID を使用してユーザーを認証する App1 という Azure Web アプリをデプロイする予定です。\nApp1 は、組織内の従業員がインターネット経由でアクセスします。すべてのユーザーは、Windows 10 を実行し、Microsoft Entra ID に参加済みの会社所有デバイスを使用しています。\n\n目標:\n・ユーザーは追加の認証プロンプトなしで App1 にアクセスできる必要があります。\n・App1 へのアクセスは会社所有デバイスのみに制限する必要があります。\n次の要件を満たすために何を推奨しますか。\n「ユーザーは会社所有のコンピューターからのみ App1 にアクセスできます。」",
       "choices": [
         {
           "choiceId": "en2-q-034-c1",
@@ -242,8 +242,8 @@
     {
       "questionId": "en2-q-036",
       "sourceQuestionNumber": 36,
-      "promptHtml": "<p>あなたは、Windows Server 2012 R2 を実行する 100 台のサーバーで構成され、それぞれがMicrosoft SQL Server 2014 インスタンスをホストするオンプレミス環境を移行する責任があります。</p>\n<p>SQL サーバー インスタンスには次のものが含まれます。次の属性を持つデータベース:</p>\n<ul><li>ストアド プロシージャは CLR を使用して実装されます。</li><li>最大のデータベースは現在 3 TB で、4 TB を超えるデータベースは予想されません。</li></ul>\n<p>既存のすべてのデータベースを移行する予定です。 SQL サーバー データを Azure に送信します。</p>\n<p>次の要件を満たす一方で、データベースをホストするには Azure ベースのサービスを推奨する必要があります。</p>\n<ul><li>可能な限りデータベースの継続的な管理オーバーヘッドを削減します。</li><li>Microsoft Entra ID を使用してユーザー認証を許可します。</li><li>移行をサポートするために必要なデータベース変更の量を制限します。</li></ul>\n<p>これらの制約に基づいて、推奨事項には何を含めるべきですか。</p>",
-      "promptText": "あなたは、Windows Server 2012 R2 を実行する 100 台のサーバーで構成され、それぞれがMicrosoft SQL Server 2014 インスタンスをホストするオンプレミス環境を移行する責任があります。\nSQL サーバー インスタンスには次のものが含まれます。次の属性を持つデータベース:\n・ストアド プロシージャは CLR を使用して実装されます。\n\n・最大のデータベースは現在 3 TB で、4 TB を超えるデータベースは予想されません。\n\n既存のすべてのデータベースを移行する予定です。 SQL サーバー データを Azure に送信します。\n次の要件を満たす一方で、データベースをホストするには Azure ベースのサービスを推奨する必要があります。\n・可能な限りデータベースの継続的な管理オーバーヘッドを削減します。\n\n・Microsoft Entra ID を使用してユーザー認証を許可します。\n\n・移行をサポートするために必要なデータベース変更の量を制限します。\n\nこれらの制約に基づいて、推奨事項には何を含めるべきですか。",
+      "promptHtml": "<p>Windows Server 2012 R2 を実行する 100 台のオンプレミス サーバーがあります。各サーバーは Microsoft SQL Server 2014 インスタンスをホストしています。</p>\n<p>SQL Server データベースには次の特徴があります。</p>\n<ul><li>ストアド プロシージャで CLR を使用しています。</li><li>最大データベース サイズは現在 3 TB で、今後も 4 TB を超えない見込みです。</li></ul>\n<p>すべてのデータベースを Azure に移行する予定です。</p>\n<p>要件:</p>\n<ul><li>継続的なデータベース管理オーバーヘッドをできるだけ削減します。</li><li>Microsoft Entra ID によるユーザー認証を許可します。</li><li>移行に必要なデータベース変更を最小限に抑えます。</li></ul>\n<p>推奨事項には何を含めるべきですか。</p>",
+      "promptText": "Windows Server 2012 R2 を実行する 100 台のオンプレミス サーバーがあります。各サーバーは Microsoft SQL Server 2014 インスタンスをホストしています。\n\nSQL Server データベースには次の特徴があります。\n・ストアド プロシージャで CLR を使用しています。\n・最大データベース サイズは現在 3 TB で、今後も 4 TB を超えない見込みです。\n\nすべてのデータベースを Azure に移行する予定です。\n\n要件:\n・継続的なデータベース管理オーバーヘッドをできるだけ削減します。\n・Microsoft Entra ID によるユーザー認証を許可します。\n・移行に必要なデータベース変更を最小限に抑えます。\n\n推奨事項には何を含めるべきですか。",
       "choices": [
         {
           "choiceId": "en2-q-036-c1",
@@ -284,8 +284,8 @@
     {
       "questionId": "en2-q-037",
       "sourceQuestionNumber": 37,
-      "promptHtml": "<p>App1 という名前の Web アプリケーションをオンプレミス データ センターからAzureに移行することを計画しています。</p>\n<p>App1 はホスト サーバーにすでにインストールされているカスタム COM コンポーネントに依存しています。</p>\n<p>App1 用の Azure ベースのホスティング ソリューション。提案されたソリューションは次の要件を満たす必要があります。</p>\n<ul><li>App1 は、Azure データ センターが利用できなくなった場合でもユーザーがアクセスできる状態を維持する必要があります。</li><li>コストは最小限に抑える必要があります。</li></ul>\n<p>推奨事項には何を含めるべきですか。</p>",
-      "promptText": "App1 という名前の Web アプリケーションをオンプレミス データ センターからAzureに移行することを計画しています。\nApp1 はホスト サーバーにすでにインストールされているカスタム COM コンポーネントに依存しています。\nApp1 用の Azure ベースのホスティング ソリューション。提案されたソリューションは次の要件を満たす必要があります。\n・App1 は、Azure データ センターが利用できなくなった場合でもユーザーがアクセスできる状態を維持する必要があります。\n\n・コストは最小限に抑える必要があります。\n\n推奨事項には何を含めるべきですか。",
+      "promptHtml": "<p>App1 という Web アプリケーションをオンプレミス データ センターから Azure へ移行する予定です。App1 は、ホスト サーバーにインストール済みのカスタム COM コンポーネントに依存しています。</p>\n<p>App1 の Azure ホスティング ソリューションを推奨する必要があります。</p>\n<p>要件:</p>\n<ul><li>Azure データ センターが利用できなくなっても、ユーザーが App1 にアクセスできる必要があります。</li><li>コストを最小限に抑える必要があります。</li></ul>\n<p>推奨事項には何を含めるべきですか。</p>",
+      "promptText": "App1 という Web アプリケーションをオンプレミス データ センターから Azure へ移行する予定です。App1 は、ホスト サーバーにインストール済みのカスタム COM コンポーネントに依存しています。\n\nApp1 の Azure ホスティング ソリューションを推奨する必要があります。\n\n要件:\n・Azure データ センターが利用できなくなっても、ユーザーが App1 にアクセスできる必要があります。\n・コストを最小限に抑える必要があります。\n\n推奨事項には何を含めるべきですか。",
       "choices": [
         {
           "choiceId": "en2-q-037-c1",
@@ -302,8 +302,8 @@
         {
           "choiceId": "en2-q-037-c3",
           "label": null,
-          "text": "ロード バランサーと仮想マシン スケール セットを 2 つの可用性にわたってデプロイします。",
-          "html": "ロード バランサーと仮想マシン スケール セットを 2 つの可用性にわたってデプロイします。"
+          "text": "ロード バランサーと仮想マシン スケール セットを 2 つの可用性ゾーンにデプロイします。",
+          "html": "ロード バランサーと仮想マシン スケール セットを 2 つの可用性ゾーンにデプロイします。"
         },
         {
           "choiceId": "en2-q-037-c4",
@@ -315,8 +315,8 @@
       "correctChoiceIds": [
         "en2-q-037-c3"
       ],
-      "explanationHtml": "<p><strong>結論:</strong> 正解は ロード バランサーと仮想マシン スケール セットを 2 つの可用性にわたってデプロイします。 です。</p>\n<p><strong>理由:</strong> カスタム COM コンポーネントに依存するアプリは VM ベースが適しています。可用性要件には VM Scale Sets を可用性ゾーンに分散します。</p>\n<p><strong>補足:</strong> カスタム COM コンポーネントなど OS レベルの依存があるアプリは、PaaS より VM ベースが適します。可用性ゾーン分散で単一データセンター障害に備えます。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>ロード バランサーと Azure Web アプリを 2 つの Azure リージョンにデプロイします。:</strong> 不正解。Web アプリは COM ベースのコンポーネントをホストできないため、Web アプリは COM ベースのコンポーネントをホストできないため、 App1. ロード バランサーと仮想マシン スケール セットを 2 つの Azure リージョンにデプロイする は誤りです。</li><li><strong>ロード バランサーと仮想マシン スケール セットを 2 つの Azure リージョンにデプロイします。:</strong> 不正解。2 つのアベイラビリティ ゾーンにロード バランサーと仮想マシン スケール セットをデプロイする は、App1 のため正解です。カスタム COM コンポーネントに依存しているため、Windows ベースの仮想マシンを使用する必要がありますが、これは Azure Web Apps ではサポートされていません。</li><li><strong>ロード バランサーと仮想マシン スケール セットを 2 つの可用性にわたってデプロイします。:</strong> 正解。カスタム COM コンポーネントに依存するアプリは VM ベースが適しています。可用性要件には VM Scale Sets を可用性ゾーンに分散します。</li><li><strong>2 つの Azure リージョンに Azure Traffic Manager プロファイルと Azure Web App をデプロイします。:</strong> 不正解。DNS ベースの分散です。WAF、Cookie アフィニティ、URL ルーティングは提供しません。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/dotnet/azure/migration/app-service\">https://learn.microsoft.com/en-us/dotnet/azure/migration/app-service</a></li><li><a href=\"https://azure.microsoft.com/en-us/blog/migration-checklist-when-moving-to-azure-app-service/\">https://azure.microsoft.com/en-us/blog/migration-checklist-when-moving-to-azure-app-service/</a></li></ul>",
-      "explanationText": "結論: 正解は ロード バランサーと仮想マシン スケール セットを 2 つの可用性にわたってデプロイします。 です。\n\n理由: カスタム COM コンポーネントに依存するアプリは VM ベースが適しています。可用性要件には VM Scale Sets を可用性ゾーンに分散します。\n\n補足: カスタム COM コンポーネントなど OS レベルの依存があるアプリは、PaaS より VM ベースが適します。可用性ゾーン分散で単一データセンター障害に備えます。\n\n選択肢の整理:\n\n・ロード バランサーと Azure Web アプリを 2 つの Azure リージョンにデプロイします。: 不正解。Web アプリは COM ベースのコンポーネントをホストできないため、Web アプリは COM ベースのコンポーネントをホストできないため、 App1. ロード バランサーと仮想マシン スケール セットを 2 つの Azure リージョンにデプロイする は誤りです。\n・ロード バランサーと仮想マシン スケール セットを 2 つの Azure リージョンにデプロイします。: 不正解。2 つのアベイラビリティ ゾーンにロード バランサーと仮想マシン スケール セットをデプロイする は、App1 のため正解です。カスタム COM コンポーネントに依存しているため、Windows ベースの仮想マシンを使用する必要がありますが、これは Azure Web Apps ではサポートされていません。\n・ロード バランサーと仮想マシン スケール セットを 2 つの可用性にわたってデプロイします。: 正解。カスタム COM コンポーネントに依存するアプリは VM ベースが適しています。可用性要件には VM Scale Sets を可用性ゾーンに分散します。\n・2 つの Azure リージョンに Azure Traffic Manager プロファイルと Azure Web App をデプロイします。: 不正解。DNS ベースの分散です。WAF、Cookie アフィニティ、URL ルーティングは提供しません。\n\n参考:\n\n・https://learn.microsoft.com/en-us/dotnet/azure/migration/app-service\n・https://azure.microsoft.com/en-us/blog/migration-checklist-when-moving-to-azure-app-service/",
+      "explanationHtml": "<p><strong>結論:</strong> 正解は ロード バランサーと仮想マシン スケール セットを 2 つの可用性ゾーンにデプロイします。 です。</p>\n<p><strong>理由:</strong> カスタム COM コンポーネントに依存するアプリは VM ベースが適しています。可用性要件には VM Scale Sets を可用性ゾーンに分散します。</p>\n<p><strong>補足:</strong> カスタム COM コンポーネントなど OS レベルの依存があるアプリは、PaaS より VM ベースが適します。可用性ゾーン分散で単一データセンター障害に備えます。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>ロード バランサーと Azure Web アプリを 2 つの Azure リージョンにデプロイします。:</strong> 不正解。Azure Web App では、ホスト OS にインストールされたカスタム COM コンポーネントへの依存をそのまま満たしにくいため不適切です。</li><li><strong>ロード バランサーと仮想マシン スケール セットを 2 つの Azure リージョンにデプロイします。:</strong> 不正解。2 つのリージョンへ VM Scale Sets を配置すると可用性は高まりますが、設問のコスト最小化要件に対して過剰です。</li><li><strong>ロード バランサーと仮想マシン スケール セットを 2 つの可用性ゾーンにデプロイします。:</strong> 正解。カスタム COM コンポーネントに依存するアプリは VM ベースが適しています。可用性要件には VM Scale Sets を可用性ゾーンに分散します。</li><li><strong>2 つの Azure リージョンに Azure Traffic Manager プロファイルと Azure Web App をデプロイします。:</strong> 不正解。Azure Web App を使う構成であり、カスタム COM コンポーネント依存の要件に合いません。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/dotnet/azure/migration/app-service\">https://learn.microsoft.com/en-us/dotnet/azure/migration/app-service</a></li><li><a href=\"https://azure.microsoft.com/en-us/blog/migration-checklist-when-moving-to-azure-app-service/\">https://azure.microsoft.com/en-us/blog/migration-checklist-when-moving-to-azure-app-service/</a></li></ul>",
+      "explanationText": "結論: 正解は ロード バランサーと仮想マシン スケール セットを 2 つの可用性ゾーンにデプロイします。 です。\n\n理由: カスタム COM コンポーネントに依存するアプリは VM ベースが適しています。可用性要件には VM Scale Sets を可用性ゾーンに分散します。\n\n補足: カスタム COM コンポーネントなど OS レベルの依存があるアプリは、PaaS より VM ベースが適します。可用性ゾーン分散で単一データセンター障害に備えます。\n\n選択肢の整理:\n\n・ロード バランサーと Azure Web アプリを 2 つの Azure リージョンにデプロイします。: 不正解。Azure Web App では、ホスト OS にインストールされたカスタム COM コンポーネントへの依存をそのまま満たしにくいため不適切です。\n・ロード バランサーと仮想マシン スケール セットを 2 つの Azure リージョンにデプロイします。: 不正解。2 つのリージョンへ VM Scale Sets を配置すると可用性は高まりますが、設問のコスト最小化要件に対して過剰です。\n・ロード バランサーと仮想マシン スケール セットを 2 つの可用性ゾーンにデプロイします。: 正解。カスタム COM コンポーネントに依存するアプリは VM ベースが適しています。可用性要件には VM Scale Sets を可用性ゾーンに分散します。\n・2 つの Azure リージョンに Azure Traffic Manager プロファイルと Azure Web App をデプロイします。: 不正解。Azure Web App を使う構成であり、カスタム COM コンポーネント依存の要件に合いません。\n\n参考:\n\n・https://learn.microsoft.com/en-us/dotnet/azure/migration/app-service\n・https://azure.microsoft.com/en-us/blog/migration-checklist-when-moving-to-azure-app-service/",
       "images": [],
       "domain": "事業継続ソリューションを設計する",
       "questionType": "single",
@@ -326,8 +326,8 @@
     {
       "questionId": "en2-q-038",
       "sourceQuestionNumber": 38,
-      "promptHtml": "<p>オンプレミス環境には、App1 という ASP.NET アプリケーションをホストする Server1 という名前のサーバーが含まれています。</p>\n<p>あなたはMicrosoft Entra ID (Microsoft Entra ID) のハイブリッド デプロイメントを運用しています。</p>\n<p>次のようなソリューションを推奨する必要があります。ユーザーがインターネットから App1 にアクセスするときに、次のことが保証されます。</p>\n<ul><li>ユーザーは、Microsoft Entra ID アカウントを使用して認証されます。</li><li>Azure Multi-Factor Authentication (MFA) はサインイン時に強制されます。</li></ul>\n<p>どの 3 つの機能をデプロイおよび構成することを推奨しますか。</p>\n<p>機能</p>\n<ul><li>パブリック Azure ロード バランサー</li><li>マネージド ID</li><li>内部 Azure ロード バランサー</li><li>条件付きアクセス ポリシー</li><li>Azure App Service計画</li><li>Microsoft Entra ID アプリケーション プロキシ</li><li>Microsoft Entra ID エンタープライズ アプリケーション</li></ul>",
-      "promptText": "オンプレミス環境には、App1 という ASP.NET アプリケーションをホストする Server1 という名前のサーバーが含まれています。\nあなたはMicrosoft Entra ID (Microsoft Entra ID) のハイブリッド デプロイメントを運用しています。\n次のようなソリューションを推奨する必要があります。ユーザーがインターネットから App1 にアクセスするときに、次のことが保証されます。\n・ユーザーは、Microsoft Entra ID アカウントを使用して認証されます。\n\n・Azure Multi-Factor Authentication (MFA) はサインイン時に強制されます。\n\nどの 3 つの機能をデプロイおよび構成することを推奨しますか。\n\n機能\n・パブリック Azure ロード バランサー\n\n・マネージド ID\n\n・内部 Azure ロード バランサー\n\n・条件付きアクセス ポリシー\n\n・Azure App Service計画\n\n・Microsoft Entra ID アプリケーション プロキシ\n\n・Microsoft Entra ID エンタープライズ アプリケーション",
+      "promptHtml": "<p>オンプレミス環境には、Server1 というサーバーがあり、ASP.NET アプリケーション App1 をホストしています。Microsoft Entra ID のハイブリッド構成を運用しています。</p>\n<p>インターネットから App1 にアクセスするユーザーについて、次の要件を満たすソリューションを推奨する必要があります。</p>\n<ul><li>ユーザーは Microsoft Entra ID アカウントで認証されます。</li><li>サインイン時に Azure Multi-Factor Authentication (MFA) を強制します。</li></ul>\n<p>どの 3 つの機能をデプロイおよび構成することを推奨しますか。</p>\n<p>機能:</p>\n<ul><li>パブリック Azure Load Balancer</li><li>マネージド ID</li><li>内部 Azure Load Balancer</li><li>条件付きアクセス ポリシー</li><li>Azure App Service プラン</li><li>Microsoft Entra Application Proxy</li><li>Microsoft Entra エンタープライズ アプリケーション</li></ul>",
+      "promptText": "オンプレミス環境には、Server1 というサーバーがあり、ASP.NET アプリケーション App1 をホストしています。Microsoft Entra ID のハイブリッド構成を運用しています。\n\nインターネットから App1 にアクセスするユーザーについて、次の要件を満たすソリューションを推奨する必要があります。\n・ユーザーは Microsoft Entra ID アカウントで認証されます。\n・サインイン時に Azure Multi-Factor Authentication (MFA) を強制します。\n\nどの 3 つの機能をデプロイおよび構成することを推奨しますか。\n\n機能:\n・パブリック Azure Load Balancer\n・マネージド ID\n・内部 Azure Load Balancer\n・条件付きアクセス ポリシー\n・Azure App Service プラン\n・Microsoft Entra Application Proxy\n・Microsoft Entra エンタープライズ アプリケーション",
       "choices": [
         {
           "choiceId": "en2-q-038-c1",
@@ -380,8 +380,8 @@
     {
       "questionId": "en2-q-039",
       "sourceQuestionNumber": 39,
-      "promptHtml": "<p>あなたは、サードパーティのジョブ スケジューラを使用して動作するハイ パフォーマンス コンピューティング (HPC) クラスターをAzureでプロビジョニングすることを計画しています。</p>\n<p>HPC クラスターのプロビジョニングと管理に使用できる Azure ベースのソリューションを推奨する必要があります。</p>\n<p>推奨事項。</p>",
-      "promptText": "あなたは、サードパーティのジョブ スケジューラを使用して動作するハイ パフォーマンス コンピューティング (HPC) クラスターをAzureでプロビジョニングすることを計画しています。\nHPC クラスターのプロビジョニングと管理に使用できる Azure ベースのソリューションを推奨する必要があります。\n推奨事項。",
+      "promptHtml": "<p>サードパーティのジョブ スケジューラを使用するハイ パフォーマンス コンピューティング (HPC) クラスターを Azure でプロビジョニングする予定です。</p>\n<p>HPC クラスターのプロビジョニングと管理に使用できる Azure ベースのソリューションを推奨する必要があります。</p>\n<p>何を推奨しますか。</p>",
+      "promptText": "サードパーティのジョブ スケジューラを使用するハイ パフォーマンス コンピューティング (HPC) クラスターを Azure でプロビジョニングする予定です。\n\nHPC クラスターのプロビジョニングと管理に使用できる Azure ベースのソリューションを推奨する必要があります。\n\n何を推奨しますか。",
       "choices": [
         {
           "choiceId": "en2-q-039-c1",
@@ -422,8 +422,8 @@
     {
       "questionId": "en2-q-040",
       "sourceQuestionNumber": 40,
-      "promptHtml": "<p>Oracle データベースを使用する App1 という名前のオンプレミス アプリケーションがあります。 Azure Databricks を使用して、App1 から Azure Synapse Analytics インスタンスにデータを移動するデータ変換と読み込み操作を実行する予定です。</p>\n<p>このプロセス中、App1 のデータが Azure Databricks にアクセスできることを確認する必要があります。</p>\n<p>この 2 つの Azure サービスこの要件を満たすためにソリューションに含める必要がありますか。</p>",
-      "promptText": "Oracle データベースを使用する App1 という名前のオンプレミス アプリケーションがあります。 Azure Databricks を使用して、App1 から Azure Synapse Analytics インスタンスにデータを移動するデータ変換と読み込み操作を実行する予定です。\nこのプロセス中、App1 のデータが Azure Databricks にアクセスできることを確認する必要があります。\nこの 2 つの Azure サービスこの要件を満たすためにソリューションに含める必要がありますか。",
+      "promptHtml": "<p>Oracle データベースを使用する App1 というオンプレミス アプリケーションがあります。Azure Databricks を使用して、App1 から Azure Synapse Analytics インスタンスへデータを移動するための変換および読み込み処理を実行する予定です。</p>\n<p>この処理で、App1 のデータを Azure Databricks から利用できるようにする必要があります。</p>\n<p>この要件を満たすために、ソリューションに含める必要がある Azure サービスを 2 つ選択してください。</p>",
+      "promptText": "Oracle データベースを使用する App1 というオンプレミス アプリケーションがあります。Azure Databricks を使用して、App1 から Azure Synapse Analytics インスタンスへデータを移動するための変換および読み込み処理を実行する予定です。\n\nこの処理で、App1 のデータを Azure Databricks から利用できるようにする必要があります。\n\nこの要件を満たすために、ソリューションに含める必要がある Azure サービスを 2 つ選択してください。",
       "choices": [
         {
           "choiceId": "en2-q-040-c1",

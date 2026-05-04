@@ -18,8 +18,8 @@
     {
       "questionId": "en2-q-041",
       "sourceQuestionNumber": 41,
-      "promptHtml": "<p>あなたの組織は、オンプレミスのVMware環境で300 台の仮想マシンを運用しています。仮想マシンのサイズは異なり、さまざまな使用率を示します。</p>\n<p>既存のすべての仮想マシンをAzureに移行する予定です。</p>\n<p>Azure で現在のワークロードをホストするには必要な Azure 仮想マシンの数とどの VM サイズを選択する必要があるかを決定する必要があります。提案されたアプローチでは管理労力を最小限に抑える必要があります。</p>\n<p>この推奨事項を作成するには何を使用する必要がありますか。</p>",
-      "promptText": "あなたの組織は、オンプレミスのVMware環境で300 台の仮想マシンを運用しています。仮想マシンのサイズは異なり、さまざまな使用率を示します。\n既存のすべての仮想マシンをAzureに移行する予定です。\nAzure で現在のワークロードをホストするには必要な Azure 仮想マシンの数とどの VM サイズを選択する必要があるかを決定する必要があります。提案されたアプローチでは管理労力を最小限に抑える必要があります。\nこの推奨事項を作成するには何を使用する必要がありますか。",
+      "promptHtml": "<p>オンプレミスの VMware 環境で 300 台の仮想マシンを運用しています。VM のサイズと使用率はさまざまです。</p>\n<p>すべての VM を Azure へ移行する予定です。現在のワークロードを Azure でホストするために必要な Azure VM の数と、適切な VM サイズを決定する必要があります。管理作業は最小限に抑える必要があります。</p>\n<p>この推奨事項を作成するには何を使用する必要がありますか。</p>",
+      "promptText": "オンプレミスの VMware 環境で 300 台の仮想マシンを運用しています。VM のサイズと使用率はさまざまです。\n\nすべての VM を Azure へ移行する予定です。現在のワークロードを Azure でホストするために必要な Azure VM の数と、適切な VM サイズを決定する必要があります。管理作業は最小限に抑える必要があります。\n\nこの推奨事項を作成するには何を使用する必要がありますか。",
       "choices": [
         {
           "choiceId": "en2-q-041-c1",
@@ -42,15 +42,15 @@
         {
           "choiceId": "en2-q-041-c4",
           "label": null,
-          "text": "Microsoft Entra IDvisor",
-          "html": "Microsoft Entra IDvisor"
+          "text": "Azure Advisor",
+          "html": "Azure Advisor"
         }
       ],
       "correctChoiceIds": [
         "en2-q-041-c1"
       ],
-      "explanationHtml": "<p><strong>結論:</strong> 正解は Azure Migrate です。</p>\n<p><strong>理由:</strong> オンプレミス VMware VM のサイズ評価と Azure 移行計画には、検出とアセスメントを行える Azure Migrate が適しています。</p>\n<p><strong>補足:</strong> Azure Migrate はオンプレミス環境の検出、依存関係分析、サイズ評価、移行計画に使います。VMware VM の Azure 移行評価に適しています。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>Azure Migrate:</strong> 正解。オンプレミス VMware VM のサイズ評価と Azure 移行計画には、検出とアセスメントを行える Azure Migrate が適しています。</li><li><strong>Azure 料金計算ツール:</strong> 不正解。これは、手動で選択したリソースの種類と構成に基づいてコストを見積もることができますが、実際のワークロードに基づいて VM サイズを分析または推奨するものではないためです。</li><li><strong>Azure Cost Management:</strong> 不正解。オンプレミスのワークロードの移行に関する評価や推奨事項は提供されません。</li><li><strong>Microsoft Entra IDvisor:</strong> 不正解。移行中に VMware ワークロードを評価したり、Azure VM のサイジングを推奨したりすることはできません。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/azure/migrate/migrate-overview\">https://learn.microsoft.com/en-us/azure/migrate/migrate-overview</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure/migrate/migrate-support-matrix-vmware\">https://learn.microsoft.com/en-us/azure/migrate/migrate-support-matrix-vmware</a></li><li><a href=\"https://azure.microsoft.com/en-us/pricing/calculator/\">https://azure.microsoft.com/en-us/pricing/calculator/</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure/migrate/concepts-assessment-calculation\">https://learn.microsoft.com/en-us/azure/migrate/concepts-assessment-calculation</a></li><li><a href=\"https://azure.microsoft.com/en-us/products/cost-management\">https://azure.microsoft.com/en-us/products/cost-management</a></li><li><a href=\"https://docs.microsoft.com/en-us/azure/advisor/advisor-overview\">https://docs.microsoft.com/en-us/azure/advisor/advisor-overview</a></li></ul>",
-      "explanationText": "結論: 正解は Azure Migrate です。\n\n理由: オンプレミス VMware VM のサイズ評価と Azure 移行計画には、検出とアセスメントを行える Azure Migrate が適しています。\n\n補足: Azure Migrate はオンプレミス環境の検出、依存関係分析、サイズ評価、移行計画に使います。VMware VM の Azure 移行評価に適しています。\n\n選択肢の整理:\n\n・Azure Migrate: 正解。オンプレミス VMware VM のサイズ評価と Azure 移行計画には、検出とアセスメントを行える Azure Migrate が適しています。\n・Azure 料金計算ツール: 不正解。これは、手動で選択したリソースの種類と構成に基づいてコストを見積もることができますが、実際のワークロードに基づいて VM サイズを分析または推奨するものではないためです。\n・Azure Cost Management: 不正解。オンプレミスのワークロードの移行に関する評価や推奨事項は提供されません。\n・Microsoft Entra IDvisor: 不正解。移行中に VMware ワークロードを評価したり、Azure VM のサイジングを推奨したりすることはできません。\n\n参考:\n\n・https://learn.microsoft.com/en-us/azure/migrate/migrate-overview\n・https://learn.microsoft.com/en-us/azure/migrate/migrate-support-matrix-vmware\n・https://azure.microsoft.com/en-us/pricing/calculator/\n・https://learn.microsoft.com/en-us/azure/migrate/concepts-assessment-calculation\n・https://azure.microsoft.com/en-us/products/cost-management\n・https://docs.microsoft.com/en-us/azure/advisor/advisor-overview",
+      "explanationHtml": "<p><strong>結論:</strong> 正解は Azure Migrate です。</p>\n<p><strong>理由:</strong> オンプレミス VMware VM のサイズ評価と Azure 移行計画には、検出とアセスメントを行える Azure Migrate が適しています。</p>\n<p><strong>補足:</strong> Azure Migrate はオンプレミス環境の検出、依存関係分析、サイズ評価、移行計画に使います。VMware VM の Azure 移行評価に適しています。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>Azure Migrate:</strong> 正解。オンプレミス VMware VM のサイズ評価と Azure 移行計画には、検出とアセスメントを行える Azure Migrate が適しています。</li><li><strong>Azure 料金計算ツール:</strong> 不正解。Azure 料金計算ツールは手動入力した構成のコスト見積もり用であり、実ワークロードに基づく VM サイズ評価は行いません。</li><li><strong>Azure Cost Management:</strong> 不正解。Azure Cost Management は既存 Azure 利用コストの分析向けであり、オンプレミス VMware VM の移行評価やサイズ推奨には使いません。</li><li><strong>Azure Advisor:</strong> 不正解。Azure Advisor は既存 Azure リソースの最適化推奨が中心であり、オンプレミス VMware 環境の検出と移行サイジングには Azure Migrate が適しています。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/azure/migrate/migrate-overview\">https://learn.microsoft.com/en-us/azure/migrate/migrate-overview</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure/migrate/migrate-support-matrix-vmware\">https://learn.microsoft.com/en-us/azure/migrate/migrate-support-matrix-vmware</a></li><li><a href=\"https://azure.microsoft.com/en-us/pricing/calculator/\">https://azure.microsoft.com/en-us/pricing/calculator/</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure/migrate/concepts-assessment-calculation\">https://learn.microsoft.com/en-us/azure/migrate/concepts-assessment-calculation</a></li><li><a href=\"https://azure.microsoft.com/en-us/products/cost-management\">https://azure.microsoft.com/en-us/products/cost-management</a></li><li><a href=\"https://docs.microsoft.com/en-us/azure/advisor/advisor-overview\">https://docs.microsoft.com/en-us/azure/advisor/advisor-overview</a></li></ul>",
+      "explanationText": "結論: 正解は Azure Migrate です。\n\n理由: オンプレミス VMware VM のサイズ評価と Azure 移行計画には、検出とアセスメントを行える Azure Migrate が適しています。\n\n補足: Azure Migrate はオンプレミス環境の検出、依存関係分析、サイズ評価、移行計画に使います。VMware VM の Azure 移行評価に適しています。\n\n選択肢の整理:\n\n・Azure Migrate: 正解。オンプレミス VMware VM のサイズ評価と Azure 移行計画には、検出とアセスメントを行える Azure Migrate が適しています。\n・Azure 料金計算ツール: 不正解。Azure 料金計算ツールは手動入力した構成のコスト見積もり用であり、実ワークロードに基づく VM サイズ評価は行いません。\n・Azure Cost Management: 不正解。Azure Cost Management は既存 Azure 利用コストの分析向けであり、オンプレミス VMware VM の移行評価やサイズ推奨には使いません。\n・Azure Advisor: 不正解。Azure Advisor は既存 Azure リソースの最適化推奨が中心であり、オンプレミス VMware 環境の検出と移行サイジングには Azure Migrate が適しています。\n\n参考:\n\n・https://learn.microsoft.com/en-us/azure/migrate/migrate-overview\n・https://learn.microsoft.com/en-us/azure/migrate/migrate-support-matrix-vmware\n・https://azure.microsoft.com/en-us/pricing/calculator/\n・https://learn.microsoft.com/en-us/azure/migrate/concepts-assessment-calculation\n・https://azure.microsoft.com/en-us/products/cost-management\n・https://docs.microsoft.com/en-us/azure/advisor/advisor-overview",
       "images": [],
       "domain": "インフラストラクチャ ソリューションを設計する",
       "questionType": "single",
@@ -60,8 +60,8 @@
     {
       "questionId": "en2-q-042",
       "sourceQuestionNumber": 42,
-      "promptHtml": "<p>あなたは、VNET1 という名前の仮想ネットワークと10 台の仮想マシンを含むAzure サブスクリプションを持っており、それらはすべて VNET1 に接続されています。</p>\n<p>次の条件を満たしながらインターネットから仮想マシンへの管理アクセスを可能にするソリューションを設計する必要があります。要件:</p>\n<ul><li>すべての受信接続は、ネットワーク アクセスが許可される前に、Azure Multi-Factor Authentication (MFA) を使用して認証される必要があります。</li><li>すべての接続はTLS経由で確立され、TCP ポート 443 を使用する必要があります。</li><li>ソリューションでは両方を許可する必要があります。 リモート デスクトップ プロトコル (RDP) および セキュア シェル (SSH) アクセス。</li></ul>\n<p>これらの要件に基づいて、最も適切なオプションを指定して次のステートメントを完成させます。</p>\n<p>「VNET1 上の仮想マシンへのアクセスを提供するには、____________________________ を使用します。」</p>",
-      "promptText": "あなたは、VNET1 という名前の仮想ネットワークと10 台の仮想マシンを含むAzure サブスクリプションを持っており、それらはすべて VNET1 に接続されています。\n次の条件を満たしながらインターネットから仮想マシンへの管理アクセスを可能にするソリューションを設計する必要があります。要件:\n・すべての受信接続は、ネットワーク アクセスが許可される前に、Azure Multi-Factor Authentication (MFA) を使用して認証される必要があります。\n\n・すべての接続はTLS経由で確立され、TCP ポート 443 を使用する必要があります。\n\n・ソリューションでは両方を許可する必要があります。 リモート デスクトップ プロトコル (RDP) および セキュア シェル (SSH) アクセス。\n\nこれらの要件に基づいて、最も適切なオプションを指定して次のステートメントを完成させます。\n「VNET1 上の仮想マシンへのアクセスを提供するには、____________________________ を使用します。」",
+      "promptHtml": "<p>Azure サブスクリプションには、VNET1 という仮想ネットワークと、VNET1 に接続された 10 台の仮想マシンがあります。</p>\n<p>インターネットから仮想マシンへ管理アクセスできるソリューションを設計する必要があります。</p>\n<p>要件:</p>\n<ul><li>ネットワーク アクセスを許可する前に、すべての受信接続で Azure Multi-Factor Authentication (MFA) を使用して認証する必要があります。</li><li>すべての接続は TLS 経由で確立し、TCP ポート 443 を使用する必要があります。</li><li>RDP と SSH の両方のアクセスを許可する必要があります。</li></ul>\n<p>次の文を正しく完成させてください。</p>\n<p>「VNET1 上の仮想マシンへのアクセスを提供するには、______________ を使用します。」</p>",
+      "promptText": "Azure サブスクリプションには、VNET1 という仮想ネットワークと、VNET1 に接続された 10 台の仮想マシンがあります。\n\nインターネットから仮想マシンへ管理アクセスできるソリューションを設計する必要があります。\n\n要件:\n・ネットワーク アクセスを許可する前に、すべての受信接続で Azure Multi-Factor Authentication (MFA) を使用して認証する必要があります。\n・すべての接続は TLS 経由で確立し、TCP ポート 443 を使用する必要があります。\n・RDP と SSH の両方のアクセスを許可する必要があります。\n次の文を正しく完成させてください。\n「VNET1 上の仮想マシンへのアクセスを提供するには、______________ を使用します。」",
       "choices": [
         {
           "choiceId": "en2-q-042-c1",
@@ -98,8 +98,8 @@
     {
       "questionId": "en2-q-043",
       "sourceQuestionNumber": 43,
-      "promptHtml": "<p>あなたは、VNET1 という名前の仮想ネットワークと10 台の仮想マシンを含むAzure サブスクリプションを持っており、それらはすべて VNET1 に接続されています。</p>\n<p>次の条件を満たしながらインターネットから仮想マシンへの管理アクセスを可能にするソリューションを設計する必要があります。要件:</p>\n<ul><li>すべての受信接続は、ネットワーク アクセスが許可される前に、Azure Multi-Factor Authentication (MFA) を使用して認証される必要があります。</li><li>すべての接続はTLS経由で確立され、TCP ポート 443 を使用する必要があります。</li><li>ソリューションでは両方を許可する必要があります。 リモート デスクトップ プロトコル (RDP) および セキュア シェル (SSH) アクセス。</li></ul>\n<p>これらの要件に基づいて、最も適切なオプションを指定して次のステートメントを完成させます。</p>\n<p>「Azure MFA を強制するには、____________________________ を使用します。」</p>",
-      "promptText": "あなたは、VNET1 という名前の仮想ネットワークと10 台の仮想マシンを含むAzure サブスクリプションを持っており、それらはすべて VNET1 に接続されています。\n次の条件を満たしながらインターネットから仮想マシンへの管理アクセスを可能にするソリューションを設計する必要があります。要件:\n・すべての受信接続は、ネットワーク アクセスが許可される前に、Azure Multi-Factor Authentication (MFA) を使用して認証される必要があります。\n\n・すべての接続はTLS経由で確立され、TCP ポート 443 を使用する必要があります。\n\n・ソリューションでは両方を許可する必要があります。 リモート デスクトップ プロトコル (RDP) および セキュア シェル (SSH) アクセス。\n\nこれらの要件に基づいて、最も適切なオプションを指定して次のステートメントを完成させます。\n「Azure MFA を強制するには、____________________________ を使用します。」",
+      "promptHtml": "<p>Azure サブスクリプションには、VNET1 という仮想ネットワークと、VNET1 に接続された 10 台の仮想マシンがあります。</p>\n<p>インターネットから仮想マシンへ管理アクセスできるソリューションを設計する必要があります。</p>\n<p>要件:</p>\n<ul><li>ネットワーク アクセスを許可する前に、すべての受信接続で Azure Multi-Factor Authentication (MFA) を使用して認証する必要があります。</li><li>すべての接続は TLS 経由で確立し、TCP ポート 443 を使用する必要があります。</li><li>RDP と SSH の両方のアクセスを許可する必要があります。</li></ul>\n<p>次の文を正しく完成させてください。</p>\n<p>「Azure MFA を強制するには、______________ を使用します。」</p>",
+      "promptText": "Azure サブスクリプションには、VNET1 という仮想ネットワークと、VNET1 に接続された 10 台の仮想マシンがあります。\n\nインターネットから仮想マシンへ管理アクセスできるソリューションを設計する必要があります。\n\n要件:\n・ネットワーク アクセスを許可する前に、すべての受信接続で Azure Multi-Factor Authentication (MFA) を使用して認証する必要があります。\n・すべての接続は TLS 経由で確立し、TCP ポート 443 を使用する必要があります。\n・RDP と SSH の両方のアクセスを許可する必要があります。\n次の文を正しく完成させてください。\n「Azure MFA を強制するには、______________ を使用します。」",
       "choices": [
         {
           "choiceId": "en2-q-043-c1",
@@ -136,8 +136,8 @@
     {
       "questionId": "en2-q-044",
       "sourceQuestionNumber": 44,
-      "promptHtml": "<p>この展開には、次の要件を満たす負荷分散サービスを推奨する必要があります。</p>\n<ul><li>Azure リージョンが利用できなくなった場合でも、 アプリケーションの可用性を維持する必要がある。</li><li>ソリューションはAzure Web Application Firewall (WAF) をサポートする必要があります。</li><li>Cookie ベースのセッション アフィニティがサポートされている必要があります。</li><li>URL ベースのルーティングがサポートされている必要があります。</li></ul>\n<p>これらの要件に基づいて、推奨事項には何を含める必要がありますか。</p>",
-      "promptText": "この展開には、次の要件を満たす負荷分散サービスを推奨する必要があります。\n・Azure リージョンが利用できなくなった場合でも、 アプリケーションの可用性を維持する必要がある。\n\n・ソリューションはAzure Web Application Firewall (WAF) をサポートする必要があります。\n\n・Cookie ベースのセッション アフィニティがサポートされている必要があります。\n\n・URL ベースのルーティングがサポートされている必要があります。\n\nこれらの要件に基づいて、推奨事項には何を含める必要がありますか。",
+      "promptHtml": "<p>次の要件を満たす負荷分散サービスを推奨する必要があります。</p>\n<ul><li>Azure リージョンが利用できなくなっても、アプリケーションの可用性を維持します。</li><li>Azure Web Application Firewall (WAF) をサポートします。</li><li>Cookie ベースのセッション アフィニティをサポートします。</li><li>URL ベースのルーティングをサポートします。</li></ul>\n<p>推奨事項には何を含める必要がありますか。</p>",
+      "promptText": "次の要件を満たす負荷分散サービスを推奨する必要があります。\n・Azure リージョンが利用できなくなっても、アプリケーションの可用性を維持します。\n・Azure Web Application Firewall (WAF) をサポートします。\n・Cookie ベースのセッション アフィニティをサポートします。\n・URL ベースのルーティングをサポートします。\n\n推奨事項には何を含める必要がありますか。",
       "choices": [
         {
           "choiceId": "en2-q-044-c1",
@@ -178,8 +178,8 @@
     {
       "questionId": "en2-q-045",
       "sourceQuestionNumber": 45,
-      "promptHtml": "<p>オンプレミス環境には、Server1 という名前のファイル サーバーが含まれています。 Server1 には、めったにアクセスされない5 TB の組織ファイルが保存されています。</p>\n<p>これらのファイルをAzure Storageにコピーする予定です。</p>\n<p>次の要件を満たすストレージ ソリューションを実装する必要があります。</p>\n<ul><li>ファイルは保存後24 時間以内に取得できる必要があります。</li><li>ストレージ コストは最小限に抑える必要があります。</li></ul>\n<p>これらの要件を満たす 2 つのストレージ ソリューションはどれですか。</p>",
-      "promptText": "オンプレミス環境には、Server1 という名前のファイル サーバーが含まれています。 Server1 には、めったにアクセスされない5 TB の組織ファイルが保存されています。\nこれらのファイルをAzure Storageにコピーする予定です。\n次の要件を満たすストレージ ソリューションを実装する必要があります。\n・ファイルは保存後24 時間以内に取得できる必要があります。\n\n・ストレージ コストは最小限に抑える必要があります。\n\nこれらの要件を満たす 2 つのストレージ ソリューションはどれですか。",
+      "promptHtml": "<p>オンプレミス環境には、Server1 というファイル サーバーがあります。Server1 には、ほとんどアクセスされない 5 TB の組織ファイルが保存されています。</p>\n<p>これらのファイルを Azure Storage にコピーする予定です。</p>\n<p>要件:</p>\n<ul><li>ファイルは、取得要求から 24 時間以内に取得できる必要があります。</li><li>ストレージ コストを最小限に抑える必要があります。</li></ul>\n<p>これらの要件を満たすストレージ ソリューションを 2 つ選択してください。</p>",
+      "promptText": "オンプレミス環境には、Server1 というファイル サーバーがあります。Server1 には、ほとんどアクセスされない 5 TB の組織ファイルが保存されています。\n\nこれらのファイルを Azure Storage にコピーする予定です。\n\n要件:\n・ファイルは、取得要求から 24 時間以内に取得できる必要があります。\n・ストレージ コストを最小限に抑える必要があります。\n\nこれらの要件を満たすストレージ ソリューションを 2 つ選択してください。",
       "choices": [
         {
           "choiceId": "en2-q-045-c1",
@@ -227,8 +227,8 @@
     {
       "questionId": "en2-q-046",
       "sourceQuestionNumber": 46,
-      "promptHtml": "<p>あなたの組織には、社内で開発された Web API が 20 個あります。</p>\n<p>会社は、これらの API を使用する 10 個の Web アプリケーションも構築しています。 Web アプリケーションと API はどちらも会社の Microsoft Entra テナント内に登録されており、API はAzure API Managementを通じて公開されます。</p>\n<p>Web アプリケーションから発信された未承認のリクエストが Web API に到達するのをブロックするソリューションを推奨する必要があります。</p>\n<p>ソリューションは次の条件を満たす必要があります。</p>\n<ul><li>Microsoft のエントラ生成のクレームを使用します。</li><li>構成および継続的な管理作業は最小限に抑える必要があります。</li></ul>\n<p>正しい推奨事項を含めて次のステートメントを完了する必要があります。</p>\n<p>「許可」</p>",
-      "promptText": "あなたの組織には、社内で開発された Web API が 20 個あります。\n会社は、これらの API を使用する 10 個の Web アプリケーションも構築しています。 Web アプリケーションと API はどちらも会社の Microsoft Entra テナント内に登録されており、API はAzure API Managementを通じて公開されます。\nWeb アプリケーションから発信された未承認のリクエストが Web API に到達するのをブロックするソリューションを推奨する必要があります。\nソリューションは次の条件を満たす必要があります。\n・Microsoft のエントラ生成のクレームを使用します。\n\n・構成および継続的な管理作業は最小限に抑える必要があります。\n\n正しい推奨事項を含めて次のステートメントを完了する必要があります。\n「許可」",
+      "promptHtml": "<p>組織には、社内で開発された Web API が 20 個あります。また、これらの API を使用する Web アプリケーションが 10 個あります。</p>\n<p>Web アプリケーションと Web API は、どちらも会社の Microsoft Entra テナントに登録されています。API は Azure API Management を通じて公開されています。</p>\n<p>Web アプリケーションから送信された未承認リクエストが Web API に到達しないようにする必要があります。</p>\n<p>要件:</p>\n<ul><li>Microsoft Entra ID が生成するクレームを使用します。</li><li>構成と継続的な管理作業を最小限に抑えます。</li></ul>\n<p>次の文を正しく完成させてください。</p>\n<p>「認可には、______________ を使用します。」</p>",
+      "promptText": "組織には、社内で開発された Web API が 20 個あります。また、これらの API を使用する Web アプリケーションが 10 個あります。\nWeb アプリケーションと Web API は、どちらも会社の Microsoft Entra テナントに登録されています。API は Azure API Management を通じて公開されています。\n\nWeb アプリケーションから送信された未承認リクエストが Web API に到達しないようにする必要があります。\n\n要件:\n・Microsoft Entra ID が生成するクレームを使用します。\n・構成と継続的な管理作業を最小限に抑えます。\n次の文を正しく完成させてください。\n「認可には、______________ を使用します。」",
       "choices": [
         {
           "choiceId": "en2-q-046-c1",
@@ -265,8 +265,8 @@
     {
       "questionId": "en2-q-047",
       "sourceQuestionNumber": 47,
-      "promptHtml": "<p>あなたの組織には、社内で開発された Web API が 20 個あります。</p>\n<p>会社は、これらの API を使用する 10 個の Web アプリケーションも構築しています。 Web アプリケーションと API はどちらも会社の Microsoft Entra テナント内に登録されており、API はAzure API Managementを通じて公開されます。</p>\n<p>Web アプリケーションから発信された未承認のリクエストが Web API に到達するのをブロックするソリューションを推奨する必要があります。</p>\n<p>ソリューションは次の条件を満たす必要があります。</p>\n<ul><li>Microsoft のエントラ生成のクレームを使用します。</li><li>構成および継続的な管理作業は最小限に抑える必要があります。</li></ul>\n<p>次のステートメントを正しい内容で完了する必要があります。</p>\n<p>「______________ を使用して JSON Web Token (JWT) 検証ポリシーを構成します。」</p>",
-      "promptText": "あなたの組織には、社内で開発された Web API が 20 個あります。\n会社は、これらの API を使用する 10 個の Web アプリケーションも構築しています。 Web アプリケーションと API はどちらも会社の Microsoft Entra テナント内に登録されており、API はAzure API Managementを通じて公開されます。\nWeb アプリケーションから発信された未承認のリクエストが Web API に到達するのをブロックするソリューションを推奨する必要があります。\nソリューションは次の条件を満たす必要があります。\n・Microsoft のエントラ生成のクレームを使用します。\n\n・構成および継続的な管理作業は最小限に抑える必要があります。\n\n次のステートメントを正しい内容で完了する必要があります。\n「______________ を使用して JSON Web Token (JWT) 検証ポリシーを構成します。」",
+      "promptHtml": "<p>組織には、社内で開発された Web API が 20 個あります。また、これらの API を使用する Web アプリケーションが 10 個あります。</p>\n<p>Web アプリケーションと Web API は、どちらも会社の Microsoft Entra テナントに登録されています。API は Azure API Management を通じて公開されています。</p>\n<p>Web アプリケーションから送信された未承認リクエストが Web API に到達しないようにする必要があります。</p>\n<p>要件:</p>\n<ul><li>Microsoft Entra ID が生成するクレームを使用します。</li><li>構成と継続的な管理作業を最小限に抑えます。</li></ul>\n<p>次の文を正しく完成させてください。</p>\n<p>「______________ を使用して JSON Web Token (JWT) 検証ポリシーを構成します。」</p>",
+      "promptText": "組織には、社内で開発された Web API が 20 個あります。また、これらの API を使用する Web アプリケーションが 10 個あります。\nWeb アプリケーションと Web API は、どちらも会社の Microsoft Entra テナントに登録されています。API は Azure API Management を通じて公開されています。\n\nWeb アプリケーションから送信された未承認リクエストが Web API に到達しないようにする必要があります。\n\n要件:\n・Microsoft Entra ID が生成するクレームを使用します。\n・構成と継続的な管理作業を最小限に抑えます。\n次の文を正しく完成させてください。\n「______________ を使用して JSON Web Token (JWT) 検証ポリシーを構成します。」",
       "choices": [
         {
           "choiceId": "en2-q-047-c1",
@@ -303,8 +303,8 @@
     {
       "questionId": "en2-q-048",
       "sourceQuestionNumber": 48,
-      "promptHtml": "<p>あなたの組織には次のインフラストラクチャがあります:</p>\n<p>Azure</p>\n<ul><li>Subscription1</li></ul>\n<p>という名前の Azure サブスクリプション</p>\n<ul><li>20 Azure Web アプリ</li></ul>\n<p>オンプレミス データ センター</p>\n<ul><li>Active Directory ドメイン</li><li>Microsoft Entra Connect</li><li>Server1 という名前の Linux サーバー</li></ul>\n<p>オンプレミスのActive Directory ドメインはMicrosoft Entra IDと同期されています。</p>\n<p>Server1はApp1という名前のアプリケーションをホストします。 App1 はLDAP クエリを使用して、オンプレミスの Active Directory ドメインに対してユーザー ID を検証します。</p>\n<p>あなたは Subscription1 の仮想マシンに Server1 を移行する予定です。</p>\n<p>会社のセキュリティ ポリシーでは、次のことが要求されています。 Subscription1 にデプロイされた仮想マシンとサービスはオンプレミス ネットワークにアクセスできてはなりません。</p>\n<p>セキュリティ ポリシーに準拠しながらApp1 が移行後も機能し続けることを保証するソリューションを推奨する必要があります。</p>\n<p>推奨事項には何を含める必要がありますか。</p>",
-      "promptText": "あなたの組織には次のインフラストラクチャがあります:\n\nAzure\n・Subscription1\nという名前の Azure サブスクリプション\n・20 Azure Web アプリ\n\nオンプレミス データ センター\n・Active Directory ドメイン\n\n・Microsoft Entra Connect\n\n・Server1 という名前の Linux サーバー\n\nオンプレミスのActive Directory ドメインはMicrosoft Entra IDと同期されています。\nServer1はApp1という名前のアプリケーションをホストします。 App1 はLDAP クエリを使用して、オンプレミスの Active Directory ドメインに対してユーザー ID を検証します。\nあなたは Subscription1 の仮想マシンに Server1 を移行する予定です。\n会社のセキュリティ ポリシーでは、次のことが要求されています。 Subscription1 にデプロイされた仮想マシンとサービスはオンプレミス ネットワークにアクセスできてはなりません。\nセキュリティ ポリシーに準拠しながらApp1 が移行後も機能し続けることを保証するソリューションを推奨する必要があります。\n推奨事項には何を含める必要がありますか。",
+      "promptHtml": "<p>組織には次のインフラストラクチャがあります。</p>\n<p>Azure:</p>\n<ul><li>Subscription1 という Azure サブスクリプション</li><li>20 個の Azure Web アプリ</li></ul>\n<p>オンプレミス データ センター:</p>\n<ul><li>Active Directory ドメイン</li><li>Microsoft Entra Connect</li><li>Server1 という Linux サーバー</li></ul>\n<p>オンプレミス Active Directory ドメインは Microsoft Entra ID と同期されています。Server1 は App1 というアプリケーションをホストしており、App1 は LDAP クエリを使用してオンプレミス Active Directory ドメインに対してユーザー ID を検証します。</p>\n<p>Server1 を Subscription1 の仮想マシンへ移行する予定です。会社のセキュリティ ポリシーでは、Subscription1 にデプロイされた仮想マシンとサービスがオンプレミス ネットワークへアクセスすることを禁止しています。</p>\n<p>セキュリティ ポリシーに準拠しながら、移行後も App1 が機能するようにするには、推奨事項に何を含める必要がありますか。</p>",
+      "promptText": "組織には次のインフラストラクチャがあります。\n\nAzure:\n・Subscription1 という Azure サブスクリプション\n・20 個の Azure Web アプリ\n\nオンプレミス データ センター:\n・Active Directory ドメイン\n・Microsoft Entra Connect\n・Server1 という Linux サーバー\n\nオンプレミス Active Directory ドメインは Microsoft Entra ID と同期されています。Server1 は App1 というアプリケーションをホストしており、App1 は LDAP クエリを使用してオンプレミス Active Directory ドメインに対してユーザー ID を検証します。\n\nServer1 を Subscription1 の仮想マシンへ移行する予定です。会社のセキュリティ ポリシーでは、Subscription1 にデプロイされた仮想マシンとサービスがオンプレミス ネットワークへアクセスすることを禁止しています。\n\nセキュリティ ポリシーに準拠しながら、移行後も App1 が機能するようにするには、推奨事項に何を含める必要がありますか。",
       "choices": [
         {
           "choiceId": "en2-q-048-c1",
@@ -345,8 +345,8 @@
     {
       "questionId": "en2-q-049",
       "sourceQuestionNumber": 49,
-      "promptHtml": "<p>Azure Key Vault を使用してデータ暗号化キーを保存する複数のAzure App Service Web アプリがあります。</p>\n<p>さまざまな部門が、これらの Web アプリのサポートに関連する特定のリクエストを提出しました。</p>\n<p>各部門の要求に対応するには、最も適切な Azure サービスを推奨する必要があります。</p>\n<p>どの Azure サービスをセキュリティ部門に推奨しますか。</p>\n<img src=\"assets/英語問題集2_files/2025-03-25_08-51-48-10c4fa314782c15de1247cd2aed6cff9.png\" alt=\"\"loading=\"eager\">",
-      "promptText": "Azure Key Vault を使用してデータ暗号化キーを保存する複数のAzure App Service Web アプリがあります。\nさまざまな部門が、これらの Web アプリのサポートに関連する特定のリクエストを提出しました。\n\n各部門の要求に対応するには、最も適切な Azure サービスを推奨する必要があります。\nどの Azure サービスをセキュリティ部門に推奨しますか。",
+      "promptHtml": "<p>Azure Key Vault を使用してデータ暗号化キーを保存する複数の Azure App Service Web アプリがあります。</p>\n<p>各部門から、これらの Web アプリのサポートに関する要求が提出されています。要求内容は問題の図に示されています。</p>\n<p>各部門の要求を満たす最も適切な Azure サービスを推奨する必要があります。</p>\n<p>セキュリティ部門には、どの Azure サービスを推奨しますか。</p>\n<img src=\"assets/英語問題集2_files/2025-03-25_08-51-48-10c4fa314782c15de1247cd2aed6cff9.png\" alt=\"\"loading=\"eager\">",
+      "promptText": "Azure Key Vault を使用してデータ暗号化キーを保存する複数の Azure App Service Web アプリがあります。\n各部門から、これらの Web アプリのサポートに関する要求が提出されています。要求内容は問題の図に示されています。\n\n各部門の要求を満たす最も適切な Azure サービスを推奨する必要があります。\nセキュリティ部門には、どの Azure サービスを推奨しますか。",
       "choices": [
         {
           "choiceId": "en2-q-049-c1",
@@ -391,8 +391,8 @@
     {
       "questionId": "en2-q-050",
       "sourceQuestionNumber": 50,
-      "promptHtml": "<p>Azure Key Vault を使用してデータ暗号化キーを保存する複数のAzure App Service Web アプリがあります。</p>\n<p>さまざまな部門が、これらの Web アプリのサポートに関連する特定のリクエストを提出しました。</p>\n<p>各部門の要求に対応するために最も適切な Azure サービスを推奨する必要があります。</p>\n<p>開発 部門には どの Azure サービスを推奨しますか。</p>\n<img src=\"assets/英語問題集2_files/2026-02-11_12-46-09-6539989261272d01941dbec8d64827ce.png\" alt=\"\"loading=\"eager\">",
-      "promptText": "Azure Key Vault を使用してデータ暗号化キーを保存する複数のAzure App Service Web アプリがあります。\nさまざまな部門が、これらの Web アプリのサポートに関連する特定のリクエストを提出しました。\n\n各部門の要求に対応するために最も適切な Azure サービスを推奨する必要があります。\n開発 部門には どの Azure サービスを推奨しますか。",
+      "promptHtml": "<p>Azure Key Vault を使用してデータ暗号化キーを保存する複数の Azure App Service Web アプリがあります。</p>\n<p>各部門から、これらの Web アプリのサポートに関する要求が提出されています。要求内容は問題の図に示されています。</p>\n<p>各部門の要求を満たす最も適切な Azure サービスを推奨する必要があります。</p>\n<p>開発部門には、どの Azure サービスを推奨しますか。</p>\n<img src=\"assets/英語問題集2_files/2026-02-11_12-46-09-6539989261272d01941dbec8d64827ce.png\" alt=\"\"loading=\"eager\">",
+      "promptText": "Azure Key Vault を使用してデータ暗号化キーを保存する複数の Azure App Service Web アプリがあります。\n各部門から、これらの Web アプリのサポートに関する要求が提出されています。要求内容は問題の図に示されています。\n\n各部門の要求を満たす最も適切な Azure サービスを推奨する必要があります。\n開発部門には、どの Azure サービスを推奨しますか。",
       "choices": [
         {
           "choiceId": "en2-q-050-c1",

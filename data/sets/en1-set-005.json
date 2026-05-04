@@ -18,8 +18,8 @@
     {
       "questionId": "en1-q-041",
       "sourceQuestionNumber": 41,
-      "promptHtml": "<p>BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。</p>\n<p>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing</p>\n<p>BlueRock Inc. のクラウド最新化イニシアチブの一環として、App1 はオンプレミス環境から Azure に正常に移行されました。</p>\n<p>ケーススタディで概説されている BlueRock のセキュリティ、ガバナンス、およびコンプライアンスの要件を考慮すると、App1 のストレージ レイヤーに対するデータ変更操作が厳密に制御され、移行後に一元的に適用されることを確認する必要があります。</p>\n<p>これらのデータ変更制御要件を満たすにはどのアクションを実行する必要がありますか。</p>",
-      "promptText": "BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing\nBlueRock Inc. のクラウド最新化イニシアチブの一環として、App1 はオンプレミス環境から Azure に正常に移行されました。\nケーススタディで概説されている BlueRock のセキュリティ、ガバナンス、およびコンプライアンスの要件を考慮すると、App1 のストレージ レイヤーに対するデータ変更操作が厳密に制御され、移行後に一元的に適用されることを確認する必要があります。\nこれらのデータ変更制御要件を満たすにはどのアクションを実行する必要がありますか。",
+      "promptHtml": "<p>BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。</p>\n<p>App1 はオンプレミス環境から Azure へ移行済みです。ケーススタディで示されたセキュリティ、ガバナンス、コンプライアンス要件に従い、App1 のストレージ レイヤーに対するデータ変更操作を厳格に制御し、一元的に適用する必要があります。</p>\n<p>この要件を満たすには、どのアクションを実行する必要がありますか。</p>",
+      "promptText": "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\nApp1 はオンプレミス環境から Azure へ移行済みです。ケーススタディで示されたセキュリティ、ガバナンス、コンプライアンス要件に従い、App1 のストレージ レイヤーに対するデータ変更操作を厳格に制御し、一元的に適用する必要があります。\n\nこの要件を満たすには、どのアクションを実行する必要がありますか。",
       "choices": [
         {
           "choiceId": "en1-q-041-c1",
@@ -62,8 +62,8 @@
     {
       "questionId": "en1-q-042",
       "sourceQuestionNumber": 42,
-      "promptHtml": "<p>BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。</p>\n<p>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing</p>\n<p>BlueRock Inc. の移行戦略の一環として、同社はApp1 をオンプレミス環境からAzure に移行する予定です。 App1 は、移行後にアプリケーション データをAzure ストレージ アカウントに保存します。</p>\n<p>ケース スタディで定義されたBlueRock のセキュリティおよび規制遵守要件に合わせて、データ アクセスが制限され、パブリック インターネットを通過しないようにするストレージ アカウントのネットワーク接続ソリューションを推奨する必要があります。</p>\n<p>何を推奨する必要がありますか。</p>",
-      "promptText": "BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing\nBlueRock Inc. の移行戦略の一環として、同社はApp1 をオンプレミス環境からAzure に移行する予定です。 App1 は、移行後にアプリケーション データをAzure ストレージ アカウントに保存します。\nケース スタディで定義されたBlueRock のセキュリティおよび規制遵守要件に合わせて、データ アクセスが制限され、パブリック インターネットを通過しないようにするストレージ アカウントのネットワーク接続ソリューションを推奨する必要があります。\n何を推奨する必要がありますか。",
+      "promptHtml": "<p>BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。</p>\n<p>App1 をオンプレミス環境から Azure へ移行する予定です。移行後、App1 はアプリケーション データを Azure Storage アカウントに保存します。</p>\n<p>ケーススタディのセキュリティおよびコンプライアンス要件に従い、ストレージ アカウントへのアクセスを制限し、データ アクセスがパブリック インターネットを経由しないようにする必要があります。</p>\n<p>どのネットワーク接続ソリューションを推奨しますか。</p>",
+      "promptText": "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\nApp1 をオンプレミス環境から Azure へ移行する予定です。移行後、App1 はアプリケーション データを Azure Storage アカウントに保存します。\n\nケーススタディのセキュリティおよびコンプライアンス要件に従い、ストレージ アカウントへのアクセスを制限し、データ アクセスがパブリック インターネットを経由しないようにする必要があります。\n\nどのネットワーク接続ソリューションを推奨しますか。",
       "choices": [
         {
           "choiceId": "en1-q-042-c1",
@@ -106,8 +106,8 @@
     {
       "questionId": "en1-q-043",
       "sourceQuestionNumber": 43,
-      "promptHtml": "<p>BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。</p>\n<p>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing</p>\n<p>BlueRock Inc. のケーススタディに基づいて、組織が使用する Azure 環境全体でアクセス制御を構成する責任があります。</p>\n<p>BlueRock ではネットワークが必要です。共同作成者の Azure RBAC ロールは、 会社の認証および承認要件を満たすと同時に、Azure リソース全体で最小特権の原則を遵守する方法で割り当てられる必要があります。</p>\n<p>これらの要件を満たすために最も効率的な割り当て戦略を決定する必要があります。</p>\n<p>Azure の最小数はどれくらいですか。これを達成するために作成する必要がある RBAC ロール割り当てはどれですか。</p>",
-      "promptText": "BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing\nBlueRock Inc. のケーススタディに基づいて、組織が使用する Azure 環境全体でアクセス制御を構成する責任があります。\nBlueRock ではネットワークが必要です。共同作成者の Azure RBAC ロールは、 会社の認証および承認要件を満たすと同時に、Azure リソース全体で最小特権の原則を遵守する方法で割り当てられる必要があります。\nこれらの要件を満たすために最も効率的な割り当て戦略を決定する必要があります。\nAzure の最小数はどれくらいですか。これを達成するために作成する必要がある RBAC ロール割り当てはどれですか。",
+      "promptHtml": "<p>BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。</p>\n<p>BlueRock の Azure 環境全体でアクセス制御を構成します。ネットワーク共同作成者の Azure RBAC ロールを、認証と認可の要件を満たしながら、最小特権の原則に従って割り当てる必要があります。</p>\n<p>要件を満たすために作成する必要がある Azure RBAC ロール割り当ての最小数はいくつですか。</p>",
+      "promptText": "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\nBlueRock の Azure 環境全体でアクセス制御を構成します。ネットワーク共同作成者の Azure RBAC ロールを、認証と認可の要件を満たしながら、最小特権の原則に従って割り当てる必要があります。\n\n要件を満たすために作成する必要がある Azure RBAC ロール割り当ての最小数はいくつですか。",
       "choices": [
         {
           "choiceId": "en1-q-043-c1",
@@ -158,8 +158,8 @@
     {
       "questionId": "en1-q-044",
       "sourceQuestionNumber": 44,
-      "promptHtml": "<p>BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。</p>\n<p>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing</p>\n<p>BlueRock Inc. の Azure ガバナンスおよびコンプライアンスの取り組みの一環として、組織内にデプロイされているすべての Azure SQL データベースが義務に準拠していることを確認する責任があります。 データ保護標準。</p>\n<p>BlueRock のセキュリティおよびコンプライアンスの要件では、既存のデータベースと今後作成されるデータベースの両方を含むすべての Azure SQL データベースで透過的データ暗号化 (TDE)を有効にする必要があると指定しています。ソリューションでは、今後コンプライアンスを強制するだけでなく、非準拠リソースを自動的に修復する必要もあります。</p>\n<p>Azure Policy を使用して、BlueRock Azure 環境全体でこの要件を実装および強制することにしました。</p>\n<p>TDE が規定に従って強制および修復されるようにするには、どの 3 つのアクション を実行する必要があり、 どの正しい順序で実行する必要があります。 BlueRock のセキュリティとコンプライアンスの要件は。</p>\n<p>アクション</p>\n<ul><li>Azure ポリシーの割り当てを作成します。</li><li>ユーザーに電子割り当てされたマネージド ID を作成します。</li><li>変更効果を使用する Azure ポリシー定義を作成します。</li><li>修復を呼び出します。タスク。</li><li>deployIfNotExists 効果を使用する Azure ポリシー定義を作成する</li></ul>",
-      "promptText": "BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing\nBlueRock Inc. の Azure ガバナンスおよびコンプライアンスの取り組みの一環として、組織内にデプロイされているすべての Azure SQL データベースが義務に準拠していることを確認する責任があります。 データ保護標準。\nBlueRock のセキュリティおよびコンプライアンスの要件では、既存のデータベースと今後作成されるデータベースの両方を含むすべての Azure SQL データベースで透過的データ暗号化 (TDE)を有効にする必要があると指定しています。ソリューションでは、今後コンプライアンスを強制するだけでなく、非準拠リソースを自動的に修復する必要もあります。\nAzure Policy を使用して、BlueRock Azure 環境全体でこの要件を実装および強制することにしました。\nTDE が規定に従って強制および修復されるようにするには、どの 3 つのアクション を実行する必要があり、 どの正しい順序で実行する必要があります。 BlueRock のセキュリティとコンプライアンスの要件は。\n\nアクション\n・Azure ポリシーの割り当てを作成します。\n\n・ユーザーに電子割り当てされたマネージド ID を作成します。\n\n・変更効果を使用する Azure ポリシー定義を作成します。\n\n・修復を呼び出します。タスク。\n\n・deployIfNotExists 効果を使用する Azure ポリシー定義を作成する",
+      "promptHtml": "<p>BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。</p>\n<p>既存および今後作成されるすべての Azure SQL Database で Transparent Data Encryption (TDE) を有効にする必要があります。ソリューションでは、今後のコンプライアンスを強制するだけでなく、既存の非準拠リソースを自動的に修復できる必要があります。</p>\n<p>Azure Policy を使用してこの要件を実装します。TDE を強制および修復するために必要な 3 つのアクションを、正しい順序で選択してください。</p>\n<p>アクション:</p>\n<ul><li>Azure Policy の割り当てを作成します。</li><li>ユーザー割り当てマネージド ID を作成します。</li><li>modify 効果を使用する Azure Policy 定義を作成します。</li><li>修復タスクを開始します。</li><li>deployIfNotExists 効果を使用する Azure Policy 定義を作成します。</li></ul>",
+      "promptText": "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\n既存および今後作成されるすべての Azure SQL Database で Transparent Data Encryption (TDE) を有効にする必要があります。ソリューションでは、今後のコンプライアンスを強制するだけでなく、既存の非準拠リソースを自動的に修復できる必要があります。\n\nAzure Policy を使用してこの要件を実装します。TDE を強制および修復するために必要な 3 つのアクションを、正しい順序で選択してください。\n\nアクション:\n・Azure Policy の割り当てを作成します。\n・ユーザー割り当てマネージド ID を作成します。\n・modify 効果を使用する Azure Policy 定義を作成します。\n・修復タスクを開始します。\n・deployIfNotExists 効果を使用する Azure Policy 定義を作成します。",
       "choices": [
         {
           "choiceId": "en1-q-044-c1",
@@ -214,8 +214,8 @@
     {
       "questionId": "en1-q-045",
       "sourceQuestionNumber": 45,
-      "promptHtml": "<p>BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。</p>\n<p>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing</p>\n<p>BlueRock Inc. のクラウド最新化プログラムの一環として、2 つの重要なデータベース DB1 と 2 つの重要なデータベースを移行する準備をしています。 DB2、オンプレミス環境から Azure へ。</p>\n<p>BlueRock Inc. のケーススタディによると、これらのデータベースはビジネス クリティカルなワークロードをサポートし、Azure でホストされた後は組織の回復力、可用性、 ビジネス継続性の要件に準拠する必要があります。これには、稼働時間の期待を満たし、業務運営に影響を与えることなく障害に対処できる Azure データベース構成とサービス レベルの選択が含まれます。</p>\n<p>移行中および移行後に BlueRock の復元力とビジネス要件に合わせるには、Azure データベース にどのような構成を適用する必要がありますか。</p>",
-      "promptText": "BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing\nBlueRock Inc. のクラウド最新化プログラムの一環として、2 つの重要なデータベース DB1 と 2 つの重要なデータベースを移行する準備をしています。 DB2、オンプレミス環境から Azure へ。\nBlueRock Inc. のケーススタディによると、これらのデータベースはビジネス クリティカルなワークロードをサポートし、Azure でホストされた後は組織の回復力、可用性、 ビジネス継続性の要件に準拠する必要があります。これには、稼働時間の期待を満たし、業務運営に影響を与えることなく障害に対処できる Azure データベース構成とサービス レベルの選択が含まれます。\n移行中および移行後に BlueRock の復元力とビジネス要件に合わせるには、Azure データベース にどのような構成を適用する必要がありますか。",
+      "promptHtml": "<p>BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。</p>\n<p>オンプレミス環境から Azure へ、2 つの重要なデータベース DB1 と DB2 を移行する予定です。これらのデータベースはビジネス クリティカルなワークロードを支えており、Azure 移行後もケーススタディで示された回復性、可用性、ビジネス継続性の要件を満たす必要があります。</p>\n<p>移行中および移行後の要件に合わせるには、どの Azure データベース構成を使用する必要がありますか。</p>",
+      "promptText": "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\nオンプレミス環境から Azure へ、2 つの重要なデータベース DB1 と DB2 を移行する予定です。これらのデータベースはビジネス クリティカルなワークロードを支えており、Azure 移行後もケーススタディで示された回復性、可用性、ビジネス継続性の要件を満たす必要があります。\n\n移行中および移行後の要件に合わせるには、どの Azure データベース構成を使用する必要がありますか。",
       "choices": [
         {
           "choiceId": "en1-q-045-c1",
@@ -253,8 +253,8 @@
     {
       "questionId": "en1-q-046",
       "sourceQuestionNumber": 46,
-      "promptHtml": "<p>BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。</p>\n<p>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing</p>\n<p>BlueRock Inc. のクラウド最新化プログラムの一環として、2 つの重要なデータベース DB1 と 2 つの重要なデータベースを移行する準備をしています。 DB2、オンプレミス環境から Azure へ。</p>\n<p>BlueRock Inc. のケーススタディによると、これらのデータベースはビジネス クリティカルなワークロードをサポートし、Azure でホストされた後は組織の回復力、可用性、 ビジネス継続性の要件に準拠する必要があります。これには、稼働時間の期待を満たし、ビジネス運営に影響を与えることなく障害に対処できる Azure データベース構成とサービス レベルの選択が含まれます。</p>\n<p>移行中および移行後に BlueRock の復元力とビジネス要件に合わせるには、サービス レベルでどのような構成を適用する必要がありますか。</p>",
-      "promptText": "BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing\nBlueRock Inc. のクラウド最新化プログラムの一環として、2 つの重要なデータベース DB1 と 2 つの重要なデータベースを移行する準備をしています。 DB2、オンプレミス環境から Azure へ。\nBlueRock Inc. のケーススタディによると、これらのデータベースはビジネス クリティカルなワークロードをサポートし、Azure でホストされた後は組織の回復力、可用性、 ビジネス継続性の要件に準拠する必要があります。これには、稼働時間の期待を満たし、ビジネス運営に影響を与えることなく障害に対処できる Azure データベース構成とサービス レベルの選択が含まれます。\n移行中および移行後に BlueRock の復元力とビジネス要件に合わせるには、サービス レベルでどのような構成を適用する必要がありますか。",
+      "promptHtml": "<p>BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。</p>\n<p>オンプレミス環境から Azure へ、2 つの重要なデータベース DB1 と DB2 を移行する予定です。これらのデータベースはビジネス クリティカルなワークロードを支えており、Azure 移行後もケーススタディで示された回復性、可用性、ビジネス継続性の要件を満たす必要があります。</p>\n<p>移行中および移行後の要件に合わせるには、どのサービス レベルを使用する必要がありますか。</p>",
+      "promptText": "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\nオンプレミス環境から Azure へ、2 つの重要なデータベース DB1 と DB2 を移行する予定です。これらのデータベースはビジネス クリティカルなワークロードを支えており、Azure 移行後もケーススタディで示された回復性、可用性、ビジネス継続性の要件を満たす必要があります。\n\n移行中および移行後の要件に合わせるには、どのサービス レベルを使用する必要がありますか。",
       "choices": [
         {
           "choiceId": "en1-q-046-c1",
@@ -292,8 +292,8 @@
     {
       "questionId": "en1-q-047",
       "sourceQuestionNumber": 47,
-      "promptHtml": "<p>BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。</p>\n<p>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing</p>\n<p>BlueRock Inc. の実稼働セキュリティ モデルの一部として、Azure 環境へのアクセスは厳格な認証および認可要件を満たすために厳密に制御されています。</p>\n<p>実稼働 Azure を管理する管理者リソースはAzure Multi-Factor Authentication (MFA)に明示的に登録する必要があり、Azure portalにサインインするたびにMFAを使用する必要があります。この要件は、特権アクセスに関する BlueRock のセキュリティおよびコンプライアンス標準によって決まります。</p>\n<p>これらの運用管理者が Azure MFA に適切に登録され、MFA を使用した認証が強制されるようにするには、ユーザーを Azure MFA に登録するために何を使用する必要がありますか。</p>",
-      "promptText": "BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing\nBlueRock Inc. の実稼働セキュリティ モデルの一部として、Azure 環境へのアクセスは厳格な認証および認可要件を満たすために厳密に制御されています。\n実稼働 Azure を管理する管理者リソースはAzure Multi-Factor Authentication (MFA)に明示的に登録する必要があり、Azure portalにサインインするたびにMFAを使用する必要があります。この要件は、特権アクセスに関する BlueRock のセキュリティおよびコンプライアンス標準によって決まります。\nこれらの運用管理者が Azure MFA に適切に登録され、MFA を使用した認証が強制されるようにするには、ユーザーを Azure MFA に登録するために何を使用する必要がありますか。",
+      "promptHtml": "<p>BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。</p>\n<p>実稼働 Azure リソースを管理する管理者は、Azure Multi-Factor Authentication (MFA) に明示的に登録し、Azure portal にサインインするたびに MFA を使用する必要があります。</p>\n<p>これらの管理者を Azure MFA に登録するために、何を使用する必要がありますか。</p>",
+      "promptText": "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\n実稼働 Azure リソースを管理する管理者は、Azure Multi-Factor Authentication (MFA) に明示的に登録し、Azure portal にサインインするたびに MFA を使用する必要があります。\n\nこれらの管理者を Azure MFA に登録するために、何を使用する必要がありますか。",
       "choices": [
         {
           "choiceId": "en1-q-047-c1",
@@ -330,8 +330,8 @@
     {
       "questionId": "en1-q-048",
       "sourceQuestionNumber": 48,
-      "promptHtml": "<p>BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。</p>\n<p>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing</p>\n<p>BlueRock Inc. の実稼働セキュリティ モデルの一部として、Azure 環境へのアクセスは厳格な認証および認可要件を満たすために厳密に制御されています。</p>\n<p>実稼働 Azure を管理する管理者リソースはAzure Multi-Factor Authentication (MFA)に明示的に登録する必要があり、Azure portalにサインインするたびにMFAを使用する必要があります。この要件は、特権アクセスに関する BlueRock のセキュリティおよびコンプライアンス標準によって決まります。</p>\n<p>これらの運用管理者が Azure MFA に適切に登録され、MFA を使用した認証が強制されるようにするには、Azure MFA 認証を強制するために何を構成する必要がありますか。</p>",
-      "promptText": "BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing\nBlueRock Inc. の実稼働セキュリティ モデルの一部として、Azure 環境へのアクセスは厳格な認証および認可要件を満たすために厳密に制御されています。\n実稼働 Azure を管理する管理者リソースはAzure Multi-Factor Authentication (MFA)に明示的に登録する必要があり、Azure portalにサインインするたびにMFAを使用する必要があります。この要件は、特権アクセスに関する BlueRock のセキュリティおよびコンプライアンス標準によって決まります。\nこれらの運用管理者が Azure MFA に適切に登録され、MFA を使用した認証が強制されるようにするには、Azure MFA 認証を強制するために何を構成する必要がありますか。",
+      "promptHtml": "<p>BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。</p>\n<p>実稼働 Azure リソースを管理する管理者は、Azure Multi-Factor Authentication (MFA) に明示的に登録し、Azure portal にサインインするたびに MFA を使用する必要があります。</p>\n<p>Azure MFA 認証を強制するには、何を構成する必要がありますか。</p>",
+      "promptText": "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\n実稼働 Azure リソースを管理する管理者は、Azure Multi-Factor Authentication (MFA) に明示的に登録し、Azure portal にサインインするたびに MFA を使用する必要があります。\n\nAzure MFA 認証を強制するには、何を構成する必要がありますか。",
       "choices": [
         {
           "choiceId": "en1-q-048-c1",
@@ -368,8 +368,8 @@
     {
       "questionId": "en1-q-049",
       "sourceQuestionNumber": 49,
-      "promptHtml": "<p>BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。</p>\n<p>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing</p>\n<p>BlueRock Inc. のクラウド移行イニシアチブの一環として、App1 はオンプレミス環境から Azure に移行されます。アプリケーションは運用データとビジネス データを Azure Storage に保存します。また、ストレージ プラットフォームは、 ケース スタディで説明されているBlueRock のセキュリティ、コンプライアンス、 ガバナンスの標準に準拠している必要があります。</p>\n<p>ストレージ ソリューションは、最新の Azure セキュリティ機能をサポートし、プライベート エンドポイントなどのネットワーク レベルの制御と統合し、不必要なコストや複雑さを導入することなく企業のコンプライアンス要件を満たす必要があります。</p>\n<p>ホスティングにはどの種類の Azure ストレージ アカウントを推奨する必要がありますか。 App1 のデータはありますか。</p>",
-      "promptText": "BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing\nBlueRock Inc. のクラウド移行イニシアチブの一環として、App1 はオンプレミス環境から Azure に移行されます。アプリケーションは運用データとビジネス データを Azure Storage に保存します。また、ストレージ プラットフォームは、 ケース スタディで説明されているBlueRock のセキュリティ、コンプライアンス、 ガバナンスの標準に準拠している必要があります。\nストレージ ソリューションは、最新の Azure セキュリティ機能をサポートし、プライベート エンドポイントなどのネットワーク レベルの制御と統合し、不必要なコストや複雑さを導入することなく企業のコンプライアンス要件を満たす必要があります。\nホスティングにはどの種類の Azure ストレージ アカウントを推奨する必要がありますか。 App1 のデータはありますか。",
+      "promptHtml": "<p>BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。</p>\n<p>App1 はオンプレミス環境から Azure へ移行され、運用データとビジネス データを Azure Storage に保存します。ストレージ プラットフォームは、ケーススタディで示されたセキュリティ、コンプライアンス、ガバナンス標準に準拠する必要があります。</p>\n<p>ストレージ ソリューションでは、最新の Azure セキュリティ機能、プライベート エンドポイントなどのネットワーク制御、不要なコストや複雑さを避けることが求められます。</p>\n<p>App1 のデータをホストするには、どの種類の Azure Storage アカウントを推奨しますか。</p>",
+      "promptText": "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\nApp1 はオンプレミス環境から Azure へ移行され、運用データとビジネス データを Azure Storage に保存します。ストレージ プラットフォームは、ケーススタディで示されたセキュリティ、コンプライアンス、ガバナンス標準に準拠する必要があります。\n\nストレージ ソリューションでは、最新の Azure セキュリティ機能、プライベート エンドポイントなどのネットワーク制御、不要なコストや複雑さを避けることが求められます。\n\nApp1 のデータをホストするには、どの種類の Azure Storage アカウントを推奨しますか。",
       "choices": [
         {
           "choiceId": "en1-q-049-c1",
@@ -406,8 +406,8 @@
     {
       "questionId": "en1-q-050",
       "sourceQuestionNumber": 50,
-      "promptHtml": "<p>BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。</p>\n<p>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing</p>\n<p>BlueRock Inc. のクラウド移行イニシアチブの一環として、App1 はオンプレミス環境から Azure に移行されます。アプリケーションは運用データとビジネス データを Azure Storage に保存します。ストレージ プラットフォームは、ケース スタディで説明されているBlueRock のセキュリティ、コンプライアンス、 ガバナンス標準に準拠している必要があります。</p>\n<p>ストレージ ソリューションは、最新の Azure セキュリティ機能をサポートし、プライベート エンドポイントなどのネットワーク レベルの制御と統合し、不必要なコストや複雑さを導入することなく企業のコンプライアンス要件を満たす必要があります。</p>\n<p>ストレージにはどの構成を推奨しますか。</p>",
-      "promptText": "BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing\nBlueRock Inc. のクラウド移行イニシアチブの一環として、App1 はオンプレミス環境から Azure に移行されます。アプリケーションは運用データとビジネス データを Azure Storage に保存します。ストレージ プラットフォームは、ケース スタディで説明されているBlueRock のセキュリティ、コンプライアンス、 ガバナンス標準に準拠している必要があります。\nストレージ ソリューションは、最新の Azure セキュリティ機能をサポートし、プライベート エンドポイントなどのネットワーク レベルの制御と統合し、不必要なコストや複雑さを導入することなく企業のコンプライアンス要件を満たす必要があります。\nストレージにはどの構成を推奨しますか。",
+      "promptHtml": "<p>BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。</p>\n<p>App1 はオンプレミス環境から Azure へ移行され、運用データとビジネス データを Azure Storage に保存します。ストレージ プラットフォームは、ケーススタディで示されたセキュリティ、コンプライアンス、ガバナンス標準に準拠する必要があります。</p>\n<p>ストレージ ソリューションでは、最新の Azure セキュリティ機能、プライベート エンドポイントなどのネットワーク制御、不要なコストや複雑さを避けることが求められます。</p>\n<p>ストレージには、どの構成を推奨しますか。</p>",
+      "promptText": "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\nApp1 はオンプレミス環境から Azure へ移行され、運用データとビジネス データを Azure Storage に保存します。ストレージ プラットフォームは、ケーススタディで示されたセキュリティ、コンプライアンス、ガバナンス標準に準拠する必要があります。\n\nストレージ ソリューションでは、最新の Azure セキュリティ機能、プライベート エンドポイントなどのネットワーク制御、不要なコストや複雑さを避けることが求められます。\n\nストレージには、どの構成を推奨しますか。",
       "choices": [
         {
           "choiceId": "en1-q-050-c1",

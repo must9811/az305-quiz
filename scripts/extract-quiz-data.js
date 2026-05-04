@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { applyEnglishSet1Rewrites } = require("./en1-manual-rewrites");
 const { applyEnglishSet2Rewrites } = require("./en2-manual-rewrites");
+const { applyEnglishSet3Rewrites } = require("./en3-manual-rewrites");
 
 const ROOT_DIR = path.resolve(__dirname, "..");
 const OUTPUT_DIR = path.join(ROOT_DIR, "data");
@@ -114,6 +115,9 @@ async function main() {
     }
     if (source.sourceId === "en2") {
       questions = applyEnglishSet2Rewrites(questions);
+    }
+    if (source.sourceId === "en3") {
+      questions = applyEnglishSet3Rewrites(questions);
     }
 
     generatedSets.push(...buildSets(questions, source));

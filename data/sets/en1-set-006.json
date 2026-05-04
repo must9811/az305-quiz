@@ -13,8 +13,8 @@
     {
       "questionId": "en1-q-051",
       "sourceQuestionNumber": 51,
-      "promptHtml": "<p>BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。</p>\n<p>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing</p>\n<p>BlueRock Inc. のアプリケーション最新化戦略の一環として、App1 はオンプレミス環境から Azure に移行されています。 App1 は、BlueRock Inc. のケース スタディで定義された復元力と可用性の要件に従って、インフラストラクチャの障害やメンテナンス イベントの間も利用可能な状態を維持する必要があるビジネス クリティカルなワークロードです。</p>\n<p>これらの要件を満たすために、Azure の設計では、単一障害点を最小限に抑えながら、障害が分離されたインフラストラクチャ コンポーネント全体にワークロードを分散し、スケーラブルなコンピューティング リソースをサポートする必要があります。</p>\n<p>App1 の高可用性を提供するために Azure 設計に含めますか。</p>",
-      "promptText": "BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing\nBlueRock Inc. のアプリケーション最新化戦略の一環として、App1 はオンプレミス環境から Azure に移行されています。 App1 は、BlueRock Inc. のケース スタディで定義された復元力と可用性の要件に従って、インフラストラクチャの障害やメンテナンス イベントの間も利用可能な状態を維持する必要があるビジネス クリティカルなワークロードです。\nこれらの要件を満たすために、Azure の設計では、単一障害点を最小限に抑えながら、障害が分離されたインフラストラクチャ コンポーネント全体にワークロードを分散し、スケーラブルなコンピューティング リソースをサポートする必要があります。\nApp1 の高可用性を提供するために Azure 設計に含めますか。",
+      "promptHtml": "<p>BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。</p>\n<p>App1 はオンプレミス環境から Azure へ移行されるビジネス クリティカルなワークロードです。インフラストラクチャ障害やメンテナンス イベント中も利用可能である必要があります。</p>\n<p>Azure の設計では、単一障害点を最小限にし、障害分離されたインフラストラクチャ コンポーネントにワークロードを分散し、スケーラブルなコンピューティング リソースをサポートする必要があります。</p>\n<p>App1 の高可用性を提供するには、Azure 設計に何を含める必要がありますか。</p>",
+      "promptText": "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\nApp1 はオンプレミス環境から Azure へ移行されるビジネス クリティカルなワークロードです。インフラストラクチャ障害やメンテナンス イベント中も利用可能である必要があります。\n\nAzure の設計では、単一障害点を最小限にし、障害分離されたインフラストラクチャ コンポーネントにワークロードを分散し、スケーラブルなコンピューティング リソースをサポートする必要があります。\n\nApp1 の高可用性を提供するには、Azure 設計に何を含める必要がありますか。",
       "choices": [
         {
           "choiceId": "en1-q-051-c1",
@@ -69,8 +69,8 @@
     {
       "questionId": "en1-q-052",
       "sourceQuestionNumber": 52,
-      "promptHtml": "<p>BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。</p>\n<p>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing</p>\n<p>BlueRock Inc. のクラウド移行イニシアチブの一環として、App1 はオンプレミス環境から Azure に移行されます。ケース スタディで説明されているターゲット アーキテクチャでは、App1 は Azure コンピューティング リソース上で実行され、コードや構成ファイルに資格情報を保存せずに他の Azure サービスに安全にアクセスする必要があります。</p>\n<p>BlueRock Inc. の認証および認可要件に準拠するには、ソリューションはマネージド ID を使用し、トークン取得に関する Azure のベスト プラクティスに従う必要があります。</p>\n<p>App1 が Azure でアクセス トークンを安全に取得するには使用しますか。</p>",
-      "promptText": "BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing\nBlueRock Inc. のクラウド移行イニシアチブの一環として、App1 はオンプレミス環境から Azure に移行されます。ケース スタディで説明されているターゲット アーキテクチャでは、App1 は Azure コンピューティング リソース上で実行され、コードや構成ファイルに資格情報を保存せずに他の Azure サービスに安全にアクセスする必要があります。\nBlueRock Inc. の認証および認可要件に準拠するには、ソリューションはマネージド ID を使用し、トークン取得に関する Azure のベスト プラクティスに従う必要があります。\nApp1 が Azure でアクセス トークンを安全に取得するには使用しますか。",
+      "promptHtml": "<p>BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。</p>\n<p>App1 は Azure コンピューティング リソース上で実行され、コードや構成ファイルに資格情報を保存せずに他の Azure サービスへ安全にアクセスする必要があります。</p>\n<p>認証と認可の要件に従い、App1 はマネージド ID を使用してアクセス トークンを取得する必要があります。</p>\n<p>App1 が Azure でアクセス トークンを安全に取得するには、何を使用しますか。</p>",
+      "promptText": "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\nApp1 は Azure コンピューティング リソース上で実行され、コードや構成ファイルに資格情報を保存せずに他の Azure サービスへ安全にアクセスする必要があります。\n\n認証と認可の要件に従い、App1 はマネージド ID を使用してアクセス トークンを取得する必要があります。\n\nApp1 が Azure でアクセス トークンを安全に取得するには、何を使用しますか。",
       "choices": [
         {
           "choiceId": "en1-q-052-c1",
@@ -113,8 +113,8 @@
     {
       "questionId": "en1-q-053",
       "sourceQuestionNumber": 53,
-      "promptHtml": "<p>BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。</p>\n<p>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing</p>\n<p>BlueRock Inc. の移行戦略の一環として、App1 はオンプレミス環境から Azure に移行されます。ケーススタディによると、App1 は機密ビジネス データを処理するため、移行後は BlueRock のセキュリティと規制コンプライアンスの要件に準拠する必要があります。</p>\n<p>Azure で App1 が使用するデータ ストレージが BlueRock Inc. のセキュリティとコンプライアンスの要件を確実に満たすようにするにはどうすればよいですか。</p>",
-      "promptText": "BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing\nBlueRock Inc. の移行戦略の一環として、App1 はオンプレミス環境から Azure に移行されます。ケーススタディによると、App1 は機密ビジネス データを処理するため、移行後は BlueRock のセキュリティと規制コンプライアンスの要件に準拠する必要があります。\nAzure で App1 が使用するデータ ストレージが BlueRock Inc. のセキュリティとコンプライアンスの要件を確実に満たすようにするにはどうすればよいですか。",
+      "promptHtml": "<p>BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。</p>\n<p>App1 は機密ビジネス データを処理します。移行後、Azure で App1 が使用するデータ ストレージは、BlueRock のセキュリティおよび規制コンプライアンス要件を満たす必要があります。</p>\n<p>データ ストレージが要件を満たすようにするには、何を実装する必要がありますか。</p>",
+      "promptText": "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\nApp1 は機密ビジネス データを処理します。移行後、Azure で App1 が使用するデータ ストレージは、BlueRock のセキュリティおよび規制コンプライアンス要件を満たす必要があります。\n\nデータ ストレージが要件を満たすようにするには、何を実装する必要がありますか。",
       "choices": [
         {
           "choiceId": "en1-q-053-c1",
@@ -157,8 +157,8 @@
     {
       "questionId": "en1-q-054",
       "sourceQuestionNumber": 54,
-      "promptHtml": "<p>BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。</p>\n<p>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing</p>\n<p>BlueRock Inc. のクラウド導入イニシアチブの一環として、App1 はオンプレミス環境から Azure に移行される予定です。このケース スタディでは、組織のセキュリティとコンプライアンス要件を遵守しながら移行を確実に BlueRock の財務管理に合わせるためにはコスト ガバナンスと正確な予算編成が重要であることが強調されています。</p>\n<p>App1 のターゲット Azure アーキテクチャを最終決定する前に、関係者が予算を承認できるように、Azure での App1 の実行に関連する継続的なコストを見積もり、運用コストを計画する必要があります。</p>\n<p>Azure の App1 のコストを見積もるには、どの Azure ツールまたはサービスを使用する必要がありますか。</p>",
-      "promptText": "BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing\nBlueRock Inc. のクラウド導入イニシアチブの一環として、App1 はオンプレミス環境から Azure に移行される予定です。このケース スタディでは、組織のセキュリティとコンプライアンス要件を遵守しながら移行を確実に BlueRock の財務管理に合わせるためにはコスト ガバナンスと正確な予算編成が重要であることが強調されています。\nApp1 のターゲット Azure アーキテクチャを最終決定する前に、関係者が予算を承認できるように、Azure での App1 の実行に関連する継続的なコストを見積もり、運用コストを計画する必要があります。\nAzure の App1 のコストを見積もるには、どの Azure ツールまたはサービスを使用する必要がありますか。",
+      "promptHtml": "<p>BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。</p>\n<p>App1 をオンプレミス環境から Azure へ移行する予定です。ターゲット Azure アーキテクチャを確定する前に、関係者が予算を承認できるよう、Azure で App1 を実行する継続的なコストを見積もる必要があります。</p>\n<p>Azure での App1 のコストを見積もるには、どの Azure ツールまたはサービスを使用する必要がありますか。</p>",
+      "promptText": "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\nApp1 をオンプレミス環境から Azure へ移行する予定です。ターゲット Azure アーキテクチャを確定する前に、関係者が予算を承認できるよう、Azure で App1 を実行する継続的なコストを見積もる必要があります。\n\nAzure での App1 のコストを見積もるには、どの Azure ツールまたはサービスを使用する必要がありますか。",
       "choices": [
         {
           "choiceId": "en1-q-054-c1",
@@ -195,8 +195,8 @@
     {
       "questionId": "en1-q-055",
       "sourceQuestionNumber": 55,
-      "promptHtml": "<p>BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。</p>\n<p>https://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing</p>\n<p>BlueRock Inc. のクラウド導入イニシアチブの一環として、App1 はオンプレミス環境から Azure に移行される予定です。このケース スタディでは、組織のセキュリティとコンプライアンス要件を遵守しながら移行を確実に BlueRock の財務管理に合わせるためにはコスト ガバナンスと正確な予算編成が重要であることが強調されています。</p>\n<p>App1 のターゲット Azure アーキテクチャを最終決定する前に、関係者が予算を承認できるように、Azure での App1 の実行に関連する継続的なコストを見積もり、運用コストを計画する必要があります。</p>\n<p>コストを最小限にするには何を実装する必要がありますか。</p>",
-      "promptText": "BlueRock Inc. のケーススタディを参照して、次の質問に答えてください。\nhttps://docs.google.com/document/d/11vibhAFi4sD7k0shMJHCIWPzj8b_2u8Foa4sY4yC4Yo/edit?usp=sharing\nBlueRock Inc. のクラウド導入イニシアチブの一環として、App1 はオンプレミス環境から Azure に移行される予定です。このケース スタディでは、組織のセキュリティとコンプライアンス要件を遵守しながら移行を確実に BlueRock の財務管理に合わせるためにはコスト ガバナンスと正確な予算編成が重要であることが強調されています。\nApp1 のターゲット Azure アーキテクチャを最終決定する前に、関係者が予算を承認できるように、Azure での App1 の実行に関連する継続的なコストを見積もり、運用コストを計画する必要があります。\nコストを最小限にするには何を実装する必要がありますか。",
+      "promptHtml": "<p>BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。</p>\n<p>App1 をオンプレミス環境から Azure へ移行する予定です。ターゲット Azure アーキテクチャを確定する前に、Azure で App1 を実行する継続的なコストを見積もり、運用コストを最小限に抑える必要があります。</p>\n<p>コストを最小限にするには、何を実装する必要がありますか。</p>",
+      "promptText": "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\nApp1 をオンプレミス環境から Azure へ移行する予定です。ターゲット Azure アーキテクチャを確定する前に、Azure で App1 を実行する継続的なコストを見積もり、運用コストを最小限に抑える必要があります。\n\nコストを最小限にするには、何を実装する必要がありますか。",
       "choices": [
         {
           "choiceId": "en1-q-055-c1",

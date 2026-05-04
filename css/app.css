@@ -268,8 +268,27 @@ select {
 
 .question-html p,
 .explanation-html p {
-  margin: 0 0 12px;
-  line-height: 1.65;
+  margin: 0 0 16px;
+  line-height: 1.8;
+}
+
+.question-html ul,
+.question-html ol,
+.explanation-html ul,
+.explanation-html ol {
+  margin: 10px 0 20px;
+  padding-left: 1.6rem;
+}
+
+.question-html li,
+.explanation-html li {
+  margin: 0 0 10px;
+  line-height: 1.75;
+}
+
+.question-html li:last-child,
+.explanation-html li:last-child {
+  margin-bottom: 0;
 }
 
 .question-html img,
@@ -342,6 +361,14 @@ select {
 .explanation-box p,
 .empty-box p {
   margin: 0;
+}
+
+.explanation-box .explanation-html p {
+  margin: 0 0 16px;
+}
+
+.explanation-box .explanation-html p:last-child {
+  margin-bottom: 0;
 }
 
 .summary-grid {

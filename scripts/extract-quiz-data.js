@@ -3,6 +3,9 @@ const path = require("path");
 const { applyEnglishSet1Rewrites } = require("./en1-manual-rewrites");
 const { applyEnglishSet2Rewrites } = require("./en2-manual-rewrites");
 const { applyEnglishSet3Rewrites } = require("./en3-manual-rewrites");
+const { applyEnglishSet4Rewrites } = require("./en4-manual-rewrites");
+const { applyEnglishSet5Rewrites } = require("./en5-manual-rewrites");
+const { applyEnglishSet6Rewrites } = require("./en6-manual-rewrites");
 
 const ROOT_DIR = path.resolve(__dirname, "..");
 const OUTPUT_DIR = path.join(ROOT_DIR, "data");
@@ -118,6 +121,15 @@ async function main() {
     }
     if (source.sourceId === "en3") {
       questions = applyEnglishSet3Rewrites(questions);
+    }
+    if (source.sourceId === "en4") {
+      questions = applyEnglishSet4Rewrites(questions);
+    }
+    if (source.sourceId === "en5") {
+      questions = applyEnglishSet5Rewrites(questions);
+    }
+    if (source.sourceId === "en6") {
+      questions = applyEnglishSet6Rewrites(questions);
     }
 
     generatedSets.push(...buildSets(questions, source));

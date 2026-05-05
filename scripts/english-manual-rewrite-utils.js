@@ -7,6 +7,7 @@ function applyEnglishSetRewrites(questions, config) {
     reasonOverrides = {},
     choiceReasonOverrides = {},
     topicSupplements = [],
+    supplementPromptTransform = null,
   } = config;
 
   assertAuditCoverage(questions, sourceId, auditStatus);
@@ -27,7 +28,10 @@ function applyEnglishSetRewrites(questions, config) {
 
     const promptText = cleanPromptText(promptOverrides[question.questionId] ?? question.promptText);
     const promptHtml = appendOriginalPromptImages(textToHtml(promptText), question.promptHtml);
-    const explanationHtml = buildExplanationHtml(question, choices, promptText, {
+    const supplementPromptText = supplementPromptTransform
+      ? supplementPromptTransform(promptText, question)
+      : promptText;
+    const explanationHtml = buildExplanationHtml(question, choices, supplementPromptText, {
       reasonOverrides,
       choiceReasonOverrides,
       topicSupplements,

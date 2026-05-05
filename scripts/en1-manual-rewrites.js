@@ -443,8 +443,76 @@ const EN1_DCR_SCENARIO = [
   "",
 ].join("\n");
 
-const BLUEROCK_PREFIX =
-  "BlueRock Inc. のケーススタディを前提として、次の設問に答えてください。\n\n";
+const BLUEROCK_CASE_STUDY_IMAGE =
+  "assets/問題集1_files/2023-01-27_01-28-44-a8b551da3bb45ba74ad415392091f79b.png";
+
+const BLUEROCK_CASE_STUDY_TEXT = [
+  "BlueRock Inc. ケーススタディ",
+  "",
+  "概要",
+  "BlueRock Inc. は、ボストンに本社を置く中規模の金融会社です。",
+  "",
+  "既存環境",
+  "",
+  "ID 環境",
+  "・ネットワークには bluerock.com という Active Directory フォレストがあり、bluerock.com という Microsoft Entra テナントにリンクされています。",
+  "・すべてのユーザーは Microsoft Entra ID Premium P2 ライセンスを持っています。",
+  "・BlueRock には dev.bluerock.com という 2 つ目の Microsoft Entra テナントがあり、開発環境として使用されています。",
+  "・bluerock.com テナントには Capolicy1 という条件付きアクセス ポリシーがあります。Capolicy1 では、ユーザーが Azure portal を使用して実稼働環境の Azure サブスクリプションを管理する場合、ハイブリッド Microsoft Entra 参加済みデバイスから接続することが求められます。",
+  "",
+  "Azure 環境",
+  "・BlueRock には、bluerock.com テナントにリンクされた 10 個の Azure サブスクリプションと、dev.bluerock.com テナントにリンクされた 5 個の Azure サブスクリプションがあります。",
+  "・すべてのサブスクリプションは Enterprise Agreement (EA) に含まれています。",
+  "・bluerock.com テナントには role1 というカスタム Azure RBAC ロールがあり、Azure Storage の BLOB とファイルに対する DataActions の読み取り権限を付与します。",
+  "",
+  "オンプレミス環境",
+  "BlueRock のオンプレミス ネットワークには、次の表に示すリソースがあります。",
+  "・SERVER1 / SERVER2 / SERVER3 は Hyper-V 上でホストされる Ubuntu 18.04 仮想マシンです。これらの仮想マシンは App1 というサードパーティ アプリをホストします。App1 は Apache Hadoop 互換の外部データ ストレージを使用します。このデータ ストレージは POSIX アクセス制御リスト (ACL) によるファイル レベルのアクセス許可をサポートします。",
+  "・SERVER10 は Windows Server 2016 を実行するサーバーであり、DB1 と DB2 をホストする Microsoft SQL Server インスタンスを含みます。",
+  "",
+  "ネットワーク環境",
+  "・BlueRock は Azure への ExpressRoute 接続を持っています。",
+  "",
+  "計画されている変更と要件",
+  "",
+  "変更予定",
+  "BlueRock は次の変更を実施する予定です。",
+  "・DB1 と DB2 を Azure に移行する。",
+  "・App1 を Azure 仮想マシンへ移行する。",
+  "・App1 が使用する外部ストレージを Azure Storage へ移行する。",
+  "・App1 をホストする Azure 仮想マシンを Azure Dedicated Host にデプロイする。",
+  "",
+  "認証と認可の要件",
+  "BlueRock は次の認証と認可の要件を定義しています。",
+  "・Azure portal を使用して実稼働環境を管理するユーザーだけが、ハイブリッド Microsoft Entra 参加済みデバイスから接続し、Azure Multi-Factor Authentication (MFA) で認証する必要があります。",
+  "・すべての Azure サブスクリプション内のすべての仮想ネットワークについて、ネットワーク管理者に権限を付与するには、組み込みの Network Contributor RBAC ロールを使用する必要があります。",
+  "・Azure 内のリソースへアクセスするために、App1 はアプリをホストする仮想マシンのマネージド ID を使用する必要があります。",
+  "・RBAC ロールは管理グループに適用する必要があります。",
+  "",
+  "回復性の要件",
+  "BlueRock は次の回復性要件を定義しています。",
+  "・Azure へ移行した後、DB1 と DB2 は、ローカル Azure リージョン内の 2 つの可用性ゾーンで障害が発生しても可用性を維持する必要があります。",
+  "・DB1 と DB2 は自動的にフェールオーバーする必要があります。",
+  "・DB1 と DB2 は I/O レイテンシを最小限に抑える必要があります。",
+  "・App1 は、可用性ゾーンをサポートする Azure リージョンでホストされる必要があります。",
+  "・App1 は、自動スケーリングをサポートする Azure 仮想マシン上でホストされる必要があります。",
+  "・App1 は、ローカル Azure リージョン内の 2 つの可用性ゾーンで障害が発生しても可用性を維持する必要があります。",
+  "",
+  "セキュリティとコンプライアンスの要件",
+  "BlueRock は次のセキュリティとコンプライアンス要件を定義しています。",
+  "・App1 を Azure に移行した後、新しいデータはアプリに書き込めるようにしつつ、新規データと既存データの変更を 3 年間防止する必要があります。",
+  "・オンプレミスのユーザーとサービスは、App1 のデータをホストする Azure Storage アカウントにアクセスできる必要があります。",
+  "・App1 のデータをホストする Azure Storage アカウントのパブリック エンドポイントへのアクセスを防止する必要があります。",
+  "・実稼働環境内のすべての Azure SQL Database で Transparent Data Encryption (TDE) を有効にする必要があります。",
+  "・App1 は、他のワークロードと物理ハードウェアを共有してはなりません。",
+  "",
+  "ビジネス要件",
+  "BlueRock は次のビジネス要件を定義しています。",
+  "・管理作業を最小限に抑える。",
+  "・コストを最小限に抑える。",
+].join("\n");
+
+const BLUEROCK_PREFIX = `${BLUEROCK_CASE_STUDY_TEXT}\n\n上記のケーススタディを前提として、次の設問に答えてください。\n\n`;
 
 const PROMPT_OVERRIDES = {
   "en1-q-023":
@@ -612,7 +680,7 @@ function applyEnglishSet1Rewrites(questions) {
 
     const promptText = cleanPromptText(PROMPT_OVERRIDES[question.questionId] ?? question.promptText);
     const promptHtml = appendOriginalPromptImages(
-      textToHtml(promptText),
+      appendBlueRockCaseStudyImage(textToHtml(promptText), question.questionId),
       question.promptHtml,
     );
     const explanationHtml = buildExplanationHtml(question, choices, note);
@@ -633,6 +701,21 @@ function applyEnglishSet1Rewrites(questions) {
       ),
     };
   });
+}
+
+function appendBlueRockCaseStudyImage(promptHtml, questionId) {
+  if (!/^en1-q-0(?:4[1-9]|5[0-5])$/.test(questionId)) {
+    return promptHtml;
+  }
+
+  const imageHtml = `<p><img src="${escapeHtml(BLUEROCK_CASE_STUDY_IMAGE)}" alt="BlueRock のオンプレミス リソース一覧" loading="eager"></p>`;
+  const anchor = "BlueRock のオンプレミス ネットワークには、次の表に示すリソースがあります。";
+  const anchorHtml = `<p>${escapeHtml(anchor)}</p>`;
+  if (promptHtml.includes(anchorHtml)) {
+    return promptHtml.replace(anchorHtml, `${anchorHtml}\n${imageHtml}`);
+  }
+
+  return `${promptHtml}\n${imageHtml}`;
 }
 
 function buildExplanationHtml(question, choices, note) {

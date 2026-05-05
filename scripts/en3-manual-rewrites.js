@@ -89,8 +89,78 @@ const TOPIC_SUPPLEMENTS = [
   [/Cosmos DB|マルチリージョン書き込み|可用性ゾーン/, "Cosmos DB はグローバル分散とマルチリージョン書き込みにより、複数リージョンのアプリから低遅延に読み書きできます。"],
 ];
 
-const CASE_STUDY_PREFIX =
-  "ApexCore Ltd. のケーススタディを前提として、次の設問に答えてください。\n\n";
+const APEXCORE_CASE_STUDY_TEXT = [
+  "ApexCore Ltd. ケーススタディ",
+  "",
+  "概要",
+  "ApexCore, Ltd. は、モントリオールに本社を置く研究会社です。",
+  "",
+  "既存環境",
+  "",
+  "技術環境",
+  "・オンプレミス ネットワークには、constoso.com という単一の Active Directory ドメインがあります。",
+  "・ApexCore には 1 つの Azure サブスクリプションがあります。",
+  "",
+  "ビジネス パートナーシップ",
+  "・ApexCore は BlueRock, Inc. と業務提携しています。",
+  "・BlueRock ユーザーは、Microsoft Entra ID のゲスト アカウントを使用して、インターネット経由で一部の ApexCore アプリケーションにアクセスします。",
+  "",
+  "要件",
+  "",
+  "計画されている変更",
+  "ApexCore は、App1 と App2 という 2 つのアプリケーションを Azure にデプロイする予定です。",
+  "",
+  "App1",
+  "・App1 は Azure App Service でホストされる Python Web アプリであり、Linux ランタイムを必要とします。",
+  "・ApexCore と BlueRock のユーザーが App1 にアクセスします。",
+  "・App1 は、サードパーティの資格情報とアクセス文字列を必要とする複数のサービスへアクセスします。",
+  "・資格情報とアクセス文字列は Azure Key Vault に保存されています。",
+  "・App1 は 6 つのインスタンスを持ちます。3 つは East US Azure リージョン、3 つは West Europe Azure リージョンに配置します。",
+  "",
+  "App1 のデータ要件",
+  "・各インスタンスは、そのインスタンスと同じ可用性ゾーン内のデータ ストアへデータを書き込みます。",
+  "・任意の App1 インスタンスが書き込んだデータは、すべての App1 インスタンスから参照できる必要があります。",
+  "",
+  "App1 の接続要件",
+  "・App1 はインターネットからのみアクセス可能にします。",
+  "・App1 への接続は Web Application Firewall (WAF) を通過する必要があります。",
+  "・App1 への接続は、インスタンス間でアクティブ/アクティブに負荷分散される必要があります。",
+  "・北米から App1 へのすべての接続は East US リージョンへ誘導する必要があります。",
+  "・その他すべての接続は West Europe リージョンへ誘導する必要があります。",
+  "・毎時、PowerShell スクリプトを呼び出して、すべての App1 インスタンスからファイルをコピーするメンテナンス タスクを実行します。",
+  "・PowerShell は中央の場所から実行されます。",
+  "",
+  "App2",
+  "・App2 は Azure App Service でホストされるドットネット (.NET) アプリで、Windows ランタイムを必要とします。",
+  "",
+  "App2 のファイル ストレージ要件",
+  "・ファイルを Azure Storage アカウントに保存します。",
+  "・ファイルをオンプレミスの場所へレプリケートします。",
+  "・オンプレミス クライアントが LAN 経由で SMB プロトコルを使用してファイルを読み取れるようにします。",
+  "",
+  "App2 の監視要件",
+  "・App2 がアプリケーション内のさまざまなトランザクションを実行するのにかかる時間を分析できるように監視する必要があります。",
+  "・このソリューションでは、アプリケーション コードの変更を必要としないことが求められます。",
+  "",
+  "アプリケーション開発要件",
+  "アプリケーション開発者は、App1 と App2 の新しいバージョンを継続的に開発します。開発プロセスは次の要件を満たす必要があります。",
+  "・新しいアプリケーション バージョンを本番で使用する前に、アプリケーション ホストへステージング インスタンスとしてデプロイします。",
+  "・新しいバージョンをテストした後、ステージング バージョンで本番バージョンを置き換えます。",
+  "・ステージングから本番への切り替えは、アプリケーションのダウンタイムなしで行う必要があります。",
+  "",
+  "ID 要件",
+  "ApexCore は、BlueRock のリソース アクセス管理について次の要件を定義しています。",
+  "・毎月、BlueRock のアカウント マネージャーが、どの BlueRock ユーザーに App1 へのアクセス許可があるかをレビューする必要があります。",
+  "・アクセス許可が不要になったアカウントは、ゲストとして削除する必要があります。",
+  "・ソリューションでは、開発作業を最小限に抑える必要があります。",
+  "",
+  "セキュリティ要件",
+  "・Azure サービスで使用するすべてのシークレットは Azure Key Vault に保存する必要があります。",
+  "・資格情報を必要とするサービスでは、資格情報をサービス インスタンスにひも付ける必要があります。",
+  "・資格情報をサービス間で共有してはなりません。",
+].join("\n");
+
+const CASE_STUDY_PREFIX = `${APEXCORE_CASE_STUDY_TEXT}\n\n上記のケーススタディを前提として、次の設問に答えてください。\n\n`;
 
 const CASE_STUDY_PROMPT_OVERRIDES = {
   "en3-q-043": [
@@ -573,7 +643,7 @@ function buildExplanationHtml(question, choices, promptText) {
   const correctChoices = choices.filter((choice) => correctIds.has(choice.choiceId));
   const correctLabel = correctChoices.map((choice) => choice.text).join("、");
   const reason = EN3_REASON_OVERRIDES[question.questionId] || deriveReason(question, correctChoices);
-  const supplement = deriveSupplement(`${promptText}\n${choices.map((choice) => choice.text).join("\n")}`);
+  const supplement = deriveSupplement(`${getSupplementPromptText(promptText)}\n${choices.map((choice) => choice.text).join("\n")}`);
 
   const choiceItems = choices
     .map((choice) => {
@@ -621,6 +691,24 @@ function deriveSupplement(text) {
   return found
     ? found[1]
     : "設問では、サービス名だけでなく、スコープ、データの流れ、運用負荷、可用性、コスト要件を組み合わせて判断します。";
+}
+
+function getSupplementPromptText(promptText) {
+  const caseStudyQuestionMarker = "上記のケーススタディを前提として、次の設問に答えてください。";
+  const markerIndex = promptText.indexOf(caseStudyQuestionMarker);
+  if (promptText.startsWith("ApexCore Ltd.") && markerIndex !== -1) {
+    return promptText.slice(markerIndex + caseStudyQuestionMarker.length).trimStart();
+  }
+
+  if (promptText.startsWith(CASE_STUDY_PREFIX)) {
+    return promptText.slice(CASE_STUDY_PREFIX.length);
+  }
+
+  if (promptText.startsWith(APEXCORE_CASE_STUDY_TEXT)) {
+    return promptText.slice(APEXCORE_CASE_STUDY_TEXT.length).replace(/^\s*上記のケーススタディを前提として、次の設問に答えてください。\s*/, "");
+  }
+
+  return promptText;
 }
 
 function buildIncorrectReason(question, choice) {

@@ -10,7 +10,7 @@
     "assets/英語問題集5.html",
     "assets/英語問題集6.html"
   ],
-  "generatedAt": "2026-05-05T03:34:16.541Z",
+  "generatedAt": "2026-05-05T04:26:39.082Z",
   "setCount": 54,
   "sets": [
     {
@@ -581,7 +581,7 @@
         51,
         55
       ],
-      "hasImages": false,
+      "hasImages": true,
       "hasMultiSelect": false
     },
     {

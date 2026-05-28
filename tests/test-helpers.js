@@ -35,9 +35,29 @@ function createLocalStorage(seed = {}) {
   };
 }
 
+function createSupabaseStub() {
+  return {
+    createClient() {
+      return {
+        from() {
+          return {
+            select() {
+              return Promise.resolve({ data: [], error: null });
+            },
+            upsert() {
+              return Promise.resolve({ data: null, error: null });
+            },
+          };
+        },
+      };
+    },
+  };
+}
+
 function loadQuizEnvironment(options = {}) {
   const window = {
     localStorage: options.localStorage ?? createLocalStorage(),
+    supabase: options.supabase ?? createSupabaseStub(),
   };
   const context = {
     console,
@@ -53,6 +73,7 @@ function loadQuizEnvironment(options = {}) {
 
 module.exports = {
   createLocalStorage,
+  createSupabaseStub,
   loadQuizEnvironment,
   loadScript,
 };

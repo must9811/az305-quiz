@@ -59,5 +59,30 @@ describe("quiz session", () => {
       assert.equal(QuizEngine.getAdvanceActionLabel(session), "結果を見る");
       assert.equal(QuizEngine.isLastQuestion(session), true);
     });
+
+    test("manifest 順で現在セットの次セットを返す", () => {
+      const { QuizEngine } = loadQuizEnvironment();
+      const sets = [
+        { setId: "set-001" },
+        { setId: "set-002" },
+        { setId: "set-003" },
+      ];
+
+      assert.equal(QuizEngine.getNextSetInManifest(sets, "set-002"), sets[2]);
+    });
+
+    test("manifest 最終セットでは次セットを返さない", () => {
+      const { QuizEngine } = loadQuizEnvironment();
+      const sets = [{ setId: "set-001" }, { setId: "set-002" }];
+
+      assert.equal(QuizEngine.getNextSetInManifest(sets, "set-002"), null);
+    });
+
+    test("manifest に存在しないセットでは次セットを返さない", () => {
+      const { QuizEngine } = loadQuizEnvironment();
+      const sets = [{ setId: "set-001" }, { setId: "set-002" }];
+
+      assert.equal(QuizEngine.getNextSetInManifest(sets, "missing-set"), null);
+    });
   });
 });

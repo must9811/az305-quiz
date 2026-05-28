@@ -14,12 +14,15 @@
   } = window.QuizStorage;
   const {
     advanceSession,
+    buildProblemBookFilters,
     buildQuestionIdsForMode,
     canGoBack,
     createSession,
     evaluateAnswer,
+    filterSetsByProblemBook,
     getAdvanceActionLabel,
     getModeLabel,
+    getNextSetInManifest,
     goBackSession,
     isLastQuestion,
   } = window.QuizEngine;
@@ -34,6 +37,7 @@
     report: null,
     error: "",
     notice: "",
+    selectedProblemBookKey: "all",
   };
 
   const setCache = new Map();
@@ -118,6 +122,35 @@
     const resumeSet = session
       ? state.manifest.sets.find((set) => set.setId === session.setId)
       : null;
+    const problemBookFilters = buildProblemBookFilters(state.manifest.sets);
+    const validProblemBookKeys = new Set(["all", ...problemBookFilters.map((filter) => filter.key)]);
+
+    if (!validProblemBookKeys.has(state.selectedProblemBookKey)) {
+      state.selectedProblemBookKey = "all";
+    }
+
+    const visibleSets = filterSetsByProblemBook(
+      state.manifest.sets,
+      state.selectedProblemBookKey,
+    );
+    const filterOptionsHtml = [
+      {
+        key: "all",
+        label: "すべて",
+        count: state.manifest.setCount,
+      },
+      ...problemBookFilters,
+    ]
+      .map(
+        (filter) => `
+          <option value="${escapeHtml(filter.key)}" ${
+            filter.key === state.selectedProblemBookKey ? "selected" : ""
+          }>
+            ${escapeHtml(filter.label)} (${filter.count})
+          </option>
+        `,
+      )
+      .join("");
 
     const resumeHtml =
       session && resumeSet
@@ -145,7 +178,7 @@
       `
       : "";
 
-    const cardsHtml = state.manifest.sets
+    const cardsHtml = visibleSets
       .map((set) => {
         const markedCount = countMarkedQuestionsForSet(set, questionStates);
         const wrongCount = (reports[set.setId]?.wrongQuestionIds ?? []).length;
@@ -210,10 +243,26 @@
               </p>
             </div>
           </div>
+          <div class="filter-panel">
+            <label class="filter-select-label" for="problem-book-filter">問題集</label>
+            <select id="problem-book-filter" class="filter-select" data-action="filter-problem-book">
+              ${filterOptionsHtml}
+            </select>
+            <span class="filter-count">表示中 ${visibleSets.length} / ${state.manifest.setCount} セット</span>
+          </div>
         </article>
         <section class="selection-grid">${cardsHtml}</section>
       </section>
     `;
+
+    const filterSelect = app.querySelector('[data-action="filter-problem-book"]');
+    if (filterSelect) {
+      filterSelect.addEventListener("change", () => {
+        state.selectedProblemBookKey = filterSelect.value;
+        state.notice = "";
+        renderSelectionScreen();
+      });
+    }
 
     app.querySelectorAll('[data-action="start-mode"]').forEach((button) => {
       button.addEventListener("click", async () => {
@@ -373,6 +422,14 @@
 
   function renderReportScreen() {
     const report = state.report;
+    const nextSet = getNextSetInManifest(state.manifest.sets, report.setId);
+    const nextSetButtonHtml = nextSet
+      ? `
+            <button class="button button-primary" data-action="start-next-set" data-set-id="${escapeHtml(
+              nextSet.setId,
+            )}">次の問題セットへ</button>
+        `
+      : "";
     const itemsHtml = report.items
       .map(
         (item) => `
@@ -415,6 +472,7 @@
             <div class="summary-item"><span>マーク数</span><strong>${report.markedCount}</strong></div>
           </div>
           <div class="action-row">
+            ${nextSetButtonHtml}
             <button class="button button-primary" data-action="retry-mode" data-mode="normal">通常で再挑戦</button>
             <button class="button button-secondary" data-action="retry-mode" data-mode="marked">マークのみ</button>
             <button class="button button-warm" data-action="retry-mode" data-mode="wrong">直近誤答のみ</button>
@@ -441,6 +499,19 @@
         }
       });
     });
+
+    const nextSetButton = app.querySelector('[data-action="start-next-set"]');
+    if (nextSetButton) {
+      nextSetButton.addEventListener("click", async () => {
+        try {
+          await startMode(nextSetButton.dataset.setId, "normal");
+        } catch (error) {
+          state.notice = error.message;
+          state.report = null;
+          renderSelectionScreen();
+        }
+      });
+    }
 
     app.querySelector('[data-action="back-selection"]').addEventListener("click", () => {
       state.report = null;

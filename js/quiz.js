@@ -20,6 +20,68 @@ function buildQuestionIdsForMode(set, mode, questionStates, reports) {
   return set.questions.map((question) => question.questionId);
 }
 
+function buildProblemBookFilters(sets) {
+  if (!Array.isArray(sets)) {
+    return [];
+  }
+
+  const byKey = new Map();
+
+  for (const set of sets) {
+    const key = getProblemBookKey(set);
+    const current = byKey.get(key);
+
+    if (current) {
+      current.count += 1;
+      continue;
+    }
+
+    byKey.set(key, {
+      key,
+      label: getProblemBookLabel(set),
+      count: 1,
+    });
+  }
+
+  return [...byKey.values()];
+}
+
+function filterSetsByProblemBook(sets, problemBookKey) {
+  if (!Array.isArray(sets)) {
+    return [];
+  }
+
+  if (!problemBookKey || problemBookKey === "all") {
+    return sets;
+  }
+
+  return sets.filter((set) => getProblemBookKey(set) === problemBookKey);
+}
+
+function getProblemBookKey(set) {
+  return set?.sourceHtml || set?.setId || "";
+}
+
+function getProblemBookLabel(set) {
+  const fallback = set?.sourceHtml || set?.setId || "";
+  const title = String(set?.title || fallback).trim();
+  return title.replace(/\s+\d+\s*-\s*\d+$/, "") || title || fallback;
+}
+
+function getNextSetInManifest(sets, currentSetId) {
+  if (!Array.isArray(sets) || !currentSetId) {
+    return null;
+  }
+
+  const currentIndex = sets.findIndex((set) => set.setId === currentSetId);
+
+  if (currentIndex < 0 || currentIndex >= sets.length - 1) {
+    return null;
+  }
+
+  return sets[currentIndex + 1];
+}
+
 function createSession(set, mode, questionIds) {
   const now = new Date().toISOString();
   return {
@@ -86,12 +148,15 @@ function getModeLabel(mode) {
 window.QuizEngine = {
   QUIZ_MODES,
   advanceSession,
+  buildProblemBookFilters,
   buildQuestionIdsForMode,
   canGoBack,
   createSession,
   evaluateAnswer,
+  filterSetsByProblemBook,
   getAdvanceActionLabel,
   getModeLabel,
+  getNextSetInManifest,
   goBackSession,
   isLastQuestion,
 };

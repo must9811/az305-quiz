@@ -164,6 +164,31 @@ select {
   margin: 0;
 }
 
+.filter-panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  padding-top: 4px;
+}
+
+.filter-select-label,
+.filter-count {
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.filter-select {
+  min-height: 44px;
+  min-width: min(100%, 260px);
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface-strong);
+  color: var(--text);
+}
+
 .badge,
 .stat-pill,
 .mode-chip {
@@ -449,6 +474,11 @@ select {
   }
 
   .action-row .button {
+    width: 100%;
+  }
+
+  .filter-panel,
+  .filter-select {
     width: 100%;
   }
 }

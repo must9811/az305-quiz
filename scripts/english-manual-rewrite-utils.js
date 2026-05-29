@@ -6,6 +6,7 @@ function applyEnglishSetRewrites(questions, config) {
     choiceTextOverrides = {},
     reasonOverrides = {},
     choiceReasonOverrides = {},
+    topicSupplementOverrides = {},
     topicSupplements = [],
     supplementPromptTransform = null,
   } = config;
@@ -34,6 +35,7 @@ function applyEnglishSetRewrites(questions, config) {
     const explanationHtml = buildExplanationHtml(question, choices, supplementPromptText, {
       reasonOverrides,
       choiceReasonOverrides,
+      topicSupplementOverrides,
       topicSupplements,
     });
 
@@ -90,7 +92,9 @@ function buildExplanationHtml(question, choices, promptText, options) {
     cleanExplanationText(options.reasonOverrides[question.questionId]) ||
     deriveReason(question.explanationText, correctChoices.map((choice) => choice.text)) ||
     `${correctLabel} が、問題文で示された要件を満たす選択肢です。`;
-  const supplement = selectTopicSupplement(promptText, choices, options.topicSupplements);
+  const supplement =
+    cleanExplanationText(options.topicSupplementOverrides?.[question.questionId]) ||
+    selectTopicSupplement(promptText, choices, options.topicSupplements);
   const choiceItems = choices.map((choice) => {
     const isCorrect = question.correctChoiceIds.includes(choice.choiceId);
     const reasonOverride = options.choiceReasonOverrides[choice.choiceId];

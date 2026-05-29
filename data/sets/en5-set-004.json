@@ -18,27 +18,27 @@
     {
       "questionId": "en5-q-031",
       "sourceQuestionNumber": 31,
-      "promptHtml": "<p>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。</p>\n<p>あなたの組織は、VM1 という名前の Azure 仮想マシン上で Web サービスをホストしています。このサービスは、仮想マシンからリアルタイム データを提供する API を公開します。</p>\n<p>現在のデプロイメントには、</p>\n<ul><li>VM1 と VM2 が Subnet1 内にデプロイされています。 VNet1</li><li>同じ仮想ネットワーク内の ProdSubnet という名前の追加サブネット</li><li>外部仮想ネットワーク モードでデプロイされ、統合された Azure API 管理 (APIM) インスタンスVNet1 ProdSubnet</li></ul>\n<p>テストにより、API が VM1 および VM2 からアクセス可能であることが確認されました。ビジネス パートナーは、公共のインターネット経由で API にアクセスし、独自のアプリケーションから利用できる必要があります。</p>\n<p>正誤問題:</p>\n<p>「パートナーは、インターネット経由で API にアクセスできます。」</p>",
-      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。\n\nあなたの組織は、VM1 という名前の Azure 仮想マシン上で Web サービスをホストしています。このサービスは、仮想マシンからリアルタイム データを提供する API を公開します。\n現在のデプロイメントには、\n・VM1 と VM2 が Subnet1 内にデプロイされています。 VNet1\n\n・同じ仮想ネットワーク内の ProdSubnet という名前の追加サブネット\n\n・外部仮想ネットワーク モードでデプロイされ、統合された Azure API 管理 (APIM) インスタンスVNet1 ProdSubnet\n\nテストにより、API が VM1 および VM2 からアクセス可能であることが確認されました。ビジネス パートナーは、公共のインターネット経由で API にアクセスし、独自のアプリケーションから利用できる必要があります。\n\n正誤問題:\n「パートナーは、インターネット経由で API にアクセスできます。」",
+      "promptHtml": "<p>これは同じシナリオを使う True/False 問題です。</p>\n<p>組織は Azure VM の VM1 上で、リアルタイム データを提供する API を公開する Web サービスをホストしています。</p>\n<p>現在、VM1 と VM2 は VNet1 の Subnet1 に配置されています。同じ VNet1 には ProdSubnet もあります。</p>\n<p>Azure API Management (APIM) インスタンスは外部 VNet モードでデプロイされ、VNet1 の ProdSubnet に統合されています。</p>\n<p>テストでは、API が VM1 と VM2 からアクセス可能であることを確認済みです。ビジネス パートナーは、パブリック インターネット経由で API にアクセスし、自社アプリから利用できる必要があります。</p>\n<p>正誤: パートナーはインターネット経由で API にアクセスできます。</p>",
+      "promptText": "これは同じシナリオを使う True/False 問題です。\n組織は Azure VM の VM1 上で、リアルタイム データを提供する API を公開する Web サービスをホストしています。\n現在、VM1 と VM2 は VNet1 の Subnet1 に配置されています。同じ VNet1 には ProdSubnet もあります。\nAzure API Management (APIM) インスタンスは外部 VNet モードでデプロイされ、VNet1 の ProdSubnet に統合されています。\nテストでは、API が VM1 と VM2 からアクセス可能であることを確認済みです。ビジネス パートナーは、パブリック インターネット経由で API にアクセスし、自社アプリから利用できる必要があります。\n\n正誤: パートナーはインターネット経由で API にアクセスできます。",
       "choices": [
         {
           "choiceId": "en5-q-031-c1",
           "label": null,
-          "text": "True",
-          "html": "<p>True</p>"
+          "text": "正しい",
+          "html": "<p>正しい</p>"
         },
         {
           "choiceId": "en5-q-031-c2",
           "label": null,
-          "text": "False",
-          "html": "<p>False</p>"
+          "text": "誤り",
+          "html": "<p>誤り</p>"
         }
       ],
       "correctChoiceIds": [
         "en5-q-031-c1"
       ],
-      "explanationHtml": "<p><strong>結論:</strong> 正解は True です。</p>\n<p><strong>理由:</strong> True は、APIM の外部構成により正しいため、APIM のバックエンド API にアクセスできるようになります。外部ネットワークも同様です。</p>\n<p><strong>補足:</strong> ID 設計では、認証、認可、特権昇格、アプリ公開、条件付きアクセスのどの機能が要件に対応するかを切り分けます。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>True:</strong> 正解。True は、APIM の外部構成により正しいため、APIM のバックエンド API にアクセスできるようになります。外部ネットワークも同様です。</li><li><strong>False:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet\">https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet</a></li></ul>",
-      "explanationText": "結論: 正解は True です。\n\n理由: True は、APIM の外部構成により正しいため、APIM のバックエンド API にアクセスできるようになります。外部ネットワークも同様です。\n\n補足: ID 設計では、認証、認可、特権昇格、アプリ公開、条件付きアクセスのどの機能が要件に対応するかを切り分けます。\n\n選択肢の整理:\n\n・True: 正解。True は、APIM の外部構成により正しいため、APIM のバックエンド API にアクセスできるようになります。外部ネットワークも同様です。\n・False: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n\n参考:\n\n・https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet",
+      "explanationHtml": "<p><strong>結論:</strong> 正解は 正しい です。</p>\n<p><strong>理由:</strong> APIM が外部 VNet モードでデプロイされているため、API Management 自体はパブリック インターネットから到達可能で、パートナーの入口として機能できます。内部モードではないため、ステートメントは正しいです。</p>\n<p><strong>補足:</strong> API Management の外部 VNet モードはインターネットから到達可能で、内部 VNet モードとは公開範囲が違います。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>正しい:</strong> 正解。True は、APIM の外部構成により正しいため、APIM のバックエンド API にアクセスできるようになります。外部ネットワークも同様です。</li><li><strong>誤り:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet\">https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet</a></li></ul>",
+      "explanationText": "結論: 正解は 正しい です。\n\n理由: APIM が外部 VNet モードでデプロイされているため、API Management 自体はパブリック インターネットから到達可能で、パートナーの入口として機能できます。内部モードではないため、ステートメントは正しいです。\n\n補足: API Management の外部 VNet モードはインターネットから到達可能で、内部 VNet モードとは公開範囲が違います。\n\n選択肢の整理:\n\n・正しい: 正解。True は、APIM の外部構成により正しいため、APIM のバックエンド API にアクセスできるようになります。外部ネットワークも同様です。\n・誤り: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n\n参考:\n\n・https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet",
       "images": [],
       "domain": "インフラストラクチャ ソリューションを設計する",
       "questionType": "single",
@@ -50,27 +50,27 @@
     {
       "questionId": "en5-q-032",
       "sourceQuestionNumber": 32,
-      "promptHtml": "<p>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。</p>\n<p>あなたの組織は、VM1 という名前の Azure 仮想マシン上で Web サービスをホストしています。このサービスは、仮想マシンからリアルタイム データを提供する API を公開します。</p>\n<p>現在のデプロイメントには、</p>\n<ul><li>VM1 と VM2 が Subnet1 内にデプロイされています。 VNet1</li><li>同じ仮想ネットワーク内の ProdSubnet という名前の追加サブネット</li><li>外部仮想ネットワーク モードでデプロイされ、統合された Azure API 管理 (APIM) インスタンスVNet1 ProdSubnet</li></ul>\n<p>テストにより、API が VM1 および VM2 からアクセス可能であることが確認されました。ビジネス パートナーは、パブリック インターネット経由で API にアクセスし、独自のアプリケーションからそれを利用できる必要があります。</p>\n<p>正誤:</p>\n<p>「APIM インスタンスは、VM1 からリアルタイム データにアクセスできます。」</p>",
-      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。\n\nあなたの組織は、VM1 という名前の Azure 仮想マシン上で Web サービスをホストしています。このサービスは、仮想マシンからリアルタイム データを提供する API を公開します。\n現在のデプロイメントには、\n・VM1 と VM2 が Subnet1 内にデプロイされています。 VNet1\n\n・同じ仮想ネットワーク内の ProdSubnet という名前の追加サブネット\n\n・外部仮想ネットワーク モードでデプロイされ、統合された Azure API 管理 (APIM) インスタンスVNet1 ProdSubnet\n\nテストにより、API が VM1 および VM2 からアクセス可能であることが確認されました。ビジネス パートナーは、パブリック インターネット経由で API にアクセスし、独自のアプリケーションからそれを利用できる必要があります。\n\n正誤:\n「APIM インスタンスは、VM1 からリアルタイム データにアクセスできます。」",
+      "promptHtml": "<p>これは同じシナリオを使う True/False 問題です。</p>\n<p>組織は Azure VM の VM1 上で、リアルタイム データを提供する API を公開する Web サービスをホストしています。</p>\n<p>VM1 と VM2 は VNet1 の Subnet1 に配置され、APIM インスタンスは外部 VNet モードで VNet1 の ProdSubnet に統合されています。</p>\n<p>テストでは、API が VM1 と VM2 からアクセス可能であることを確認済みです。ビジネス パートナーは、パブリック インターネット経由で API にアクセスできる必要があります。</p>\n<p>正誤: APIM インスタンスは VM1 からリアルタイム データにアクセスできます。</p>",
+      "promptText": "これは同じシナリオを使う True/False 問題です。\n組織は Azure VM の VM1 上で、リアルタイム データを提供する API を公開する Web サービスをホストしています。\nVM1 と VM2 は VNet1 の Subnet1 に配置され、APIM インスタンスは外部 VNet モードで VNet1 の ProdSubnet に統合されています。\nテストでは、API が VM1 と VM2 からアクセス可能であることを確認済みです。ビジネス パートナーは、パブリック インターネット経由で API にアクセスできる必要があります。\n\n正誤: APIM インスタンスは VM1 からリアルタイム データにアクセスできます。",
       "choices": [
         {
           "choiceId": "en5-q-032-c1",
           "label": null,
-          "text": "True",
-          "html": "<p>True</p>"
+          "text": "正しい",
+          "html": "<p>正しい</p>"
         },
         {
           "choiceId": "en5-q-032-c2",
           "label": null,
-          "text": "False",
-          "html": "<p>False</p>"
+          "text": "誤り",
+          "html": "<p>誤り</p>"
         }
       ],
       "correctChoiceIds": [
         "en5-q-032-c1"
       ],
-      "explanationHtml": "<p><strong>結論:</strong> 正解は True です。</p>\n<p><strong>理由:</strong> True は正解です。これは、APIM が仮想ネットワークにリンクされているため、バックエンド API にアクセスできるようになります。</p>\n<p><strong>補足:</strong> ID 設計では、認証、認可、特権昇格、アプリ公開、条件付きアクセスのどの機能が要件に対応するかを切り分けます。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>True:</strong> 正解。True は正解です。これは、APIM が仮想ネットワークにリンクされているため、バックエンド API にアクセスできるようになります。</li><li><strong>False:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet\">https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet</a></li></ul>",
-      "explanationText": "結論: 正解は True です。\n\n理由: True は正解です。これは、APIM が仮想ネットワークにリンクされているため、バックエンド API にアクセスできるようになります。\n\n補足: ID 設計では、認証、認可、特権昇格、アプリ公開、条件付きアクセスのどの機能が要件に対応するかを切り分けます。\n\n選択肢の整理:\n\n・True: 正解。True は正解です。これは、APIM が仮想ネットワークにリンクされているため、バックエンド API にアクセスできるようになります。\n・False: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n\n参考:\n\n・https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet",
+      "explanationHtml": "<p><strong>結論:</strong> 正解は 正しい です。</p>\n<p><strong>理由:</strong> APIM は VNet1 の ProdSubnet に統合されており、VM1/VM2 から API にアクセスできることも確認済みです。したがって APIM からバックエンド VM1 のリアルタイム データへ到達できるため、ステートメントは正しいです。</p>\n<p><strong>補足:</strong> APIM とバックエンドが同じ VNet に到達できるかは、API 公開設計のもう一つの判断軸です。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>正しい:</strong> 正解。この選択肢は要件に合致します。</li><li><strong>誤り:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet\">https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet</a></li></ul>",
+      "explanationText": "結論: 正解は 正しい です。\n\n理由: APIM は VNet1 の ProdSubnet に統合されており、VM1/VM2 から API にアクセスできることも確認済みです。したがって APIM からバックエンド VM1 のリアルタイム データへ到達できるため、ステートメントは正しいです。\n\n補足: APIM とバックエンドが同じ VNet に到達できるかは、API 公開設計のもう一つの判断軸です。\n\n選択肢の整理:\n\n・正しい: 正解。この選択肢は要件に合致します。\n・誤り: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n\n参考:\n\n・https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet",
       "images": [],
       "domain": "インフラストラクチャ ソリューションを設計する",
       "questionType": "single",
@@ -82,27 +82,27 @@
     {
       "questionId": "en5-q-033",
       "sourceQuestionNumber": 33,
-      "promptHtml": "<p>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。</p>\n<p>あなたの組織は、VM1 という名前の Azure 仮想マシン上で Web サービスをホストしています。このサービスは、仮想マシンからリアルタイム データを提供する API を公開します。</p>\n<p>現在のデプロイメントには、</p>\n<ul><li>VM1 と VM2 が Subnet1 内にデプロイされています。 VNet1</li><li>同じ仮想ネットワーク内の ProdSubnet という名前の追加サブネット</li><li>外部仮想ネットワーク モードでデプロイされ、統合された Azure API 管理 (APIM) インスタンスVNet1 ProdSubnet</li></ul>\n<p>テストにより、API が VM1 および VM2 からアクセス可能であることが確認されました。ビジネス パートナーは、パブリック インターネット経由で API にアクセスし、独自のアプリケーションからそれを利用できる必要があります。</p>\n<p>正誤:</p>\n<p>「パートナー アクセスには VPN ゲートウェイが必要です。」</p>",
-      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。\n\nあなたの組織は、VM1 という名前の Azure 仮想マシン上で Web サービスをホストしています。このサービスは、仮想マシンからリアルタイム データを提供する API を公開します。\n現在のデプロイメントには、\n・VM1 と VM2 が Subnet1 内にデプロイされています。 VNet1\n\n・同じ仮想ネットワーク内の ProdSubnet という名前の追加サブネット\n\n・外部仮想ネットワーク モードでデプロイされ、統合された Azure API 管理 (APIM) インスタンスVNet1 ProdSubnet\n\nテストにより、API が VM1 および VM2 からアクセス可能であることが確認されました。ビジネス パートナーは、パブリック インターネット経由で API にアクセスし、独自のアプリケーションからそれを利用できる必要があります。\n\n正誤:\n「パートナー アクセスには VPN ゲートウェイが必要です。」",
+      "promptHtml": "<p>これは同じシナリオを使う True/False 問題です。</p>\n<p>組織は Azure VM の VM1 上で、リアルタイム データを提供する API を公開する Web サービスをホストしています。</p>\n<p>VM1 と VM2 は VNet1 の Subnet1 に配置され、APIM インスタンスは外部 VNet モードで VNet1 の ProdSubnet に統合されています。</p>\n<p>ビジネス パートナーは、パブリック インターネット経由で API にアクセスできる必要があります。</p>\n<p>正誤: パートナー アクセスには VPN ゲートウェイが必要です。</p>",
+      "promptText": "これは同じシナリオを使う True/False 問題です。\n組織は Azure VM の VM1 上で、リアルタイム データを提供する API を公開する Web サービスをホストしています。\nVM1 と VM2 は VNet1 の Subnet1 に配置され、APIM インスタンスは外部 VNet モードで VNet1 の ProdSubnet に統合されています。\nビジネス パートナーは、パブリック インターネット経由で API にアクセスできる必要があります。\n\n正誤: パートナー アクセスには VPN ゲートウェイが必要です。",
       "choices": [
         {
           "choiceId": "en5-q-033-c1",
           "label": null,
-          "text": "",
-          "html": ""
+          "text": "正しい",
+          "html": "正しい"
         },
         {
           "choiceId": "en5-q-033-c2",
           "label": null,
-          "text": "",
-          "html": ""
+          "text": "誤り",
+          "html": "誤り"
         }
       ],
       "correctChoiceIds": [
         "en5-q-033-c2"
       ],
-      "explanationHtml": "<p><strong>結論:</strong> 正解は  です。</p>\n<p><strong>理由:</strong>  が、問題文で示された要件を満たす選択肢です。</p>\n<p><strong>補足:</strong> ID 設計では、認証、認可、特権昇格、アプリ公開、条件付きアクセスのどの機能が要件に対応するかを切り分けます。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li><li><strong>:</strong> 正解。この選択肢は要件に合致します。</li></ul>",
-      "explanationText": "結論: 正解は  です。\n\n理由:  が、問題文で示された要件を満たす選択肢です。\n\n補足: ID 設計では、認証、認可、特権昇格、アプリ公開、条件付きアクセスのどの機能が要件に対応するかを切り分けます。\n\n選択肢の整理:\n\n・: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n・: 正解。この選択肢は要件に合致します。",
+      "explanationHtml": "<p><strong>結論:</strong> 正解は 誤り です。</p>\n<p><strong>理由:</strong> 外部 VNet モードの APIM はパブリック入口を持つため、パートナーが API へアクセスするために VPN ゲートウェイは必須ではありません。VPN が必要というステートメントは誤りです。</p>\n<p><strong>補足:</strong> パートナー公開の要件では、公開入口を持つサービスか、VPN/Private Link が必要な内部公開かを見分けます。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>正しい:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li><li><strong>誤り:</strong> 正解。この選択肢は要件に合致します。</li></ul>",
+      "explanationText": "結論: 正解は 誤り です。\n\n理由: 外部 VNet モードの APIM はパブリック入口を持つため、パートナーが API へアクセスするために VPN ゲートウェイは必須ではありません。VPN が必要というステートメントは誤りです。\n\n補足: パートナー公開の要件では、公開入口を持つサービスか、VPN/Private Link が必要な内部公開かを見分けます。\n\n選択肢の整理:\n\n・正しい: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n・誤り: 正解。この選択肢は要件に合致します。",
       "images": [],
       "domain": "インフラストラクチャ ソリューションを設計する",
       "questionType": "single",
@@ -114,8 +114,8 @@
     {
       "questionId": "en5-q-034",
       "sourceQuestionNumber": 34,
-      "promptHtml": "<p>あなたは、app1data という Azure Blob Storage コンテナーにデータを保存する App1 という名前のアプリケーションのデータ保護戦略を設計する責任があります。</p>\n<p>1 時間ごとに、App1 は という名前のブロック BLOB をアップロードします。 File1.txt には、当日のみの累積トランザクション ログが含まれます。アップロードするたびに、同じ名前の既存の BLOB が上書きされます。</p>\n<p>任意の日から最後にアップロードされた File1.txt のバージョンを、BLOB が上書きされてから最大 30 日間回復できることを確認する必要があります。同時に、ソリューションでは追加のストレージ消費を最小限に抑える必要があります。</p>\n<p>ソリューションには何を含める必要がありますか。</p>",
-      "promptText": "あなたは、app1data という Azure Blob Storage コンテナーにデータを保存する App1 という名前のアプリケーションのデータ保護戦略を設計する責任があります。\n1 時間ごとに、App1 は という名前のブロック BLOB をアップロードします。 File1.txt には、当日のみの累積トランザクション ログが含まれます。アップロードするたびに、同じ名前の既存の BLOB が上書きされます。\n任意の日から最後にアップロードされた File1.txt のバージョンを、BLOB が上書きされてから最大 30 日間回復できることを確認する必要があります。同時に、ソリューションでは追加のストレージ消費を最小限に抑える必要があります。\nソリューションには何を含める必要がありますか。",
+      "promptHtml": "<p>App1 は Azure Blob Storage コンテナー app1data にデータを保存します。</p>\n<p>1 時間ごとに App1 は File1.txt というブロック BLOB をアップロードします。File1.txt には当日分の累積トランザクション ログだけが含まれ、アップロードのたびに同じ名前の既存 BLOB が上書きされます。</p>\n<p>任意の日に最後にアップロードされた File1.txt を、上書き後最大 30 日間回復できるようにする必要があります。追加のストレージ消費は最小限に抑えます。</p>\n<p>ソリューションには何を含めるべきですか。</p>",
+      "promptText": "App1 は Azure Blob Storage コンテナー app1data にデータを保存します。\n1 時間ごとに App1 は File1.txt というブロック BLOB をアップロードします。File1.txt には当日分の累積トランザクション ログだけが含まれ、アップロードのたびに同じ名前の既存 BLOB が上書きされます。\n任意の日に最後にアップロードされた File1.txt を、上書き後最大 30 日間回復できるようにする必要があります。追加のストレージ消費は最小限に抑えます。\n\nソリューションには何を含めるべきですか。",
       "choices": [
         {
           "choiceId": "en5-q-034-c1",
@@ -145,8 +145,8 @@
       "correctChoiceIds": [
         "en5-q-034-c3"
       ],
-      "explanationHtml": "<p><strong>結論:</strong> 正解は BLOB のバージョン管理 です。</p>\n<p><strong>理由:</strong> 正解はBlob のバージョン管理 です。この場合、バージョンは自動的に作成され、その上で、過去 30 日間のバージョンのみが保持され、残りのバージョンは削除されてストレージ コストが維持されるように保持ポリシーを構成できます。</p>\n<p><strong>補足:</strong> Azure Storage の設問では、アクセス層、冗長性、変更不可ポリシー、リージョン障害時の読み取り可否を分けて整理します。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>BLOB の論理的な削除:</strong> 不正解。Blob の論理的な削除は間違っています 論理的な削除は、BLOB の不要な削除から保護するためにのみ役立ちます。ファイルのバージョンが 30 日前のものであることを確認するのには役立ちません。</li><li><strong>コンテナーの論理的な削除:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li><li><strong>BLOB のバージョン管理:</strong> 正解。正解はBlob のバージョン管理 です。この場合、バージョンは自動的に作成され、その上で、過去 30 日間のバージョンのみが保持され、残りのバージョンは削除されてストレージ コストが維持されるように保持ポリシーを構成できます。</li><li><strong>BLOBスナップショット:</strong> 不正解。Blobスナップショットはこの目的には不正確です。バージョンを必要なだけ保持するのに役立つ場合がありますが、この場合、ファイルは毎日更新されるため、自動化できるものよりも手動で何かを行うのは賢明ではありません。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-container-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-container-overview</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview</a></li></ul>",
-      "explanationText": "結論: 正解は BLOB のバージョン管理 です。\n\n理由: 正解はBlob のバージョン管理 です。この場合、バージョンは自動的に作成され、その上で、過去 30 日間のバージョンのみが保持され、残りのバージョンは削除されてストレージ コストが維持されるように保持ポリシーを構成できます。\n\n補足: Azure Storage の設問では、アクセス層、冗長性、変更不可ポリシー、リージョン障害時の読み取り可否を分けて整理します。\n\n選択肢の整理:\n\n・BLOB の論理的な削除: 不正解。Blob の論理的な削除は間違っています 論理的な削除は、BLOB の不要な削除から保護するためにのみ役立ちます。ファイルのバージョンが 30 日前のものであることを確認するのには役立ちません。\n・コンテナーの論理的な削除: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n・BLOB のバージョン管理: 正解。正解はBlob のバージョン管理 です。この場合、バージョンは自動的に作成され、その上で、過去 30 日間のバージョンのみが保持され、残りのバージョンは削除されてストレージ コストが維持されるように保持ポリシーを構成できます。\n・BLOBスナップショット: 不正解。Blobスナップショットはこの目的には不正確です。バージョンを必要なだけ保持するのに役立つ場合がありますが、この場合、ファイルは毎日更新されるため、自動化できるものよりも手動で何かを行うのは賢明ではありません。\n\n参考:\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-container-overview\n・https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview",
+      "explanationHtml": "<p><strong>結論:</strong> 正解は BLOB のバージョン管理 です。</p>\n<p><strong>理由:</strong> 同じ名前のブロック Blob が上書きされるたびに過去版を残し、任意の日の最終版を復旧するには Blob バージョン管理が適しています。スナップショットを都度作るより追加管理を抑えられ、論理削除は削除保護が中心です。</p>\n<p><strong>補足:</strong> 同名 Blob の上書きから復旧する要件では、削除保護だけでなく過去バージョンを保持できるかを確認します。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>BLOB の論理的な削除:</strong> 不正解。Blob の論理的な削除は間違っています 論理的な削除は、BLOB の不要な削除から保護するためにのみ役立ちます。ファイルのバージョンが 30 日前のものであることを確認するのには役立ちません。</li><li><strong>コンテナーの論理的な削除:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li><li><strong>BLOB のバージョン管理:</strong> 正解。正解はBlob のバージョン管理 です。この場合、バージョンは自動的に作成され、その上で、過去 30 日間のバージョンのみが保持され、残りのバージョンは削除されてストレージ コストが維持されるように保持ポリシーを構成できます。</li><li><strong>BLOBスナップショット:</strong> 不正解。Blobスナップショットはこの目的には不正確です。バージョンを必要なだけ保持するのに役立つ場合がありますが、この場合、ファイルは毎日更新されるため、自動化できるものよりも手動で何かを行うのは賢明ではありません。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-container-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-container-overview</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview\">https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview</a></li></ul>",
+      "explanationText": "結論: 正解は BLOB のバージョン管理 です。\n\n理由: 同じ名前のブロック Blob が上書きされるたびに過去版を残し、任意の日の最終版を復旧するには Blob バージョン管理が適しています。スナップショットを都度作るより追加管理を抑えられ、論理削除は削除保護が中心です。\n\n補足: 同名 Blob の上書きから復旧する要件では、削除保護だけでなく過去バージョンを保持できるかを確認します。\n\n選択肢の整理:\n\n・BLOB の論理的な削除: 不正解。Blob の論理的な削除は間違っています 論理的な削除は、BLOB の不要な削除から保護するためにのみ役立ちます。ファイルのバージョンが 30 日前のものであることを確認するのには役立ちません。\n・コンテナーの論理的な削除: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n・BLOB のバージョン管理: 正解。正解はBlob のバージョン管理 です。この場合、バージョンは自動的に作成され、その上で、過去 30 日間のバージョンのみが保持され、残りのバージョンは削除されてストレージ コストが維持されるように保持ポリシーを構成できます。\n・BLOBスナップショット: 不正解。Blobスナップショットはこの目的には不正確です。バージョンを必要なだけ保持するのに役立つ場合がありますが、この場合、ファイルは毎日更新されるため、自動化できるものよりも手動で何かを行うのは賢明ではありません。\n\n参考:\n\n・https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-container-overview\n・https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview",
       "images": [],
       "domain": "データ ストレージ ソリューションを設計する",
       "questionType": "single",
@@ -187,8 +187,8 @@
       "correctChoiceIds": [
         "en5-q-035-c4"
       ],
-      "explanationHtml": "<p><strong>結論:</strong> 正解は Azure Data Factory です。</p>\n<p><strong>理由:</strong> Azure Data Factory は、さまざまなソースから Data Lake Storage などのさまざまな宛先にデータを移動および変換するためのデータ パイプラインの作成、スケジュール、管理を可能にするクラウドベースのデータ統合サービスであるため正解です。</p>\n<p><strong>補足:</strong> Azure Storage の設問では、アクセス層、冗長性、変更不可ポリシー、リージョン障害時の読み取り可否を分けて整理します。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>Azure Data Studio:</strong> 不正解。Azure Data Studio は誤りです。これは、データベースのクエリ、スクリプトの管理、SQL 関連タスクの操作など、データベースの開発と管理のための強力なツールです。</li><li><strong>Azure Data Explorer:</strong> 不正解。Azure Data Explorer は、大量のデータを扱うために最適化された強力なデータ分析プラットフォームであるため、不正解です。大規模なデータセットを迅速に分析およびクエリする必要があるシナリオに適しています。</li><li><strong>Azure Data Share:</strong> 不正解。Azure Data Share は、組織間または同じ組織内の Azure サブスクリプション間でデータを共有できるサービスであるため、不正確です。Azure Data Share は他のユーザーとデータを共有するために使用できますが、分析とレポートのためにオンプレミス データベース (SQL サーバー、MySQL、Oracle) の顧客情報を Azure Data Lake Storage アカウントに統合するという特定のユース ケースには最適ではない可能性があります。</li><li><strong>Azure Data Factory:</strong> 正解。Azure Data Factory は、さまざまなソースから Data Lake Storage などのさまざまな宛先にデータを移動および変換するためのデータ パイプラインの作成、スケジュール、管理を可能にするクラウドベースのデータ統合サービスであるため正解です。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/azure/data-factory/introduction\">https://learn.microsoft.com/en-us/azure/data-factory/introduction</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure-data-studio/what-is-azure-data-studio\">https://learn.microsoft.com/en-us/azure-data-studio/what-is-azure-data-studio</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure/data-explorer/data-explorer-overview\">https://learn.microsoft.com/en-us/azure/data-explorer/data-explorer-overview</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure/data-share/overview\">https://learn.microsoft.com/en-us/azure/data-share/overview</a></li></ul>",
-      "explanationText": "結論: 正解は Azure Data Factory です。\n\n理由: Azure Data Factory は、さまざまなソースから Data Lake Storage などのさまざまな宛先にデータを移動および変換するためのデータ パイプラインの作成、スケジュール、管理を可能にするクラウドベースのデータ統合サービスであるため正解です。\n\n補足: Azure Storage の設問では、アクセス層、冗長性、変更不可ポリシー、リージョン障害時の読み取り可否を分けて整理します。\n\n選択肢の整理:\n\n・Azure Data Studio: 不正解。Azure Data Studio は誤りです。これは、データベースのクエリ、スクリプトの管理、SQL 関連タスクの操作など、データベースの開発と管理のための強力なツールです。\n・Azure Data Explorer: 不正解。Azure Data Explorer は、大量のデータを扱うために最適化された強力なデータ分析プラットフォームであるため、不正解です。大規模なデータセットを迅速に分析およびクエリする必要があるシナリオに適しています。\n・Azure Data Share: 不正解。Azure Data Share は、組織間または同じ組織内の Azure サブスクリプション間でデータを共有できるサービスであるため、不正確です。Azure Data Share は他のユーザーとデータを共有するために使用できますが、分析とレポートのためにオンプレミス データベース (SQL サーバー、MySQL、Oracle) の顧客情報を Azure Data Lake Storage アカウントに統合するという特定のユース ケースには最適ではない可能性があります。\n・Azure Data Factory: 正解。Azure Data Factory は、さまざまなソースから Data Lake Storage などのさまざまな宛先にデータを移動および変換するためのデータ パイプラインの作成、スケジュール、管理を可能にするクラウドベースのデータ統合サービスであるため正解です。\n\n参考:\n\n・https://learn.microsoft.com/en-us/azure/data-factory/introduction\n・https://learn.microsoft.com/en-us/azure-data-studio/what-is-azure-data-studio\n・https://learn.microsoft.com/en-us/azure/data-explorer/data-explorer-overview\n・https://learn.microsoft.com/en-us/azure/data-share/overview",
+      "explanationHtml": "<p><strong>結論:</strong> 正解は Azure Data Factory です。</p>\n<p><strong>理由:</strong> 複数種類のオンプレミス データ ソースから ADLS へ ETL を自動実行し、継続管理を抑えるには Azure Data Factory が適しています。Data Studio は管理ツール、Data Explorer は分析ストア、Data Share は共有サービスです。</p>\n<p><strong>補足:</strong> Data Factory はオンプレミス接続、スケジュール、コピー、変換オーケストレーションをまとめて扱えます。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>Azure Data Studio:</strong> 不正解。Azure Data Studio は誤りです。これは、データベースのクエリ、スクリプトの管理、SQL 関連タスクの操作など、データベースの開発と管理のための強力なツールです。</li><li><strong>Azure Data Explorer:</strong> 不正解。Azure Data Explorer は、大量のデータを扱うために最適化された強力なデータ分析プラットフォームであるため、不正解です。大規模なデータセットを迅速に分析およびクエリする必要があるシナリオに適しています。</li><li><strong>Azure Data Share:</strong> 不正解。Azure Data Share は、組織間または同じ組織内の Azure サブスクリプション間でデータを共有できるサービスであるため、不正確です。Azure Data Share は他のユーザーとデータを共有するために使用できますが、分析とレポートのためにオンプレミス データベース (SQL サーバー、MySQL、Oracle) の顧客情報を Azure Data Lake Storage アカウントに統合するという特定のユース ケースには最適ではない可能性があります。</li><li><strong>Azure Data Factory:</strong> 正解。Azure Data Factory は、さまざまなソースから Data Lake Storage などのさまざまな宛先にデータを移動および変換するためのデータ パイプラインの作成、スケジュール、管理を可能にするクラウドベースのデータ統合サービスであるため正解です。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/azure/data-factory/introduction\">https://learn.microsoft.com/en-us/azure/data-factory/introduction</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure-data-studio/what-is-azure-data-studio\">https://learn.microsoft.com/en-us/azure-data-studio/what-is-azure-data-studio</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure/data-explorer/data-explorer-overview\">https://learn.microsoft.com/en-us/azure/data-explorer/data-explorer-overview</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure/data-share/overview\">https://learn.microsoft.com/en-us/azure/data-share/overview</a></li></ul>",
+      "explanationText": "結論: 正解は Azure Data Factory です。\n\n理由: 複数種類のオンプレミス データ ソースから ADLS へ ETL を自動実行し、継続管理を抑えるには Azure Data Factory が適しています。Data Studio は管理ツール、Data Explorer は分析ストア、Data Share は共有サービスです。\n\n補足: Data Factory はオンプレミス接続、スケジュール、コピー、変換オーケストレーションをまとめて扱えます。\n\n選択肢の整理:\n\n・Azure Data Studio: 不正解。Azure Data Studio は誤りです。これは、データベースのクエリ、スクリプトの管理、SQL 関連タスクの操作など、データベースの開発と管理のための強力なツールです。\n・Azure Data Explorer: 不正解。Azure Data Explorer は、大量のデータを扱うために最適化された強力なデータ分析プラットフォームであるため、不正解です。大規模なデータセットを迅速に分析およびクエリする必要があるシナリオに適しています。\n・Azure Data Share: 不正解。Azure Data Share は、組織間または同じ組織内の Azure サブスクリプション間でデータを共有できるサービスであるため、不正確です。Azure Data Share は他のユーザーとデータを共有するために使用できますが、分析とレポートのためにオンプレミス データベース (SQL サーバー、MySQL、Oracle) の顧客情報を Azure Data Lake Storage アカウントに統合するという特定のユース ケースには最適ではない可能性があります。\n・Azure Data Factory: 正解。Azure Data Factory は、さまざまなソースから Data Lake Storage などのさまざまな宛先にデータを移動および変換するためのデータ パイプラインの作成、スケジュール、管理を可能にするクラウドベースのデータ統合サービスであるため正解です。\n\n参考:\n\n・https://learn.microsoft.com/en-us/azure/data-factory/introduction\n・https://learn.microsoft.com/en-us/azure-data-studio/what-is-azure-data-studio\n・https://learn.microsoft.com/en-us/azure/data-explorer/data-explorer-overview\n・https://learn.microsoft.com/en-us/azure/data-share/overview",
       "images": [],
       "domain": "データ ストレージ ソリューションを設計する",
       "questionType": "single",
@@ -198,27 +198,27 @@
     {
       "questionId": "en5-q-036",
       "sourceQuestionNumber": 36,
-      "promptHtml": "<p>Microsoft Entra テナントには、MG1 という名前の管理グループが含まれています。</p>\n<p>Azure 環境は次のように構成されています。</p>\n<ul><li>Sub1 と Sub2 は、 MG1</li><li>・Sub3 はテナント ルート グループ</li></ul>\n<p>各サブスクリプションには単一のリソース グループが含まれます。</p>\n<ul><li>RG1 Sub1</li><li>Sub2 のRG2 Sub2</li><li>Sub3 のRG3</li></ul>\n<p>Microsoft Entra セキュリティ グループ階層が定義されていますas:</p>\n<ul><li>Group1 と Group2 は Group3</li></ul>\n<p>のメンバーです</p>\n<ul><li>Group3 は他のどのメンバーでもありませんグループ</li></ul>\n<p>ユーザー メンバーシップは次のように構成されます。</p>\n<ul><li>User1 は Group1</li></ul>\n<p>のメンバーです。</p>\n<ul><li>User2 は のメンバーですGroup2</li><li>User3 は Group1 と Group2 の両方のメンバーです。</li></ul>\n<p>次の役割の割り当ては次のとおりです。適用:</p>\n<ul><li>User3 には、Sub1 スコープの共同作成者ロールが割り当てられます。</li><li>Group1 には、仮想マシン共同作成者ロールが割り当てられます。 MG1 スコープ</li><li>Group3 にはテナント ルート グループ スコープの共同作成者 ロールが割り当てられます</li></ul>\n<p>True またはFalse:</p>\n<p>「User1 は RG1 に新しい仮想マシンを作成できます。」</p>",
-      "promptText": "Microsoft Entra テナントには、MG1 という名前の管理グループが含まれています。\nAzure 環境は次のように構成されています。\n・Sub1 と Sub2 は、 MG1\n\n・・Sub3 はテナント ルート グループ\n\n各サブスクリプションには単一のリソース グループが含まれます。\n・RG1 Sub1\n\n・Sub2 のRG2 Sub2\n\n・Sub3 のRG3\n\nMicrosoft Entra セキュリティ グループ階層が定義されていますas:\n・Group1 と Group2 は Group3\nのメンバーです\n・Group3 は他のどのメンバーでもありませんグループ\n\nユーザー メンバーシップは次のように構成されます。\n・User1 は Group1\nのメンバーです。\n・User2 は のメンバーですGroup2\n\n・User3 は Group1 と Group2 の両方のメンバーです。\n\n次の役割の割り当ては次のとおりです。適用:\n・User3 には、Sub1 スコープの共同作成者ロールが割り当てられます。\n\n・Group1 には、仮想マシン共同作成者ロールが割り当てられます。 MG1 スコープ\n\n・Group3 にはテナント ルート グループ スコープの共同作成者 ロールが割り当てられます\n\nTrue またはFalse:\n「User1 は RG1 に新しい仮想マシンを作成できます。」",
+      "promptHtml": "<p>Microsoft Entra テナントには管理グループ MG1 があります。Sub1 と Sub2 は MG1 に属し、Sub3 はテナント ルート グループに直接属しています。</p>\n<p>各サブスクリプションには 1 つのリソース グループがあります。Sub1 には RG1、Sub2 には RG2、Sub3 には RG3 があります。</p>\n<p>セキュリティ グループは、Group1 と Group2 が Group3 のメンバーで、Group3 は他グループのメンバーではありません。</p>\n<p>User1 は Group1、User2 は Group2、User3 は Group1 と Group2 の両方のメンバーです。</p>\n<p>ロール割り当ては、User3 が Sub1 スコープの Contributor、Group1 が MG1 スコープの Virtual Machine Contributor、Group3 がテナント ルート グループ スコープの Contributor です。</p>\n<p>正誤: User1 は RG1 に新しい仮想マシンを作成できます。</p>",
+      "promptText": "Microsoft Entra テナントには管理グループ MG1 があります。Sub1 と Sub2 は MG1 に属し、Sub3 はテナント ルート グループに直接属しています。\n各サブスクリプションには 1 つのリソース グループがあります。Sub1 には RG1、Sub2 には RG2、Sub3 には RG3 があります。\nセキュリティ グループは、Group1 と Group2 が Group3 のメンバーで、Group3 は他グループのメンバーではありません。\nUser1 は Group1、User2 は Group2、User3 は Group1 と Group2 の両方のメンバーです。\nロール割り当ては、User3 が Sub1 スコープの Contributor、Group1 が MG1 スコープの Virtual Machine Contributor、Group3 がテナント ルート グループ スコープの Contributor です。\n\n正誤: User1 は RG1 に新しい仮想マシンを作成できます。",
       "choices": [
         {
           "choiceId": "en5-q-036-c1",
           "label": null,
-          "text": "True",
-          "html": "<p>True</p>"
+          "text": "正しい",
+          "html": "<p>正しい</p>"
         },
         {
           "choiceId": "en5-q-036-c2",
           "label": null,
-          "text": "False",
-          "html": "<p>False</p>"
+          "text": "誤り",
+          "html": "<p>誤り</p>"
         }
       ],
       "correctChoiceIds": [
         "en5-q-036-c1"
       ],
-      "explanationHtml": "<p><strong>結論:</strong> 正解は True です。</p>\n<p><strong>理由:</strong> True が、問題文で示された要件を満たす選択肢です。</p>\n<p><strong>補足:</strong> ID 設計では、認証、認可、特権昇格、アプリ公開、条件付きアクセスのどの機能が要件に対応するかを切り分けます。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>True:</strong> 正解。この選択肢は要件に合致します。</li><li><strong>False:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept\">https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept</a></li></ul>",
-      "explanationText": "結論: 正解は True です。\n\n理由: True が、問題文で示された要件を満たす選択肢です。\n\n補足: ID 設計では、認証、認可、特権昇格、アプリ公開、条件付きアクセスのどの機能が要件に対応するかを切り分けます。\n\n選択肢の整理:\n\n・True: 正解。この選択肢は要件に合致します。\n・False: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n\n参考:\n\n・https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept",
+      "explanationHtml": "<p><strong>結論:</strong> 正解は 正しい です。</p>\n<p><strong>理由:</strong> User1 は Group1 のメンバーで、Group1 には MG1 スコープで Virtual Machine Contributor が割り当てられています。Sub1/RG1 は MG1 配下なので、User1 は RG1 に VM を作成できます。</p>\n<p><strong>補足:</strong> RBAC の有効範囲は、割り当てスコープから子スコープへ継承されます。管理グループ配下のサブスクリプション/RGに注意します。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>正しい:</strong> 正解。この選択肢は要件に合致します。</li><li><strong>誤り:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept\">https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept</a></li></ul>",
+      "explanationText": "結論: 正解は 正しい です。\n\n理由: User1 は Group1 のメンバーで、Group1 には MG1 スコープで Virtual Machine Contributor が割り当てられています。Sub1/RG1 は MG1 配下なので、User1 は RG1 に VM を作成できます。\n\n補足: RBAC の有効範囲は、割り当てスコープから子スコープへ継承されます。管理グループ配下のサブスクリプション/RGに注意します。\n\n選択肢の整理:\n\n・正しい: 正解。この選択肢は要件に合致します。\n・誤り: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n\n参考:\n\n・https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept",
       "images": [],
       "domain": "ID、ガバナンス、監視ソリューションを設計する",
       "questionType": "single",
@@ -228,27 +228,27 @@
     {
       "questionId": "en5-q-037",
       "sourceQuestionNumber": 37,
-      "promptHtml": "<p>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。</p>\n<p>Microsoft Entra テナントには、MG1 という名前の管理グループが含まれています。</p>\n<p>Azure 環境は次のように構成されています。</p>\n<ul><li>Sub1 Sub2 は MG1</li><li>Sub3 はテナント ルート グループ</li></ul>\n<p>に直接割り当てられます</p>\n<p>各サブスクリプションには単一のリソースが含まれますグループ:</p>\n<ul><li>RG1 内 Sub1</li><li>RG2 内 Sub2</li><li>RG3 内Sub3</li></ul>\n<p>Microsoft Entra セキュリティ グループ階層は次のように定義されています。</p>\n<ul><li>Group1 と Group2 は次のメンバーです。 Group3</li><li>Group3 は他のグループのメンバーではありません</li></ul>\n<p>ユーザー メンバーシップは次のように設定されています:</p>\n<ul><li>User1 は次のメンバーです。 Group1</li><li>User2 は Group2</li></ul>\n<p>のメンバーです</p>\n<ul><li>User3 は両方の Group1 のメンバーですGroup2</li></ul>\n<p>次のロール割り当てが適用されます:</p>\n<ul><li>User3 には、Sub1 の共同作成者ロールが割り当てられます。スコープ</li><li>Group1 には、MG1 スコープの仮想マシン共同作成者の役割が割り当てられます。</li><li>Group3 にはテナント ルートの共同作成者の役割が割り当てられます。グループ スコープ</li></ul>\n<p>正誤:</p>\n<p>「User2 は Group2 に権限を付与できます。」</p>",
-      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。\n\nMicrosoft Entra テナントには、MG1 という名前の管理グループが含まれています。\nAzure 環境は次のように構成されています。\n・Sub1 Sub2 は MG1\n\n・Sub3 はテナント ルート グループ\nに直接割り当てられます\n\n各サブスクリプションには単一のリソースが含まれますグループ:\n・RG1 内 Sub1\n\n・RG2 内 Sub2\n\n・RG3 内Sub3\n\nMicrosoft Entra セキュリティ グループ階層は次のように定義されています。\n・Group1 と Group2 は次のメンバーです。 Group3\n\n・Group3 は他のグループのメンバーではありません\n\nユーザー メンバーシップは次のように設定されています:\n・User1 は次のメンバーです。 Group1\n\n・User2 は Group2\nのメンバーです\n・User3 は両方の Group1 のメンバーですGroup2\n\n次のロール割り当てが適用されます:\n・User3 には、Sub1 の共同作成者ロールが割り当てられます。スコープ\n\n・Group1 には、MG1 スコープの仮想マシン共同作成者の役割が割り当てられます。\n\n・Group3 にはテナント ルートの共同作成者の役割が割り当てられます。グループ スコープ\n\n正誤:\n「User2 は Group2 に権限を付与できます。」",
+      "promptHtml": "<p>Microsoft Entra テナントには管理グループ MG1 があります。Sub1 と Sub2 は MG1 に属し、Sub3 はテナント ルート グループに直接属しています。</p>\n<p>Sub1 には RG1、Sub2 には RG2、Sub3 には RG3 があります。</p>\n<p>Group1 と Group2 は Group3 のメンバーです。User1 は Group1、User2 は Group2、User3 は Group1 と Group2 の両方のメンバーです。</p>\n<p>ロール割り当ては、User3 が Sub1 スコープの Contributor、Group1 が MG1 スコープの Virtual Machine Contributor、Group3 がテナント ルート グループ スコープの Contributor です。</p>\n<p>正誤: User2 は Group2 に権限を付与できます。</p>",
+      "promptText": "Microsoft Entra テナントには管理グループ MG1 があります。Sub1 と Sub2 は MG1 に属し、Sub3 はテナント ルート グループに直接属しています。\nSub1 には RG1、Sub2 には RG2、Sub3 には RG3 があります。\nGroup1 と Group2 は Group3 のメンバーです。User1 は Group1、User2 は Group2、User3 は Group1 と Group2 の両方のメンバーです。\nロール割り当ては、User3 が Sub1 スコープの Contributor、Group1 が MG1 スコープの Virtual Machine Contributor、Group3 がテナント ルート グループ スコープの Contributor です。\n\n正誤: User2 は Group2 に権限を付与できます。",
       "choices": [
         {
           "choiceId": "en5-q-037-c1",
           "label": null,
-          "text": "True",
-          "html": "<p>True</p>"
+          "text": "正しい",
+          "html": "<p>正しい</p>"
         },
         {
           "choiceId": "en5-q-037-c2",
           "label": null,
-          "text": "False",
-          "html": "<p>False</p>"
+          "text": "誤り",
+          "html": "<p>誤り</p>"
         }
       ],
       "correctChoiceIds": [
         "en5-q-037-c2"
       ],
-      "explanationHtml": "<p><strong>結論:</strong> 正解は False です。</p>\n<p><strong>理由:</strong> False は Group2 の一部であるため正解であり、Group2 の一部でもあります。Group3、これにはテナントのルート グループに対する共同作成者のアクセス許可のみが与えられます。</p>\n<p><strong>補足:</strong> ID 設計では、認証、認可、特権昇格、アプリ公開、条件付きアクセスのどの機能が要件に対応するかを切り分けます。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>True:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li><li><strong>False:</strong> 正解。False は Group2 の一部であるため正解であり、Group2 の一部でもあります。Group3、これにはテナントのルート グループに対する共同作成者のアクセス許可のみが与えられます。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/azure/active-directory/roles/groups-concept\">https://learn.microsoft.com/en-us/azure/active-directory/roles/groups-</a></li><li><a href=\"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept\">https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept</a></li></ul>",
-      "explanationText": "結論: 正解は False です。\n\n理由: False は Group2 の一部であるため正解であり、Group2 の一部でもあります。Group3、これにはテナントのルート グループに対する共同作成者のアクセス許可のみが与えられます。\n\n補足: ID 設計では、認証、認可、特権昇格、アプリ公開、条件付きアクセスのどの機能が要件に対応するかを切り分けます。\n\n選択肢の整理:\n\n・True: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n・False: 正解。False は Group2 の一部であるため正解であり、Group2 の一部でもあります。Group3、これにはテナントのルート グループに対する共同作成者のアクセス許可のみが与えられます。\n\n参考:\n\n・https://learn.microsoft.com/en-us/azure/active-directory/roles/groups-\n・https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept",
+      "explanationHtml": "<p><strong>結論:</strong> 正解は 誤り です。</p>\n<p><strong>理由:</strong> User2 は Group2 のメンバーで、Group3 経由で Contributor 権限を受けても、Contributor にはアクセス権を付与する権限がありません。権限付与には Owner または User Access Administrator などが必要です。</p>\n<p><strong>補足:</strong> Contributor はリソース管理権限であり、アクセス権の付与はできません。RBAC ロールの境界を押さえます。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>正しい:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li><li><strong>誤り:</strong> 正解。この選択肢は要件に合致します。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/azure/active-directory/roles/groups-concept\">https://learn.microsoft.com/en-us/azure/active-directory/roles/groups-</a></li><li><a href=\"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept\">https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept</a></li></ul>",
+      "explanationText": "結論: 正解は 誤り です。\n\n理由: User2 は Group2 のメンバーで、Group3 経由で Contributor 権限を受けても、Contributor にはアクセス権を付与する権限がありません。権限付与には Owner または User Access Administrator などが必要です。\n\n補足: Contributor はリソース管理権限であり、アクセス権の付与はできません。RBAC ロールの境界を押さえます。\n\n選択肢の整理:\n\n・正しい: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n・誤り: 正解。この選択肢は要件に合致します。\n\n参考:\n\n・https://learn.microsoft.com/en-us/azure/active-directory/roles/groups-\n・https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept",
       "images": [],
       "domain": "ID、ガバナンス、監視ソリューションを設計する",
       "questionType": "single",
@@ -260,27 +260,27 @@
     {
       "questionId": "en5-q-038",
       "sourceQuestionNumber": 38,
-      "promptHtml": "<p>注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。</p>\n<p>Microsoft Entra テナントには、MG1 という名前の管理グループが含まれています。</p>\n<p>Azure 環境は次のように構成されています。</p>\n<ul><li>Sub1 Sub2 は MG1</li><li>Sub3 はテナント ルート グループ</li></ul>\n<p>に直接割り当てられます</p>\n<p>各サブスクリプションには単一のリソースが含まれますグループ:</p>\n<ul><li>RG1 内 Sub1</li><li>RG2 内 Sub2</li><li>RG3 内Sub3</li></ul>\n<p>Microsoft Entra セキュリティ グループ階層は次のように定義されています。</p>\n<ul><li>Group1 と Group2 は次のメンバーです。 Group3</li><li>Group3 は他のグループのメンバーではありません</li></ul>\n<p>ユーザー メンバーシップは次のように設定されています:</p>\n<ul><li>User1 は次のメンバーです。 Group1</li><li>User2 は Group2</li></ul>\n<p>のメンバーです</p>\n<ul><li>User3 は両方の Group1 のメンバーですGroup2</li></ul>\n<p>次のロール割り当てが適用されます:</p>\n<ul><li>User3 には、Sub1 の共同作成者ロールが割り当てられます。スコープ</li><li>Group1 には、MG1 スコープの仮想マシン共同作成者の役割が割り当てられます。</li><li>Group3 にはテナント ルートの共同作成者の役割が割り当てられます。グループ スコープ</li></ul>\n<p>正誤問題:</p>\n<p>「User3 は RG2 にストレージ アカウントを作成できます。」</p>",
-      "promptText": "注: この質問は、同じシナリオを使用する一連の関連質問の一部です。各質問は、指定された要件を満たす場合と満たさない場合がある異なる解決策を提案します。\n\nMicrosoft Entra テナントには、MG1 という名前の管理グループが含まれています。\nAzure 環境は次のように構成されています。\n・Sub1 Sub2 は MG1\n\n・Sub3 はテナント ルート グループ\nに直接割り当てられます\n\n各サブスクリプションには単一のリソースが含まれますグループ:\n・RG1 内 Sub1\n\n・RG2 内 Sub2\n\n・RG3 内Sub3\n\nMicrosoft Entra セキュリティ グループ階層は次のように定義されています。\n・Group1 と Group2 は次のメンバーです。 Group3\n\n・Group3 は他のグループのメンバーではありません\n\nユーザー メンバーシップは次のように設定されています:\n・User1 は次のメンバーです。 Group1\n\n・User2 は Group2\nのメンバーです\n・User3 は両方の Group1 のメンバーですGroup2\n\n次のロール割り当てが適用されます:\n・User3 には、Sub1 の共同作成者ロールが割り当てられます。スコープ\n\n・Group1 には、MG1 スコープの仮想マシン共同作成者の役割が割り当てられます。\n\n・Group3 にはテナント ルートの共同作成者の役割が割り当てられます。グループ スコープ\n\n正誤問題:\n「User3 は RG2 にストレージ アカウントを作成できます。」",
+      "promptHtml": "<p>Microsoft Entra テナントには管理グループ MG1 があります。Sub1 と Sub2 は MG1 に属し、Sub3 はテナント ルート グループに直接属しています。</p>\n<p>Sub1 には RG1、Sub2 には RG2、Sub3 には RG3 があります。</p>\n<p>Group1 と Group2 は Group3 のメンバーです。User1 は Group1、User2 は Group2、User3 は Group1 と Group2 の両方のメンバーです。</p>\n<p>ロール割り当ては、User3 が Sub1 スコープの Contributor、Group1 が MG1 スコープの Virtual Machine Contributor、Group3 がテナント ルート グループ スコープの Contributor です。</p>\n<p>正誤: User3 は RG2 にストレージ アカウントを作成できます。</p>",
+      "promptText": "Microsoft Entra テナントには管理グループ MG1 があります。Sub1 と Sub2 は MG1 に属し、Sub3 はテナント ルート グループに直接属しています。\nSub1 には RG1、Sub2 には RG2、Sub3 には RG3 があります。\nGroup1 と Group2 は Group3 のメンバーです。User1 は Group1、User2 は Group2、User3 は Group1 と Group2 の両方のメンバーです。\nロール割り当ては、User3 が Sub1 スコープの Contributor、Group1 が MG1 スコープの Virtual Machine Contributor、Group3 がテナント ルート グループ スコープの Contributor です。\n\n正誤: User3 は RG2 にストレージ アカウントを作成できます。",
       "choices": [
         {
           "choiceId": "en5-q-038-c1",
           "label": null,
-          "text": "True",
-          "html": "<p>True</p>"
+          "text": "正しい",
+          "html": "<p>正しい</p>"
         },
         {
           "choiceId": "en5-q-038-c2",
           "label": null,
-          "text": "False",
-          "html": "<p>False</p>"
+          "text": "誤り",
+          "html": "<p>誤り</p>"
         }
       ],
       "correctChoiceIds": [
         "en5-q-038-c1"
       ],
-      "explanationHtml": "<p><strong>結論:</strong> 正解は True です。</p>\n<p><strong>理由:</strong> True は、グループ 3 がテナント ルート グループの共同作成者の役割を持っているため正解です。User3 は間接的にその一部です。</p>\n<p><strong>補足:</strong> ID 設計では、認証、認可、特権昇格、アプリ公開、条件付きアクセスのどの機能が要件に対応するかを切り分けます。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>True:</strong> 正解。True は、グループ 3 がテナント ルート グループの共同作成者の役割を持っているため正解です。User3 は間接的にその一部です。</li><li><strong>False:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept\">https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept</a></li></ul>",
-      "explanationText": "結論: 正解は True です。\n\n理由: True は、グループ 3 がテナント ルート グループの共同作成者の役割を持っているため正解です。User3 は間接的にその一部です。\n\n補足: ID 設計では、認証、認可、特権昇格、アプリ公開、条件付きアクセスのどの機能が要件に対応するかを切り分けます。\n\n選択肢の整理:\n\n・True: 正解。True は、グループ 3 がテナント ルート グループの共同作成者の役割を持っているため正解です。User3 は間接的にその一部です。\n・False: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n\n参考:\n\n・https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept",
+      "explanationHtml": "<p><strong>結論:</strong> 正解は 正しい です。</p>\n<p><strong>理由:</strong> User3 は Group1 と Group2 のメンバーであり、Group3 へのネストを通じてテナント ルート グループ スコープの Contributor 権限が有効になります。RG2 はその配下なので、ストレージ アカウントを作成できます。</p>\n<p><strong>補足:</strong> グループ階層とスコープ継承を同時に読む問題です。明示割り当てとグループ割り当てを分けて追います。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>正しい:</strong> 正解。この選択肢は要件に合致します。</li><li><strong>誤り:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept\">https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept</a></li></ul>",
+      "explanationText": "結論: 正解は 正しい です。\n\n理由: User3 は Group1 と Group2 のメンバーであり、Group3 へのネストを通じてテナント ルート グループ スコープの Contributor 権限が有効になります。RG2 はその配下なので、ストレージ アカウントを作成できます。\n\n補足: グループ階層とスコープ継承を同時に読む問題です。明示割り当てとグループ割り当てを分けて追います。\n\n選択肢の整理:\n\n・正しい: 正解。この選択肢は要件に合致します。\n・誤り: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n\n参考:\n\n・https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/groups-concept",
       "images": [],
       "domain": "ID、ガバナンス、監視ソリューションを設計する",
       "questionType": "single",
@@ -292,8 +292,8 @@
     {
       "questionId": "en5-q-039",
       "sourceQuestionNumber": 39,
-      "promptHtml": "<p>あなたの組織は 5 つの Azure サブスクリプションを管理しており、各サブスクリプションは異なる Microsoft Entra テナントに関連付けられています。すべてのサブスクリプションには、Windows Server 2022 を実行する仮想マシンが含まれています。</p>\n<p>これらすべての仮想マシンからの Windows セキュリティ イベント ログを 1 つの Log Analytics ワークスペースに一元化する予定です。</p>\n<p>次の要件を満たすソリューションを推奨する必要があります。</p>\n<ul><li>複数の Azure サブスクリプションにまたがる仮想マシンからのイベント ログの収集を有効にする。</li></ul>\n<p>何を推奨するかこの要件を満たすには。</p>",
-      "promptText": "あなたの組織は 5 つの Azure サブスクリプションを管理しており、各サブスクリプションは異なる Microsoft Entra テナントに関連付けられています。すべてのサブスクリプションには、Windows Server 2022 を実行する仮想マシンが含まれています。\nこれらすべての仮想マシンからの Windows セキュリティ イベント ログを 1 つの Log Analytics ワークスペースに一元化する予定です。\n次の要件を満たすソリューションを推奨する必要があります。\n・複数の Azure サブスクリプションにまたがる仮想マシンからのイベント ログの収集を有効にする。\n\n何を推奨するかこの要件を満たすには。",
+      "promptHtml": "<p>組織は 5 つの Azure サブスクリプションを管理しており、それぞれ異なる Microsoft Entra テナントに関連付けられています。すべてのサブスクリプションには Windows Server 2022 VM があります。</p>\n<p>すべての VM から Windows セキュリティ イベント ログを 1 つの Log Analytics ワークスペースへ一元化する予定です。</p>\n<p>複数の Azure サブスクリプションにまたがる VM からイベント ログを収集できるようにする必要があります。</p>\n<p>この要件を満たすには何を推奨しますか。</p>",
+      "promptText": "組織は 5 つの Azure サブスクリプションを管理しており、それぞれ異なる Microsoft Entra テナントに関連付けられています。すべてのサブスクリプションには Windows Server 2022 VM があります。\nすべての VM から Windows セキュリティ イベント ログを 1 つの Log Analytics ワークスペースへ一元化する予定です。\n複数の Azure サブスクリプションにまたがる VM からイベント ログを収集できるようにする必要があります。\n\nこの要件を満たすには何を推奨しますか。",
       "choices": [
         {
           "choiceId": "en5-q-039-c1",
@@ -310,15 +310,15 @@
         {
           "choiceId": "en5-q-039-c3",
           "label": null,
-          "text": "Azure Purview",
-          "html": "Azure Purview"
+          "text": "Microsoft Purview",
+          "html": "Microsoft Purview"
         }
       ],
       "correctChoiceIds": [
         "en5-q-039-c2"
       ],
-      "explanationHtml": "<p><strong>結論:</strong> 正解は Azure Lighthouse です。</p>\n<p><strong>理由:</strong> Azure Lighthouse は正解です。Lighthouse を使用すると、さまざまなテナントに接続し、単一のウィンドウからリソースを管理できます。</p>\n<p><strong>補足:</strong> 監視設計では、収集対象の OS、ワークスペースの配置、複数テナントまたは複数サブスクリプションからの集約可否を確認します。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>Azure Event Grid:</strong> 不正解。Azure Event Grid はイベントに基づくメッセージング サービスであるため、不正確です。これを使用すると、アプリケーション内の特定のイベントに基づいてシステム間の統合をトリガーできます。</li><li><strong>Azure Lighthouse:</strong> 正解。Azure Lighthouse は正解です。Lighthouse を使用すると、さまざまなテナントに接続し、単一のウィンドウからリソースを管理できます。</li><li><strong>Azure Purview:</strong> 不正解。Azure Purview は誤りです。このサービスは、Azure、他のクラウド プロバイダー、さらにはオンプレミスに至るまで、データ ドメイン全体のデータ ガバナンス、セキュリティ、管理を一元的に制御することを目的としているためです。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/azure/event-grid/overview\">https://learn.microsoft.com/en-us/azure/event-grid/overview</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure/lighthouse/overview\">https://learn.microsoft.com/en-us/azure/lighthouse/overview</a></li><li><a href=\"https://learn.microsoft.com/en-us/purview/purview\">https://learn.microsoft.com/en-us/purview/purview</a></li></ul>",
-      "explanationText": "結論: 正解は Azure Lighthouse です。\n\n理由: Azure Lighthouse は正解です。Lighthouse を使用すると、さまざまなテナントに接続し、単一のウィンドウからリソースを管理できます。\n\n補足: 監視設計では、収集対象の OS、ワークスペースの配置、複数テナントまたは複数サブスクリプションからの集約可否を確認します。\n\n選択肢の整理:\n\n・Azure Event Grid: 不正解。Azure Event Grid はイベントに基づくメッセージング サービスであるため、不正確です。これを使用すると、アプリケーション内の特定のイベントに基づいてシステム間の統合をトリガーできます。\n・Azure Lighthouse: 正解。Azure Lighthouse は正解です。Lighthouse を使用すると、さまざまなテナントに接続し、単一のウィンドウからリソースを管理できます。\n・Azure Purview: 不正解。Azure Purview は誤りです。このサービスは、Azure、他のクラウド プロバイダー、さらにはオンプレミスに至るまで、データ ドメイン全体のデータ ガバナンス、セキュリティ、管理を一元的に制御することを目的としているためです。\n\n参考:\n\n・https://learn.microsoft.com/en-us/azure/event-grid/overview\n・https://learn.microsoft.com/en-us/azure/lighthouse/overview\n・https://learn.microsoft.com/en-us/purview/purview",
+      "explanationHtml": "<p><strong>結論:</strong> 正解は Azure Lighthouse です。</p>\n<p><strong>理由:</strong> 異なるテナントに属する複数サブスクリプションを一元管理し、ログ収集構成を横断的に扱うには Azure Lighthouse が適しています。Event Grid はイベント配信、Purview はデータ ガバナンスです。</p>\n<p><strong>補足:</strong> Azure Lighthouse は複数テナント/複数サブスクリプションの委任管理で使われます。監視集約の前提構成で問われます。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>Azure Event Grid:</strong> 不正解。Azure Event Grid はイベントに基づくメッセージング サービスであるため、不正確です。これを使用すると、アプリケーション内の特定のイベントに基づいてシステム間の統合をトリガーできます。</li><li><strong>Azure Lighthouse:</strong> 正解。Azure Lighthouse は正解です。Lighthouse を使用すると、さまざまなテナントに接続し、単一のウィンドウからリソースを管理できます。</li><li><strong>Microsoft Purview:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/azure/event-grid/overview\">https://learn.microsoft.com/en-us/azure/event-grid/overview</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure/lighthouse/overview\">https://learn.microsoft.com/en-us/azure/lighthouse/overview</a></li><li><a href=\"https://learn.microsoft.com/en-us/purview/purview\">https://learn.microsoft.com/en-us/purview/purview</a></li></ul>",
+      "explanationText": "結論: 正解は Azure Lighthouse です。\n\n理由: 異なるテナントに属する複数サブスクリプションを一元管理し、ログ収集構成を横断的に扱うには Azure Lighthouse が適しています。Event Grid はイベント配信、Purview はデータ ガバナンスです。\n\n補足: Azure Lighthouse は複数テナント/複数サブスクリプションの委任管理で使われます。監視集約の前提構成で問われます。\n\n選択肢の整理:\n\n・Azure Event Grid: 不正解。Azure Event Grid はイベントに基づくメッセージング サービスであるため、不正確です。これを使用すると、アプリケーション内の特定のイベントに基づいてシステム間の統合をトリガーできます。\n・Azure Lighthouse: 正解。Azure Lighthouse は正解です。Lighthouse を使用すると、さまざまなテナントに接続し、単一のウィンドウからリソースを管理できます。\n・Microsoft Purview: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n\n参考:\n\n・https://learn.microsoft.com/en-us/azure/event-grid/overview\n・https://learn.microsoft.com/en-us/azure/lighthouse/overview\n・https://learn.microsoft.com/en-us/purview/purview",
       "images": [],
       "domain": "ID、ガバナンス、監視ソリューションを設計する",
       "questionType": "single",
@@ -328,8 +328,8 @@
     {
       "questionId": "en5-q-040",
       "sourceQuestionNumber": 40,
-      "promptHtml": "<p>あなたの組織は 5 つの Azure サブスクリプションを管理しており、各サブスクリプションは異なる Microsoft Entra テナントに関連付けられています。すべてのサブスクリプションには、Windows Server 2022 を実行する仮想マシンが含まれています。</p>\n<p>これらすべての仮想マシンからの Windows セキュリティ イベント ログを 1 つの Log Analytics ワークスペースに一元化する予定です。</p>\n<p>次の要件を満たすソリューションを推奨する必要があります。</p>\n<ul><li>収集するイベントを定義するためのデータ収集ルール (DCR) の使用をサポートします。</li></ul>\n<p>何をすべきかこの要件を満たすことをお勧めしますか。</p>",
-      "promptText": "あなたの組織は 5 つの Azure サブスクリプションを管理しており、各サブスクリプションは異なる Microsoft Entra テナントに関連付けられています。すべてのサブスクリプションには、Windows Server 2022 を実行する仮想マシンが含まれています。\nこれらすべての仮想マシンからの Windows セキュリティ イベント ログを 1 つの Log Analytics ワークスペースに一元化する予定です。\n次の要件を満たすソリューションを推奨する必要があります。\n・収集するイベントを定義するためのデータ収集ルール (DCR) の使用をサポートします。\n\n何をすべきかこの要件を満たすことをお勧めしますか。",
+      "promptHtml": "<p>組織は 5 つの Azure サブスクリプションを管理しており、それぞれ異なる Microsoft Entra テナントに関連付けられています。すべてのサブスクリプションには Windows Server 2022 VM があります。</p>\n<p>すべての VM から Windows セキュリティ イベント ログを 1 つの Log Analytics ワークスペースへ一元化する予定です。</p>\n<p>収集するイベントを定義するために、データ収集ルール (DCR) を使用できる必要があります。</p>\n<p>この要件を満たすには何を推奨しますか。</p>",
+      "promptText": "組織は 5 つの Azure サブスクリプションを管理しており、それぞれ異なる Microsoft Entra テナントに関連付けられています。すべてのサブスクリプションには Windows Server 2022 VM があります。\nすべての VM から Windows セキュリティ イベント ログを 1 つの Log Analytics ワークスペースへ一元化する予定です。\n収集するイベントを定義するために、データ収集ルール (DCR) を使用できる必要があります。\n\nこの要件を満たすには何を推奨しますか。",
       "choices": [
         {
           "choiceId": "en5-q-040-c1",
@@ -353,8 +353,8 @@
       "correctChoiceIds": [
         "en5-q-040-c2"
       ],
-      "explanationHtml": "<p><strong>結論:</strong> 正解は Azure Monitor エージェント です。</p>\n<p><strong>理由:</strong> Azure Monitor エージェントは正解です。ログ分析エージェントとは異なり、このエージェントは、データ収集ルール (DCR) を使用してデータ収集を構成する簡素化された柔軟な方法を導入しています。</p>\n<p><strong>補足:</strong> 監視設計では、収集対象の OS、ワークスペースの配置、複数テナントまたは複数サブスクリプションからの集約可否を確認します。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>Log Analytics エージェント:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li><li><strong>Azure Monitor エージェント:</strong> 正解。Azure Monitor エージェントは正解です。ログ分析エージェントとは異なり、このエージェントは、データ収集ルール (DCR) を使用してデータ収集を構成する簡素化された柔軟な方法を導入しています。</li><li><strong>Azure Connected Machine エージェント:</strong> 不正解。Azure Connected Machine エージェント は誤りです。これは、通常、これは Azure-Arc 経由で VM が接続されている場合に使用することを目的としているためです。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/azure/azure-arc/servers/concept-log-analytics-extension-deployment\">https://learn.microsoft.com/en-us/azure/azure-arc/servers/concept-log-analytics-extension-deployment</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration\">https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration</a></li></ul>",
-      "explanationText": "結論: 正解は Azure Monitor エージェント です。\n\n理由: Azure Monitor エージェントは正解です。ログ分析エージェントとは異なり、このエージェントは、データ収集ルール (DCR) を使用してデータ収集を構成する簡素化された柔軟な方法を導入しています。\n\n補足: 監視設計では、収集対象の OS、ワークスペースの配置、複数テナントまたは複数サブスクリプションからの集約可否を確認します。\n\n選択肢の整理:\n\n・Log Analytics エージェント: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n・Azure Monitor エージェント: 正解。Azure Monitor エージェントは正解です。ログ分析エージェントとは異なり、このエージェントは、データ収集ルール (DCR) を使用してデータ収集を構成する簡素化された柔軟な方法を導入しています。\n・Azure Connected Machine エージェント: 不正解。Azure Connected Machine エージェント は誤りです。これは、通常、これは Azure-Arc 経由で VM が接続されている場合に使用することを目的としているためです。\n\n参考:\n\n・https://learn.microsoft.com/en-us/azure/azure-arc/servers/concept-log-analytics-extension-deployment\n・https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration",
+      "explanationHtml": "<p><strong>結論:</strong> 正解は Azure Monitor エージェント です。</p>\n<p><strong>理由:</strong> データ収集ルール (DCR) を使って収集するイベントを定義するには Azure Monitor エージェントを使用します。従来の Log Analytics エージェントは DCR 中心の新しい収集モデルではなく、Connected Machine エージェントは Arc 接続用です。</p>\n<p><strong>補足:</strong> Azure Monitor エージェントは DCR ベースの新しいログ/メトリック収集モデルです。</p>\n<p><strong>選択肢の整理:</strong></p>\n<ul><li><strong>Log Analytics エージェント:</strong> 不正解。この選択肢は、この設問で重視されている要件を満たしません。</li><li><strong>Azure Monitor エージェント:</strong> 正解。Azure Monitor エージェントは正解です。ログ分析エージェントとは異なり、このエージェントは、データ収集ルール (DCR) を使用してデータ収集を構成する簡素化された柔軟な方法を導入しています。</li><li><strong>Azure Connected Machine エージェント:</strong> 不正解。Azure Connected Machine エージェント は誤りです。これは、通常、これは Azure-Arc 経由で VM が接続されている場合に使用することを目的としているためです。</li></ul>\n<p><strong>参考:</strong></p>\n<ul><li><a href=\"https://learn.microsoft.com/en-us/azure/azure-arc/servers/concept-log-analytics-extension-deployment\">https://learn.microsoft.com/en-us/azure/azure-arc/servers/concept-log-analytics-extension-deployment</a></li><li><a href=\"https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration\">https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration</a></li></ul>",
+      "explanationText": "結論: 正解は Azure Monitor エージェント です。\n\n理由: データ収集ルール (DCR) を使って収集するイベントを定義するには Azure Monitor エージェントを使用します。従来の Log Analytics エージェントは DCR 中心の新しい収集モデルではなく、Connected Machine エージェントは Arc 接続用です。\n\n補足: Azure Monitor エージェントは DCR ベースの新しいログ/メトリック収集モデルです。\n\n選択肢の整理:\n\n・Log Analytics エージェント: 不正解。この選択肢は、この設問で重視されている要件を満たしません。\n・Azure Monitor エージェント: 正解。Azure Monitor エージェントは正解です。ログ分析エージェントとは異なり、このエージェントは、データ収集ルール (DCR) を使用してデータ収集を構成する簡素化された柔軟な方法を導入しています。\n・Azure Connected Machine エージェント: 不正解。Azure Connected Machine エージェント は誤りです。これは、通常、これは Azure-Arc 経由で VM が接続されている場合に使用することを目的としているためです。\n\n参考:\n\n・https://learn.microsoft.com/en-us/azure/azure-arc/servers/concept-log-analytics-extension-deployment\n・https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration",
       "images": [],
       "domain": "ID、ガバナンス、監視ソリューションを設計する",
       "questionType": "single",

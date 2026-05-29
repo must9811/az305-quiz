@@ -28,6 +28,14 @@
   } = window.QuizEngine;
   const { buildSessionReport } = window.QuizReport;
   const { copyQuestionAsMarkdown } = window.QuizCopy;
+  const {
+    createMemo,
+    deleteMemo,
+    getMemos,
+    getSelectedMemoId,
+    setSelectedMemoId,
+    updateMemo,
+  } = window.QuizMemo;
   const { QUIZ_DATA } = window;
 
   const state = {
@@ -38,6 +46,8 @@
     error: "",
     notice: "",
     selectedProblemBookKey: "all",
+    view: "quiz",
+    memoSearch: "",
   };
 
   const setCache = new Map();
@@ -99,6 +109,11 @@
           </article>
         </section>
       `;
+      return;
+    }
+
+    if (state.view === "memo") {
+      renderMemoScreen();
       return;
     }
 
@@ -234,6 +249,19 @@
       <section class="selection-layout">
         ${noticeHtml}
         ${resumeHtml}
+
+        <article class="panel memo-gateway-card">
+          <div class="section-heading">
+            <div>
+              <h2>学習メモ</h2>
+              <p class="section-subtle">
+                問題集の要点、間違えた理由、復習したい Azure サービスを自由に記録できます。
+              </p>
+            </div>
+            <button class="button button-secondary" data-action="open-memos">メモをみる</button>
+          </div>
+        </article>
+
         <article class="panel selection-card">
           <div class="section-heading">
             <div>
@@ -254,6 +282,15 @@
         <section class="selection-grid">${cardsHtml}</section>
       </section>
     `;
+
+    const openMemosButton = app.querySelector('[data-action="open-memos"]');
+    if (openMemosButton) {
+      openMemosButton.addEventListener("click", () => {
+        state.view = "memo";
+        state.notice = "";
+        render();
+      });
+    }
 
     const filterSelect = app.querySelector('[data-action="filter-problem-book"]');
     if (filterSelect) {
@@ -520,6 +557,168 @@
     });
   }
 
+  function renderMemoScreen() {
+    const memos = getMemos();
+    const selectedMemoId = getSelectedMemoId();
+    const normalizedSearch = state.memoSearch.trim().toLowerCase();
+
+    const visibleMemos = normalizedSearch
+      ? memos.filter((memo) => {
+          const target = `${memo.title} ${memo.body}`.toLowerCase();
+          return target.includes(normalizedSearch);
+        })
+      : memos;
+
+    let selectedMemo =
+      memos.find((memo) => memo.id === selectedMemoId) ??
+      visibleMemos[0] ??
+      memos[0] ??
+      null;
+
+    if (selectedMemo && selectedMemo.id !== selectedMemoId) {
+      setSelectedMemoId(selectedMemo.id);
+    }
+
+    const memoListHtml = visibleMemos.length
+      ? visibleMemos
+          .map((memo) => {
+            const activeClass = selectedMemo?.id === memo.id ? "is-active" : "";
+            const snippet = memo.body.trim() || "本文はまだありません。";
+
+            return `
+              <button class="memo-list-item ${activeClass}" data-action="select-memo" data-memo-id="${escapeHtml(memo.id)}">
+                <span class="memo-list-title">${escapeHtml(memo.title || "無題のメモ")}</span>
+                <span class="memo-list-snippet">${escapeHtml(snippet.slice(0, 72))}</span>
+                <span class="memo-list-date">${escapeHtml(formatMemoDate(memo.updatedAt))}</span>
+              </button>
+            `;
+          })
+          .join("")
+      : `
+        <div class="empty-box">
+          <p>該当するメモがありません。</p>
+        </div>
+      `;
+
+    const editorHtml = selectedMemo
+      ? `
+        <div class="memo-editor">
+          <label class="memo-field-label" for="memo-title">タイトル</label>
+          <input
+            id="memo-title"
+            class="memo-title-input"
+            type="text"
+            value="${escapeHtml(selectedMemo.title)}"
+            placeholder="タイトルを入力"
+          />
+
+          <label class="memo-field-label" for="memo-body">本文</label>
+          <textarea
+            id="memo-body"
+            class="memo-body-input"
+            placeholder="ここに学習メモを入力します。"
+          >${escapeHtml(selectedMemo.body)}</textarea>
+
+          <div class="action-row">
+            <button class="button button-primary" data-action="save-memo" data-memo-id="${escapeHtml(selectedMemo.id)}">
+              保存する
+            </button>
+            <button class="button button-danger" data-action="delete-memo" data-memo-id="${escapeHtml(selectedMemo.id)}">
+              削除する
+            </button>
+          </div>
+        </div>
+      `
+      : `
+        <div class="empty-box memo-empty-editor">
+          <h3>メモがまだありません</h3>
+          <p>「新規メモ」から、復習内容や気づきを記録できます。</p>
+        </div>
+      `;
+
+    const previewHtml = selectedMemo
+      ? `
+        <article class="memo-preview-card">
+          <div class="section-heading">
+            <div>
+              <h3>${escapeHtml(selectedMemo.title || "無題のメモ")}</h3>
+              <p class="section-subtle">最終更新 ${escapeHtml(formatMemoDate(selectedMemo.updatedAt))}</p>
+            </div>
+          </div>
+          <div class="memo-preview-body">
+            ${
+              selectedMemo.body.trim()
+                ? escapeHtml(selectedMemo.body).replaceAll("\n", "<br>")
+                : '<p class="section-subtle">本文はまだありません。</p>'
+            }
+          </div>
+        </article>
+      `
+      : `
+        <article class="memo-preview-card">
+          <p class="section-subtle">選択中のメモはありません。</p>
+        </article>
+      `;
+
+    app.innerHTML = `
+      <section class="memo-layout">
+        <article class="panel memo-topbar">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Study Notes</p>
+              <h2>メモ</h2>
+              <p class="section-subtle">
+                OneNote のように、左でメモを選び、中央で編集し、右で内容を参照できます。
+              </p>
+            </div>
+            <div class="action-row">
+              <button class="button button-secondary" data-action="create-memo">新規メモ</button>
+              <button class="button button-ghost" data-action="back-to-quiz">クイズ画面へ戻る</button>
+            </div>
+          </div>
+        </article>
+
+        ${
+          state.notice
+            ? `<article class="panel notice-card"><p>${escapeHtml(state.notice)}</p></article>`
+            : ""
+        }
+
+        <div class="memo-workspace">
+          <aside class="panel memo-sidebar">
+            <div class="memo-sidebar-header">
+              <h3>ノート</h3>
+              <input
+                class="memo-search-input"
+                type="search"
+                value="${escapeHtml(state.memoSearch)}"
+                placeholder="メモを検索"
+                data-action="search-memo"
+              />
+            </div>
+            <div class="memo-list">${memoListHtml}</div>
+          </aside>
+
+          <article class="panel memo-editor-card">
+            <div class="section-heading">
+              <h3>編集</h3>
+            </div>
+            ${editorHtml}
+          </article>
+
+          <aside class="panel memo-preview">
+            <div class="section-heading">
+              <h3>参照</h3>
+            </div>
+            ${previewHtml}
+          </aside>
+        </div>
+      </section>
+    `;
+
+    bindMemoEvents();
+  }
+
   async function startMode(setId, mode) {
     const set = await loadSet(setId);
     const questionIds = buildQuestionIdsForMode(set, mode, getQuestionStates(), getReports());
@@ -691,5 +890,78 @@
       .replaceAll("<", "&lt;")
       .replaceAll(">", "&gt;")
       .replaceAll('"', "&quot;");
+  }
+
+  function bindMemoEvents() {
+    app.querySelector('[data-action="back-to-quiz"]').addEventListener("click", () => {
+      state.view = "quiz";
+      state.notice = "";
+      render();
+    });
+
+    app.querySelector('[data-action="create-memo"]').addEventListener("click", () => {
+      createMemo();
+      state.notice = "新しいメモを作成しました。";
+      renderMemoScreen();
+    });
+
+    const searchInput = app.querySelector('[data-action="search-memo"]');
+    if (searchInput) {
+      searchInput.addEventListener("input", () => {
+        state.memoSearch = searchInput.value;
+        renderMemoScreen();
+      });
+    }
+
+    app.querySelectorAll('[data-action="select-memo"]').forEach((button) => {
+      button.addEventListener("click", () => {
+        setSelectedMemoId(button.dataset.memoId);
+        state.notice = "";
+        renderMemoScreen();
+      });
+    });
+
+    const saveButton = app.querySelector('[data-action="save-memo"]');
+    if (saveButton) {
+      saveButton.addEventListener("click", () => {
+        const titleInput = app.querySelector("#memo-title");
+        const bodyInput = app.querySelector("#memo-body");
+
+        updateMemo(saveButton.dataset.memoId, {
+          title: titleInput.value,
+          body: bodyInput.value,
+        });
+
+        state.notice = "メモを保存しました。";
+        renderMemoScreen();
+      });
+    }
+
+    const deleteButton = app.querySelector('[data-action="delete-memo"]');
+    if (deleteButton) {
+      deleteButton.addEventListener("click", () => {
+        const confirmed = window.confirm("このメモを削除しますか？");
+        if (!confirmed) {
+          return;
+        }
+
+        deleteMemo(deleteButton.dataset.memoId);
+        state.notice = "メモを削除しました。";
+        renderMemoScreen();
+      });
+    }
+  }
+
+  function formatMemoDate(value) {
+    if (!value) {
+      return "";
+    }
+
+    return new Date(value).toLocaleString("ja-JP", {
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
   }
 })();

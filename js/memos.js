@@ -17,6 +17,14 @@
     localStorage.setItem(STORAGE_KEY, JSON.stringify(memos));
   }
 
+  function pushMemoToSupabase(memo) {
+    window.QuizStorage?.pushMemo?.(memo);
+  }
+
+  function deleteMemoFromSupabase(id) {
+    window.QuizStorage?.deleteMemoFromSupabase?.(id);
+  }
+
   function createMemo() {
     const now = new Date().toISOString();
     const memo = {
@@ -29,6 +37,7 @@
 
     saveMemos([memo, ...getMemos()]);
     setSelectedMemoId(memo.id);
+    pushMemoToSupabase(memo);
     return memo;
   }
 
@@ -49,7 +58,12 @@
 
     saveMemos(next);
     setSelectedMemoId(id);
-    return next.find((memo) => memo.id === id) ?? null;
+
+    const updatedMemo = next.find((memo) => memo.id === id) ?? null;
+    if (updatedMemo) {
+      pushMemoToSupabase(updatedMemo);
+    }
+    return updatedMemo;
   }
 
   function deleteMemo(id) {
@@ -58,6 +72,7 @@
 
     const nextSelectedId = next[0]?.id ?? "";
     setSelectedMemoId(nextSelectedId);
+    deleteMemoFromSupabase(id);
 
     return nextSelectedId;
   }

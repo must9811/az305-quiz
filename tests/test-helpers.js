@@ -35,23 +35,80 @@ function createLocalStorage(seed = {}) {
   };
 }
 
-function createSupabaseStub() {
-  return {
+function createSupabaseStub(options = {}) {
+  const calls = [];
+  const tables = new Map(
+    Object.entries(options.tables ?? {}).map(([name, rows]) => [
+      name,
+      rows.map((row) => ({ ...row })),
+    ]),
+  );
+  const fail = options.fail ?? {};
+
+  function getRows(tableName) {
+    if (!tables.has(tableName)) {
+      tables.set(tableName, []);
+    }
+    return tables.get(tableName);
+  }
+
+  function shouldFail(tableName, operation) {
+    return fail === true || fail[operation] === true || fail[tableName]?.[operation] === true;
+  }
+
+  function response(tableName, operation, data = null) {
+    return Promise.resolve({
+      data,
+      error: shouldFail(tableName, operation) ? { message: "Supabase stub failure" } : null,
+    });
+  }
+
+  const stub = {
+    calls,
+    tables,
     createClient() {
       return {
-        from() {
+        from(tableName) {
           return {
             select() {
-              return Promise.resolve({ data: [], error: null });
+              calls.push({ table: tableName, operation: "select" });
+              const data = shouldFail(tableName, "select") ? null : getRows(tableName).map((row) => ({ ...row }));
+              return response(tableName, "select", data);
             },
-            upsert() {
-              return Promise.resolve({ data: null, error: null });
+            upsert(payload) {
+              calls.push({ table: tableName, operation: "upsert", payload });
+              if (!shouldFail(tableName, "upsert")) {
+                const rows = getRows(tableName);
+                const rowIndex = rows.findIndex((row) => row.id === payload.id || row.set_id === payload.set_id || row.question_id === payload.question_id);
+                if (rowIndex >= 0) {
+                  rows[rowIndex] = { ...rows[rowIndex], ...payload };
+                } else {
+                  rows.push({ ...payload });
+                }
+              }
+              return response(tableName, "upsert");
+            },
+            delete() {
+              calls.push({ table: tableName, operation: "delete" });
+              return {
+                eq(column, value) {
+                  calls.push({ table: tableName, operation: "delete.eq", column, value });
+                  if (!shouldFail(tableName, "delete")) {
+                    const rows = getRows(tableName);
+                    const nextRows = rows.filter((row) => row[column] !== value);
+                    tables.set(tableName, nextRows);
+                  }
+                  return response(tableName, "delete");
+                },
+              };
             },
           };
         },
       };
     },
   };
+
+  return stub;
 }
 
 function loadQuizEnvironment(options = {}) {

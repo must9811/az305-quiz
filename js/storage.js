@@ -2,6 +2,7 @@ const QUESTION_STATE_KEY = "az305.quiz.state.v1";
 const SESSION_KEY = "az305.quiz.session.v1";
 const REPORT_KEY = "az305.quiz.report.v1";
 const SET_ATTEMPT_KEY = "az305.quiz.set-attempts.v1";
+const MEMO_KEY = "az305-study:memos:v1";
 
 const SUPABASE_URL = "https://zjmwxmwepmrkaennmecl.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_bFbaYKShsKarkteth7vljw__QLRGdrr";
@@ -112,16 +113,19 @@ window.QuizStorage = {
   getSetAttemptState,
   updateSetAttemptState,
   pullFromSupabase,
+  pushMemo,
+  deleteMemoFromSupabase,
 };
 
 // --- Supabase pull (起動時: Supabase → localStorage) ---
 
 async function pullFromSupabase() {
   try {
-    const [qRes, rRes, aRes] = await Promise.all([
+    const [qRes, rRes, aRes, mRes] = await Promise.all([
       sb.from("question_states").select("*"),
       sb.from("set_reports").select("*"),
       sb.from("set_attempts").select("*"),
+      sb.from("study_memos").select("*"),
     ]);
 
     if (qRes.data) {
@@ -163,6 +167,19 @@ async function pullFromSupabase() {
         map[row.set_id] = row.attempts;
       }
       saveJson(SET_ATTEMPT_KEY, map);
+    }
+
+    if (mRes.data) {
+      const memos = mRes.data
+        .map((row) => ({
+          id: row.id,
+          title: row.title,
+          body: row.body,
+          createdAt: row.created_at,
+          updatedAt: row.updated_at,
+        }))
+        .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt));
+      saveJson(MEMO_KEY, memos);
     }
 
     console.log("[Supabase] pull 完了");
@@ -217,5 +234,28 @@ function pushSetAttempt(setId, attempts) {
     })
     .then(({ error }) => {
       if (error) console.warn("[Supabase] push set_attempts 失敗", error);
+    });
+}
+
+function pushMemo(memo) {
+  sb.from("study_memos")
+    .upsert({
+      id: memo.id,
+      title: memo.title,
+      body: memo.body,
+      created_at: memo.createdAt,
+      updated_at: memo.updatedAt,
+    })
+    .then(({ error }) => {
+      if (error) console.warn("[Supabase] push study_memos 失敗", error);
+    });
+}
+
+function deleteMemoFromSupabase(id) {
+  sb.from("study_memos")
+    .delete()
+    .eq("id", id)
+    .then(({ error }) => {
+      if (error) console.warn("[Supabase] delete study_memos 失敗", error);
     });
 }

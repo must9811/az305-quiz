@@ -63,6 +63,13 @@ describe("memos", () => {
       createdAt: "2026-06-08T10:00:00.000Z",
       updatedAt: "2026-06-08T10:10:00.000Z",
     });
+
+    localStorage.removeItem(MEMO_KEY);
+    assert.equal(await window.QuizStorage.pullMemosFromSupabase(), true);
+    assert.deepEqual(
+      JSON.parse(localStorage.getItem(MEMO_KEY)).map((memo) => memo.id),
+      ["memo-new", "memo-old"],
+    );
   });
 
   test("メモ作成と更新で study_memos に upsert できる", () => {

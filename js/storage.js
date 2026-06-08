@@ -113,6 +113,7 @@ window.QuizStorage = {
   getSetAttemptState,
   updateSetAttemptState,
   pullFromSupabase,
+  pullMemosFromSupabase,
   pushMemo,
   deleteMemoFromSupabase,
 };
@@ -169,23 +170,48 @@ async function pullFromSupabase() {
       saveJson(SET_ATTEMPT_KEY, map);
     }
 
-    if (mRes.data) {
-      const memos = mRes.data
-        .map((row) => ({
-          id: row.id,
-          title: row.title,
-          body: row.body,
-          createdAt: row.created_at,
-          updatedAt: row.updated_at,
-        }))
-        .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt));
-      saveJson(MEMO_KEY, memos);
+    if (mRes.error) {
+      console.warn("[Supabase] pull study_memos 失敗", mRes.error);
+    } else if (mRes.data) {
+      saveMemosFromRows(mRes.data);
     }
 
     console.log("[Supabase] pull 完了");
   } catch (err) {
     console.warn("[Supabase] pull 失敗（localStorage フォールバック）", err);
   }
+}
+
+async function pullMemosFromSupabase() {
+  try {
+    const { data, error } = await sb.from("study_memos").select("*");
+    if (error) {
+      console.warn("[Supabase] pull study_memos 失敗", error);
+      return false;
+    }
+
+    if (data) {
+      saveMemosFromRows(data);
+    }
+
+    return true;
+  } catch (err) {
+    console.warn("[Supabase] pull study_memos 失敗（localStorage フォールバック）", err);
+    return false;
+  }
+}
+
+function saveMemosFromRows(rows) {
+  const memos = rows
+    .map((row) => ({
+      id: row.id,
+      title: row.title,
+      body: row.body,
+      createdAt: row.created_at,
+      updatedAt: row.updated_at,
+    }))
+    .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt));
+  saveJson(MEMO_KEY, memos);
 }
 
 // --- Supabase push (書き込み時: localStorage → Supabase, fire-and-forget) ---

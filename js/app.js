@@ -286,7 +286,8 @@
 
     const openMemosButton = app.querySelector('[data-action="open-memos"]');
     if (openMemosButton) {
-      openMemosButton.addEventListener("click", () => {
+      openMemosButton.addEventListener("click", async () => {
+        await QuizStorage.pullMemosFromSupabase?.();
         state.view = "memo";
         state.memoScreen = "list";
         state.notice = "";

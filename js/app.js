@@ -37,6 +37,8 @@
     updateMemo,
   } = window.QuizMemo;
   const { QUIZ_DATA } = window;
+  const MEMO_BODY_TEXT_SIZE_KEY = "az305-study:memo-body-text-size:v1";
+  const MEMO_BODY_TEXT_SIZES = [1, 2, 3, 4, 5];
 
   const state = {
     manifest: null,
@@ -49,6 +51,7 @@
     view: "quiz",
     memoScreen: "list",
     memoSearch: "",
+    memoBodyTextSize: loadMemoBodyTextSize(),
   };
 
   const setCache = new Map();
@@ -651,9 +654,12 @@
     const previousMemo = selectedIndex > 0 ? memos[selectedIndex - 1] : null;
     const nextMemo =
       selectedIndex >= 0 && selectedIndex < memos.length - 1 ? memos[selectedIndex + 1] : null;
+    const bodySizeOptionsHtml = MEMO_BODY_TEXT_SIZES.map((size) => `
+      <option value="${size}" ${state.memoBodyTextSize === size ? "selected" : ""}>${size}</option>
+    `).join("");
 
     app.innerHTML = `
-      <section class="memo-layout memo-editor-layout">
+      <section class="memo-layout memo-editor-layout" data-memo-body-size="${state.memoBodyTextSize}">
         ${
           state.notice
             ? `<article class="panel notice-card"><p>${escapeHtml(state.notice)}</p></article>`
@@ -671,7 +677,15 @@
               placeholder="タイトルを入力"
             />
 
-            <label class="memo-field-label" for="memo-body">本文</label>
+            <div class="memo-body-toolbar">
+              <label class="memo-field-label" for="memo-body">本文</label>
+              <label class="memo-size-control" for="memo-body-size">
+                <span>文字サイズ</span>
+                <select id="memo-body-size" class="memo-size-select" data-action="set-memo-body-size" aria-label="本文の文字サイズ">
+                  ${bodySizeOptionsHtml}
+                </select>
+              </label>
+            </div>
             <textarea
               id="memo-body"
               class="memo-body-input"
@@ -894,6 +908,19 @@
       .replaceAll('"', "&quot;");
   }
 
+  function normalizeMemoBodyTextSize(value) {
+    const size = Number(value);
+    return MEMO_BODY_TEXT_SIZES.includes(size) ? size : 5;
+  }
+
+  function loadMemoBodyTextSize() {
+    return normalizeMemoBodyTextSize(localStorage.getItem(MEMO_BODY_TEXT_SIZE_KEY));
+  }
+
+  function saveMemoBodyTextSize(size) {
+    localStorage.setItem(MEMO_BODY_TEXT_SIZE_KEY, String(normalizeMemoBodyTextSize(size)));
+  }
+
   function bindMemoEvents() {
     app.querySelectorAll('[data-action="back-to-quiz"]').forEach((button) => {
       button.addEventListener("click", () => {
@@ -918,6 +945,20 @@
       searchInput.addEventListener("input", () => {
         state.memoSearch = searchInput.value;
         renderMemoScreen();
+      });
+    }
+
+    const bodySizeSelect = app.querySelector('[data-action="set-memo-body-size"]');
+    if (bodySizeSelect) {
+      bodySizeSelect.addEventListener("change", () => {
+        const nextSize = normalizeMemoBodyTextSize(bodySizeSelect.value);
+        state.memoBodyTextSize = nextSize;
+        saveMemoBodyTextSize(nextSize);
+
+        const editorLayout = app.querySelector(".memo-editor-layout");
+        if (editorLayout) {
+          editorLayout.dataset.memoBodySize = String(nextSize);
+        }
       });
     }
 

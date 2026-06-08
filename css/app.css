@@ -614,6 +614,31 @@ select {
   gap: 10px;
 }
 
+.memo-editor-layout[data-memo-body-size="1"] {
+  --memo-body-font-size: 1rem;
+  --memo-body-line-height: 1.7;
+}
+
+.memo-editor-layout[data-memo-body-size="2"] {
+  --memo-body-font-size: 1.2rem;
+  --memo-body-line-height: 1.65;
+}
+
+.memo-editor-layout[data-memo-body-size="3"] {
+  --memo-body-font-size: 1.4rem;
+  --memo-body-line-height: 1.6;
+}
+
+.memo-editor-layout[data-memo-body-size="4"] {
+  --memo-body-font-size: 1.65rem;
+  --memo-body-line-height: 1.52;
+}
+
+.memo-editor-layout[data-memo-body-size="5"] {
+  --memo-body-font-size: 1.9rem;
+  --memo-body-line-height: 1.45;
+}
+
 .memo-editor-layout .notice-card {
   padding: 10px 14px;
   font-size: 0.82rem;
@@ -642,13 +667,41 @@ select {
   font-weight: 600;
 }
 
+.memo-body-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.memo-size-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.memo-size-select {
+  min-height: 28px;
+  padding: 0 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-strong);
+  color: var(--text);
+  font-size: 0.72rem;
+  outline: none;
+}
+
 .memo-body-input {
   min-height: clamp(420px, 62dvh, 640px);
   resize: vertical;
   padding: 12px;
   border-radius: 12px;
-  font-size: 1.9rem;
-  line-height: 1.55;
+  font-size: var(--memo-body-font-size, 1.9rem);
+  line-height: var(--memo-body-line-height, 1.45);
 }
 
 .memo-editor-nav,
@@ -681,7 +734,6 @@ select {
 
   .memo-body-input {
     min-height: clamp(440px, 58dvh, 560px);
-    font-size: 1.85rem;
   }
 
   .memo-editor-nav .button,
@@ -708,11 +760,19 @@ select {
     font-size: 0.76rem;
   }
 
+  .memo-size-control,
+  .memo-size-select {
+    font-size: 0.66rem;
+  }
+
+  .memo-size-select {
+    min-height: 26px;
+    padding: 0 6px;
+  }
+
   .memo-body-input {
     min-height: clamp(420px, 57dvh, 520px);
     padding: 10px;
-    font-size: 1.9rem;
-    line-height: 1.45;
   }
 
   .memo-editor-nav,

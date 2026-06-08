@@ -653,15 +653,7 @@
       selectedIndex >= 0 && selectedIndex < memos.length - 1 ? memos[selectedIndex + 1] : null;
 
     app.innerHTML = `
-      <section class="memo-layout">
-        <article class="panel memo-topbar memo-editor-topbar">
-          <div>
-            <p class="eyebrow">Study Notes</p>
-            <h2>メモ編集</h2>
-            <p class="section-subtle">最終更新 ${escapeHtml(formatMemoDate(selectedMemo.updatedAt))}</p>
-          </div>
-        </article>
-
+      <section class="memo-layout memo-editor-layout">
         ${
           state.notice
             ? `<article class="panel notice-card"><p>${escapeHtml(state.notice)}</p></article>`
@@ -669,12 +661,6 @@
         }
 
         <article class="panel memo-editor-card">
-          <div class="section-heading">
-            <div>
-              <h3>編集</h3>
-            </div>
-          </div>
-
           <div class="memo-editor">
             <label class="memo-field-label" for="memo-title">タイトル</label>
             <input
